@@ -1,0 +1,183 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="ui-how-send-documents-email.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-5ae97a8" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">591ec86980240b8ffcfda0cf51debe571e327299</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\ui-how-send-documents-email.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7ee8b5becfea0816bd11b9df1bec41bff31c56cd</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f08f37ffe9ffb462f1a5deec1932264a960cb593</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Set Up Document-Specific Email Content | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>You can define content to insert into the body of an email message, for example, a PayPal link.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>You can also attach documents to email messages.</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Send Documents by Email</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>To communicate the contents of business documents quickly to your business partners, such as the payment information on sales documents to customers, you can use the Report Layout feature to define document-specific content that gets inserted in email bodies automatically.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Managing Report and Document Layouts<ept id="p1">](ui-manage-report-layouts.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>To enable emails from within <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>, start the <bpt id="p1">**</bpt>Set Up Email<ept id="p1">**</ept> assisted setup on the Role Center.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>You can email practically all document types as attachments to email messages directly from the page that shows the document.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>In addition to the attachment, you can set up document-specific email bodies with core information from the document preceded by standard text that greets the mail recipient and introduces the document in question.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>To offer your customers to pay for sales electronically using a payment service, such as PayPal, you can also have the PayPal information and hyperlink inserted in the email body.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>From all supported documents, you initiate emailing by choosing the <bpt id="p1">**</bpt>Send<ept id="p1">**</ept> action, on posted documents, or the <bpt id="p2">**</bpt>Post and Send<ept id="p2">**</ept> action, on non-posted documents.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>If the <bpt id="p1">**</bpt>Email<ept id="p1">**</ept> field on the <bpt id="p2">**</bpt>Send Document to<ept id="p2">**</ept> page is set to <bpt id="p3">**</bpt>Yes (Prompt for Settings)<ept id="p3">**</ept>, then the <bpt id="p4">**</bpt>Send Email<ept id="p4">**</ept> page opens prefilled with the contact person in the <bpt id="p5">**</bpt>To:<ept id="p5">**</ept> field and the document attached as a PDF file.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Body<ept id="p1">**</ept> field, you can either enter text manually or you can have the field filled with a document-specific email body that you have set up.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The following procedure describes how to set the <bpt id="p1">**</bpt>Sales - Invoice<ept id="p1">**</ept> report up to be used for document-specific email bodies when you email posted sales invoices.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>To set up a document-specific email body for sales invoices</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Report Selections Sales<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Report Selection - Sales<ept id="p1">**</ept> page, in the <bpt id="p2">**</bpt>Usage<ept id="p2">**</ept> field, select <bpt id="p3">**</bpt>Invoice<ept id="p3">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>On a new line, in the <bpt id="p1">**</bpt>Report ID<ept id="p1">**</ept> field, select, for example, standard report 1306.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>Use for Email Body<ept id="p1">**</ept> check box.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Email Body Layout Code<ept id="p1">**</ept> field, and then select a layout from the drop-down list.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Report layouts define both the style and the content of the email body, including the standard text that precedes the core document information in the email body.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>You can see all available report layouts if you choose the <bpt id="p1">**</bpt>Select from full list<ept id="p1">**</ept> button in the drop-down list.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>To view or edit the layout that the email body is based on, select the layout on the <bpt id="p1">**</bpt>Custom Report Layouts<ept id="p1">**</ept> page, and then choose the <bpt id="p2">**</bpt>Edit Layout<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>If you want to offer customers to pay for sales electronically, you can set up the related payment service, such as PayPal, and then have the PayPal information and hyperlink inserted in the email body as well.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Enable Customer Payments Through PayPal<ept id="p1">](sales-how-enable-payment-service-extensions.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Now, when you choose, for example, the <bpt id="p1">**</bpt>Send<ept id="p1">**</ept> action on the <bpt id="p2">**</bpt>Posted Sales Invoice<ept id="p2">**</ept> page, the email body will contain the document information of report 1306 preceded by styled standard text according to the report layout that you selected in step 5.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The following procedure describes how to send a posted sales invoice as an email message with the document attached as a PDF file and with a document-specific email body.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>To send documents by email</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Posted Sales Invoices<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Select the relevant posted sales invoice, and then choose the <bpt id="p1">**</bpt>Send<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Send Document to<ept id="p1">**</ept> page opens.</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Email<ept id="p1">**</ept> field, select <bpt id="p2">**</bpt>Yes (Prompt for Settings)<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Set Up Document Sending Profiles<ept id="p1">](sales-how-setup-document-send-profiles.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Send Email<ept id="p1">**</ept> page opens.</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>To:<ept id="p1">**</ept> field, enter a valid email address.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The default value is the customer email address.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Subject<ept id="p1">**</ept> field, enter a descriptive subject text.</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The default value is the customer name and invoice number.</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Attachment<ept id="p1">**</ept> field, the generated invoice is attached by default as a PDF file.</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Choose the lookup button to open the file or attach another one.</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Body<ept id="p1">**</ept> field, enter a short message to the recipient.</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>If a document-specific email body is set up on the <bpt id="p1">**</bpt>Report Selection - Sales<ept id="p1">**</ept> page, then the <bpt id="p2">**</bpt>Body<ept id="p2">**</ept> field is filled in automatically.</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>To set up a document-specific email body for sales invoices<ept id="p1">](ui-how-send-documents-email.md#to-set-up-a-document-specific-email-body-for-sales-invoices)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button to send the email message.</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>If you do not want to specify email settings each time you email a document, you can select the <bpt id="p1">**</bpt>Yes (Use Default Settings)<ept id="p1">**</ept> option in the <bpt id="p2">**</bpt>Email<ept id="p2">**</ept> field on the <bpt id="p3">**</bpt>Send Document to<ept id="p3">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>In that case, the <bpt id="p1">**</bpt>Send Email<ept id="p1">**</ept> page will not open.</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>See Step 4.</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Set Up Document Sending Profiles<ept id="p1">](sales-how-setup-document-send-profiles.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Managing Report and Document Layouts<ept id="p1">](ui-manage-report-layouts.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Set up Email<ept id="p1">](admin-how-setup-email.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Invoice Sales<ept id="p1">](sales-how-invoice-sales.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Working with <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph><ept id="p1">](ui-work-product.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

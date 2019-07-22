@@ -1,0 +1,207 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="inventory-how-register-new-items.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-435fba6" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4611072a7612feafec5466ee5092ad7938eeb2dc</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\inventory-how-register-new-items.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b38a7409d7e92c9631fe0b38e3a67b736e2ddc3f</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0ce090a41947a523bcc2e2d9496b892a3e5d6912</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Create Item Cards for Goods or Services| Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>You create item cards for services that you sell as hours and for physical products, such as assembly items, finished goods, components, or raw material, that you sell from your inventory.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Register New Items</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Items, among other products, are the basis of your business, the goods or services that you trade in.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Each item must be registered as an item card.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Item cards hold the information that is required to buy, store, sell, deliver, and account for items.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The item card can be of type <bpt id="p1">**</bpt>Inventory<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Service<ept id="p2">**</ept>, or <bpt id="p3">**</bpt>Non-Inventory<ept id="p3">**</ept> to specify if the item is a physical inventory unit, a labor time unit, or a physical unit that is not tracked in inventory.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>About Item Types<ept id="p1">](inventory-about-item-types.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>An item can be structured as a parent item with underlying child items in a bill of materials (BOM).</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>In <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>, a bill of material can be either an assembly BOM or a production BOM, depending on its use.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Work with Bills of Material<ept id="p1">](inventory-how-work-BOMs.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>If you purchase the same item from more than one vendor, you can connect those vendors to the item card.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The vendors will then appear on the <bpt id="p1">**</bpt>Item Vendor Catalog<ept id="p1">**</ept> page, so that you can easily select an alternate vendor.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Items that you offer to your customers but you do not want manage in your system until you start selling them can be set up as catalog items.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Catalog items are not to be mistaken with regular items of type <bpt id="p1">**</bpt>Non-Inventory<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Work with Catalog Items<ept id="p1">](inventory-how-work-nonstock-items.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>If item templates exist for different item types, then a page appears when you create a new item card from where you can select an appropriate template.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>If only one item template exists, then new item cards always use that template.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>To create a new item card</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Items<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Items<ept id="p1">**</ept> page, choose the <bpt id="p2">**</bpt>New<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>If only one item template exists, then a new item card opens with some fields filled with information from the template.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Select a template for a new item<ept id="p1">**</ept> page, choose the template that you want to use for the new item card.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>A new item card opens with some fields filled with information from the template.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Proceed to fill or change fields on the item card as necessary.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Costing Method<ept id="p1">**</ept> field, you set up how the item's unit cost is calculated by making assumptions about the flow of physical items through your company.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Five costing methods are available, depending on the type of item.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Design Details: Costing Methods<ept id="p1">](design-details-costing-methods.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>If you select <bpt id="p1">**</bpt>Average<ept id="p1">**</ept>, then the item’s unit cost is calculated as the average unit cost at each point in time after a purchase.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Inventory is valuated with the assumption that all inventories are sold simultaneously.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>With this setting, you can choose the <bpt id="p1">**</bpt>Unit Cost<ept id="p1">**</ept> field to view, on the <bpt id="p2">**</bpt>Average Cost Calc. Overview<ept id="p2">**</ept> page, the history of transactions that the average cost is calculated from.</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Price and Posting<ept id="p1">**</ept> FastTab, you can view special prices or discounts that you grant for the item if certain criteria are met, such as customer, minimum order quantity, or ending date.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Each row represents a special price or line discount.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Each column represents a criterion that must apply to warrant the special price that you enter in the <bpt id="p1">**</bpt>Unit Price<ept id="p1">**</ept> field, or the line discount that you enter in the <bpt id="p2">**</bpt>Line Discount %<ept id="p2">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Record Sales Price, Discount, and Payment Agreements<ept id="p1">](sales-how-record-sales-price-discount-payment-agreements.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The item is now registered, and the item card is ready to be used on purchase and sales documents.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>If you want to use this item card as a template when you create new item cards, you can save it as a template.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>For more information, see the following section.</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>To save the item card as a template</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Item Card<ept id="p1">**</ept> page, choose the <bpt id="p2">**</bpt>Save as Template<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Item Template<ept id="p1">**</ept> page opens showing the item card as a template.</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Fill in the fields as necessary.</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>To reuse dimensions in templates, choose the <bpt id="p1">**</bpt>Dimensions<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Dimension Templates<ept id="p1">**</ept> page opens showing any dimension codes that are set up for the item.</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Edit or enter dimension codes that will apply to new item cards created by using the template.</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>When you have completed the new item template, choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The item template is added to the list of item templates, so that you can use it to create new item cards.</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>To set up multiple vendors for an item</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>If you purchase the same item from more than one vendor, you must enter information about each vendor of the item, such as prices, lead time, discounts, and so on.</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Items<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Select the relevant item, and then choose the <bpt id="p1">**</bpt>Edit<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Vendors<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Vendor No.<ept id="p1">**</ept> field, and then select the vendor that you want to set up for the item.</source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Optionally, fill in the remaining fields.</source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Repeat steps 2 through 5 for each vendor that you want to buy the item from.</source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The vendors will now appear on the <bpt id="p1">**</bpt>Item Vendor Catalog<ept id="p1">**</ept> page, which you open from the item card, so that you can easily select an alternate vendor.</source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Create Number Series<ept id="p1">](ui-create-number-series.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Inventory<ept id="p1">](inventory-manage-inventory.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Purchasing<ept id="p1">](purchasing-manage-purchasing.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Sales<ept id="p1">](sales-manage-sales.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Working with <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph><ept id="p1">](ui-work-product.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

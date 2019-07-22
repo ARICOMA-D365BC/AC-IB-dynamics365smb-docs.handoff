@@ -1,0 +1,321 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="bi-create-reports-with-xbrl.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-15c36f0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f6c15a958c0aaddbb23abaa0ca5933e8d3a1d515</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">financials\bi-create-reports-with-xbrl.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">153c484e23e792117d3d3d244dbc5bddd5820cec</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1047a180afa59330eaaefe812e896507b497e31d</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>How to Create Reports with XBRL | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>XBRL, which stands for eXtensible Business Reporting Language, is an XML-based language for tagging financial data, and enabling businesses to efficiently and accurately process and share their data.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Create Reports with XBRL</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>XBRL, which stands for eXtensible Business Reporting Language, is an XML-based language for tagging financial data, and enabling businesses to efficiently and accurately process and share their data.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The XBRL initiative enables global financial reporting by numerous ERP software companies and international accounting organizations.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The goal of the initiative is to provide a standard for the uniform reporting of financial information for banks, investors, and government authorities.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Such business reporting can include:</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>• Financial statements</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>• Financial information</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>• Non-financial information</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>• Regulatory filings, such as annual and quarterly financial statements</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph> enables companies to implement data in XBRL, and take advantage of the flexibility and automation it provides for both collecting and sharing data.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>eXtensible Business Reporting Language</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>XBRL (e <bpt id="p1">**</bpt>X<ept id="p1">**</ept>tensible <bpt id="p2">**</bpt>B<ept id="p2">**</ept>usiness <bpt id="p3">**</bpt>R<ept id="p3">**</ept>eporting <bpt id="p4">**</bpt>L<ept id="p4">**</ept>anguage) is an XML-based language for financial reporting.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>XBRL provides a standard for uniform reporting for all users of the financial information supply chain; such as public and private companies, the accounting profession, regulators, analysts, the investment community, capital markets and lenders, as well as key third parties such as software developers and data aggregators.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Taxonomies are maintained by www.xbrl.org. You can download taxonomies or read more detailed information on the XBRL website.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Someone who wants financial information from you, provides you with a taxonomy (an XML document) containing one or more schemas, each with one or more lines to fill out. The lines correspond to the individual financial facts required by the sender.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>You import this taxonomy into the program and then fill out the schema(s) by entering which account or accounts correspond to each line, what kind of timeframe to use, for example net change or balance at date.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>In some cases you can enter a constant instead, for example, number of employees.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>You are now ready to send the instance document (an XML document) to the someone who requests the information.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The idea is that this might be a recurring event, so unless changes have been made to the taxonomy, you just export new instance documents for new periods on request.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>XBRL is comprised of the following components</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The XBRL <bpt id="p1">**</bpt>Specification<ept id="p1">**</ept> explains what XBRL is, how to build XBRL instance documents and XBRL taxonomies.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The XBRL Specification explains XBRL in technical terms and is intended for a technical audience.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The XBRL <bpt id="p1">**</bpt>Schema<ept id="p1">**</ept> are the core low-level components of XBRL.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The schema is the physical XSD file which express how instance documents and taxonomies are to be built.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The XBRL <bpt id="p1">**</bpt>Linkbases<ept id="p1">**</ept> are the physical XML files which contain various information about the elements defined in the XBRL Schema, such as labels in one or more languages, how they relate to each other, how to sum up elements, etc.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>An XBRL <bpt id="p1">**</bpt>Taxonomy<ept id="p1">**</ept> is a "vocabulary" or "dictionary" created by a group, compliant with the XBRL Specification, in order to exchange business information.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>An XBRL <bpt id="p1">**</bpt>Instance document<ept id="p1">**</ept> is a business report, such as a financial statement prepared to the XBRL specification.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The meaning of the values in the instance document is explained by the taxonomy.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>An instance document is somewhat useless unless you know the taxonomy to which it is prepared.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Layered Taxonomies</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>A taxonomy can consist of a base taxonomy, for example, us-gaap or IAS, and then have one or more extensions.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>To reflect this, a taxonomy refers to one or more schemas which all are separate taxonomies.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>When the additional taxonomies are loaded into the database, the new elements are simply added to the end of the existing elements.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Linkbases</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>In XBRL Spec. 2, the taxonomy is described in several XML-files.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The primary XML file is the taxonomy schema file itself (.xsd file) which only contains an unordered list of elements or facts to be reported.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>In addition to this, there are usually associated some linkbase files (.xml).</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The linkbase files contain data which is complementary to the raw taxonomy (.xsd file).</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>There are six types of linkbases files of which four have relevance for Product Name XBRL.</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>These are:</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Label linkbase: This linkbase contains labels or names for the elements.</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The file may contain labels in different languages which are identified with an XML property called 'lang'.</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The XML language identifier usually contains a two-letter abbreviation, and although it should be easy to guess what the abbreviation means, there is no connection to the Windows language code or to the language codes defined in the demo data.</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Therefore, when the user looks up the languages for a specific taxonomy, he will see all the labels for the first element in the taxonomy, meaning that he can then see an example of each language.</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>A taxonomy can have several label linkbases attached to it as long as these linkbases contain different languages.</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Presentation linkbase: This linkbase contains information about the structure of the elements, or more precisely; how the issuer of the taxonomy suggests that the program presents the taxonomy to the user.</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The linkbase contains a series of links that each connect two elements as parent and child.</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>When applying all these links, the elements can be shown in a hierarchical way.</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Note that the presentation linkbase deals with just that: the presentation of elements to the user.</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Calculation linkbase: This linkbase contains information about which elements roll up to which.</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The structure is quite similar to the presentation linkbase, except that each link or ‘arc’, as they are called, has a weight property.</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The weight can be either 1 or –1 indicating whether the element should be added to or subtracted from its parent.</source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Note that the rollups are not necessarily in keeping with the visual presentation.</source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Reference linkbase: This linkbase is an xml file that contains supplementary information about the data that is required by the taxonomy issuer.</source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>To set up XBRL lines</source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>After you import or update the taxonomy, the lines of the schemas must be supplied with all the information that is required.</source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>This information will include basic company information, the actual financial statements, notes to the financial statements, supplemental schedules, and other information that is required to satisfy the particular financial reporting requirements.</source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>You set up the XBRL Lines by mapping the data in the taxonomy to the data in your general ledger.</source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>XBRL Taxonomies<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>XBRL Taxonomies<ept id="p1">**</ept> window, select a taxonomy from the list.</source>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Lines<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Select a line and fill in the fields.</source>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>To read detailed information about what to fill in, choose the <bpt id="p1">**</bpt>Information<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>To set up the mapping of the general ledger accounts in the chart of accounts to the XBRL lines, choose the <bpt id="p1">**</bpt>G/L Map Lines<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>To add notes to the financial statement, choose the <bpt id="p1">**</bpt>Notes<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>You can only export data that correspond to the source type you have selected in the <bpt id="p1">**</bpt>Source Type<ept id="p1">**</ept> field that includes description and notes.</source>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Lines that are not relevant can be marked as line type <bpt id="p1">**</bpt>NOT APPLICABLE<ept id="p1">**</ept> so the lines are not exported.</source>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>To import an XBRL taxonomy</source>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The first step in working with the XBRL functionality is to import the taxonomy into your company database.</source>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>A taxonomy consists of one or more schemas and some linkbases.</source>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>After you have completed the import of both schemas and linkbases and have applied the linkbases to the schema, you can set up the lines and map the general ledger accounts in the chart of accounts to the appropriate taxonomy lines.</source>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>XBRL Taxonomies<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>XBRL Taxonomies<ept id="p1">**</ept> window, create a new line and enter the name and description of the taxonomy.</source>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Schemas<ept id="p1">**</ept> action, and then insert the description of the schema.</source>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>To import the schema, in the <bpt id="p1">**</bpt>XBRL Schemas<ept id="p1">**</ept> window, choose the <bpt id="p2">**</bpt>Import<ept id="p2">**</ept> action, and the select a folder and an XSD file.</source>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Open<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>To import the linkbase, in the <bpt id="p1">**</bpt>XBRL Schemas<ept id="p1">**</ept> window, choose the <bpt id="p2">**</bpt>Linkbases<ept id="p2">**</ept> action, and then select a folder and an XML file.</source>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Open<ept id="p1">**</ept> button..</source>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>You can now choose to apply the linkbase to the schema.</source>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Repeat until you have imported all linkbases.</source>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Apply to Taxonomy<ept id="p1">**</ept> action to apply the linkbase to the schema.</source>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Instead of individually applying the linkbases after the import, you can wait until you have imported all linkbases and then apply them at the same time.</source>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>To do this, choose the <bpt id="p1">**</bpt>NO<ept id="p1">**</ept> button when you are prompted to apply the newly imported linkbase to the schema.</source>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Then select the lines with the linkbases that you want to apply.</source>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>To update an XBRL taxonomy</source>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>When a taxonomy changes you need to update the current taxonomy accordingly.</source>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The reason for the update can be an altered schema, an altered linkbase, or a new linkbase.</source>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>After updating the taxonomy, you only need to map the lines for the changed or new lines.</source>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>XBRL Taxonomies<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>XBRL Taxonomies<ept id="p1">**</ept> window, choose the <bpt id="p2">**</bpt>Schemas<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>To update a schema, select the schema you want to update, and then choose the <bpt id="p1">**</bpt>Import<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>To update or add a new linkbase, choose the <bpt id="p1">**</bpt>Linkbases<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Select the relevant linkbase or press Ctrl+N for a new line, select the type of linkbase, and then insert a description.</source>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>To import the linkbase, choose the <bpt id="p1">**</bpt>Import<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept> button to apply the linkbase to the schema.</source>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Finance<ept id="p1">](finance.md)</ept><ph id="ph1">  </ph></source>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Business Intelligence<ept id="p1">](bi.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Working with <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph><ept id="p1">](ui-work-product.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

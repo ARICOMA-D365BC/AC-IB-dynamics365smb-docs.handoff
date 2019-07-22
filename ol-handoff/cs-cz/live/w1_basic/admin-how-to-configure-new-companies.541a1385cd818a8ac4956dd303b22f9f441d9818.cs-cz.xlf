@@ -1,0 +1,198 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="admin-how-to-configure-new-companies.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-5ae97a8" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b1c953b0a5e1247115b26a8984a632478f80cdda</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\admin-how-to-configure-new-companies.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">062fe42419467cf18c72455263b338596ba0e44f</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">274659b751ab8d4dc558fb0758168aa6f28bf9c3</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>How to Configure New Companies | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>You can configure and customize a new company that you have created.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>To fine tune your implementation, you proceed in three phases to complete your configuration.</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Configure New Companies</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>To configure a new company in your solution implementation, you typically follow three phases.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>In the first phase, you import the configuration package, a .rapidstart file with the configuration information.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>In the second phase, you modify the configuration information and then apply it to your new company.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>In the final phase, you review and fix any errors.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The following procedures assume that you have created and saved a configuration package.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Prepare a Configuration Package<ept id="p1">](admin-how-to-prepare-a-configuration-package.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The following procedures assume that you have initialized and opened your new company and that you are using the RapidStart Services Implementer Role Center.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>To import a configuration package</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Open the new company in the <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> database.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Configuration Packages<ept id="p3">**</ept>, and then select the related link.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Import Package<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Navigate to the location where you have saved the .rapidstart configuration package file, and then choose the <bpt id="p1">**</bpt>Open<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Company Information<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Enter information about the company in the company information card.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Include information, such as bank details.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>You can also provide a logo for the company.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>All the tables that you have designated for inclusion in the new company are imported.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>At this point, you can apply the package data to the database, or adjust and modify the table data to meet your customer specifications.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>To apply package data</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Configuration Worksheet<ept id="p3">**</ept>, and then select the related link.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Select a table that you want to modify data for, and then choose the <bpt id="p1">**</bpt>Apply Data<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept> button to confirm the application.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>To confirm that the data is now in the database and that the application has succeeded, return to the <bpt id="p1">**</bpt>Config. Worksheet<ept id="p1">**</ept> page and choose the <bpt id="p2">**</bpt>Database Data<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>After you apply data, you can only see it in the database.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>It is no longer in the package.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>To modify and apply package data</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Configuration Worksheet<ept id="p3">**</ept>, and then select the related link.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Select a table that you want to modify data for, and then choose the <bpt id="p1">**</bpt>Package Data<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Config. Package Records<ept id="p1">**</ept> page, make your modifications.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>For example, you can delete options that do not apply.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Apply Data<ept id="p1">**</ept> action, and then choose the <bpt id="p2">**</bpt>OK<ept id="p2">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>To confirm that the data is now in the database and that the application has succeeded, return to the <bpt id="p1">**</bpt>Config. Worksheet<ept id="p1">**</ept> page and choose the <bpt id="p2">**</bpt>Database Data<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>To locate and identify a configuration error</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>There are certain types of errors that may occur when you apply data to a database.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The most common error is that required related tables were not included.</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>You fix such errors in the configuration worksheet.</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Configuration Packages<ept id="p3">**</ept>, and then select the related link.</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Select the package you want to review, and then choose the <bpt id="p1">**</bpt>Edit<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Any table that has errors is highlighted.</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The number of package errors is displayed in the <bpt id="p1">**</bpt>No. of Package Errors<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>No. of Package Errors<ept id="p1">**</ept> field to open the <bpt id="p2">**</bpt>Config. Package Records<ept id="p2">**</ept> page, which lists the records with errors.</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>To fix an error</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Open the company that is based on your configuration package.</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Configuration Worksheet<ept id="p3">**</ept>, and then select the related link.</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Fix errors, such as add missing related tables to the worksheet.</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Add the tables to the existing configuration package, or create a new package that only contains the new tables.</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Prepare a Configuration Package<ept id="p1">](admin-how-to-prepare-a-configuration-package.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Reopen the new company that you are implementing the configuration for.</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Import the configuration package.</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>If you import the same package again, you may overwrite any data modifications that you have already made.</source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>For that reason, you may want to add any new tables in a new package and import that instead.</source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Apply the data to the database, as described in <bpt id="p1">[</bpt>To modify and apply package data<ept id="p1">](admin-how-to-configure-new-companies.md#to-modify-and-apply-package-data)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Apply Configurations to New Companies<ept id="p1">](admin-apply-configuration-to-new-companies.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Setting Up a Company With RapidStart Services<ept id="p1">](admin-set-up-a-company-with-rapidstart.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Administration<ept id="p1">](admin-setup-and-administration.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

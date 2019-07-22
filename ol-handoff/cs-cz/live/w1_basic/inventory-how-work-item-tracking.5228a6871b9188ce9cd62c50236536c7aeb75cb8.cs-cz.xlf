@@ -1,0 +1,679 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="inventory-how-work-item-tracking.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-5ae97a8" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3c8e58ae653d1e8fca520fc8f3e876df67f50950</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\inventory-how-work-item-tracking.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7354d970d27d31aaf21173fa8b432dd9af95dd</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6ff1db3df1a17d72079a1b63050b693519511cb3</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Assign Serial and Lot Numbers to Items for Tracking | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>You can add serial numbers and lot numbers to any outbound or inbound document, and its posted item tracking entries are displayed in the related item ledger entries.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Work with Serial and Lot Numbers</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You can assign serial numbers and lot numbers to any outbound or inbound document, and its posted item tracking entries are displayed in the related item ledger entries.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>You perform the work on the <bpt id="p1">**</bpt>Item Tracking Lines<ept id="p1">**</ept> page, which you can open from an inbound or outbound document.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The matrix of quantity fields at the top of the <bpt id="p1">**</bpt>Item Tracking Lines<ept id="p1">**</ept> page displays the quantities and sums of item tracking numbers being defined on the lines.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The quantities must correspond to those of the document line, which is indicated by 0 in the <bpt id="p1">**</bpt>Undefined<ept id="p1">**</ept> fields.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>As a performance measure, the program collects the availability information on the <bpt id="p1">**</bpt>Item Tracking Lines<ept id="p1">**</ept> page only once, when you open the page.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>This means that the program does not update the availability information during the time that you have the page open, even if changes occur in inventory or on other documents during that time.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Items with serial or lot numbers can be traced both backwards and forward in the supply chain.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>This is useful for general quality assurance and for product recalls.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Trace Item-Tracked Items<ept id="p1">](inventory-how-to-trace-item-tracked-items.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>About Picking Serial or Lot Numbers in the Warehouse</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Outbound handling of serial or lot numbers is a frequent task in different warehouse processes.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>In some processes, the inventory items do not carry serial or lot numbers, and the warehouse worker must assign new during the outbound handling, typically from a predefined number series.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>In simple processes, the inventory items already carry serial or lot numbers, for example assigned during the put-away, and these numbers are automatically transferred through all outbound warehouse activities without interaction by warehouse workers.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>In special situations for serial- or lot-numbered inventory, specific serial or lot numbers are defined on the source document, such as a sales order, which the warehouse worker must respect during the outbound warehouse handling.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>This may be because the customer requested a specific lot during the order process.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>When the inventory pick or warehouse pick document is created from an outbound source document where serial or lot numbers are already defined, then all fields on the <bpt id="p1">**</bpt>Item Tracking Lines<ept id="p1">**</ept> page under the inventory pick are locked for writing, except the <bpt id="p2">**</bpt>Qty. to Handle<ept id="p2">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>In that case, the inventory pick lines specify the item tracking numbers on individual take and place lines.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The quantity is already split into unique serial or lot number combinations because the sales order specifies the item tracking numbers to ship.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Item Tracking Availability</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>When you work with serial and lot numbers, <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> calculates availability information for lot and serial numbers and shows it in the various item tracking pages.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This lets you see how much of a lot or serial number is currently being used on other documents.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>This reduces errors and uncertainty caused by double allocations.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Item Tracking Lines<ept id="p1">**</ept> page, a warning icon is shown in the <bpt id="p2">**</bpt>Availability, Lot No.<ept id="p2">**</ept> or <bpt id="p3">**</bpt>Availability, Serial No.<ept id="p3">**</ept> field if some or all of the quantity you have selected is already being used in other documents or if the lot or serial number is not available.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Lot No./Serial No.-List<ept id="p1">**</ept> page, the <bpt id="p2">**</bpt>Lot No./Serial No.-Availability<ept id="p2">**</ept> page, and the <bpt id="p3">**</bpt>Item Tracking - Select Entries<ept id="p3">**</ept> page, information is displayed about how much quantity of an item is being used.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This includes the following information.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Field</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Total Quantity<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The total number of item currently in inventory</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Total Requested Quantity<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The total number of items that are requested that will be used in this and other documents</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Current Pending Quantity<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The number of items that are requested that will be used on the current document but that is not yet committed to the database</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Current Requested Quantity<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The number of items that are requested that will be used on the current document</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Total Available Quantity<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The total number of items in inventory, minus the quantity of the item that are requested on this and other documents (total requested quantity), and minus the quantity that is requested but not yet committed on this document (current pending quantity)</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>If you work on the <bpt id="p1">**</bpt>Item Tracking Lines<ept id="p1">**</ept> page for a long period of time or if there is a great deal of activity with the item you are working with, then you can choose the <bpt id="p2">**</bpt>Refresh Availability<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>In addition, the availability of the item is automatically rechecked when you close the page to confirm that there are no availability problems.</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>To set up item tracking codes</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>An item tracking code reflects the different considerations a company has regarding the use of serial and lot numbers for items moving through the inventory.</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Item Tracking Codes<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>New<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Fill in the fields as necessary.</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Serial No.<ept id="p1">**</ept> and the <bpt id="p2">**</bpt>Lot No.<ept id="p2">**</ept> FastTabs, define policies of item tracking by serial and lot numbers respectively.</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>If you want to track specific items or specific lots throughout their lifetime, you must choose the <bpt id="p1">**</bpt>SN Specific Tracking<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Lot Specific Tracking<ept id="p2">**</ept> fields, respectively.</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>As a result, when handling an outbound unit of an item with this item tracking code, you must always specify which existing serial number or which existing lot number to handle.</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>This means that when selling a unit of the item, it must be applied against a specific pool of serial numbers or a specific lot number in inventory.</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Or in other words, a serial number or lot number assigned to the item when entering into inventory must follow that item type out of inventory.</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>As this particular setup field covers all possible transactions with the item, the individual inbound/outbound fields will also be selected.</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>However, the individual inbound/outbound fields have nothing to do with application across inventory - they merely define your company's work flow concerning when to assign item tracking numbers.</source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>To set up expiration rules for serial or lot numbers</source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>For some items you might want to set up specific expiration dates and rules in the item tracking code.</source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>This functionality allows you to keep track of when specific serial numbers and lot numbers expire.</source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Select an existing item tracking code, and then choose the <bpt id="p1">**</bpt>Edit<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Misc.<ept id="p1">**</ept> FastTab, select the following check boxes.</source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Field</source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Strict Expiration Posting<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Specifies that an expiration date assigned to the item tracking number as it entered inventory must be respected when it exits inventory.</source>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Man. Expir. Date Entry Reqd.<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Specifies that you must manually enter an expiration date on the item tracking line.</source>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Ignore Expiration Dates<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Specifies that you do not want to calculate expiration dates.</source>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>To set up warranties for serial or lot numbers</source>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>For some items, you might want to set up specific warranties in the item tracking code.</source>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>This functionality allows you to keep track of when the warranties on specific serial or lot numbers in your inventory will run out.</source>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Item Tracking Codes<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Select an existing item tracking code, and then choose the <bpt id="p1">**</bpt>Edit<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Misc.<ept id="p1">**</ept> FastTab, fill in the <bpt id="p2">**</bpt>Warranty Date Formula<ept id="p2">**</ept> field, and then select the check box as follows.</source>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Field</source>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Warranty Date Formula<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Specifies the last day of warranty for the item.</source>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Man. Warranty Date Entry Reqd.<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Specifies that you must manually enter a warranty date on the item tracking line.</source>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>To record serial or lot number information</source>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>If you need to link special information to a specific item tracking number, for example, for quality assurance, you can do so in a serial or lot number information card.</source>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Open a document that has serial or lot numbers assigned.</source>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Open the <bpt id="p1">**</bpt>Item Tracking Lines<ept id="p1">**</ept> page for the document.</source>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Choose, for example, the <bpt id="p1">**</bpt>Serial No. Information Card<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Serial No.<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Lot No.<ept id="p2">**</ept> fields are prefilled from the item tracking line.</source>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Enter a short piece of information in the <bpt id="p1">**</bpt>Description<ept id="p1">**</ept> field, for example about the condition of the item.</source>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Comment<ept id="p1">**</ept> action to create a separate comment record.</source>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>Blocked<ept id="p1">**</ept> check box to exclude the serial or lot number from any transactions.</source>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>To modify existing serial or lot number information</source>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Items<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Select an item that has an item tracking code and has serial or lot number information.</source>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>From the <bpt id="p1">**</bpt>Item Card<ept id="p1">**</ept> page, choose the <bpt id="p2">**</bpt>Entries<ept id="p2">**</ept> action, and then choose <bpt id="p3">**</bpt>Ledger Entries<ept id="p3">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Lot No.<ept id="p1">**</ept> or <bpt id="p2">**</bpt>Serial No.<ept id="p2">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>If information exists for the item tracking number, then the <bpt id="p1">**</bpt>Lot No. Information List<ept id="p1">**</ept> or <bpt id="p2">**</bpt>Serial No. Information List<ept id="p2">**</ept> page opens.</source>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Select a card, and then choose the <bpt id="p1">**</bpt>Lot No./Serial No. Information Card<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Modify the short description text, the comment record, or the <bpt id="p1">**</bpt>Blocked<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>You cannot modify the serial or lot numbers or quantities.</source>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>To do so, you must reclassify the item ledger entry in question.</source>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>To reclassify lot or serial numbers<ept id="p1">](inventory-how-work-item-tracking.md#to-reclassify-serial-or-lot-numbers)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>To assign serial or lot numbers during an inbound transaction</source>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Companies may want to keep track of items from the moment they enter the company.</source>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>In this situation, the purchase order is often the central document, although item tracking may be handled from any inbound document and its posted entries displayed in the related item ledger entries.</source>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The exact rules for handling item tracking numbers across your company are governed by the setup on the <bpt id="p1">**</bpt>Item Tracking Code Card<ept id="p1">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>To use item tracking numbers in warehouse activities, the <bpt id="p1">**</bpt>Lot Warehouse Tracking<ept id="p1">**</ept> and <bpt id="p2">**</bpt>SN Warehouse Tracking<ept id="p2">**</ept> setup fields must be selected, as they define the special principles in handling serial and lot numbers in warehouse activities.</source>
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Purchase Orders<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Select the relevant document line and on the <bpt id="p1">**</bpt>Lines<ept id="p1">**</ept> FastTab, choose the <bpt id="p2">**</bpt>Line<ept id="p2">**</ept> action, and then choose the <bpt id="p3">**</bpt>Item Tracking Lines<ept id="p3">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>You can assign serial or lot numbers in the following ways:</source>
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Automatically, by choosing <bpt id="p1">**</bpt>Assign Serial No.<ept id="p1">**</ept> or <bpt id="p2">**</bpt>Assign Lot No.<ept id="p2">**</ept> to assign serial/lot numbers from predefined number series.</source>
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Automatically, by choosing <bpt id="p1">**</bpt>Create Customized SN<ept id="p1">**</ept> to assign serial/lot numbers based on number series you define specifically for the arrived items.</source>
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Manually, by entering serial or lot numbers directly, for example, the vendor's numbers.</source>
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Manually, by assigning a specific number to each item unit.</source>
+        </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>To assign automatically, choose the <bpt id="p1">**</bpt>Create Customized SN<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Customized SN<ept id="p1">**</ept> field, enter the starting number of a descriptive serial number series, for example <bpt id="p2">**</bpt>S/N-Vend0001<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Increment<ept id="p1">**</ept> field, enter 1 to define that each sequential number increases by one.</source>
+        </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Quantity to Create<ept id="p1">**</ept> field contains the line quantity by default, but you can modify it.</source>
+        </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>Create New Lot No.<ept id="p1">**</ept> check box to organize the new serial numbers in a distinct lot.</source>
+        </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>A lot number with individual serial numbers is created according to the item quantity of the document line, starting from <bpt id="p1">**</bpt>S/N-Vend0001<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>The matrix of quantity fields in the header displays dynamically the quantities and sums of the item tracking numbers you define on the page.</source>
+        </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>The quantities must correspond to those of the document line, which is signified by 0 in the <bpt id="p1">**</bpt>Undefined<ept id="p1">**</ept> fields.</source>
+        </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>When the document is posted, the item tracking entries are carried to the associated item ledger entries.</source>
+        </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>To assign a serial or lot number during an outbound transaction</source>
+        </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>There are two ways to add serial and lot numbers to outbound transactions:</source>
+        </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Selecting from existing serial or lot numbers.</source>
+        </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>This applies when item tracking numbers have already been assigned during an inbound transaction.</source>
+        </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>To select from existing serial numbers and lot numbers<ept id="p1">](inventory-how-work-item-tracking.md#to-select-from-existing-serial-or-lot-numbers)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Assigning new serial or lot numbers during outbound transactions.</source>
+        </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>This applies when item tracking numbers are not assigned to items until they are sold and ready to be shipped.</source>
+        </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>The different rules for item tracking numbers are set up on the <bpt id="p1">**</bpt>Item Tracking Code Card<ept id="p1">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>To assign item tracking numbers in warehouse activities, the <bpt id="p1">**</bpt>SN Warehouse Tracking<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Lot Warehouse Tracking<ept id="p2">**</ept> check boxes must be selected on the item’s item tracking code card.</source>
+        </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Select the relevant document and, on the <bpt id="p1">**</bpt>Lines<ept id="p1">**</ept> FastTab, choose the <bpt id="p2">**</bpt>Order<ept id="p2">**</ept> action, and then choose the <bpt id="p3">**</bpt>Item Tracking Lines<ept id="p3">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>You can assign item tracking numbers in the following ways:</source>
+        </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Automatically, from predefined number series: Choose the <bpt id="p1">**</bpt>Assign Serial No.<ept id="p1">**</ept> or <bpt id="p2">**</bpt>Assign Lot No.<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Automatically, based on parameters you define specifically for the outbound item: Choose the <bpt id="p1">**</bpt>Create Customized SN<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Manually, by entering serial or lot numbers, without using a number series.</source>
+        </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>For this procedure, assign a serial number automatically by choosing <bpt id="p1">**</bpt>Assign Serial No.<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Quantity to Create<ept id="p1">**</ept> field contains the line quantity by default, but you can modify it.</source>
+        </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>Create New Lot No.<ept id="p1">**</ept> field to organize the new serial numbers in a distinct lot.</source>
+        </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button to create a lot number and new individual serial numbers according to the quantity to handle on the related document line.</source>
+        </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>The matrix of quantity fields at the top displays dynamically the quantities and sums of the item tracking numbers that you define on the page.</source>
+        </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>The quantities must correspond to those of the document line, which is signified by <bpt id="p1">**</bpt>0<ept id="p1">**</ept> in the <bpt id="p2">**</bpt>Undefined<ept id="p2">**</ept> fields.</source>
+        </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>When the document is posted, the item tracking entries are carried to the associated item ledger entries.</source>
+        </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>To select from existing serial or lot numbers</source>
+        </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>When you are working with items that require item tracking and you are creating outbound transactions, where the items go out of inventory, you typically need to select the lot or serial numbers from those that already exist in inventory.</source>
+        </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>The exact rules for handling item tracking numbers across your company are governed by the setup of the <bpt id="p1">**</bpt>Item Tracking Code<ept id="p1">**</ept> table.</source>
+        </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>To handle item tracking numbers in warehouse activities, the item must be set up with SN/Lot Warehouse Tracking, as this dictates the special principles governing serial and lot numbers in the warehouse.</source>
+        </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>From any outbound document, select the line that you want to select serial or lot numbers for.</source>
+        </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Lines<ept id="p1">**</ept> FastTab, choose the <bpt id="p2">**</bpt>Actions<ept id="p2">**</ept> action, choose the <bpt id="p3">**</bpt>Line<ept id="p3">**</ept> or the <bpt id="p4">**</bpt>Item<ept id="p4">**</ept> action, and then choose the <bpt id="p5">**</bpt>Item Tracking Lines<ept id="p5">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Item Tracking Lines<ept id="p1">**</ept> page, you have three options for specifying lot or serial number:</source>
+        </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>Lot No.<ept id="p1">**</ept> or <bpt id="p2">**</bpt>Serial No.<ept id="p2">**</ept> field, and then select a number from the <bpt id="p3">**</bpt>Item Tracking Summary<ept id="p3">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Select Entries<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Select Entries<ept id="p1">**</ept> page shows all lot or serial numbers along with availability information.</source>
+        </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Selected Quantity<ept id="p1">**</ept> field, enter the quantity of each lot or serial number that you would like to use.</source>
+        </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button, and the selected item tracking information is transferred to the <bpt id="p2">**</bpt>Item Tracking Lines<ept id="p2">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>Type or scan in the item tracking number.</source>
+        </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>The matrix of quantity fields in the header dynamically displays the quantities and sums of the item tracking numbers you define on the page.</source>
+        </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>The quantities must correspond to those of the document line, which is signified by <bpt id="p1">**</bpt>0<ept id="p1">**</ept> in the <bpt id="p2">**</bpt>Undefined<ept id="p2">**</ept> fields.</source>
+        </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>When you post the document line, the item tracking information is transferred to the associated item ledger entries.</source>
+        </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>To handle serial and lot numbers on transfer orders</source>
+        </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>Procedures for handling serial and lot numbers that are being transferred between different locations are similar to those applied when items are sold and purchased.</source>
+        </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>However, the transfer order is unique in that shipment and receipt are both done from the same transfer line and, therefore, use the same instance of the <bpt id="p1">**</bpt>Item Tracking Lines<ept id="p1">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>This means that item tracking numbers shipped from one location must be received unchanged at the other location.</source>
+        </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>The exact rules for handling item tracking numbers across your company are governed by the setup of the  <bpt id="p1">**</bpt>Item Tracking Code<ept id="p1">**</ept> table.</source>
+        </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Transfer Orders<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>Open the transfer order you want to process.</source>
+        </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Lines<ept id="p1">**</ept> FastTab, choose choose the <bpt id="p2">**</bpt>Line<ept id="p2">**</ept> action, choose the <bpt id="p3">**</bpt>Item Tracking Lines<ept id="p3">**</ept> action, and then choose the <bpt id="p4">**</bpt>Shipment<ept id="p4">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Item Tracking Lines<ept id="p1">**</ept> page, assign or select serial or lot numbers as for any other outbound item transaction.</source>
+        </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>When handling serial and lot numbers for transfer items, the items typically have numbers already assigned to them.</source>
+        </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>Therefore, the process typically consists of selecting from existing serial or lot numbers.</source>
+        </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>Post the transfer order, first ship and then receive, to record that the items are transferred carrying their item tracking entries.</source>
+        </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>During the transfer, the <bpt id="p1">**</bpt>Item Tracking Lines<ept id="p1">**</ept> page remains locked for writing.</source>
+        </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>To handle serial and lot numbers when getting receipt lines from a purchase invoice</source>
+        </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>When you use functionality to get posted receipt or shipment lines from related invoices or credit memos, then any item tracking lines on the warehouse documents are transferred automatically, however, they are processed in a special way.</source>
+        </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>The functionality supports the following inbound processes:</source>
+        </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Get Receipt Lines<ept id="p1">**</ept> - from a purchase invoice.</source>
+        </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Get Return Shipment Lines<ept id="p1">**</ept> - from a purchase credit memo.</source>
+        </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>The functionality supports the following outbound processes:</source>
+        </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Get Shipment Lines<ept id="p1">**</ept> - from a sales invoice or combined shipments.</source>
+        </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Get Return Receipt Lines<ept id="p1">**</ept> - from a sales credit memo.</source>
+        </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>In these situations, the existing item tracking lines are copied automatically to the invoice or credit memo, but the <bpt id="p1">**</bpt>Item Tracking Lines<ept id="p1">**</ept> page does not permit changes to the serial or lot numbers.</source>
+        </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>Only the quantities can be changed.</source>
+        </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Purchase Invoices<ept id="p3">**</ept>, and then select the related link.</source>
+        </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>Open a purchase invoice for items that are purchase with serial or lot numbers.</source>
+        </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>From a purchase invoice line, on the <bpt id="p1">**</bpt>Lines<ept id="p1">**</ept> FastTab, choose the <bpt id="p2">**</bpt>Get Receipt Lines<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Get Receipt Lines<ept id="p1">**</ept> page, select a receipt lines that has item tracking lines, and then choose the <bpt id="p2">**</bpt>OK<ept id="p2">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>The source document is copied to the purchase invoice as a new line, and its item tracking lines are copied to the underlying <bpt id="p1">**</bpt>Item Tracking Lines<ept id="p1">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>In the purchase invoice, select the transferred receipt line.</source>
+        </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Lines<ept id="p1">**</ept> FastTab, choose the <bpt id="p2">**</bpt>Line<ept id="p2">**</ept> action, and then choose the <bpt id="p3">**</bpt>Item Tracking Lines<ept id="p3">**</ept> action to see the transferred item tracking lines.</source>
+        </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>The contents of the <bpt id="p1">**</bpt>Serial No.<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Lot No.<ept id="p2">**</ept> fields are not editable.</source>
+        </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>However, you can delete complete lines or change the quantities to match changes being made on the source line.</source>
+        </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>To reclassify serial or lot numbers</source>
+        </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>Reclassifying item tracking for an item means changing a lot or serial number to a new lot or serial number or changing the expiration date to a new expiration date.</source>
+        </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>If you are working with lots, you can also merge multiple lots into one.</source>
+        </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>You perform these tasks using the item reclassification journal.</source>
+        </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Item Reclass. Journal<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>Fill in the line with the relevant information.</source>
+        </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Count, Adjust, and Reclassify Inventory<ept id="p1">](inventory-how-count-adjust-reclassify.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Item Tracking Lines<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Serial No.<ept id="p1">**</ept> or <bpt id="p2">**</bpt>Lot No.<ept id="p2">**</ept> field, select the current serial or lot number.</source>
+        </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>If you want to enter a new item tracking number, enter it in the <bpt id="p1">**</bpt>New Serial No.<ept id="p1">**</ept> or <bpt id="p2">**</bpt>New Lot No.<ept id="p2">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>If you want, you can merge one or more lots to one new or existing lot.</source>
+        </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>Be aware that when you reclassify expiration dates, then the items with the earliest expiration dates for outbound transactions are suggested first.</source>
+        </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Picking by FEFO<ept id="p1">](warehouse-picking-by-fefo.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>If you would like to enter a new expiration date for the serial or lot number, enter it in the <bpt id="p1">**</bpt>New Expiration Date<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>If you are reclassifying a lot to the same lot number but with a different expiration date, you must reclassify the entire lot, using one item reclassification journal line.</source>
+        </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>If you are reclassifying more than one lot to one new lot number, meaning that you are merging more than one lot into one new lot, you must enter the same new expiration date for all the lots.</source>
+        </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>If you are reclassifying one existing lot to a second existing lot that has a different expiration date, you must use the expiration date from the second lot.</source>
+        </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>If you leave the <bpt id="p1">**</bpt>New Expiration Date<ept id="p1">**</ept> field blank, the lot or serial number will be reclassified with a blank expiration date.</source>
+        </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>If you have existing information on the old serial or lot number, you can copy it to the new serial or lot number.</source>
+        </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Item Tracking Lines<ept id="p1">**</ept> page, choose the <bpt id="p2">**</bpt>New Serial No. Information<ept id="p2">**</ept> action or the <bpt id="p3">**</bpt>New Lot No. Information<ept id="p3">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>To copy information from the old lot or serial number, choose the <bpt id="p1">**</bpt>Copy Info<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>In the information list page, select the lot or serial number that you would like to copy from, and choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>If you want to modify the existing information for the lot or serial number, you can record lot or serial information.</source>
+        </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>Post the journal to link the renewed item tracking numbers or expiration dates to the associated item ledger entry</source>
+        </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Trace Item-Tracked Items<ept id="p1">](inventory-how-to-trace-item-tracked-items.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Inventory<ept id="p1">](inventory-manage-inventory.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Design Details: Item Tracking<ept id="p1">](design-details-item-tracking.md)</ept><ph id="ph1">
+</ph><bpt id="p2">[</bpt>Design Details - Item Tracking and Reservations<ept id="p2">](design-details-item-tracking-and-reservations.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Reserve Items<ept id="p1">](inventory-how-to-reserve-items.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Working with <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph><ept id="p1">](ui-work-product.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

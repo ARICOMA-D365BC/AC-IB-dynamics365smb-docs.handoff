@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="warehouse-put-away-items.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-2e292eb" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">db48432b54e0bd2c303816c8b06f0986f2352a59</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">financials\warehouse-put-away-items.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">125af408be17c5ef524c3511f7512ca1fe380ae6</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b465599f5557e76fb86d6b46d0002cd24fb62e5d</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Put Items Away | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>The warehouse activity of putting items away after they are received or output is performed in different ways depending on how warehouse management features are configured.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Putting Items Away</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The warehouse activity of putting items away after they are received or output is performed in different ways depending on how warehouse management features are configured.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The complexity can rank from no warehouse features, through basic warehouse configurations for order-by order handling in one or more activities only, to advanced configurations where all warehouse activities must be performed in a directed workflow.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Setting Up Warehouse Management<ept id="p1">](warehouse-setup-warehouse.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>If you decide that you want to organize and record put-away information with warehouse documents, you place a check mark in the <bpt id="p1">**</bpt>Require Put-away<ept id="p1">**</ept> field on the location card.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>This indicates that when you have items coming into the warehouse location through an inbound source document, you want the put-away of those items to be controlled by the system.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>An inbound source document can be a purchase order, a sales return order, an inbound transfer order, or a production order whose output is ready for put-away.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>If your location is set up to use put-away processing but not receive processing, you use the <bpt id="p1">**</bpt>Inventory Put-away<ept id="p1">**</ept> window to organize the put-away information, print it, enter the result of the actual put-away and post the put-away information, which in turn posts the receipt information for the source document.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>In the case of a production order, the posting process posts the output of the order and finishes the production order.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>If your location is set up to require both receive and put-away processing, so that you have placed check marks in both the <bpt id="p1">**</bpt>Require Receive<ept id="p1">**</ept> and the <bpt id="p2">**</bpt>Require Put-away<ept id="p2">**</ept> field on the location card, there is a different process for putting items away.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>In this case, you will use the <bpt id="p1">**</bpt>Warehouse Put-away<ept id="p1">**</ept> window to handle the put-away.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The warehouse put-away functions similarly to the inventory put-away, except that instead of posting the information, you register the put-away.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Note that the registering of the warehouse put-away does not post the receipt of the items.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>It merely updates the bin content.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>As a warehouse manager, you can use a put-away worksheets to organize put-away information before creating the individual warehouse put-away instructions.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The following table describes a sequence of tasks, with links to the topics that describe them.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>To<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>See<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Post the receipt of items directly from the inbound order document and thereby record the put away, because no warehouse configuration exists.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Receive Items<ept id="p1">](warehouse-how-receive-items.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Put items away order by order and post the receipt in the same activity, in a basic warehouse configuration.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Put Items Away with Inventory Put-aways<ept id="p1">](warehouse-how-to-put-items-away-with-inventory-put-aways.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Put items away for multiple orders in an advanced warehouse configuration.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Put Items Away with Warehouse Put-aways<ept id="p1">](warehouse-how-to-put-items-away-with-warehouse-put-aways.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Put produced or assembled items away in a basic or an advanced warehouse configuration.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Put Away Production or Assembly Output<ept id="p1">](warehouse-how-to-put-away-production-output.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Plan optimized put-away instructions for a number of posted warehouse receipts rather than have warehouse workers act directly on receipts.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Plan Put-aways in Worksheets<ept id="p1">](warehouse-how-to-plan-put-aways-in-worksheets.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Put back items that were picked technically with an internal pick, for example for a production order that did not consume the expected quantity.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Pick and Put Away Without a Source Document<ept id="p1">](warehouse-how-to-create-put-aways-from-internal-put-aways.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Split a put-away line to place part of the put-away quantity in available bins because the designated bin is filled up.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Split Warehouse Activity Lines<ept id="p1">](warehouse-how-to-split-warehouse-activity-lines.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Get immediate access to put-aways that are assigned to you as a warehouse worker.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Find Your Warehouse Assignments<ept id="p1">](warehouse-how-to-find-your-warehouse-assignments.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Warehouse Management<ept id="p1">](warehouse-manage-warehouse.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Inventory<ept id="p1">](inventory-manage-inventory.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Setting Up Warehouse Management<ept id="p1">](warehouse-setup-warehouse.md)</ept><ph id="ph1">   </ph></source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Assembly Management<ept id="p1">](assembly-assemble-items.md)</ept><ph id="ph1">  </ph></source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Design Details: Warehouse Management<ept id="p1">](design-details-warehouse-management.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Working with <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph><ept id="p1">](ui-work-product.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,237 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="ui-extensions-image-analyzer.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-435fba6" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">803d755a7caa470b97bf606f0f8916d0135d047e</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\ui-extensions-image-analyzer.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d7b179761cf41f7c34ffd9b936a252581115d39f</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">66d16a70207dcc60917c4d1cb97894b955ac01e6</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Using the Image Analyzer Extension | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>This extensions lets you analyze images of contact persons and items to find attributes, so you can quickly assign them in Business Central.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The Image Analyzer Extension</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The Image Analyzer extension uses powerful image analytics provided by the Computer Vision API for Microsoft Cognitive Services to detect attributes in the images that you import for items and contact persons, so you can easily review and assign them.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>For items, attributes could be whether the item is a table or a car, and whether it is red or blue.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>For contact persons, attributes can be gender or age.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Image Analyzer suggests attributes based on tags that the Computer Vision API finds, and a confidence level.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>By default, it suggests attributes only if it is at least 80% sure that the attribute is correct.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You can set another confidence level, if needed.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>To learn more about how the tags and confidence level are determined, see <bpt id="p1">[</bpt>Computer Vision API<ept id="p1">](https://go.microsoft.com/fwlink/?linkid=851476)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Image Analyzer is free in <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>, but there is a limit to the number of items that you can analyze during a certain period of time.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>By default, you can analyze 100 images per month.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>After you enable the extension, Image Analyzer runs each time you import an image to an item or contact person.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You will see the attributes, confidence level, and details right away, and can decide what to do with each attribute.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>If you imported images before you enabled the Image Analyzer extension, you must go to the item or contact cards and choose the <bpt id="p1">**</bpt>Analyze Picture<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Privacy Notice</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>This extension uses the Computer Vision API from Microsoft Cognitive Services, which may have varying levels of compliance commitments than <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>When you enable the Image Analyzer extension, Customer Data such as a contact image or an item image will be sent to the Computer Vision API.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>By installing this extension you agree for this limited set of data to be sent to the Computer Vision API.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Note that you may disable, as well as uninstall, the Image Analyzer extension at any time to discontinue use of this functionality.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Microsoft Trust Center<ept id="p1">](https://go.microsoft.com/fwlink/?linkid=851463)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Requirements</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>There are a few requirements for the images:</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Image formats: JPEG, PNG, GIF, BMP</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Maximum file size: Less than 4 MB</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Image dimensions: Greater than 50 x 50 pixels</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>To enable Image Analyzer</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The Image Analyzer extension is built-in to <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>You just need to turn it on.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>To enable the Image Analyzer extension, you must be an administrator.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Make sure that you are assigned the <bpt id="p1">**</bpt>SUPER<ept id="p1">**</ept> user permission set.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>To enable the Image Analyzer extension, do one of the following:</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Open an item or contact card.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>In the notification bar, choose <bpt id="p1">**</bpt>Analyze Images<ept id="p1">**</ept>, and then follow the steps in the assisted setup guide.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Service Connections<ept id="p3">**</ept>, and then choose <bpt id="p4">**</bpt>Image Analysis Setup<ept id="p4">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Enable Image Analyzer<ept id="p1">**</ept> check box, and then complete the steps in the assisted setup guide.</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Image Analysis Setup<ept id="p1">**</ept> page is also where you can change the degree of confidence for attribute suggestions.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>For example, if you want to require a greater degree of confidence, you can enter a higher percentage.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>To analyze an image of an item</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The following steps describe how to analyze an image that was imported before you enabled the Image Analyzer extension.</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Items<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Choose the item, and then choose the <bpt id="p1">**</bpt>Analyze Picture<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Image Analyzer Attributes<ept id="p1">**</ept> page displays the detected attributes, the confidence level, and other details about the attribute.</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Use the <bpt id="p1">**</bpt>Action to perform<ept id="p1">**</ept> options to specify what to do with the attribute.</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>You can add the name of the attribute to the item description by choosing <bpt id="p1">**</bpt>Add to item description<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>For example, this can be useful for quickly adding detail.</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>To analyze a picture of a contact person</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The following steps describe how to analyze an image that was imported before you enabled the Image Analyzer extension.</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Contacts<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Choose the contact person, and then choose the <bpt id="p1">**</bpt>Analyze Picture<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Profile Questionnaire<ept id="p1">**</ept> FastTab, review the suggestions, and make corrections if needed.</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Blacklisting suggested attributes</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>If the analysis suggests an attribute that you do not want to see you can blacklist the attribute.</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Use caution, however.</source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Blacklisted attributes are not suggested for other items or contact persons either.</source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>If you regret blacklisting an attribute, you can choose <bpt id="p1">**</bpt>Blacklisted Attributes<ept id="p1">**</ept>, and then delete the attribute from the list.</source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>To use your own account for the Computer Vision API</source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>You can also use your own account for the Computer Vision API, for example, if you want to analyze more images than we allow.</source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Image Analyzer Setup<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Enter the <bpt id="p1">**</bpt>API URI<ept id="p1">**</ept> and <bpt id="p2">**</bpt>API Key<ept id="p2">**</ept> that you received for Computer Vision API.</source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>You must add <bpt id="p1">**</bpt>/analyze<ept id="p1">**</ept> at the end of the API URI, if it isn't already there.</source>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>For example: <ph id="ph1">```https://cronus.api.cognitive.microsoft.com/vision/v1.0/analyze```</ph>.</source>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>To see how many analyses you have left in the current period</source>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>You can view the number of analyses you've done, and how many you can still do, in the current period.</source>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Image Analyzer Setup<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Limit type<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Limit value<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>Analyzes performed<ept id="p3">**</ept> provide the usage information.</source>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>To stop using the Image Analyzer extension</source>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Service Connections<ept id="p3">**</ept>, and then choose <bpt id="p4">**</bpt>Image Analyzer Setup<ept id="p4">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Clear the <bpt id="p1">**</bpt>Enable Image Analyzer<ept id="p1">**</ept> check box.</source>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Work with Item Attributes<ept id="p1">](inventory-how-work-item-attributes.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Customizing <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> Using Extensions<ept id="p1">](ui-extensions.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Getting Started<ept id="p1">](product-get-started.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

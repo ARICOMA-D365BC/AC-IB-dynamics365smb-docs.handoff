@@ -1,0 +1,225 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="across-data-exchange.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-964a5eb" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b0748fb7722cc308501f14c865321b1ee415bc78</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">financials\across-data-exchange.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">568469f87e842c352864d7ccff40dd667b9c14b0</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">554df1cd8dfb1b4f9f9f4bb39a6b0a37b891ae69</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Electronic documents in Business Central   | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Introduction to sending and receiving electronic documents in Business Central.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Exchanging Data Electronically</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You can use the Data Exchange Framework to exchange business documents, bank files, currency exchange rates, and any other data files with your business partners.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Electronic Documents</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>As an alternative to emailing as file attachments, you can send and receive business documents electronically.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>By electronic document is meant a standard-compliant file representing a business document, such as an invoice from a vendor that you can receive and convert to a purchase invoice in <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph> .</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The exchange of electronic documents between two trading partners is performed by an external provider of document exchange services.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The generic version of <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph>  supports sending and receiving electronic invoices and credit memos in the PEPPOL format, which is supported by the largest providers of document exchange services.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>A major provider of document exchange services is preconfigured and ready to be set up for your company.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>To provide support for other electronic document formats, you must create new date exchange definitions using the Data Exchange Framework.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>From PDF or image files representing incoming documents, you can have an external OCR service (Optical Character Recognition) create electronic documents that you can then convert to document records in <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph>, like for electronic PEPPOL documents.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>For example, when you receive an invoice in PDF format from your vendor, you can send it to the OCR service from the <bpt id="p1">**</bpt>Incoming Documents<ept id="p1">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>After a few seconds, you receive the file back as an electronic invoice that can be converted to a purchase invoice for the vendor.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>If you send the file to the OCR service by email, then a new incoming document record is automatically created when you receive the electronic document back.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>To send, for example, a sales invoice as an electronic PEPPOL document, you select the <bpt id="p1">**</bpt>Electronic Document<ept id="p1">**</ept> option in the <bpt id="p2">**</bpt>Post and Send<ept id="p2">**</ept> dialog box.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>From here, you can also set up the customer’s default document sending profile.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>First, you must set up various master data, such as company information, customers, items, and units of measure.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>These are used to identify the business partners and items when you convert data in fields in <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph>  to elements in the outgoing document file.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The data conversion and sending of the PEPPOL sales invoice are performed by dedicated codeunits and XMLports, represented by the <bpt id="p1">**</bpt>PEPPOL<ept id="p1">**</ept> electronic document format.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>To receive, for example, an invoice from a vendor as an electronic PEPPOL document, you process the document in the <bpt id="p1">**</bpt>Incoming Documents<ept id="p1">**</ept> window to convert it to a purchase invoice in <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>You can either set up the Job Queue feature to process such files regularly or you can start the process manually.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>First, you must set up various master data, such as company information, vendors, items, and units of measure.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>These are used to identify the business partners and items when you convert data in elements in the incoming document file to fields in <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The receiving and data conversion of PEPPOL invoices are performed by the Data Exchange Framework, represented by the <bpt id="p1">**</bpt>PEPPOL - Invoice<ept id="p1">**</ept> data exchange definition.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>To receive, for example, an invoice as an electronic OCR document, you process it as when you receive an electronic PEPPOL document.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The receiving and conversion of electronic documents from OCR are performed by the Data Exchange Framework, represented by the <bpt id="p1">**</bpt>OCR – Invoice<ept id="p1">**</ept> data exchange definition.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Bank Files</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The formats of files for exchange of bank data with ERP systems vary depending on the supplier of the file and on the country/region.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The generic version of <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph>  supports import and export of SEPA bank files (Single Euro Payments Area) and a bank data conversion service provided by external provider, AMC Consult.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>To provide support for other electronic document formats, you use the Data Exchange Framework.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>To export SEPA credit transfers, you choose <bpt id="p1">**</bpt>Export Payments to File<ept id="p1">**</ept> button in the <bpt id="p2">**</bpt>Payment Journal<ept id="p2">**</ept> window and then upload the file to process the payments in your bank.</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>First you must set up various master data, such as bank account, vendors, and payment methods.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The data conversion and export of SEPA bank data is performed by a dedicated codeunit and XMLport, represented by the <bpt id="p1">**</bpt>SEPA Credit Transfer<ept id="p1">**</ept> bank export/import setup.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Alternatively, you can set up the bank data conversion service to perform the export, represented by the <bpt id="p1">**</bpt>Bank Data Conversion Service - Credit Transfer<ept id="p1">**</ept> data exchange definition.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>To export SEPA direct debit instructions, you choose the <bpt id="p1">**</bpt>Export Direct Debit File<ept id="p1">**</ept> button in the <bpt id="p2">**</bpt>Direct Debit Collections<ept id="p2">**</ept> window and then send to your bank to automatically collect the involved customer payments.</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>First you must set up bank accounts, customers, direct-debit mandates, and payment methods.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The data conversion and export of SEPA bank data is performed by dedicated a codeunit and XMLport, represented by the <bpt id="p1">**</bpt>SEPA Direct Debit<ept id="p1">**</ept> bank export/import setup.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>To import SEPA bank statements, you choose the Import Bank Statement button in the <bpt id="p1">**</bpt>Payment Reconciliation Journal<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Bank Acc. Reconciliation<ept id="p2">**</ept> windows and then you proceed to apply each bank statement entry to payments or bank ledger entries, manually or automatically.</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>First you must set up bank accounts.</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The import and data conversion of SEPA bank data is performed by the Data Exchange Framework, represented by the <bpt id="p1">**</bpt>SEPA CAMT<ept id="p1">**</ept> data exchange definition.</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Alternatively, you can set up the bank data conversion service to perform the import, represented by the <bpt id="p1">**</bpt>Bank Data Conversion Service – Bank Statement<ept id="p1">**</ept> data exchange definition.</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>In addition, the local versions of <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph> support various other file formats for import/export of bank data, payroll transactions, and other data.</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>For more information, see the “Local Functionality” Help section in your country version of <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph> .</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Currency Exchange Rates</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>You can set up an external service to keep your for currency exchange rates up to date.</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The service that provides updated currency exchange rates is enabled by a data exchange definition.</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Accordingly, the <bpt id="p1">**</bpt>Exch. Rate Update Setup Card<ept id="p1">**</ept> window is a condensed view of the <bpt id="p2">**</bpt>Data Exchange Definition<ept id="p2">**</ept> window for the data exchange definition in question.</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>For all exchanges of data in XML files, you can prepare the data exchange setup by loading the related XML schema file in the <bpt id="p1">**</bpt>XML Schema Viewer<ept id="p1">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Here you select the data elements that you want to exchange with <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph>  and then you either initialize a data exchange definition or generate an XMLport.</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The following table describes a sequence of tasks, with links to the topics that describe them.</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>To</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>See</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Learn how the Data Exchange Framework works.</source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>About the Data Exchange Framework<ept id="p1">](across-about-the-data-exchange-framework.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Prepare to exchange data in a file by reusing the file’s XML schema.</source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Set up data exchange definitions.</source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Set up master data for electronic document sending.</source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Set up various bank import/export fields.</source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Setting Up Data Exchange<ept id="p1">](across-set-up-data-exchange.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Based on data exchange definitions, send PEPPOL invoices, receive PEPPOL invoices, import bank statements, and export bank payment files.</source>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Exchanging Data<ept id="p1">](across-exchange-data.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>About the Data Exchange Framework<ept id="p1">](across-about-the-data-exchange-framework.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Use XML Schemas to Prepare Data Exchange Definitions<ept id="p1">](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Setting Up Data Exchange<ept id="p1">](across-set-up-data-exchange.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Exchanging Data<ept id="p1">](across-exchange-data.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Incoming Documents<ept id="p1">](across-income-documents.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>General Business Functionality<ept id="p1">](ui-across-business-areas.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

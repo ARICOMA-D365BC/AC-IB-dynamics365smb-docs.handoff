@@ -1,0 +1,576 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="marketing-integrate-dynamicscrm.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-8ebcdd5" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">bba9fb9a83856cea43e4f4215e7c148b713252a9</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\marketing-integrate-dynamicscrm.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">98071a1f59951a5899d790a8ca5e882d66a5d473</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f06b10b7d76244eb4b08f119426201135afc067a</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Manage Customers Using Dynamics 365 for Sales| Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>You can use Dynamics 365 for Sales from inside Business Central to map data and have seamless integration and synchronization in the lead-to-cash process.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Integrating with Dynamics 365 for Sales</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>If you use Dynamics 365 for Sales for customer engagement, you can use <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> for order processing and finances and have seamless integration in the lead-to-cash process.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>This topic assumes that both <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> and the integrated Sales solution are deployed in a SaaS environment.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Mixing online and on-premises is possible, but requires special configuration.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Preparing to Integrate to Dynamics 365 for Sales On-Premises<ept id="p1">](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>When your application is set up to integrate with Sales, you have access to Sales data from <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> and the other way around in some cases.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>This integration enables you to work with and synchronize data types that are common to both services, such as customers, contacts, and sales information, and keep the data up to date in both locations.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>For example, the sales person in Sales can use the price lists from <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> when they create a sales order.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>When they add the item to the sales order line in Sales, they are also able to see the inventory level (availability) of the item from <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Conversely, order processors in <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> can handle the special characteristics of sales orders transferred automatically or manually from Sales, such as automatically create and post valid sales order lines for items or resources that were entered in Sales as write-in products.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>For more information, see the "Handling Special Sales Order Data" section.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> integrates with Dynamics 365 for Sales only.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Other applications or solutions within Dynamics 365 that change the standard workflow or data model in Sales, for example Project Service Automation, may break the integration between <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> and Sales.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Standard Sales Entity Mapping for Synchronization</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Sales entities, such as accounts, are integrated with equivalent <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> record types, such as customers.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>To work with Sales data, you set up mappings, called couplings, between <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> records and Sales entity records.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>For example, you set up a coupling between a specific customer in <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>  and a corresponding account in Sales.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The following table lists the <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> record types (tables) and corresponding Sales entities that can be synchronized out-of-the-box.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Sales</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Synchronization Direction</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Default Filter</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Salesperson/Purchaser</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>User</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Sales -&gt; Business Central</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Sales contact filter: <bpt id="p1">**</bpt>Status<ept id="p1">**</ept> is <bpt id="p2">**</bpt>No<ept id="p2">**</ept>, <bpt id="p3">**</bpt>User Licensed<ept id="p3">**</ept> is <bpt id="p4">**</bpt>Yes<ept id="p4">**</ept>, Integration user mode is <bpt id="p5">**</bpt>No<ept id="p5">**</ept></source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Customer</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Account</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Business Central -&gt; Sales and Sales -&gt; Business Central</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Sales account filter: <bpt id="p1">**</bpt>Relationship Type<ept id="p1">**</ept> is <bpt id="p2">**</bpt>Customer<ept id="p2">**</ept> and <bpt id="p3">**</bpt>Status<ept id="p3">**</ept> is <bpt id="p4">**</bpt>Active<ept id="p4">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Contact</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Contact</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Business Central -&gt; Sales and Sales -&gt; Business Central</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Business Central contact filter: <bpt id="p1">**</bpt>Type<ept id="p1">**</ept> is <bpt id="p2">**</bpt>Person<ept id="p2">**</ept> and the contact is assigned to a company.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Sales contact filter: The contact is assigned to a company and the parent customer type is <bpt id="p1">**</bpt>Account<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Currency</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Transaction Currency</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Business Central -&gt; Sales</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Unit of Measure</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Unit Group</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Business Central -&gt; Sales</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Item</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Product</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Business Central -&gt; Sales and Sales -&gt; Business Central</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Sales contact filter: <bpt id="p1">**</bpt>Product Type<ept id="p1">**</ept> is <bpt id="p2">**</bpt>Sales Inventory<ept id="p2">**</ept></source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Resource</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Product</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Business Central -&gt; Sales and Sales -&gt; Business Central</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Sales contact filter: <bpt id="p1">**</bpt>Product Type<ept id="p1">**</ept> is <bpt id="p2">**</bpt>Services<ept id="p2">**</ept></source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Customer Price Group</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Price List</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Business Central -&gt; Sales</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Sales Price</source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Product Price List</source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Business Central -&gt; Sales</source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Business Central contact filter: <bpt id="p1">**</bpt>Sales Code<ept id="p1">**</ept> is not blank, <bpt id="p2">**</bpt>Sales Type<ept id="p2">**</ept> is <bpt id="p3">**</bpt>Customer Price Group<ept id="p3">**</ept></source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Opportunity</source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Opportunity</source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Business Central -&gt; Sales and Sales -&gt; Business Central</source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Sales Invoice Header</source>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Invoice</source>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Business Central -&gt; Sales</source>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Sales Invoice Line</source>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Invoice Product</source>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Business Central -&gt; Sales</source>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The Sales entities and <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> tables that are synchronized are defined by table mapping entries in table 5335, <bpt id="p1">**</bpt>Integration Table Mapping<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>You can view the mappings and set up filters from page 5335, <bpt id="p1">**</bpt>Integration Table Mappings<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The mapping between the fields in <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> records and the fields in Sales entities are defined by field mapping entries in table 5336, <bpt id="p1">**</bpt>Integration Field Mapping<ept id="p1">**</ept>, and with additional mapping logic.</source>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Field Mapping for the Sales Account Option</source>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Three tables in <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> are mapped to the option fields of the <bpt id="p1">**</bpt>Account<ept id="p1">**</ept> entity.</source>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The records in the table that are not linked to the options that exist in Sales will be skipped during synchronization.</source>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>This means that the <bpt id="p1">**</bpt>Option<ept id="p1">**</ept> field will be blank in Sales.</source>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The following table shows mappings from Business Central tables for the <bpt id="p1">**</bpt>Option<ept id="p1">**</ept> field in the <bpt id="p2">**</bpt>Account<ept id="p2">**</ept> entity.</source>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Table</source>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Option Field in the Account Entity in Sales</source>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Payment Terms</source>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Payment Terms</source>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Shipment Method</source>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Address 1: Freight Terms</source>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Shipping Agent</source>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Address 1: Shipping Method</source>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Synchronization Rules</source>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The following table describes rules that control the synchronization between Business Central tables and Sales entities.</source>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Modifications to data in Sales that are performed by the Sales connection account are ignored.</source>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The changes will not be synchronized.</source>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Therefore, it is recommended that you do not modify data by using the Sales connection account.</source>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Table</source>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Rule</source>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Customers</source>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Before a customer can be synchronized to an account, the salesperson that is assigned to the customer must be coupled to a user in Sales.</source>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Therefore, when you run the CUSTOMERS - Dynamics 365 for Sales synchronization job and you set it up to create new records, make sure that you synchronize salespeople with Sales users before you synchronize customers with Sales accounts.</source>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The CUSTOMERS - Dynamics 365 for Sales synchronization job only synchronizes Sales accounts that have the relationship type Customer.</source>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Contacts</source>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Only contacts in Sales that are associated with an account will be created in Business Central.</source>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The Salesperson Code value defines the owner of the coupled entity in Sales.</source>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Currencies</source>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Currencies are coupled to transaction currencies in Sales based on ISO codes.</source>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Only currencies that have a standard ISO code will be coupled and synchronized with transaction currencies.</source>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Units of Measure</source>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Units of measure are synchronized with unit groups in Sales.</source>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>There can only be one unit of measure defined in the unit group.</source>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Items</source>
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>When synchronizing items with Sales products, Business Central automatically creates a price list in Sales.</source>
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>To avoid synchronization errors, you should not modify this price list manually.</source>
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Salespersons</source>
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Salespersons are coupled to system users in Sales.</source>
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The user must be enabled and licensed and must not be the Integration user.</source>
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Note, that this is the first table that must be synchronized because it is used in customers, contacts, opportunities, and sales invoices.</source>
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Resources</source>
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Resources are synchronized with Sales products that have product type Service.</source>
+        </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Customer Price Groups</source>
+        </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Customer price groups are synchronized with Sales price lists.</source>
+        </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Sales Prices</source>
+        </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Sales prices that have sales type Customer Price Group and have a sales code defined are synchronized with Sales price list lines</source>
+        </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Opportunities</source>
+        </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Opportunities are synchronized with Sales opportunities.</source>
+        </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>The Salesperson Code value defines the owner of the coupled entity in Sales.</source>
+        </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Posted Sales Invoices</source>
+        </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Posted sales invoices are synchronized with sales invoices.</source>
+        </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Before an invoice can be synchronized, it is better to synchronize all other entities that can participate in the invoice, from salespersons to price lists.</source>
+        </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>The Salesperson Code value in the invoice header defines the owner of the coupled entity in Sales.</source>
+        </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Setting Up the Connection</source>
+        </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>From Home, you can access the <bpt id="p1">**</bpt>Microsoft Dynamics 365 Connection Setup<ept id="p1">**</ept> assisted setup guide that helps you set up the connection.</source>
+        </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Once that is done, you will have a seamless coupling of Sales records with <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> records.</source>
+        </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>The following explains the assisted setup, but you can perform the same tasks manually on the <bpt id="p1">**</bpt>Sales Connection Setup<ept id="p1">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>In the assisted setup guide, you can choose which data to synchronize between the two services.</source>
+        </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>You can also specify that you want to import your existing Sales solution.</source>
+        </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>In that case, you must specify an administrative user account.</source>
+        </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Setting Up the User Account for Importing the Solution</source>
+        </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>To import an existing Sales solution, the setup guide uses an administrative account.</source>
+        </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>This account must be a valid user in Sales with the following security roles:</source>
+        </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>System Administrator</source>
+        </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Solution Customizer</source>
+        </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Create users in Microsoft Dynamics 365 (online) and assign  security roles<ept id="p1">](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles)</ept> and <bpt id="p2">[</bpt>Managing Users and Permissions<ept id="p2">](ui-how-users-permissions.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>This account is only used during the setup.</source>
+        </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Once the solution is imported into <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>, the account is no longer needed.</source>
+        </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Setting Up the User Account for Synchronization</source>
+        </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>The integration relies on a shared user account.</source>
+        </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>So in your Office 365 subscription, you must create a dedicated user that will be used for synchronization between the two services.</source>
+        </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>This account must already be a valid user in Sales, but you do not have to assign security roles to the account because the setup guide will do that for you.</source>
+        </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>You must specify this user account one or more times in the setup guide, depending how much synchronization you want to enable.</source>
+        </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Create users in Microsoft Dynamics 365 (online) and assign security roles<ept id="p1">](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>If you choose to enable <bpt id="p1">*</bpt>item availability<ept id="p1">*</ept>, the integration user account must have a web services access key.</source>
+        </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>This is a two-step thing in the <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> page for that user account, you must choose the <bpt id="p1">**</bpt>Change Web Service Key<ept id="p1">**</ept> button; and in the Sales Connection setup guide, you must specify that user as the OData web service user.</source>
+        </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>If you choose to enable <bpt id="p1">*</bpt>sales order integration<ept id="p1">*</ept>, you must specify a user that can handle this synchronization - the integration user or another user account.</source>
+        </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Coupling Records</source>
+        </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>In the assisted setup guide, you can choose to synchronize between the two services.</source>
+        </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>But later, you can also set up synchronization of specific types of data.</source>
+        </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>This is referred to as <bpt id="p1">*</bpt>coupling<ept id="p1">*</ept>, and this section provides recommendations for what you must take into consideration.</source>
+        </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>For example, if you want to see Sales accounts as customers in <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>, you must couple the two types of records.</source>
+        </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>It is not very complicated - you open the <bpt id="p1">**</bpt>Customer List<ept id="p1">**</ept> page in <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>, and there is an action in the ribbon to couple this data with Sales.</source>
+        </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>Then you specify which <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> customers match which accounts in Sales.</source>
+        </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>In certain areas, the functionality relies on you couple certain sets of data before other sets of data as shown in the following list:</source>
+        </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>Customers and accounts</source>
+        </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>Couple salespeople with Sales users first</source>
+        </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>Items and resources</source>
+        </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Couple units of measure with Sales unit groups first</source>
+        </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>Items and resource prices</source>
+        </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>Couple customer price groups with Sales prices first</source>
+        </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>If you are using prices in foreign currencies, make sure that you couple currencies to Sales transaction currencies.</source>
+        </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>In Sales, sales orders depends on additional information like customers, units of measure, currencies, customer price groups, items and/or resources.</source>
+        </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>In order for the integration with  sales orders to work seamlessly, you must couple customers, units of measure, currencies, customer price groups, items and/or resources first.</source>
+        </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>Synchronizing Records Fully</source>
+        </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>At the end of the assisted setup guide, you can choose the <bpt id="p1">**</bpt>Run Full Synchronization<ept id="p1">**</ept> action to start synchronizing all <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> records with all related records in the connected Sales solution.</source>
+        </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>CRM Full Synch. Review<ept id="p1">**</ept> page, you choose the <bpt id="p2">**</bpt>Start<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>The synchronization then begins to execute jobs according to dependencies.</source>
+        </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>For example, currency records are synchronized before customer records.</source>
+        </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>The full synchronization may take a long time and will therefore run in the background so that you can continue to work in <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>To check the progress of individual jobs in a full synchronization, drill down on the <bpt id="p1">**</bpt>Job Queue Entry Status<ept id="p1">**</ept>, <bpt id="p2">**</bpt>To Int. Table Job Status<ept id="p2">**</ept>, or <bpt id="p3">**</bpt>From Int. Table Job Status<ept id="p3">**</ept> field on the <bpt id="p4">**</bpt>CRM Full Synch. Review<ept id="p4">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>From the <bpt id="p1">**</bpt>Microsoft Dynamics 365 Connection Setup<ept id="p1">**</ept> page, you can get details about full synchronization at any time.</source>
+        </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>From here, you can also open the <bpt id="p1">**</bpt>Integration Table Mappings<ept id="p1">**</ept> page to see details about the tables in <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> and in the Sales solution that must be synchronized.</source>
+        </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>Handling Special Sales Order Data</source>
+        </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>Sales orders in Sales will be transferred to <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> automatically if you select the <bpt id="p1">**</bpt>Automatically Create Sales Orders<ept id="p1">**</ept> check box on the <bpt id="p2">**</bpt>Microsoft Dynamics 365 Connection Setup<ept id="p2">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>On such sales orders, the <bpt id="p1">**</bpt>Name<ept id="p1">**</ept> field on the original order is transferred and mapped to the <bpt id="p2">**</bpt>External Document Number<ept id="p2">**</ept> field on the sales order in <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>This can also work if the original sales order contains write-in products, meaning items or resources that are not registered in either product.</source>
+        </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>In that case, you must fill in the <bpt id="p1">**</bpt>Write-in Product Type<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Write-in Product No.<ept id="p2">**</ept></source>
+        </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>fields on the <bpt id="p1">**</bpt>Sales &amp; Receivables Setup<ept id="p1">**</ept> page, so that such non-registered product sales are mapped to a specified item/resource number for financial analysis.</source>
+        </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>If the item description on the original sales order is very long, then an additional sales order line of type Comment is created to hold the full text on the sales order in <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Preparing to Integrate to Dynamics 365 for Sales On-Premises<ept id="p1">](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration)</ept></source>
+        </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Relationship Management<ept id="p1">](marketing-relationship-management.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Working with <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph><ept id="p1">](ui-work-product.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Changing Which Features are Displayed<ept id="p1">](ui-experiences.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Managing Users and Permissions<ept id="p1">](ui-how-users-permissions.md)</ept><ph id="ph1">  </ph></source>
+        </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Onboard your organization and users to Dynamics 365  (online)<ept id="p1">](/dynamics365/customer-engagement/admin/onboard-your-organization-and-users-to-dynamics-365-online)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

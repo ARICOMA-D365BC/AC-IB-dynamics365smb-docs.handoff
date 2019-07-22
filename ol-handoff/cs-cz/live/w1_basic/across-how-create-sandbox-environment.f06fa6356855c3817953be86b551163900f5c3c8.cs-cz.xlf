@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="across-how-create-sandbox-environment.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-8cf0045" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">91db02673c1e408927d9863af9ec6751bc33e480</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\across-how-create-sandbox-environment.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cfebe27cd452e692abb473a363b9c586a4a7df53</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">98cf451fae9373d0e55d694409a3beb33798c450</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Create a Sandbox Environment| Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Create an environment for exploring, learning, demoing, developing, and testing.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Creating a Sandbox Environment</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>A sandbox environment (Preview) is a non-production instance of <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Isolated from production, a sandbox environment is the place to safely explore, learn, demo, develop, and test the service without the risk of affecting the data and settings of your production environment.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>To create a sandbox environment</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You must have a subscription to <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> to be able to create a sandbox environment.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>There can only be one sandbox environment per subscription.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Sign in to your production instance of the <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> service.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Sandbox Environment<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Create<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Another tab in your browser will open for finishing the setup of your sandbox environment.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>If you have pop-up blocker enabled in your browser, change it to allow URLs from the *.businesscentral.dynamics.com address.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>When the sandbox environment is ready, you will be redirected to sandbox environment's Welcome wizard.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>Learn more<ept id="p1">**</ept> to read about scenarios that you can try in a sandbox environment.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Or, choose <bpt id="p1">**</bpt>Close<ept id="p1">**</ept> to continue to the Role Center of your <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> sandbox instance.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>At the top of the Role Center, a notification appears to inform you that this is a sandbox environment.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>You can also see the type of the environment in the title bar of the client.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>In the sandbox environment, a new tenant has been created.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>This tenant is loaded with default demonstration data for the CRONUS company.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>No data is copied or otherwise transferred from the production environment during the sandbox creation.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>At any time, you can return to the <bpt id="p1">**</bpt>Sandbox Environment<ept id="p1">**</ept> page, and reset the sandbox environment.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Resetting the sandbox environment will remove it completely, and then create it again with the default demonstration data.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>To switch between your production and sandbox environments, you can use the Business Central app launcher.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>It is possible for an administrator or another user to limit or even block access for some users to the sandbox environment.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>This can be done by using the standard security features of the product, such as the User card, User Groups, and Permission Sets.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Advanced functionality in the sandbox environment</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Designer</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>In a sandbox environment, you will find the <bpt id="p1">**</bpt>Designer<ept id="p1">**</ept> enabled, which you can activate by selecting the design icon <ph id="ph1">![</ph>Designer<ph id="ph2">](./media/across-sandbox/sandbox-inclient-design-icon.png)</ph> on a page.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Enable the advanced user experience</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>It is possible to enable and try the advanced (full) functionality of <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> in a sandbox tenant by setting the <bpt id="p1">**</bpt>Experience<ept id="p1">**</ept> field on the <bpt id="p2">**</bpt>Company Information<ept id="p2">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>After you’ve enabled the advanced functionality in a sandbox tenant, you get access to all the standard Profiles and Role Centers.</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>You can also create an evaluation company that is fully set up, including demonstration data and access to the advanced areas of the product.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Working with <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph><ept id="p1">](ui-work-product.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

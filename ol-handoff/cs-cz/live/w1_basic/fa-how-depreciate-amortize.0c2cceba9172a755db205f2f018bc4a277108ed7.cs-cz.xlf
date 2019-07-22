@@ -1,0 +1,246 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="fa-how-depreciate-amortize.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-5ae97a8" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4f11e194d020254a7e5274f2eb08f1719ffa6439</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\fa-how-depreciate-amortize.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ea45d918c2089380f093240c77ffd370fd2a0840</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2b5155bfeecb0dc3697f957bf2d24badb3d58f59</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Depreciate or Amortize FA| Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>You must define how you will write-down, depreciate, or amortize each of your fixed assets.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Depreciate or Amortize Fixed Assets</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Depreciation is used to allocate the cost of fixed assets, such as machinery and equipment, over their depreciable life.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>For each fixed asset, you must define how it will be depreciated.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>There are two ways to post depreciation:</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Automatically, by running the <bpt id="p1">**</bpt>Calculate Depreciation<ept id="p1">**</ept> batch job.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Manually, by using the fixed asset G/L journal.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> can calculate daily depreciation, which allows you to calculate depreciation for any period.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>You can therefore analyze current operating results on, for example, a monthly, quarterly, or annual basis.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The calculation uses a standard year of 360 days and a standard month of 30 days.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Depreciation Methods<ept id="p1">](fa-depreciation-methods.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>If several departments use a fixed asset, periodic depreciation can be automatically allocated to these departments according to a user-defined allocation table.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You can cancel incorrect depreciation entries by using the <bpt id="p1">**</bpt>Cancel FA Ledger Entries<ept id="p1">**</ept> batch job.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Afterward, you can post the correct amount by running the <bpt id="p1">**</bpt>Calculate Depreciation<ept id="p1">**</ept> batch job again.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The errors you correct are posted as fixed asset error ledger entries.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Indexation is used to adjust values for general price-level changes.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>You can use the <bpt id="p1">**</bpt>Index Fixed Assets<ept id="p1">**</ept> batch job to recalculate the depreciation amounts.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>To calculate depreciation automatically</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Once a month, or whenever you choose, you can run the <bpt id="p1">**</bpt>Calculate Depreciation<ept id="p1">**</ept> batch job.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The batch job ignores fixed assets that have been sold, are blocked or inactive, or use the manual depreciation method.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Calculate Depreciation<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Fill in the fields as necessary.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The batch job calculates the depreciation and creates lines in the fixed asset G/L journal.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>FA G/L Journals<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Fixed Asset G/L Journal<ept id="p1">**</ept> page, in the <bpt id="p2">**</bpt>No. of Depreciation Days<ept id="p2">**</ept> field you can see how many days of depreciation have been calculated.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Post<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>To post depreciation manually from the fixed asset G/L journal</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Fixed Asset G/L Journal<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Create an initial journal line and fill in the fields as necessary.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>FA Posting Type<ept id="p1">**</ept> field, select <bpt id="p2">**</bpt>Depreciation<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Insert FA Bal. Account<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>A second journal line is created for the balancing account that is set up for depreciation posting.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>To set up fixed asset posting groups<ept id="p1">](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Home<ept id="p1">**</ept> tab, choose <bpt id="p2">**</bpt>Post<ept id="p2">**</ept> to post the journal.</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>If you have set up fixed asset allocation keys to allocate amounts to different departments or projects, the amounts are allocated during posting.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Set Up General Fixed Assets Information<ept id="p1">](fa-how-setup-general.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>To calculate allocations in the fixed asset G/L journal</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>If a fixed asset is used by several departments, periodic depreciation can be automatically allocated to these departments according to a user-defined allocation table.</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Fixed Asset G/L Journal<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Create an initial line and fill in the fields as necessary.</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>FA Posting Type<ept id="p1">**</ept> field, select <bpt id="p2">**</bpt>Allocation<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Insert FA Bal. Account<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>A second journal line is created for the balancing account that is set up for allocation posting.</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Home<ept id="p1">**</ept> tab, choose <bpt id="p2">**</bpt>Post<ept id="p2">**</ept> to post the journal.</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Use duplication lists to prepare to post to multiple depreciation books</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>When you fill in journal lines to post to a depreciation book, you can duplicate the lines in a separate journal so you can post to a different depreciation book.</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>For more information, see To <bpt id="p1">[</bpt>post entries to different depreciation books<ept id="p1">](fa-how-depreciate-amortize.md#to-post-entries-to-different-depreciation-books)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Depreciation Books<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Open the depreciation book, and then select the <bpt id="p1">**</bpt>Part of Duplication List<ept id="p1">**</ept> check box.</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>If you have selected the <bpt id="p1">**</bpt>Use Duplication List<ept id="p1">**</ept> field, do not use number series on the journal.</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The reason is that the number series for the fixed asset G/L journal does not the number series for the fixed asset journal.</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>To post entries to different depreciation books</source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Fixed Asset G/L Journal<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>In the journal that you want to post depreciation with, select the <bpt id="p1">**</bpt>Use Duplication List<ept id="p1">**</ept> check box.</source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Fill in the remaining fields as necessary.</source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Post<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>FA Journals<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Fixed Asset Journal<ept id="p1">**</ept> page contains new lines for different depreciation books according to the duplication list.</source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Review or edit the lines, and then choose the <bpt id="p1">**</bpt>Post<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Another way to duplicate an entry in a separate book is to enter a depreciation book code in the <bpt id="p1">**</bpt>Duplicate in Depreciation Book<ept id="p1">**</ept> field when you fill in a journal line.</source>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>You can copy entries from one depreciation book to another by using the <bpt id="p1">**</bpt>Copy Depreciation Book<ept id="p1">**</ept> batch job.</source>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The batch job creates journal lines in the journal batch that you have specified on the <bpt id="p1">**</bpt>FA Journal Setup<ept id="p1">**</ept> page for the depreciation book that you want to copy to.</source>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>For more information, see the following procedure.</source>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>To copy fixed asset ledger entries between depreciation books</source>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Depreciation Books<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Open the relevant depreciation book card, and then choose the <bpt id="p1">**</bpt>Copy Depreciation Book<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Copy Depreciation Book<ept id="p1">**</ept> page, fill in the fields as necessary.</source>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The copied lines are created in either the fixed asset G/L journal or the fixed asset journal, depending on whether the depreciation book that you are copying has integration to the general ledger.</source>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Fixed Assets<ept id="p1">](fa-manage.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Setting Up Fixed Assets<ept id="p1">](fa-setup.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Finance<ept id="p1">](finance.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Working with <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph><ept id="p1">](ui-work-product.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

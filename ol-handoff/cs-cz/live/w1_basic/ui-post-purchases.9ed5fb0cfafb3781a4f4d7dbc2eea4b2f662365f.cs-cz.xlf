@@ -1,0 +1,120 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="ui-post-purchases.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-2e292eb" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">06c22658518d504c80a5a379d579cf7f7e8a0757</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">financials\ui-post-purchases.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6873776d818fb967a69f7b9794658d4a76b267a4</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a8fb583b28120440e5b4a386e53de07912854690</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Understanding How To Post Purchase Documents | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Learn about the different posting functions to post purchase documents.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Posting Purchases</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Posting group<ept id="p1">**</ept> on a purchase document, you can choose between the following posting functions:</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Post<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Preview Posting<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Post and Print<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Test Report<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Post Batch<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>When you have completed all the lines and entered all the information on the purchase order, you can post it, that is, create a receipt and an invoice.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>When a purchase order is posted, the vendor's account, the general ledger, and the item ledger entries are updated.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>For each purchase order, a purchase entry is created in the <bpt id="p1">**</bpt>G/L Entry<ept id="p1">**</ept> table.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>An entry is also created in the vendor's account in the <bpt id="p1">**</bpt>Vendor Ledger Entry<ept id="p1">**</ept> table and a G/L entry is created in the relevant payables account.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>In addition, posting the order may result in a VAT entry and a G/L entry for the discount amount.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Whether an entry for the discount is posted depends on the contents of the <bpt id="p1">**</bpt>Discount Posting<ept id="p1">**</ept> field in the <bpt id="p2">**</bpt>Purchases &amp; Payables Setup<ept id="p2">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>For each purchase order line, an item ledger entry will be created in the <bpt id="p1">**</bpt>Item Ledger Entry<ept id="p1">**</ept> table (if the purchase lines contain item numbers) or a G/L entry will be created in the <bpt id="p2">**</bpt>G/L Entry<ept id="p2">**</ept> table (if the purchase lines contain a G/L account).</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>In addition, purchase orders are always recorded in the <bpt id="p1">**</bpt>Purch. Recpt. Header<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Purch. Inv. Header<ept id="p2">**</ept> tables.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Before you start to post, you can print a test report that contains all the information in the purchase order and indicates any errors there.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>To print the report, choose <bpt id="p1">**</bpt>Posting<ept id="p1">**</ept>, and then choose <bpt id="p2">**</bpt>Test Report<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>When you post an order, you can create both a receipt and an invoice.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>These can be done simultaneously or independently.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>You can also create a partial receipt and a partial invoice by completing the <bpt id="p1">**</bpt>Qty. to Receive<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Qty. to Invoice<ept id="p2">**</ept> fields on the individual purchase order lines before you post.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Note that you cannot create an invoice for something that has not been received.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>That is, before you can invoice, you must have recorded a receipt, or you must choose to receive and invoice at the same time.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>You can either post, or post and print.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>If you choose to post and print, a report is printed when the order is posted.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>You can also choose the <bpt id="p1">**</bpt>Post Batch<ept id="p1">**</ept> function, which lets you post several orders at the same time.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>When the posting is completed, the posted purchase lines are removed from the order.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>A message tells you when the posting is completed.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>After this, you will be able to see the posted entries in the various windows that contain posted entries, such as the <bpt id="p1">**</bpt>Vendor Ledger Entries<ept id="p1">**</ept>, <bpt id="p2">**</bpt>G/L Entries<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Item Ledger Entries<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Purchase Receipts<ept id="p4">**</ept>, and <bpt id="p5">**</bpt>Posted Purchase Invoices<ept id="p5">**</ept> windows.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Purchasing<ept id="p1">](purchasing-manage-purchasing.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Post Documents and Journals<ept id="p1">](ui-post-documents-journals.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Working with <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph><ept id="p1">](ui-work-product.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

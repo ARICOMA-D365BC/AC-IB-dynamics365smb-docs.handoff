@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="vat-control-report.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-419b0d8" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">74798173db358daed25451053e4f8e777f8ef269</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\LocalFunctionality\Czech\vat-control-report.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">lf_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e1154d749e438a5991c833038404c8b30b55be41</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">24ee0e02cff297cf7ef9b83bfbe271599949986e</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>VAT Control Report | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Czech companies registered for VAT in the Czech Republic (with assigned CZ VAT ID number) have the obligation to submit the VAT Control Report.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>VAT Control Report</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">[!INCLUDE[d365fin](../../includes/d365fin_md.md)]</ph> functionality has been extended by the <bpt id="p1">**</bpt>VAT Control Report<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Basic form is <bpt id="p1">**</bpt>VAT Control Report Card<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>VAT items are loaded by the VAT Date or Posting Date (according to the general ledger setup) into the form for the selected period.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The basic setup, i.e. distribution of combinations of VAT posting groups into the individual sections of control report, is determined in the VAT statement.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>To process the control report you have to setup VAT control report sections, tariff numbers, VAT statement, stat. reporting setup and extended the VAT posting setup.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Functionality contains:</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>VAT Control Report Card<ept id="p1">**</ept> - allows you to select report period.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Control report lines suggestion<ept id="p1">**</ept> - loads control report lines of selected period.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Control performance - <bpt id="p1">**</bpt>VAT Control Report - test<ept id="p1">**</ept> report - prints overview according to individual sections.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Control report export - <bpt id="p1">**</bpt>Export<ept id="p1">**</ept> function exports control report to the file.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Closing lines - <bpt id="p1">**</bpt>Close lines<ept id="p1">**</ept> function fills the <bpt id="p2">**</bpt>Closed by document no.<ept id="p2">**</ept> field in control report lines.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>See also</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Czech Local Functionality<ept id="p1">](czech-local-functionality.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Finance<ept id="p1">](../../finance.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

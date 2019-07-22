@@ -1,0 +1,219 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="marketing-create-contact-profile-questionnaire.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-8cf0045" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1007bdb689b72cf3eccfc5c15c2df9e3c760d8b3</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\marketing-create-contact-profile-questionnaire.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0fd6a1bf3c13f6bfddbb7f3c28ba7d877eb8462c</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1c04c0f340015514de1190ded55f41dc6513fe79</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Use profiles to classify contacts</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Set up profile questionnaires to help classify your business contacts</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Use Profile Questionnaires to Classify Business Contacts</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You can set up profile questionnaires that you want to use when entering information about your contacts' profiles.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Within each questionnaire, you can set up the different questions you intend to ask your contacts.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>You can also run the questionnaire to answer some of the questions based on contact, customer, or vendor data automatically.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>To add a profile questionnaire</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Questionnaire Setup<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Home<ept id="p1">**</ept> tab, in the <bpt id="p2">**</bpt>New<ept id="p2">**</ept> group, choose <bpt id="p3">**</bpt>New<ept id="p3">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Fill in the fields as necessary.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>To add questions to a profile questionnaire</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Choose the relevant profile questionnaire, and then on the <bpt id="p1">**</bpt>Home<ept id="p1">**</ept> tab, in the <bpt id="p2">**</bpt>Process<ept id="p2">**</ept> group, choose <bpt id="p3">**</bpt>Edit Questionnaire Setup<ept id="p3">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>On the first empty line, in the <bpt id="p1">**</bpt>Type<ept id="p1">**</ept> field, choose <bpt id="p2">**</bpt>Question<ept id="p2">**</ept> and type your question in the <bpt id="p3">**</bpt>Description<ept id="p3">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Fill in the other fields on this line.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>On the next empty line, in the <bpt id="p1">**</bpt>Type<ept id="p1">**</ept> field, choose <bpt id="p2">**</bpt>Answer<ept id="p2">**</ept> and type your answer in the <bpt id="p3">**</bpt>Description<ept id="p3">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Priority<ept id="p1">**</ept> field, select the priority.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>From Value<ept id="p1">**</ept> and <bpt id="p2">**</bpt>To Value<ept id="p2">**</ept> fields, define a point range.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Contacts that receive points within the defined range will get the answer.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Repeat these steps to enter all the questions and answers within the profile questionnaire.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>After you have created a questionnaire, you must create contact ratings to classify your contacts.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>You can also set up questions that are rated automatically based on information in the contact card.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>If you enter a question that is automatically answered, choose <bpt id="p1">&lt;STRONG&gt;</bpt>Line<ept id="p1">&lt;/STRONG&gt;</ept>, and then choose <bpt id="p2">&lt;STRONG&gt;</bpt>Question Details<ept id="p2">&lt;/STRONG&gt;</ept>, to enter the criteria to automatically answer the question.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The Automatic Classification of Contacts</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>You can automatically classify your contacts according to customer, vendor, and contact information, by setting up automatically answered profile questions on the <bpt id="p1">**</bpt>Profile Questionnaire Setup<ept id="p1">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Only contacts that are recorded as customers can be assigned a classification based on customer data and only contacts that are recorded as vendors can be assigned a classification based on vendor data.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The automatic classification is not updated automatically.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Consequently, you may want to update the profile questionnaires, after you have updated the customer, vendor or contact data they are based on.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>After you have set up automatically answered profile questions, if you assign the profile questionnaire containing these questions to a contact, <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> will automatically assign the right answers for the contact.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Example</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>You can classify your contacts according to how much they bought from you:</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>Answer<ept id="p1">&lt;/strong&gt;</ept></source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>Applies to<ept id="p1">&lt;/strong&gt;</ept></source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>A</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>contacts who bought for 500,000 LCY or more</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>B</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>contacts who bought for 100,000 up to 499,999 LCY</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>C</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>contacts who bought for 99,999 LCY or less</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>To do this, fill on the <bpt id="p1">**</bpt>Profile Questionnaire Setup<ept id="p1">**</ept> page as follows:</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>Type<ept id="p1">&lt;/strong&gt;</ept></source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>Description<ept id="p1">&lt;/strong&gt;</ept></source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>Automatic Classification<ept id="p1">&lt;/strong&gt;</ept></source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>From Value<ept id="p1">&lt;/strong&gt;</ept></source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>To Value<ept id="p1">&lt;/strong&gt;</ept></source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Question</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>ABC Classification</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Click to insert a check mark</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Answer</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>A</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>500,000</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Answer</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>B</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>100,000</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>499,999</source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Answer</source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>C</source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>99,999</source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Then fill on the <bpt id="p1">**</bpt>Profile Question Details<ept id="p1">**</ept> page as follows:</source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>Field<ept id="p1">&lt;/strong&gt;</ept></source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>Value<ept id="p1">&lt;/strong&gt;</ept></source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>Customer Classification Field<ept id="p1">&lt;/strong&gt;</ept></source>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;emphasis&gt;</bpt>Sales (LCY)<ept id="p1">&lt;/emphasis&gt;</ept></source>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>Classification Method<ept id="p1">&lt;/strong&gt;</ept></source>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;emphasis&gt;</bpt>Defined Value<ept id="p1">&lt;/emphasis&gt;</ept></source>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>When you assign the profile questionnaire containing this question to a contact, the program automatically enters the relevant answer for this contact on the profile lines of the contact card.</source>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Creating Contacts<ept id="p1">](marketing-create-contact-companies.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

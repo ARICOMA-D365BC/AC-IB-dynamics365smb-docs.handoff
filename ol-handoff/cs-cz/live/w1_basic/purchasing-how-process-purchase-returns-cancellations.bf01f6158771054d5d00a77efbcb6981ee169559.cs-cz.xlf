@@ -1,0 +1,489 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="purchasing-how-process-purchase-returns-cancellations.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-15c36f0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">532e8bb98f8fc1498dfb3efb784467bb2011f89d</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">financials\purchasing-how-process-purchase-returns-cancellations.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">71df9343b284a6eade46773c1d2f6ebeb58411c0</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">76bdfc0da75071e2158643bfed99eac52725b98c</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Use Purchase Credit Memos to Process Returns or Cancellations | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Explains how to create and post a purchase credit memo when you want to return items to a vendor or cancel purchased services.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Process Purchase Returns or Cancellations</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>If you want to return items to your vendor or cancel services that you have purchased, then you can create and post a purchase credit memo that specifies the requested change with regard to the original purchase invoice.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>To include the correct purchase invoice information, you can create the purchase credit memo directly from the posted purchase invoice or you can create a new purchase credit memo with copied invoice information.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>If you need more control of the purchase return process, such as warehouse documents for the item handling or better overview when shipping back items from multiple purchase documents with one purchase return, then you can create purchase return orders.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>A purchase return order automatically issues the related purchase credit memo.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>For more information, see the "To create a purchase return order based on one or more a posted purchase documents" section.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>If a posted purchase invoice has not yet been paid, then you can use the <bpt id="p1">**</bpt>Correct<ept id="p1">**</ept> or <bpt id="p2">**</bpt>Cancel<ept id="p2">**</ept> functions on the posted purchase invoice to automatically reverse the involved transactions.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>These functions only work for unpaid invoices, and they do not support partial returns or cancellations.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Correct or Cancel Unpaid Purchase Invoices<ept id="p1">](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Typically, you create a purchase credit memo or purchase return order in reaction to a credit memo sent to you by a vendor.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The purchase credit memo or purchase return order functions as your internal documentation of the credit memo process for accounting purposes or to control the shipping of the involved items.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The change may relate to all the products on the original purchase invoice or only to some of the products.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Accordingly, you can partially return received items or demand partial reimbursement of received services.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>In that case, you must edit the information on the purchase credit memo or purchase return order.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>In addition to the original posted purchase invoice, you can apply the purchase credit memo or purchase return order to other purchase documents, for example another posted purchase invoice because you are also returning items delivered with that invoice.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The credit memo posting will also revert any item charges that were assigned to the posted document, so that the item’s value entries are the same as before the item charge was assigned.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Inventory Costing</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>To preserve correct inventory valuation, you typically want to pick return items from inventory at the unit cost that they were purchased at, not at their current unit cost.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>This is referred to as exact cost reversing.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Two functions exist to assign exact cost reversing automatically.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Function</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Get Posted Document Lines to Reverse<ept id="p1">**</ept> function in the <bpt id="p2">**</bpt>Purchase Return Order<ept id="p2">**</ept> window</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Copies lines of one or more posted documents to be reversed into the purchase return order.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>For more information, see the "To create a purchase return order, and related purchase credit memo, for on one or more a posted purchase invoices" section.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Copy Document<ept id="p1">**</ept> function in the <bpt id="p2">**</bpt>Purchase Credit Memo<ept id="p2">**</ept> and <bpt id="p3">**</bpt>Purchase Return Order<ept id="p3">**</ept> windows</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Copies both the header and lines of one posted document to be reversed.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Requires that the <bpt id="p1">**</bpt>Exact Cost Reversing Mandatory<ept id="p1">**</ept> check box is selected in the <bpt id="p2">**</bpt>Purchases &amp; Payables Setup<ept id="p2">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>To assign exact cost reversing manually, you must choose the <bpt id="p1">**</bpt>Appl.-from Item Entry<ept id="p1">**</ept> field on any type of return document line, and then select the number of the original purchase entry.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>This links the purchase credit memo or purchase return order to the original purchase sales entry and ensures that the item is valued at the original unit cost.</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Design Details: Inventory Costing<ept id="p1">](design-details-inventory-costing.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>To create a purchase credit memo from a posted purchase invoice</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Posted Purchase Invoices<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Posted Purchase Invoices<ept id="p1">**</ept> window, select the posted purchase invoice that you want to reverse, and then choose the <bpt id="p2">**</bpt>Create Corrective Credit Memo<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Most fields on the purchase credit memo header are filled with the information from the posted purchase invoice.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>You can edit all the fields, for example with new information that reflects the return agreement.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Edit information on the lines according to the agreement, such as the number of items returned or the amount to be reimbursement.</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Apply Entries<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Apply Vendor Entries<ept id="p1">**</ept> window, select the line with the posted purchase document that you want to apply the purchase credit memo to, and then choose the <bpt id="p2">**</bpt>Applies-to ID<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The number of the purchase credit memo is inserted in the <bpt id="p1">**</bpt>Applies-to ID<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Amount to Apply<ept id="p1">**</ept> field, enter the amount that you want to apply if smaller than the original amount.</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>At the bottom of the <bpt id="p1">**</bpt>Apply Vendor Entries<ept id="p1">**</ept> window, you can see the total amount to apply to reverse all involved entries, namely when the value in the <bpt id="p2">**</bpt>Balance<ept id="p2">**</ept> field is zero.</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>When you post the purchase credit memo, it will be applied to the specified posted purchase documents.</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>When you have created or edited the needed purchase credit memo lines and the single or multiple applications are specified, you can proceed to post the purchase credit memo.</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Post<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The posted purchase invoices that you apply the credit memo to are now reversed.</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>If you have already paid the original invoice, the vendor should now refund the payment to you.</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>If the credit memo is only for part of the product on the original invoice, you may only pay the remaining amount on the original purchase invoice to close it.</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The purchase credit memo is removed and replaced with a new document in the list of posted purchase credit memos.</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>To create a purchase credit memo by copying a posted purchase invoice</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Purchase Credit Memos<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>New<ept id="p1">**</ept> action to open a new empty purchase credit memo.</source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Vendor<ept id="p1">**</ept> field, enter the name of an existing vendor.</source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Copy Document<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Copy Purchase Document<ept id="p1">**</ept> window, in the <bpt id="p2">**</bpt>Document Type<ept id="p2">**</ept> field, select <bpt id="p3">**</bpt>Posted Invoice<ept id="p3">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Document No.<ept id="p1">**</ept> field to open the <bpt id="p2">**</bpt>Posted Purchase Invoices<ept id="p2">**</ept> window, and then select the posted purchase invoice that contains lines that you want to reverse.</source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>Recalculate Lines<ept id="p1">**</ept> check box if you want the copied posted purchase invoice lines to be updated with any changes in item price and unit cost since the invoice was posted.</source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The copied invoice lines are inserted in the purchase credit memo.</source>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Complete the purchase credit memo as explained in the "To create a purchase credit memo from a posted purchase invoice" section in this topic.</source>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>To create a purchase return order based on one or more a posted purchase documents</source>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Purchase Return Orders<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>New<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Fill in the fields on the <bpt id="p1">**</bpt>General<ept id="p1">**</ept> FastTab as necessary.</source>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Lines<ept id="p1">**</ept> FastTab, fill the lines manually, or copy information from other documents to fill the lines automatically:</source>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Use the <bpt id="p1">**</bpt>Get Posted Document Lines to Reverse<ept id="p1">**</ept> function to copy one or more posted document lines from one or more posted documents.</source>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>This function always exactly reverses the costs from the posted document line.</source>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>This function is described in the following steps.</source>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Use the <bpt id="p1">**</bpt>Copy Document<ept id="p1">**</ept> function to copy an existing document to the return order.</source>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Use this function to copy the entire document.</source>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>It can be either a posted document or a document that is not yet posted.</source>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>This function only enables exact cost reversing when the <bpt id="p1">**</bpt>Exact Cost Reversing Mandatory<ept id="p1">**</ept> check box is selected in the <bpt id="p2">**</bpt>Sales and Receivables Setup<ept id="p2">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Get Posted Document Lines to Reverse<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>At the top of the <bpt id="p1">**</bpt>Posted Purchase Document Lines<ept id="p1">**</ept> window, select the <bpt id="p2">**</bpt>Show Reversible Lines Only<ept id="p2">**</ept> check box if you want to see only lines that have quantities that have not yet been returned.</source>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>For example, if a posted purchase invoice quantity has already been returned, you may not want to include that quantity on a new purchase return document.</source>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>This field only works for posted receipts and posted invoice lines, not for posted return or posted credit memo lines.</source>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>At the left side of the window, the different document types are listed, and the number in brackets shows the number of documents available of each document type.</source>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Document Type Filter<ept id="p1">**</ept> field, select the type of posted document lines you would like to use.</source>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Select the lines that you would like to copy to the new document.</source>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>If you use Ctrl+A to select all lines, all lines within the filter you have set are copied, but the <bpt id="p1">**</bpt>Show Reversible Quantity Only<ept id="p1">**</ept> filter is ignored.</source>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>For example, suppose you have filtered the lines to a particular document number with two lines, one of which has already been returned.</source>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Even if the <bpt id="p1">**</bpt>Show Reversible Quantity Only<ept id="p1">**</ept> field is selected, if you press Ctrl+A to copy all lines, both lines are copied, instead of only the one that has not yet been reversed.</source>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button to copy the lines to the new document.</source>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The following processes occur:</source>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>For posted document lines of the type <bpt id="p1">**</bpt>Item<ept id="p1">**</ept>, a new document line is created that is a copy of the posted document line, with the quantity that has not yet been reversed.</source>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Appl.-to Item Entry<ept id="p1">**</ept> field is filled in as appropriate with the number of the item ledger entry of the posted document line.</source>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>For posted document lines that are not of the type <bpt id="p1">**</bpt>Item<ept id="p1">**</ept>, such as item charges, a new document line is created that is a copy of the original posted document line.</source>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Calculates the <bpt id="p1">**</bpt>Unit Cost (LCY)<ept id="p1">**</ept> field on the new line from the costs on the corresponding item ledger entries.</source>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>If the copied document is a posted shipment, posted receipt, posted return receipt, or posted return shipment, the unit price is calculated automatically from the item card.</source>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>If the copied document is a posted invoice or credit memo, the unit price, invoice discounts, and line discounts from the posted document line are copied.</source>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>If the posted document line contains item tracking lines, the <bpt id="p1">**</bpt>Appl.-to Item Entry<ept id="p1">**</ept> field on the item tracking lines is filled with the appropriate item ledger entry numbers from the posted item tracking lines.</source>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>When you copy from a posted invoice or posted credit memo, the program copies any relevant invoice discounts and line discounts as valid at the time of posting that document from the posted document line to the new document line.</source>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Be aware, however, that if the <bpt id="p1">**</bpt>Calc. Inv. Discount<ept id="p1">**</ept> option is activated in the <bpt id="p2">**</bpt>Purchases &amp; Payables Setup<ept id="p2">**</ept> window, then the invoice discount will be newly calculated when you post the new document line.</source>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The line amount for the new line may therefore be different than the line amount for the posted document line, depending on the new calculation of the invoice discount.</source>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>If part of the quantity of the posted document line has already been reversed or sold or consumed, a line is created for only the quantity that remains in inventory or that has not been returned.</source>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>If the full quantity of the posted document line has already been reversed, a new document line is not created.</source>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>If the flow of goods in the posted document is the same as the flow of goods in the new document, a copy of the original posted document line in the new document is created.</source>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Appl.-from Item Entry<ept id="p1">**</ept> field is not filled in because, in this case, exact cost reversing is not possible.</source>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>For example, if you use the <bpt id="p1">**</bpt>Get Posted Document Lines to Reverse<ept id="p1">**</ept> function to get a posted purchase credit memo line for a new purchase credit memo, only the original posted credit memo line is copied to the new credit memo.</source>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Purchase Return Order<ept id="p1">**</ept> window, in the <bpt id="p2">**</bpt>Return Reason Code<ept id="p2">**</ept> field on each line, select the reason for the return.</source>
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Post<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>To create a replacement purchase order from a purchase return order</source>
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>You may agree with your vendor that they compensate you for a purchased item by replacing the item.</source>
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The replacement item can be the same or it can be different.</source>
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>This situation could occur if the vendor mistakenly shipped the wrong item.</source>
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Purchase Return Order<ept id="p1">**</ept> window for an active return process, on an empty line, make a negative entry for the replacement item by inserting a negative amount in the <bpt id="p2">**</bpt>Quantity<ept id="p2">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Move Negative Lines<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Move Negative Purchase Lines<ept id="p1">**</ept> window, fill in the fields as necessary.</source>
+        </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>The negative line is deleted from the purchase return order, and a new purchase order is created.</source>
+        </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Record Purchases<ept id="p1">](purchasing-how-record-purchases.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>To create a purchase allowance</source>
+        </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>If you receive items from your vendor that are not what you wanted, for example, if they are slightly damaged, the wrong color or the wrong size, the vendor may offer you a purchase allowance.</source>
+        </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>You can post this reduced purchase cost as an item charge on a credit memo or return order and link it to the posted receipt.</source>
+        </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>The following describes it for a purchase return order, but the same steps apply to a purchase credit memo.</source>
+        </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Purchase Credit Memos<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>New<ept id="p1">**</ept> action to open a new empty purchase credit memo.</source>
+        </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Fill in the credit memo header with information about the vendor who sent you the purchase allowance.</source>
+        </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Lines<ept id="p1">**</ept> FastTab, in the <bpt id="p2">**</bpt>Type<ept id="p2">**</ept> field, select <bpt id="p3">**</bpt>Charge (Item)<ept id="p3">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>No.<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>field, select the appropriate item charge value.</source>
+        </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>You may want to create a special item charge number to cover purchase allowances.</source>
+        </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Quantity<ept id="p1">**</ept> field, enter <bpt id="p2">**</bpt>1<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Direct Unit Cost<ept id="p1">**</ept> field, enter the amount of the purchase allowance.</source>
+        </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Assign the purchase allowance as an item charge to the items in the posted receipt.</source>
+        </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Use Item Charges to Account for Additional Trade Costs<ept id="p1">](payables-how-assign-item-charges.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>When you have assigned the allowance, return to the <bpt id="p1">**</bpt>Purchase Credit Memo<ept id="p1">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>When you post the purchase return order, the purchase allowance is added to the relevant purchase entry amount.</source>
+        </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>In this way, you can maintain accurate inventory valuation.</source>
+        </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>To combine return shipments</source>
+        </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>If you want to return items covered by different purchase return orders to the same vendor, then you can use the <bpt id="p1">**</bpt>Combine Return Shipments<ept id="p1">**</ept> function.</source>
+        </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>When you ship the items, you post the related purchase return orders as shipped and this creates posted purchase return shipments.</source>
+        </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>When you are ready to invoice these items, instead of invoicing each purchase return order separately, you can create a purchase credit memo and automatically copy the posted purchase return shipment lines to this document.</source>
+        </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Then you can post the purchase credit memo and conveniently invoice all the open purchase return orders at the same time.</source>
+        </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>When return shipments are combined on a credit memo and posted, then a posted purchase credit memo is created for the invoiced lines.</source>
+        </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Quantity Invoiced<ept id="p1">**</ept> field on the originating purchase return order is updated based on the invoiced quantity.</source>
+        </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>However, this original purchase return order is not deleted, even if it has been fully received and invoiced, and you must therefore delete the purchase return order manually.</source>
+        </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>The following procedure assumes that there are several purchase return orders for the vendor, and that they have been posted as shipped.</source>
+        </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Purchase Credit Memos<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>New<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>General<ept id="p1">**</ept> FastTab, fill in the fields as necessary.</source>
+        </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Get Return Shipment Lines<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Select multiple return shipment lines that you want to include in the invoice.</source>
+        </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>If an incorrect return shipment line was selected or you want to start over, you can just delete the lines on the purchase credit memo and then use the <bpt id="p1">**</bpt>Get Return Shipment Lines<ept id="p1">**</ept> function again.</source>
+        </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Post<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>To remove open purchase return orders after combined return shipment posting</source>
+        </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Delete Invoiced Purchase Return Orders<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>Fill in the fields as necessary, and then choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>Alternatively, delete the individual purchase return orders manually.</source>
+        </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Purchasing<ept id="p1">](purchasing-manage-purchasing.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Record Purchases<ept id="p1">](purchasing-how-record-purchases.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Correct or Cancel Unpaid Purchase Invoices<ept id="p1">](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Working with <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph><ept id="p1">](ui-work-product.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

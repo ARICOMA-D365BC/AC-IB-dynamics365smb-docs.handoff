@@ -1,0 +1,759 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="ui-enter-date-ranges.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-435fba6" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">54466c381bbeb3653a239920c00dd6f45536d9e3</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\ui-enter-date-ranges.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">454dfe845b0366d3da46157523eb87a350689ca8</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">aa1c33471f345a82bcacb021001905c15675a4bd</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Entering dates and times in Business Central  | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Learn how to enter dates and times including various productivity tips such as shorthand, expressions and ranges.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Filter lists or reports down to specific date or time periods.</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Working with Calendar Dates and Times</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_long_md.md)]</ph> offers multiple ways to enter dates and times, including powerful features that accelerate data entry, or help you write complex calendar expressions.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>There are various places throughout the application where you can enter dates and times in fields.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>For example, on a sales order, you can set the shipment date.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>When filtering lists or report data, you can enter dates and times to pinpoint only the data that you are interested in.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Check your region and language settings</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">[</bpt><bpt id="p2">**</bpt>My Settings<ept id="p2">**</ept><ept id="p1">]</ept><bpt id="p3">(https://businesscentral.dynamics.com?page=9176 "</bpt>Go directly to your user settings page in Business Central<ept id="p3">")</ept> page specifies the <bpt id="p4">**</bpt>Region<ept id="p4">**</ept> and <bpt id="p5">**</bpt>Language<ept id="p5">**</ept> that you are using in the application.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>These settings influence how you enter dates and times.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Region<ept id="p1">**</ept> setting determines how dates, times, numbers, and currencies are shown or formatted.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>For date patterns that involve words, the language of the words that you use must correspond to the <bpt id="p1">**</bpt>Language<ept id="p1">**</ept> setting.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_long_md.md)]</ph> uses the Gregorian calendar system.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Entering Dates</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>In a date field, you can enter a date using the standard format for your region setting.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Different regions can use different separators between the days, months and years.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>For example, some regions use dashes (mm-dd-yyyy) and others use forward slashes (mm/dd/yyyy).</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>However, you can use any separators, even a space, and the date will automatically be changed to use separators that match your region.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Note that the format in which dates are displayed on printed reports or emailed documents is not influenced by your personal choice of region setting.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>To work more productively with dates and times, you can use any of the methods or formats that are described in the following sections.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Picking dates from the calendar</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Any field displaying a calendar icon can be set using the calendar date picker.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>To display the calendar date picker, activate the calendar icon or press the Ctrl + Home keyboard shortcut in the field.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">![</bpt>Date fields<ept id="p1">]</ept><bpt id="p2">(media/ui-date-field.png "</bpt>Example of a date field<ept id="p2">")</ept></source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>See also <bpt id="p1">[</bpt>Keyboard Shortcuts in the calendar date picker<ept id="p1">](keyboard-shortcuts.md#calendarshortcuts)</ept></source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Day<ph id="ph1">\-</ph>week<ph id="ph2">\-</ph>year pattern</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>You can enter a date as a weekday followed by a week number and, optionally, a year.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>For example, <ph id="ph1">`Mon25`</ph> or <ph id="ph2">`mon25`</ph> means Monday in week 25.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>If you do not enter a year, the year of the work date is used.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Instead of entering the entire word for the day of the week, you can enter part of the word, starting from the beginning.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>In case of conflicts (such as with <ph id="ph1">`s`</ph> which could be Saturday or Sunday), the days are evaluated according to the region setting.</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The input is first evaluated against <ph id="ph1">`workdate`</ph> and <ph id="ph2">`today`</ph> as well, so keep this in mind when abbreviating.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>For example, <ph id="ph1">`t`</ph> already means today, so it cannot mean Tuesday or Thursday.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The week number scheme is always ISO 8601, where week 1 is the week with 4 January in it, or the week with the first Thursday of the year.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Digit patterns</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>In a date field you can enter two, four, six, or eight digits:</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>If you enter only two digits, this is interpreted as the day, and it will add the month and the year of the work date.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>If you enter four digits, this is interpreted as the day and the month, and it will add the year of the work date.</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The order of the day and month is determined by your region settings.</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Even if your region settings have the year before the day and month, four digits are interpreted as the day and month.</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>If the date you want to enter is in the range 01/01/1930 through 12/31/2029, you can enter the year with two digits; otherwise, enter the year with four digits.</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Today</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Enter the word for <ph id="ph1">`today`</ph>, in the language set by <bpt id="p1">**</bpt>Language<ept id="p1">**</ept> setting, that will set the date to the current date.</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Instead of entering the entire word, you can enter part of the word, starting from the beginning, such as <ph id="ph1">`t`</ph> or <ph id="ph2">`tod`</ph>, as long as it is not also the start of another word.</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Period</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>To filter on a specific accounting period, in a date field enter the letter <ph id="ph1">`p`</ph>, or the word <ph id="ph2">`period`</ph>, followed by a number that identifies the accounting period, like <ph id="ph3">`p2`</ph> or <ph id="ph4">`period4`</ph>.</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The accounting period is relative to the fiscal year of the current work date that set in your Role Center.</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>For example, if the work date is <bpt id="p1">**</bpt>03/21/20<ept id="p1">**</ept>, then <ph id="ph1">`p1`</ph>, or just <ph id="ph2">`p`</ph>, filters on the first accounting period of the fiscal year 2020 (such as <ph id="ph3">`01/01/20..01/31/20`</ph>).</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`p15`</ph> filters on the fifteenth accounting period from the start of fiscal year 2020 (such as <ph id="ph2">`03/01/21..03/31/21`</ph>).</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The accounting periods are defined on the <bpt id="p1">**</bpt>Accounting Periods<ept id="p1">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>To view or change the accounting periods, open the page <bpt id="p1">[</bpt>here<ept id="p1">](https://businesscentral.dynamics.com/?page=100)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Current work date</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The work date feature allows you to record transactions using a date that is different from the current date.</source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The word for 'workdate', in the language set by <bpt id="p1">**</bpt>Language<ept id="p1">**</ept> setting, will set the date to the currently set work date that is specified on the <bpt id="p2">[</bpt><bpt id="p3">**</bpt>My Settings<ept id="p3">**</ept><ept id="p2">]</ept><bpt id="p4">(https://businesscentral.dynamics.com?page=9176 "</bpt>Go directly to your user settings page in Business Central<ept id="p4">")</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Instead of entering the entire word, you can enter part of the word, starting from the beginning, such as 'w' or 'work'.</source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>If you have not defined a work date, the current date will be used as the work date.</source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>You may want to use a work date if you have many transactions with a date other than today's date.</source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>See also <bpt id="p1">[</bpt>Changing Basic Settings, such as the Work Date<ept id="p1">](ui-change-basic-settings.md#work-date)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Closing Date</source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>When you close a fiscal year, you can use closing dates to indicate that an entry is a closing entry.</source>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>A closing date technically is between two dates, for example between Dec 31 and Jan 1.</source>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>To specify that a date is a closing date, put <ph id="ph1">`C`</ph> just before the date, such as <ph id="ph2">`C123101`</ph>.</source>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>This can be used in combination with all the date patterns.</source>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Examples</source>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The following table contains examples of dates using all the formats.</source>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>It assumes region settings that format dates according to: <bpt id="p1">**</bpt>year.month.day.<ept id="p1">**</ept>, a week starting on Monday, and the English language.</source>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Entry<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Interpretation<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>2018.12.31.</source>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>2018.12.31.</source>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>2018.12.31.</source>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>2018.12.31.</source>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>2018.12.31.</source>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>2018.12.31.</source>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>work date year.work date month.11.</source>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>work date year.11.12.</source>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`t`</ph> or <ph id="ph2">`today`</ph></source>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>today's date</source>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>date range that includes the fourth accounting period, such as <ph id="ph1">`04/01/20..04/30/20`</ph></source>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`w`</ph> or <ph id="ph2">`workdate`</ph></source>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>the working date</source>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`m`</ph> or <ph id="ph2">`Monday`</ph></source>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Monday of the work date week</source>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`tu`</ph> or <ph id="ph2">`Tuesday`</ph></source>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Tuesday of the work date week</source>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`sa`</ph> or <ph id="ph2">`Saturday`</ph></source>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Saturday of the work date week</source>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`s`</ph> or <ph id="ph2">`Sunday`</ph></source>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Sunday of the work date week</source>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Tuesday of week 23 of the work date year</source>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Tuesday of week 23 of the work date year</source>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Tuesday of week 1 of the work date year</source>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;a name="BKMK_SettingDateRanges"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept> Setting Ranges</source>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>On lists, totals and reports, you can set filters on dates, times and datetimes containing a start value and optionally an end value to display only the data contained in that range.</source>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The standard rules apply to the way you set date ranges.</source>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Meaning<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Sample expression (Date)<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Data included in the filter<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Interval</source>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Records with dates between and including 12 15 00 and 01 15 01.</source>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Records with dates of 12 15 00 or earlier.</source>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Date range that includes the second, third, and fourth accounting periods, such as <ph id="ph1">`01/01/20..04/30/20`</ph>.</source>
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Either/or</source>
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>`12 15 00</source>
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>12 16 00`</source>
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Records with dates of either 12 15 00 or 12 16 00.</source>
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>If there are records with dates on both days, they will all be displayed.</source>
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Combination</source>
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>`12 15 00</source>
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>12 01 00..12 10 00<ph id="ph1">`  \n`</ph>..12 14 00</source>
+        </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>12 30 00..`</source>
+        </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Records with dates of 12 15 00 or on dates between and including 12 01 00 and 12 10 00.</source>
+        </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>\nRecords with dates of 12 14 00 or earlier, or dates of 12 30 00 or later, that is, all records except those with dates between and including 12 15 00 and 12 29 00.</source>
+        </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>You can use any of the valid formats in date range filters.</source>
+        </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>For example, <ph id="ph1">`mon14 3..t 4p`</ph> applied on a datetime field results in a filter from 3 AM on Monday in week 14 of the current work date year, inclusive, until today at 4PM, inclusive.</source>
+        </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Using Date Formulas</source>
+        </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>A date formula is a short, abbreviated combination of letters and numbers that specifies how to calculate dates.</source>
+        </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>You can enter date formulas in various date calculation fields or filters.</source>
+        </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>In all data formula fields, one day is automatically included to cover today as the day when the period starts.</source>
+        </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Accordingly, for example, if you enter <ph id="ph1">`1W`</ph>, then the period is actually eight days because today is included.</source>
+        </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>To specify a period of seven days <ph id="ph1">\(</ph>one true week<ph id="ph2">\)</ph> including the period starting date, then you must enter <ph id="ph3">`6D`</ph> or <ph id="ph4">`1W-1D`</ph>.</source>
+        </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Here are some examples of how date formulas can be used:</source>
+        </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>The date formula in the recurring frequency field in recurring journals determines how often the entry on the journal line will be posted.</source>
+        </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>The date formula in the <bpt id="p1">**</bpt>Grace Period<ept id="p1">**</ept> field for a specified reminder level determines the period of time that must pass from the due date <ph id="ph1">\(</ph>or from the date of the previous reminder<ph id="ph2">\)</ph> before a reminder will be created.</source>
+        </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>The date formula in the <bpt id="p1">**</bpt>Due Date Calculation<ept id="p1">**</ept> field determines how to calculate the due date on the reminder.</source>
+        </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>The date formula can contain a maximum of 20 characters, both numbers and letters.</source>
+        </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>You can use the following letters, which are abbreviations for calendar units.</source>
+        </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Letter</source>
+        </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Meaning</source>
+        </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Current</source>
+        </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Day<ph id="ph1">\(</ph>s<ph id="ph2">\)</ph></source>
+        </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Week<ph id="ph1">\(</ph>s<ph id="ph2">\)</ph></source>
+        </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Month<ph id="ph1">\(</ph>s<ph id="ph2">\)</ph></source>
+        </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Quarter<ph id="ph1">\(</ph>s<ph id="ph2">\)</ph></source>
+        </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Year<ph id="ph1">\(</ph>s<ph id="ph2">\)</ph></source>
+        </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>You can construct a date formula in three ways.</source>
+        </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>The following example shows how to use <ph id="ph1">`C`</ph>, for current, and a time unit.</source>
+        </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Expression</source>
+        </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Meaning</source>
+        </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Current week</source>
+        </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Current month</source>
+        </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>The following example shows how to use a number and a time unit.</source>
+        </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>A number cannot be larger than 9999.</source>
+        </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Expression</source>
+        </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Meaning</source>
+        </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>10 days from today</source>
+        </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>2 weeks from today</source>
+        </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>The following example shows how to use a time unit and a number.</source>
+        </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Expression</source>
+        </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>Meaning</source>
+        </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>The next 10th day of a month</source>
+        </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>The next 4th day of a week <ph id="ph1">\(</ph>Thursday<ph id="ph2">\)</ph></source>
+        </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>The following example shows how you can combine these three forms as needed.</source>
+        </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>Expression</source>
+        </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>Meaning</source>
+        </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>Current month <ph id="ph1">\+</ph> 10 days</source>
+        </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>The following example shows how you can use a minus sign to indicate a date in the past.</source>
+        </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>Expression</source>
+        </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>Meaning</source>
+        </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>1 year ago from today</source>
+        </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>If the location uses a base calendar, then the date formula that you enter in, for example, the <bpt id="p1">**</bpt>Shipping Time<ept id="p1">**</ept> field is interpreted according to the calendar working days.</source>
+        </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>For example, <ph id="ph1">`1W`</ph>  means seven working days.</source>
+        </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>Entering Times</source>
+        </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>When you enter times, you can insert any non-space separators that you want between the units, but if you use double digits for each unit up to milliseconds, then it is not required.</source>
+        </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>You only have to write the largest units that you require; the rest will be set to zero.</source>
+        </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>You can also leave out any AM/PM indicator.</source>
+        </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>The following table lists the various ways in which times can be entered and how they are interpreted.</source>
+        </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>It assumes region settings that format times according to: <bpt id="p1">**</bpt>Hours:Minutes:Seconds.Milliseconds.<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>and use the AM and PM indicators of 'AM' and 'PM', respectively.</source>
+        </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Entry<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Interpretation<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>05:23:17</source>
+        </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>05:00:00</source>
+        </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>05:00:00</source>
+        </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>17:00:00</source>
+        </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>12:00:00</source>
+        </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>00:00:00</source>
+        </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>12:00:00</source>
+        </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>17:00:00</source>
+        </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>05:30:00</source>
+        </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>05:30:00</source>
+        </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>05:30:05</source>
+        </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>05:30:05</source>
+        </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>05:30:05.5</source>
+        </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>05:30:05.05</source>
+        </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>You should be aware that milliseconds are interpreted as decimal notation.</source>
+        </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>So, for example, <ph id="ph1">`3`</ph>, <ph id="ph2">`30`</ph>, and <ph id="ph3">`300`</ph> all mean 300 milliseconds, while <ph id="ph4">`03`</ph> means <ph id="ph5">`30`</ph> and <ph id="ph6">`003`</ph> means 3 milliseconds.</source>
+        </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>You cannot use <ph id="ph1">`24:00`</ph> to mean midnight, or use any value greater than 24:00.</source>
+        </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>The word for 'time' in the language used by <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_long_md.md)]</ph> will be evaluated to the current time on your computer or mobile device.</source>
+        </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>You can enter any part of the word, starting from the beginning, such as <ph id="ph1">`t`</ph> or <ph id="ph2">`TIM`</ph>.</source>
+        </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>Entering combined Dates and Times</source>
+        </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>When you enter datetimes, which are a date and time combined into one field, you must enter a space between the date and the time.</source>
+        </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>The date part can only contain spaces in the form of the official date separator of your region settings.</source>
+        </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>The time can contain spaces around the AM/PM indicator.</source>
+        </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>It is also possible to enter only a date in a datetime field, but it is not possible to enter only a time.</source>
+        </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>The following table lists some examples of date/time combinations.</source>
+        </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>The region settings in the examples displays dates in the day<ph id="ph1">\-</ph>month<ph id="ph2">\-</ph>year format, using AM/PM designators, English language, and Sunday as the start of the week.</source>
+        </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Entry<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Interpretation<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>08<ph id="ph1">\-</ph>01<ph id="ph2">\-</ph>2016 05:48:12 PM</source>
+        </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>13<ph id="ph1">\-</ph>12<ph id="ph2">\-</ph>2002 13:24:55</source>
+        </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>01<ph id="ph1">\-</ph>12<ph id="ph2">\-</ph>2002 10:00:00</source>
+        </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>01<ph id="ph1">\-</ph>12<ph id="ph2">\-</ph>2002 05:00:00</source>
+        </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>01<ph id="ph1">\-</ph>12<ph id="ph2">\-</ph>2002 00:00:00</source>
+        </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>11<ph id="ph1">\-</ph>work date month<ph id="ph2">\-</ph>work date year 12:00:00</source>
+        </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>11<ph id="ph1">\-</ph>12<ph id="ph2">\-</ph>work date year 12:00:00</source>
+        </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`t`</ph> or <ph id="ph2">`today`</ph></source>
+        </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>today's date 00:00:00</source>
+        </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>today's date 10:30:00</source>
+        </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>today's date 03:03:03</source>
+        </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`w`</ph> or <ph id="ph2">`workdate`</ph></source>
+        </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>the working date 00:00:00</source>
+        </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`m`</ph> or <ph id="ph2">`Monday`</ph></source>
+        </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>Monday of the work date week 00:00:00</source>
+        </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`tu`</ph> or <ph id="ph2">`Tuesday`</ph></source>
+        </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>Tuesday of the work date week 00:00:00</source>
+        </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`sa`</ph> or <ph id="ph2">`Saturday`</ph></source>
+        </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>Saturday of the work date week 00:00:00</source>
+        </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`s`</ph> or <ph id="ph2">`Sunday`</ph></source>
+        </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>Sunday of the work date week 00:00:00</source>
+        </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>Tuesday of the work date week 10:30:00</source>
+        </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>Tuesday of the work date week 03:03:03</source>
+        </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>Tuesday of week 23 of the work date year, current time of day</source>
+        </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>Tuesday of week 23 of the work date year</source>
+        </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>Today 23:00:00</source>
+        </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>Tuesday of week 1 of the work date year</source>
+        </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>Entering Duration</source>
+        </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>Some fields in the application represent a duration, or amount of elapsed time, instead of a specific date or time.</source>
+        </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>You enter a duration as a number followed by its unit of measure.</source>
+        </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>Here are some examples.</source>
+        </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Duration<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Unit of measure<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>2 hrs</source>
+        </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>6 hrs 30 mins</source>
+        </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>6 hrs 30 mins</source>
+        </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source>1 hr 30 mins</source>
+        </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source>2 days 6 hrs 30 mins</source>
+        </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve">
+          <source>2 days 6 hrs 30 mins 56 secs 600 msecs</source>
+        </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source>You can also enter a number, which will be automatically converted to a duration.</source>
+        </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source>The number you enter is converted according to the default unit of measure that has been specified for the duration field.</source>
+        </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source>To see what unit of measure is being used in a duration field, enter a number and see which unit of measure it is converted to.</source>
+        </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve">
+          <source>For example, if the unit of measure is hours, the number <ph id="ph1">`5`</ph> is converted to 5 hrs.</source>
+        </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Working with <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_long_md.md)]</ph><ept id="p1">](ui-work-product.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Date Calculation for Purchases<ept id="p1">](purchasing-date-calculation-for-purchases.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Entering Criteria in Filters <ept id="p1">](ui-enter-criteria-filters.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

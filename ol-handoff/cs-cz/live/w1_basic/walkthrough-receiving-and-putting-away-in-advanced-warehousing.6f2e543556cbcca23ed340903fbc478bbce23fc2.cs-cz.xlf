@@ -1,0 +1,453 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="walkthrough-receiving-and-putting-away-in-advanced-warehousing.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-8cf0045" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8d9ce13690a1db0e06d3ea204b0c95ac7cb21d33</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\walkthrough-receiving-and-putting-away-in-advanced-warehousing.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6482ae45256290f6691a112ef88f58b0acdc0325</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d0e28bbd44660763c18a5c5fb497a08407c9ae79</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Receiving and Putting Away in Advanced Warehousing | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>In Business Central, the inbound processes for receiving and putting away can be performed in four ways using different functionalities depending on the warehouse complexity level.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Walkthrough: Receiving and Putting Away in Advanced Warehouse Configurations</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: This walkthrough must be performed on a demonstration company with the <bpt id="p2">**</bpt>Full Evaluation - Complete Sample Data<ept id="p2">**</ept> option, which is available in the Sandbox environment.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Creating a Sandbox Environment<ept id="p1">](across-how-create-sandbox-environment.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>In <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>, the inbound processes for receiving and putting away can be performed in four ways using different functionalities depending on the warehouse complexity level.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Method</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Inbound process</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Bins</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Receipts</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Put-aways</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Complexity level (See <bpt id="p1">[</bpt>Design Details: Warehouse Setup<ept id="p1">](design-details-warehouse-setup.md)</ept>)</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>A</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Post receipt and put-away from the order line</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>X</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>2</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>B</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Post receipt and put-away from an inventory put-away document</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>X</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>3</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>C</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Post receipt and put-away from a warehouse receipt document</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>X</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>4/5/6</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>D</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Post receipt from a warehouse receipt document and post put-away from a warehouse put-away document</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>X</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>X</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>4/5/6</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Design Details: Inbound Warehouse Flow<ept id="p1">](design-details-inbound-warehouse-flow.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The following walkthrough demonstrates method D in the previous table.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>About This Walkthrough</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>In advanced warehouse configurations where your location is set up to require receiving processing in addition to put-away processing, you use the <bpt id="p1">**</bpt>Warehouse Receipt<ept id="p1">**</ept> page to record and post the receipt of items on multiple inbound orders.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>When the warehouse receipt is posted, one or more warehouse put-away documents are created to instruct warehouse workers to take the received item and place them in designated places according to bin setup or in other bins. The specific placement of the items is recorded when the warehouse put-away is registered.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The inbound source document can be a purchase order, sales return order, inbound transfer order, or assembly or production order with output that is ready to be put away.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>If the receipt is created from an inbound order, more than one inbound source document can be retrieved for the receipt.</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>By using this method you can register many items arriving from different inbound orders with one receipt.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>This walkthrough demonstrates the following tasks.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Setting up WHITE location for receiving and putting away.</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Creating and releasing two purchase orders for full warehouse handling.</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Creating and posting a warehouse receipt document for multiple purchase order lines from specific vendors.</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Registering a warehouse put-away for the received items.</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Roles</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>This walkthrough demonstrates tasks that are performed by the following user roles:</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Warehouse Manager</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Purchasing Agent</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Receiving Staff</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Warehouse Worker</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Prerequisites</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>To complete this walkthrough, you will need:</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>CRONUS International Ltd. installed.</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>To make yourself a warehouse employee at WHITE location by following these steps:</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Warehouse Employees<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>User ID<ept id="p1">**</ept> field, and select your own user account on the <bpt id="p2">**</bpt>Users<ept id="p2">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Location Code<ept id="p1">**</ept> field, enter WHITE.</source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>Default<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Story</source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Ellen, the warehouse manager at CRONUS International Ltd., creates two purchase orders for accessory items from vendors 10000 and 20000 to be delivered to WHITE warehouse.</source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>When the deliveries arrive at the warehouse, Sammy, who is responsible for receiving items from vendors 10000 and 20000, uses a filter to create receipt lines for purchase orders arriving from the two vendors.</source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Sammy posts the items as received into inventory in one warehouse receipt and makes the items available for sale or other demand.</source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>John, the warehouse worker, takes the items from the receiving bin and puts them away.</source>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>He puts all units away in their default bins, except 40 out of 100 received hinges that he puts away in the assembly department by splitting the put-away line.</source>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>When John registers the put-away, the bin contents are updated and the items are made available for picking from the warehouse.</source>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Reviewing the WHITE Location Setup</source>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The setup of the <bpt id="p1">**</bpt>Location Card<ept id="p1">**</ept> page defines the company’s warehouse flows.</source>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>To review the location setup</source>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Locations<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Open the WHITE location card.</source>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Note on the <bpt id="p1">**</bpt>Warehouse<ept id="p1">**</ept> FastTab that the <bpt id="p2">**</bpt>Directed Put-away and Pick<ept id="p2">**</ept> check box is selected.</source>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>This means that the location is set up for the highest complexity level, reflected by the fact that all warehouse handling check boxes on the FastTab are selected.</source>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Note on the <bpt id="p1">**</bpt>Bins<ept id="p1">**</ept> FastTab that bins are specified in the <bpt id="p2">**</bpt>Receipt Bin Code<ept id="p2">**</ept> and the <bpt id="p3">**</bpt>Shipment Bin Code<ept id="p3">**</ept> fields.</source>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>This means that when you create a warehouse receipt, this bin code is copied to the header of the warehouse receipt document by default and to the lines of the resulting warehouse put-aways.</source>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Creating the Purchase Orders</source>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Purchase orders are the most common type of inbound source document.</source>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>To create the purchase orders</source>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Purchase Orders<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>New<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Create a purchase order for vendor 10000 on the work date (January 23) with the following purchase order lines.</source>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Item</source>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Location code</source>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Quantity</source>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>70200</source>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>WHITE</source>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>100 PCS</source>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>70201</source>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>WHITE</source>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>50 PCS</source>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Proceed to notify the warehouse that the purchase order is ready for warehouse handling when the delivery arrives.</source>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Release<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Proceed to create the second purchase order.</source>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>New<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Create a purchase order for vendor 20000 on the work date with the following purchase order lines.</source>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Item</source>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Location code</source>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Quantity</source>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>70100</source>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>WHITE</source>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>10 CAN</source>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>70101</source>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>WHITE</source>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>12 CAN</source>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Release<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The deliveries of items from vendors 10000 and 20000 have arrived at WHITE warehouse, and Sammy starts to process the purchase receipts.</source>
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Receiving the Items</source>
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Warehouse Receipt<ept id="p1">**</ept> page, you can manage multiple inbound orders for source documents, such as a purchase order.</source>
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>To receive the items</source>
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Warehouse Receipts<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>New<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Location Code<ept id="p1">**</ept> field, enter WHITE.</source>
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Use Filters to Get Src. Docs.<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Code<ept id="p1">**</ept> field, enter <bpt id="p2">**</bpt>ACCESSORY<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Description<ept id="p1">**</ept> field, enter <bpt id="p2">**</bpt>Vendors 10000 and 20000<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Modify<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Purchase<ept id="p1">**</ept> FastTab, in the <bpt id="p2">**</bpt>Buy-from Vendor No. Filter<ept id="p2">**</ept> field, enter <bpt id="p3">**</bpt>10000&amp;#124;20000<ept id="p3">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Run<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>The warehouse receipt is filled with four lines representing purchase order lines for the specified vendors.</source>
+        </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Qty. to Receive<ept id="p1">**</ept> field is filled because you did not select the <bpt id="p2">**</bpt>Do not Fill Qty. to Handle<ept id="p2">**</ept> check box on the <bpt id="p3">**</bpt>Filters to Get Source Docs.<ept id="p3">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Optionally, if you want to use a filter as described earlier in this section, choose the <bpt id="p1">**</bpt>Get Source Document<ept id="p1">**</ept> action, and then select purchase orders from the vendors in question.</source>
+        </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Post Receipt<ept id="p1">**</ept> action, and then choose the <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Positive item ledger entries are created reflecting the posted purchase receipts of accessories from vendors 10000 and 20000, and the items are ready to be put away in the warehouse from the receiving bin.</source>
+        </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Putting the Items Away</source>
+        </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Warehouse Put-away<ept id="p1">**</ept> page, you can manage put-aways for a specific warehouse receipt document covering multiple source documents.</source>
+        </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Like all warehouse activity documents, each item on the warehouse put-away is represented by a Take line and a Place line.</source>
+        </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>In the following procedure, the bin code on the Take lines is the default receiving bin at WHITE location, W-08-0001.</source>
+        </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>To put the items away</source>
+        </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Put-Aways<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Select the only warehouse put-away document in the list, and then on the <bpt id="p1">**</bpt>Home<ept id="p1">**</ept> tab, in the <bpt id="p2">**</bpt>Manage<ept id="p2">**</ept> group, choose <bpt id="p3">**</bpt>Edit<ept id="p3">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>The warehouse put-away document opens with a total of eight Take or Place lines for the four purchase order lines.</source>
+        </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>The warehouse worker is told that 40 hinges are needed in the assembly department, and he proceeds to split the single Place line to specify a second Place line for bin W-02-0001 in the assembly department where he places that part of the received hinges.</source>
+        </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Select the second line on the <bpt id="p1">**</bpt>Warehouse Put-away<ept id="p1">**</ept> page, the Place line for item 70200.</source>
+        </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Qty. to Handle<ept id="p1">**</ept> field, change the value from 100 to 60.</source>
+        </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Lines<ept id="p1">**</ept> FastTab, choose <bpt id="p2">**</bpt>Functions<ept id="p2">**</ept>, and then choose <bpt id="p3">**</bpt>Split Line<ept id="p3">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>A new line is inserted for item 70200 with 40 in <bpt id="p1">**</bpt>Qty. to Handle<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Bin Code<ept id="p1">**</ept> field, enter W-02-0001.</source>
+        </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Zone Code<ept id="p1">**</ept> field is automatically filled.</source>
+        </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Proceed to register the put-away.</source>
+        </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Register Put-Away<ept id="p1">**</ept> action, and then choose the <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>The received accessories are now put-away in the items’ default bins, and 40 hinges are placed in the assembly department.</source>
+        </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>The received items are now available for picking to internal demand, such as assembly orders, or to external demand, such as sales shipments.</source>
+        </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Put Items Away with Warehouse Put-aways<ept id="p1">](warehouse-how-to-put-items-away-with-warehouse-put-aways.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Move Items in advanced warehouse configurations<ept id="p1">](warehouse-how-to-move-items-in-advanced-warehousing.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Design Details: Inbound Warehouse Flow<ept id="p1">](design-details-inbound-warehouse-flow.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations<ept id="p1">](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Business Process Walkthroughs<ept id="p1">](walkthrough-business-process-walkthroughs.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

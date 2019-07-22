@@ -1,0 +1,207 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="about-develop-extensions.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-5ae97a8" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">796f48a719b30ce54752eb8ab02386f964c2e7b8</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\about-develop-extensions.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">303d6ab65027fa831e73935b6fb5531f3d9bde00</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0a7a19b7b61d0ee51c84e8b117e08fa7011ba6ae</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Customize Dynamics 365 Business Central | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Build, showcase, and promote your apps and extensions for Business Central.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Extending <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph></source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Microsoft <ph id="ph1">[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]</ph> is a business management solution that helps companies connect their financials, sales, service, and operations to streamline business processes, improve customer interactions, and make better decisions.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> is available in the cloud and to users across various multiple types of devices, which is always up-to-date.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>With this modern business platform you can easily and quickly tailor, extend, and build applications so they fit your specific needs — with little to no code development.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>There are plenty of benefits of using <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> as a platform for App builders, which includes:</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Get started with confidence through a seamless onboarding experience</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Use Microsoft’s Go-To-Market services</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Customize your app listing page</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Connect directly with decision-makers and reach more customers</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Enhance business value and increase deal size with existing and new customers</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Achieve more with a platform that delivers a modern experience and offers scale</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Get actionable insights on the performance of your listings via the Cloud Partner Portal or the Office app publishing process</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Bundle with intelligent business apps such as PowerApps, Flow, Power BI, Cortana Intelligence, and many more</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Bring your <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> services to Microsoft AppSource as:</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Individual Apps<ept id="p1">**</ept> – where you bring your industry expertise to market.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Packaged Consulting Services<ept id="p1">**</ept> – where you bring ready-made packaged engagements to market.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The new development tools enable to you to build extensions for <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> users.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>If you want to familiarize yourself with the new tools or learn about extensions 2.0, have a look at <bpt id="p1">[</bpt>aka.ms/GetStartedWithApps<ept id="p1">](https://aka.ms/GetStartedWithApps)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Find information on apps and consulting services that are currently available on <bpt id="p1">[</bpt>Microsoft AppSource<ept id="p1">](https://appsource.microsoft.com/en-us/marketplace/consulting-services?country=US&amp;page=1)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>To help business users get started quickly, Microsoft has added a catalog of consulting services offerings for solutions based on <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>, Power BI, and PowerApps to AppSource.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Learn more about the <bpt id="p1">[</bpt>Consulting Services<ept id="p1">](/dynamics-nav/developer/readiness/readiness-consulting)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Choosing which Services to Offer with <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph></source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Integrate a 3rd Party Solution</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> exposes many ready-to-use APIs for <bpt id="p1">[</bpt>Connect apps<ept id="p1">](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-connect-apps)</ept> to make a seamless integration between your service and <ph id="ph2">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>You can bundle your services with a <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> and give your customers an integrated experience.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Learn more about <bpt id="p1">[</bpt>Integrating a 3rd Party Solution<ept id="p1">](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-thirdparty-solution)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Development of a Vertical Solution</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Create an app that is specialized within a specific industry.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>With <bpt id="p1">[</bpt>Embed app<ept id="p1">](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-embed-apps)</ept>, you can extend and customize the existing <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> application and enrich the end-user experience with an industry specific functionality using the new and modern development tools and Extensions version 2.0.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Learn more about the <bpt id="p1">[</bpt>Development of a Vertical Solution<ept id="p1">](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-vertical)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Development of a Horizontal Solution</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Extend the experience and capability of <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> by creating an <bpt id="p1">[</bpt>Add-on app<ept id="p1">](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-add-on-apps)</ept> which integrates into user experience of <ph id="ph2">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Build an interface based on how you want your data to flow between <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> and your services.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Learn more about the <bpt id="p1">[</bpt>Development of a Horizontal Solution<ept id="p1">](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-horizontal)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Development of a Localization Solution</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Comply with local regulatory capabilities by developing for <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>, which adapts functional areas to the requirements of the local market along with <bpt id="p1">[</bpt>Dynamics 365 Translation Service<ept id="p1">](/dynamics365/unified-operations/dev-itpro/lifecycle-services/translation-service-overview)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Align the core capabilities of local legal requirement and extend existing functionality to successfully compete on your local market.</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Learn more about the <bpt id="p1">[</bpt>Development of a Localization Solution<ept id="p1">](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Reseller Solution</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Since every business is unique, with <bpt id="p1">[</bpt>Customizing Tenants<ept id="p1">](/dynamics-nav/developer/readiness/readiness-customizing-tenants)</ept>, you can match how you work with your streamlined processes, your terminology, and how your employees or departments connect and collaborate.</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Additionally, you can choose to resell and adjust <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> to the individual needs of your customers by providing <bpt id="p1">[</bpt>Consulting Services<ept id="p1">](/dynamics-nav/developer/readiness/readiness-consulting)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Or, use Microsoft Flow, Power Apps, and Power BI to create <bpt id="p1">[</bpt>Customized Workflows<ept id="p1">](/dynamics-nav/developer/readiness/readiness-no-code)</ept>, apps and business insight reports without having to write any code.</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Learn more about <bpt id="p1">[</bpt>Dynamics 365 Reseller (VARs)<ept id="p1">](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-reseller)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Where do I Learn more?</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>To learn more about the Microsoft AppSource consulting services offerings, select the following links:</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>AppSource Consulting Offerings<ept id="p1">](https://appsource.microsoft.com/en-us/marketplace/consulting-services?country=US&amp;page=1)</ept></source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Partner Eligibility<ept id="p1">](https://smp-cdn-prod.azureedge.net/documents/Microsoft%20AppSource%20Partner%20Listing%20Guidelines.pdf)</ept></source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Partner Nomination Form<ept id="p1">](https://appsource.microsoft.com/en-us/partners/list-consulting-service)</ept></source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The Ready to Go Program</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The Ready to Go program is designed to support you in bringing your <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> offering into Microsoft Appsource.</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The program includes:</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Online learning<ept id="p1">](https://aka.ms/ReadyToGoOnlineLearning)</ept></source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Training and workshops<ept id="p1">](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-ready-to-go)</ept></source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Microsoft Collaborate platform<ept id="p1">](https://aka.ms/Collaborate)</ept></source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Learn more on how you can build a <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> offering in the <bpt id="p1">[</bpt>Ready to Go program<ept id="p1">](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-ready-to-go)</ept> details.</source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>If you have questions or feedback about the <bpt id="p1">**</bpt>Ready to Go<ept id="p1">**</ept> program offering, you can <bpt id="p2">[</bpt>contact us<ept id="p2">](mailto:dyn365bep@microsoft.com)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> Extensions Provided by Microsoft</source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The standard version of the product includes an increasing number of extensions developed by Microsoft.</source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Customizing <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> Using Extensions<ept id="p1">](ui-extensions.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Getting Started<ept id="p1">](product-get-started.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

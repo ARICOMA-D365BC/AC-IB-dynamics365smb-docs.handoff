@@ -1,0 +1,144 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="about-locale-language.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-435fba6" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">218b1b825501d64bef9d65640f922e690df3108f</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\about-locale-language.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8818b1bccfa1a5fd80e71ae693baee5d65cdb90c</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4dd02e02b7667780e058b41051d70145a3f2d109</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Multilanguage and Localization | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Learn how language and locale influence your experience in Business Central.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Changing Language and Locale</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> is supported in a number of markets and available in the languages that those markets require.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>This is a result of support for multiple languages at runtime in combination with support for legal requirements in the supported markets.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>This means that <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> can present itself in different languages.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You can change the language that is used to display texts, and the change is immediate, once you have been automatically signed out and in again.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The setting applies to you and not to everyone else in your company.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>For example, if you are using the Canadian version of <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>, you can see the user interface in English and in French, but it is still the Canadian version of <ph id="ph2">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> in all other aspects.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>It is not the same as, say, <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> in the United Kingdom.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>To change the language of the user interface, go to the <bpt id="p1">**</bpt>My Settings<ept id="p1">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Changing Basic Settings<ept id="p1">](ui-change-basic-settings.md#language)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Changing the texts that are stored as application data is not part of the multilanguage capability.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>This is an application design issue.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Examples of such texts are the names of items in the inventory or the comments for a customer.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>In other words, these types of text are not translated.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> only supports a single character set for data.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Therefore some characters may not be supported in your tenant, and you may experience problems when retrieving data that was entered using a different character set.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>For instance, your tenant may support only English and Russian characters and if you enter data in a different language, it may not be stored correctly.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>You should contact your system administrator to make sure you understand which languages are supported for your <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Changing the Locale</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Locale is different from both language and legal requirements in local markets.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Locale determines how your data presents itself in terms of comma separator, aligned to the left or to the right, and certain other settings.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The locale also determines some of the system elements in the browser, such as the action to create a new item in a list, for example.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>You can change the locale in the browser tab that you are using to work in <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>the change applies only to you and not to the other users in your company.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>When you change the locale, you will see a long list of languages and locales.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>However, only the locale setting is used in the current version of <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>To change the locale, go to the <bpt id="p1">**</bpt>My Settings<ept id="p1">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Changing Basic Settings<ept id="p1">](ui-change-basic-settings.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Languages of the <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> Help</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The Help content for the core functionality in <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> publishes to the Microsoft Docs site and available in a number of different languages.</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>If you access the docs from inside <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>, the content will display in your language.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>If a particular page is not available in your language yet, it will be shown in English.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>How Do I Change the Language?</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>It's simple - scroll to the bottom of the browser page and choose the globe symbol in the bottom left corner.</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The list shows all languages that are supported by the Microsoft Docs site.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> is available in a limited number of countries/regions, but the Help content is made available in more languages.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>However, the Help content is not available in all languages that the Microsoft Docs site supports.</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Changing Basic Settings<ept id="p1">](ui-change-basic-settings.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Getting Started<ept id="p1">](product-get-started.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

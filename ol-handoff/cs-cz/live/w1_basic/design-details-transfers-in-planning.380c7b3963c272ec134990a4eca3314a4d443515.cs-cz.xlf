@@ -1,0 +1,390 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="design-details-transfers-in-planning.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-435fba6" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dbf1658893d5210c38994302ae817afa7349884a</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\design-details-transfers-in-planning.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1256947573861f8545e928f0550336aa2db1e1fc</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2cfe195d17da6878a94c99f7bca50c17a186b892</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Design Details - Transfers in Planning | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>This topic describes how to use transfer orders as a source of supply when planning inventory levels.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Design Details: Transfers in Planning</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Transfer orders are also a source of supply when working at the SKU level.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>When using multiple locations (warehouses), the SKU replenishment system can be set to Transfer, implying that the location is replenished by transferring goods from another location.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>In a situation with more warehouses, companies might have a chain of transfers where supply to GREEN location is transferred from YELLOW, and supply to YELLOW is transferred from RED and so on.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>In the beginning of the chain, there is a replenishment system of Prod. Order or Purchase.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">![</bpt>Example of transfer flow<ept id="p1">]</ept><bpt id="p2">(media/nav_app_supply_planning_7_transfers1.png "</bpt>Example of transfer flow<ept id="p2">")</ept></source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>When comparing the situation where a supply order is directly facing a demand order to a situation where the sales order is supplied through a chain of SKU transfers, it is obvious that the planning task in the latter situation can become very complex.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>If demand changes, it might cause a ripple effect through the chain, because all transfer orders plus the purchase/production order in the opposite end of the chain will have to be manipulated to reestablish balance between demand and supply.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">![</bpt>Example of supply/demand balance in transfers<ept id="p1">]</ept><bpt id="p2">(media/nav_app_supply_planning_7_transfers2.png "</bpt>Example of supply/demand balance in transfers<ept id="p2">")</ept></source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Why is Transfer a Special Case?</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>A transfer order looks much like any other order in the program.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>However, behind the scene it is very different.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>One fundamental aspect that makes transfers in planning different from purchase and production orders is that a transfer line represents demand and supply at the same time.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The outbound part, which is shipped from the old location, is demand.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The inbound part, which is to be received at the new location, is supply at that location.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">![</bpt>Content of the Transfer Order page<ept id="p1">]</ept><bpt id="p2">(media/nav_app_supply_planning_7_transfers3.png "</bpt>Content of the Transfer Order page<ept id="p2">")</ept></source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>This means that when the system manipulates the supply side of the transfer, it must make a similar change on the demand side.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Transfers are Dependent Demand</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The related demand and supply has some resemblance with components of a production order line, but the difference is that components will be on the next planning level and with a different item, whereas the two parts of the transfer is situated on the same level, for the same item.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>An important similarity is that just as components are dependent demand, so is the transfer demand.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The demand from a transfer line is dictated by the supply side of the transfer in the sense that if the supply is changed, the demand is directly affected.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Unless the planning flexibility is None, a transfer line should never be treated as independent demand in planning.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>In the planning procedure, the transfer demand should only be taken into account after the supply side has been processed by the planning system.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Before this, the actual demand is not known.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The sequence of the changes made is therefore very important when it comes to transfer orders.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Planning Sequence</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The following illustration shows what a string of transfers could look like.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">![</bpt>Example of simple transfer flow<ept id="p1">]</ept><bpt id="p2">(media/nav_app_supply_planning_7_transfers4.png "</bpt>Example of simple transfer flow<ept id="p2">")</ept></source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>In this example, a customer orders the item at location GREEN.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Location GREEN is supplied through transfer from the central warehouse RED.</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The central warehouse RED is supplied by transfer from production on location BLUE.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>In this example, the planning system will start at the customer demand and work its way backwards through the chain.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The demands and supplies will be processed one location at a time.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">![</bpt>Supply planning with transfers<ept id="p1">]</ept><bpt id="p2">(media/nav_app_supply_planning_7_transfers5.png "</bpt>Supply planning with transfers<ept id="p2">")</ept></source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Transfer Level Code</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The sequence in which the locations are processed in the planning system is determined by the transfer level code of the SKU.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The transfer level code is an internal field which is automatically calculated and stored on the SKU when SKU is created or modified.</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The calculation runs across all SKUs for a given combination of Item/Variant and uses the location code and the transfer-from code to determine the route the planning will have to use when traversing through the SKUs to ensure that all demands are processed.</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The transfer level code will be 0 for SKUs with replenishment system Purchase or Prod. Order and will be -1 for the first transfer level, -2 for the second and so on.</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>In the transfer chain described above, the levels would therefore be -1 for RED and -2 for GREEN, as shown in the following illustration.</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">![</bpt>Content of SKU Card page<ept id="p1">]</ept><bpt id="p2">(media/nav_app_supply_planning_7_transfers6.gif "</bpt>Content of SKU Card page<ept id="p2">")</ept></source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>When updating a SKU, the planning system will detect if SKUs with replenishment system Transfer are set up with circular references.</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Planning Transfers without SKU</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Even if the SKU feature is not used, it is possible to use locations and make manual transfers between locations.</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>For companies with less advanced warehouse setup, the planning system supports scenarios where existing inventory is transferred manually to another location, for example to cover a sales order at that location.</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>At the same time, the planning system should react to changes in the demand.</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>To support manual transfers, the planning will analyze existing transfer orders and then plan the order in which the locations should be processed.</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Internally, the planning system will operate with temporary SKUs carrying transfer level codes.</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">![</bpt>Transfer level code<ept id="p1">]</ept><bpt id="p2">(media/nav_app_supply_planning_7_transfers7.png "</bpt>Transfer level code<ept id="p2">")</ept></source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>If more transfers to a given location exist, the first transfer order will define the planning direction.</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Transfers running in the opposite direction will be canceled.</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Changing Quantity with Reservations</source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>When changing quantities on existing supply, the planning system takes reservations into account in the sense that the reserved quantity represents the lower limit for how much the supply can be reduced.</source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>When changing the quantity on an existing transfer order line, keep in mind that the lower limit will be defined as the highest reserved quantity of the outbound and inbound transfer line.</source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>For example, if a transfer order line of 117 pieces is reserved against a sales line of 46 and a purchase line of 24, it is not possible to reduce the transfer line below 46 pieces even though this might represent excess supply on the inbound side.</source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">![</bpt>Reservations in transfer planning<ept id="p1">]</ept><bpt id="p2">(media/nav_app_supply_planning_7_transfers8.png "</bpt>Reservations in transfer planning<ept id="p2">")</ept></source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Changing Quantity in a Transfer Chain</source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>In the following example, the starting point is a balanced situation with a transfer chain supplying a sales order of 27 on location RED with a corresponding purchase order on location BLUE, transferred via location PINK.</source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Therefore, apart from sales and purchase, there are two transfer orders: BLUE-PINK and PINK-RED.</source>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">![</bpt>Changing the quantity in transfer planning 1<ept id="p1">]</ept><bpt id="p2">(media/nav_app_supply_planning_7_transfers9.png "</bpt>Changing the quantity in transfer planning 1<ept id="p2">")</ept></source>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Now the planner at PINK location chooses to reserve against the purchase.</source>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">![</bpt>Changing the quantity in transfer planning 2<ept id="p1">]</ept><bpt id="p2">(media/nav_app_supply_planning_7_transfers10.png "</bpt>Changing the quantity in transfer planning 2<ept id="p2">")</ept></source>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>This usually means that the planning system will ignore the purchase order and the transfer demand.</source>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>As long as there is balance, there is no problem.</source>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>But what happens when the customer at RED location partly regrets his order and changes it to 22?</source>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">![</bpt>Changing the quantity in transfer planning 3<ept id="p1">]</ept><bpt id="p2">(media/nav_app_supply_planning_7_transfers11.png "</bpt>Changing the quantity in transfer planning 3<ept id="p2">")</ept></source>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>When the planning system runs again, it should get rid of excess supply.</source>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>However, the reservation will lock the purchase and the transfer to a quantity of 27.</source>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">![</bpt>Changing the quantity in transfer planning 4<ept id="p1">]</ept><bpt id="p2">(media/nav_app_supply_planning_7_transfers12.png "</bpt>Changing the quantity in transfer planning 4<ept id="p2">")</ept></source>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The PINK-RED transfer has been reduced to 22.</source>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The inbound part of the BLUE-PINK transfer is not reserved, but because the outbound part is reserved it is not possible to reduce the quantity below 27.</source>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Lead Time Calculation</source>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>When calculating the due date of a transfer order different kinds of lead time will be taken into account.</source>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The lead times that are active when planning a transfer order are:</source>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Outbound Warehouse Handling Time</source>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Shipping Time</source>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Inbound Warehouse Handling Time</source>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>On the planning line, the following fields are used to provide information about the calculation.</source>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Transfer Shipment Date</source>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Starting Date</source>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Ending Date</source>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Due Date</source>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The shipment date of the transfer line will be shown in the Transfer Shipment Date field, and the receipt date of the transfer line will be shown in the Due Date field.</source>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The starting and ending dates will be used to describe the actual transportation period.</source>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The following illustration shows the interpretation of the starting date-time and ending date-time on planning lines related to transfer orders.</source>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">![</bpt>Central date-times in transfer planning<ept id="p1">]</ept><bpt id="p2">(media/nav_app_supply_planning_7_transfers13.png "</bpt>Central date-times in transfer planning<ept id="p2">")</ept></source>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>In this example, it means that:</source>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Shipment date + Outbound handling = Starting Date</source>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Starting Date + Shipping time = Ending Date</source>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Ending Date + Inbound Handling = Receipt Date</source>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Safety Lead Time</source>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The Default Safety Lead Time field in the Manufacturing Setup page and the related Safety Lead Time field on the item card will not be taken into account in the calculation of a transfer order.</source>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>However, the safety lead time will still influence the total plan like it will affect the replenishment order (purchase or production) in the beginning of the transfer chain when the items are put on the location from which they will be transferred.</source>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">![</bpt>Elements of the transfer due date<ept id="p1">]</ept><bpt id="p2">(media/nav_app_supply_planning_7_transfers14.png "</bpt>Elements of the transfer due date<ept id="p2">")</ept></source>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>On the production order line, the Ending Date + Safety Lead Time + Inbound Warehouse Handling Time = Due Date.</source>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>On the purchase order line, the Planned Receipt Date + Safety Lead Time + Inbound Warehouse Handling Time = Expected Receipt Date.</source>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Reschedule</source>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>When rescheduling an existing transfer line, the planning system must look up the outbound part and change the date-time on this.</source>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>It is important to note that if lead time has been defined, there will be a gap between the shipment and the receipt.</source>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>As mentioned, the lead time can consist of more elements, such as transportation time and warehouse handling time.</source>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>On a time line, the planning system will move back in time while it balances the elements.</source>
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">![</bpt>Changing the due date in transfer planning<ept id="p1">]</ept><bpt id="p2">(media/nav_app_supply_planning_7_transfers15.png "</bpt>Changing the due date in transfer planning<ept id="p2">")</ept></source>
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Therefore, when changing the due date on a transfer line, the lead time must be calculated in order to update the outbound side of the transfer.</source>
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Serial/Lot Numbers in Transfer Chains</source>
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>If the demand carries serial/lot numbers, and the planning engine is run, it will give rise to some directly created transfer orders.</source>
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>For more information about this concept, see Item Attributes.</source>
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>If, however, serial/lot numbers are removed from the demand, the created transfer orders in the chain will still carry the serial/lot numbers and will therefore be ignored by planning (not deleted).</source>
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Order-to-Order Links</source>
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>In this example, BLUE SKU is set up with the Order reordering policy, while PINK and RED use Lot-for-Lot.</source>
+        </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>When a sales order of 27 is created on location RED, it will lead to a chain of transfers with the last joint at location BLUE being reserved with binding.</source>
+        </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>In this example, the reservations are not hard reservations created by the planner at PINK location, but bindings created by the planning system.</source>
+        </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>The important difference is that the planning system can change the latter.</source>
+        </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">![</bpt>Order-to-order links in transfer planning<ept id="p1">]</ept><bpt id="p2">(media/nav_app_supply_planning_7_transfers16.png "</bpt>Order-to-order links in transfer planning<ept id="p2">")</ept></source>
+        </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>If demand is changed from 27 to 22, the system will lower the quantity down through the chain, with the binding reservation also being reduced.</source>
+        </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Design Details: Planning Parameters<ept id="p1">](design-details-planning-parameters.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Design Details: Planning Assignment Table<ept id="p1">](design-details-planning-assignment-table.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Design Details: Handling Reordering Policies<ept id="p1">](design-details-handling-reordering-policies.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Design Details: Demand at Blank Location<ept id="p1">](design-details-demand-at-blank-location.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Design Details: Central Concepts of the Planning System<ept id="p1">](design-details-central-concepts-of-the-planning-system.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Design Details: Balancing Demand and Supply<ept id="p1">](design-details-balancing-demand-and-supply.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Design Details: Supply Planning<ept id="p1">](design-details-supply-planning.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,477 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="across-how-to-set-up-electronic-document-sending-and-receiving.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-435fba6" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">42b56cee413dbb08f3421e95afe49c8ea1aaac03</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\across-how-to-set-up-electronic-document-sending-and-receiving.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">29b945ece79cd183ad24943fe06c53a18bf8d928</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f61274e563556a60955d97a11a053a853ebe2233</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>How to Set Up Electronic Document Sending and Receiving | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>As an alternative to emailing as file attachments, you can send and receive business documents electronically.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Set Up Electronic Document Sending and Receiving</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>As an alternative to emailing as file attachments, you can send and receive business documents electronically.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>By electronic document is meant a standard<ph id="ph1">\-</ph>compliant file representing a business document, such as an invoice from a vendor that can be received and converted to a purchase invoice in <ph id="ph2">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The exchange of electronic documents between two trading partners is performed by an external provider of document exchange services.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The generic version of <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> supports sending and receiving electronic invoices and credit memos in the PEPPOL format, which is supported by the largest providers of document exchange services.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>A major provider of document exchange services is preconfigured and ready to be set up for your company.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>From PDF or image files representing incoming documents, you can have an external OCR service (Optical Character Recognition) create electronic documents that you can then convert to document records in <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>, like for electronic PEPPOL documents.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>For example, when you receive an invoice in PDF format from your vendor, you can send it to the OCR service from the <bpt id="p1">**</bpt>Incoming Documents<ept id="p1">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>After a few seconds, you receive the file back as an electronic invoice that can be converted to a purchase invoice for the vendor.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>If you send the file to the OCR service by email, then a new incoming document record is automatically created when you receive the electronic document back.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>PEPPOL<ept id="p1">**</ept> electronic document format is preconfigured to enable you to send electronic invoices and credit memos in the PEPPOL format.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>First, you must set up various master data, such as company information, customers, items, and units of measure.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>These are used to identify the business partners and items when converting data in fields in <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> to elements in the outgoing document file.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Last, you must select the format on the <bpt id="p1">**</bpt>Electronic Document Format<ept id="p1">**</ept> page for each customer who you will send electronic PEPPOL documents to.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Send Electronic Documents<ept id="p1">](sales-how-to-send-electronic-documents.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>PEPPOL – Invoice<ept id="p1">**</ept> and <bpt id="p2">**</bpt>PEPPOL – Credit Memo<ept id="p2">**</ept> data exchange definitions are preconfigured to enable you to receive electronic invoices and credit memos in the PEPPOL format.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>First, you must set up various master data, such as company information, vendors, items, and units of measure.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>These are used to identify the business partners and items when converting data in elements in the incoming document file to fields in <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Last, you must select the data exchange definition on the <bpt id="p1">**</bpt>Incoming Documents<ept id="p1">**</ept> page for each incoming electronic document that you want to convert to a purchase document in <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>OCR – Invoice<ept id="p1">**</ept> data exchange definition is preconfigured to enable you to receive electronic documents that are generated by the OCR service.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>To receive, for example, an invoice as an electronic OCR document, you set up master date and then process the document just as when receiving an electronic PEPPOL document.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Use OCR to Turn PDF and Image Files into Electronic Documents<ept id="p1">](across-how-use-ocr-pdf-images-files.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The preconfigured services for document exchange and OCR must be enabled before you send or receive.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Set Up a Document Exchange Service<ept id="p1">](across-how-to-set-up-a-document-exchange-service.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The topic contains the following procedures:</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>To set up the company for electronic document sending and receiving</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>To set up VAT posting for electronic document sending and receiving</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>To set up countries/regions for electronic document sending and receiving</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>To set up items for electronic document sending and receiving</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>To set up units of measure for electronic document sending and receiving</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>To set up customers for electronic document sending</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>To select the <bpt id="p1">**</bpt>PEPPOL<ept id="p1">**</ept> electronic document format for electronic document sending</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>To set up vendors for electronic document receiving</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>To select the <bpt id="p1">**</bpt>PEPPOL – Invoice<ept id="p1">**</ept> data exchange definition for electronic document receiving</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>To set up the G/L account to use on new purchase invoice lines for non<ph id="ph1">\-</ph>identifiable items and non<ph id="ph2">\-</ph>items</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>To set up the company for electronic document sending and receiving</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Search<ept id="p1">**</ept> box, enter <bpt id="p2">**</bpt>Company Information<ept id="p2">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>General<ept id="p1">**</ept> FastTab, fill the fields as described in the following table.</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Field</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>GLN<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Identify your company.</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>For example, when you send electronic invoices in the PEPPOL format, the value in this field is used to populate the <bpt id="p1">**</bpt>EndPointID<ept id="p1">**</ept> element under the <bpt id="p2">**</bpt>AccountingSupplierParty<ept id="p2">**</ept> node in the file.</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The number is based on the GS1 standard, which is compliant with ISO 6523.</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>VAT Registration No.<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Specify your company’s VAT registration number.</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Responsibility Center<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>If your company is set up with a responsibility center, make sure that the <bpt id="p1">**</bpt>Country/Region Code<ept id="p1">**</ept> field is filled.</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>To set up VAT posting for electronic document sending and receiving</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Search<ept id="p1">**</ept> box, enter <bpt id="p2">**</bpt>VAT Posting Setup<ept id="p2">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>For each VAT posting setup line that you will use for electronic documents, fill the field as described in the following table.</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Field</source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Tax Category<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Specify the VAT category.</source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>For example, when you send electronic invoices in the PEPPOL format, the value in this field is used to populate the <bpt id="p1">**</bpt>TaxApplied<ept id="p1">**</ept> element under the <bpt id="p2">**</bpt>AccountingSupplierParty<ept id="p2">**</ept> node in the file.</source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The number is based on the UNCL5305 standard.</source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>To set up countries/regions for electronic document sending and receiving</source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Search<ept id="p1">**</ept> box, enter <bpt id="p2">**</bpt>Country/Regions<ept id="p2">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>For each country/region that you will exchange electronic documents with, fill the field as described in the following table.</source>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Field</source>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>VAT Scheme<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Identify the national body that issues the VAT registration number for the country<ph id="ph1">\/</ph>region in connection with electronic document sending.</source>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>For example, when you send electronic invoices in the PEPPOL format, the value in this field is used to populate the <bpt id="p1">**</bpt>SchemeID<ept id="p1">**</ept> attribute for the <bpt id="p2">**</bpt>EndPointID<ept id="p2">**</ept> element under both the <bpt id="p3">**</bpt>AccountingSupplierParty<ept id="p3">**</ept> node and the <bpt id="p4">**</bpt>AccountingCustomerParty<ept id="p4">**</ept> in the file.</source>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>VAT Scheme<ept id="p1">**</ept> field is only used if the <bpt id="p2">**</bpt>GLN<ept id="p2">**</ept> field on the <bpt id="p3">**</bpt>Company Information<ept id="p3">**</ept> page is not filled.</source>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept>  The value in the <bpt id="p2">**</bpt>Code<ept id="p2">**</ept> field on the <bpt id="p3">**</bpt>Countries<ph id="ph1">\/</ph>Regions<ept id="p3">**</ept> page must comply with ISO 3166<ph id="ph2">\-</ph>1:Alpha2.</source>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>To set up items for electronic document sending and receiving</source>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Search<ept id="p1">**</ept> box, enter <bpt id="p2">**</bpt>Items<ept id="p2">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>For each item that you buy or sell on electronic documents, fill the field as described in the following table.</source>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Field</source>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>GTIN<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Identifies the item in connection with electronic document sending and receiving.</source>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>For the PEPPOL format, the field is used as follows:</source>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>If the <bpt id="p1">**</bpt>StandardItemIdentification<ph id="ph1">\/</ph>ID<ept id="p1">**</ept> element has the <bpt id="p2">**</bpt>SchemeID<ept id="p2">**</ept> attribute set to <bpt id="p3">**</bpt>GTIN<ept id="p3">**</ept>, then the element is mapped to the <bpt id="p4">**</bpt>GTIN<ept id="p4">**</ept> field on the item card.</source>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>To set up units of measure for electronic document sending and receiving</source>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Search<ept id="p1">**</ept> box, enter <bpt id="p2">**</bpt>Units of Measure<ept id="p2">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>For each unit of measure that you will use for items on electronic documents, fill the field as described in the following table.</source>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Field</source>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>International Standard Code<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Specify the unit of measure code expressed according to the UNECERec20 standard in connection with sending of electronic documents.</source>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>For example, when you send electronic invoices in the PEPPOL format, the value in this field is used to populate the <bpt id="p1">**</bpt>unitCode<ept id="p1">**</ept> attribute of the <bpt id="p2">**</bpt>InvoicedQuantity<ept id="p2">**</ept> element under the <bpt id="p3">**</bpt>InvoiceLine<ept id="p3">**</ept> node.</source>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept>  If the <bpt id="p2">**</bpt>Unit of Measure<ept id="p2">**</ept> field on the sales line is empty, the UNECERe20 standard value for “Piece” <ph id="ph1">\(</ph>H87<ph id="ph2">\)</ph> is inserted by default.</source>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>For more information and a list of valid unit of measure codes, see <bpt id="p1">[</bpt>Recommendation No. 20 <ph id="ph1">\-</ph> Units of Measure used in International Trade<ept id="p1">](https://www.unece.org/fileadmin/DAM/cefact/recommendations/rec20/rec20_rev3_Annex2e.pdf)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>To set up customers for electronic document sending</source>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Search<ept id="p1">**</ept> box, enter <bpt id="p2">**</bpt>Customers<ept id="p2">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>For each customer who you will send electronic documents to, fill the fields as described in the following table.</source>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Field</source>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>GLN<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Identify the customer.</source>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>For example, when you send electronic invoices in the PEPPOL format, the value in this field is used to populate the <bpt id="p1">**</bpt>EndPointID<ept id="p1">**</ept> element under the <bpt id="p2">**</bpt>AccountingCustomerParty<ept id="p2">**</ept> node in the file.</source>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The number is based on the GS1 standard, which is compliant with ISO 6523.</source>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>If the <bpt id="p1">**</bpt>GLN<ept id="p1">**</ept> field is blank, the value in the <bpt id="p2">**</bpt>VAT Registration No.<ept id="p2">**</ept> field is used.</source>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>VAT Registration No.<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Specify the customer's VAT registration number.</source>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Tip:<ept id="p1">**</ept>  Choose the DrillDown button to use the web service that verifies if the number exists in the country’s company register.</source>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Responsibility Center<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>If the customer is set up with a responsibility center, make sure that the <bpt id="p1">**</bpt>Country/Region Code<ept id="p1">**</ept> field is filled.</source>
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>You can set up each customer with a preferred method of sending business documents, so that you do not have to select a sending option every time that you send a document to the customer.</source>
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Set Up Document Sending Profiles<ept id="p1">](sales-how-setup-document-send-profiles.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>To select the PEPPOL electronic document format for electronic document sending</source>
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Search<ept id="p1">**</ept> box, enter <bpt id="p2">**</bpt>Document Sending Profiles<ept id="p2">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Open an existing document sending profile, or create a new one.</source>
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Set Up Document Sending Profiles<ept id="p1">](sales-how-setup-document-send-profiles.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Document Sending Profile<ept id="p1">**</ept> page, choose the <bpt id="p2">**</bpt>Electronic Format<ept id="p2">**</ept>, select the line for PEPPOL, and then choose <bpt id="p3">**</bpt>OK<ept id="p3">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Electronic Document<ept id="p1">**</ept> field, select <bpt id="p2">**</bpt>Yes (Through Document Exchange Service)<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> automatically detects if the document is an invoice or a credit memo and applies the PEPPOL format accordingly.</source>
+        </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>To make this document sending profile apply to all customers, select the <bpt id="p1">**</bpt>Default<ept id="p1">**</ept> check box on the <bpt id="p2">**</bpt>General<ept id="p2">**</ept> FastTab.</source>
+        </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>To make it apply to specific customers only, fill the <bpt id="p1">**</bpt>Document Sending Profile<ept id="p1">**</ept> field on the customer cards in question.</source>
+        </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Set Up Document Sending Profiles<ept id="p1">](sales-how-setup-document-send-profiles.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>You can now send the electronic document containing the converted data.</source>
+        </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Send Electronic Documents<ept id="p1">](sales-how-to-send-electronic-documents.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>To set up vendors for electronic document receiving</source>
+        </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Search<ept id="p1">**</ept> box, enter <bpt id="p2">**</bpt>Vendors<ept id="p2">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>For each vendor that you will receive electronic documents from, fill the fields as described in the following table.</source>
+        </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Field</source>
+        </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>GLN<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Identify the vendor.</source>
+        </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>For example, when you receive electronic invoices in the PEPPOL format, the value in this field is used to populate the <bpt id="p1">**</bpt>EndPointID<ept id="p1">**</ept> element under the <bpt id="p2">**</bpt>AccountingSupplierParty<ept id="p2">**</ept> node in the file.</source>
+        </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>The number is based on the GS1 standard, which is compliant with ISO 6523.</source>
+        </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>If the <bpt id="p1">**</bpt>GLN<ept id="p1">**</ept> field is blank, the value in the <bpt id="p2">**</bpt>VAT Registration No.<ept id="p2">**</ept> field is used.</source>
+        </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>VAT Registration No.<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Specify the vendor’s VAT registration number.</source>
+        </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Tip:<ept id="p1">**</ept>  Choose the DrillDown button to use the web service that verifies if the number exists in the country’s company register.</source>
+        </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Responsibility Center<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>If the vendor is set up with a responsibility center, make sure that the <bpt id="p1">**</bpt>Country/Region Code<ept id="p1">**</ept> field is filled.</source>
+        </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>To select the PEPPOL - Invoice data exchange definition for electronic document receiving</source>
+        </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Search<ept id="p1">**</ept> box, enter <bpt id="p2">**</bpt>Incoming Documents<ept id="p2">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>On the line for the electronic document that you want to receive and convert, choose the <bpt id="p1">**</bpt>Data Exchange Type<ept id="p1">**</ept> field, and then select <bpt id="p2">**</bpt>PEPPOLINVOICE<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>If the document to receive is a credit memo, select <bpt id="p1">**</bpt>PEPPOLCREDITMEMO<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>You can now receive the electronic document by starting the data conversion process on the <bpt id="p1">**</bpt>Incoming Documents<ept id="p1">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Receive and Convert Electronic Documents<ept id="p1">](purchasing-how-to-receive-and-convert-electronic-documents.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>To set up the G/L account to use on new purchase invoice lines for non-identifiable items and non-items</source>
+        </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Search<ept id="p1">**</ept> box, enter <bpt id="p2">**</bpt>Purchases &amp; Payables Setup<ept id="p2">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Default Accounts<ept id="p1">**</ept> FastTab, fill the field as described in the following table.</source>
+        </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Field</source>
+        </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>G/L Account for Non-Item Lines<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Specifies the G/L account that is automatically inserted on purchase lines that are created from electronic documents when the incoming document line does not contain an identifiable item.</source>
+        </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Any incoming document line that does not have a GTIN or the vendor’s item number will be converted to a purchase line of type <bpt id="p1">**</bpt>G/L Account<ept id="p1">**</ept>, and the <bpt id="p2">**</bpt>No.<ept id="p2">**</ept></source>
+        </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>field on the purchase line will contain the account that you select in the <bpt id="p1">**</bpt>G/L Account for Non-Item Lines<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>If you leave the <bpt id="p1">**</bpt>G/L Account for Non-Item Lines<ept id="p1">**</ept> field blank, and the incoming document has lines without identifiable items, then the purchase document will not be created.</source>
+        </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>An error message will instruct you to fill the <bpt id="p1">**</bpt>G/L Account for Non-Item Lines<ept id="p1">**</ept> field before you can complete the task.</source>
+        </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Exchanging Data Electronically<ept id="p1">](across-data-exchange.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Invoice Sales<ept id="p1">](sales-how-invoice-sales.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Record Purchases<ept id="p1">](purchasing-how-record-purchases.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

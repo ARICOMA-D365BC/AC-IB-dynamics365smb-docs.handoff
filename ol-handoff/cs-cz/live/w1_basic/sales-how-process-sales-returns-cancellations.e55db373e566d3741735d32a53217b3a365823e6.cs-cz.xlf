@@ -1,0 +1,588 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="sales-how-process-sales-returns-cancellations.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-15c36f0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2becc74f87e6082fc332d2ee4a013b0f11a3da72</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">financials\sales-how-process-sales-returns-cancellations.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ad03c71c1e8fb1bfda1da38d9ab1e99b683f75bc</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0c6999db64423b3d9a495ca44d8f4846f6d09300</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Using a Sales Credit Memo to Process Sales Returns or Cancellations | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Describes how to create a sales credit memo, directly or through a sales return order, to process a return, cancellation, or reimbursement for items or services you have been received payment for.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Process Sales Returns or Cancellations</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>If a customer wants to return items or be reimbursed for items or services that you have sold and received payment for, you must create and post a sales credit memo that specifies the requested change.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>To include the correct sales invoice information, you can create the sales credit memo directly from the posted sales invoice or you can create a new sales credit memo with copied invoice information.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>If you need more control of the sales return process, such as warehouse documents for the item handling or better overview when receiving items from multiple sales documents with one sales return, then you can create sales return orders.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>A sales return order automatically issues the related sales credit memo and other return-related documents, such as a replacement sales order, if needed.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>For more information, see the "To create a sales return order based on one or more a posted sales documents" section.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>If a posted sales invoice has not yet been paid, then you can use the <bpt id="p1">**</bpt>Correct<ept id="p1">**</ept> or <bpt id="p2">**</bpt>Cancel<ept id="p2">**</ept> functions on the posted sales invoice to reverse transactions.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>These functions work only for unpaid invoices, and they do not support partial returns or cancellations.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Correct or Cancel Unpaid Sales Invoices<ept id="p1">](sales-how-correct-cancel-sales-invoice.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>A return or reimbursement may relate to only some of the items or services on the original sales invoice.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>In that case, you must edit information on the lines on the sales credit memo or sales return order.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>When you post the sales credit memo or sales return order, the sales documents that are affected by the change are reversed and a refund payment can be created for the customer.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Making Payments<ept id="p1">](payables-make-payments.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>In addition to the original posted sales invoice, you can apply the sales credit memo or sales return order to other sales documents, for example another posted sales invoice because the customer is also returning items delivered with that invoice.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>You can send the posted sales credit memo to the customer to confirm the return or cancellation and communicate that the related value will be reimbursed, for example when the items are returned.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The credit memo posting will also revert any item charges that were assigned to the posted document, so that the item’s value entries are the same as before the item charge was assigned.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Inventory Costing</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>To preserve correct inventory valuation, you typically want to put returned items back in inventory at the unit cost that they were sold at, not at their current unit cost.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>This is referred to as exact cost reversing.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Two functions exist to assign exact cost reversing automatically.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Function</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Get Posted Document Lines to Reverse<ept id="p1">**</ept> function in the <bpt id="p2">**</bpt>Sales Return Order<ept id="p2">**</ept> window</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Copies lines of one or more posted documents to be reversed into the sales return order.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>For more information, see the "To create a sales return order, and related sales credit memo, for on one or more a posted sales invoices" section.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Copy Document<ept id="p1">**</ept> function in the <bpt id="p2">**</bpt>Sales Credit Memo<ept id="p2">**</ept> and <bpt id="p3">**</bpt>Sales Return Order<ept id="p3">**</ept> windows</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Copies both the header and lines of one posted document to be reversed.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Requires that the <bpt id="p1">**</bpt>Exact Cost Reversing Mandatory<ept id="p1">**</ept> check box is selected in the <bpt id="p2">**</bpt>Sales &amp; Receivables Setup<ept id="p2">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>To assign exact cost reversing manually, you must choose the <bpt id="p1">**</bpt>Appl.-from Item Entry<ept id="p1">**</ept> field on any type of return document line, and then select the number of the original sales entry.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>This links the sales credit memo or sales return order to the original sales entry and ensures that the item is valued at the original unit cost.</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Design Details: Inventory Costing<ept id="p1">](design-details-inventory-costing.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>To create a sales credit memo from a posted sales invoice</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Posted Sales Invoices<ept id="p3">**</ept>, and the choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Posted Sales Invoices<ept id="p1">**</ept> window, select the posted sales invoice that you want to reverse, and then choose the <bpt id="p2">**</bpt>Create Corrective Credit Memo<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The sales credit memo header contains some information from the posted sales invoice.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>You can edit this, for example, with new information that reflects the return agreement.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Edit information on the lines according to the agreement, such as the number of returned items or the amount to reimburse.</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Apply Entries<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Apply Customer Entries<ept id="p1">**</ept> window, select the line with the posted sales document that you want to apply the sales credit memo to, and then choose the <bpt id="p2">**</bpt>Applies-to ID<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The identifier of the sales credit memo displays in the <bpt id="p1">**</bpt>Applies-to ID<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Amount to Apply<ept id="p1">**</ept> field, enter the amount that you want to apply if it's smaller than the original amount.</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>At the bottom of the <bpt id="p1">**</bpt>Apply Customer Entries<ept id="p1">**</ept> window, you can see the total amount to apply to reverse all involved entries, namely when the value in the <bpt id="p2">**</bpt>Balance<ept id="p2">**</ept> field is zero.</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>When you post the sales credit memo, it is applied to the posted sales documents.</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>After you create or edit sales credit memo lines, and the single or multiple applications are specified, you can post the sales credit memo.</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Post and Send<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Post and Send Confirmation<ept id="p1">**</ept> dialog box opens showing the preferred sending method for the customer.</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>You can change the sending method by choosing the lookup button for the <bpt id="p1">**</bpt>Send Document<ept id="p1">**</ept> to field.</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Set Up Document Sending Profiles<ept id="p1">](sales-how-setup-document-send-profiles.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The posted sales documents that you applied the credit memo to are now reversed, and a refund payment can be created for the customer.</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The sales credit memo is removed and replaced with a new document in the list of posted sales credit memos.</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>To create a sales credit memo by copying a posted sales invoice</source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Sales Credit Memos<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>New<ept id="p1">**</ept> action to open a new empty sales credit memo.</source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Customer<ept id="p1">**</ept> field, enter the name of an existing customer.</source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Copy Document<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Copy Sales Document<ept id="p1">**</ept> window, in the <bpt id="p2">**</bpt>Document Type<ept id="p2">**</ept> field, select <bpt id="p3">**</bpt>Posted Invoice<ept id="p3">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Document No.<ept id="p1">**</ept> field to open the <bpt id="p2">**</bpt>Posted Sales Invoices<ept id="p2">**</ept> window, and then select the posted sales invoice that contains lines that you want to reverse.</source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>Recalculate Lines<ept id="p1">**</ept> check box if you want the copied posted sales invoice lines to be updated with any changes in item price and unit cost since the invoice was posted.</source>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The copied invoice lines are inserted in the sales credit memo.</source>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Complete the sales credit memo as explained in the "To create a sales credit memo from a posted sales invoice" section in this topic.</source>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>To create a sales return order based on one or more a posted sales documents</source>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Sales Return Orders<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>New<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Fill in the fields on the <bpt id="p1">**</bpt>General<ept id="p1">**</ept> FastTab as necessary.</source>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Lines<ept id="p1">**</ept> FastTab, fill the lines manually, or copy information from other documents to fill the lines automatically:</source>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Use the <bpt id="p1">**</bpt>Get Posted Document Lines to Reverse<ept id="p1">**</ept> function to copy one or more posted document lines from one or more posted documents.</source>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>This function always exactly reverses the costs from the posted document line.</source>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>This function is described in the following steps.</source>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Use the <bpt id="p1">**</bpt>Copy Document<ept id="p1">**</ept> function to copy an existing document to the return order.</source>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Use this function to copy the entire document.</source>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>It can be either a posted document or a document that is not yet posted.</source>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>This function only enables exact cost reversing when the <bpt id="p1">**</bpt>Exact Cost Reversing Mandatory<ept id="p1">**</ept> check box is selected in the <bpt id="p2">**</bpt>Sales and Receivables Setup<ept id="p2">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Get Posted Document Lines to Reverse<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>At the top of the <bpt id="p1">**</bpt>Posted Sales Document Lines<ept id="p1">**</ept> window, select the <bpt id="p2">**</bpt>Show Reversible Lines Only<ept id="p2">**</ept> check box if you want to see only lines that have quantities that have not yet been returned.</source>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>For example, if a posted sales invoice quantity has already been returned, you may not want to return that quantity on a new sales return document.</source>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>This field only works for posted shipments and posted invoice lines, not for posted return or posted credit memo lines.</source>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>At the left side of the window, the different document types are listed, and the number in brackets shows the number of documents available of each document type.</source>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Document Type Filter<ept id="p1">**</ept> field, select the type of posted document lines you would like to use.</source>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Select the lines that you would like to copy to the new document.</source>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>If you use Ctrl+A to select all lines, all lines within the filter you have set are copied, but the <bpt id="p1">**</bpt>Show Reversible Quantity Only<ept id="p1">**</ept> filter is ignored.</source>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>For example, suppose you have filtered the lines to a particular document number with two lines, one of which has already been returned.</source>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Even if the <bpt id="p1">**</bpt>Show Reversible Quantity Only<ept id="p1">**</ept> field is selected, if you press Ctrl+A to copy all lines, both lines are copied, instead of only the one that has not yet been reversed.</source>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button to copy the lines to the new document.</source>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The following processes occur:</source>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>For posted document lines of the type <bpt id="p1">**</bpt>Item<ept id="p1">**</ept>, a new document line is created that is a copy of the posted document line, with the quantity that has not yet been reversed.</source>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Appl.-from Item Entry<ept id="p1">**</ept> field is filled in as appropriate with the number of the item ledger entry of the posted document line.</source>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>For posted document lines that are not of the type <bpt id="p1">**</bpt>Item<ept id="p1">**</ept>, such as item charges, a new document line is created that is a copy of the original posted document line.</source>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Calculates the <bpt id="p1">**</bpt>Unit Cost (LCY)<ept id="p1">**</ept> field on the new line from the costs on the corresponding item ledger entries.</source>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>If the copied document is a posted shipment, posted receipt, posted return receipt, or posted return shipment, the unit price is calculated automatically from the item card.</source>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>If the copied document is a posted invoice or credit memo, the unit price, invoice discounts, and line discounts from the posted document line are copied.</source>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>If the posted document line contains item tracking lines, the <bpt id="p1">**</bpt>Appl.-from Item Entry<ept id="p1">**</ept> field on the item tracking lines is filled with the appropriate item ledger entry numbers from the posted item tracking lines.</source>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>When you copy from a posted invoice or posted credit memo, the program copies any relevant invoice discounts and line discounts as valid at the time of posting that document from the posted document line to the new document line.</source>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Be aware, however, that if the <bpt id="p1">**</bpt>Calc. Inv. Discount<ept id="p1">**</ept> option is activated in the <bpt id="p2">**</bpt>Sales &amp; Receivables Setup<ept id="p2">**</ept> window, then the invoice discount will be newly calculated when you post the new document line.</source>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>The line amount for the new line may therefore be different than the line amount for the posted document line, depending on the new calculation of the invoice discount.</source>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>If part of the quantity of the posted document line has already been reversed or sold or consumed, a line is created for only the quantity that remains in inventory or that has not been returned.</source>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>If the full quantity of the posted document line has already been reversed, a new document line is not created.</source>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>If the flow of goods in the posted document is the same as the flow of goods in the new document, a copy of the original posted document line in the new document is created.</source>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Appl.-from Item Entry<ept id="p1">**</ept> field is not filled in because, in this case, exact cost reversing is not possible.</source>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>For example, if you use the <bpt id="p1">**</bpt>Get Posted Document Lines to Reverse<ept id="p1">**</ept> function to get a posted sales credit memo line for a new sales credit memo, only the original posted credit memo line is copied to the new credit memo.</source>
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Sales Return Order<ept id="p1">**</ept> window, in the <bpt id="p2">**</bpt>Return Reason Code<ept id="p2">**</ept> field on each line, select the reason for the return.</source>
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>post<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>To create a replacement sales order from a sales return order</source>
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>You may decide to compensate a customer for an item that you have sold them by replacing the item.</source>
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>You can make a replacement with the same item or a different item.</source>
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>This situation could occur if you mistakenly shipped the wrong item to the customer, for example.</source>
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Sales Return Order<ept id="p1">**</ept> window for an active return process, on an empty line, make a negative entry for the replacement item by inserting a negative amount in the <bpt id="p2">**</bpt>Quantity<ept id="p2">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Move Negative Lines<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Move Negative Sales Lines<ept id="p1">**</ept> window, fill in the fields as necessary.</source>
+        </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>The negative line for the replacement item is deleted from the sales return order and inserted in a new <bpt id="p1">**</bpt>Sales Order<ept id="p1">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Sell Products<ept id="p1">](sales-how-sell-products.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>To create return-related documents from a sales return order</source>
+        </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>You can have replacement sales orders, purchase return orders, and replacement purchase orders created automatically during the sales return process.</source>
+        </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>This is useful, for example, in situations where you want to handle items with warranties provided by vendors.</source>
+        </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Sales Return Order<ept id="p1">**</ept> window for an active return process, choose the <bpt id="p2">**</bpt>Create Return-Related Documents<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Vendor No.<ept id="p1">**</ept> field, enter the number of a vendor if you want to create vendor documents automatically.</source>
+        </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>If a returned item must be returned to the vendor, select the <bpt id="p1">**</bpt>Create Purch. Ret. Order<ept id="p1">**</ept> check box.</source>
+        </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>If a returned item must be ordered from the vendor, select the <bpt id="p1">**</bpt>Create Purchase Order<ept id="p1">**</ept> check box.</source>
+        </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>If a replacement sales order must be created, select the <bpt id="p1">**</bpt>Create Sales Order<ept id="p1">**</ept> check box.</source>
+        </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>To create a restock charge</source>
+        </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>You may decide to charge your customer a restock fee to cover the physical handling costs of returning an item.</source>
+        </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>This could occur if the customer mistakenly ordered the wrong item or changed their mind after receiving the item you sold them, for example.</source>
+        </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>You can post this increased cost as an item charge in a credit memo or a return order and assign it to the posted shipment.</source>
+        </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>The following describes it for a sales return order, but the same steps apply to a sales credit memo.</source>
+        </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Open the <bpt id="p1">**</bpt>Sales Return Order<ept id="p1">**</ept> window for an active return process.</source>
+        </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>On a new line, in the <bpt id="p1">**</bpt>Type<ept id="p1">**</ept> field, select <bpt id="p2">**</bpt>Charge (Item)<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Fill in the fields as for any item charge line.</source>
+        </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Use Item Charges to Account for Additional Trade Costs<ept id="p1">](payables-how-assign-item-charges.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>When you post the sales return order, the restock charge is added to the relevant sales entry amount.</source>
+        </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>In this way, you can maintain accurate inventory valuation.</source>
+        </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>To create a sales allowance</source>
+        </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>You can send a customer a credit memo with a price reduction if the customer has received slightly damaged items or received the items late.</source>
+        </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>You can post this reduced price as an item charge in a credit memo or a return order and assign it to the posted shipment.</source>
+        </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>The following describes it for a sales credit memo, but the same steps apply to a sales return order.</source>
+        </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Sales Credit Memos<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>New<ept id="p1">**</ept> action to open a new empty sales credit memo.</source>
+        </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Fill in the credit memo header with relevant information about the customer that you want to give the sales allowance to.</source>
+        </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Lines<ept id="p1">**</ept> FastTab, in the <bpt id="p2">**</bpt>Type<ept id="p2">**</ept> field, select <bpt id="p3">**</bpt>Charge (Item)<ept id="p3">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>No.<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>field, select the appropriate item charge value.</source>
+        </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>You may want to create a special item charge number to cover sales allowances.</source>
+        </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Quantity<ept id="p1">**</ept> field, enter <bpt id="p2">**</bpt>1<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Unit Price<ept id="p1">**</ept> field, enter the amount of the sales allowance.</source>
+        </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Assign the sales allowance as an item charge to the items in the posted shipment.</source>
+        </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Use Item Charges to Account for Additional Trade Costs<ept id="p1">](payables-how-assign-item-charges.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>When you have assigned the allowance, return to the <bpt id="p1">**</bpt>Sales Credit Memo<ept id="p1">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>When you post the sales return order, the sales allowance is added to the relevant sales entry amount.</source>
+        </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>In this way, you can maintain accurate inventory valuation.</source>
+        </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>To combine return receipts</source>
+        </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>You can combine return receipts if your customer returns several items that are covered by different sales return orders.</source>
+        </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>When you receive the items into your warehouse, post the relevant sales return orders as received.</source>
+        </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>This creates posted return receipts.</source>
+        </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>When you are ready to invoice this customer, instead of invoicing each sales return order separately, you can create a sales credit memo and automatically copy the posted return receipt lines to this document.</source>
+        </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Then you can post the sales credit memo and conveniently invoice all the open sales return orders at once.</source>
+        </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>To combine return receipts, the <bpt id="p1">**</bpt>Combine Shipments<ept id="p1">**</ept> check box must be selected in the <bpt id="p2">**</bpt>Customer Card<ept id="p2">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>To manually combine return receipts</source>
+        </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Sales Credit Memo<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>New<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>General<ept id="p1">**</ept> FastTab, fill in the fields as necessary.</source>
+        </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Get Return Receipt Lines<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>Select the return receipt lines that you want to include in the credit memo:</source>
+        </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>To insert all lines, select all lines, and then choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>To insert specific lines, select the lines, and then choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>If an incorrect shipment line was selected or you want to start over, you can simply delete the lines on the credit memo and re-run the <bpt id="p1">**</bpt>Get Return Receipt Lines<ept id="p1">**</ept> function.</source>
+        </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>Post the invoice.</source>
+        </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>To automatically combine return receipts</source>
+        </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>You can automatically combine return receipts and have the option of automatically posting the credit memos using the  <bpt id="p1">**</bpt>Combine Return Receipts<ept id="p1">**</ept> function.</source>
+        </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Combine Return Receipts<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Combine Return Receipts<ept id="p1">**</ept> window, fill in the fields to select the relevant return receipts.</source>
+        </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>Post Credit Memos<ept id="p1">**</ept> check box.</source>
+        </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>If not, you must manually post the resulting purchase credit memos.</source>
+        </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>To remove a received and invoiced return order</source>
+        </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>When you invoice return receipts in this way, the return orders from which the return receipts were posted still exist, even if they have been fully received and invoiced.</source>
+        </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>When return receipts are combined on a credit memo and posted, a posted sales credit memo is created for the credited lines.</source>
+        </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Quantity Invoiced<ept id="p1">**</ept> field on the originating sales return order is updated based on the invoiced quantity.</source>
+        </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Delete Invoiced Sales Return Orders<ept id="p3">**</ept>, and then select the link.</source>
+        </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>Specify in the <bpt id="p1">**</bpt>No.<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>filter field which return orders to delete.</source>
+        </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>Alternatively, delete individual sales return orders manually.</source>
+        </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Sales<ept id="p1">](sales-manage-sales.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Setting Up Sales<ept id="p1">](sales-setup-sales.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Send Documents by Email<ept id="p1">](ui-how-send-documents-email.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Working with <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph><ept id="p1">](ui-work-product.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,216 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="bi-how-work-account-schedule.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-15c36f0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ee24eaafa87c7a77fe60f39d10b08354c0fefe32</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">financials\bi-how-work-account-schedule.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8e1ae92a5ab37a727fba5694fc917aed1e8a85a9</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">93894a8c749855de670d08875dd859f3b2356a69</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Work with Account Schedules| Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Describes how to use account schedules to create various views and report for analyzing financials performance data.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Work with Account Schedules</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Use account schedules to get insight into the financial data stored in your chart of accounts.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Account schedules analyze figures in G/L accounts, and compare general ledger entries with general ledger budget entries.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The results display in charts on your Role Center, such as the Cash Flow chart.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph> provides a few sample account schedules that you can use right away, or you can set up your own rows and columns to specify the figures to compare.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>For example, you can create account schedules to calculate profit margins on dimensions like departments or customer groups.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You can create as many customized financial statements as you want.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Setting up account schedules requires an understanding of the financial data in the chart of accounts.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>For example, you can view general ledger entries as percentages of budget entries.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>This requires that budgets are created.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Create G/L Budgets<ept id="p1">](finance-how-create-budgets.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Account Categories and Account Schedules</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You can use account categories to change the layout of your financial statements.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>After you set up your account categories in the <bpt id="p1">**</bpt>G/L Account Categories<ept id="p1">**</ept> window, and you choose the <bpt id="p2">**</bpt>Generate Account Schedules<ept id="p2">**</ept> action, the underlying account schedules for the core financial reports are updated.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The next time you run one of these reports, such as the balance statement, new totals and subentries are added, based on your changes.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>The General Ledger and the Chart of Accounts<ept id="p1">](finance-general-ledger.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>To create new account schedules</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>You use account schedules to analyze figures in general ledger accounts or to compare general ledger entries with general ledger budget entries.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>For example, you can view the general ledger entries as percentages of the budget entries.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Account Schedules<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Account Schedule Names<ept id="p1">**</ept> window, choose the <bpt id="p2">**</bpt>New<ept id="p2">**</ept> action to create a new account schedule name.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Fill in the fields as necessary.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Edit Account Schedule<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Account Schedule<ept id="p1">**</ept> window, fill in the fields as necessary.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>When you have created a new account schedule and set up the rows, you must set up columns.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>You can either set them up manually or assign a predefined column layout to your account schedule.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Edit Column Layout Setup<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Column Layout<ept id="p1">**</ept> window, fill in the fields as necessary.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>If you did not assign a default column layout to the account schedule, you must set the columns up manually.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>To create a column that calculates percentages</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Sometimes you may want to include a column in an account schedule to calculate percentages of a total.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>For example, if you have a number of rows that break down sales by dimension, you may want a column to indicate the percentage of total sales that each row represents.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Account Schedules<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Account Schedule Names<ept id="p1">**</ept> window, select an account schedule.</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Edit Account Schedule<ept id="p1">**</ept> action to set up an account schedule row to calculate the total on which the percentages will be based.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Insert a line immediately above the first row for which you want to display a percentage.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Fill in the fields on the line as follows: In the <bpt id="p1">**</bpt>Totaling Type<ept id="p1">**</ept> field, enter <bpt id="p2">**</bpt>Set Base for Percent<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Totaling<ept id="p1">**</ept> field, enter a formula for the total that the percentage will be based on.</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>For example, if row 11 contains the total sales, enter <bpt id="p1">**</bpt>11<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Edit Column Layout Setup<ept id="p1">**</ept> action to set up a column.</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Fill in the fields on the line as follows: In the <bpt id="p1">**</bpt>Column Type<ept id="p1">**</ept> field, select <bpt id="p2">**</bpt>Formula<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Formula<ept id="p1">**</ept> field, enter a formula for the amount that you want to calculate a percentage for, followed by %.</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>For example, if column number N contains the net change, enter <bpt id="p1">**</bpt>N%<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Repeat steps 4 through 7 for each group of rows that you want to break down by percentage.</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>To set up account schedules with overviews</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>You can use an account schedule to create a statement comparing general ledger figures and general leger budget figures.</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Account Schedules<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Account Schedule Names<ept id="p1">**</ept> window, select an account schedule.</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Edit Account Schedule<ept id="p1">**</ept> action</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Account Schedule<ept id="p1">**</ept> window, in the <bpt id="p2">**</bpt>Name<ept id="p2">**</ept> field, select the default account schedule name.</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Insert Accounts<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Select the accounts that you want to include in your statement, and then choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The accounts are now inserted into your account schedule.</source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>If you want you can also change the column layout.</source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Overview<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Dimension Filters<ept id="p1">**</ept> FastTab, set the budget filter to the desired filter name.</source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Now you can copy and paste your budget statement into a spreadsheet.</source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Business Intelligence<ept id="p1">](bi.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Finance<ept id="p1">](finance.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Setting Up Finance<ept id="p1">](finance-setup-finance.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>The General Ledger and the Chart of Accounts<ept id="p1">](finance-general-ledger.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Working with <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph><ept id="p1">](ui-work-product.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

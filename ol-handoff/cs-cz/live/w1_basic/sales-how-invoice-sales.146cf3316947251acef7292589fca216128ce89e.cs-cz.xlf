@@ -1,0 +1,318 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="sales-how-invoice-sales.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-8cf0045" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c7f689a078051516f6db14b311f5f97481808a8f</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\sales-how-invoice-sales.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c2b5e95b97f659e7ebe779001b3bcff83db9b321</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c2d02ff3bc7862c61c5c32e0cd3403974ae1c79d</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Create a Sales Invoice or Sales Order | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Describes how to create a bill of sale, or a sales invoice or sales order, to record your agreement with a customer to sell products under specific terms.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Invoice Sales</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You create a sales invoice or sales order to record your agreement with a customer to sell certain products on certain delivery and payment terms.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>There are a couple of scenarios where you must use a sales order instead of a sales invoice:</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>If you need to ship only part of an order quantity, for example, because the full quantity is not on hand.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>If you sell items that your vendor delivers directly to your customer, known as drop shipment.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Make Drop Shipments<ept id="p1">](sales-how-drop-shipment.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>In all other aspects, sales orders and sales invoices work in the same way.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Sell Products<ept id="p1">](sales-how-sell-products.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>You can negotiate with the customer by first creating a sales quote, which you can convert to a sales invoice when you agree on the sale.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Make Sales Quotes<ept id="p1">](sales-how-make-offers.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>If the customer decides to buy, you post the sales invoice to create the related quantity and value entries.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>When you post the sales invoice, you can also email the document as a PDF attachment.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You can have the email body prefilled with a summary of the invoice and payment information, such as a link to PayPal.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Send Documents by Email<ept id="p1">](ui-how-send-documents-email.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>When the customer then pays the invoice, you can register that payment in different ways, depending on the size and preferred workflows of your organization.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>For more information, see the <bpt id="p1">[</bpt>Registering Payments<ept id="p1">](#registering-payments)</ept> section.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>You can easily correct or cancel a posted sales invoice before it is paid.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>For example, this is useful if you want to correct a typing mistake or if the customer requests a change early in the order process.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Correct or Cancel Unpaid Sales Invoices<ept id="p1">](sales-how-correct-cancel-sales-invoice.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>If the posted sales invoice is paid, then you must create a sales credit memo to reverse the sale.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Process Sales Returns or Cancellations<ept id="p1">](sales-how-process-sales-returns-cancellations.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The item card can be of type <bpt id="p1">**</bpt>Inventory<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Service<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>Non-Inventory<ept id="p3">**</ept> to specify if the item is a physical inventory unit, a labor time unit, or a physical unit that is not kept on inventory.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Register New Items<ept id="p1">](inventory-how-register-new-items.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The sales invoice process is the same for all three item types.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>You can fill customer fields on the sales invoice in two ways depending on whether the customer is already registered.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>See steps 2 and 3 in the following procedure.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>To create a sales invoice</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Sales Invoices<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Customer<ept id="p1">**</ept> field, enter the name of an existing customer.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Other fields on the <bpt id="p1">**</bpt>Sales Invoice<ept id="p1">**</ept> page contain standard information about the selected customer.</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>If the customer is not registered, follow these steps:</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Customer<ept id="p1">**</ept> field, enter the name of the new customer.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>In the dialog box about registering the new customer, choose the <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Select a template for a new customer<ept id="p1">**</ept> page, choose a template to base the new customer card on, and then choose the <bpt id="p2">**</bpt>OK<ept id="p2">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>A new customer card displays the information on the selected customer template.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Fill in the remaining fields.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Register New Customers<ept id="p1">](sales-how-register-new-customers.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>When you have completed the customer card, choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button to return to the <bpt id="p2">**</bpt>Sales Invoice<ept id="p2">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Several fields on the sales invoice are now filled with information that you specified on the new customer card.</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Fill in the remaining fields on the <bpt id="p1">**</bpt>Sales Invoice<ept id="p1">**</ept> page as necessary.</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>If you allow the customer to pay immediately, for example, by cash or by PayPal, then fill in the <bpt id="p1">**</bpt>Payment Method Code<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The payment is then recorded as soon as you post the sales invoice.</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>If you select CASH, then the payment is recorded in a specified balancing account.</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>You are now ready to fill in the sales invoice lines for products that you are selling to the customer or for any transaction with the customer that you want to record in a G/L account.</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>If you have set up recurring sales lines for the customer, such as a monthly replenishment order, then you can insert these lines on the order by choosing the <bpt id="p1">**</bpt>Get Recurring Sales Lines<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Lines<ept id="p1">**</ept> FastTab, in the <bpt id="p2">**</bpt>Type<ept id="p2">**</ept> field, select what type of product, charge, or transaction that you will post for the customer with the sales line.</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>No.<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>field, select a record to post according to the value in the <bpt id="p1">**</bpt>Type<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>You leave the <bpt id="p1">**</bpt>No.<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>field empty in the following cases:</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>If the line is for a comment.</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Write the comment in the <bpt id="p1">**</bpt>Description<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>If the line is for a catalog item.</source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Select Catalog Items<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Work With Catalog Items<ept id="p1">](inventory-how-work-nonstock-items.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Quantity<ept id="p1">**</ept> field, enter how many units of the product, charge, or transaction that the line will record for the customer.</source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>If the item is of type <bpt id="p1">**</bpt>Service<ept id="p1">**</ept>, or the <bpt id="p2">**</bpt>Type<ept id="p2">**</ept> field contains <bpt id="p3">**</bpt>Resource<ept id="p3">**</ept>, then the quantity is a time unit, such as hours, as indicated in the <bpt id="p4">**</bpt>Unit of Measure Code<ept id="p4">**</ept> field on the line.</source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The value in the <bpt id="p1">**</bpt>Line Amount<ept id="p1">**</ept> field is calculated as <bpt id="p2">*</bpt>Unit Price<ept id="p2">*</ept> x <bpt id="p3">*</bpt>Quantity<ept id="p3">*</ept>.</source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The price and line amounts are with or without sales tax, depending on what you selected in the <bpt id="p1">**</bpt>Prices Including Tax<ept id="p1">**</ept> field on the customer card.</source>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>If you want to give a discount, enter a percentage in the <bpt id="p1">**</bpt>Line Discount %<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The value in the <bpt id="p1">**</bpt>Line Amount<ept id="p1">**</ept> field updates accordingly.</source>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>If special item prices are set up on the <bpt id="p1">**</bpt>Sales Prices and Sales Line Discounts<ept id="p1">**</ept> FastTab on the customer or item card, the price and amount on the sales line automatically update if the price criteria is met.</source>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Record Sales Price, Discount, and Payment Agreements<ept id="p1">](sales-how-record-sales-price-discount-payment-agreements.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Repeat steps 9 through 12 for every product or charge that you want to invoice the customer for.</source>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The totals under the lines are automatically calculated as you create or modify lines.</source>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Invoice Discount Amount<ept id="p1">**</ept> field, enter an amount that should be deducted from the value shown in the <bpt id="p2">**</bpt>Total Incl. Tax<ept id="p2">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>If you have set up invoice discounts for the customer, then the specified percentage value is automatically inserted in the <bpt id="p1">**</bpt>Invoice Discount %<ept id="p1">**</ept> field if the criteria are met, and the related amount is inserted in the <bpt id="p2">**</bpt>Inv. Discount Amount Excl. Tax<ept id="p2">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Record Sales Price, Discount, and Payment Agreements<ept id="p1">](sales-how-record-sales-price-discount-payment-agreements.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>When the sales invoice lines are completed, choose the <bpt id="p1">**</bpt>Post and Send<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Post and Send Confirmation<ept id="p1">**</ept> dialog box displays the customer's preferred method of receiving documents.</source>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>You can change the sending method by choosing the lookup button for the <bpt id="p1">**</bpt>Send Document to<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Set Up Document Sending Profiles<ept id="p1">](sales-how-setup-document-send-profiles.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The related item and customer ledger entries are now created in your system, and the sales invoice is output as a PDF document.</source>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The sales invoice is removed from the list of sales invoices and replaced with a new document in the list of posted sales invoices.</source>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Registering Payments</source>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Depending on your business needs, you can get paid and register that payment in different ways: manually, automatically, and through payment services.</source>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>You can process the payments straight from the customer card.</source>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Use the <bpt id="p1">**</bpt>Register Customer Payments<ept id="p1">**</ept> action to get an overview of unpaid invoices for that customer.</source>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Then, mark the invoice as paid partially or in full.</source>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>This payment reconciliation processes your customer payments by matching amounts received on your bank account with the related unpaid sales invoices, and then posts the payments.</source>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>To reconcile payments individually<ept id="p1">](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-register-customer-payments-individually)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>In business environments where the customer pays some time after delivery, according to the payment term, a posted sales invoice remains open (unpaid) until the Accounts Receivable department verifies that payment is received and applies the payment to the posted sales invoice.</source>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>This can be done manually or automatically.</source>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Reconcile Customer Payments with the Cash Receipt Journal or from Customer Ledger Entries<ept id="p1">](receivables-how-apply-sales-transactions-manually.md)</ept> and <bpt id="p2">[</bpt>Reconcile Payments Using Automatic Application<ept id="p2">](receivables-how-reconcile-payments-auto-application.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>In business environments where the customer pays immediately, for example by PayPal or cash, payment is recorded immediately when you post the sales invoice, that is, the posted sales invoice is closed as fully applied.</source>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>You select the relevant method in the <bpt id="p1">**</bpt>Payment Method Code<ept id="p1">**</ept> field on the sales order.</source>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>See under step 8.</source>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>For electronic payments, such as PayPal, you must also fill in the <bpt id="p1">**</bpt>Payment Service<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Enable Customer Payments Through Payment Services<ept id="p1">](sales-how-enable-payment-service-extensions.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>You can even create directly-paid invoices for non-registered customers by first setting up a "cash customer" card, which you point to on the sales invoice.</source>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Set Up Cash Customers<ept id="p1">](finance-how-to-set-up-cash-customers.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Sales<ept id="p1">](sales-manage-sales.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Setting Up Sales<ept id="p1">](sales-setup-sales.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Inventory<ept id="p1">](inventory-manage-inventory.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Send Documents by Email<ept id="p1">](ui-how-send-documents-email.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Bulk Invoicing from Microsoft Bookings in Business Central <ept id="p1">](finance-bookings.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Working with <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph><ept id="p1">](ui-work-product.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

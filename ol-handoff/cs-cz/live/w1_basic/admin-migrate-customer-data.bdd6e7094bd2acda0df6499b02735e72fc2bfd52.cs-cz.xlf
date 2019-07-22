@@ -1,0 +1,513 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="admin-migrate-customer-data.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-15c36f0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b52f0bded443472d68ce8232bff6668c5833c39b</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">financials\admin-migrate-customer-data.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d1ebf5a6d5e57d7cc08d9f296f77b1e6c4313ce9</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">abb7baeff7e8471671764f72b4a28f789f3a3b60</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Migrate Customer Data | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>You can migrate existing customer data from an existing ERP system to Business Central using RapidStart Services.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>You can use Excel .xlsx files as the data carrier.</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>You can also manually move the data by entering it directly into the company.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Migrate Customer Data</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>You can migrate existing customer data from an existing ERP system to <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph> using the data migration tools of RapidStart Services.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You can use Excel files as the data carrier.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>You can also manually move the data by entering it directly in the company.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Migration Overview<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Config. Worksheet<ept id="p2">**</ept> windows provide access to the functions and views to perform all the tasks that relate to data migration.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>We recommend that you migrate one table at a time, to handle dependencies in your data.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>In migration, you will also touch the master data tables, which contain information about customers, vendors, items, contacts, and the general ledger.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>To import configuration packages</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>When you create a new company, you can import company settings for the new company.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You import the settings from a .rapidstart file, which delivers the package contents in a compressed format.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>A corresponding set of default data migration tables are imported.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The data set contains master data tables and the setup data tables.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Your first task in data migration is to evaluate if the default migration setup meets the needs of the new company.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>You cannot rename a file that is not already a RapidStart Services configuration package as a .rapidstart configuration package file and then try to import it.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>If you try to do so, you will receive an error message.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Before you start, make sure that you are on the RapidStart Services Implementer Role Center.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>When exporting and importing configuration packages between two company databases, the databases should have the same schema to make sure that all data is transferred successfully.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>This means that the databases should have the same table and field structure, in which the tables have the same primary keys and fields have the same IDs and data types.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>You can import a configuration package that has been exported from a database that has a different schema than that target database.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>However, any tables or fields in the configuration package that are missing in the target database will not be imported.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Tables that have different primary keys and fields that have different data types will also not be successfully imported.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>For example, if the configuration pack includes table <bpt id="p1">**</bpt>50000 Customer<ept id="p1">**</ept> that has primary key <bpt id="p2">**</bpt>Code20<ept id="p2">**</ept> and the database to which you import the pack includes table <bpt id="p3">**</bpt>50000 Customer Bank Account<ept id="p3">**</ept> that has the primary key <bpt id="p4">**</bpt>Code20 + Code 20<ept id="p4">**</ept>, data will not be imported.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Open the new company.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Configuration Packages<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Import Package<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Navigate to the .rapidstart package file that you want to import, and then choose the <bpt id="p1">**</bpt>Open<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>During import, the package contents are decompressed and the package record is created.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>When the import is complete, you can see the number of configuration tables that have been imported in the <bpt id="p1">**</bpt>No. of Tables<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>To review the list of configuration tables, choose the <bpt id="p1">**</bpt>View<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>To apply the package, choose the <bpt id="p1">**</bpt>Apply Package<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The data migration information is based on configuration templates, if you specify one.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>You must update the template first to change the list of fields.</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>To review the field selections, select a table, and then, on the <bpt id="p1">**</bpt>Lines<ept id="p1">**</ept> tab, choose the <bpt id="p2">**</bpt>Fields<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Compare and review the number of fields that are available to the number of fields whose data has been applied.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>If the selection of tables does not meet your needs, you can create one or more new data migration files.</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>If the files are sufficient, you can continue with the data migration using Excel or XML files.</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>To create a data migration file</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>You can create new data migration files and customize them to support your business.</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Note that a file can only be used to migrate a field that has its <bpt id="p1">**</bpt>FieldClass<ept id="p1">**</ept> property set to <bpt id="p2">**</bpt>Normal<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Configuration Package<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Select and open the package that you want to use to migrate data, and then choose the <bpt id="p1">**</bpt>Get Tables<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Get Package Table<ept id="p1">**</ept> window opens.</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>TableID<ept id="p1">**</ept> field, enter a table number or select a table from the list, for example, table 18, <bpt id="p2">**</bpt>Customer<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Table Name<ept id="p1">**</ept> field is automatically filled in.</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Select the new migration table, and then, on the <bpt id="p1">**</bpt>Tables<ept id="p1">**</ept> tab, choose the <bpt id="p2">**</bpt>Fields<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Migration Fields<ept id="p1">**</ept> window opens.</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Clear the <bpt id="p1">**</bpt>Include Field<ept id="p1">**</ept> check box for any field that you do not want to import, and then choose the <bpt id="p2">**</bpt>Set Included<ept id="p2">**</ept> or the <bpt id="p3">**</bpt>Clear Included<ept id="p3">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>If the <bpt id="p1">**</bpt>Include Field<ept id="p1">**</ept> check box is selected by default, that field is part of the primary key.</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The selection should not be cleared, or errors will be introduced and the record cannot be imported.</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>If you include a field that has a relationship with another table, the <bpt id="p1">**</bpt>Validate Field<ept id="p1">**</ept> check box is automatically selected.</source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Validation can result in the update of other fields in this and other tables and is executed in the order of the field number.</source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>A new migration table is created.</source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>To export data migration files</source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>When you have determined the tables that you want to transfer customer data to, you export the files.</source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Configuration Packages<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Select and open the package that you want to use for export.</source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Select the table or tables that you want to export, and then choose the <bpt id="p1">**</bpt>Export to Excel<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Save the exported Excel file.</source>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Repeat this procedure for all the relevant data migration tables.</source>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>If you select multiple tables at the same time, the export of their data is into a common workbook.</source>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>If the table is empty, the resulting data migration file contains empty cells for the fields you selected when you chose or created migration tables for your new company.</source>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>If the selected data migration table contains data, it will be exported.</source>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>To map values to be used during import</source>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>When you apply data that you have imported from Excel or from a RapidStart package, <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph> treats and handles the mapping based on table relations:</source>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>If you define a mapping directly for a field in a table, then <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph> uses it.</source>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>If the field has a relation to another table, <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph> searches for the mapping defined for the primary key field in the related table.</source>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The related table, however, must be part of the configuration package.</source>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>If mapping information is defined in both places, for the field directly and for the primary key in the related table, then <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph> will search for the mapping in both places.</source>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>If the same mappings are defined directly for a field and in the related table, but have different new values, the mapping that is defined directly for the field takes priority over the mapping that is defined for the table that the field is referencing.</source>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>In the following procedures, you should review in advance which values you want to retain during the migration process.</source>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>To perform the following procedures, you need data migration files (.xlsx) that you have exported from <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>For more information, see the "To export data migration files" section.</source>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Configuration Packages<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Open the package for the company in question.</source>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Select the table for which you want to map values, and then, on the <bpt id="p1">**</bpt>Tables<ept id="p1">**</ept> tab, choose the <bpt id="p2">**</bpt>Fields<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>For each field that you want to map, choose the <bpt id="p1">**</bpt>Mapping<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Old Value<ept id="p1">**</ept> field, enter the value that you want to change.</source>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>New Value<ept id="p1">**</ept> field, enter the value that you want the old value to be changed to.</source>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Import the customer data.</source>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>For more information, see the "To import customer data" section.</source>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>No. of Package Errors<ept id="p1">**</ept> field, see if there are any errors reported.</source>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>If there are, drill down to see the errors.</source>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Config. Package Records<ept id="p1">**</ept> window opens.</source>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Show Error<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>You will receive the following error: <bpt id="p1">**</bpt><ph id="ph1">&lt;option&gt;</ph> is not a valid option. Valid options are <ph id="ph2">&lt;valid option list&gt;</ph><ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>To apply the mapping that you have set up, choose the <bpt id="p1">**</bpt>Apply Data<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Mapping Example</source>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The following example illustrates how <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph> implements mapping definitions.</source>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Create a configuration table that has a <bpt id="p1">**</bpt>Salesperson/Purchaser<ept id="p1">**</ept> table.</source>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Define a mapping for the <bpt id="p1">**</bpt>Code<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Add additional tables to the package, for example, <bpt id="p1">**</bpt>Customer<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Vendor<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>These tables both reference the <bpt id="p1">**</bpt>Salesperson/Purchaser<ept id="p1">**</ept> table through the <bpt id="p2">**</bpt>Salesperson Code<ept id="p2">**</ept> and <bpt id="p3">**</bpt>Purchaser Code<ept id="p3">**</ept> fields respectively.</source>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>When you apply data, the mapping that you provided for the <bpt id="p1">**</bpt>Code<ept id="p1">**</ept> field in the the <bpt id="p2">**</bpt>Salesperson/Purchaser<ept id="p2">**</ept> table will also be considered during the processing of the <bpt id="p3">**</bpt>Salesperson Code<ept id="p3">**</ept> and <bpt id="p4">**</bpt>Purchaser Code<ept id="p4">**</ept> fields.</source>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>To add additional values to <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph></source>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Configuration Packages<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Select the table for which you want to add additional values, and then, on the <bpt id="p1">**</bpt>Tables<ept id="p1">**</ept> tab, choose the <bpt id="p2">**</bpt>Fields<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>For the fields for which you want <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph> to permit additional values during migration, select the <bpt id="p1">**</bpt>Create Missing Codes<ept id="p1">**</ept> check box.</source>
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Import the customer data.</source>
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>For more information, see the "To import customer data" section.</source>
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>To clean up and process data before applying data</source>
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>In some cases, you may want to clean up customer data and process it before you apply it to the database.</source>
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>To do that, you can use the <bpt id="p1">**</bpt>Config. Package - Process<ept id="p1">**</ept> batch job to fix issues, such as:</source>
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Convert dates and decimals to the format required by the regional settings on a user's computer.</source>
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Remove leading/trailing spaces or special characters.</source>
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>When you have run the batch job, use the following procedure to process the data.</source>
+        </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Open the configuration package for the company.</source>
+        </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Process Data<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>To apply the mapping that you have set up, choose the <bpt id="p1">**</bpt>Apply Data<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>To migrate customer data</source>
+        </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>When you have exported a migration table, your next step is to enter the customer’s legacy data.</source>
+        </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>To simplify your tasks, you can take advantage of the XML manipulation tools that are built into Excel.</source>
+        </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>You can also use Excel built-in functions to help with data formatting and to put data in the correct cell.</source>
+        </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>For assistance with XML, enable the <bpt id="p1">**</bpt>Developer<ept id="p1">**</ept> tab of the Excel ribbon, and then choose the <bpt id="p2">**</bpt>Source<ept id="p2">**</ept> action to see the XML schema of your migration table as represented in Excel.</source>
+        </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>The following procedure is based on an Excel worksheet that you have created for migration.</source>
+        </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>For more information, see the How to: Export Migration Tables.</source>
+        </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Do not change the columns in the Excel worksheets.</source>
+        </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>If they are moved, changed, or deleted, the worksheet cannot be imported into <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>In Excel, open the exported data file.</source>
+        </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>There is a worksheet with the name of the table.</source>
+        </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Rename Sheet1 to indicate that the worksheet will be used to transform the data.</source>
+        </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Copy the header row without its formatting from the exported table to the new worksheet.</source>
+        </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>On a third worksheet, copy all your customer data.</source>
+        </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Rename the sheet to be called e.g. Legacy Data.</source>
+        </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Make an Excel formula to map data in the transformation worksheet between the fields in the exported worksheet and customer legacy data.</source>
+        </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>When you have mapped all of the data, copy the range of data onto the table worksheet.</source>
+        </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Save the file and make sure that you do not change the file type.</source>
+        </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>You are now ready to import the data migration files that contain customer legacy data into <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>To import customer data</source>
+        </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>When the customer data has been entered in the data migration files in Excel, you import the files into <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Open the <bpt id="p1">**</bpt>Config. Package Card<ept id="p1">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Select the table for which you want to import data, and then, on the <bpt id="p1">**</bpt>Tables<ept id="p1">**</ept> tab, choose the <bpt id="p2">**</bpt>Import from Excel<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Locate and open the file that you want from which you want to import data to <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Data from the file is imported into the configuration package tables.</source>
+        </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>No. of Package Records<ept id="p1">**</ept> field, you can see the number of records that have been imported.</source>
+        </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>In addition, you can see the number of migration errors.</source>
+        </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>To validate customer data</source>
+        </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Customer data must be validated before you apply the records to the <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph> database.</source>
+        </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>In most cases, invalid data is not created in the database.</source>
+        </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>However, the application can occasionally be blocked if an imported migration table contains errors.</source>
+        </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Migration Overview<ept id="p1">**</ept> window, review the <bpt id="p2">**</bpt>No. of Migration Errors<ept id="p2">**</ept> field to see whether any errors occurred during import.</source>
+        </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>If there are errors, select the migration table, and then, on the <bpt id="p1">**</bpt>Tables<ept id="p1">**</ept> tab, choose the <bpt id="p2">**</bpt>Errors<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Invalid<ept id="p1">**</ept> check box is selected for each record that has an error.</source>
+        </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>To review errors, select a line, and then choose the <bpt id="p1">**</bpt>Show Error<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Error Text<ept id="p1">**</ept> field contains the reason for the error.</source>
+        </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Field Caption<ept id="p1">**</ept> field contains the caption of the field that contains the error.</source>
+        </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>To correct an error or otherwise make an update, in the <bpt id="p1">**</bpt>Migration Overview<ept id="p1">**</ept> window, choose the <bpt id="p2">**</bpt>Migration Record<ept id="p2">**</ept> action, and then, in the <bpt id="p3">**</bpt>Migration Record<ept id="p3">**</ept> window, correct the record with the error.</source>
+        </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>When you make a correction, the record is removed from the list of records in the <bpt id="p1">**</bpt>Migration Data Errors<ept id="p1">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>You are now ready to apply the customer’s data to the database.</source>
+        </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>To apply customer data</source>
+        </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>When you have imported all data migration records that are valid and have no errors, you can apply the records to the <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph> database.</source>
+        </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>Open the <bpt id="p1">**</bpt>Configuration Packages<ept id="p1">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Select the table for the data migration file that you want to apply, and then choose the <bpt id="p1">**</bpt>Apply Data<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>You can see the number of database records that have been created in the <bpt id="p1">**</bpt>No. of Database Records<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>You can verify that the correct records have been created by choosing the link in the <bpt id="p1">**</bpt>No. of Database Records<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>The customer’s company database is now set up and basic data is imported.</source>
+        </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>Your next steps in the implementation process are to train users, define processes, create additional data, customize reports, and so on.</source>
+        </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Setting Up a Company With RapidStart Services<ept id="p1">](admin-set-up-a-company-with-rapidstart.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Administration<ept id="p1">](admin-setup-and-administration.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

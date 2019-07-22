@@ -1,0 +1,198 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="ui-extensions.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-5ae97a8" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f093a9ce2a654d5ee693ee91f32e87f6546279d1</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\ui-extensions.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">df861640989e17701af4b22da73b4bda38173851</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fc338f1c6db58473be9da59f84dd4308056eeace</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Installing Extensions to Customize Business Central  | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Learn about adding functionality and customizing Business Central  by installing extensions.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Customizing Business Central Using Extensions</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You can change <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> by installing extensions that add functionality, changes behavior, or gives you access to new online services, for example.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>When you first launch <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>, some extensions are already installed for you.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Over time, more extensions will be made available to you, and you can then choose if you want to use the extension or not.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>For example, Microsoft provides an extension that provides integration with PayPal Payments Standard.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>This extension is installed by default.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>But if another extension is made available that offers integration with another payment service, you can install the new extension and then choose which of the two services to use.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>You manage the extensions on the <bpt id="p1">**</bpt>Extension Management<ept id="p1">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>You can access this page from Home.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Alternatively, choose the <bpt id="p1">**</bpt>Search for Page or Report<ept id="p1">**</ept> icon <bpt id="p2">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p2">]</ept><bpt id="p3">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p3">")</ept> in the top right corner, enter <bpt id="p4">**</bpt>Extension<ept id="p4">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>If you think you should have access to an extension but you cannot find its functionality, check the <bpt id="p1">**</bpt>Extension Management<ept id="p1">**</ept> page - if the extension is not listed there, you can install it as described in the following section.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Installing an Extension</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You can get new extensions from the marketplace at <bpt id="p1">[</bpt>AppSource.microsoft.com<ept id="p1">](https://appsource.microsoft.com/en-us/marketplace/apps?src=dynamics365website&amp;product=dynamics-365-business-central)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Here, you can see all available extensions for <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>, and you can get apps, extensions, and content packs for other Microsoft products.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Set the relevant filters, take a look at the information for each extension, and get an extension for your <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Sign in to <bpt id="p1">[</bpt>AppSource.microsoft.com<ept id="p1">](https://appsource.microsoft.com/)</ept> using the email account that you use for <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Use the same email account for other services and products for a smooth experience.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>You can also get to the marketplace from inside <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Extension Management<ept id="p1">**</ept> page, you can see the extensions that are currently installed, and you can open the <bpt id="p2">**</bpt>Extension Marketplace<ept id="p2">**</ept> page that shows the <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> extensions that are currently available in AppSource.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>If you choose the <bpt id="p1">*</bpt>More apps<ept id="p1">*</ept> link, you are taken to <bpt id="p2">[</bpt>AppSource.microsoft.com<ept id="p2">](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&amp;page=1)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>If you choose an extension, you can read about what the extension does, and you can access Help for the extension to learn more.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>When you choose to get an extension, you must agree to the terms of use.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>If you get the extension from the AppSource website, you will be signed in to <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> to complete the installation.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>When you install an extension, you might have to set it up, such as specifying an account for use with the <bpt id="p1">**</bpt>PayPal Payments Standard for <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph><ept id="p1">**</ept> extension.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Other extensions simply add fields to an existing page, or they add a new page, for example.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>If you uninstall an extension, and you then change your mind, you can install it again.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>When you uninstall an extension that you have been using, the data is preserved so that if you install the extension again, your data is still available.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Some extensions are provided by Microsoft, and other extensions are provided by <bpt id="p1">[</bpt>other companies<ept id="p1">](ui-extensions-other.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>All extensions are tested before they are made available to you, but we recommend that you access the links that are provided with each extension to learn more about the extension before you choose to install it.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Microsoft provides the following extensions:</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Dynamics GP Data Migration<ept id="p1">](ui-extensions-dynamicsgp-data-migration.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Envestnet Yodlee Bank Feeds<ept id="p1">](ui-extensions-yodlee-bank-feeds.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Microsoft Pay<ept id="p1">](ui-extensions-microsoft-pay-payments.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>PayPal Payments Standard<ept id="p1">](ui-extensions-paypal-payments-standard.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>QuickBooks Data Migration<ept id="p1">](ui-extensions-quickbooks-data-migration.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Sales and Inventory Forecast<ept id="p1">](ui-extensions-sales-forecast.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Ceridian Payroll<ept id="p1">](ui-extensions-ceridian-payroll.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Quickbooks Payroll File Import<ept id="p1">](ui-extensions-quickbooks-payroll.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>WorldPay Payments Standard<ept id="p1">](ui-extensions-worldpay-payments-standard.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>GetAddress.io UK Postcodes<ept id="p1">](ui-extensions-getaddressio.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>QuickBooks Online Data Migration<ept id="p1">](ui-extensions-quickbooks-online-data-migration.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Accountant Portal<ept id="p1">](ui-extensions-accountant-portal.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Image Analyzer<ept id="p1">](ui-extensions-image-analyzer.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Payments and Reconciliations (DK)<ept id="p1">](ui-extensions-payments-reconciliation-formats-dk.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>C5 Data Migration<ept id="p1">](ui-extensions-c5-data-migration.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Essential Business Insights<ept id="p1">](ui-extensions-essential-business-insights.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Late Payment Predictions<ept id="p1">](ui-extensions-late-payment-prediction.md  )</ept></source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>New extensions are not available in AppSource immediately after we announce an update.</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>You can keep an eye out for the extensions at <bpt id="p1">[</bpt>AppSource.microsoft.com<ept id="p1">](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&amp;page=1)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Extending Dynamics 365 Business Central<ept id="p1">](about-develop-extensions.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Business Central Extensions by Other Providers<ept id="p1">](ui-extensions-other.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Set Up the Envestnet Yodlee Bank Feeds Service<ept id="p1">](bank-how-setup-bank-statement-service.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Enable Customer Payment Through PayPal<ept id="p1">](sales-how-enable-payment-service-extensions.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Migrating Business Data from Other Finance Systems<ept id="p1">](across-import-data-configuration-packages.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Setting Up the GetAddress.io UK Postal Code extension<ept id="p1">](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt><ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> Extensions by Other Providers<ept id="p1">](ui-extensions-other.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Getting Started<ept id="p1">](product-get-started.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

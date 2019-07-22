@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="ui-extensions-data-replication.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-2a88c14" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1d4bea462879d49f02c6fa6d8b4a83365d5149a3</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\ui-extensions-data-replication.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4864b4695c8404be2ee5094b93eb787d4904d951</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ef313e8b91aa990b2e7c61970bb5af8596e4f8b8</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Business Central Intelligent Cloud Extensions | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Use this data replication extension to create a cloud copy of your data so you are connected to the intelligent cloud.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Business Central Intelligent Cloud Extensions</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>If you are using one of the supported on-premises products, you can configure your intelligent cloud environment based on a product-specific extension.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Once your intelligent cloud environment is configured, you will be able to replicate data from your on-premises solution to your <ph id="ph1">[!INCLUDE[prodshort](includes/prodshort.md)]</ph> cloud tenant.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>This will enable you to take full advantage of what the cloud has to offer your business such as, enhanced insights into your business, artificial intelligence, multiple device access, and anytime, anywhere access.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Business Central on-premises</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>If you are using an on-premises deployment of <ph id="ph1">[!INCLUDE[prodshort](includes/prodshort.md)]</ph>, get the <bpt id="p1">**</bpt>Intelligent Cloud Base<ept id="p1">**</ept> extension and the <bpt id="p2">**</bpt>Business Central Intelligent Cloud<ept id="p2">**</ept> extension, and follow the guides in both.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Dynamics GP</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>If you are using Dynamics GP, get the <bpt id="p1">**</bpt>Intelligent Cloud Base Extension<ept id="p1">**</ept> extension, the <bpt id="p2">**</bpt>Dynamics GP Data Migration<ept id="p2">**</ept> extension, and the <bpt id="p3">**</bpt>Dynamics GP Intelligent Cloud<ept id="p3">**</ept>, and follow the guides in all three.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Your Access to the Intelligent Cloud<ept id="p1">](about-intelligent-cloud.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Intelligent Cloud Base Extension<ept id="p1">](ui-extensions-intelligent-cloud.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

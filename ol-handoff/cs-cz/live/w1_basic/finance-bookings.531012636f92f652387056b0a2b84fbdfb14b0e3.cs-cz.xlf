@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="finance-bookings.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-419b0d8" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">65542f3855eff3a5ed117bff3247adbf05def6e2</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\finance-bookings.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ae81d5cbb2579421fb101336bceef416f0ae7c96</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9823c4adf9aad128df745aa880c7fa343e488643</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Invoice your bookings in Business Central | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Learn how you can do bulk invoicing from Microsoft Bookings in Business Central .</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Bulk Invoicing for Microsoft Bookings in <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph></source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>If your company uses the Bookings app in Office 365, you can do bulk invoicing for appointments.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Uninvoiced Bookings<ept id="p1">**</ept> page in <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> provides a list of the company's completed bookings.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>In this page you can quickly select the appointments that you want to invoice and create draft invoices for the services provided.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Connect to Bookings</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>To connect your <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> with Bookings, you must specify your Bookings company, what to synchronize with Bookings, how often to synchronize, and which templates to use.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You set up this information on the <bpt id="p1">**</bpt>Booking Sync. Setup<ept id="p1">**</ept> page, which you can launch from the <bpt id="p2">**</bpt>Exchange Sync. Setup<ept id="p2">**</ept> page, which you can find through <bpt id="p3">[</bpt>Search<ept id="p3">](ui-search.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>For example, if you want to synchronize customers between Bookings and <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>, you must specify the default template to use to add new customers in <ph id="ph2">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> based on the customers in your Bookings company.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The Bookings app is designed to book appointments for individual customers rather than companies.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The synchronization with <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> will, therefore, only synchronize customer contacts with a Type of "Person".</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>An email address is also required for the contact to synchronize.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Similarly, if you want to synchronize service items between Bookings and <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>, you must specify the default template to use to add new service items in <ph id="ph2">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> based on the services in our Bookings company.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Only items of type <bpt id="p1">*</bpt>Service<ept id="p1">*</ept> will synchronize between Bookings and <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The template that you set up in the <bpt id="p1">**</bpt>Configuration Templates<ept id="p1">**</ept> page so it can be used for the item synchronization must define the type as <bpt id="p2">*</bpt>Service<ept id="p2">*</ept>.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Invoice Appointments</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>When it is time to send invoices for the completed bookings, you go to the <bpt id="p1">**</bpt>Uninvoiced Bookings<ept id="p1">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Depending on how often the information is synchronized, the list is long or short.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>You can create invoices for all bookings in the list or one booking at a time.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>You can select one or more entries in the list and invoice those only.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The support for invoicing appointments from Bookings is simpler than the fuller workflow of working with sales quotes, sales orders, and sales invoices.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Invoice Sales<ept id="p1">](sales-how-invoice-sales.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>You can choose to sell your services using <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> or choose to use Bookings, depending on your business needs.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Finance<ept id="p1">](finance.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Invoice Sales<ept id="p1">](sales-how-invoice-sales.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Setting Up Sales<ept id="p1">](sales-setup-sales.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Microsoft Bookings<ept id="p1">](https://products.office.com/en-us/business/scheduling-and-booking-app)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

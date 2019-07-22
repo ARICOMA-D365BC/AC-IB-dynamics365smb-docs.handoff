@@ -1,0 +1,246 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="production-how-to-create-a-forecast.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-435fba6" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b7937bf83074dcbe9cd2bf501d4a5f67c1712511</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\production-how-to-create-a-forecast.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4d68b43c70c90659dc97064ed8090cd4228718ff</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e931a2d059317761c8144fceff1452fc1c7405f6</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>How to Create a Demand Forecast | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>You can create sales and production forecasts with the <bpt id="p1">**</bpt>Demand Forecast<ept id="p1">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Create a Demand Forecast</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You can create sales and production forecasts with the <bpt id="p1">**</bpt>Demand Forecast<ept id="p1">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Forecasting functionality is used to create anticipated demand; actual demand is created from sales and production orders.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>During creation of the Master Production Schedule (MPS), the forecast is netted against the sales and production orders.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>Component<ept id="p1">*</ept> option on the forecast determines which type of requirements to take into consideration in the netting process.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>If the forecast is for a sales item, only sales orders net the forecast.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>If it is for components, only dependent demand from production order components net the forecast.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Forecasting allows your company to create "what if" scenarios and efficiently and cost-effectively plan for and meet demand.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Accurate forecasting can make a critical difference in customer satisfaction levels with regard to order promising dates and on-time delivery.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Sales Forecasts and Production Forecasts</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The forecasting functionality in the program can be used to create sales or production forecasts, in combination or independently.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>For example, most make-to-order companies do not carry finished goods inventory, because each item is produced when it is ordered.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Anticipating orders (sales forecasting) is critical for a reasonable turnaround time on the finished goods (production forecasting).</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>As an example, component parts with lengthy delivery times, if not on order or on inventory, can delay production.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The sales forecast is the sales department's best guess at what will be sold in the future, and is specified by item and by period.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>However, the sales forecast is not always adequate for production.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The production forecast is the production planner's projection of how many end items and derived subassemblies to produce in specific periods to meet the forecasted sales.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>In most cases, then, the production planner modifies the sales forecast to fit the conditions of production, yet still satisfies the sales forecast.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>You create forecasts manually on the <bpt id="p1">**</bpt>Demand Forecast<ept id="p1">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Multiple forecasts can exist in the system, and are differentiated by name and type.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Forecasts can be copied and edited as necessary.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Note that only one forecast is valid for planning purposes at a time.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The forecast consists of a number of records each stating item number, forecast date, and forecasted quantity.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The forecast of an item covers a period, which is defined by the forecast date and the forecast date of the next (later) forecast record.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>From a planning point of view, the forecasted quantity should be available at the start of the demand period.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>You must designate a forecast as <bpt id="p1">*</bpt>Sales Item<ept id="p1">*</ept>, <bpt id="p2">*</bpt>Component<ept id="p2">*</ept>, or <bpt id="p3">*</bpt>Both<ept id="p3">*</ept>.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The forecast type <bpt id="p1">*</bpt>Sales Item<ept id="p1">*</ept> is used for sales forecasting.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The production forecast is created using the <bpt id="p1">*</bpt>Component<ept id="p1">*</ept> type.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The forecast type <bpt id="p1">*</bpt>Both<ept id="p1">*</ept> is only used to give the planner an overview of both the sales forecast and the production forecast.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>With this option, the forecast entries are not editable.</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>By designating these forecast types here, you can use the same worksheet to enter a sales forecast as you do a production forecast, and use the same sheet to view both forecasts simultaneously.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Note that the system treats the different inputs (sales and production) differently when calculating planning, based on item, manufacturing, and production setup.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Component Forecast</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The component forecast can be seen as an option forecast in relation to a parent item.</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>This can, for example, be useful if the planner can estimate the demand for the component.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>As the component forecast is designed to define options for a parent item, the component forecast should be equal or less than the sales item forecast quantity.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>If the component forecast is higher than the sales item forecast, the system treats the difference between these two types of forecast as independent demand.</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Forecasting Periods</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The forecast period is valid from its starting date until the date the next forecast starts.</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The time interval page gives you multiple choices to insert the demand at a specific date in a period.</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>It is therefore recommended not to change the forecast period scope unless you want to move all forecast entries to the starting date of this period.</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Forecast by Locations</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>It can be stated in the manufacturing setup if you want filter forecast according to location when calculating a plan.</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Note, though, that if location-based forecasts are viewed in isolation, the overall forecast may not be representative.</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>To create a demand forecast</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Demand Forecast<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>General<ept id="p1">**</ept> FastTab, select a forecast in the <bpt id="p2">**</bpt>Demand Forecast Name<ept id="p2">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Multiple forecasts can exist and are differentiated by name and forecast type.</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Location Filter<ept id="p1">**</ept> field, select the location to which this forecast will apply.</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Forecast Type<ept id="p1">**</ept> field, select <bpt id="p2">**</bpt>Sales Item<ept id="p2">**</ept>,  <bpt id="p3">**</bpt>Component<ept id="p3">**</ept>, or <bpt id="p4">**</bpt>Both<ept id="p4">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>If you select <bpt id="p1">**</bpt>Sales Item<ept id="p1">**</ept> or <bpt id="p2">**</bpt>Component<ept id="p2">**</ept>, then you can edit the quantity by period.</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>If you select <bpt id="p1">**</bpt>Both<ept id="p1">**</ept>, then you cannot edit the quantity, but you can choose the drop-down arrow button and view the demand forecast entries.</source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Specify a <bpt id="p1">**</bpt>Date Filter<ept id="p1">**</ept> if you want to limit the amount of data displayed.</source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Demand Forecast Matrix<ept id="p1">**</ept> FastTab, enter the forecasted quantities of <bpt id="p2">**</bpt>Sales Item<ept id="p2">**</ept> or <bpt id="p3">**</bpt>Component<ept id="p3">**</ept> forecast for the various periods.</source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Matrix Options<ept id="p1">**</ept> FastTab, set the time interval in the <bpt id="p2">**</bpt>View by<ept id="p2">**</ept> field to change the period that is displayed in each column.</source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>You can select from the following intervals: <bpt id="p1">**</bpt>Day<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Week<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Month<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Quarter<ept id="p4">**</ept>, <bpt id="p5">**</bpt>Year<ept id="p5">**</ept>, or the <bpt id="p6">**</bpt>Accounting Period<ept id="p6">**</ept>, as set up in Financial Management.</source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>You should consider which time interval that you want to use for future forecasts so that the time interval is consistent throughout.</source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>When you enter a forecast quantity, it is valid on the first day of the time interval that you select.</source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>For example, if you select a month, then you enter the forecast quantity on the first day of the month.</source>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>If you select a quarter, then you enter the forecast quantity on the first day of the first month in the quarter.</source>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>View as<ept id="p1">**</ept> field, select how the forecast quantities are shown for the time interval.</source>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>If you select <bpt id="p1">**</bpt>Net Change<ept id="p1">**</ept>, then the net change in balance is displayed for the time interval.</source>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>If you select <bpt id="p1">**</bpt>Balance at Date<ept id="p1">**</ept>, then the page displays the balance as of the last day in the time interval.</source>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>You can also edit an existing forecast.</source>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Demand Forecast Matrix<ept id="p1">**</ept> page, choose the <bpt id="p2">**</bpt>Copy Demand Forecast<ept id="p2">**</ept> action and populate the <bpt id="p3">**</bpt>Demand Forecast<ept id="p3">**</ept> page with an existing forecast.</source>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>You can then edit quantities as appropriate.</source>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Setting Up Manufacturing<ept id="p1">](production-configure-production-processes.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Manufacturing<ept id="p1">](production-manage-manufacturing.md)</ept><ph id="ph1">  </ph></source>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Inventory<ept id="p1">](inventory-manage-inventory.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Purchasing<ept id="p1">](purchasing-manage-purchasing.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Design Details: Supply Planning<ept id="p1">](design-details-supply-planning.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Setup Best Practices: Supply Planning<ept id="p1">](setup-best-practices-supply-planning.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Working with <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph><ept id="p1">](ui-work-product.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

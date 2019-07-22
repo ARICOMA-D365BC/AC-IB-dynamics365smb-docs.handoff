@@ -1,0 +1,414 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="service-how-to-allocate-resources.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-15c36f0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8d313a7e12686318f82a0f54bedf0de96fb11918</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">financials\service-how-to-allocate-resources.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c9f840fd3aef225758f664b38fd2845b72f8e983</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6d64d2c207d9582cfc776d24faa6b3f339dd34ce</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>How to Allocate Resources | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>You can change the annual amount of the service contract or contract quote to correct the amount that will be invoiced annually.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Allocate Resources</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The key element to service management is the people who supply service.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>You can set up <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph> to assign the appropriate people to the appropriate jobs.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Assignments can be based on service zones where the people are located or where the service occurs.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>In addition, you can group resources together when responding to service requests.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Set Up Resource Allocation<ept id="p1">](service-how-setup-resource-allocation.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You can allocate resources, for example, technicians, by using the <bpt id="p1">**</bpt>Dispatch Board<ept id="p1">**</ept>, or from a service order.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>You can use resource availability to allocate resources to perform the service tasks in the orders or quotes.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>You can allocate the same resource, for example, a technician, or resource group to all the service items in a service order.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Allocation entries are created for the other service items in the order with the same resource number and allocation date as the line you allocated.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The allocated hours are the hours you allocated divided by the number of service items in the order.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Status<ept id="p1">**</ept> field is automatically set to <bpt id="p2">**</bpt>Active<ept id="p2">**</ept> for all the entries that were created.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>To see an overview of service orders and service quotes</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>You may often need to see the list of service orders or service quotes that meet certain requirements to be able to perform specific actions with them one by one.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>For example,you may need to allocate resources to service orders that belong to a specific customer.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Dispatch Board<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Document Filter<ept id="p1">**</ept> field, choose the type of the documents you want to see.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>To get a list of documents that contain service tasks a certain resource or resource group is allocated to, fill in the <bpt id="p1">**</bpt>Resource Filter<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Resource Group Filter<ept id="p2">**</ept> fields and press Enter.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>To get a list of documents with a certain response date or response dates within a certain date period, fill in the <bpt id="p1">**</bpt>Response Date Filter<ept id="p1">**</ept> field and press <bpt id="p2">**</bpt>Enter<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>To get a list of documents with a specified allocation state or document status, fill in the <bpt id="p1">**</bpt>Allocation Filter/Status Filter<ept id="p1">**</ept> field and press <bpt id="p2">**</bpt>Enter<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>To get a list of documents that belong to a certain contract, customer, or zone, fill in the <bpt id="p1">**</bpt>Contract Filter/Customer Filter/Zone Filter<ept id="p1">**</ept> field and press <bpt id="p2">**</bpt>Enter<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Choose a line that corresponds to a service order or service quote, and then choose the <bpt id="p1">**</bpt>Show Document<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Service Order<ept id="p1">**</ept> or <bpt id="p2">**</bpt>Service Quote<ept id="p2">**</ept> page opens, and you can work with the document.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>To return to the <bpt id="p1">**</bpt>Dispatch Board<ept id="p1">**</ept> page, choose <bpt id="p2">**</bpt>OK<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>To allocate a resource using resource or resource group availability</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Dispatch Board<ept id="p3">**</ept>, and choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Choose the service order, and then choose the <bpt id="p1">**</bpt>Resource Allocations<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Choose the entry with the service task to which you want to allocate a resource.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Choose either the <bpt id="p1">**</bpt>Resource Availability<ept id="p1">**</ept> or <bpt id="p2">**</bpt>Res. Group Availability<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Res. Availability (Service)<ept id="p1">**</ept> window, choose <bpt id="p2">**</bpt>Show Matrix<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Choose a resource to allocate.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>You can base your selection on whether the resource is skilled for the task, whether it is located in the customer zone, and/or whether it is preferred by the customer.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Specify a date on which the resource has enough available hours for the task, and which is close to the response date of the service order.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Qty. to Allocate<ept id="p1">**</ept> field, enter the number of hours you want to allocate the resource to the service task for.</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Actions<ept id="p1">**</ept> tab, in the <bpt id="p2">**</bpt>Functions<ept id="p2">**</ept> group, choose <bpt id="p3">**</bpt>Allocate<ept id="p3">**</ept> to allocate the selected resource on the selected date.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Status<ept id="p1">**</ept> field is automatically set to <bpt id="p2">**</bpt>Active<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Repeat these steps for each date that you want to allocate the resource to the service task.</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>For a service item in a service order, there can only be <bpt id="p1">**</bpt>Active<ept id="p1">**</ept> allocation entries with one resource or resource group at a time.</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>To allocate a resource using a service order</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>After you have created and filled in a service order or service quote, you can allocate resources, for example, technicians, to perform service tasks registered as service item lines in the document.</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Service Orders<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Choose the service order, and then choose <bpt id="p1">**</bpt>Edit<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Choose the service item line corresponding to the service task you want to allocate a resource to.</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>Resource Allocations<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Resource Allocations<ept id="p1">**</ept> window, choose a nonactive allocation entry with the service task you want to allocate the resource to.</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>If the allocation entry does not exist, you can create a new one by choosing <bpt id="p1">**</bpt>New<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Specify the service task by filling in the <bpt id="p1">**</bpt>Service Item No.<ept id="p1">**</ept> field on the same line.</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Resource No.<ept id="p1">**</ept> field, choose the resource.</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>If the resource is a member of a resource group, the number of the resource group is entered automatically into the <bpt id="p1">**</bpt>Resource Group No.<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>field.</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Fill in the <bpt id="p1">**</bpt>Allocation Date<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Allocated Hours<ept id="p2">**</ept> fields.</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Status<ept id="p1">**</ept> field is set to <bpt id="p2">**</bpt>Active<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>This means that the resource is allocated to the service task.</source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Optionally, to assign the resource to all items, choose <bpt id="p1">**</bpt>Allocate to All Service Items<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>For a service item in a service order, there can only be active allocation entries with one resource or resource group at a time.</source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>To reallocate resources on a service order</source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>You can reallocate resources directly from a service order or service quote when you are working with it.</source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The original entry will still exist, but its status is updated as follows:</source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>If service was started while the allocation was <bpt id="p1">**</bpt>Active<ept id="p1">**</ept>, that is, if the repair status of the service item in the entry was changed to <bpt id="p2">**</bpt>In Process<ept id="p2">**</ept>, the allocation status changes from <bpt id="p3">**</bpt>Reallocation Needed<ept id="p3">**</ept> to <bpt id="p4">**</bpt>Finished<ept id="p4">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>If service was not started while the allocation was <bpt id="p1">**</bpt>Active<ept id="p1">**</ept>, allocation status changes from <bpt id="p2">**</bpt>Reallocation Needed<ept id="p2">**</ept> to <bpt id="p3">**</bpt>Canceled<ept id="p3">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>If you are reallocating a service order that you have converted from a quote, the status of the allocation entries registered for the quote always changes to <bpt id="p1">**</bpt>Finished<ept id="p1">**</ept> when you reallocate the service items in the service order.</source>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Service Orders<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Open the relevant service order.</source>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Select the service item line corresponding to the service task you want to allocate a resource to.</source>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>Actions<ept id="p1">**</ept>, choose <bpt id="p2">**</bpt>Line<ept id="p2">**</ept>, and then choose <bpt id="p3">**</bpt>Resource Allocations<ept id="p3">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Resource Allocations<ept id="p1">**</ept> window, select an allocation entry with the service task you want to reallocate the resource to.</source>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Resource No.<ept id="p1">**</ept> field, select the relevant resource.</source>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>This overwrites the resource number already in the field.</source>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Press the Enter key.</source>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>A dialog box opens, asking whether you want to reallocate this entry.</source>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Fill in the <bpt id="p1">**</bpt>Reason Code<ept id="p1">**</ept> field if appropriate and choose the <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept> button to confirm the reallocation.</source>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Fill in the <bpt id="p1">**</bpt>Allocation Date<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Allocated Hours<ept id="p2">**</ept> fields.</source>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The entry now contains the new resource and its status is <bpt id="p1">**</bpt>Active<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>To reallocate a resource using the dispatch board</source>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>If the resource allocated to a service task cannot accomplish the work, it means that this service task needs reallocation.</source>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Usually you reallocate resources to a service task by using the <bpt id="p1">**</bpt>Dispatch Board<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Dispatch Board<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Allocation Filter<ept id="p1">**</ept> field, select <bpt id="p2">**</bpt>Reallocation Needed<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Dispatch Board<ept id="p1">**</ept> window now shows the list of service orders that include service tasks that need reallocation.</source>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Select the relevant service order.</source>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Navigate<ept id="p1">**</ept> tab, in the <bpt id="p2">**</bpt>Planning<ept id="p2">**</ept> group, choose <bpt id="p3">**</bpt>Resource Allocations<ept id="p3">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Resource Allocations<ept id="p1">**</ept> window opens.</source>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Select the allocation entry with the service task you want to reallocate a resource to.</source>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Resource No.<ept id="p1">**</ept> field, select the relevant resource.</source>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>It overwrites the resource number already in the field.</source>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Press Enter.</source>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Reallocation Entry Reasons<ept id="p1">**</ept> dialog box opens, asking whether you want to reallocate this entry.</source>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Fill in the <bpt id="p1">**</bpt>Reason Code<ept id="p1">**</ept> field if appropriate and choose the <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept> button to confirm the reallocation.</source>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Fill in the <bpt id="p1">**</bpt>Allocation Date<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Allocated Hours<ept id="p2">**</ept> fields.</source>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The entry now contains the new resource and its status is <bpt id="p1">**</bpt>Active<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The old entry still exists but the status is updated in the following ways:</source>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>If service was started while the allocation was <bpt id="p1">**</bpt>Active<ept id="p1">**</ept>, that is, if the repair status of the service item in the entry was changed to <bpt id="p2">**</bpt>In Process<ept id="p2">**</ept>, the allocation status changes from <bpt id="p3">**</bpt>Reallocation Needed<ept id="p3">**</ept> to <bpt id="p4">**</bpt>Finished<ept id="p4">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>If service was not started while the allocation was <bpt id="p1">**</bpt>Active<ept id="p1">**</ept>, the allocation status changes from <bpt id="p2">**</bpt>Reallocation Needed<ept id="p2">**</ept> to <bpt id="p3">**</bpt>Canceled<ept id="p3">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>If you are reallocating a service order that you have converted from a quote, the status of the allocation entries registered for the quote always changes to <bpt id="p1">**</bpt>Finished<ept id="p1">**</ept> when you reallocate the service items in the service order.</source>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>To register resource hours</source>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>When working on service items in service orders, you need to register the resource hours used for the service.</source>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>The following procedure shows how to register the resource hours in the <bpt id="p1">**</bpt>Service Item Worksheet<ept id="p1">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>You can use the same procedure to register the hours in the <bpt id="p1">**</bpt>Service Lines<ept id="p1">**</ept> window, which you can open from the Service Order window.</source>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Open the relevant service card, and then choose <bpt id="p1">**</bpt>Actions<ept id="p1">**</ept>, choose <bpt id="p2">**</bpt>Order<ept id="p2">**</ept>, and then choose <bpt id="p3">**</bpt>Service Lines<ept id="p3">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>If the same resource works on all the service items in the service order, you can register the total resource hours for one service item only and then split the resource line to assign the resource hours to the other service items.</source>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Service Tasks<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Select the line that includes the relevant service item, and then choose the <bpt id="p1">**</bpt>Item Worksheet<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Fill in the fields as necessary.</source>
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>To assign a resource to all service items in an order</source>
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>If the same resource, for example a technician, works on all the service items in the service order, you can register the total resource hours for one service item only and then split the resource line to divide the resource hours onto the resource lines for the other service items.</source>
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The following procedure shows how to split resource lines in the <bpt id="p1">**</bpt>Service Invoice Lines<ept id="p1">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Service Orders<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Open the relevant service order.</source>
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Lines<ept id="p1">**</ept> FastTab, choose <bpt id="p2">**</bpt>Actions<ept id="p2">**</ept>, choose <bpt id="p3">**</bpt>Order<ept id="p3">**</ept>, and then choose <bpt id="p4">**</bpt>Service Lines<ept id="p4">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Service Lines<ept id="p1">**</ept> window opens.</source>
+        </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Select the resource line you want to split.</source>
+        </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>The contents of the <bpt id="p1">**</bpt>Quantity<ept id="p1">**</ept> field is divided between all the service items in the order.</source>
+        </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Actions<ept id="p1">**</ept> tab, choose the <bpt id="p2">**</bpt>Split Resource Line<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept> to confirm.</source>
+        </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Resource lines for the other service items in the order are created with the same resource number as the line you split.</source>
+        </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>The quantity is the quantity for the line you split divided by the number of service items in the order.</source>
+        </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>To cancel an allocation</source>
+        </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>You can cancel resource allocations for service tasks without reallocating the tasks.</source>
+        </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Dispatch Board<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Choose the service order, and then choose the <bpt id="p1">**</bpt>Resource Allocations<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Choose the allocation entry with the service task that you want to cancel allocation for.</source>
+        </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Cancel Allocation<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Reason Code<ept id="p1">**</ept> field, select the appropriate reason code.</source>
+        </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept> to confirm the cancellation.</source>
+        </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Status<ept id="p1">**</ept> field, the <bpt id="p2">**</bpt>Reallocation Needed<ept id="p2">**</ept> option is automatically selected.</source>
+        </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>If the repair status of the service item in the entry is <bpt id="p1">**</bpt>Initial<ept id="p1">**</ept>, the repair status is changed to <bpt id="p2">**</bpt>Referred<ept id="p2">**</ept>, that is, no service has been started.</source>
+        </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>If the repair status is <bpt id="p1">**</bpt>In Process<ept id="p1">**</ept>, it is changed to <bpt id="p2">**</bpt>Partly Serviced<ept id="p2">**</ept>, that is, some service has been completed.</source>
+        </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Set Up Resource Allocation<ept id="p1">](service-how-setup-resource-allocation.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Allocation Status and Repair Status<ept id="p1">](service-allocation-status-and-repair-status.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,264 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="assembly-assemble-to-order-or-assemble-to-stock.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-435fba6" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1000447ed0f547fea9fc349900631b0a5f0ce107</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\assembly-assemble-to-order-or-assemble-to-stock.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d2e503f916c869779192ec6fd3d7e4cbaa28c8f6</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">acedacd96498fa84910124bc23f0ee2130d9b54b</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Understanding Assemble to Order and Assemble to Stock | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Assembly items can be supplied either by assembling them when they are ordered or by assembling them to be kept in inventory until they are need on a sales order.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Understanding Assemble to Order and Assemble to Stock</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Assembly items can be supplied in the following two processes:</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Assemble to order.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Assemble to stock.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Assemble to Order</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>You typically use <bpt id="p1">*</bpt>assemble to order<ept id="p1">*</ept> for items that you do not want to stock because you expect to customize them to customer requests or because you want to minimize the inventory carrying cost.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The supporting functionality includes:</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Ability to customize assembly items when taking a sales order.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Overview of availability of the assembly item and its components.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Ability to reserve assembly components immediately to guarantee order fulfillment.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Function to determine profitability of the customized order by rolling up price and cost.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Integration to the warehouse to make assembly and shipping easier.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Ability to assemble to order at the point of making a sales quote or a blanket sales order.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Ability to combine inventory quantities with assemble-to-order quantities.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>In the assemble-to-order process, the item is assembled in response to a sales order and with a one-to-one link between the assembly order and the sales order.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>When you enter an assemble-to-order item on a sales line, an assembly order is automatically created with a header that is based on the sales line and with lines that are based on the item’s assembly BOM multiplied by the order quantity.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>You can use the <bpt id="p1">**</bpt>Assemble-to-Order Lines<ept id="p1">**</ept> page to see the linked assembly order lines to support you in customizing the assembly item and in a delivery date that is based on component availability information.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Sell Items Assembled to Order<ept id="p1">](assembly-how-to-sell-items-assembled-to-order.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Although it is not part of the default process, you can sell inventory quantities with the assemble-to-order quantities.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Sell Inventory Items in Assemble-to-Order Flows<ept id="p1">](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>To enable this process, the <bpt id="p1">**</bpt>Assembly Policy<ept id="p1">**</ept> field on the item card must be <bpt id="p2">**</bpt>Assemble-to-Order<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Assemble to Stock</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>You typically use <bpt id="p1">*</bpt>assemble to stock<ept id="p1">*</ept> for items that you want to assemble ahead of sales, such as to prepare for a kit campaign, and keep in stock until they are ordered.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>These items are usually standard items such as packaged kits that you do not offer to customize to customer requests.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>In the assemble-to-stock process, the item is assembled without an immediate sales demand and is stocked in the warehouse as an inventory item for later sale or consumption as a subassembly.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Assemble Items<ept id="p1">](assembly-how-to-assemble-items.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>From this point, the item is picked and processed as a single item and is treated like a finished production item.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>When you enter an assemble-to-stock item on a sales line, the line like any other item sold from inventory.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>For example, availability is checked for the assembly item only.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Although it is not part of the default process, you can assemble an item to order even if it is set up to be assembled to stock.</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Sell Assemble-to-Order Items and Inventory Items Together<ept id="p1">](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>To enable this process, the <bpt id="p1">**</bpt>Assembly Policy<ept id="p1">**</ept> field on the item card must be <bpt id="p2">**</bpt>Assemble-to-Stock<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Combination Scenarios</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>A general principle in Assembly Management is that when combined on a sales order line, assemble-to-order quantities must be shipped before inventory quantities.</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>If an assembly order is linked to a sales order line, then the value in the <bpt id="p1">**</bpt>Qty. to Assemble to Order<ept id="p1">**</ept> field on the sales order line is copied to the <bpt id="p2">**</bpt>Quantity to Assemble<ept id="p2">**</ept> field, via the <bpt id="p3">**</bpt>Quantity<ept id="p3">**</ept> field on the assembly order header.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Sell Items Assembled to Order<ept id="p1">](assembly-how-to-sell-items-assembled-to-order.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>In addition, the value in the <bpt id="p1">**</bpt>Quantity to Assemble<ept id="p1">**</ept> field is related to the <bpt id="p2">**</bpt>Qty. to Ship<ept id="p2">**</ept> field on the sales order line, and this relation manages the shipping of assemble-to-order quantities, both partially and completely.</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>This is true both when the full sales line quantity is assembled to order and in combination scenarios where one part of the sales line quantity is assembled to order and another part is shipped from inventory.</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>However, in the combination scenario, you have additional flexibility when shipping partially in that you can modify the <bpt id="p1">**</bpt>Quantity to Assemble<ept id="p1">**</ept> field, within predefined rules, to specify how many units to ship partially from inventory and how many to ship partially by assembling to order.</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>If the full sales line quantity must be assembled to order and shipped, then the value in the <bpt id="p1">**</bpt>Qty. to Ship<ept id="p1">**</ept> field is copied to <bpt id="p2">**</bpt>Quantity to Assemble<ept id="p2">**</ept> field on the linked assembly order when you change the quantity to ship.</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>This ensures that the quantity being shipped is fully supplied by the assemble-to-order quantity.</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>However, in combination scenarios, the full value in the <bpt id="p1">**</bpt>Qty. to Ship<ept id="p1">**</ept> is not copied to the <bpt id="p2">**</bpt>Quantity to Assemble<ept id="p2">**</ept> field on the assembly order header.</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Instead, a default value is inserted in the <bpt id="p1">**</bpt>Quantity to Assemble<ept id="p1">**</ept> field that is calculated from the <bpt id="p2">**</bpt>Qty. to Ship<ept id="p2">**</ept> field according to a predefined rule that ensures shipment of assemble-to-order quantities first.</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>If you want to deviate from this default, for example because you only want to assemble more or less of the quantity in the <bpt id="p1">**</bpt>Qty. to Ship<ept id="p1">**</ept> field, then you can modify the <bpt id="p2">**</bpt>Quantity to Assemble<ept id="p2">**</ept> field, but only within predefined rules, as illustrated below</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>An example why you would want to modify the quantity to assemble is that you want to partially post shipment of inventory quantities before the assembly output can be shipped.</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The following explains the rules that define the minimum and maximum values that you can enter manually in the <bpt id="p1">**</bpt>Quantity to Assemble<ept id="p1">**</ept> to deviate from the default value in a combination scenario.</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The table shows a combination scenario where the <bpt id="p1">**</bpt>Qty. to Ship<ept id="p1">**</ept> field on the linked sales order line is changed from 7 to 4, and the <bpt id="p2">**</bpt>Quantity to Assemble<ept id="p2">**</ept> is therefore defaulted to 4.</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Sales Order Line</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Assembly Order Hheader</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Quantity<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Qty. to Ship<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Qty. to Assemble to Order<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Quantity Shipped<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Quantity<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Quantity to Assemble<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Assembled Quantity<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Remaining Quantity<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Initial</source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>10</source>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>7</source>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>7</source>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>0</source>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>7</source>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>7</source>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>0</source>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>7</source>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Change</source>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>4</source>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>4 (inserted by default)</source>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Based on the above situation, you can only modify the <bpt id="p1">**</bpt>Quantity to Assemble<ept id="p1">**</ept> field as follows:</source>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The minimum quantity that you can enter is 1.</source>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>This is because you must at least assemble one unit to be able to sell the four units, assuming that the remaining three are available in the inventory.</source>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The maximum quantity that you can enter is 4.</source>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>This is to ensure that you do not assemble more of this assemble-to-order item than what is needed on the sale.</source>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Assembly Management<ept id="p1">](assembly-assemble-items.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Work with Bills of Material<ept id="p1">](inventory-how-work-BOMs.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Inventory<ept id="p1">](inventory-manage-inventory.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Design Details: Warehouse Management<ept id="p1">](design-details-warehouse-management.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Working with <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph><ept id="p1">](ui-work-product.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

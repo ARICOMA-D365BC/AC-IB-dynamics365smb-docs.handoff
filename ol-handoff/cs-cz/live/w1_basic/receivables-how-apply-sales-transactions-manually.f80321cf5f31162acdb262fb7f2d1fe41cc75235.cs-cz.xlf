@@ -1,0 +1,432 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="receivables-how-apply-sales-transactions-manually.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-2e292eb" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6e00e9cbc1b1dc8674ccf83876809496a563b0be</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">financials\receivables-how-apply-sales-transactions-manually.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1603eae6be647e848f2a39b9104798c75fa36916</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">09764040987b2b345318e28d3b63382fe4caded1</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Apply Customer Ledger Entries to Manually Reconcile Customer Payments | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Describes how to apply customer cash receipts or refunds to one or more open customer ledger entries and reconcile customer payments.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Reconcile Customer Payments Manually</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>When you receive a cash receipt from a customer, or you make a cash refund, you must decide whether to apply the payment or refund to close one or more open debit or credit entries.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>You can specify the amount you want to apply.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>For example, you can apply partial payments to customer ledger entries.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Closing customer ledger entries makes sure that information such as customer statistics, account statements, and finance charges are correct.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Customer Ledger Entries<ept id="p1">**</ept> window, red font means that the related payment is past its due date.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You can apply customer ledger entries in several ways:</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>By entering information in dedicated windows, such as the <bpt id="p1">**</bpt>Cash Receipt Journal<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Payment Reconciliation Journal<ept id="p2">**</ept> windows.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>From sales credit memo documents.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>From customer ledger entries after sales documents are posted but not applied.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>If the <bpt id="p1">**</bpt>Application Method<ept id="p1">**</ept> field on the customer card contains <bpt id="p2">**</bpt>Apply to Oldest<ept id="p2">**</ept>, payments are applied to the oldest open credit entry, unless you manually specify an entry.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>If the application method is <bpt id="p1">**</bpt>Manual<ept id="p1">**</ept>, you always apply entries manually.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You can apply customer payments manually in the <bpt id="p1">**</bpt>Cash Receipt Journal<ept id="p1">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>A cash receipt journal is a type of general journal, so you can use it to post transactions to general ledger, bank, customer, vendor, and fixed assets accounts.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>You can apply the payment to one or more debit entries when you post the payment, or you can apply from the posted entries later.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>You can also apply customer and vendor payments in the <bpt id="p1">**</bpt>Payment Reconciliation Journal<ept id="p1">**</ept> window, by using functions for bank statement import, automatic application, and bank account reconciliation.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Reconcile Payments Using Automatic Application<ept id="p1">](receivables-how-reconcile-payments-auto-application.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Alternatively, you can reconcile customer payments based on a list of unpaid sales documents in the <bpt id="p1">**</bpt>Payment Registration<ept id="p1">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Reconcile Customer Payments From a List of Unpaid Sales Documents<ept id="p1">](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>To fill and post a cash receipt journal</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Cash Receipt Journal<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Edit Journal<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Select the relevant batch in the <bpt id="p1">**</bpt>Batch Name<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Fill in the <bpt id="p1">**</bpt>Posting Date<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Document Type<ept id="p1">**</ept> field, select <bpt id="p2">**</bpt>Payment<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Document No.<ept id="p1">**</ept> field is filled by the number series assigned to the batch.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Use the <bpt id="p1">**</bpt>External Document No.<ept id="p1">**</ept> field to store an identifier, such as the customer's check number.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Account Type<ept id="p1">**</ept> field, select <bpt id="p2">**</bpt>Customer<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Account No.<ept id="p1">**</ept> field, select the relevant G/L account.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>If you want to post the application at the same time as you post the journal, do one of the following.</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Balancing Account Type<ept id="p1">**</ept> field, select <bpt id="p2">**</bpt>G/L Account<ept id="p2">**</ept> for cash payments, and <bpt id="p3">**</bpt>Bank Account<ept id="p3">**</ept> for other payments.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Balancing Account No.<ept id="p1">**</ept> field, select the cash account for cash payments, or the relevant bank account for other payments.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Post the journal.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>To apply a payment to a single customer ledger entry</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Cash Receipt Journal<ept id="p3">**</ept> and choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Edit Journal<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>On the first journal line, enter the relevant information about the entry to be applied.</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Document Type<ept id="p1">**</ept> field, enter <bpt id="p2">**</bpt>Payment<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Account Type<ept id="p1">**</ept> field, enter <bpt id="p2">**</bpt>Customer<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Bal. Account Type<ept id="p1">**</ept> field, enter <bpt id="p2">**</bpt>Bank Account<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Applies-to Doc. No.<ept id="p1">**</ept> field, choose the field to open the <bpt id="p2">**</bpt>Apply Customer Entries<ept id="p2">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Apply Customer Entries<ept id="p1">**</ept> window, select the entry to apply the payment to.</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Amount to Apply<ept id="p1">**</ept> field, enter the amount you want to apply to the entry.</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>If you do not enter an amount, the maximum amount is applied.</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>At the bottom of the <bpt id="p1">**</bpt>Apply Customer Entries<ept id="p1">**</ept> window, you can see the specific amount in the <bpt id="p2">**</bpt>Applied Amount<ept id="p2">**</ept> field and also whether the application balances.</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Cash Receipt Journal<ept id="p1">**</ept> window now shows the entry you have selected entered in the <bpt id="p2">**</bpt>Applies-to Doc. Type<ept id="p2">**</ept> and <bpt id="p3">**</bpt>Applies-to Doc. No.<ept id="p3">**</ept> fields.</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Post the cash receipt journal.</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>To apply a payment to multiple customer ledger entries</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Cash Receipt Journal<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Edit Journal<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>On the first journal line, enter the relevant information about the entry to be applied.</source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Document Type<ept id="p1">**</ept> field, enter <bpt id="p2">**</bpt>Payment<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Account Type<ept id="p1">**</ept> field, enter <bpt id="p2">**</bpt>Customer<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Bal. Account Type<ept id="p1">**</ept> field, enter <bpt id="p2">**</bpt>Bank Account<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Amount<ept id="p1">**</ept> field, enter the full payment as a negative amount.</source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>To apply the payment to multiple customer ledger entries when posting, choose the <bpt id="p1">**</bpt>Apply Entries<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Select the lines with the entries that you want the applying entry to be applied to, and then choose the <bpt id="p1">**</bpt>Set Applies-to ID<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>On each line, in the <bpt id="p1">**</bpt>Amount to Apply<ept id="p1">**</ept> field, enter the amount you want to apply to the individual entry.</source>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>If you do not enter an amount, the maximum amount is applied.</source>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>At the bottom of the <bpt id="p1">**</bpt>Apply Customer Entries<ept id="p1">**</ept> window, you can see the specific amount in the <bpt id="p2">**</bpt>Applied Amount<ept id="p2">**</ept> field and also whether the application balances.</source>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Post the cash receipt journal.</source>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>To apply a credit memo to a single customer ledger entry</source>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Sales Credit Memos<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Open the relevant sales credit memo.</source>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>To apply the credit memo to a single customer ledger entry when posting, in the <bpt id="p1">**</bpt>Applies-to Doc. No.<ept id="p1">**</ept> field, select the entry to which you want to apply the payment.</source>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>On the line in the <bpt id="p1">**</bpt>Amount to Apply<ept id="p1">**</ept> field, enter the amount you want to apply to the entry.</source>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>If you do not enter an amount, the program automatically applies the maximum amount.</source>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>At the bottom of the <bpt id="p1">**</bpt>Apply Customer Entries<ept id="p1">**</ept> window, you can see the specific amount in the <bpt id="p2">**</bpt>Applied Amount<ept id="p2">**</ept> field and also whether the application balances.</source>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Sales Credit Memo<ept id="p1">**</ept> window now shows the entry you have selected entered in the <bpt id="p2">**</bpt>Applies-to Doc. Type<ept id="p2">**</ept> and <bpt id="p3">**</bpt>Applies-to Doc. No.<ept id="p3">**</ept> fields.</source>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>And the amount of the credit memo to be posted, adjusted for any possible payment discounts.</source>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Post the credit memo.</source>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>To apply a credit memo to multiple customer ledger entries</source>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Sales Credit Memos<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Open the relevant sales credit memo.</source>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>To apply the credit memo to multiple customer ledger entries when posting, choose the <bpt id="p1">**</bpt>Apply Entries<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Select the lines with the entries that you want the applying entry to be applied to, and then choose the <bpt id="p1">**</bpt>Set Applies-to ID<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>On each line, in the <bpt id="p1">**</bpt>Amount to Apply<ept id="p1">**</ept> field, enter the amount you want to apply to the individual entry.</source>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>If you do not enter an amount, the maximum amount is applied.</source>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>At the bottom of the <bpt id="p1">**</bpt>Apply Customer Entries<ept id="p1">**</ept> window, you can see the specific amount in the <bpt id="p2">**</bpt>Applied Amount<ept id="p2">**</ept> field and also whether the application balances.</source>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Sales Credit Memo<ept id="p1">**</ept> window now shows the amount of the credit memo to be posted, adjusted for any possible payment discounts.</source>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Post the credit memo.</source>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>To apply posted customer ledger entries</source>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Customers<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Open the customer card for the customer with entries that you want to apply.</source>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Ledger Entries<ept id="p1">**</ept> action, and then select the line with the entry that will be the applying entry.</source>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Apply Entries<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Apply Customer Entries<ept id="p1">**</ept> window opens showing the open entries for the customer.</source>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Select the lines with the entries that you want the applying entry to be applied to, and then choose the <bpt id="p1">**</bpt>Set Applies-to ID.<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>action.</source>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>For each line in the <bpt id="p1">**</bpt>Amount to Apply<ept id="p1">**</ept> field, enter the amount you want to apply to the individual entry.</source>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>If you do not enter an amount, the maximum amount is applied.</source>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>At the bottom of the <bpt id="p1">**</bpt>Apply Customer Entries<ept id="p1">**</ept> window, you can see the specific amount in the <bpt id="p2">**</bpt>Applied Amount<ept id="p2">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Post Application<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Post Application<ept id="p1">**</ept> window appears with the document number of the applying entry and the posting date of the entry with the most recent posting date.</source>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button to post the application.</source>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>If the posted application has resulted in closed customer ledger entries, the <bpt id="p1">**</bpt>Open<ept id="p1">**</ept> field is cleared for these ledger entries.</source>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>To see the ledger entries, choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Customers<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Browse to the card for the relevant customer to see the ledger entries.</source>
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>On the ledger entry list, on the line that contains the ledger entry that was fully applied to, you can see that the <bpt id="p1">**</bpt>Open<ept id="p1">**</ept> check box is not selected.</source>
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>After you select an entry in the <bpt id="p1">**</bpt>Apply Customer Entries<ept id="p1">**</ept> window, or several entries by setting the <bpt id="p2">**</bpt>Applies-to ID<ept id="p2">**</ept>, the <bpt id="p3">**</bpt>Applied Amount<ept id="p3">**</ept> field on the journal line will contain the sum of the remaining amounts for the posted entries you have selected, unless the field contains something already.</source>
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>If you select <bpt id="p1">**</bpt>Apply to Oldest<ept id="p1">**</ept> in the <bpt id="p2">**</bpt>Application Method<ept id="p2">**</ept> field on the customer card, the application occurs automatically.</source>
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>To apply customer ledger entries in different currencies to one another</source>
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>If you sell to a customer in one currency and receive payment in another currency, you can still apply the invoice to the payment.</source>
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>If you apply an entry (Entry 1) in one currency to an entry (Entry 2) in a different currency, the posting date on Entry 1 is used to find the relevant exchange rate to convert amounts on Entry 2.</source>
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The relevant exchange rate is found in the <bpt id="p1">**</bpt>Currency Exchange Rates<ept id="p1">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Applying customer ledger entries in different currencies must be enabled.</source>
+        </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Enable Application of Ledger Entries in Different Currencies<ept id="p1">](finance-how-enable-application-ledger-entries-different-currencies.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Cash Receipts Journal<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Open the journal you want, and fill in the first empty journal line using a currency code.</source>
+        </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Apply Entries<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Select the line with the entry you want to apply to the entry in the cash receipt journal, choose the <bpt id="p1">**</bpt>Set Applies-to ID<ept id="p1">**</ept> action, and then select the entry you want to apply to.</source>
+        </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button to return to the cash receipt journal.</source>
+        </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Post the sales journal.</source>
+        </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>When you apply entries in different currencies, the entries are converted to USD.</source>
+        </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Although the exchange rates for the two currencies are fixed, for example between USD and EUR, there may be a small residual amount when they are converted to USD.</source>
+        </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>These small residual amounts are posted as gains and losses to the account specified in the <bpt id="p1">**</bpt>Realized Gains Account<ept id="p1">**</ept> or <bpt id="p2">**</bpt>Realized Losses Account<ept id="p2">**</ept> fields in the <bpt id="p3">**</bpt>Currencies<ept id="p3">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Amount (USD)<ept id="p1">**</ept> field is also adjusted on the vendor ledger entries.</source>
+        </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>To correct an application of customer entries</source>
+        </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>When you correct an application, correcting entries that are identical to the original entry but with opposite sign in the amount field are created and posted for all entries, including all general ledger posting derived from the application, such as payment discount and currency gains/losses.</source>
+        </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>The entries that were closed by the application are reopened.</source>
+        </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Customers<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Open the relevant customer card.</source>
+        </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Ledger Entries<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Select the relevant ledger entry, and then choose the <bpt id="p1">**</bpt>Unapply Entries<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Alternatively, choose the <bpt id="p1">**</bpt>Detailed Ledger Entry<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Select the application entry, and then choose the <bpt id="p1">**</bpt>Unapply Entries<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Fill in the fields in the header, and then choose the <bpt id="p1">**</bpt>Unapply<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>If an entry has been applied by more than one application entry, you must unapply the latest application entry first.</source>
+        </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Managing Receivables<ept id="p1">](receivables-manage-receivables.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Sales<ept id="p1">](sales-manage-sales.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Working with <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph><ept id="p1">](ui-work-product.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

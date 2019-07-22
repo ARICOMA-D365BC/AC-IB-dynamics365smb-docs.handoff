@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="finance-how-to-update-standard-costs.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-2e292eb" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">53716a78d7538e034c097506205a840b1243c4cf</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">financials\finance-how-to-update-standard-costs.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d667f08835fcbd83a31c2f2aaff439bc0e402ac9</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">18e30464c4fb39323bb43c76aecee7d3a0496e10</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>How to Update Standard Costs | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>You must periodically update the standard costs of components and roll the new costs up to the parent item.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Update Standard Costs</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You must periodically update the standard costs of components and roll the new costs up to the parent item.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The process typically consists of the following four steps:</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Update costs at the component and capacity levels.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>For more information, see the <bpt id="p1">**</bpt>Suggest Item Standard Cost<ept id="p1">**</ept> batch job.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Consolidate and roll up the component and capacity costs to calculate the total manufacturing or assembly cost of the items.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Implement the standard costs that are entered when you run the previous batch jobs.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The standard costs do not take effect until they are implemented.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>For more information, see Implement Standard Cost Changes.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Implement the changes to update the <bpt id="p1">**</bpt>Unit Cost<ept id="p1">**</ept> field on the item card and perform inventory revaluation.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Revalue Inventory<ept id="p1">](inventory-how-revalue-inventory.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>About Calculating Standard Cost<ept id="p1">](finance-about-calculating-standard-cost.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>To update standard costs</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Run the <bpt id="p1">**</bpt>Adjust Cost-Item Entries<ept id="p1">**</ept> batch job.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Run the <bpt id="p1">**</bpt>Post Inventory Cost to G/L<ept id="p1">**</ept> batch job.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Open the <bpt id="p1">**</bpt>Standard Cost Worksheet<ept id="p1">**</ept> and use one or more of the following functions:</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Run the <bpt id="p1">**</bpt>Suggest Item Standard Cost<ept id="p1">**</ept> batch job.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Review the results and make changes as necessary.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Run the <bpt id="p1">**</bpt>Suggest Capacity Standard Cost<ept id="p1">**</ept> batch job.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Review the results and make changes as necessary.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Run the <bpt id="p1">**</bpt>Roll Up Standard Cost<ept id="p1">**</ept> batch job.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Review the results and make changes as necessary.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Run the <bpt id="p1">**</bpt>Implement Standard Cost Changes<ept id="p1">**</ept> batch job.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Review and post the <bpt id="p1">**</bpt>Revaluation Journal<ept id="p1">**</ept> window, which has been populated with entries from the previous steps in this process.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>About Calculating Standard Cost<ept id="p1">](finance-about-calculating-standard-cost.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Managing Inventory Costs<ept id="p1">](finance-manage-inventory-costs.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Design Details: Costing Methods<ept id="p1">](design-details-costing-methods.md)</ept> [<bpt id="p2">[</bpt>Finance<ept id="p2">](finance.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Working with <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph><ept id="p1">](ui-work-product.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

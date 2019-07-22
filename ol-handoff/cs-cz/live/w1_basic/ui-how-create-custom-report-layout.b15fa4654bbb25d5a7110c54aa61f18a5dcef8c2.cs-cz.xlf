@@ -1,0 +1,243 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="ui-how-create-custom-report-layout.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-15c36f0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e1ac1e4dc89c9490049e0a7b2c668bc2e743cc2b</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">financials\ui-how-create-custom-report-layout.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">677bc5069b72a59c1a18bf454aff8b22ee440d22</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8568bf91ad144618c4b802466f8f3256ae0612df</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Create and Modify Custom Layouts for Reports and Documents | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Learn how to create your own customized layouts to personalize the appearance of a report when it is viewed, printed, or saved.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Create and Modify a Custom Report or Document Layout</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>By default, a report will have a built-in report layout, which can be either an RDLC report layout or Word report layout, or both.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>You cannot modify built-in layouts.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>However, you can create your own custom layouts that enable you to change the appearance of report when it is viewed, printed or saved.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You can create multiple custom report layouts for the same report, and then switch the layout that is used by a report as needed.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>In <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph>, the term "report" also covers externally-facing documents, such as sales invoices and order confirmations that you send to customers as PDF files.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>To create a custom layout, you can either make a copy of an existing custom layout or add a new custom layout, which in most cases is based on a built-in layout.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>When you add a new custom layout, you can choose to add an RDLC report layout type, Word report layout type, or both.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The new custom layout will automatically be based on the built-in layout for the report if one is available.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>If there is no built-in layout for the type, then a new blank layout is a created, which you will have to modify and design from scratch.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>For more information about RDLC and Word report layouts, built-in and custom layouts, and more, see <bpt id="p1">[</bpt>Manage Report Layouts<ept id="p1">](ui-manage-report-layouts.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>To create a custom layout</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Report Layout Selection<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Report Layout Selection<ept id="p1">**</ept> window lists all the reports that are available in the company that is specified in the <bpt id="p2">**</bpt>Company<ept id="p2">**</ept> field at the top of the window.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Set the <bpt id="p1">**</bpt>Company<ept id="p1">**</ept> field to the company in which you want to create the report layout.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Select the row for the report that you want to create the layout for, and then choose the <bpt id="p1">**</bpt>Custom Layouts<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Custom Report Layouts<ept id="p1">**</ept> window appears and lists all the custom layouts that are available for the selected report.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>If you want to create a copy of an existing custom layout, select the existing custom layout in the list, and then choose the <bpt id="p1">**</bpt>Copy<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The copy of the custom layout appears in the <bpt id="p1">**</bpt>Custom Report Layouts<ept id="p1">**</ept> window and has the words <bpt id="p2">*</bpt>Copy of<ept id="p2">*</ept> in the <bpt id="p3">**</bpt>Description<ept id="p3">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>If you want to add a new custom layout that is based on a built-in layout, do the following:</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>New<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Insert Built-in Layout for a Report<ept id="p1">**</ept> window appears.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>ID<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Name<ept id="p2">**</ept> fields are automatically filled in.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>To add a custom Word report layout type, then select the <bpt id="p1">**</bpt>Insert Word Layout<ept id="p1">**</ept> check box.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>To add a custom RDLC report layout type, then select the <bpt id="p1">**</bpt>Insert RDLC Layout<ept id="p1">**</ept> check box.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The new custom layouts appear in the <bpt id="p1">**</bpt>Custom Report Layouts<ept id="p1">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>If a new layout is based on a built-in layout, then it has the words <bpt id="p1">**</bpt>Copy of a Built-in Layout<ept id="p1">**</ept> in the <bpt id="p2">**</bpt>Description<ept id="p2">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>If there was no built-in layout for the report, then the new layout has the words <bpt id="p1">**</bpt>New Layout<ept id="p1">**</ept> in the <bpt id="p2">**</bpt>Description<ept id="p2">**</ept> field, which indicates that custom layout is blank.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>By default, the <bpt id="p1">**</bpt>Company Name<ept id="p1">**</ept> field is blank, which means that the custom layout will be available for the report in all companies.</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>To make the custom layout available in a specific company only, choose <bpt id="p1">**</bpt>Edit<ept id="p1">**</ept>, and then set the <bpt id="p2">**</bpt>Company Name<ept id="p2">**</ept> field to the company that you want.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The custom layout has been created.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>You can now modify the custom layout as needed.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;a name="ModifyCustomLayout"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>Modifying a custom layout</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>To modify a report layout, you must first export the report layout as a file to a location on your computer or network, and then open the exported document and make the changes.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>When you are finished making the changes, you import the report layout.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>To modify a custom layout</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>You export a custom layout from the <bpt id="p1">**</bpt>Custom Report Layouts<ept id="p1">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>If this window is not already open, search for and open the <bpt id="p1">**</bpt>Report Layout Selection<ept id="p1">**</ept> window, select the report that has the layout that you want to modify, and then choose the <bpt id="p2">**</bpt>Custom Layouts<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Custom Report Layouts<ept id="p1">**</ept> window, select the layout that you want to modify, choose the <bpt id="p2">**</bpt>Export Layout<ept id="p2">**</ept> action, and then choose <bpt id="p3">**</bpt>Save<ept id="p3">**</ept> or <bpt id="p4">**</bpt>Save As<ept id="p4">**</ept> to save the report layout document to a location on your computer or network.</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Open the report layout document that you just saved, and then make changes.</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>If you are changing a Word layout, open the layout document in Word.</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>For editing details, see the next section <bpt id="p1">[</bpt>Making Changes to the Report Layout<ept id="p1">](ui-how-create-custom-report-layout.md#MakeChangesToLayout)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>RDLC report layouts are more advanced than Word report layouts.</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>For more information about modifying an RDLC report layout, see <bpt id="p1">[</bpt>Designing RDLC Report Layouts<ept id="p1">](/dynamics-nav/Designing-RDLC-Report-Layouts)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Remember to save you changes when done.</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Return to the <bpt id="p1">**</bpt>Custom Report Layouts<ept id="p1">**</ept> window, select the report layout that you exported and modified, and then choose the <bpt id="p2">**</bpt>Import Layout<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Import<ept id="p1">**</ept> dialog box, select <bpt id="p2">**</bpt>Choose<ept id="p2">**</ept> to find and select the report layout document, and then choose <bpt id="p3">**</bpt>Open<ept id="p3">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;a name="MakeChangesToLayout"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept> Making changes to a Word report layout</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>To can make general formatting and layout changes, such as changing text font, adding and modifying a table, or removing a data field, just use the basic editing features of Word, like you do with any Word document.</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>If you are designing a Word report layout from scratch or adding new data fields, then start by adding a table that includes rows and columns that will eventually hold the data fields.</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Show the table gridlines so that you see the boundaries of table cells.</source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Remember to hide the gridlines when you are done editing.</source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>To show or hide table gridlines, select the table, and then under <bpt id="p1">**</bpt>Layout<ept id="p1">**</ept> on the <bpt id="p2">**</bpt>Table<ept id="p2">**</ept> tab, choose <bpt id="p3">**</bpt>View Gridlines<ept id="p3">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;a name="RemoveField"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept> Removing Label and Data Fields in Word Layouts</source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Label and data fields of a report are contained in content controls in Word.</source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The following figure illustrates a content control when it is selected in the Word document.</source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">![</bpt>Content control for field in Word report layout<ept id="p1">]</ept><bpt id="p2">(media/nav_wordreportlayouts_contentcontrol.png "</bpt>NAV_WordReportLayouts_ContentControl<ept id="p2">")</ept></source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The name of the label or data field name displays in the content control.</source>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>In the example, the field name is CompanyAddr1.</source>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>To remove a label or data field</source>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Right-click the field that you want to delete, and then choose <bpt id="p1">**</bpt>Remove Content Control<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The content control is removed, but the field name remains as text.</source>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Delete the remaining text as needed.</source>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Adding data fields</source>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Adding data fields from a report dataset is a more advanced and requires some knowledge of the report dataset.</source>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>For information about adding fields for data, labels, data, and images, see <bpt id="p1">[</bpt>Add Fields to a Word Report Layout<ept id="p1">](ui-how-add-fields-word-report-layout.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Managing Report Layouts<ept id="p1">](ui-manage-report-layouts.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Change Which Layout is Currently Used on a Report<ept id="p1">](ui-how-change-layout-currently-used-report.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Import and Export a Custom Report or Document Layout<ept id="p1">](ui-how-import-and-export-report-layout.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Working with Reports<ept id="p1">](ui-work-report.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Working with <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph><ept id="p1">](ui-work-product.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,294 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="production-how-to-plan-for-new-demand.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-435fba6" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cee1e18d0c6c7fd8b37815d44c35f91ef5ef227c</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\production-how-to-plan-for-new-demand.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8fc5a6831de008f810c9302201c22df5fea0e059</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f0de26b7dd0b3622489629dc5a273149d42b0c85</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>How to Plan Order by Order | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>This planning task can be performed on the <bpt id="p1">**</bpt>Order Planning<ept id="p1">**</ept> page, which displays all new demand along with availability information and suggestions for supply.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>It provides the visibility and tools needed to effectively plan demand from sales lines and component lines and then create different types of supply orders directly.</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Plan for New Demand Order by Order</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>This planning task can be performed on the <bpt id="p1">**</bpt>Order Planning<ept id="p1">**</ept> page, which displays all new demand along with availability information and suggestions for supply.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>It provides the visibility and tools needed to effectively plan demand from sales lines and component lines and then create different types of supply orders directly.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You can enter the <bpt id="p1">**</bpt>Order Planning<ept id="p1">**</ept> page in two ways depending on your focus: From an order that you want to plan for specifically or in batch mode because you want to plan for all and any new demand.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>To plan for new production order demand</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Planned Production Orders<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>(You can perform these steps for planned, firm planned, or released production orders).</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Open the production order you want to plan for, and then choose the <bpt id="p1">**</bpt>Planning<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Order Planning<ept id="p1">**</ept> page, choose the <bpt id="p2">**</bpt>Calculate Plan<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The page displays planning lines according to the view filter <bpt id="p1">**</bpt>Production Demand<ept id="p1">**</ept>, meaning unfulfilled component lines of all existing production orders.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Demand for only the one production order is not shown because it is necessary to plan for one production order with an overview of demand for potentially earlier components lines.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Planning lines for the production order in context are expanded.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>To plan for any new demand</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Order Planning<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Order Planning<ept id="p1">**</ept> page, choose the <bpt id="p2">**</bpt>Calculate Plan<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Expand (+)<ept id="p1">**</ept> button in front of the date in the <bpt id="p2">**</bpt>Demand Date<ept id="p2">**</ept> field to see the underlying planning lines that represent demand lines with insufficient availability.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>For each expanded planning line, that is, demand line, you can see values in information fields at the bottom of the page.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Option</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Qty. on Other Locations<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Shows if the item exists on another location.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>You can then look up and select it.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Substitutes Exist<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Shows if a substitute item is created for the item.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>You can then look up and select it.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Note that this feature only applies to components, that is, from demand lines of type <bpt id="p1">**</bpt>Production<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Quantity Available<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Shows the total availability of the item, that is, the Projected Available Balance.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Earliest Date Available<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Shows the arrival date of an inbound supply order that can cover the needed quantity on a date later than the demand date.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Replenishment System<ept id="p1">**</ept> field, select which type of supply order to create.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The default value is that of the item card, or SKU card, but you can change it to one of three options:</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Option</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Purchase<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Creates a purchase order.</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Transfer<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Creates a transfer order.</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Prod. Order<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Creates a production order.</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Supply From<ept id="p1">**</ept> field you must select a value according to the selected replenishment system.</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>If the field is not filled in, the system will display an error message when you use the <bpt id="p1">**</bpt>Make Supply Order<ept id="p1">**</ept> function, and no supply order will be created for the planning line in question.</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>This, however, is not the case if the replenishment system is <bpt id="p1">**</bpt>Prod. Order<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>From the <bpt id="p1">**</bpt>Supply From<ept id="p1">**</ept> field, you can look up in the relevant list and select where the supply should come from:</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>If replenishment system is <bpt id="p1">**</bpt>Purchase<ept id="p1">**</ept>, the look-up button in this field looks up on the <bpt id="p2">**</bpt>Item Vendor Catalog<ept id="p2">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>If replenishment system is <bpt id="p1">**</bpt>Transfer<ept id="p1">**</ept>, the look-up button in this field looks up on the <bpt id="p2">**</bpt>Location List<ept id="p2">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>In case the item exists in another location, the <bpt id="p1">**</bpt>Qty. on Other Location<ept id="p1">**</ept> field at the bottom shows a value and you can then look up and select the location from which the item should be supplied when you make the transfer order.</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>If a substitute exists for the demanded item, the <bpt id="p1">**</bpt>Substitute Exists<ept id="p1">**</ept> field is set to <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept>, and you can then look up to the <bpt id="p3">**</bpt>Item Substitution Entries<ept id="p3">**</ept> page and select the substitute.</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>Reserve<ept id="p1">**</ept> check box if you want to make a reservation between the supply order you are creating and the demand line that it is created for.</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>It is empty by default.</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>You can only select this check box if the item has <bpt id="p1">**</bpt>Optional<ept id="p1">**</ept> or <bpt id="p2">**</bpt>Always<ept id="p2">**</ept> in the <bpt id="p3">**</bpt>Reserve<ept id="p3">**</ept> field on its item card.</source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Qty. to Order<ept id="p1">**</ept> field, you can enter the quantity that will go on the supply order you are creating.</source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The default value is the same quantity as that in the <bpt id="p1">**</bpt>Needed Quantity<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>But you may decide to order more or less than this quantity based on your knowledge of the demand situation.</source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>If, for example, you see on the <bpt id="p1">**</bpt>Order Planning<ept id="p1">**</ept> page that several unrelated demand lines are for the same purchased item, and they are due around the same date, you can consolidate these by entering the total needed quantity in the <bpt id="p2">**</bpt>Qty. to Order<ept id="p2">**</ept> field of one line, and then delete the other, obsolete planning lines for that item.</source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Due Date<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Order Date<ept id="p2">**</ept> fields, you can enter the dates that should apply to the created supply orders.</source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>These two fields are interrelated according to the <bpt id="p1">**</bpt>Default Safety Lead Time<ept id="p1">**</ept> field, which can be found on the <bpt id="p2">**</bpt>Manufacturing Setup<ept id="p2">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>By default, the due date is the same as the demand date, but you can change this as you like.</source>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>If you enter a date later than the demand date, you will receive a warning message.</source>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>To make supply orders</source>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Planned Production Orders<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>You can perform these steps for a planned, firm planned, or released production order.</source>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Open the production order you want to plan for, and then choose the <bpt id="p1">**</bpt>Planning<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Place the cursor on a relevant planning line, and then choose the <bpt id="p1">**</bpt>Make Orders<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Make Supply Orders<ept id="p1">**</ept> page, on the <bpt id="p2">**</bpt>Order Planning<ept id="p2">**</ept> FastTab, in the <bpt id="p3">**</bpt>Make Orders for<ept id="p3">**</ept> field, select one of the following options.</source>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Option</source>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>The Active Line<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Make a supply order only for the line where the cursor is placed.</source>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>The Active Order<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Make supply orders for all lines in the order where the cursor is placed.</source>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>All Lines<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Make supply orders for all lines on the <bpt id="p1">**</bpt>Order Planning<ept id="p1">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Options<ept id="p1">**</ept> FastTab, define what kind of supply orders, or requisition worksheet lines, should be made.</source>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The settings you last made on the <bpt id="p1">**</bpt>Make Supply Orders<ept id="p1">**</ept> page will be saved under your user ID so that they are the same the next time you use the page.</source>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button to make the suggested supply orders or requisition worksheet lines.</source>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>You have now planned for the unfulfilled demand by making respective supply orders.</source>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Details about specific work flows when using the <bpt id="p1">**</bpt>Order Planning<ept id="p1">**</ept> page would depend on a company’s internal policies.</source>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>When you have finished your planning work on the <bpt id="p1">**</bpt>Order Planning<ept id="p1">**</ept> page, for example defined an alternative way to supply the quantity, you can proceed to create supply orders for one or more of the planning lines.</source>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The supply orders you create may introduce new dependent demand, for example for underlying production orders, and you should therefore choose <bpt id="p1">**</bpt>Calculate Plan<ept id="p1">**</ept> again to find and resolve this before moving down the list.</source>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Planning<ept id="p1">](production-planning.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Setting Up Manufacturing<ept id="p1">](production-configure-production-processes.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Manufacturing<ept id="p1">](production-manage-manufacturing.md)</ept><ph id="ph1">  </ph></source>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Inventory<ept id="p1">](inventory-manage-inventory.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Purchasing<ept id="p1">](purchasing-manage-purchasing.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Design Details: Supply Planning<ept id="p1">](design-details-supply-planning.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Setup Best Practices: Supply Planning<ept id="p1">](setup-best-practices-supply-planning.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Working with <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph><ept id="p1">](ui-work-product.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

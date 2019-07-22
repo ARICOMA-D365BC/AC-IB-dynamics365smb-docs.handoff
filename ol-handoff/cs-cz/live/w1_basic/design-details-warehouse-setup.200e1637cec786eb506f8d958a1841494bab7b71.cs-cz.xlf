@@ -1,0 +1,534 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="design-details-warehouse-setup.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-435fba6" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0c813187ee6d11fcdb729cb64048386238406528</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\design-details-warehouse-setup.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f8492254c8efd19d43649c3e1b1664f4e9e0b7ef</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dcf6e344fa3d21943f2a9735d60f51b6ff0eefeb</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Design Details - Warehouse Setup | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Warehouse functionality in Business Central contains different levels of complexity, as defined by license permissions in the offered granules.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>The level of complexity in a warehouse solution is largely defined by the bin setup on location cards, which in turn is license-controlled so that access to bin setup fields is defined by the license.</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Design Details: Warehouse Setup</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Warehouse functionality in <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> contains different levels of complexity, as defined by license permissions in the offered granules.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The level of complexity in a warehouse solution is largely defined by the bin setup on location cards, which in turn is license-controlled so that access to bin setup fields is defined by the license.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>In addition, the application objects in the license govern which UI document to use for the supported warehouse activities.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The following warehouse-related granules exist:</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Basic Inventory (4010)</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Bin (4170)</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Put Away (4180)</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Warehouse Receipt (4190)</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Pick (4200)</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Warehouse Shipment (4210)</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Warehouse Management Systems (4620)</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Internal Picks and Put-aways (4630)</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Automated Data Capture System (4640)</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Bin Setup (4660)</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>For more information about each granule, see <bpt id="p1">[</bpt><ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> Price Sheets<ept id="p1">](https://go.microsoft.com/fwlink/?LinkId=238341)</ept> (requires PartnerSource account).</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The following table shows which granules are required to define different warehouse complexity levels, which UI documents support each level, and which location codes reflect these levels in the <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> demonstration database.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Complexity Level</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>UI Document</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>CRONUS Location</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Minimum Granule Requirement</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>1</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>No dedicated warehouse activity.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Receive/ship posting from orders.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Order</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>BLUE</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Basic Inventory</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>2</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>No dedicated warehouse activity.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Receive/ship posting from orders.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Bin code is required.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Order, with bin code</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>SILVER</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Basic Inventory/Bin</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>3</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>NOTE<ept id="p1">**</ept>: Even though the settings are called <bpt id="p2">**</bpt>Require Pick<ept id="p2">**</ept> and <bpt id="p3">**</bpt>Require Put-away<ept id="p3">**</ept>, you can still post receipts and shipments directly from the source business documents at locations where you select these check boxes.</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Basic warehouse activity, order-by-order.</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Receive/ship posting from inventory put-away/pick documents.</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Bin code is required.</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Inventory Put-away/Inventory Movement/Inventory Pick, with bin code</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>(SILVER + Require Put-away or Require Put-away)</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Basic Inventory/Bin/Put Away/Pick</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>4</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Advanced warehouse activity, for multiple orders.</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Consolidated receive/ship posting based on warehouse put-away/pick registrations.</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Warehouse Receipt/Warehouse Put-away/Warehouse Pick/Warehouse Shipment/Pick Worksheet</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>GREEN</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Basic Inventory/Warehouse Receipt/Put Away/Pick/Warehouse Shipment</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>5</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Advanced warehouse activity, for multiple orders.</source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Consolidated receive/ship posting based on warehouse put-away/pick registrations.</source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Bin code is required.</source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Warehouse Receipt/Warehouse Put-away/Warehouse Pick/Warehouse Shipment/Pick Worksheet/Put-away Worksheet, with bin code</source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>(GREEN + Bin Mandatory)</source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Basic Inventory/Bin/Warehouse Receipt/Put Away/Pick/Warehouse Shipment</source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>6</source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: This level is referred to as “WMS”, since it requires the most advanced granule, Warehouse Management Systems.</source>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Advanced warehouse activity, for multiple orders</source>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Consolidated receive/ship posting based on warehouse put-away/pick registrations</source>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Bin code is required.</source>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Zone/Class code is optional.</source>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Warehouse workers directed by workflow</source>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Bin replenishment planning</source>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Bin ranking</source>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Bin setup by capacity</source>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Slotting <ph id="ph1">&lt;!-- Hand-held device integration --&gt;</ph></source>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Warehouse Receipt/Warehouse Put-away/Warehouse Pick/Warehouse Shipment/Warehouse Movement/Pick Worksheet/Put-away Worksheet/Internal Whse.</source>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Pick/Internal Warehouse Put-away, with bin/class/zone code</source>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Various worksheets for bin management</source>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>ADCS screens</source>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>WHITE</source>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Basic Inventory/Bin/Put Away/Warehouse Receipt/Pick/Warehouse Shipment/Warehouse Management Systems/Internal Picks and Put-aways/Bin Setup/<ph id="ph1">&lt;!-- Automated Data Capture System/ --&gt;</ph>Bin Setup</source>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>For examples of how the UI documents are used per warehouse complexity level, see <bpt id="p1">[</bpt>Design Details: Inbound Warehouse Flow<ept id="p1">](design-details-outbound-warehouse-flow.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Bin and Bin Content</source>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>A bin is a storage device designed to contain discrete parts.</source>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>It is the smallest container unit in <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Item quantities in bins are referred to as bin content.</source>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>A lookup from the <bpt id="p1">**</bpt>Item<ept id="p1">**</ept> field or <bpt id="p2">**</bpt>Bin Code<ept id="p2">**</ept> field on any warehouse-related document line displays the calculated availability of the item in the bin.</source>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>A bin content can be given a property of Fixed, Dedicated, or Default to define how the bin content can be used.</source>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Bins with none of these properties are referred to as floating bins.</source>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>A fixed bin holds items that are assigned to the bin code in question.</source>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The Fixed bin property ensures that even if the bin content is momentarily emptied, the bin content does not disappear, and the bin is therefore selected again as soon as it has been replenished.</source>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>A dedicated bin holds bin content that can only be picked for the dedicated resource, such as a machine center, that uses the bin in question.</source>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Other non-pick content, such as quantities outbound on a shipment posting, can still be consumed from a dedicated bin.</source>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Only bin content considered by the <bpt id="p1">**</bpt>Create Pick<ept id="p1">**</ept> algorithm is protected in a dedicated bin.</source>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The Default bin property is used by the system to suggest bins for warehouse activities.</source>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>At WMS locations, the Default bin property is not used.</source>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>At locations where bins are required, the property is used in inbound flows to specify where to place items.</source>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>In outbound flows, the property is used to specify where to take items from.</source>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>If the outbound items are placed in several bins, then items are first taken from the non-default bins, to empty that bin content, and then the remaining items are taken from the default bin.</source>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>There can only be one default bin per item per location.</source>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Bin Type</source>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>In WMS installations, you can restrict the warehouse activities that are allowed for a bin by assigning a bin type to it.</source>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>The following bin types exist:</source>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Bin Type</source>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>RECEIVE</source>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Items posted as received but not yet put away.</source>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>SHIP</source>
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Items picked for warehouse shipment lines but not yet posted as shipped.</source>
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>PUT AWAY</source>
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Typically, items to be stored in large units of measure but that you do not want to access for picking purposes.</source>
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Because these bins are not used for picking, either for production orders or shipments, your use of a Put Away type bin might be limited, but this bin type could be useful if you have purchased a large quantity of items.</source>
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Bins of this type should always have a low bin-ranking, so that when received items are put away, other higher-ranking PUTPICK bins fixed to the item are put away first.</source>
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>If you are using this type of bin, you must regularly perform bin replenishment so that the items stored in these bins are also available in PUTPICK or PICK type bins.</source>
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>PICK</source>
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Items to be used for picking only.</source>
+        </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>The replenishment of these bins can only be made by movement, not by put-away.</source>
+        </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>PUTPICK</source>
+        </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Items in bins that are suggested for both the put-away and pick functions.</source>
+        </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Bins of this type probably have different bin rankings.</source>
+        </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>You can set up your bulk storage bins as this type of bin with low bin rankings compared to your ordinary pick bins or forward picking area bins.</source>
+        </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>QC</source>
+        </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>This bin is used for inventory adjustments if you specify this bin on the location card in the <bpt id="p1">**</bpt>Adjustment Bin Code<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>You can also set up bins of this type for defective items and items being inspected.</source>
+        </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>You can move items to this type of bin if you want to make them inaccessible to the usual item flow.</source>
+        </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept>  Unlike all other bin types, the <bpt id="p2">**</bpt>QC<ept id="p2">**</ept> bin type has none of the item handling check boxes selected by default.</source>
+        </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>This indicates that any content you place in a QC bin is excluded from item flows.</source>
+        </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>For all bin types, except PICK, PUTPICK, and PUTAWAY, no other activity is allowed for the bin than what is defined by its bin type.</source>
+        </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>For example, a bin of type <bpt id="p1">**</bpt>Receive<ept id="p1">**</ept> can only be used to receive items into or pick items from.</source>
+        </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Only movement can be made to bins of type RECEIVE and QC.</source>
+        </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Similarly, only movements can be made from bins of type SHIP and QC.</source>
+        </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Bin Ranking</source>
+        </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>In advanced warehousing, you can automate and optimize how items are collected in put-away and pick worksheets by ranking bins so that items are suggested taken or placed according to rank criteria to use warehouse space optimally.</source>
+        </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Put-away processes are optimized according to bin ranking by suggesting higher-ranking bins before lower-ranking bins. Similarly, pick processes are optimized by first suggesting items from bin content with high bin ranking.</source>
+        </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Furthermore, bin replenishments are suggested from lower-ranking bins to higher-ranking bins.</source>
+        </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Bin ranking together with bin content information are the basic properties that allow users to slot items in the warehouse.</source>
+        </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Bin Setup</source>
+        </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>In advanced warehousing, bins can be set up with capacity values, such as quantity, total cubage, and weight to control which and how items are stored in the bin.</source>
+        </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>On each item card, you can assign a unit of measure (UOM) for the item, such as pieces, pallets, liters, grams, or boxes.</source>
+        </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>You can also have a base UOM for an item and specify larger UOMs that are based on it.</source>
+        </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>For example, you can define a pallet to equal 16 pieces, the latter being the base UOM.</source>
+        </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>If you want to set a maximum quantity of a specific item to be stored in an individual bin and the item has more than one UOM, then you must set the maximum quantity for every UOM that exists on the item card.</source>
+        </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Accordingly, if an item has been set up to be handled in pieces and pallets, then the <bpt id="p1">**</bpt>Max. Qty.<ept id="p1">**</ept> field on the <bpt id="p2">**</bpt>Bin Content<ept id="p2">**</ept> page for that item must also be in pieces and pallets.</source>
+        </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Otherwise, the allowed quantity for that bin is not calculated correctly.</source>
+        </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Before you set capacity restrictions for bin contents on a bin, you must first make sure that the UOM and dimensions of the item have been set up on the item card.</source>
+        </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>It is only possible to operate with multiple UOMs in WMS installations.</source>
+        </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>I all other configurations, bin contents can only be in the base UOM.</source>
+        </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>In all transactions with a UOM higher than the item’s base UOM, the quantity is converted to the base UOM.</source>
+        </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Zone</source>
+        </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>In advanced warehousing, bins can be grouped in zones to manage how the workflow of warehouse activities is directed.</source>
+        </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>A zone could be a receiving zone or a stocking zone, and each zone can consist of one or several bins.</source>
+        </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Most properties assigned to a zone will by default be assigned to the bin that is created from that zone.</source>
+        </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Class</source>
+        </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>In advanced warehousing, you can assign warehouse class codes to items, bins, and zones to control where different item classes are stored, such as frozen goods.</source>
+        </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>You can divide a zone into several warehouse classes.</source>
+        </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>For example, items in the receiving zone can be stored as frozen, hazardous, or other class.</source>
+        </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>When you work with warehouse classes and a default receiving/shipping bin, you must manually fill in the appropriate bins in the warehouse receipt and shipment lines.</source>
+        </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>In inbound flows, the class code is only highlighted on inbound lines where the item class code does not match the default receiving bin.</source>
+        </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>If the correct default bins are not assigned, then the quantity cannot be received.</source>
+        </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>Location</source>
+        </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>A location is a physical structure or place where inventory is received, stored, and shipped, potentially organized in bins. A location can be a warehouse, service car, showroom, plant, or an area in a plant.</source>
+        </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>First Expired First Out</source>
+        </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>If you select the <bpt id="p1">**</bpt>Pick According to FEFO<ept id="p1">**</ept> check box on the <bpt id="p2">**</bpt>Bin Policies<ept id="p2">**</ept> FastTab on the location card, then item-tracked items are picked according to their expiration date.</source>
+        </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>The items with the earliest expiration dates are picked first.</source>
+        </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>Warehouse activities in all pick and movement documents are sorted according to FEFO, unless the items in question already have serial/lot numbers assigned.</source>
+        </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>If only a part of the quantity on the line already has serial/lot numbers assigned, then the remaining quantity to be picked is sorted according to FEFO.</source>
+        </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>When picking by FEFO, the available items that expire first are gathered in a temporary item tracking list based on the expiration date.</source>
+        </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>If two items have the same expiration date, then the item with the lowest lot or serial number is picked first.</source>
+        </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>If the lot or serial numbers are the same, then the item that was registered first is selected first.</source>
+        </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>Standard criteria for selecting items in pick bins, such as Bin Ranking and Break Bulk, are applied to this temporary FEFO item tracking list.</source>
+        </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>Put-away Template</source>
+        </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>The put-away template can be assigned to an item and to a location.</source>
+        </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>The put-away template specifies a set of prioritized rules that must be respected when creating put-aways.</source>
+        </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>For example, a put-away template may require that the item is placed in a bin with bin content that matches the UOM, and if a similar bin with enough capacity cannot be found, then the item must be placed in an empty bin.</source>
+        </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Design Details: Warehouse Management<ept id="p1">](design-details-warehouse-management.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Design Details: Availability in the Warehouse<ept id="p1">](design-details-availability-in-the-warehouse.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,183 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="across-how-use-powerbi-reports-factbox.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-964a5eb" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e3c21c875578d33ad14aa6d48558916fdb8b1e49</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">financials\across-how-use-powerbi-reports-factbox.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">86e8a26814f21f7bf1eca786688e149c859caf24</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">bd844e39322f434a32ff8bd7a1cd58033d359625</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Display Custom Power BI Reports| Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>You can use Power BI reports to gain additional insight into data in lists in Financials.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Viewing List Data in Power BI Reports in Business Central</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph> includes a FactBox control element on a number of key list pages that provides additional insight into the data in the list.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>As you move between rows in the list, the report is updated and filtered for the selected entry.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>You can create custom reports to display in this control, but there are a few rules to follow when creating the reports to ensure they provide the desired behavior.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You must have a valid account with <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph> and with Power BI.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Also, you must download <bpt id="p1">[</bpt>Power BI Desktop<ept id="p1">](https://powerbi.microsoft.com/en-us/desktop/)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Using <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> as a Power BI Data Source<ept id="p1">](across-how-use-financials-data-source-powerbi.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Report Data Set</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>When you create the report in Power BI Desktop, specify the data source or web service that contains the data related to the list that you want to associate the report with.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>For example, if you want to create a report for the Sales List, ensure that the data set contains information related to sales.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>To filter data on the reports based upon the record selected from the list page, the primary key must be used as a report filter.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The primary keys will need to be part of your data set in order for the reports to filter correctly.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>In most cases, the primary key for a list is the <bpt id="p1">**</bpt>No.<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>field.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Defining the Report Filter</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The report is required to have a basic report filter (not a page or visual filter and not advanced filter) to filter correctly in the Power BI Fact Box Control.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The filter that is passed to the Power BI report from each list page will be based on the primary key as described in the previous section.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>To define a filter for the report, select the primary key from the list of available fields, and then drag and drop that field into the <bpt id="p1">**</bpt>Report Filter<ept id="p1">**</ept> section.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Setting the report filter for the Sales Invoice Activity report</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Report Size and color</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The size of the report must be set to 325 pixels by 310 pixels.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This is required for the proper scaling of the report in the available space allowed by the Power BI Fact Box control.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>To define the size of the report, place focus outside of the report layout area, and then choose the paint roller icon.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Setting the report width and height for the Sales Invoice Activity report</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>You can change the width and height of the report by choosing <bpt id="p1">**</bpt>Custom<ept id="p1">**</ept> in the <bpt id="p2">**</bpt>Type<ept id="p2">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Similarly, if you want to have the background of the report blend into the background color of the Power BI Fact Box control, define a custom report background color of <bpt id="p1">*</bpt>E5E5E5<ept id="p1">*</ept>.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>This is optional.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Reports with Multiple Pages</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>With Power BI, you can create a single report with multiple pages.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The visuals that you want to see in the <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph> list pages must be on the first page of the report in Power BI.</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The Power BI Fact Box can show only the first page of your report; if you want to see other pages, you must expand the report and use tabs at the bottom of the report to navigate to other pages.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Saving Your Report</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>When you save your report, it's a best practice that the name of the report contains the name of the list page that you want to display the report in.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>For example, the word <bpt id="p1">*</bpt>Vendor<ept id="p1">*</ept> must be contained somewhere in the report name for reports that you want to make available on the Vendor list.</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>This is not a requirement; however, it will make the process of selecting reports quicker.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>When the report selection page is opened from a list page, we will pass in a filter based on the page name to limit the reports that are displayed.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>You may remove the filter to get a full list of reports available to you in Power BI.</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Troubleshooting</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>This section provides a workaround for the most typical issues that can occur when you create the Power BI report.</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>User does not see a report on the Select Report page they want to select<ept id="p1">**</ept> If you cannot select a report, a possible solution is to verify the name of the report to ensure it contains the name of the list page.</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>You can also clear the filter to get a full list of Power BI reports available.</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Report is loaded but blank, not filtered or filtered incorrectly<ept id="p1">**</ept> Verify that the report filter contains the right primary key.</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>In most cases, this is the <bpt id="p1">**</bpt>No.<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>field, but in the <bpt id="p1">**</bpt>G/L Entry<ept id="p1">**</ept> table, for example, you must use the <bpt id="p2">**</bpt>Entry No.<ept id="p2">**</ept> field  .</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Report is loaded, but it shows the page you have not expected<ept id="p1">**</ept> Verify that the page you want displayed is the first page in your report.</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Report appears with unwanted gray boarders, is too small or too large<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Verify that the report size is set to 325 pixels x 310 pixels.</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Save the report, and then refresh the list page.</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Using <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> as a Power BI Data Source<ept id="p1">](across-how-use-financials-data-source-powerbi.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Welcome to <ph id="ph1">[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]</ph><ept id="p1">](index.md)</ept><ph id="ph2">  </ph></source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Setting Up <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph><ept id="p1">](setup.md)</ept><ph id="ph2">  </ph></source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Finance<ept id="p1">](finance.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

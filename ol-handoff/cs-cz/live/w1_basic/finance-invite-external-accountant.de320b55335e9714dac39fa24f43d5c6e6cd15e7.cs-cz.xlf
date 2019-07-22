@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="finance-invite-external-accountant.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-964a5eb" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c2871a8caa237ab4c23bd61329113c536ff56270</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">financials\finance-invite-external-accountant.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">52a7f2f87ca9191031b1e73c6ac468a860b1497e</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">55e5bedc8fc3b85355c3bf0930cd4f806366d396</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Add your external accountant to your Financials | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Learn how you can invite your external accountant to your Business Central .</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Inviting Your External Accountant to Your <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph></source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>If you use an external accountant to manage your books and financial reporting, you can invite them to your <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph> so they can work with you on your fiscal data.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Once your accountant has gained access to your <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph>, they can use the <bpt id="p1">**</bpt>Accountant<ept id="p1">**</ept> Role Center that gives easy access to the most relevant windows for their work.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Invite Your Accountant to Your <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph></source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>In the latest version of <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph>, we have made it easy for you to invite your external accountant.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Simply open the <bpt id="p1">**</bpt>Users<ept id="p1">**</ept> window, and then choose the <bpt id="p2">**</bpt>Invite External Accountant<ept id="p2">**</ept> action in the ribbon.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>An email is made ready for you, just add your accountant's work email, and send the invitation.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Invite your accountant</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>This requires that you have set up SMTP email.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You can do this yourself or ask your <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph> partner.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Also, you must be logged in to <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph> as a user administrator, not as the business owner or other users.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Finally, you must have left the trial company so that you have an Azure Active Directory administrator.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The accountant's email address must be a work address that is based an Active Directory.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>If the accountant uses another type of email, then the invitation cannot be sent.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Separate License</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Behind the scenes, the accountant is added to your Active Directory tenant.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Your administrator can verify that the accountant accepts the invitation and is assigned the correct license.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The steps for doing this depends on the type of account that you used when you signed up for <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>This topic is based on the use of an Office 365 account, which uses Microsoft Azure Active Directory.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>If you have activated your subscription of <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph> and are no longer using the evaluation company, you have an Azure Active Directory tenant.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Your administrator or <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph> partner manages this tenant in the <bpt id="p1">[</bpt>Azure portal<ept id="p1">](https://portal.azure.com)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This is where new users are added and licenses are applied and removed.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>For more information, see the <bpt id="p1">[</bpt>Microsoft Azure portal overview<ept id="p1">](https://docs.microsoft.com/en-us/azure/azure-portal-overview)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>One of the license types for <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph> is the <bpt id="p1">*</bpt>External Accountant<ept id="p1">*</ept> license.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>This license type is intended for use by users such as external accountants.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This means that you do not have to buy an extra seat in your current Active Directory or use one of your existing <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph> user accounts on your external accountant.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>For example, if your current Office 365 subscription includes 10 users for <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph>, and you are currently using 10 <bpt id="p1">*</bpt>Full User<ept id="p1">*</ept> licenses, your administrator can simply add your external accountant as a guest user in the Azure portal and assign this user the <bpt id="p2">*</bpt>External Accountant<ept id="p2">*</ept> license at no additional cost.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>However, you can only have one user with the <bpt id="p1">*</bpt>External Accountant<ept id="p1">*</ept> license.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>If you want to add more users, you must update your Office 365 subscription accordingly.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Finance<ept id="p1">](finance.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Set Up Email Manually or Using the Assisted Setup<ept id="p1">](madeira-how-setup-email.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Accountant Experiences in Business Central <ept id="p1">](finance-accounting.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Business Central for Accountants on Microsoft.com<ept id="p1">](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

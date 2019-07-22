@@ -1,0 +1,384 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="admin-how-to-manage-company-configuration-in-a-worksheet.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-5ae97a8" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">bd228a418db3b3ee0b3094a0da520dea6139281c</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\admin-how-to-manage-company-configuration-in-a-worksheet.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2479fb6437bcfd7a1d3d46220f030accedec2ba1</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">18c694d80ddb853524e65a7b87108ab6a23c9c3c</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>How to Manage Company Configuration in a Worksheet | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>The configuration worksheet is the central location in which you can plan, track, and perform your configuration work.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>You can create a worksheet for each company that you are working with or create a standard configuration worksheet that can be used for configuring multiple identical companies.</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Manage Company Configuration in a Worksheet</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The configuration worksheet is the central location in which you can plan, track, and perform your configuration work.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>You can create a worksheet for each company that you are working with or create a standard configuration worksheet that can be used for configuring multiple identical companies.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The first step in preparing a configuration package is to select a company that you have already set up and modified to suit most of your solution needs.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>This company serves as the baseline for your configuration work on new companies.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>In the worksheet, you designate the tables that you want your configuration to control and handle.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Since most tables in <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> have relationships and dependencies to other tables, you should also include those related tables as necessary.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Together, these tables will then serve as the structure around which you will build a new company.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Subsequent steps help you package and then deploy your configuration.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>To aide you in tracking and reviewing your work, use the <bpt id="p1">**</bpt>Config. Package Table<ept id="p1">**</ept> FactBox to see information about records.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Use the <bpt id="p1">**</bpt>Config. Related Tables<ept id="p1">**</ept> FactBox to monitor table relationships.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The following procedures demonstrate how to add and customize table information for your configuration.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>To open the configuration worksheet</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>In <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>, open the company that is the baseline for configuration, and then open its RapidStart Services Implementer Role Center.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Configuration Worksheet<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>To add a table to the worksheet</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Config. Worksheet<ept id="p1">**</ept> page, choose the <bpt id="p2">**</bpt>Edit List<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>On the first line, in the <bpt id="p1">**</bpt>Line Type<ept id="p1">**</ept> field, select <bpt id="p2">**</bpt>Table<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Table ID<ept id="p1">**</ept> field, select the table that you want to add to your configuration.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Page ID<ept id="p1">**</ept> field, enter the ID of the page that is associated with the table.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>For standard tables, this value is automatically filled in.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>For custom tables, you must provide the ID.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Reference<ept id="p1">**</ept> field, enter the URL of a documentation page, for example in Help, that provides best-practice information or instructions o setting up the table.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>To add related tables, choose the <bpt id="p1">**</bpt>Get Related Tables<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Related tables will not be added with the <bpt id="p1">**</bpt>Get Related Tables<ept id="p1">**</ept> action if either of the following is true:</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The relation is conditional.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Example: If you get related tables for the <bpt id="p1">**</bpt>Customer<ept id="p1">**</ept> table, then the <bpt id="p2">**</bpt>Location<ept id="p2">**</ept> table will not be added, since it is only conditionally related to the <bpt id="p3">**</bpt>Customer<ept id="p3">**</ept> table, namely if the <bpt id="p4">**</bpt>Location Code<ept id="p4">**</ept> field in the <bpt id="p5">**</bpt>Customer<ept id="p5">**</ept> table is filled in.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The related table is filtered.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Example: A field in the related table has a WHERE clause.</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The reason for this is that the involved relations information is stored in the <bpt id="p1">**</bpt>Field<ept id="p1">**</ept> system table, which is not fully accessible to the application.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>You must add such types of tables manually by following step 4 in this procedure.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>To modify the resulting list of tables, select a table that you want to remove, and then choose the <bpt id="p1">**</bpt>Delete<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Repeat the steps for each table that you want to add to the configuration.</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>To remove duplicate table information that can result from using the <bpt id="p1">**</bpt>Get Related Tables<ept id="p1">**</ept> action, choose the <bpt id="p2">**</bpt>Delete Duplicate Lines<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>This will remove duplicate tables that have the same package code.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>To add multiple tables to the configuration worksheet</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Get Tables<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Get Config. Tables<ept id="p1">**</ept> batch job page opens.</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Options<ept id="p1">**</ept> FastTab, specify the types of tables that you want to add to the configuration, as described in the following table.</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Option</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Include with Data Only<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Select the check box to include only those tables that contain data.</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>For example, you may want to include a table that already defines the typical payment terms that your solution supports.</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Include Related Tables<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Select the check box to include all related tables.</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>To add a subset of related tables, see step 3 in this procedure.</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Include Dimension Tables<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Select the check box to include dimension tables.</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Include Licensed Tables Only<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Select the check box to include only those tables for which the license under which you are creating the worksheet allows you access.</source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Object<ept id="p1">**</ept> FastTab, set filters as appropriate to specify the types of tables you want to include or exclude.</source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> tables are added to the worksheet.</source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Each entry in the list has a line of type <bpt id="p1">**</bpt>Table<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>To remove duplicate table information that can result from using the <bpt id="p1">**</bpt>Get Tables<ept id="p1">**</ept> action, choose the <bpt id="p2">**</bpt>Delete Duplicate Lines<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>This will remove duplicate tables that have the same package code.</source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>You can add tables to the worksheet that are related to a table you have selected.</source>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Review the information in the <bpt id="p1">**</bpt>Related Tables<ept id="p1">**</ept> FactBox to see whether there are missing tables.</source>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>To add related tables for a specific table, select the table in the list, and then choose the <bpt id="p1">**</bpt>Get Related Tables<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Related tables will not be added with the <bpt id="p1">**</bpt>Get Related Tables<ept id="p1">**</ept> action if either of the following is true:</source>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The relation is conditional.</source>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Example: If you get related tables for the <bpt id="p1">**</bpt>Customer<ept id="p1">**</ept> table, then the <bpt id="p2">**</bpt>Location<ept id="p2">**</ept> table will not be added, since it is only conditionally related to the <bpt id="p3">**</bpt>Customer<ept id="p3">**</ept> table, namely if the <bpt id="p4">**</bpt>Location Code<ept id="p4">**</ept> field in the <bpt id="p5">**</bpt>Customer<ept id="p5">**</ept> table is filled in.</source>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The related table is filtered.</source>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Example: A field in the related table has a WHERE clause.</source>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The reason for this is that the involved relations information is stored in the <bpt id="p1">**</bpt>Field<ept id="p1">**</ept> virtual table and is not available in pages such as the configuration worksheet for performance reasons.</source>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>You must add related tables with such complex relationships manually by following step 4 in <bpt id="p1">[</bpt>To add a table to the worksheet<ept id="p1">](admin-how-to-manage-company-configuration-in-a-worksheet.md#to-add-a-table-to-the-worksheet)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>To delete tables in the resulting list of tables, select a table to remove, and then choose the <bpt id="p1">**</bpt>Delete<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Use the next procedure to specify which table fields to include.</source>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>After you make this specification, you can export the table to Excel, and use the table structure as a template for gathering customer data.</source>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Prepare to Migrate Customer Data<ept id="p1">](admin-use-templates-to-prepare-customer-data-for-migration.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>To specify a set of fields and records for a configuration table</source>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Select a table in the list of configuration tables, and then chose the <bpt id="p1">**</bpt>Edit List<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Select a table for which you want to specify field information, and then choose the <bpt id="p1">**</bpt>Fields<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>To select just the fields that you want to include, choose the <bpt id="p1">**</bpt>Clear Included<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>To add all fields, choose the <bpt id="p1">**</bpt>Set Included<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>o specify that the field data should not be validated, clear the <bpt id="p1">**</bpt>Validate Field<ept id="p1">**</ept> check box for the field.</source>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>To filter to a certain set of records to include in the configuration worksheet, choose the <bpt id="p1">**</bpt>Filters<ept id="p1">**</ept> action, and then specify the appropriate filter values.</source>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>You can create areas of functionality and groups of tables in the worksheet in order to put similar functionality together.</source>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>For example, in setting up the chart of accounts for your configuration, you may decide to create a group of posting tables.</source>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Typically, areas are used to group a set of tables that correspond to a functional area.</source>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Each area can contain groups.</source>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>A group can be used to arrange tables that have a common meaning together.</source>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The following procedure describes how to add area and group designations, after you have created the initial list of tables.</source>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>After you have added these categories, you can continue to add and modify your list of tables.</source>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>To categorize and group functionality in the worksheet</source>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>At the beginning of an area, insert a new line in the worksheet.</source>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Line Type<ept id="p1">**</ept> field, choose <bpt id="p2">**</bpt>Area<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Name<ept id="p1">**</ept> field, enter a name for the area.</source>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>At the beginning of a grouping of tables, insert a new line in the worksheet.</source>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Line Type<ept id="p1">**</ept> field, choose <bpt id="p2">**</bpt>Group<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Name<ept id="p1">**</ept> field, enter a name for the area.</source>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The group name is automatically indented.</source>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>To move tables to the appropriate category, select a table to move, and then choose the <bpt id="p1">**</bpt>Move Up<ept id="p1">**</ept> or <bpt id="p2">**</bpt>Move Down<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Alternatively, you can delete a worksheet line and insert the table again in the required location.</source>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Some <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> tables are standard and the data in these is not likely to change from implementation to implementation.</source>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Consequently, to help your customer focus, you can remove these tables from the worksheet after you have included them in the configuration package.</source>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Once added, the tables remain part of the configuration package.</source>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>To remove a standard table in the worksheet</source>
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>After you have added all necessary tables to a configuration package, determine which tables will not require customer attention.</source>
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Select the tables, and then delete them by choosing the <bpt id="p1">**</bpt>Delete<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The tables remain in the package even though they are deleted from the worksheet.</source>
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>To review and customize existing database data</source>
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>As you create a configuration package for a solution, you can view and customize the available database data to suit your customer needs.</source>
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>The database table has to have an associated page.</source>
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>To customize data in the database</source>
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Configuration Worksheet<ept id="p1">**</ept> page, identify the tables whose data that you want to view or customize.</source>
+        </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Make sure that each table has a page ID assigned to it.</source>
+        </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>For standard <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> tables, this value is automatically filled in.</source>
+        </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>For custom tables, you have to provide the ID.</source>
+        </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Database Data<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> page for the page opens.</source>
+        </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Review the available information.</source>
+        </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Modify it as necessary by deleting records that are not relevant or by adding new ones.</source>
+        </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Set Up Company Configuration<ept id="p1">](admin-set-up-company-configuration.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Setting Up a Company With RapidStart Services<ept id="p1">](admin-set-up-a-company-with-rapidstart.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Administration<ept id="p1">](admin-setup-and-administration.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

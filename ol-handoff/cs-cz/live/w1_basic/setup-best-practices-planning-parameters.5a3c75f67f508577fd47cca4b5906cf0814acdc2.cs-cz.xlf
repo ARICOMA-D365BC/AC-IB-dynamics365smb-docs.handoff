@@ -1,0 +1,225 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="setup-best-practices-planning-parameters.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-b1d70e6" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">69344bcc4004ce29a58e8475235a97cf9196605d</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\setup-best-practices-planning-parameters.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">703bb174292fc2c04a1fe2c6faafbc7bf7a67478</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9f617b760bc8a7a3e89e3d77b611702b870dec33</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Setup Best Practices - Planning Parameters | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>The Planning FastTab on the item card is the center of a company’s supply chain.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Setting the correct planning parameters is very important for cost-effective inventory control and high customer service.</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Setup Best Practices: Planning Parameters</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Planning<ept id="p1">**</ept> FastTab on the item card is the center of a company’s supply chain.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Setting the correct planning parameters is very important for cost-effective inventory control and high customer service.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The following table provides best practices on how to set up selected planning parameter fields.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>For more information about a field, choose the link in the <bpt id="p1">**</bpt>Setup field<ept id="p1">**</ept> column.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Setup field</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Best practice</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Comment</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Reordering Policy</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Setup Best Practices: Reordering Policies<ept id="p1">](setup-best-practices-reordering-policies.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Reserve</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Never<ept id="p1">**</ept> when the item is planned using a reorder point.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>In manufacturing, select <bpt id="p1">**</bpt>Never<ept id="p1">**</ept> to allow the planning system to cover all demands.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Optional<ept id="p1">**</ept> for items that you may want to reserve for top-priority customers.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Always<ept id="p1">**</ept> for non-unique items, such as items of type miscellaneous that are inbound for specific demands.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Reservations generally counteract the purpose of planning, which is to balance demand and supply.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Therefore, items that are set up for planning should generally not be reserved.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>If the user reserves an inventory quantity for future demand, then the planning foundation will be disturbed, and the reorder point may not work correctly.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Even if the projected inventory level is acceptable with regard to the reorder point, the quantities may not be available because of the reservation.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Dampener Period</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Set with regard to the supplier’s flexibility.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>A longer period enables you to provide better customer service, but will also cause more rescheduling actions.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>If the supplier accepts last-minute changes to orders, then use a longer period, but be prepared for more rescheduling actions.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>If the supplier requires firm planning, then shorten the period as much as possible.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>For information about the <bpt id="p1">**</bpt>Dampener Period<ept id="p1">**</ept> field , see <bpt id="p2">[</bpt>Design Details: Planning Parameters<ept id="p2">](design-details-planning-parameters.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Include Inventory</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Always select when you are using the Lot-for-Lot reordering policy.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Do not select only in special situations, such as when inventory items are not sellable.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Safety Lead Time</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Set between 1D and 6D.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Set a safety lead time of at least one day to make sure that supplies are available on the day before they are needed.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>If using a new supplier, define a longer time until their delivery performance is known.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>In manufacturing, define longer safety lead times for critical components.</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Supply that is planned by the system to avoid a stock-out will arrive on the same day that the stock-out occurs.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>This may be several hours too late if, for example, the demand is needed in the morning and the supply arrives in the afternoon.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept>  The <bpt id="p2">**</bpt>Safety Lead Time<ept id="p2">**</ept> field uses the base calendar.</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Therefore, 14D is not necessarily two weeks.</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Safety Stock Quantity</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Use for items with large demand fluctuations.</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>In manufacturing, use for critical components.</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Use for items that are subject to service agreements.</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>If the <bpt id="p1">**</bpt>Reorder Point<ept id="p1">**</ept> field is not filled, then the safety stock quantity also functions as a reorder point.</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Lot Accumulation Period</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>If you want only few big orders and you accept to carry inventory, then set a long lot accumulation period.</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>If you want multiple small orders and minimal inventory, then set a short lot accumulation period.</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The lot accumulation period is generally the longest period that you will carry inventory.</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Reorder Point</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Base the reorder point on the item’s demand profile.</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>If historical data shows that the item’s average demand is 100 units during a lead time of seven days, then the reorder point can be set to 100 as a minimum.</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>This means that when the inventory level falls below 100 units, then the planning system will suggest to replenish because it takes seven days to supply the item, and there must be enough to cover the demand within those seven days.</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Time Bucket</source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Leave blank, meaning that the inventory level is checked every day.</source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Checking the inventory level every day ensures optimal reorder point planning.</source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept>  A time bucket of 1W means that the inventory level may be below the reorder point for one week before a supply order is suggested.</source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Rounding Precision</source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>In expensive manufacturing, set to 0.00001.</source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Large rounding quantities of scrap or material consumption can amount to very large inventory costs.</source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>It may therefore be relevant to set the smallest rounding precision to minimize this potential cost.</source>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The best practices for planning parameters on item cards also apply to the same fields on SKU cards.</source>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>If companies plan for demand at different locations, then it is strongly advised to define SKUs for each location and that all demand is created by using a value in the <bpt id="p1">**</bpt>Location Code<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Design Details: Demand at Blank Location<ept id="p1">](design-details-demand-at-blank-location.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Setup Best Practices: Supply Planning<ept id="p1">](setup-best-practices-supply-planning.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Design Details: Supply Planning<ept id="p1">](design-details-supply-planning.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Set Up Complex Application Areas Using Best Practices<ept id="p1">](set-up-complex-application-areas-using-best-practices.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Working with <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph><ept id="p1">](ui-work-product.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

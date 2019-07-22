@@ -1,0 +1,132 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="marketing-add-contact-segment.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-435fba6" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba4ed0971711a1f7a827ec4ea4e42f2013a51cfd</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\marketing-add-contact-segment.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">573c755b4852a36c96369d47dce39040603cc98a</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">387a68668ca500c5b970be341690dab1b2460978</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Define the Contacts in a Segment| Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>After you have created a segment, you can add contacts to the segment, for example, as part of a marketing campaign targeting particular customers or clients.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Add Contacts to Segments</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>After you have created a segment and entered basic information about it, you may want to add contacts to the segment.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>You can do this by filling in the lines on the <bpt id="p1">**</bpt>Segment<ept id="p1">**</ept> page manually, but it is easier and faster to use the <bpt id="p2">**</bpt>Add Contacts<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>To add a contact to a segment</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Segments<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Select the segment, and then choose the <bpt id="p1">**</bpt>Add Contacts<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Add Contacts<ept id="p1">**</ept> batch job page opens.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Contact<ept id="p1">**</ept> section, set filters to specify the information by which you want to select contacts.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>To enter additional filters, repeat this procedure on each of the remaining sections, and then choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>If you have added contacts by mistake and want to go back one step, then choose the <bpt id="p1">**</bpt>Go Back<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>To refine the number of contacts</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>After you have selected the contacts within a segment, you may decide to remove some but keep others.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You can manually remove contacts from the lines on the <bpt id="p1">**</bpt>Segment<ept id="p1">**</ept> page, but it is easier and faster to use the <bpt id="p2">**</bpt>Refine Contacts<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Open the segment.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>Contacts<ept id="p1">**</ept>, and then choose the <bpt id="p2">**</bpt>Refine Contacts<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Remove Contacts - Refine<ept id="p1">**</ept> page opens.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Contact<ept id="p1">**</ept> section, enter filters to specify the information that you want to use to select the contacts to be removed from the segment.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Add additional filters as needed, and then choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>You can refine a segment as many times as you want.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>If you have refined the segment by mistake and want to go one step back, choose the <bpt id="p1">**</bpt>Go Back<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>To see a list of the segment criteria that you have used, in the <bpt id="p1">**</bpt>General<ept id="p1">**</ept> section, choose the <bpt id="p2">**</bpt>No. of Criteria Actions<ept id="p2">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>To reduce the number of contacts</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>After you have selected the contacts within a segment, you may want to remove some of them.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>You can do this by manually removing them from the lines in the Segment page, but it is easier and faster to use the Reduce Contacts function to specify which contacts to remove, and to use the Refine Contacts function to specify which contacts to keep.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Open the segment.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Choose Contacts, and then choose the <bpt id="p1">**</bpt>Reduce Contacts<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Remove Contacts - Reduce<ept id="p1">**</ept> page opens.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Contact<ept id="p1">**</ept> section, enter filters to specify the information that you want to use to select the contacts to be removed from the segment.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Add additional filters as needed, and then choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>You can reduce a segment as many times as you want.</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>If you have refined the segment by mistake and want to go one step back, then choose the <bpt id="p1">**</bpt>Go Back<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Create a Segment<ept id="p1">](marketing-how-create-segment.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Managing Segments<ept id="p1">](marketing-segments.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Managing Sales Opportunities<ept id="p1">](marketing-manage-sales-opportunities.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Working with <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph><ept id="p1">](ui-work-product.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

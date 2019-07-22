@@ -1,0 +1,342 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="projects-how-setup-jobs.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-b1d70e6" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2d5069ea317c1d38a8bd3fee71e2c5ac66b26cdd</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">financials\projects-how-setup-jobs.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dec8e45af3e4574a6e66eba4e436bdb5bac2e372</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d6b330782873ba8c884dc089b050a6def0b3685e</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Set Up Jobs Prices and Job Posting Groups| Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Describes how to set up general jobs information, and set up prices for job items, resources, and G/L accounts and jobs posting groups.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Set Up Jobs</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Jobs Setup<ept id="p1">**</ept> window, you must specify how you want to use certain job features.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>On the individual job cards, you must set up prices for job items, job resources, and job G/L accounts, and you must set up job posting groups.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>To set general information for jobs</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Jobs Setup<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Fill in the fields as necessary.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Apply Usage Link by Default<ept id="p1">**</ept> check box is rather complex and is therefore explained in the following section.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>To set up job usage tracking</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>When you are executing a job, you might want to know how your usage is tracking against your plan.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>To easily do this, you can create a link between your job planning lines and the actual usage.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>This lets you track your costs and to easily see at how much work remains to be done.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>By default, the job planning line type is <bpt id="p1">**</bpt>Budget<ept id="p1">**</ept>, but using the line type <bpt id="p2">**</bpt>Both Budget and Billable<ept id="p2">**</ept> has similar effects.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>If you select the <bpt id="p1">**</bpt>Apply Usage Link by Default<ept id="p1">**</ept> check box, then you can review information on the job planning line.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>You can set the quantity of the resource, item, or general ledger account and then indicate what quantity you want to transfer to the job journal.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Remaining Quantity<ept id="p1">**</ept> field on the job planning line will tell you what remains to be transferred and posted to the job journal.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>When the <bpt id="p1">**</bpt>Apply Usage Link by Default<ept id="p1">**</ept> check box is selected, and the job planning line type is <bpt id="p2">**</bpt>Billable<ept id="p2">**</ept>, the Financial creates a job planning line of type <bpt id="p3">**</bpt>Budget<ept id="p3">**</ept> after you post the journal line.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>If the <bpt id="p1">**</bpt>Apply Usage Link by Default<ept id="p1">**</ept> check box on the job card is selected, and the <bpt id="p2">**</bpt>Line Type<ept id="p2">**</ept> field on the job journal line is blank, then new job planning lines of line type <bpt id="p3">**</bpt>Budget<ept id="p3">**</ept> are created when you post job journal lines.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>If the <bpt id="p1">**</bpt>Apply Usage Link by Default<ept id="p1">**</ept> check box on the job card is not selected, and the <bpt id="p2">**</bpt>Line Type<ept id="p2">**</ept> field on the job journal line is blank, then no job planning lines are created when you post job journal lines.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Record Usage for Jobs<ept id="p1">](projects-how-record-job-usage.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Jobs Setup<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Select or deselect the <bpt id="p1">**</bpt>Apply Usage Link by Default<ept id="p1">**</ept> check box.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>You can make a different setting of the <bpt id="p1">**</bpt>Apply Usage Link by Default<ept id="p1">**</ept> check box on the individual job cards.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>In that case, the setting for that job overrides the general default described above.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>To set up prices for job resources</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>You can set up specific prices for resources for a job.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>You use the <bpt id="p1">**</bpt>Job Resource Prices<ept id="p1">**</ept> window to do this.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Jobs<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Select the relevant job, and then choose the <bpt id="p1">**</bpt>Resource<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Job Resource Prices<ept id="p1">**</ept> window, fill in the fields as necessary.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The optional information in the <bpt id="p1">**</bpt>Job Task No.<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Work Type<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Currency Code<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Line Discount %<ept id="p4">**</ept>, and <bpt id="p5">**</bpt>Unit Cost Factor<ept id="p5">**</ept> fields will be used on the job planning lines and usage journals when this resource is entered and added to the job.</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The value in the <bpt id="p1">**</bpt>Unit Price<ept id="p1">**</ept> field for the resource will be used on the job planning lines and job journals when this resource, a resource assigned to the resource group, or any resource is entered.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>This price will always override any prices set up in the existing <bpt id="p1">**</bpt>Resource Price/Resource Group Prices<ept id="p1">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>To set up prices for job items</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>You can set up specific prices for items for a job.</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>You use the <bpt id="p1">**</bpt>Job Item Prices<ept id="p1">**</ept> window to do this.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Jobs<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Select the relevant job, and then choose the <bpt id="p1">**</bpt>Item<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Job Item Prices<ept id="p1">**</ept> window, fill in the fields as necessary.</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The optional information in the <bpt id="p1">**</bpt>Job Task No.<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Currency Code<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>Line Discount %<ept id="p3">**</ept> fields will be used in the job planning lines and job journals when this item is entered or added to the job.</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The value in the <bpt id="p1">**</bpt>Unit Price<ept id="p1">**</ept> field for the item will be used on the job planning lines and job journals when this item is entered.</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>This price will always override the regular customer price (the “best price” mechanism) for items.</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>If you want to use the regular customer price mechanisms, then you should not create any job item prices for the job.</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>To set up prices for job general ledger accounts</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>You can set up specific prices for general ledger expenses for a job.</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>You use the <bpt id="p1">**</bpt>Job G/L Account Prices<ept id="p1">**</ept> window to do this.</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Jobs<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Select the relevant job, and then choose the <bpt id="p1">**</bpt>G/L Account<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Job G/L Account Prices<ept id="p1">**</ept> window, fill in the fields as necessary.</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The optional information in the <bpt id="p1">**</bpt>Job Task No.<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Currency Code<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Line Discount %<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Unit Cost Factor<ept id="p4">**</ept>, and <bpt id="p5">**</bpt>Unit Cost<ept id="p5">**</ept> fields will be used on the job planning lines and job journals when this general ledger account is entered and added to a job.</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The value in the <bpt id="p1">**</bpt>Unit Price<ept id="p1">**</ept> field for the general ledger job expense will be used on the job planning lines and job journals when this general ledger account is entered.</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>To set up job posting groups</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>One aspect of planning jobs is deciding which posting accounts to use for job costing.</source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>To be able to post jobs, you set up accounts for posting for each job posting group.</source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>A posting group represents a link between the job and how it should be treated in the general ledger.</source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>When you create a job, you specify a posting group, and by default, each task you create for the job is associated with that posting group.</source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>However, as you create tasks, you can override the default and select a posting group that is more appropriate.</source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The necessary accounts in the chart of accounts must be set up before you set up posting groups.</source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Set Up or Change the Chart of Accounts<ept id="p1">](finance-setup-chart-accounts.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Job Posting Groups<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>New<ept id="p1">**</ept> action, and then fill in the account fields as described in the following table.</source>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Account field</source>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Code<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>A code for the posting group.</source>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>You can enter up to 10 characters, including spaces.</source>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>WIP Costs Account<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The WIP account for the calculated cost of the job WIP, which is a balance sheet capital asset account.</source>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>WIP Accrued Costs Account<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>An account for the Cost Value or Cost of Sales method of WIP calculation, which is a balance sheet accrued expense liability account.</source>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>This will be posted to when the WIP adjustment requires that usage costs posted to the income statement be increased.</source>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Job Costs Applied Account<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>A balancing account to the WIP Costs Account, which is a contra for a negative expense account.</source>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Item Costs Applied Account<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>A balancing account to the WIP Costs Account, which is a contra for a negative expense account.</source>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Resource Costs Applied Account<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>A balancing account to the WIP Costs Account, which is a contra for a negative expense account.</source>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Costs Applied Account<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>A balancing account to the WIP Costs Account, which is a contra for a negative expense account.</source>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Job Costs Adjustment Account<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The balancing account to the WIP Accrued Costs account, which is an expense account.</source>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>G/L Expense Acc. (Budget)<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The sales account that will be used for general ledger expenses in job tasks with this posting group.</source>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>If left empty, the general ledger account entered on the job planning line is used.</source>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>WIP Accrued Sales Account<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The WIP account for the calculated sales value of the WIP, which is a balance sheet Accrued Revenue account.</source>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>This is posted to when the WIP adjustment requires the recognized revenue to be increased.</source>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>WIP Invoiced Sales Account<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The account for the invoiced sales value of the WIP that is not able to be recognized.</source>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>It is a balance sheet Unearned Revenue account.</source>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Job Sales Applied Account<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The balancing account to the WIP Invoiced Sales account, which is a contra income account.</source>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Job Sales Adjustment Account<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The balancing account to the WIP Job Sales Account, which is an income account.</source>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Recognized Costs Account<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The expense account that contains the recognized costs for the job.</source>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>It is a debit expense account ordinarily.</source>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Recognized Sales Account<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The income account that contains the recognized income for the job.</source>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>It is a credit income account ordinarily.</source>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Set Up Project Management<ept id="p1">](projects-setup-projects.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Managing Projects<ept id="p1">](projects-manage-projects.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Finance<ept id="p1">](finance.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Purchasing<ept id="p1">](purchasing-manage-purchasing.md)</ept><ph id="ph1">       </ph></source>
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Sales<ept id="p1">](sales-manage-sales.md)</ept><ph id="ph1">    </ph></source>
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Working with <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph><ept id="p1">](ui-work-product.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

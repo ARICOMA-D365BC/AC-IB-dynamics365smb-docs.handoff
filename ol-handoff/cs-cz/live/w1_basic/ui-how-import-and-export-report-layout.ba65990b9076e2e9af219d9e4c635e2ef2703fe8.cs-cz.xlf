@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="ui-how-import-and-export-report-layout.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-5ae97a8" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1705942e9fa2b3b24f14187c0c70db44d31f313c</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\ui-how-import-and-export-report-layout.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9949e55577bcef177ac25dd7f924819a58093771</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7f602bb9bd9b604ca2395e1b16ce9548a2760d9c</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Importing and Exporting a Report and Document Layout | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>You can import and export an existing custom report layout as a file to and from a location on your computer and network.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Import and Export a Report or Document Layout</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You can import and export an existing custom report layout as a file to and from a location on your computer and network.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>For example, you can export a report layout, and then send the file to another person to modify.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>That person can then make the modifications to layout and return the file to you so that you can import it back.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You cannot import or export built-in report layouts.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>To export a report layout to a file</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Report Layout Selection<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Select the row for the report that contains the custom report layout that you want to export, and then on the <bpt id="p1">**</bpt>Home<ept id="p1">**</ept> tab, in the <bpt id="p2">**</bpt>Process<ept id="p2">**</ept> group, choose <bpt id="p3">**</bpt>Custom Layouts<ept id="p3">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Report Layouts<ept id="p1">**</ept> page, select the report layout that you want to export to a file, and then on the <bpt id="p2">**</bpt>Home<ept id="p2">**</ept> tab, in the <bpt id="p3">**</bpt>Process<ept id="p3">**</ept> group, choose <bpt id="p4">**</bpt>Export Layout<ept id="p4">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Export File<ept id="p1">**</ept> dialog box, choose <bpt id="p2">**</bpt>Save<ept id="p2">**</ept>, and then save the file to a location on your computer or network.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>To import a report layout file</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Make sure that the relevant file that defines the report layout is available on your computer or network.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>A Word report layout file must have the .docx file type extension.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>An RDLC report layout file must have the .rdlc or .rdl file type extension.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Report Layout Selection<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Select the row for the report to which you want to import the report layout, and then on the <bpt id="p1">**</bpt>Home<ept id="p1">**</ept> tab, in the <bpt id="p2">**</bpt>Process<ept id="p2">**</ept> group, choose <bpt id="p3">**</bpt>Custom Layouts<ept id="p3">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Report Layouts<ept id="p1">**</ept> page, select the report layout to which you want to import the file, and then on the <bpt id="p2">**</bpt>Home<ept id="p2">**</ept> tab, in the <bpt id="p3">**</bpt>Process<ept id="p3">**</ept> group, choose <bpt id="p4">**</bpt>Import Layout<ept id="p4">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Import<ept id="p1">**</ept> dialog box, select the document that defines the report layout, and then choose <bpt id="p2">**</bpt>Open<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The original custom report layout is replaced with the imported report layout.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Create and Modify a Custom Report Layout<ept id="p1">](ui-how-create-custom-report-layout.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Managing Report and Document Layouts<ept id="p1">](ui-manage-report-layouts.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Working with Reports and Batch Jobs<ept id="p1">](ui-work-report.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

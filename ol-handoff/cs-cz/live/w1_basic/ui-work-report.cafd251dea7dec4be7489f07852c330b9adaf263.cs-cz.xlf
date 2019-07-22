@@ -1,0 +1,201 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="ui-work-report.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-15c36f0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0969c4fd8ca04a350e7a8362d345adc4f81ca8f6</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">financials\ui-work-report.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7ca3d4b62ae770d54f7b7787d9383f932c8be13f</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0ed48a899ac608e0f81733f96219d8f718ef2df9</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Scheduling a Report to Run at a Specific Date and Time | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Learn about entering a report into a job queue and scheduling it to be processed at a specific date and time.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Working with Reports</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>A report gathers information based on a specified set of criteria, and organizes and presents the information in an easy-to-read, printable format.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>There are many reports that you can access throughout the application.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The reports typically provide information relative to the context of the page you are on.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>For example, the <bpt id="p1">**</bpt>Customer<ept id="p1">**</ept> page includes reports for the top 10 customers and the sales statistics, and more.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>You can find reports in the <bpt id="p1">**</bpt>Reports<ept id="p1">**</ept> tab on selected pages, or you can use search to find reports by name.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>When you open a report, you are presented with a page that let's you specify information (options and filters) that determines want to include in the report.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>For example, depending on the report, you can specify a date range, a specific record such as a customer, or sorting order.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Here is an example:</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">![</bpt>Report options<ept id="p1">]</ept><bpt id="p2">(media/report_options.png "</bpt>Report options<ept id="p2">")</ept></source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Previewing a report</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>Preview<ept id="p1">**</ept> to see the report in the Internet browser.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Point to an area of the report to show the menu bar.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">![</bpt>Report preview toolbar<ept id="p1">]</ept><bpt id="p2">(media/report_viewer.png "</bpt>Report preview toolbar<ept id="p2">")</ept></source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Use the menu bar to:</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Move through pages</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Zoom in and out</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Resize to fit the window</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Select text</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>You can copy text from a report, and then paste it somewhere else, like a page in <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph> or Microsoft Word.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Using a mouse, for example, you press and hold where you want to start, and then move the mouse to select one or more words, sentences, or paragraphs.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>You can then press the right mouse button, and select <bpt id="p1">**</bpt>Copy<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>You can the paste the selected text where ever you want it.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Pan the document</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>You can move the visible area of the report in any direction so you can view other areas or the report.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This is helpful when you have zoomed in to see details.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Using your mouse, for example, press and hold the mouse button anywhere in the report preview, and then move your mouse.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Download to a PDF file on your computer or network.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Print</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Saving a Report</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>You can save a report to a PDF document, Microsoft Word document, or Microsoft Excel document by choosing <bpt id="p1">**</bpt>Send to<ept id="p1">**</ept>, and then making your selection.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;a name="ScheduleReport"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept> Scheduling a Report to Run</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>You can schedule a report to run at a specific date and time.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Scheduled reports are entered in the job queue and processed at the scheduled time, similar to other jobs.</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>You can choose to save the processed report to a file, such as an Excel, Word, or PDF, print it to a selected printer, or process the report only.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>If you choose to save the report to a file, then the processed report is sent to the <bpt id="p1">**</bpt>Report Inbox<ept id="p1">**</ept> area on your Role Center, where you can view it.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>You can schedule a report when you open a report.</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>You choose the <bpt id="p1">**</bpt>Schedule<ept id="p1">**</ept> action and then you enter information such as printer, and time and date.</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The report is then added to the job queue and will be run at the specified time.</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>When the report is processed, the item will be removed from the job queue.</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>If you saved the processed report to a file, it will be available in the <bpt id="p1">**</bpt>Report Inbox<ept id="p1">**</ept> area.</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;a name="PrintReport"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>Printing a Report</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>You can print a report from the <bpt id="p1">**</bpt>Print<ept id="p1">**</ept> button on the options page that appears when you open the report or from the menu bar in Preview.</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Using Saved Settings</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>A report can include one or more entries in the <bpt id="p1">**</bpt>Saved Settings<ept id="p1">**</ept> box.</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Saved settings<ept id="p1">*</ept> are basically a predefined group of options and filters that you can apply to the report before previewing or sending the report to a file.</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Using saved settings is a fast and reliable way to consistently generate reports that contain the correct data.</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The saved settings entry called <bpt id="p1">**</bpt>Last used options and filters<ept id="p1">**</ept> is always available.</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>This entry sets the report to use options and filters that were used the last time you looked at the report.</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>As an administrator, you can create and manage the saved settings for reports for all users.</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Managing Saved Settings on Reports<ept id="p1">](reports-saving-reusing-settings.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Changing the layout and look of a report</source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>A report layout controls what is shown on a report, how it is arranged, and how it is styled.</source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>If you want to switch to a different layout, see <bpt id="p1">[</bpt>Change Which Layout is Currently Used on a Report<ept id="p1">](ui-how-change-layout-currently-used-report.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Or, if you want to customize your own report layout, see <bpt id="p1">[</bpt>Create and Modify a Custom Report Layout<ept id="p1">](ui-how-create-custom-report-layout.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Specify Printer Selection for Reports<ept id="p1">](ui-specify-printer-selection-reports.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Managing Report and Document Layouts<ept id="p1">](ui-manage-report-layouts.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Working with <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph><ept id="p1">](ui-work-product.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

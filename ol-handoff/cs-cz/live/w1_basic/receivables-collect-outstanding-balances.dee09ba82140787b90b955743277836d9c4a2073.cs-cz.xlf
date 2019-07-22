@@ -1,0 +1,696 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="receivables-collect-outstanding-balances.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-964a5eb" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">28a9b340566da41235759845a3bf9ba6f8f9fb34</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">financials\receivables-collect-outstanding-balances.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ae1fab9ecbb27b7c527953264da3d71a698b45c1</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d16a7c451baa265d330425bf373264ba6ae4a614</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Remind or Fine Customers of Overdue Payments| Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Describes how to send a reminder to a customer about a payment that is due and add charges, or fees to the payment because of the delay.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Collect Outstanding Balances</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Managing receivables includes checking whether amounts due are paid on time.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>If customers have overdue payments, you can begin by sending the Customer Statement report as a reminder.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Alternatively, you can issue reminders.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You can use reminders to remind customers about overdue amounts.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>You can also use reminders to calculate finance charges, such as interest or fees and include them on the reminder.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Use finance charge memos if you want to debit customers for interest or fees without reminding them of overdue amounts.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Reminders</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Before you can create reminders, you must set up reminder terms and assign them to your customers.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Each reminder term has predefined reminder levels.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Each reminder level includes rules about when the reminder will be issued, for example, how many days after the invoice due date or the date of the previous reminder.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The contents of the <bpt id="p1">**</bpt>Finance Charge Terms<ept id="p1">**</ept> window determines whether interest is calculated on the reminder.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You can periodically run the <bpt id="p1">**</bpt>Create Reminders<ept id="p1">**</ept> batch job to create reminders for all customers with overdue balances, or you can manually create a reminder for a specific customer and have the lines calculated and filled in automatically.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>After you create the reminders, you can modify them.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The text that appears at the beginning and end of a reminder is determined by the reminder level terms, and can be seen in the <bpt id="p1">**</bpt>Description<ept id="p1">**</ept> column.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>If a calculated amount has been inserted automatically in the beginning or ending text, the text will not be adjusted if you delete lines.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Then you must use the <bpt id="p1">**</bpt>Update Reminder Text<ept id="p1">**</ept> function.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>A customer ledger entry with the <bpt id="p1">**</bpt>On Hold<ept id="p1">**</ept> field filled in will not prompt the creation of a reminder.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>However, if a reminder is created on the basis of another entry, an overdue entry marked on hold will also be included on the reminder.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Interest is not calculated on lines with these entries.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>After you have created reminders and made any needed modifications, you can either print test reports or issue the reminders, typically as email.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Finance Charges</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>When a customer does not pay by the due date, you can have finance charges calculated automatically and add them to the overdue amounts on the customer's account.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>You can inform customers of the added charges by sending finance charge memos.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>You use finance charge memos to calculate interest and finance charges and to inform your customers about interest and finance charges without reminding them of overdue payments.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Alternatively, you can calculate interest on overdue payments when you create reminders.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>You can manually create a finance charge memo for an individual customer, and fill in the lines automatically.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Alternatively, you can use the <bpt id="p1">**</bpt>Create Finance Charge Memos<ept id="p1">**</ept> function job to create finance charge memos for all or selected customers with overdue balances.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>After you create the finance charge memos, you can modify them.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The text that appears at the beginning and end of the finance charge memo is determined by the finance charge terms, and can be seen in the <bpt id="p1">**</bpt>Description<ept id="p1">**</ept> column on the lines.</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>If a calculated amount has been inserted automatically in the beginning or ending text, the text will not be adjusted if you delete lines.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Then you must use the <bpt id="p1">**</bpt>Update Finance Charge Text<ept id="p1">**</ept> function.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>After you have created finance charge memos and made any needed modifications, you can either print test reports or issue the finance charge memos, typically as email.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Multiple Interest rates</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>When you set up finance charge terms and reminder terms, for delayed payment penalty, you can specify multiple interest rates so that the penalty fee is calculated from different interest rates in different periods.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>If multiple interest rates are not set up, then the interest rate and period that is defined in the <bpt id="p1">**</bpt>Finance Charge Terms<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Reminder Terms<ept id="p2">**</ept> windows for the whole period of calculation will be used.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Set Up Multiple Interest Rates<ept id="p1">](finance-how-to-set-up-multiple-interest-rates.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>To send the Customer Statement report</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Customer Statement<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Fill in the fields as necessary.</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>Output Options<ept id="p1">**</ept>, select how to send the report to the customer.</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>If you are using multiple currencies, the Customer Statement report is always printed in the customer's currency.</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The last date in a statement period is also used as the statement date and the aging date, if aging is included.</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>To set up reminder terms</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>If customers have overdue payments, you must decide when and how to send them a reminder.</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>In addition, you may want to debit their accounts for interest or fees.</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>You can set up any number of reminder terms.</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>For each reminder terms code, you can define an unlimited number of reminder levels.</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Reminder Terms<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Fill in the fields as necessary.</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>To use more than one combination of reminder terms, set up a code for each one.</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>To set up reminder levels</source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The first time a reminder is created for a customer, the setting from level 1 is used.</source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>When the reminder is issued, the level number is registered on the reminder entries that are created and linked to the individual customer ledger entries.</source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>If it is necessary to remind the customer again, all reminder entries linked to open customer ledger entries are checked to locate the highest level number.</source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The conditions from the next level number will then be used for the new reminder.</source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>If you create more reminders than you have defined levels for, the conditions for the highest level will be used.</source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>You can create as many reminders as are allowed by the <bpt id="p1">**</bpt>Max. No of Reminders<ept id="p1">**</ept> field in the reminder terms.</source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Reminder Terms<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Reminder Terms<ept id="p1">**</ept> window, select the line with the terms you want to set up levels for, and then choose <bpt id="p2">**</bpt>Levels<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Fill in the fields as necessary.</source>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>For each reminder level, you can specify individual conditions, which can include additional fees in both LCY and in foreign currency.</source>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>You can define many additional fees in foreign currencies for each code in the <bpt id="p1">**</bpt>Reminder Levels<ept id="p1">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Currencies<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Currencies for Reminder Levels<ept id="p1">**</ept> window, define for each reminder level code and corresponding reminder level number a currency code and an additional fee.</source>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>When you create reminders in a foreign currency, the foreign currency conditions that you set up here will be used to create reminders.</source>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>If there are no foreign currency reminder conditions set up, the LCY reminder conditions that are set up in the <bpt id="p1">**</bpt>Reminder Levels<ept id="p1">**</ept> window will be used and then converted to the relevant currency.</source>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>For each reminder level, you can specify text that will be printed before (<bpt id="p1">**</bpt>Beginning Text<ept id="p1">**</ept>) or after (<bpt id="p2">**</bpt>Ending Text<ept id="p2">**</ept>) on the entries on the reminder.</source>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Beginning Text<ept id="p1">**</ept> or <bpt id="p2">**</bpt>Ending Text<ept id="p2">**</ept> actions respectively, and fill in the <bpt id="p3">**</bpt>Reminder Text<ept id="p3">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>To automatically insert related values in the resulting reminder text, enter the following placeholders in the <bpt id="p1">**</bpt>Text<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Placeholder</source>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Value</source>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>%1</source>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Content of the <bpt id="p1">**</bpt>Document Date<ept id="p1">**</ept> field on the reminder header</source>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>%2</source>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Content of the <bpt id="p1">**</bpt>Due Date<ept id="p1">**</ept> field on the reminder header</source>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>%3</source>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Content of the <bpt id="p1">**</bpt>Interest Rate<ept id="p1">**</ept> field on the related finance charge terms</source>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>%4</source>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Content of the <bpt id="p1">**</bpt>Remaining Amount<ept id="p1">**</ept> field on the reminder header</source>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>%5</source>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Content of the <bpt id="p1">**</bpt>Interest Amount<ept id="p1">**</ept> field on the reminder header</source>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>%6</source>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Content of the <bpt id="p1">**</bpt>Additional Fee<ept id="p1">**</ept> field on the reminder header</source>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>%7</source>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The total amount of the reminder</source>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>%8</source>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Content of the <bpt id="p1">**</bpt>Reminder Level<ept id="p1">**</ept> field on the reminder header</source>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>%9</source>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Content of the <bpt id="p1">**</bpt>Currency Code<ept id="p1">**</ept> field on the reminder header</source>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>%10</source>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Content of the <bpt id="p1">**</bpt>Posting Date<ept id="p1">**</ept> field on the reminder header</source>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>%11</source>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The company name</source>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>%12</source>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Content of the <bpt id="p1">**</bpt>Add. Fee per Line<ept id="p1">**</ept> field on the reminder header</source>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>For example, if you write <bpt id="p1">**</bpt>You owe %9 %7 due on %2.<ept id="p1">**</ept>, then the resulting reminder will contain the following text: <bpt id="p2">**</bpt>You owe USD 1.200,50 due on 02-02-2014.<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>After you have set up the reminder terms, with additional levels and text, enter one of the codes on each of the customer cards.</source>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Register New Customers<ept id="p1">](sales-how-register-new-customers.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>To create a reminder automatically</source>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>A reminder is similar to an invoice.</source>
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>When you create a reminder, a reminder header as well as one or more reminder lines must be filled in.</source>
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>You can use a function to create reminders for all customers automatically.</source>
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Reminders<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Reminder<ept id="p1">**</ept> window, choose the <bpt id="p2">**</bpt>Create Reminders<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Create Reminders<ept id="p1">**</ept> window, fill in the fields to define how and to whom the reminders are created.</source>
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>To create a reminder manually</source>
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Reminder<ept id="p1">**</ept> window, you can fill in the <bpt id="p2">**</bpt>General<ept id="p2">**</ept> FastTab manually and then have the lines filled in automatically.</source>
+        </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Reminders<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>New<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>General<ept id="p1">**</ept> FastTab, fill in the fields as necessary.</source>
+        </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Suggest Reminder Lines<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Suggest Reminder Lines<ept id="p1">**</ept> batch job, fill in the fields to define how and to whom the reminders are created.</source>
+        </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>Include Entries On Hold<ept id="p1">**</ept> check box if you want the reminders to contain overdue open entries that are on hold.</source>
+        </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Open entries that are on hold will be inserted, irrespective of the setting in the Only Entries with Overdue Amounts check box.</source>
+        </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>To replace reminder texts</source>
+        </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>There are several ways you can determine the text that appears on the printed reminder.</source>
+        </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>In some cases, you may want to replace the beginning and ending texts that have been defined for the current level with those from a different level.</source>
+        </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Reminders<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Open the relevant reminder, and then choose the <bpt id="p1">**</bpt>Update Reminder Text<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Update Reminder Text<ept id="p1">**</ept> window, enter the required level in the <bpt id="p2">**</bpt>Reminder Level<ept id="p2">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button to update the beginning and ending texts.</source>
+        </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>To issue a reminder</source>
+        </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>After you have created reminders and made any needed modifications, you can either print test reports or issue the reminders.</source>
+        </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>When you issue a reminder, the data is transferred to a separate window for issued reminders.</source>
+        </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>At the same time, reminder entries are posted.</source>
+        </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>If interest or an additional fee has been calculated, entries are posted to the customer ledger and the general ledger.</source>
+        </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>When a reminder is issued, the entries are posted according to your specifications in the <bpt id="p1">**</bpt>Reminder Terms<ept id="p1">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>This specification determines whether interest and/or additional fees are posted to the customer's account and the general ledger.</source>
+        </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Setup in the <bpt id="p1">**</bpt>Customer Posting Groups<ept id="p1">**</ept> window determines which accounts are posted to.</source>
+        </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>For each customer ledger entry on the finance charge memo, an entry is created in the <bpt id="p1">**</bpt>Reminder/Fin. Charge Entries<ept id="p1">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>If the <bpt id="p1">**</bpt>Post Interest<ept id="p1">**</ept> or the <bpt id="p2">**</bpt>Post Additional Fee<ept id="p2">**</ept> check boxes are selected in the <bpt id="p3">**</bpt>Reminder Terms<ept id="p3">**</ept> window, then the following entries are also created:</source>
+        </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>One entry in the <bpt id="p1">**</bpt>Cust. Ledger Entries<ept id="p1">**</ept> window</source>
+        </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>One receivables entry in the relevant G/L account</source>
+        </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>One interest and/or one additional fee entry in the relevant G/L account</source>
+        </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>In addition, issuing the reminder may result in VAT entries.</source>
+        </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Reminders<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Select the relevant reminder, and then choose the <bpt id="p1">**</bpt>Issue<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Issue Reminders<ept id="p1">**</ept> window, fill in the fields as necessary.</source>
+        </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button</source>
+        </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>The reminder is either printed for sent to an specified email as a PDF attachment.</source>
+        </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>To set up finance charge terms</source>
+        </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>You must set up a code representing each finance charge calculation.</source>
+        </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Then you can enter this code in the <bpt id="p1">**</bpt>Fin. Charge Terms Code<ept id="p1">**</ept> field on customer or vendor cards.</source>
+        </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>Finance charges can be calculated using either the average daily balance method or the balance due method.</source>
+        </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>With the balance due method, the finance charge is simply a percentage of the overdue amount:</source>
+        </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>With the average daily balance method, the number of days the payment is overdue is taken into account:</source>
+        </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>In addition, each code in the Finance Charge Terms table is linked to a subtable, the Finance Charge Text table.</source>
+        </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>For each set of finance charge terms, you can define a beginning and/or an ending text to be included on the finance charge memo.</source>
+        </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Finance Charge Terms<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>Fill in the fields as necessary.</source>
+        </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>To use more than one combination of finance charge terms, set up a code for each one.</source>
+        </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>For each finance charge term, you can specify individual conditions, which can include additional fees in both LCY and in foreign currency.</source>
+        </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>You can define many additional fees in foreign currencies for each code in the <bpt id="p1">**</bpt>Finance Charge Terms<ept id="p1">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Currencies<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Currencies for Fin. Chrg. Terms<ept id="p1">**</ept> window, define for each term a currency code and an additional fee.</source>
+        </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>When you create finance charges in a foreign currency, the foreign currency conditions that you set up here will be used to create finance charge memos.</source>
+        </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>If there are no foreign currency finance charge conditions set up, then the LCY finance charge conditions that are set up in the <bpt id="p1">**</bpt>Finance Charge Terms<ept id="p1">**</ept> window will be used and then converted to the relevant currency.</source>
+        </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>For each finance charge term, you can specify text that will be printed before (<bpt id="p1">**</bpt>Beginning Text<ept id="p1">**</ept>) or after (<bpt id="p2">**</bpt>Ending Text<ept id="p2">**</ept>) on the entries on the finance charge memo.</source>
+        </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Beginning Text<ept id="p1">**</ept> or <bpt id="p2">**</bpt>Ending Text<ept id="p2">**</ept> actions respectively, and fill in the <bpt id="p3">**</bpt>Finance Charge Text<ept id="p3">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>To automatically insert related values in the resulting finance charge text, enter the following placeholders in the <bpt id="p1">**</bpt>Text<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>Placeholder</source>
+        </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>Value</source>
+        </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>%1</source>
+        </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>Content of the <bpt id="p1">**</bpt>Document Date<ept id="p1">**</ept> field on the finance charge memo header</source>
+        </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>%2</source>
+        </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>Content of the <bpt id="p1">**</bpt>Due Date<ept id="p1">**</ept> field on the finance charge memo header</source>
+        </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>%3</source>
+        </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>Content of the <bpt id="p1">**</bpt>Interest Rate<ept id="p1">**</ept> field on the related finance charge terms</source>
+        </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>%4</source>
+        </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>Content of the <bpt id="p1">**</bpt>Remaining Amount<ept id="p1">**</ept> field on the finance charge memo header</source>
+        </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>%5</source>
+        </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>Content of the <bpt id="p1">**</bpt>Interest Amount<ept id="p1">**</ept> field on the finance charge memo header</source>
+        </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>%6</source>
+        </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>Content of the <bpt id="p1">**</bpt>Additional Fee<ept id="p1">**</ept> field on the finance charge memo header</source>
+        </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>%7</source>
+        </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>The total amount of the reminder</source>
+        </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>%8</source>
+        </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>Content of the <bpt id="p1">**</bpt>Currency Code<ept id="p1">**</ept> field on the finance charge memo header</source>
+        </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>%9</source>
+        </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>Content of the <bpt id="p1">**</bpt>Posting Date<ept id="p1">**</ept> field on the finance charge memo header</source>
+        </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>To create a finance charge memo manually</source>
+        </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>A finance charge memo is similar to an invoice.</source>
+        </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>You can fill in a header manually and have the lines filled in for you, or you can create finance charge memos for all customers automatically.</source>
+        </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Finance Charge Memos<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>New<ept id="p1">**</ept> action, and then fill in the fields as necessary.</source>
+        </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>Suggest Fin. Charge Memo Lines<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Suggest Finance Charge Memo Lines<ept id="p1">**</ept> window, set a filter on the <bpt id="p2">**</bpt>Cust. Ledger Entry<ept id="p2">**</ept> FastTab if you want to create finance charge memos only for specific entries.</source>
+        </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button to start the batch job.</source>
+        </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>To update finance charge memo texts</source>
+        </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>In some cases, you may want to modify the beginning and ending text that you have set up for the finance charge terms.</source>
+        </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>If you do this at a time when you have created, but not yet issued, finance charge memos, you can update the memos with the modified text.</source>
+        </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Finance Charge Memo<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>open the finance charge memo that you want to change text for, and then choose the <bpt id="p1">**</bpt>Update Finance Charge Text<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Update Finance Charge Text<ept id="p1">**</ept> window, you can set a filter if you want to update several memos.</source>
+        </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button to update the beginning and ending texts.</source>
+        </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>To issue finance charge memos</source>
+        </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>After you have created finance charge memos and made any needed modifications, you can either print test reports or issue the finance charge memos.</source>
+        </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>When a reminder is issued, the entries are posted according to your specifications in the <bpt id="p1">**</bpt>Finance Charge Terms<ept id="p1">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>This specification determines whether interest and/or additional fees are posted to the customer's account and the general ledger.</source>
+        </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>Setup in the <bpt id="p1">**</bpt>Customer Posting Groups<ept id="p1">**</ept> window determines which accounts are posted to.</source>
+        </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>For each customer ledger entry on the finance charge memo, an entry is created in the <bpt id="p1">**</bpt>Reminder/Fin. Charge Entries<ept id="p1">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>If the <bpt id="p1">**</bpt>Post Interest<ept id="p1">**</ept> or the <bpt id="p2">**</bpt>Post Additional Fee<ept id="p2">**</ept> check boxes are selected in the <bpt id="p3">**</bpt>Finance Charge Terms<ept id="p3">**</ept> window, then the following entries are also created:</source>
+        </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>One entry in the <bpt id="p1">**</bpt>Cust. Ledger Entries<ept id="p1">**</ept> window</source>
+        </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>One receivables entry in the relevant G/L account</source>
+        </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>One interest and/or one additional fee entry in the relevant G/L account</source>
+        </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>In addition, issuing the finance charge memo may result in VAT entries.</source>
+        </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Finance Charge Memos<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>Select the relevant memo, and then choose the <bpt id="p1">**</bpt>Issue<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Issue Finance Charge Memos<ept id="p1">**</ept> window, fill in the fields as necessary.</source>
+        </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button</source>
+        </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>The finance charge memo is either printed for sent to an specified email as a PDF attachment.</source>
+        </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>To view reminder and finance charge entries</source>
+        </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>When you issue a reminder, a reminder entry is created in the <bpt id="p1">**</bpt>Reminder/Fin. Charge Entries<ept id="p1">**</ept> window for each reminder line that contains a customer ledger entry.</source>
+        </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>You can then get an overview of the created reminder entries for a specific customer.</source>
+        </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Customers<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>Open the relevant customer card, and then choose the <bpt id="p1">**</bpt>Ledger Entries<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Customer Ledger Entries<ept id="p1">**</ept> window, select the line with the ledger entry you want to see the reminder entries for, and then choose the <bpt id="p2">**</bpt>Reminder/Fin. Charge Entries<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Managing Receivables<ept id="p1">](receivables-manage-receivables.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Sales<ept id="p1">](sales-manage-sales.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Working with <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph><ept id="p1">](ui-work-product.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

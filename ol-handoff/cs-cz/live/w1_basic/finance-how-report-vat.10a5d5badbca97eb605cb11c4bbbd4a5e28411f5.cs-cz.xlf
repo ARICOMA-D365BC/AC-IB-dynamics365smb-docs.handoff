@@ -1,0 +1,348 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="finance-how-report-vat.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-435fba6" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">729524ce2145b4e167fb49671045b298affb862b</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\finance-how-report-vat.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a3854d3495f223c1887cb15c1b5d299ab13d1671</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6033db4a0ed117d91ad7f3e3e3b8bf1eebd5b8aa</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Submit VAT Reports to Tax Authorities| Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Learn how to prepare reports that lists VAT from sales during a period, or from sales and purchases, and submit the report to a tax authority.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>How To: Report VAT to a Tax Authority</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>This topic describes the reports in <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> that you can use to submit information about value-added tax (VAT) amounts for sales and purchases to tax authorities in your region.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>You can use the following reports :</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>EC Sales List<ept id="p1">**</ept> European Community (EC) Sales List report lists the value added tax (VAT) amounts that you have collected for sales to VAT-registered customers in the European Union (EU) countries.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>VAT Return<ept id="p1">**</ept> report includes VAT for sales and purchases to customers in all countries that use VAT.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>If you want to view a complete history of VAT entries, every posting that involves VAT creates an entry on the <bpt id="p1">**</bpt>VAT Entries<ept id="p1">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>These entries are used to calculate your VAT settlement amount, such as your payment and refund, for a specific period.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>To view VAT entries, choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>VAT Entries<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>About the EC Sales List report</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>In the UK, all companies that sell goods and services to VAT-registered customers, including customers in other European Union (EU) countries, must submit an electronic version of the European Community (EC) Sales List report in XML format through Her Majesty's Revenue and Customs (HMRC) website.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The EC Sales List report works only for countries in the EU.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The report includes one line for each type of transaction with the customer, and displays the total amount for each type of transactions.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>There are three types of transactions that the report can include:</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>B2B Goods</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>B2B Services</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>B2B Triangulated Goods</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>B2B goods and services specify whether you sold a good or a service, and are controlled by the <bpt id="p1">**</bpt>EU Service<ept id="p1">**</ept> setting in the VAT posting setup.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>B2B Triangulated Goods indicate whether you engaged in trade with a 3rd party, and are controlled by the <bpt id="p1">**</bpt>EU 3-Party Trade<ept id="p1">**</ept> setting on sales documents, such as sales orders, invoices, credit memos, and so on.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>After the tax authority reviews your report, they will send an email to the contact person for your company.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>In <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>, the contact person is specified on the <bpt id="p1">**</bpt>Company Information<ept id="p1">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Before you submit the report, make sure that a contact person is chosen.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>About the VAT Return report</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Use this report to submit VAT for sales and purchase documents, such as purchase and sales orders, invoices, and credit memos.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The information in the report is in the same format as on the declaration form from the customs and tax authorities.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>VAT is calculated based on the VAT posting setup and the VAT posting groups that you have set up.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>For the VAT return, you can specify the entries to include:</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Submit open transactions only, or open and closed.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>For example, this is useful when you prepare your final annual VAT return.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Submit only entries from the specified periods, or also include entries from previous periods.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>This is useful for updating a VAT return that you have already submitted, for example, if a vendor sends you a late invoice.</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>To connect to your tax authority's web service</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> provides service connections to tax authority websites.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>For example, if you are in the UK, you can enable the <bpt id="p1">**</bpt>GovTalk<ept id="p1">**</ept> service connection to submit the EC Sales List and VAT Return reports electronically.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>If you want to submit the report manually, for example by entering your data on the tax authority's website, this is not required.</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>To report VAT to a tax authority electronically, you need to connect <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> to the tax authority's web service.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>This requires that you set up an account with your tax authority.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>When you have an account, you can enable a service connection that we provide in <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Service Connections<ept id="p3">**</ept>, and then choose appropriate link.</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Fill in the required fields.</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>It's a good idea to test your connection.</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>To do this, choose the <bpt id="p1">**</bpt>Test Mode<ept id="p1">**</ept> check box, then prepare and submit your VAT report as described in the <bpt id="p2">_</bpt>To prepare and submit a VAT report<ept id="p2">_</ept> section.</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>While in Test Mode, the service tests whether the tax authority can receive your report, and the status of the report will indicate whether the test submission was successful.</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>It's important to remember that this is not an actual submission.</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>To submit the report for real, you must clear the <bpt id="p1">**</bpt>Test Mode<ept id="p1">**</ept> check box, and then repeat the submission process.</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>To set up VAT reports in <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph></source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>VAT Report Setup<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>To let users change and resubmit this report, choose the <bpt id="p1">**</bpt>Modify Submitted Reports<ept id="p1">**</ept> check box.</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Choose the number series to use for each report.</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>To prepare and submit a VAT report</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>EC Sales List<ept id="p3">**</ept> or <bpt id="p4">**</bpt>VAT Return<ept id="p4">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>New<ept id="p1">**</ept>, and then fill in the required fields.</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>To generate the content of the report, choose the <bpt id="p1">**</bpt>Suggest Lines<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>For the EC Sales List report, you can review the transactions included in the report lines before you submit the report.</source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>To do that, choose the line, and then choose the <bpt id="p1">**</bpt>Show VAT Entries<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>To validate and prepare the report for submission, choose the <bpt id="p1">**</bpt>Release<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> validates whether the report is set up correctly.</source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>If the validation fails, the errors display under <bpt id="p1">**</bpt>Errors and Warnings<ept id="p1">**</ept> so that you know what to fix.</source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Typically, if the message is about a missing setting in <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>, you can click the message to open the page that contains the information to correct.</source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>To submit the report, choose the <bpt id="p1">**</bpt>Submit<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>After you submit the report, <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> monitors the service and keeps a record of your communications.</source>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Status<ept id="p1">**</ept> field indicates where the report is in the process.</source>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>For example, when the authorities process your report, the status of the report changes to <bpt id="p1">**</bpt>Succeeded<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>If the tax authority found mistakes in the report you submitted, the status of the report will be <bpt id="p1">**</bpt>Failed<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>You can view the errors under <bpt id="p1">**</bpt>Errors and Warnings<ept id="p1">**</ept>, correct them, and then submit the report again.</source>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>To view a list of all your EC Sales List reports, go to the <bpt id="p1">**</bpt>EC Sales List Reports<ept id="p1">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Viewing communications with your tax authority</source>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>In some countries, you exchange messages with the tax authority when you submit reports.</source>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>You can view the first and the last message you sent or received by choosing the <bpt id="p1">**</bpt>Download Submission Message<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Download Response Message<ept id="p2">**</ept> actions.</source>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Submitting VAT reports manually</source>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>If you use another method to submit the report, for example by exporting the XML and uploading it to a tax authority website, afterward you can choose <bpt id="p1">**</bpt>Mark as Submitted<ept id="p1">**</ept> to close the reporting period.</source>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>When you mark the report as released, it becomes non-editable.</source>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>If you must change the report after you mark it as released, you must reopen it.</source>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>VAT settlement</source>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Periodically, you must remit the net VAT to the tax authorities.</source>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>If you need to settle VAT frequently, you can run the <bpt id="p1">**</bpt>Calc. and Post VAT Settlement<ept id="p1">**</ept> batch job to close the open VAT entries and transfer purchase and sales VAT amounts to the VAT settlement account.</source>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>When you transfer VAT amounts to the settlement account, the purchase VAT account is credited, and the sales VAT account is debited with the amounts calculated for the specified period.</source>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The net amount is credited or debited, if the purchase VAT amount is larger, to the VAT settlement account.</source>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>You can post the settlement immediately or print a test report first.</source>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>When you use the <bpt id="p1">**</bpt>Calc. and Post VAT Settlement<ept id="p1">**</ept> batch job, if you don't specify a <bpt id="p2">**</bpt>VAT Bus. Posting Group<ept id="p2">**</ept> and a <bpt id="p3">**</bpt>VAT Prod. Posting group<ept id="p3">**</ept>, entries with all business posting groups and product posting group codes are included.</source>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Configuring your own VAT reports</source>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>You can use the EC Sales List report out-of-the-box, however, you can also create your own reports.</source>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>This requires that you create a few codeunits.</source>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>If you need help with that, contact a Microsoft Partner.</source>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The following table describes the codeunits that you must create for your report.</source>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Codeunit</source>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>What it must do</source>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Suggest Lines</source>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Fetch information from the VAT Entries table, and display it in lines on the VAT report.</source>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Content</source>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Control the format of the report.</source>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>For example, whether it is XML or JSON.</source>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The format to use depends on the requirements of your tax authority's web service.</source>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Submission</source>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Control how, and when, you submit the report based on the requirements of your tax authority.</source>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Response Handler</source>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Handle the return from the tax authority.</source>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>For example, it might send an email message to your company's contact person.</source>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Cancel</source>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Send a cancellation of a VAT report that was submitted earlier to your tax authority.</source>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>When create codeunits for the report, pay attention to the value in the <bpt id="p1">**</bpt>VAT Report Version<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>This field must reflect the version of the report that is, or was, required by the tax authority.</source>
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>For example, you might enter <bpt id="p1">**</bpt>2017<ept id="p1">**</ept> in the field to indicate that the report conforms to the requirements that were in place that year.</source>
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>To find the current version, contact your tax authority.</source>
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>See also</source>
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Setting Up to Calculations and Posting Methods for Value-Added Tax<ept id="p1">](finance-setup-vat.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Work with VAT on Sales and Purchases<ept id="p1">](finance-work-with-vat.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Setting Up Sales<ept id="p1">](sales-setup-sales.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Invoice Sales<ept id="p1">](sales-how-invoice-sales.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

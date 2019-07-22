@@ -1,0 +1,192 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="payables-how-work-checks.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-435fba6" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4dd8f50f4d7767cb70b53a16009b86f135a5f5c6</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\payables-how-work-checks.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c1c5b41d3afe680ec3581a898fd416f70b50fb69</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dc9d08733a32410c83b62a36141da3f7b3e3e3d2</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Issue, Print, Cancel, and Void Checks| Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Describes how to issue checks using the payment journal, print checks, and void or view check ledger entries in Business Central.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Make Check Payments</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You can issue electronic and manual checks in <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Both methods use the payment journal to issue checks to vendors.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>You can also void checks and view check ledger entries.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The following procedure shows how to pay a vendor with a computer checks by applying the payment to the relevant vendor invoice, printing the check, and then posting the payment as paid.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>This results in positive vendor ledger entries, applied to negative bank ledger entries, and physical checks for processing in the bank.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You can pay with two types of checks.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>For both types, the <bpt id="p1">**</bpt>Bal. Account Type<ept id="p1">**</ept> or the <bpt id="p2">**</bpt>Account Type<ept id="p2">**</ept> field must contain <bpt id="p3">**</bpt>Bank Account<ept id="p3">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Computer Check<ept id="p1">**</ept>: Select this option if you want to print a check for the amount on the payment journal line.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You must print the checks before you can post the journal lines.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>You can only select <bpt id="p1">**</bpt>Computer Check<ept id="p1">**</ept> if</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Manual Check<ept id="p1">**</ept>: Select this option if you have created a check manually and want to create a corresponding check ledger entry for this amount.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>By using this option, you cannot print the check.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>To make sure that your bank only clears validated checks and amounts, you can send them a file that contains vendor, check, and payment information.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Export a Positive Pay file<ept id="p1">](finance-how-positive-pay.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Your printer must be correctly set up with the check forms, and you must define which check layout to use.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Define Check Layouts<ept id="p1">](finance-how-define-check-layouts.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>You can print up to 10 invoices on a page for a check stub.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>If a check applies to more than 10 invoices, when you print the stub we void the check on the first page and print the word VOID on the check.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>We then print the remainder of the invoices and the total check amount on the second page.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>To pay a vendor invoice with a computer check</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The following describes how to pay a vendor by check.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The steps are similar to refund a customer by check.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Payment Journals<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Fill in the payment journal lines.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Record Payments and Refunds<ept id="p1">](payables-how-post-payments-refunds.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Payment Method Code<ept id="p1">**</ept> field, select <bpt id="p2">**</bpt>Check<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Bank Payment Type<ept id="p1">**</ept> field, select <bpt id="p2">**</bpt>Computer Check<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Print Check<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Check<ept id="p1">**</ept> page, fill in the fields as necessary.</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Send to<ept id="p1">**</ept> button, select the <bpt id="p2">**</bpt>PDF Document<ept id="p2">**</ept> option, and then choose the <bpt id="p3">**</bpt>OK<ept id="p3">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The physical checks can now be brought to the bank for processing.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Proceed to post the payment as applied to the vendor and thereby paid in the system.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Post<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Fully applied vendor ledger entries and bank ledger entries are created.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>If you want to print and pay checks in more than one currency from different bank accounts, you must run the <bpt id="p1">**</bpt>Print Check<ept id="p1">**</ept> batch job separately for each currency and specify the appropriate bank account.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>To cancel printed checks that are not posted</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>You can cancel non-posted checks after they have been printed by using the <bpt id="p1">**</bpt>Void Check<ept id="p1">**</ept> action on the <bpt id="p2">**</bpt>Payment Journal<ept id="p2">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Payment Journal<ept id="p1">**</ept> page, choose the <bpt id="p2">**</bpt>Void Check<ept id="p2">**</ept>, and then choose which checks to cancel.</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>To void checks</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>When check payment have been posted, you can only cancel (void) checks from the resulting bank ledger entries.</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Bank Accounts<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Select the relevant bank account, choose the <bpt id="p1">**</bpt>Edit<ept id="p1">**</ept> action, and then choose the <bpt id="p2">**</bpt>Check Ledger Entries<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Check Ledger Entries<ept id="p1">**</ept> page, choose the <bpt id="p2">**</bpt>Void Check<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>Void Check Only<ept id="p1">**</ept> check box.</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>To view a summary of posted checks</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>If you want to review posted checks, for example to verify multiple checks paid to one vendor, you can use the <bpt id="p1">**</bpt>Bank Account - Check Details<ept id="p1">**</ept> report.</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Bank Account - Check Details<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Set filters as relevant, and then choose the <bpt id="p1">**</bpt>Preview<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Making Payments<ept id="p1">](payables-make-payments.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Managing Payables<ept id="p1">](payables-manage-payables.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Setting Up Banking<ept id="p1">](bank-setup-banking.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Export a Positive Pay file<ept id="p1">](finance-how-positive-pay.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Working with <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph><ept id="p1">](ui-work-product.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

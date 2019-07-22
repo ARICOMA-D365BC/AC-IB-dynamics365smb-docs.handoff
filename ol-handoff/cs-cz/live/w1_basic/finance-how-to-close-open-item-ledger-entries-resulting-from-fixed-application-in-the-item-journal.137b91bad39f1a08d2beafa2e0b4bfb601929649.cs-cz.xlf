@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-2e292eb" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1553b5f85cd9f00f9de15b59bcf258fba412967b</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">financials\finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">659f74fb813bd2aafdc79104eb626d6549a5acff</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">795079ecaef4f86261f39f5d5e5cb3bf4ed78fc8</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>How to Close Open Item Ledger Entries Resulting from Fixed Application in the Item Journal | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>You can use the <bpt id="p1">**</bpt>Applies-from Entry<ept id="p1">**</ept> field in the <bpt id="p2">**</bpt>Item Journal<ept id="p2">**</ept> window to create a fixed application between an inbound transaction and the original outbound transaction.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>For example, to correct the outbound transaction or to process its return.</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Close Open Item Ledger Entries Resulting from Fixed Application in the Item Journal</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>You can use the <bpt id="p1">**</bpt>Applies-from Entry<ept id="p1">**</ept> field in the <bpt id="p2">**</bpt>Item Journal<ept id="p2">**</ept> window to create a fixed application between an inbound transaction and the original outbound transaction.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>For example, to correct the outbound transaction or to process its return.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>For more information, see Applies-from Entry.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Fixed applications made in this manner only apply the cost, not the quantity.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Accordingly, the posted positive item ledger entry will not close the applied outbound entry and will itself remain open.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>This also applies when you post a fixed application for a positive entry to a negative entry that has not been closed by a regular positive entry, then both the negative and the positive entries will remain open.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>This also means that you cannot close an inventory period if such an entry exists.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The following procedure shows how to close such entries by performing two corrective postings in the item journal.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>To close open item ledger entries that result from a fixed application in the item journal</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Use the <bpt id="p1">**</bpt>Applies-from Entry<ept id="p1">**</ept> field to post a positive adjustment with the corresponding quantity.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>This closes the original negative entry with a fixed application.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Use the <bpt id="p1">**</bpt>Applies-to Entry<ept id="p1">**</ept> field to post a negative adjustment.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>This closes the original corrective positive entry with a fixed application.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt> Remove and Reapply Item Ledger Entries<ept id="p1">](finance-how-to-remove-and-reapply-item-entries.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Process Sales Returns and Cancellations<ept id="p1">](sales-how-process-sales-returns-cancellations.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Setting Up Inventory Valuation and Costing<ept id="p1">](finance-set-up-inventory-valuation-and-costing.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Managing Inventory Costs<ept id="p1">](finance-manage-inventory-costs.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Design Details: Costing Methods<ept id="p1">](design-details-costing-methods.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

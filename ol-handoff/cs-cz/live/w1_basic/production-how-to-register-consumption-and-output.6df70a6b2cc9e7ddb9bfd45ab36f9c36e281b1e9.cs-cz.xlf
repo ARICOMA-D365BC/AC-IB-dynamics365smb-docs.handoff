@@ -1,0 +1,186 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="production-how-to-register-consumption-and-output.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-435fba6" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">673f2800c3c65af3fd50e08b0d042e6812bb29f4</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\production-how-to-register-consumption-and-output.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d460c5a656032f885387ff6792c2f174f1591b36</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dbe23e0e31e8d98a26f368d19ee9a2b44aa3ea2b</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Register Consumption and Output for One Production Order | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>This execution task is performed on the <bpt id="p1">**</bpt>Production Journal<ept id="p1">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>The journal combines the functions of the separate consumption journal and output journals into one journal.</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>The combined journal is accessed directly from a released production order.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Its main purpose is to manually post the consumption of components, the quantity of end items produced, and the time spent in operations.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Register Consumption and Output for One Released Production order line</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>This execution task is performed on the <bpt id="p1">**</bpt>Production Journal<ept id="p1">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The journal combines the functions of the separate consumption journal and output journals into one journal.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The combined journal is accessed directly from a released production order.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Its main purpose is to manually post the consumption of components, the quantity of end items produced, and the time spent in operations.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The values are posted to ledger entries under the released production order.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Consumption quantities are posted as negative item ledger entries, output quantities are posted as positive ledger entries, and times spent are posted as capacity ledger entries.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Such posted values can also be viewed at the bottom of the journal as actual quantities.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Because consumption data is processed together with output data, this journal offers an opportunity to display linked components and operations in a logical process structure.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Components are indented under their respective operation.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>This requires that you use routing link codes.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Components without routing link codes are listed first in the journal.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>To register consumption and output</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon enter <bpt id="p3">**</bpt>Released Prod. Orders<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Open a released production order line that is ready for registration, and then on the <bpt id="p1">**</bpt>Lines<ept id="p1">**</ept> FastTab, choose the <bpt id="p2">**</bpt>Line<ept id="p2">**</ept> action, and then choose the <bpt id="p3">**</bpt>Production Journal<ept id="p3">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Production Journal<ept id="p1">**</ept> page opens showing journal lines for the production order line according to the <bpt id="p2">**</bpt>Prod. Order Component<ept id="p2">**</ept> and <bpt id="p3">**</bpt>Prod. Order Routing<ept id="p3">**</ept> pages.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>These lines originate from the production BOM and routing assigned to the item that is being produced.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Create Production BOMs<ept id="p1">](production-how-to-create-routings.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Posting Date<ept id="p1">**</ept> field at the top of the journal, enter a posting date that applies to all lines.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The work date is entered by default.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The field is meant as a quick way to align posting dates on all lines, if relevant.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Posting dates entered on individual lines will override this field.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Flushing Method Filter<ept id="p1">**</ept> field at the top of the journal, you can choose to also view consumption and output that is posted automatically according to the flushing methods defined for the item and resource respectively.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>On each type of line in the journal, only the relevant fields are shown.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The rest are blank and write-protected.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>When the journal is opened, it is preset with the quantities to be posted.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>If nothing is posted so far, all quantity fields will show by default the expected quantities carried from the production order.</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>If partial postings have been made, the quantity fields on the lines will show the remaining quantities.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The quantities and times already posted for the order are displayed at the bottom of the journal as actual entries.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Concerning the quantities in the <bpt id="p1">**</bpt>Output Quantity<ept id="p1">**</ept> field, you have the option to set up which values to preset when the journal is first opened.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>This is done from the <bpt id="p1">**</bpt>Manufacturing Setup<ept id="p1">**</ept> page, <bpt id="p2">**</bpt>General<ept id="p2">**</ept> FastTab, in the <bpt id="p3">**</bpt>Preset Output Quantity<ept id="p3">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Proceed to enter the relevant consumption and output quantities in the editable fields.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Only the output quantity on the last journal line of entry type <bpt id="p1">**</bpt>Output<ept id="p1">**</ept> will adjust the inventory level when posting the journal.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Therefore, do not to post the journal, with the expected output quantity preset on the last output line, until all end items are actually produced.</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>Finished<ept id="p1">**</ept> field of output lines to indicate that the operation is finished.</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>This field is related to the <bpt id="p1">**</bpt>Routing Status<ept id="p1">**</ept> field on a production order routing line.</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Post<ept id="p1">**</ept> action to register the quantities you have entered and then close the journal.</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>If values remain to be posted, the journal will contain these remaining values next time it is opened.</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Posted values are shown as actual values in the bottom of the journal.</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>If an item that is being consumed is blocked, the journal will not post consumption quantities for that item.</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>If a machine or work center is blocked, the journal will not post output quantities or process times for the output line in question.</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>If you close the journal without posting, the changes will be lost.</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Production Journal<ept id="p1">**</ept> page cannot be used by two users simultaneously.</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>This means that if User 2 opens the page and enters data when User 1 is already working on the page, then User 2 may lose data when User 1 closes the page.</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Manufacturing<ept id="p1">](production-manage-manufacturing.md)</ept><ph id="ph1">  </ph></source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Setting Up Manufacturing<ept id="p1">](production-configure-production-processes.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Planning<ept id="p1">](production-planning.md)</ept><ph id="ph1">    </ph></source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Inventory<ept id="p1">](inventory-manage-inventory.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Purchasing<ept id="p1">](purchasing-manage-purchasing.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Working with <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph><ept id="p1">](ui-work-product.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

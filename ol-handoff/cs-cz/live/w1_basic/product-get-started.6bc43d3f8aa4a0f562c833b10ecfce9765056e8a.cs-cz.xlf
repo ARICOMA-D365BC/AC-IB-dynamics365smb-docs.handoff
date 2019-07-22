@@ -1,0 +1,339 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="product-get-started.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-419b0d8" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">15c54c7c6514ce275ff242d620df7404f9f2fee4</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\product-get-started.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">96702bfcc7e06a8316dcea757ce68f2bdb67860c</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">66989a141467c984ce9920c9cbcb32531a1170e1</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Getting Started | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Learn about capabilities and work scenarios in Business Central, a business management solution for small and mid-sized organizations.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Getting Started with <ph id="ph1">[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]</ph></source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> is a business management solution for small and mid-sized organizations that automates and streamlines business processes and helps you manage your business.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Signing up is easy, and you can migrate existing business data from your legacy system.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>To help you with your subscription, find a <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> partner <bpt id="p1">[</bpt>here<ept id="p1">](https://www.microsoft.com/en-us/solution-providers/search)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>When you sign up for the <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> preview you get access to a demonstration company.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The demonstration company contains sample data, but you can create your own sales documents, for example, or set up a bank account.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Get to know <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph></source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>In <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>, some things will be familiar to you, and other things might be unfamiliar.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>In the demonstration company, visual guides explain core functionality, and help you try out daily tasks like creating a sales invoice and viewing a report.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>If you leave a guide, for example, to explore <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> on your own, but want to return to it, go back to the Role Center and launch the Getting Started tour.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>If you want more assistance, you can find a <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> partner <bpt id="p1">[</bpt>here<ept id="p1">](https://www.microsoft.com/en-us/solution-providers/search)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You can get back to the Role Center by selecting the company name in the upper left corner.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>For some quick, nice-to-know tricks, see:</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Find things<ept id="p1">](ui-search.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Searching, Filtering, and Sorting Lists<ept id="p1">](ui-enter-criteria-filters.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Entering Data<ept id="p1">](ui-enter-data.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Working with <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph><ept id="p1">](ui-work-product.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>When you are ready to start working and you want to look at some of the business processes that <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> supports, see <bpt id="p1">[</bpt>Business Functionality<ept id="p1">](across-business-functionality.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>For an overview of current capabilities and what is coming, take a look at our release notes at <bpt id="p1">[</bpt>Microsoft Dynamics 365 Business Central Release Notes<ept id="p1">](https://go.microsoft.com/fwlink/?linkid=2047422)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The Role Centers</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The Role Center page is based on a role-centric design to give you fast access to the business process and intelligence tools that you need to do your job.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>For example, an accountant can monitor payments and approvals, and view finance performance charts.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Check out the various Role Center by choosing the <bpt id="p1">**</bpt>Settings<ept id="p1">**</ept> icon <bpt id="p2">![</bpt>Settings<ept id="p2">]</ept><bpt id="p3">(media/ui-experience/settings_icon_small.png "</bpt>Settings icon for role center<ept id="p3">")</ept> in the top right corner,  choosing <bpt id="p4">**</bpt>My Settings<ept id="p4">**</ept>, and then the Role Center to explore.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Sign in again to apply the change.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Changing Basic Settings<ept id="p1">](ui-change-basic-settings.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Each Role Center provides a <bpt id="p1">**</bpt>Setup and Extensions<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Here you have access to a list of assisted setup that can help you get started by setting selected areas up quickly.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>If an area is not covered by an assisted setup, choose the <bpt id="p1">**</bpt>Manual Setup<ept id="p1">**</ept> action to access setup pages where you can fill in setup fields for all areas manually.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>For more information, see also <bpt id="p1">[</bpt>Setting Up <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph><ept id="p1">](setup.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The list of setup guides, extensions, and services that are available differ depending on the user experience you choose for your company.</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Essential<ept id="p1">**</ept> experience gives access to fewer than the <bpt id="p2">**</bpt>Premium<ept id="p2">**</ept> experience does.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The first time you sign in, you use the Essential experience.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Changing Which Features are Displayed<ept id="p1">](ui-experiences.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Assisted Setup<ept id="p1">**</ept> page, you will find the following with the <bpt id="p2">**</bpt>Essential<ept id="p2">**</ept> experience:</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Assisted Setup</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Migrate Business Data</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Lets you import your existing company data such as vendors, customers, and items from Excel or Quickbooks.</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Set Up My Company</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Creates a new trial company for you to enter data and try out <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>If you went through the Getting Started tour this is probably already <bpt id="p1">**</bpt>Completed<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Set Up Cash Flow Forecast</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Sets up the Cash Flow Forecast chart, so you can view the predicted movement of cash in and out of your business.</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The chart is available on the <bpt id="p1">**</bpt>Accountant Role Center<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Set Up Approval Workflows</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Sets up the ability to automatically notify an approver when a user tries to create or change certain values on documents, journal lines, or cards, such as an amount above a specified limit.</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Set Up a Customer Approval Workflow</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Sets up the ability to automatically notify an approver when a user tries to create or change a customer card.</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Set Up Email</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Gets you ready for sending email messages directly from, for example, sales orders or contacts in <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Set Up Email Logging</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Sets up the capability to log email correspondence in <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> to follow up on interactions.</source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Set Up Outlook for <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph></source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Sets up the ability to use and launch <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> from Outlook.</source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Set Up Reporting</source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Sets up data sets that you can use to build powerful reports using Excel or Power BI, for example.</source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Set Up an Item Approval Workflow</source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Sets up the ability to send a notification to an approver when a user changes or creates an item.</source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Set Up a Payment Approval Workflow</source>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Sets up the ability to send a notification to an approver when a user sends payment journal lines for approval.</source>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Set Up the Business Central Connector</source>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Sets up a connection to Dynamics 365 for Sales, which allows you to synchronize data such as contacts and sales order information.</source>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Set Up Sales Tax</source>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Gets you started with default tax groups and assigning tax area codes that you can assign to customers and vendors in order to automatically calculate sales tax in sales or purchase documents.</source>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Trying things out in your own company</source>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Thinking about subscribing?</source>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>You can easily change from the demonstration company, and create and work in a company of your own.</source>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>This is a great way to start toward a subscription.</source>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Setups for finances are provided; you just need to create or import your customers, vendors, and the products or services that you sell.</source>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>After that, you're ready to post invoices and use business intelligence tools to analyze your business.</source>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>You can use your company for free for a 30-day trial period.</source>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>If you subscribe to <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> during that time, you're already up and running.</source>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>You can continue with the work you did during the trial.</source>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>To create a company to try things out, go to the <bpt id="p1">**</bpt>My Settings<ept id="p1">**</ept> menu in the top right corner, and change the company to <bpt id="p2">**</bpt>My Company<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Sign out of <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> and then sign in again to apply the change.</source>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>An assisted setup guide will help you provide basic information about your company.</source>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>When that's done, explore the Role Center and find the <bpt id="p1">**</bpt>Assisted Setup<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Alternatively, find a <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> partner <bpt id="p1">[</bpt>here<ept id="p1">](https://www.microsoft.com/en-us/solution-providers/search)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Getting answers to questions</source>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>If you are not sure how to do something in <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>, you can hopefully find the answer either from reading the tooltip for the field that you are unsure of, or by reading the content by opening the <bpt id="p1">*</bpt>Learn more<ept id="p1">*</ept> link in a tooltip.</source>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>You can also get to the documentation by choosing the related link in the Help menu.</source>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>All fields in <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> are described in tooltips.</source>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>You can access tooltips by choosing the name of the field.</source>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>For example, in a page like the <bpt id="p1">**</bpt>Customer Card<ept id="p1">**</ept>, simply choose the name of the field to read the tooltip.</source>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>In a list such as the <bpt id="p1">**</bpt>Customers<ept id="p1">**</ept> list, or the lines in a document such as a sales order, you have to choose the drop-down menu to the right of the name of the column and then choose the <bpt id="p2">**</bpt>What's this?<ept id="p2">**</ept> menu item.</source>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>If you have additional questions, we recommend that you ask the community or contact your reselling partner.</source>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Where do I go if I have questions?<ept id="p1">](across-faq.md#where-do-i-go-if-i-have-questions)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Ready to subscribe?</source>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Each time you sign in during the trial period, a notification in a blue bar at the top displays the time remaining.</source>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>If you decide to subscribe, find a <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> partner <bpt id="p1">[</bpt>here<ept id="p1">](https://www.microsoft.com/en-us/solution-providers/search)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>You can also contact the <bpt id="p1">[</bpt><ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> Sales team<ept id="p1">](https://go.microsoft.com/fwlink/?linkid=828707)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Other Dynamics 365 apps</source>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Navigate to content about the other Dynamics 365 apps by choosing the <bpt id="p1">[</bpt>Dynamics 365<ept id="p1">](https://docs.microsoft.com/dynamics365)</ept> link in the blue banner at the top of this page.</source>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>You can also learn more at the <bpt id="p1">[</bpt>Dynamics 365 Business Central website<ept id="p1">](https://dynamics.microsoft.com/en-us/business-central/overview/)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>If you are an accountant, you can sign up for <ph id="ph1">[!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]</ph> and have seamless integration with <ph id="ph2">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Welcome to Dynamics 365 — Accountant Hub<ept id="p1">](/dynamics365/accountants/index)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Working with <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph><ept id="p1">](ui-work-product.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Setting Up <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph><ept id="p1">](setup.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Customizing <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> Using Extensions<ept id="p1">](ui-extensions.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Using <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> as my Business Inbox in Outlook<ept id="p1">](admin-outlook.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Getting <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> on Your Mobile Device<ept id="p1">](install-mobile-app.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Dynamics 365 Documentation<ept id="p1">](https://docs.microsoft.com/en-us/dynamics365/)</ept></source>
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Microsoft Dynamics 365 Business Central Release Notes<ept id="p1">](https://go.microsoft.com/fwlink/?linkid=2047422)</ept></source>
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Microsoft Dynamics 365 Business Central<ept id="p1">](https://go.microsoft.com/fwlink/?linkid=828707)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

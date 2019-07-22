@@ -1,0 +1,429 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="design-details-planning-parameters.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-5ae97a8" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">aeafdd37a40d393fbb62501d67b14f3e351ea254</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\design-details-planning-parameters.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6e6cad249d869c0ee409bdff752ec792d9e8899a</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2c18373bb8563dad03301b3ebc3b70676ed549c4</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Design Details - Planning Parameters | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>This topic describes the different planning parameters that you can use in Business Central.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Design Details: Planning Parameters</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>This topic describes the different planning parameters that you can use in <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The way in which the planning system controls item supply is determined by various settings on the item card or SKU, and settings in manufacturing setup.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The following table shows how these parameters are used for planning.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Purpose</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Parameter</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Define if the item is to be planned</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Reordering Policy = Blank</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Define when to reorder</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Time Bucket</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Reorder Point</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Safety Lead Time</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Define how much to reorder</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Safety Stock Quantity</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Reordering Policy:</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>-   Fixed Reorder Qty. plus Reorder Quantity</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>-   Maximum Qty. plus Maximum Inventory</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>-   Order</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>-   Lot-for-Lot</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Optimize when and how much to reorder</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Rescheduling Period</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Lot Accumulation Period</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Dampener Period</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Modify the supply orders</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Minimum Order Quantity</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Maximum Order Quantity</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Order Multiple</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Delimit the planned item</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Manufacturing Policy:</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>-   Make-to-Stock</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>-   Make-to-Order</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Define If the Item Will Be Planned</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>To include an item/SKU in the planning process, it must have a reordering policy otherwise it must be planned manually, for example, with the Order Planning feature.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Define When to Reorder</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Reorder proposals are generally released only when the projected available quantity has fallen to or below a given quantity.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>This quantity is defined by the reorder point.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Otherwise, it will be zero.</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Zero can be adjusted by entering a safety stock quantity.</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>If the user has defined a safety lead time, it will cause the proposal to be delivered in the period prior to the required due date.</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Time Bucket<ept id="p1">**</ept> field is used by reorder point policies (<bpt id="p2">**</bpt>Fixed Reorder Qty.<ept id="p2">**</ept> and <bpt id="p3">**</bpt>Maximum Qty.<ept id="p3">**</ept>), where the inventory level is checked after each time bucket.</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The first time bucket begins on the planning starting date.</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>When calculating time buckets, the planning system ignores any working calendars that are defined in the <bpt id="p1">**</bpt>Base Calendar Code<ept id="p1">**</ept> field in the <bpt id="p2">**</bpt>Company Information<ept id="p2">**</ept> and <bpt id="p3">**</bpt>Location Card<ept id="p3">**</ept> pages.</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The default safety lead time, on the <bpt id="p1">**</bpt>Manufacturing Setup<ept id="p1">**</ept> page, should be set to at least one day.</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The due date of the demand may be known, but not the due time.</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The planning schedules backward to meet gross demand, and, if no safety lead time is defined, the goods may arrive too late to meet the demand.</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Three additional reorder period fields, <bpt id="p1">**</bpt>Rescheduling Period<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Lot Accumulation Period<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>Dampener Period<ept id="p3">**</ept>, also play a role in defining when to reorder.</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Optimize When and How Much to Reorder<ept id="p1">](design-details-planning-parameters.md#optimize-when-and-how-much-to-reorder)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Define How Much to Reorder</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>If the planning system detects the need to reorder, the selected reordering policy is used to determine when and how much to order.</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Independent of the reordering policy, the planning system usually follows this logic:</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The quantity of the order proposal is calculated to meet the specified minimum inventory level of the item, usually the safety stock quantity.</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>If nothing is specified, the minimum inventory level is zero.</source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>If the projected available inventory is below the safety stock quantity, a backward-scheduled supply order is suggested.</source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The order quantity will at least fill the safety stock quantity, and can be increased by gross demand within the time bucket, by the reordering policy, and by the order modifiers.</source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>If the projected inventory is on or below the reorder point (calculated from aggregated changes within the time bucket) and above the safety stock quantity, a forward-scheduled exception order is suggested.</source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Both the gross demand to be met and the reordering policy will determine the order quantity.</source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>At minimum, the order quantity will meet the reorder point.</source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>If there is more gross demand due before the ending date of the forward-scheduled order proposal, and this demand brings the currently calculated projected available inventory below the safety stock quantity, the order quantity is increased to make up the deficit.</source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The suggested supply order is then scheduled backward from the due date of the gross demand that would have violated the safety stock quantity.</source>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>If the <bpt id="p1">**</bpt>Time Bucket<ept id="p1">**</ept> field is not filled in, only the gross demand on the same due date will be added.</source>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The following reorder period fields also play a role in defining how much to reorder: <bpt id="p1">**</bpt>Rescheduling Period<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Lot Accumulation Period<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>Dampener Period<ept id="p3">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Optimize When and How Much to Reorder<ept id="p1">](design-details-planning-parameters.md#optimize-when-and-how-much-to-reorder)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Reordering Policies</source>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The following reordering policies affect the quantity that is being reordered.</source>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Reordering policy</source>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Fixed Reorder Qty.<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>At a minimum, the order quantity will be equal to the reorder quantity.</source>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>It can be increased to meet the demand or the desired inventory level.</source>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>This reordering policy is usually used with a reorder point.</source>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Maximum Qty.<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The order quantity will be calculated to meet the maximum inventory.</source>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>If quantity modifiers are used, then maximum inventory can be violated.</source>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>We do not recommend that you use the time bucket together with maximum quantity.</source>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The time bucket will usually be overruled.</source>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>This reordering policy is usually used with a reorder point.</source>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Order<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The order quantity will be calculated to meet each single demand event and the demand-supply set will remain linked until execution.</source>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>No planning parameters are considered.</source>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Lot-for-Lot<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The quantity is calculated to meet the sum of the demand that comes due in the time bucket.</source>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Optimize When and How Much to Reorder</source>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>To obtain a rational supply plan, a planner will fine-tune planning parameters to limit rescheduling suggestions, accumulate demand (dynamic reorder quantity), or to avoid insignificant planning actions.</source>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The following reorder period fields help optimize when and how much to reorder.</source>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Field</source>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Rescheduling Period<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>This field is used to determine whether the action message should reschedule an existing order or cancel it and create a new order.</source>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The existing order will be rescheduled within one rescheduling period before the current supply and until one rescheduling period after the current supply.</source>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Lot Accumulation Period<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>With reordering policy Lot-for-Lot, this field is used to accumulate multiple supply needs into one supply order.</source>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>From the first planned supply, the system accumulates all supply needs in the following lot accumulation period into one supply, which is placed on the date of the first supply.</source>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Demand outside the lot accumulation period is not covered by this supply.</source>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Dampener Period<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>This field is used to avoid minor rescheduling of existing supply out in time.</source>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Changes from the supply date until one dampener period from the supply date will not generate any action messages.</source>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>The dampener period specifies a period of time during which you do not want the planning system to propose to reschedule existing supply orders forward.</source>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>This limits the number of insignificant rescheduling of existing supply to a later date if the rescheduled date is within the dampener period.</source>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>As a result, a positive delta between the suggested new supply date and the original supply date will always be larger than the dampener period.</source>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>The timing of rescheduling period, dampener period, and lot accumulation period is based on a supply date.</source>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The time bucket is based on the planning start date, as shown in the following illustration.</source>
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">![</bpt>Time bucket elements<ept id="p1">]</ept><bpt id="p2">(media/supply_planning_5_time_bucket_elements.png "</bpt>Time bucket elements<ept id="p2">")</ept></source>
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>In the following examples, the black arrows represent existing supply (up) and demand (down).</source>
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Red, green, and orange arrows are planning suggestions.</source>
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Example 1<ept id="p1">**</ept>: The changed date is outside the rescheduling period, which causes the existing supply to be canceled.</source>
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>A new supply is suggested to cover the demand in the lot accumulation period.</source>
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">![</bpt>Rescheduling Period and Lot Accumulation Period<ept id="p1">]</ept><bpt id="p2">(media/supply_planning_5_recheduling_period_lot_accumulation_period.png "</bpt>Rescheduling Period and Lot Accumulation Period<ept id="p2">")</ept></source>
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Example 2<ept id="p1">**</ept>: The changed date is in the rescheduling period, which causes the existing supply to be rescheduled.</source>
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>A new supply is suggested to cover the demand outside the lot accumulation period.</source>
+        </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">![</bpt>Rescheduling Period, Lot Accumulation Period, and Reschedule<ept id="p1">]</ept><bpt id="p2">(media/supply_planning_5_recheduling_period_lot_accum_period_reschedule.png "</bpt>Rescheduling Period, Lot Accumulation Period, and Reschedule<ept id="p2">")</ept></source>
+        </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Example 3<ept id="p1">**</ept>: There is a demand in the dampener period and the supply quantity in the lot accumulation period matches the supply quantity.</source>
+        </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>The next demand is uncovered and a new supply is suggested.</source>
+        </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">![</bpt>Dampener Period and Lot Accumulation Period<ept id="p1">]</ept><bpt id="p2">(media/supply_planning_5_dampener_period_lot_accumulation_period.png "</bpt>Dampener Period and Lot Accumulation Period<ept id="p2">")</ept></source>
+        </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Example 4<ept id="p1">**</ept>: There is a demand in the dampener period and the supply remains on the same date.</source>
+        </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>However, the current supply quantity is not enough to cover the demand in the lot accumulation period, so a change quantity action for the existing supply order is suggested.</source>
+        </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">![</bpt>Dampener Period, Lot Accumulation Period, and Change Quantity<ept id="p1">]</ept><bpt id="p2">(media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png "</bpt>Dampener Period, Lot Accumulation Period, and Change Quantity<ept id="p2">")</ept></source>
+        </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Default values:<ept id="p1">**</ept> The default value of the <bpt id="p2">**</bpt>Time Bucket<ept id="p2">**</ept> field and the three reorder period fields is blank.</source>
+        </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>For all fields, except the <bpt id="p1">**</bpt>Dampener Period<ept id="p1">**</ept> field, this means 0D (zero days).</source>
+        </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>If the <bpt id="p1">**</bpt>Dampener Period<ept id="p1">**</ept> field is blank, the global value in the <bpt id="p2">**</bpt>Default Dampener Period<ept id="p2">**</ept> field on the <bpt id="p3">**</bpt>Manufacturing Setup<ept id="p3">**</ept> page will be used.</source>
+        </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Modify the Supply Orders</source>
+        </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>When the quantity of the order proposal has been calculated, one or more of the order modifiers can adjust it.</source>
+        </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>For example, the maximum order quantity is larger than or equal to the minimum order quantity, which is larger than or equal to the order multiple.</source>
+        </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>The quantity is decreased if it exceeds the maximum order quantity.</source>
+        </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Then, it is increased if it is below the minimum order quantity.</source>
+        </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Finally, it is rounded up so that it matches a specified order multiple.</source>
+        </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Any remaining quantity uses the same adjustments until the total demand has been converted into order proposals.</source>
+        </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Delimit the Item</source>
+        </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Manufacturing Policy<ept id="p1">**</ept> option defines which additional orders the MRP calculation will propose.</source>
+        </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>If the <bpt id="p1">**</bpt>Make-to-Stock<ept id="p1">**</ept> option is used, the orders concern only the item in question.</source>
+        </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>If the <bpt id="p1">**</bpt>Make-to-Order<ept id="p1">**</ept> option is used, the planning system will analyze the production BOM of the item and create additional linked order proposals for those lower-level items that are also defined as make-to-order.</source>
+        </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>This continues as long as there are make-to-order items in the descending BOM structures.</source>
+        </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Design Details: Handling Reordering Policies<ept id="p1">](design-details-handling-reordering-policies.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Design Details: Balancing Demand and Supply<ept id="p1">](design-details-balancing-demand-and-supply.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Design Details: Central Concepts of the Planning System<ept id="p1">](design-details-central-concepts-of-the-planning-system.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,279 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-15c36f0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a09bed0b2c1db602eaf7339c4f4e901d17ccb765</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">financials\across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">96da20877e422eed102f08b4a57b9f189ec8e355</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5b1cd5fa4dc1b5a108ac9467b1b3b61c48f49ffd</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Create XMLports based on XML schemas | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Use XML schemas to set yup the document exchange framework.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Use XML Schemas to Prepare Data Exchange Definitions</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>To enable import/export of data in XML files through the data exchange framework in <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph>, you can use XML schemas to define which data elements you want to exchange with <ph id="ph2">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>You perform this work in the <bpt id="p1">**</bpt>XML Schema Viewer<ept id="p1">**</ept> window by loading the XML schema file, selecting the relevant data elements, and then initializing either a data exchange definition or an XMLport.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>When you have defined which data elements to include based on the XML schema, you can use the <bpt id="p1">**</bpt>Generate XMLport<ept id="p1">**</ept> action to create the XMLport object.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Alternatively, you can use the <bpt id="p1">**</bpt>Generate Data Exchange Definition<ept id="p1">**</ept> action to initialize a data exchange definition based on the selected data elements, which you then complete in the Data Exchange Framework.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>This creates a record in the <bpt id="p1">**</bpt>Posting Exchange Definition<ept id="p1">**</ept> window where you continue by defining which elements in the file map to which fields in <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Set Up Data Exchange Definitions<ept id="p1">](across-how-to-set-up-data-exchange-definitions.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>This topic contains the following procedures:</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>To load an XML schema file</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>To select or clear nodes in an XML schema</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>To generate a data exchange definition that is based on an XML schema</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>To generate an XMLport for the file that is based on an XML schema</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>To import an XMLport into the Object Designer</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>To load an XML schema file</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Make sure that the relevant XML schema file is available.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The file extension is .xsd.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Search<ept id="p1">**</ept> box, enter <bpt id="p2">**</bpt>XML Schemas<ept id="p2">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Home<ept id="p1">**</ept> tab, in the <bpt id="p2">**</bpt>New<ept id="p2">**</ept> group, choose <bpt id="p3">**</bpt>New<ept id="p3">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Fill the fields as described in the following table.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Field</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Code<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Specify a code to identify the XML schema.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Description<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Specify a description of the XML schema.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Target Namespace<ept id="p1">**</ept> field specifies any namespace in the XML schema file that has been loaded for the line.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Home<ept id="p1">**</ept> tab, in the <bpt id="p2">**</bpt>Process<ept id="p2">**</ept> group, choose <bpt id="p3">**</bpt>Load Schema<ept id="p3">**</ept>, and then select the XML schema file.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>When the file is loaded, the rest of the fields on the line are filled with information from the file, and the <bpt id="p1">**</bpt>Schema is Loaded<ept id="p1">**</ept> check box is selected.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The tree of the loaded XML schema is collapsed by default.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>You expand each node by choosing the <bpt id="p1">**</bpt><ph id="ph1">+</ph><ept id="p1">**</ept> button on the node.</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>To expand all nodes, choose <bpt id="p1">**</bpt>Expand All<ept id="p1">**</ept> on the ribbon.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>To select or clear nodes in an XML schema</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Search<ept id="p1">**</ept> box, enter <bpt id="p2">**</bpt>XML Schema Viewer<ept id="p2">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Fill the fields on the header as described in the following table.</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Field</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>XML Schema Code<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Specify the XML schema file that you loaded in step 5 in the “To load an XML schema file” section.</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>New XMLport No.<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Specify the number of the XMLport that is created from this XML schema when you choose the <bpt id="p1">**</bpt>Generate XMLport<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The lines are now filled with nodes representing all elements in the XML schema.</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Nodes for elements that are mandatory according to the XML schema are selected by default.</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>On the first line, in the <bpt id="p1">**</bpt>Node Name<ept id="p1">**</ept> column, expand the <bpt id="p2">**</bpt>Document<ept id="p2">**</ept> node, and then gradually expand underlying nodes that you want to review.</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Alternatively, right-click on a node and then choose <bpt id="p1">**</bpt>Expand All<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Home<ept id="p1">**</ept> tab, in the <bpt id="p2">**</bpt>View<ept id="p2">**</ept> group, choose either of the following actions to change which nodes are displayed.</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Action<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Show All<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>All nodes are shown.</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Hide Non-Mandatory<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Only nodes representing elements that are required according to the XML schema are shown.</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>These nodes are typically indicated by a <bpt id="p1">**</bpt>1<ept id="p1">**</ept> in the <bpt id="p2">**</bpt>MinOccurs<ept id="p2">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>Show All<ept id="p1">**</ept> to reverse the view.</source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Hide Non-Selected<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Only nodes where the <bpt id="p1">**</bpt>Selected<ept id="p1">**</ept> check box is selected are shown.</source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>Show All<ept id="p1">**</ept> to reverse the view.</source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Home<ept id="p1">**</ept> tab, in the <bpt id="p2">**</bpt>Manage<ept id="p2">**</ept> group, choose <bpt id="p3">**</bpt>Edit<ept id="p3">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Selected<ept id="p1">**</ept> check box, specify for each node if you want the element to be supported in the data exchange definition for the related SEPA bank file.</source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>When you select a mandatory child node, all parent nodes above it are also selected.</source>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Select All Mandatory Elements<ept id="p1">**</ept> action to reselect all nodes that represent elements that are mandatory according to the XML schema.</source>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Deselect All<ept id="p1">**</ept> action to clear all selections.</source>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Choice<ept id="p1">**</ept> field specifies that the node has two or more sibling nodes that function as options.</source>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>To generate a data exchange definition that is based on an XML schema</source>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Search<ept id="p1">**</ept> box, enter  <bpt id="p2">**</bpt>XML Schemas<ept id="p2">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Select the relevant XML schema, and then on the on the <bpt id="p1">**</bpt>Home<ept id="p1">**</ept> tab, in the <bpt id="p2">**</bpt>Process<ept id="p2">**</ept> group, choose <bpt id="p3">**</bpt>Open XML Schema Viewer<ept id="p3">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Make sure the relevant nodes are selected.</source>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>For more information, see the “To select or clear nodes in an XML schema” section.</source>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>XML Schema Viewer<ept id="p1">**</ept> window, on the <bpt id="p2">**</bpt>Home<ept id="p2">**</ept> tab, in the <bpt id="p3">**</bpt>Process<ept id="p3">**</ept> group, choose <bpt id="p4">**</bpt>Generate Data Exchange Definition<ept id="p4">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>A data exchange definition is created in the <bpt id="p1">**</bpt>Posting Exchange Definition<ept id="p1">**</ept> window, which you can complete by specifying which elements in the file map to which fields in <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Set Up Data Exchange Definitions<ept id="p1">](across-how-to-set-up-data-exchange-definitions.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>You can also use the <bpt id="p1">**</bpt>Get File Structure<ept id="p1">**</ept> function from the <bpt id="p2">**</bpt>Posting Exchange Definition<ept id="p2">**</ept> window, which uses the functionality of the <bpt id="p3">**</bpt>XML Schema Viewer<ept id="p3">**</ept> window to prefill the <bpt id="p4">**</bpt>Column Definitions<ept id="p4">**</ept> TastTab.</source>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>To generate an XMLport that is based on an XML schema</source>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Search<ept id="p1">**</ept> box, enter  <bpt id="p2">**</bpt>XML Schemas<ept id="p2">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Select the relevant XML schema, and then on the on the <bpt id="p1">**</bpt>Home<ept id="p1">**</ept> tab, in the <bpt id="p2">**</bpt>Process<ept id="p2">**</ept> group, choose <bpt id="p3">**</bpt>Open XML Schema Viewer<ept id="p3">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>New XMLport No.<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>field, specify the number that the new XMLport object will be given when it is generated.</source>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Make sure the relevant nodes are selected.</source>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>For more information, see the “To select or clear nodes in an XML schema” section.</source>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Home<ept id="p1">**</ept> tab, in the <bpt id="p2">**</bpt>Process<ept id="p2">**</ept> group, choose <bpt id="p3">**</bpt>Generate XMLport<ept id="p3">**</ept>, and then save the object as a .txt file in an appropriate location.</source>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Import the new XMLport into the <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph> development environment and compile it.</source>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Set Up Data Exchange Definitions<ept id="p1">](across-how-to-set-up-data-exchange-definitions.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Export Payments to a Bank File<ept id="p1">](payables-how-export-payments-bank-file.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Collecting Payments with SEPA Direct Debit<ept id="p1">](finance-collect-payments-with-sepa-direct-debit.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>About the Data Exchange Framework<ept id="p1">](across-about-the-data-exchange-framework.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

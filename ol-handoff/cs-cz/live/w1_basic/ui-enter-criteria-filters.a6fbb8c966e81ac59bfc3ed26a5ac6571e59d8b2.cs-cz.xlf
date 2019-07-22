@@ -1,0 +1,642 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="ui-enter-criteria-filters.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-8ebcdd5" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c6eb9465d07b702e545347cad5acf0a42f01d1de</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\ui-enter-criteria-filters.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">eb45aa4aab3c3f65ed9d7764014b13ecca2b24b5</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d15631870ae87f0b5e5c3eef24d8ec80424a27ba</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Sorting, Searching, and Filtering Lists | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Work efficiently in lists by searching across your data, sorting columns, and refining results using powerful filter symbols and keyboard shortcuts.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Sorting, Searching, and Filtering Lists</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>There are a few things that you can do that will help you scan, find, and limit records in a list.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>These include sorting, searching and filtering.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>You can apply some or all of these simultaneously to quickly find or analyze your data.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>When viewing your data as tiles, you can search and use basic filtering.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>To use the full set of powerful features for sorting, searching and filtering, choose the <bpt id="p1">![</bpt>Show as list<ept id="p1">]</ept><bpt id="p2">(media/ui_show_as_list_icon.png "</bpt>Show as list arrow left<ept id="p2">")</ept> icon to show as a list.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Sorting</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Sorting makes it easy for you to get a quick overview of your data.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>If you have many customers, for example, you can choose to sort them by <bpt id="p1">**</bpt>Customer No.<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Customer Posting Group<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Currency Code<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Country Region Code<ept id="p4">**</ept>, or <bpt id="p5">**</bpt>Sales Tax Registration No.<ept id="p5">**</ept> to get the overview you need.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>To sort a list, you can either choose a column heading text to toggle between ascending and descending order, or choose the small down arrow in the column heading, and then choose <bpt id="p1">**</bpt>Ascending<ept id="p1">**</ept> or <bpt id="p2">**</bpt>Descending<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Sorting is not supported on images, BLOB fields, FlowFilters, and fields that do not belong to a table.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Searching</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;!--## Searching by using the Quick Filter --&gt;</ph> At the top of each list page, there is a <bpt id="p1">![</bpt>Search list<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search-list.png "</bpt>Search list icon<ept id="p2">")</ept> <bpt id="p3">**</bpt>Search<ept id="p3">**</ept> icon that provides a quick and easy way to reduce the records in a list and display only those records that contain the data that you are interested in seeing.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>To search, simply select the search icon, and then in the box, type the text that you are looking for.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>You can enter letters, numbers, and other symbols.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Fine-tune the search</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>In general, search will attempt to match text across all fields; it does not distinguish between uppercase and lowercase characters (in other words, case insensitive), and will match text placed anwhere in the field (at the beginning, end, or in the middle).</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>However, you can make a more exact search by using the following special characters:</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>To find only field values that match the entire text and case exactly, place the search text between single quotes <ph id="ph1">`''`</ph> (for example, <ph id="ph2">`'man'`</ph>).</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>To find field values that start with a certain text and match the case, place <ph id="ph1">`*`</ph> after the search text (for example <ph id="ph2">`man*`</ph>).</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>To find field values that end with a certain text and match the case, place <ph id="ph1">`*`</ph> before the search text (for example <ph id="ph2">`*man`</ph>).</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>When using  <ph id="ph1">`''`</ph> or <ph id="ph2">`*`</ph>, the search is case sensitive.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>If you want to make the search case insensitive, place <ph id="ph1">`@`</ph> before the search text (for example <ph id="ph2">`@man*`</ph>).</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The following table provides some examples to explain how you can use the search.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Search Criteria</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Finds...</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>or</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>All records with fields that contain the text <bpt id="p1">**</bpt>man<ept id="p1">**</ept>, regardless of the case.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>For example, <bpt id="p1">**</bpt>Manchester<ept id="p1">**</ept>, <bpt id="p2">**</bpt>manual<ept id="p2">**</ept>, or <bpt id="p3">**</bpt>Sportsman<ept id="p3">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>All records with fields that contain only <bpt id="p1">**</bpt>Man<ept id="p1">**</ept>, matching the case.</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>All records with fields that start with the text <bpt id="p1">&lt;b&gt;</bpt>Man<ept id="p1">&lt;/b&gt;</ept>, matching the case.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>For example, <bpt id="p1">**</bpt>Manchester<ept id="p1">**</ept> but not <bpt id="p2">**</bpt>manual<ept id="p2">**</ept> or <bpt id="p3">**</bpt>Sportsman<ept id="p3">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>All records with fields that start with <bpt id="p1">**</bpt>man<ept id="p1">**</ept>, regardless of the case.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>For example, <bpt id="p1">**</bpt>Manchester<ept id="p1">**</ept> and <bpt id="p2">**</bpt>manual<ept id="p2">**</ept>, but not <bpt id="p3">**</bpt>Sportsman<ept id="p3">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>All records that end with <bpt id="p1">**</bpt>man<ept id="p1">**</ept>, regardless of the case.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>For example <bpt id="p1">**</bpt>Sportsman<ept id="p1">**</ept>, but not <bpt id="p2">**</bpt>Manchester<ept id="p2">**</ept> or <bpt id="p3">**</bpt>manual<ept id="p3">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>You can press F3 to activate and deactivate the search box.</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>For more information see <bpt id="p1">[</bpt>Keyboard Shortcuts<ept id="p1">](keyboard-shortcuts.md#KeyboardFilter)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Filtering</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Filtering provides a more advanced and versatile way of controlling which records display in a list.</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>There are two major differences between searching and filtering, as described in the table below.</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Searching<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Filtering<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Applicable fields<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Searches across all fields that are visible on the page.</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Filters one or more fields individually, selecting from any field on the table, including fields that are not visible on the page.</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Matching<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Displays records with fields that match the search text, irrespective of casing or placement of that text.</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Displays records where the field matches the filter exactly and is case sensitive, unless special filter symbols are entered.</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Filtering enables you to display records for specific accounts or customers, dates, amounts, and other information by specifying filter criteria.</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Only records that match the criteria are displayed.</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>If you specify criteria for multiple fields, then only records that match all criteria will be displayed.</source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Working in the filter pane</source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The filter pane displays the current filters for a list, and enables you to set your own custom filters on one or more fields.</source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The following figure shows an example filter pane for a Sales Quotes list.</source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">![</bpt>Filter pane overview <ept id="p1">]</ept><bpt id="p2">(media/filter-pane-overview.png "</bpt>Filter icon<ept id="p2">")</ept></source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>To display the filter pane, use the <bpt id="p1">**</bpt>Shift+F3<ept id="p1">**</ept> keyboard shortcut.</source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>For lists within the Role Center, you can also choose the down arrow near the page title in the navigation bar above the list, and then choose <bpt id="p1">**</bpt>Show filter pane<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">![</bpt>Show filter pane<ept id="p1">]</ept><bpt id="p2">(media/open-filter-pane.png "</bpt>Show filter pane<ept id="p2">")</ept></source>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>A filter pane is divided in three sections: <bpt id="p1">**</bpt>Views<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Filter list by<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>Filter totals by<ept id="p3">**</ept>:</source>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Views<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Some lists will include the <bpt id="p1">**</bpt>Views<ept id="p1">**</ept> section.</source>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Views are variations of the list that have been preconfigured with filters.</source>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>To switch to a different view of your list, simply select another link.</source>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>You can temporarily change the filters on a view, but the changes will not be permanently saved.</source>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Filter list by<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Filter list by<ept id="p1">**</ept> section is where you add filters on specific fields to reduce the number of displayed records.</source>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>To add a filter, select <bpt id="p1">**</bpt>+ Filter<ept id="p1">**</ept>, select the field that you want to filter from any field in the table, and then enter filter criteria in the box.</source>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Filter totals by<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Some lists that display calculated fields, such as amounts and quantities, will include the <bpt id="p1">**</bpt>Filter totals by<ept id="p1">**</ept> section where you can adjust various dimensions that influence calculations.</source>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>For example, you can quickly analyze your chart of accounts by filtering amounts to a specific period, or you can view the totals for sales orders only from a specific warehouse.</source>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>To add a filter, select <bpt id="p1">**</bpt>+ Filter<ept id="p1">**</ept>, select one of the predefined dimensions, and then add the filter criteria in the box.</source>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Filters in the <bpt id="p1">**</bpt>Filter totals by<ept id="p1">**</ept> section are controlled by FlowFilters on the page design.</source>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>For technical information, see <bpt id="p1">[</bpt>FlowFilters<ept id="p1">](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-flowfilter-overview)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Entering filter criteria in the filter pane</source>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>To select a field to filter, do one of the following:</source>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>In the filter pane, choose <bpt id="p1">**</bpt>+ Field<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Type the name of the field you wish to filter, or pick a field from the menu that displays all fields in the table.</source>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>In a column heading, choose the down arrow, and then choose <bpt id="p1">**</bpt>Filter...<ept id="p1">**</ept>. This will open the filter pane and add the column to the filter pane.</source>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>You can now type or select your filter criteria in the box.</source>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The type of field you filter determines which criteria you can enter.</source>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>For example, filtering a field that has fixed values will only let you choose from those values.</source>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>For more information about special filter symbols, see <bpt id="p1">[</bpt>Filter criteria<ept id="p1">](#FilterCriteria)</ept> and <bpt id="p2">[</bpt>Filter tokens<ept id="p2">](#FilterTokens)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Columns that already have filters are indicated by the <bpt id="p1">![</bpt>Filter icon<ept id="p1">]</ept><bpt id="p2">(media/ui-search/filter-icon.png "</bpt>Filter icon<ept id="p2">")</ept> in the column heading.</source>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>To remove a filter, select the column heading, then choose <bpt id="p1">**</bpt>Clear Filter<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Entering filter criteria without the filter pane</source>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>You can specify simple filters directly within the list without having to use the filter pane.</source>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>With any field selected on a row, use the <bpt id="p1">**</bpt>Alt+F3<ept id="p1">**</ept> keyboard shortcut to display only the records having that same value.</source>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>You can then select another field and use the same shortcut again to continue refining your filters.</source>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>If the selected field is already filtered, using <bpt id="p1">**</bpt>Alt+F3<ept id="p1">**</ept> will clear that filter.</source>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Accelerate finding and analyzing your data by using combinations of keyboard shortcuts.</source>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>For example, select a field, use <bpt id="p1">**</bpt>Shift+Alt+F3<ept id="p1">**</ept> to add that field to the filter pane, type the filter criteria, use <bpt id="p2">**</bpt>Ctrl+Enter<ept id="p2">**</ept> to return to the rows, select another field, and use <bpt id="p3">**</bpt>Alt+F3<ept id="p3">**</ept> to filter to that value.</source>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>For more information see <bpt id="p1">[</bpt>Keyboard Shortcuts<ept id="p1">](keyboard-shortcuts.md#KeyboardFilter)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;a name="FilterCriteria"&gt;</bpt> <ept id="p1">&lt;/a&gt;</ept>Filter criteria and symbols</source>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>When you enter criteria, you can use all the numbers and letters that you can normally use in the field.</source>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>In addition, you can use special symbols to further filter the results.</source>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>The following tables show the symbols which can be used in filters.</source>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>For dates and times, you can also refer to <bpt id="p1">[</bpt>Working with Calendar Dates and Times<ept id="p1">](ui-enter-date-ranges.md)</ept> for more detailed information.</source>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>There may be instances where field values contain these symbols and you want to filter on them.</source>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>To do this, you must include the filter expression that contains the symbol in quotation marks ('').</source>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>For example, if you want to filter on records that start with the text <bpt id="p1">*</bpt>S&amp;R<ept id="p1">*</ept>, the filter expression is <ph id="ph1">`'S&amp;R*'`</ph>.</source>
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>(..) Interval</source>
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Sample Expression</source>
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Records Displayed</source>
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Numbers 1100 through 2100</source>
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Up to and including 2500</source>
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Dates up to and including 12 31 00</source>
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Information for accounting period 8 and thereafter</source>
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>From the beginning date until 23-current month-current year 23:59:59</source>
+        </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>From 23-current month-current year 0:00:00 until the end of time</source>
+        </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>From 22-current month-current year 0:00:00 until 23-current month-current year 23:59:59</source>
+        </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>(&amp;#124;) Either/or</source>
+        </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Sample Expression</source>
+        </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Records Displayed</source>
+        </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>`1200</source>
+        </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>1300`</source>
+        </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Numbers with 1200 or 1300</source>
+        </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>(&lt;&gt;) Not equal to</source>
+        </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Sample Expression</source>
+        </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Records Displayed</source>
+        </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>All numbers except 0</source>
+        </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>The SQL Server Option allows you to combine this symbol with a wild card expression.</source>
+        </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>For example, &lt;&gt;A* meaning not equal to any text that starts with A.</source>
+        </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>(&gt;) Greater than</source>
+        </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Sample Expression</source>
+        </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Records Displayed</source>
+        </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Numbers greater than 1200</source>
+        </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>(&gt;=) Greater than or equal to</source>
+        </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Sample Expression</source>
+        </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Records Displayed</source>
+        </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Numbers greater than or equal to 1200</source>
+        </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>(&lt;) Less than</source>
+        </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Sample Expression</source>
+        </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Records Displayed</source>
+        </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Numbers less than 1200</source>
+        </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>(&lt;=) Less than or equal to</source>
+        </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Sample Expression</source>
+        </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Records Displayed</source>
+        </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Numbers less than or equal to 1200</source>
+        </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>(&amp;) And</source>
+        </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Sample Expression</source>
+        </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Records Displayed</source>
+        </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Numbers greater than 200 and less than 1200</source>
+        </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>('') An exact character match</source>
+        </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Sample Expression</source>
+        </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Records Displayed</source>
+        </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>Text that matches man exactly and is case sensitive.</source>
+        </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>(@) Case insensitive</source>
+        </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>Sample Expression</source>
+        </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>Records Displayed</source>
+        </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>Text that starts with man and is case insensitive.</source>
+        </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>(*) An indefinite number of unknown characters</source>
+        </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>Sample Expression</source>
+        </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>Records Displayed</source>
+        </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>Text that contains "Co" and is case sensitive.</source>
+        </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Text that ends with "Co" and is case sensitive.</source>
+        </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>Text that begins with "Co" and is case sensitive.</source>
+        </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>You cannot use <ph id="ph1">`*`</ph> when filtering on option (enumeration) fields, such as the <bpt id="p1">**</bpt>Status<ept id="p1">**</ept> field on sales orders.</source>
+        </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>To enter a filter for this type of field, you can enter the numeric value as a filtering parameter.</source>
+        </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>For example, in the <bpt id="p1">**</bpt>Status<ept id="p1">**</ept> field on a sales order that has the values <bpt id="p2">**</bpt>Open<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Released<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Pending Approval<ept id="p4">**</ept>, and <bpt id="p5">**</bpt>Pending Prepayment<ept id="p5">**</ept>, use the values <ph id="ph1">`0`</ph>, <ph id="ph2">`1`</ph>, <ph id="ph3">`2`</ph>, and <ph id="ph4">`3`</ph> to filter for these options.</source>
+        </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>(?) One unknown character</source>
+        </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>Sample Expression</source>
+        </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>Records Displayed</source>
+        </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>Text such as Hansen or Hanson</source>
+        </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>Combined format expressions</source>
+        </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>Sample Expression</source>
+        </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>Records Displayed</source>
+        </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>`5999</source>
+        </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>8100..8490`</source>
+        </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>Include any records with the number 5999 or a number from the interval 8100 through 8490.</source>
+        </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>`..1299</source>
+        </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>1400..`</source>
+        </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>Include records with a number less than or equal to 1299 or a number equal to 1400 or greater (all numbers except 1300 through 1399).</source>
+        </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>Include records with numbers that are greater than 50 and less than 100 (numbers 51 through 99).</source>
+        </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;a name="FilterTokens"&gt;</bpt> <ept id="p1">&lt;/a&gt;</ept>Filter tokens</source>
+        </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>When entering filter criteria, you can also type words that have special meaning, called filter tokens.</source>
+        </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>After entering the token word, the word is replaced by the value or values that it represents.</source>
+        </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>This makes filtering easier by reducing the need to navigate to other pages to look up values you want to add to your filter.</source>
+        </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>The tables below describe some of the tokens you can type as filter criteria.</source>
+        </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>Your organization may use custom tokens.</source>
+        </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>To learn about the complete set of tokens available to you or to add more custom tokens, talk to your administrator.</source>
+        </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>For technical information see <bpt id="p1">[</bpt>Adding Filter Tokens<ept id="p1">](/dynamics365/business-central/dev-itpro/developer/devenv-adding-filter-tokens)</ept></source>
+        </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>(%me or %userid) Records assigned to you</source>
+        </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>Use <ph id="ph1">`%me`</ph> or <ph id="ph2">`%userid`</ph> when filtering fields that contain the user ID, such as <bpt id="p1">**</bpt>Assigned to User ID<ept id="p1">**</ept> field, to display all records that are assigned to you.</source>
+        </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>Sample Expression</source>
+        </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>Records Displayed</source>
+        </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>or</source>
+        </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>Records that are assigned to your user account.</source>
+        </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>(%mycustomers) Customers in My Customers</source>
+        </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>Use <ph id="ph1">`%mycustomers`</ph> in the customer <bpt id="p1">**</bpt>No<ept id="p1">**</ept> field to display all records for customers that are included in the <bpt id="p2">**</bpt>My Customers<ept id="p2">**</ept> list on your Role Center.</source>
+        </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>Sample Expression</source>
+        </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>Records Displayed</source>
+        </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>Customers in the <bpt id="p1">**</bpt>My Customers<ept id="p1">**</ept> on your Role Center.</source>
+        </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>(%myitems) Items in My Items</source>
+        </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>Use <ph id="ph1">`%myitems`</ph> in the item <bpt id="p1">**</bpt>No<ept id="p1">**</ept> field to display all records for items that are included in the <bpt id="p2">**</bpt>My Items<ept id="p2">**</ept> list on your Role Center.</source>
+        </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>Sample Expression</source>
+        </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>Records Displayed</source>
+        </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>Items in the <bpt id="p1">**</bpt>My Items<ept id="p1">**</ept> on your Role Center.</source>
+        </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>(%myvendors) Vendors in My Vendors</source>
+        </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>Use <ph id="ph1">`%myvendors`</ph> in the vendor <bpt id="p1">**</bpt>No<ept id="p1">**</ept> field to display all records for vendors that are included in the <bpt id="p2">**</bpt>My Vendors<ept id="p2">**</ept> list on your Role Center.</source>
+        </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>Sample Expression</source>
+        </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>Records Displayed</source>
+        </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>Vendors in the <bpt id="p1">**</bpt>My Vendors<ept id="p1">**</ept> on your Role Center.</source>
+        </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Working with <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph><ept id="p1">](ui-work-product.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Common questions about Searching and Filtering<ept id="p1">](ui-search-filter-faq.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

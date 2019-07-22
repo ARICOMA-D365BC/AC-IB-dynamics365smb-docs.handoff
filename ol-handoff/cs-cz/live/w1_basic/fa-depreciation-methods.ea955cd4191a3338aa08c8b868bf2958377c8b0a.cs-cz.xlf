@@ -1,0 +1,1680 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="fa-depreciation-methods.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-435fba6" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4a6bc27850b84928641f5de7c364fb150fcb4481</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\fa-depreciation-methods.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">69c3fc4d683dec2b083bfd3b2a83d0a70ce55a27</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">abe504d2494e76b35780b5f0f29e54d955dfa1c8</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Depreciation Methods| Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Learn about the different methods to depreciate or write-down fixed assets.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Depreciation Methods</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>There are eight methods of depreciation available:</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Straight-Line</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Declining-Balance 1</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Declining-Balance 2</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>DB1/SL</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>DB2/SL</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>User-defined</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Manual</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Use this method for assets that are not subject to depreciation, for example, land.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>You must enter depreciation in the fixed asset G/L journal.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Calculate Depreciation<ept id="p1">**</ept> batch job omits fixed assets that use this depreciation method.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Half-Year Convention</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>When you use this method, a fixed asset is depreciated by the same amount each year.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Straight-Line Depreciation</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>When you use the straight-line method, you must specify one of the following options in the fixed asset depreciation book:</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The depreciation period (years or months) or a depreciation ending date</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>A fixed yearly percentage</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>A fixed yearly amount</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Depreciation period</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Depreciation Period</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>If you enter the depreciation period (the number of depreciation years, the number of depreciation months, or the depreciation ending date), the following formula calculates the depreciation amount:</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Depreciation Amount = ((Book value - Salvage Value) x Number of Depreciation Days) / Remaining Depreciation Days<ept id="p1">*</ept></source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Remaining depreciation days are calculated as the number of depreciation days minus the number of days between the depreciation starting date and the last fixed asset entry date.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Book value may be reduced by posted appreciation, write-down, custom 1 or custom 2 amounts, depending on whether the <bpt id="p1">**</bpt>Include in Depr. Calculation<ept id="p1">**</ept> field is deactivated and whether the <bpt id="p2">**</bpt>Part of Book Value<ept id="p2">**</ept> field is activated on the <bpt id="p3">**</bpt>FA Posting Type Setup<ept id="p3">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This calculation ensures that the fixed asset is fully depreciated at the depreciation ending date.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Fixed Yearly Percentage</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>If you enter a fixed yearly percentage, the program uses the following formula to calculate the depreciation amount:</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Depreciation Amount = (Straight-Line % x Depreciable Basis x Number of Depr. Days) / (100 x 360)</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Fixed Yearly Amount</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>If you enter a fixed yearly amount, the program uses this formula to calculate the depreciation amount:</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Depreciation Amount = (Fixed Depreciation Amount x Number of Depreciation Days) / 360</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Example - Straight-Line Depreciation</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>A fixed asset has an acquisition cost of LCY 100,000.</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The estimated life is eight years.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Calculate Depreciation<ept id="p1">**</ept> batch job is run biannually.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>For this example, the fixed asset ledger entry looks like this:</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Date</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>FA Posting Type</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Days</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Amount</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Book Value</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>01/01/10</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Acquisition Cost</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>100,000.00</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>100,000.00</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>06/30/10</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Depreciation</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>180</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>-6,250.00</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>93,750.00</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>12/31/10</source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Depreciation</source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>180</source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>-6,250.00</source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>87,500.00</source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>06/30/11</source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Depreciation</source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>180</source>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>-6,250.00</source>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>81,250.00</source>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>12/31/11</source>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Depreciation</source>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>180</source>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>-6,250.00</source>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>75,000.00</source>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>06/30/17</source>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Depreciation</source>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>180</source>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>-6,250.00</source>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>6,250.00</source>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>12/31/17</source>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Depreciation</source>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>180</source>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>-6,250.00</source>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>0</source>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Depreciation starting date</source>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Declining-Balance 1 Depreciation</source>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>This accelerated depreciation method allocates the largest portion of the cost of an asset to the early years of its useful lifetime.</source>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>If you use this method, you must enter a fixed yearly percentage.</source>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The following formula calculates depreciation amounts:</source>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Depreciation Amount = (Declining-Bal. % x Number of Depreciation Days x Depr. Basis) / (100 x 360)<ept id="p1">*</ept></source>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The depreciable basis is calculated as the book value less posted depreciation since the starting date of the current fiscal year.</source>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The posted depreciation amount can contain entries with various posting types (write-down, custom1, and custom2) posted since the starting date of the current fiscal year.</source>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>These posting types are included in the posted depreciation amount if there are check marks in the <bpt id="p1">**</bpt>Depreciation Type<ept id="p1">**</ept> and the <bpt id="p2">**</bpt>Part of Book Value<ept id="p2">**</ept> fields on the <bpt id="p3">**</bpt>FA Posting Type Setup<ept id="p3">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Example - Declining-Balance 1 Depreciation</source>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>A fixed asset has an acquisition cost of LCY 100,000.</source>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Declining-Balance %<ept id="p1">**</ept> field is 25.</source>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Calculate Depreciation<ept id="p1">**</ept> batch job is run biannually.</source>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The following table shows how the fixed asset ledger entries look.</source>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Date</source>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>FA Posting Type</source>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Days</source>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Amount</source>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Book Value</source>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>01/01/10</source>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Acquisition Costs</source>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>100,000.00</source>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>100,000.00</source>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>06/30/10</source>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Depreciation</source>
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>180</source>
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>-12,500.00</source>
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>87,500.00</source>
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>12/31/10</source>
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Depreciation</source>
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>180</source>
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>-12,500.00</source>
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>75,000.00</source>
+        </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>06/30/11</source>
+        </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Depreciation</source>
+        </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>180</source>
+        </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>-9,375.00</source>
+        </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>65,625.00</source>
+        </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>12/31/11</source>
+        </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Depreciation</source>
+        </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>180</source>
+        </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>-9,375.00</source>
+        </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>56,250.00</source>
+        </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>06/30/12</source>
+        </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Depreciation</source>
+        </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>180</source>
+        </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>-7,031.25</source>
+        </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>49,218.75</source>
+        </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>12/31/12</source>
+        </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Depreciation</source>
+        </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>180</source>
+        </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>-7,031.25</source>
+        </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>42,187.50</source>
+        </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>06/30/13</source>
+        </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Depreciation</source>
+        </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>180</source>
+        </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>-5,273.44</source>
+        </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>36,914.06</source>
+        </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>12/31/13</source>
+        </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Depreciation</source>
+        </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>180</source>
+        </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>-5,273.44</source>
+        </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>31,640.62</source>
+        </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>06/30/14</source>
+        </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Depreciation</source>
+        </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>180</source>
+        </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>-3,955.08</source>
+        </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>27,685.54</source>
+        </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>12/31/14</source>
+        </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Depreciation</source>
+        </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>180</source>
+        </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>-3,955.08</source>
+        </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>23,730.46</source>
+        </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>Depreciation starting date</source>
+        </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>Calculation Method:</source>
+        </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>1st Year: 25% of 100,000 = 25,000 = 12,500 + 12,500<ept id="p1">*</ept></source>
+        </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>2nd Year: 25% of 75,000 = 18,750 = 9,375 + 9,375<ept id="p1">*</ept></source>
+        </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>3rd Year: 25% of 56,250 = 14,062.50 = 7,031.25 + 7,031.25<ept id="p1">*</ept></source>
+        </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>The calculation continues until the book value equals the final rounding amount or the salvage value that you entered.</source>
+        </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Declining-Balance 2 Depreciation</source>
+        </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>The Declining-Balance 1 and Declining-Balance 2 methods calculate the same total depreciation amount for each year.</source>
+        </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>However, if you run the <bpt id="p1">**</bpt>Calculate Depreciation<ept id="p1">**</ept> batch job more than once a year, the Declining-Balance 1 method will result in equal depreciation amounts for each depreciation period.</source>
+        </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>The Declining-Balance 2 method, on the other hand, will result in depreciation amounts that decline for each period.</source>
+        </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>Example - Declining-Balance 2 Depreciation</source>
+        </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>A fixed asset has an acquisition cost of LCY 100,000.</source>
+        </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Declining-Balance %<ept id="p1">**</ept> field is 25.</source>
+        </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Calculate Depreciation<ept id="p1">**</ept> batch job is run biannually.</source>
+        </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>The fixed asset ledger entries look like this:</source>
+        </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>Date</source>
+        </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>FA Posting Type</source>
+        </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>Days</source>
+        </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>Amount</source>
+        </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>Book Value</source>
+        </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>01/01/10</source>
+        </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>Acquisition Costs</source>
+        </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>100,000.00</source>
+        </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>100,000.00</source>
+        </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>06/30/10</source>
+        </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>Depreciation</source>
+        </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>180</source>
+        </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>-13,397.46</source>
+        </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>86,602.54</source>
+        </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>12/31/10</source>
+        </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>Depreciation</source>
+        </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>180</source>
+        </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>-11,602.54</source>
+        </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>75,000.00</source>
+        </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>06/30/11</source>
+        </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>Depreciation</source>
+        </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>180</source>
+        </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>-10,048.09</source>
+        </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>64,951.91</source>
+        </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>12/31/11</source>
+        </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>Depreciation</source>
+        </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>180</source>
+        </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>-8,701.91</source>
+        </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>56,250.00</source>
+        </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>Depreciation starting date</source>
+        </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>Calculation Method:</source>
+        </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>BV = Book value</source>
+        </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>ND = Number of depreciation days</source>
+        </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>DBP = Declining-balance percent</source>
+        </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>P = DBP/100</source>
+        </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>D = ND/360</source>
+        </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>The formula for calculating the depreciation amounts is:</source>
+        </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>DA = BV x (1 – (1 –P)<ph id="ph1">&lt;sup&gt;</ph>D<ph id="ph2">&lt;sup&gt;</ph><ept id="p1">*</ept></source>
+        </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>The depreciation values are:</source>
+        </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>Date</source>
+        </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>Calculation</source>
+        </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>06/30/10</source>
+        </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>DA = 100,000.00 x (1 -(1 - 0.25)<ph id="ph1">&lt;sup&gt;</ph>0.5<ph id="ph2">&lt;sup&gt;</ph>) = 13,397.46</source>
+        </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>12/31/10</source>
+        </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>DA = 86,602.54 x (1 - (1 - 0.25)<ph id="ph1">&lt;sup&gt;</ph>0.5<ph id="ph2">&lt;sup&gt;</ph>) = 11,602.54</source>
+        </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>06/30/11</source>
+        </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>DA = 75,000.00 x (1 - (1 - 0.25)<ph id="ph1">&lt;sup&gt;</ph>0.5<ph id="ph2">&lt;sup&gt;</ph>) = 10,048.09</source>
+        </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>12/31/11</source>
+        </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>DA = 64,951.91 x (1 - (1 - 0.25)<ph id="ph1">&lt;sup&gt;</ph>0.5<ph id="ph2">&lt;sup&gt;</ph>) = 8,701.91</source>
+        </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>DB1/SL Depreciation</source>
+        </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>DB1/SL is an abbreviated combination of Declining-Balance 1 and Straight-Line.</source>
+        </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>The calculation continues until the book value equals the final rounding amount, or the salvage value that you entered.</source>
+        </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Calculate Depreciation<ept id="p1">**</ept> batch job calculates a straight-line amount and a declining balance amount, but only the greater of the two amounts is transferred to the journal.</source>
+        </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>You can use various percentages to calculate declining-balance.</source>
+        </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>If you use this method, you must enter the estimated useful lifetime and a declining balance percentage on the <bpt id="p1">**</bpt>FA Depreciation Books<ept id="p1">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>Example - DB1-SL Depreciation</source>
+        </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>A fixed asset has an acquisition cost of LCY 100,000.</source>
+        </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>FA Depreciation Books<ept id="p1">**</ept> page, the <bpt id="p2">**</bpt>Declining-Balance %<ept id="p2">**</ept> field contains 25 and the <bpt id="p3">**</bpt>No. of Depreciation Years<ept id="p3">**</ept> field contains 8.</source>
+        </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Calculate Depreciation<ept id="p1">**</ept> batch job is run biannually.</source>
+        </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>The fixed asset ledger entries look like this:</source>
+        </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>Date</source>
+        </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>FA Posting Type</source>
+        </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>Days</source>
+        </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>Amount</source>
+        </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>Book Value</source>
+        </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>01/01/10</source>
+        </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source>Acquisition Costs</source>
+        </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>100,000.00</source>
+        </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>100,000.00</source>
+        </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>06/30/10</source>
+        </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source>Depreciation</source>
+        </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source>180</source>
+        </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve">
+          <source>-12,500.00</source>
+        </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source>87,500.00</source>
+        </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source>12/31/10</source>
+        </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source>Depreciation</source>
+        </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve">
+          <source>180</source>
+        </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source>-12,500.00</source>
+        </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve">
+          <source>75,000.00</source>
+        </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve">
+          <source>06/30/11</source>
+        </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve">
+          <source>Depreciation</source>
+        </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve">
+          <source>180</source>
+        </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve">
+          <source>-9,375.00</source>
+        </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve">
+          <source>65,625.00</source>
+        </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve">
+          <source>12/31/11</source>
+        </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve">
+          <source>Depreciation</source>
+        </trans-unit>
+        <trans-unit id="353" translate="yes" xml:space="preserve">
+          <source>180</source>
+        </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve">
+          <source>-9,375.00</source>
+        </trans-unit>
+        <trans-unit id="355" translate="yes" xml:space="preserve">
+          <source>56,250.00</source>
+        </trans-unit>
+        <trans-unit id="356" translate="yes" xml:space="preserve">
+          <source>06/30/12</source>
+        </trans-unit>
+        <trans-unit id="357" translate="yes" xml:space="preserve">
+          <source>Depreciation</source>
+        </trans-unit>
+        <trans-unit id="358" translate="yes" xml:space="preserve">
+          <source>180</source>
+        </trans-unit>
+        <trans-unit id="359" translate="yes" xml:space="preserve">
+          <source>-7,031.25</source>
+        </trans-unit>
+        <trans-unit id="360" translate="yes" xml:space="preserve">
+          <source>49,218.75</source>
+        </trans-unit>
+        <trans-unit id="361" translate="yes" xml:space="preserve">
+          <source>12/31/12</source>
+        </trans-unit>
+        <trans-unit id="362" translate="yes" xml:space="preserve">
+          <source>Depreciation</source>
+        </trans-unit>
+        <trans-unit id="363" translate="yes" xml:space="preserve">
+          <source>180</source>
+        </trans-unit>
+        <trans-unit id="364" translate="yes" xml:space="preserve">
+          <source>-7,031.25</source>
+        </trans-unit>
+        <trans-unit id="365" translate="yes" xml:space="preserve">
+          <source>42,187.50</source>
+        </trans-unit>
+        <trans-unit id="366" translate="yes" xml:space="preserve">
+          <source>06/30/13</source>
+        </trans-unit>
+        <trans-unit id="367" translate="yes" xml:space="preserve">
+          <source>Depreciation</source>
+        </trans-unit>
+        <trans-unit id="368" translate="yes" xml:space="preserve">
+          <source>180</source>
+        </trans-unit>
+        <trans-unit id="369" translate="yes" xml:space="preserve">
+          <source>-5,273.44</source>
+        </trans-unit>
+        <trans-unit id="370" translate="yes" xml:space="preserve">
+          <source>36,914.06</source>
+        </trans-unit>
+        <trans-unit id="371" translate="yes" xml:space="preserve">
+          <source>12/31/13</source>
+        </trans-unit>
+        <trans-unit id="372" translate="yes" xml:space="preserve">
+          <source>Depreciation</source>
+        </trans-unit>
+        <trans-unit id="373" translate="yes" xml:space="preserve">
+          <source>180</source>
+        </trans-unit>
+        <trans-unit id="374" translate="yes" xml:space="preserve">
+          <source>-5,273.44</source>
+        </trans-unit>
+        <trans-unit id="375" translate="yes" xml:space="preserve">
+          <source>31,640.62</source>
+        </trans-unit>
+        <trans-unit id="376" translate="yes" xml:space="preserve">
+          <source>06/30/14</source>
+        </trans-unit>
+        <trans-unit id="377" translate="yes" xml:space="preserve">
+          <source>Depreciation</source>
+        </trans-unit>
+        <trans-unit id="378" translate="yes" xml:space="preserve">
+          <source>180</source>
+        </trans-unit>
+        <trans-unit id="379" translate="yes" xml:space="preserve">
+          <source>-3,955.08</source>
+        </trans-unit>
+        <trans-unit id="380" translate="yes" xml:space="preserve">
+          <source>27,685.54</source>
+        </trans-unit>
+        <trans-unit id="381" translate="yes" xml:space="preserve">
+          <source>12/31/14</source>
+        </trans-unit>
+        <trans-unit id="382" translate="yes" xml:space="preserve">
+          <source>Depreciation</source>
+        </trans-unit>
+        <trans-unit id="383" translate="yes" xml:space="preserve">
+          <source>180</source>
+        </trans-unit>
+        <trans-unit id="384" translate="yes" xml:space="preserve">
+          <source>-3,955.08</source>
+        </trans-unit>
+        <trans-unit id="385" translate="yes" xml:space="preserve">
+          <source>23,730.46</source>
+        </trans-unit>
+        <trans-unit id="386" translate="yes" xml:space="preserve">
+          <source>06/30/15</source>
+        </trans-unit>
+        <trans-unit id="387" translate="yes" xml:space="preserve">
+          <source>Depreciation</source>
+        </trans-unit>
+        <trans-unit id="388" translate="yes" xml:space="preserve">
+          <source>180</source>
+        </trans-unit>
+        <trans-unit id="389" translate="yes" xml:space="preserve">
+          <source>-3,955.08</source>
+        </trans-unit>
+        <trans-unit id="390" translate="yes" xml:space="preserve">
+          <source>19,775.38 SL</source>
+        </trans-unit>
+        <trans-unit id="391" translate="yes" xml:space="preserve">
+          <source>12/31/15</source>
+        </trans-unit>
+        <trans-unit id="392" translate="yes" xml:space="preserve">
+          <source>Depreciation</source>
+        </trans-unit>
+        <trans-unit id="393" translate="yes" xml:space="preserve">
+          <source>180</source>
+        </trans-unit>
+        <trans-unit id="394" translate="yes" xml:space="preserve">
+          <source>-3,955.08</source>
+        </trans-unit>
+        <trans-unit id="395" translate="yes" xml:space="preserve">
+          <source>15,820.30 SL</source>
+        </trans-unit>
+        <trans-unit id="396" translate="yes" xml:space="preserve">
+          <source>06/30/16</source>
+        </trans-unit>
+        <trans-unit id="397" translate="yes" xml:space="preserve">
+          <source>Depreciation</source>
+        </trans-unit>
+        <trans-unit id="398" translate="yes" xml:space="preserve">
+          <source>180</source>
+        </trans-unit>
+        <trans-unit id="399" translate="yes" xml:space="preserve">
+          <source>-3,955.08</source>
+        </trans-unit>
+        <trans-unit id="400" translate="yes" xml:space="preserve">
+          <source>11,865.22 SL</source>
+        </trans-unit>
+        <trans-unit id="401" translate="yes" xml:space="preserve">
+          <source>12/31/16</source>
+        </trans-unit>
+        <trans-unit id="402" translate="yes" xml:space="preserve">
+          <source>Depreciation</source>
+        </trans-unit>
+        <trans-unit id="403" translate="yes" xml:space="preserve">
+          <source>180</source>
+        </trans-unit>
+        <trans-unit id="404" translate="yes" xml:space="preserve">
+          <source>-3,955.07</source>
+        </trans-unit>
+        <trans-unit id="405" translate="yes" xml:space="preserve">
+          <source>7,910.15 SL</source>
+        </trans-unit>
+        <trans-unit id="406" translate="yes" xml:space="preserve">
+          <source>06/30/17</source>
+        </trans-unit>
+        <trans-unit id="407" translate="yes" xml:space="preserve">
+          <source>Depreciation</source>
+        </trans-unit>
+        <trans-unit id="408" translate="yes" xml:space="preserve">
+          <source>180</source>
+        </trans-unit>
+        <trans-unit id="409" translate="yes" xml:space="preserve">
+          <source>-3,955.08</source>
+        </trans-unit>
+        <trans-unit id="410" translate="yes" xml:space="preserve">
+          <source>3,955.07 SL</source>
+        </trans-unit>
+        <trans-unit id="411" translate="yes" xml:space="preserve">
+          <source>12/31/17</source>
+        </trans-unit>
+        <trans-unit id="412" translate="yes" xml:space="preserve">
+          <source>Depreciation</source>
+        </trans-unit>
+        <trans-unit id="413" translate="yes" xml:space="preserve">
+          <source>180</source>
+        </trans-unit>
+        <trans-unit id="414" translate="yes" xml:space="preserve">
+          <source>-3,955.07</source>
+        </trans-unit>
+        <trans-unit id="415" translate="yes" xml:space="preserve">
+          <source>0.00 SL</source>
+        </trans-unit>
+        <trans-unit id="416" translate="yes" xml:space="preserve">
+          <source>Depreciation starting date</source>
+        </trans-unit>
+        <trans-unit id="417" translate="yes" xml:space="preserve">
+          <source>"SL" after the book value means that the straight-line method has been used.</source>
+        </trans-unit>
+        <trans-unit id="418" translate="yes" xml:space="preserve">
+          <source>Calculation method:</source>
+        </trans-unit>
+        <trans-unit id="419" translate="yes" xml:space="preserve">
+          <source>1st year:</source>
+        </trans-unit>
+        <trans-unit id="420" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Declining-balance amount: 25% of 100,000 = 25,000 = 12,500 + 12,500<ept id="p1">*</ept></source>
+        </trans-unit>
+        <trans-unit id="421" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Straight-line amount = 100,000 / 8 = 12,500 = 6,250 + 6,250<ept id="p1">*</ept></source>
+        </trans-unit>
+        <trans-unit id="422" translate="yes" xml:space="preserve">
+          <source>The declining-balance amount is used because it is the greater amount.</source>
+        </trans-unit>
+        <trans-unit id="423" translate="yes" xml:space="preserve">
+          <source>6th year (2015):</source>
+        </trans-unit>
+        <trans-unit id="424" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Declining-balance amount: 25% of 23,730.46 = 4,943.85= 2,471.92 + 2,471.92<ept id="p1">*</ept></source>
+        </trans-unit>
+        <trans-unit id="425" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Straight-line amount = 23,730.46/3 = 7,910.15 = 3,995.07 + 3,995.08<ept id="p1">*</ept></source>
+        </trans-unit>
+        <trans-unit id="426" translate="yes" xml:space="preserve">
+          <source>The straight-line amount is used because it is the greater amount.</source>
+        </trans-unit>
+        <trans-unit id="427" translate="yes" xml:space="preserve">
+          <source>User-defined Depreciation</source>
+        </trans-unit>
+        <trans-unit id="428" translate="yes" xml:space="preserve">
+          <source>The program has a facility that allows you to set up user-defined depreciation methods.</source>
+        </trans-unit>
+        <trans-unit id="429" translate="yes" xml:space="preserve">
+          <source>With a user-defined method, you use the <bpt id="p1">**</bpt>Depreciation Tables<ept id="p1">**</ept> page, where you must enter a depreciation percentage for each period (month, quarter, year, or accounting period).</source>
+        </trans-unit>
+        <trans-unit id="430" translate="yes" xml:space="preserve">
+          <source>The formula for calculating the depreciation amounts is:</source>
+        </trans-unit>
+        <trans-unit id="431" translate="yes" xml:space="preserve">
+          <source>Depreciation Amount = (Depreciation % x Number of Depreciation Days x Depr. Basis) / (100 x 360)</source>
+        </trans-unit>
+        <trans-unit id="432" translate="yes" xml:space="preserve">
+          <source>Depreciation Based on Number of Units</source>
+        </trans-unit>
+        <trans-unit id="433" translate="yes" xml:space="preserve">
+          <source>This user-defined method can also be used to depreciate based on number of units, for example, in the case of production machines with an established lifetime capacity.</source>
+        </trans-unit>
+        <trans-unit id="434" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Depreciation Tables<ept id="p1">**</ept> page, you can enter the number of units that can be produced in each period (month, quarter, year,or accounting period).</source>
+        </trans-unit>
+        <trans-unit id="435" translate="yes" xml:space="preserve">
+          <source>To set up user-defined depreciation methods</source>
+        </trans-unit>
+        <trans-unit id="436" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Depreciation Table<ept id="p1">**</ept> page, you can set up user-defined depreciation methods.</source>
+        </trans-unit>
+        <trans-unit id="437" translate="yes" xml:space="preserve">
+          <source>For example, you can set up depreciation based on number of units.</source>
+        </trans-unit>
+        <trans-unit id="438" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Depreciation Tables<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="439" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Depreciation Table List<ept id="p1">**</ept> page, choose the <bpt id="p2">**</bpt>New<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="440" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Depreciation Table Card<ept id="p1">**</ept> page, fill in the fields as necessary.</source>
+        </trans-unit>
+        <trans-unit id="441" translate="yes" xml:space="preserve">
+          <source>Example - User-defined Depreciation</source>
+        </trans-unit>
+        <trans-unit id="442" translate="yes" xml:space="preserve">
+          <source>You use a depreciation method that allows you to depreciate assets in an accelerated manner for income tax purposes.</source>
+        </trans-unit>
+        <trans-unit id="443" translate="yes" xml:space="preserve">
+          <source>You would use the following depreciation rates for a fixed asset with a three-year lifetime for tax purposes:</source>
+        </trans-unit>
+        <trans-unit id="444" translate="yes" xml:space="preserve">
+          <source>year 1: 25%</source>
+        </trans-unit>
+        <trans-unit id="445" translate="yes" xml:space="preserve">
+          <source>year 2: 38%</source>
+        </trans-unit>
+        <trans-unit id="446" translate="yes" xml:space="preserve">
+          <source>year 3: 37%</source>
+        </trans-unit>
+        <trans-unit id="447" translate="yes" xml:space="preserve">
+          <source>The acquisition cost is LCY 100,000, and the depreciable lifetime is five years.</source>
+        </trans-unit>
+        <trans-unit id="448" translate="yes" xml:space="preserve">
+          <source>Depreciation is calculated annually.</source>
+        </trans-unit>
+        <trans-unit id="449" translate="yes" xml:space="preserve">
+          <source>Date</source>
+        </trans-unit>
+        <trans-unit id="450" translate="yes" xml:space="preserve">
+          <source>FA Posting Type</source>
+        </trans-unit>
+        <trans-unit id="451" translate="yes" xml:space="preserve">
+          <source>Days</source>
+        </trans-unit>
+        <trans-unit id="452" translate="yes" xml:space="preserve">
+          <source>Amount</source>
+        </trans-unit>
+        <trans-unit id="453" translate="yes" xml:space="preserve">
+          <source>Book Value</source>
+        </trans-unit>
+        <trans-unit id="454" translate="yes" xml:space="preserve">
+          <source>01/01/10</source>
+        </trans-unit>
+        <trans-unit id="455" translate="yes" xml:space="preserve">
+          <source>Acquisition Cost</source>
+        </trans-unit>
+        <trans-unit id="456" translate="yes" xml:space="preserve">
+          <source>100,000.00</source>
+        </trans-unit>
+        <trans-unit id="457" translate="yes" xml:space="preserve">
+          <source>100,000.00</source>
+        </trans-unit>
+        <trans-unit id="458" translate="yes" xml:space="preserve">
+          <source>12/31/10</source>
+        </trans-unit>
+        <trans-unit id="459" translate="yes" xml:space="preserve">
+          <source>Depreciation</source>
+        </trans-unit>
+        <trans-unit id="460" translate="yes" xml:space="preserve">
+          <source>360</source>
+        </trans-unit>
+        <trans-unit id="461" translate="yes" xml:space="preserve">
+          <source>-25,000.00</source>
+        </trans-unit>
+        <trans-unit id="462" translate="yes" xml:space="preserve">
+          <source>75,000.00</source>
+        </trans-unit>
+        <trans-unit id="463" translate="yes" xml:space="preserve">
+          <source>12/31/11</source>
+        </trans-unit>
+        <trans-unit id="464" translate="yes" xml:space="preserve">
+          <source>Depreciation</source>
+        </trans-unit>
+        <trans-unit id="465" translate="yes" xml:space="preserve">
+          <source>360</source>
+        </trans-unit>
+        <trans-unit id="466" translate="yes" xml:space="preserve">
+          <source>-38,000.00</source>
+        </trans-unit>
+        <trans-unit id="467" translate="yes" xml:space="preserve">
+          <source>37,000.00</source>
+        </trans-unit>
+        <trans-unit id="468" translate="yes" xml:space="preserve">
+          <source>12/31/12</source>
+        </trans-unit>
+        <trans-unit id="469" translate="yes" xml:space="preserve">
+          <source>Depreciation</source>
+        </trans-unit>
+        <trans-unit id="470" translate="yes" xml:space="preserve">
+          <source>360</source>
+        </trans-unit>
+        <trans-unit id="471" translate="yes" xml:space="preserve">
+          <source>-37,000.00</source>
+        </trans-unit>
+        <trans-unit id="472" translate="yes" xml:space="preserve">
+          <source>0</source>
+        </trans-unit>
+        <trans-unit id="473" translate="yes" xml:space="preserve">
+          <source>12/31/13</source>
+        </trans-unit>
+        <trans-unit id="474" translate="yes" xml:space="preserve">
+          <source>Depreciation</source>
+        </trans-unit>
+        <trans-unit id="475" translate="yes" xml:space="preserve">
+          <source>None</source>
+        </trans-unit>
+        <trans-unit id="476" translate="yes" xml:space="preserve">
+          <source>None</source>
+        </trans-unit>
+        <trans-unit id="477" translate="yes" xml:space="preserve">
+          <source>0</source>
+        </trans-unit>
+        <trans-unit id="478" translate="yes" xml:space="preserve">
+          <source>12/31/14</source>
+        </trans-unit>
+        <trans-unit id="479" translate="yes" xml:space="preserve">
+          <source>Depreciation</source>
+        </trans-unit>
+        <trans-unit id="480" translate="yes" xml:space="preserve">
+          <source>None</source>
+        </trans-unit>
+        <trans-unit id="481" translate="yes" xml:space="preserve">
+          <source>None</source>
+        </trans-unit>
+        <trans-unit id="482" translate="yes" xml:space="preserve">
+          <source>0</source>
+        </trans-unit>
+        <trans-unit id="483" translate="yes" xml:space="preserve">
+          <source>Depreciation starting date</source>
+        </trans-unit>
+        <trans-unit id="484" translate="yes" xml:space="preserve">
+          <source>If you use a user-defined method, the <bpt id="p1">**</bpt>First User-Defined Depr. Date<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Depreciation Starting Date<ept id="p2">**</ept> fields must be filled in on the <bpt id="p3">**</bpt>FA Depreciation Books<ept id="p3">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="485" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>First User-Defined Depr. Date<ept id="p1">**</ept> field and the contents in the <bpt id="p2">**</bpt>Period Length<ept id="p2">**</ept> field on the <bpt id="p3">**</bpt>Depreciation Tables<ept id="p3">**</ept> page are used to determine the time intervals to be used for depreciation calculations.</source>
+        </trans-unit>
+        <trans-unit id="486" translate="yes" xml:space="preserve">
+          <source>This ensures that the program will start using the specified percentage on the same day for all assets.</source>
+        </trans-unit>
+        <trans-unit id="487" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Depreciation Starting Date<ept id="p1">**</ept> field is used to calculate the number of depreciation days.</source>
+        </trans-unit>
+        <trans-unit id="488" translate="yes" xml:space="preserve">
+          <source>In the previous example, both the <bpt id="p1">**</bpt>First User-Defined Depr. Date<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Depreciation Starting Date<ept id="p2">**</ept> fields contain 01/01/01.</source>
+        </trans-unit>
+        <trans-unit id="489" translate="yes" xml:space="preserve">
+          <source>If, however, the <bpt id="p1">**</bpt>First User-Defined Depr. Date<ept id="p1">**</ept> field contained 01/01/10 and the <bpt id="p2">**</bpt>Depreciation Starting Date<ept id="p2">**</ept> field contained 04/01/11, the result would be:</source>
+        </trans-unit>
+        <trans-unit id="490" translate="yes" xml:space="preserve">
+          <source>Date</source>
+        </trans-unit>
+        <trans-unit id="491" translate="yes" xml:space="preserve">
+          <source>FA Posting Type</source>
+        </trans-unit>
+        <trans-unit id="492" translate="yes" xml:space="preserve">
+          <source>Days</source>
+        </trans-unit>
+        <trans-unit id="493" translate="yes" xml:space="preserve">
+          <source>Amount</source>
+        </trans-unit>
+        <trans-unit id="494" translate="yes" xml:space="preserve">
+          <source>Book Value</source>
+        </trans-unit>
+        <trans-unit id="495" translate="yes" xml:space="preserve">
+          <source>01/01/10</source>
+        </trans-unit>
+        <trans-unit id="496" translate="yes" xml:space="preserve">
+          <source>Acquisition Cost</source>
+        </trans-unit>
+        <trans-unit id="497" translate="yes" xml:space="preserve">
+          <source>100,000.00</source>
+        </trans-unit>
+        <trans-unit id="498" translate="yes" xml:space="preserve">
+          <source>100,000.00</source>
+        </trans-unit>
+        <trans-unit id="499" translate="yes" xml:space="preserve">
+          <source>12/31/10</source>
+        </trans-unit>
+        <trans-unit id="500" translate="yes" xml:space="preserve">
+          <source>Depreciation</source>
+        </trans-unit>
+        <trans-unit id="501" translate="yes" xml:space="preserve">
+          <source>270</source>
+        </trans-unit>
+        <trans-unit id="502" translate="yes" xml:space="preserve">
+          <source>-18,750.00</source>
+        </trans-unit>
+        <trans-unit id="503" translate="yes" xml:space="preserve">
+          <source>81,250.00</source>
+        </trans-unit>
+        <trans-unit id="504" translate="yes" xml:space="preserve">
+          <source>12/31/11</source>
+        </trans-unit>
+        <trans-unit id="505" translate="yes" xml:space="preserve">
+          <source>Depreciation</source>
+        </trans-unit>
+        <trans-unit id="506" translate="yes" xml:space="preserve">
+          <source>360</source>
+        </trans-unit>
+        <trans-unit id="507" translate="yes" xml:space="preserve">
+          <source>-38,000.00</source>
+        </trans-unit>
+        <trans-unit id="508" translate="yes" xml:space="preserve">
+          <source>42,250.00</source>
+        </trans-unit>
+        <trans-unit id="509" translate="yes" xml:space="preserve">
+          <source>12/31/12</source>
+        </trans-unit>
+        <trans-unit id="510" translate="yes" xml:space="preserve">
+          <source>Depreciation</source>
+        </trans-unit>
+        <trans-unit id="511" translate="yes" xml:space="preserve">
+          <source>360</source>
+        </trans-unit>
+        <trans-unit id="512" translate="yes" xml:space="preserve">
+          <source>-37,000.00</source>
+        </trans-unit>
+        <trans-unit id="513" translate="yes" xml:space="preserve">
+          <source>6,250.00</source>
+        </trans-unit>
+        <trans-unit id="514" translate="yes" xml:space="preserve">
+          <source>12/31/13</source>
+        </trans-unit>
+        <trans-unit id="515" translate="yes" xml:space="preserve">
+          <source>Depreciation</source>
+        </trans-unit>
+        <trans-unit id="516" translate="yes" xml:space="preserve">
+          <source>90</source>
+        </trans-unit>
+        <trans-unit id="517" translate="yes" xml:space="preserve">
+          <source>-6,250.00</source>
+        </trans-unit>
+        <trans-unit id="518" translate="yes" xml:space="preserve">
+          <source>0</source>
+        </trans-unit>
+        <trans-unit id="519" translate="yes" xml:space="preserve">
+          <source>12/31/14</source>
+        </trans-unit>
+        <trans-unit id="520" translate="yes" xml:space="preserve">
+          <source>Depreciation</source>
+        </trans-unit>
+        <trans-unit id="521" translate="yes" xml:space="preserve">
+          <source>None</source>
+        </trans-unit>
+        <trans-unit id="522" translate="yes" xml:space="preserve">
+          <source>None</source>
+        </trans-unit>
+        <trans-unit id="523" translate="yes" xml:space="preserve">
+          <source>0</source>
+        </trans-unit>
+        <trans-unit id="524" translate="yes" xml:space="preserve">
+          <source>Depreciation starting date</source>
+        </trans-unit>
+        <trans-unit id="525" translate="yes" xml:space="preserve">
+          <source>Half-Year Convention Depreciation</source>
+        </trans-unit>
+        <trans-unit id="526" translate="yes" xml:space="preserve">
+          <source>The Half-Year Convention method will only be applied if you have placed a check mark in the <bpt id="p1">**</bpt>Use Half-Year Convention<ept id="p1">**</ept> field in the fixed <bpt id="p2">**</bpt>FA Depreciation Book<ept id="p2">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="527" translate="yes" xml:space="preserve">
+          <source>This depreciation method can be used in conjunction with the following depreciation methods in the program:</source>
+        </trans-unit>
+        <trans-unit id="528" translate="yes" xml:space="preserve">
+          <source>Straight-Line</source>
+        </trans-unit>
+        <trans-unit id="529" translate="yes" xml:space="preserve">
+          <source>Declining-Balance 1</source>
+        </trans-unit>
+        <trans-unit id="530" translate="yes" xml:space="preserve">
+          <source>DB1/SL</source>
+        </trans-unit>
+        <trans-unit id="531" translate="yes" xml:space="preserve">
+          <source>When you apply the Half-Year Convention, a fixed asset has six months of depreciation in the first fiscal year, regardless of the contents of the <bpt id="p1">**</bpt>Depreciation Starting Date<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="532" translate="yes" xml:space="preserve">
+          <source>The estimated life of the fixed asset that is remaining after the first fiscal year will always contain a half-year using the Half-Year Convention Method.</source>
+        </trans-unit>
+        <trans-unit id="533" translate="yes" xml:space="preserve">
+          <source>Thus, for the Half-Year Convention method to be applied correctly, the <bpt id="p1">**</bpt>Depreciation Ending Date<ept id="p1">**</ept> field on the <bpt id="p2">**</bpt>FA Depreciation Book<ept id="p2">**</ept> page must always contain a date which is exactly six months before the final date of the fiscal year in which the fixed asset will fully depreciate.</source>
+        </trans-unit>
+        <trans-unit id="534" translate="yes" xml:space="preserve">
+          <source>Example - Half-Year Convention Depreciation</source>
+        </trans-unit>
+        <trans-unit id="535" translate="yes" xml:space="preserve">
+          <source>A fixed asset has an acquisition cost of LCY 100,000.</source>
+        </trans-unit>
+        <trans-unit id="536" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Depreciation Starting Date<ept id="p1">**</ept> is 03/01/10.</source>
+        </trans-unit>
+        <trans-unit id="537" translate="yes" xml:space="preserve">
+          <source>The estimated life is five years, so the <bpt id="p1">**</bpt>Depreciation Ending Date<ept id="p1">**</ept> must be 06/30/15.</source>
+        </trans-unit>
+        <trans-unit id="538" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Calculate Depreciation<ept id="p1">**</ept> batch job is run annually.</source>
+        </trans-unit>
+        <trans-unit id="539" translate="yes" xml:space="preserve">
+          <source>This example is based on a calendar fiscal year.</source>
+        </trans-unit>
+        <trans-unit id="540" translate="yes" xml:space="preserve">
+          <source>The fixed asset ledger entries look like this:</source>
+        </trans-unit>
+        <trans-unit id="541" translate="yes" xml:space="preserve">
+          <source>Date</source>
+        </trans-unit>
+        <trans-unit id="542" translate="yes" xml:space="preserve">
+          <source>FA Posting Type</source>
+        </trans-unit>
+        <trans-unit id="543" translate="yes" xml:space="preserve">
+          <source>Days</source>
+        </trans-unit>
+        <trans-unit id="544" translate="yes" xml:space="preserve">
+          <source>Amount</source>
+        </trans-unit>
+        <trans-unit id="545" translate="yes" xml:space="preserve">
+          <source>Book Value</source>
+        </trans-unit>
+        <trans-unit id="546" translate="yes" xml:space="preserve">
+          <source>03/01/10</source>
+        </trans-unit>
+        <trans-unit id="547" translate="yes" xml:space="preserve">
+          <source>Acquisition Cost</source>
+        </trans-unit>
+        <trans-unit id="548" translate="yes" xml:space="preserve">
+          <source>100,000.00</source>
+        </trans-unit>
+        <trans-unit id="549" translate="yes" xml:space="preserve">
+          <source>100,000.00</source>
+        </trans-unit>
+        <trans-unit id="550" translate="yes" xml:space="preserve">
+          <source>12/31/10</source>
+        </trans-unit>
+        <trans-unit id="551" translate="yes" xml:space="preserve">
+          <source>Depreciation</source>
+        </trans-unit>
+        <trans-unit id="552" translate="yes" xml:space="preserve">
+          <source>270</source>
+        </trans-unit>
+        <trans-unit id="553" translate="yes" xml:space="preserve">
+          <source>-10,000.00</source>
+        </trans-unit>
+        <trans-unit id="554" translate="yes" xml:space="preserve">
+          <source>90,000.00</source>
+        </trans-unit>
+        <trans-unit id="555" translate="yes" xml:space="preserve">
+          <source>12/31/11</source>
+        </trans-unit>
+        <trans-unit id="556" translate="yes" xml:space="preserve">
+          <source>Depreciation</source>
+        </trans-unit>
+        <trans-unit id="557" translate="yes" xml:space="preserve">
+          <source>360</source>
+        </trans-unit>
+        <trans-unit id="558" translate="yes" xml:space="preserve">
+          <source>-20,000.00</source>
+        </trans-unit>
+        <trans-unit id="559" translate="yes" xml:space="preserve">
+          <source>70,000.00</source>
+        </trans-unit>
+        <trans-unit id="560" translate="yes" xml:space="preserve">
+          <source>12/31/12</source>
+        </trans-unit>
+        <trans-unit id="561" translate="yes" xml:space="preserve">
+          <source>Depreciation</source>
+        </trans-unit>
+        <trans-unit id="562" translate="yes" xml:space="preserve">
+          <source>360</source>
+        </trans-unit>
+        <trans-unit id="563" translate="yes" xml:space="preserve">
+          <source>-20,000.00</source>
+        </trans-unit>
+        <trans-unit id="564" translate="yes" xml:space="preserve">
+          <source>50,000.00</source>
+        </trans-unit>
+        <trans-unit id="565" translate="yes" xml:space="preserve">
+          <source>12/31/13</source>
+        </trans-unit>
+        <trans-unit id="566" translate="yes" xml:space="preserve">
+          <source>Depreciation</source>
+        </trans-unit>
+        <trans-unit id="567" translate="yes" xml:space="preserve">
+          <source>360</source>
+        </trans-unit>
+        <trans-unit id="568" translate="yes" xml:space="preserve">
+          <source>-20,000.00</source>
+        </trans-unit>
+        <trans-unit id="569" translate="yes" xml:space="preserve">
+          <source>30,000.00</source>
+        </trans-unit>
+        <trans-unit id="570" translate="yes" xml:space="preserve">
+          <source>12/31/14</source>
+        </trans-unit>
+        <trans-unit id="571" translate="yes" xml:space="preserve">
+          <source>Depreciation</source>
+        </trans-unit>
+        <trans-unit id="572" translate="yes" xml:space="preserve">
+          <source>360</source>
+        </trans-unit>
+        <trans-unit id="573" translate="yes" xml:space="preserve">
+          <source>-20,000.00</source>
+        </trans-unit>
+        <trans-unit id="574" translate="yes" xml:space="preserve">
+          <source>10,000.00</source>
+        </trans-unit>
+        <trans-unit id="575" translate="yes" xml:space="preserve">
+          <source>12/31/15</source>
+        </trans-unit>
+        <trans-unit id="576" translate="yes" xml:space="preserve">
+          <source>Depreciation</source>
+        </trans-unit>
+        <trans-unit id="577" translate="yes" xml:space="preserve">
+          <source>180</source>
+        </trans-unit>
+        <trans-unit id="578" translate="yes" xml:space="preserve">
+          <source>-10,000.00</source>
+        </trans-unit>
+        <trans-unit id="579" translate="yes" xml:space="preserve">
+          <source>0.00</source>
+        </trans-unit>
+        <trans-unit id="580" translate="yes" xml:space="preserve">
+          <source>Depreciation starting date</source>
+        </trans-unit>
+        <trans-unit id="581" translate="yes" xml:space="preserve">
+          <source>Example - DB1/SL Depreciation Using Half-Year Convention</source>
+        </trans-unit>
+        <trans-unit id="582" translate="yes" xml:space="preserve">
+          <source>A fixed asset has an acquisition cost of LCY 100,000.</source>
+        </trans-unit>
+        <trans-unit id="583" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Depreciation Starting Date<ept id="p1">**</ept> is 11/01/10.</source>
+        </trans-unit>
+        <trans-unit id="584" translate="yes" xml:space="preserve">
+          <source>The estimated life is five years, so the <bpt id="p1">**</bpt>Depreciation Ending Date<ept id="p1">**</ept> must be 06/30/15.</source>
+        </trans-unit>
+        <trans-unit id="585" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>FA Depreciation Books<ept id="p1">**</ept> page, the <bpt id="p2">**</bpt>Declining-Balance %<ept id="p2">**</ept> field contains 40.</source>
+        </trans-unit>
+        <trans-unit id="586" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Calculate Depreciation<ept id="p1">**</ept> batch job is run annually.</source>
+        </trans-unit>
+        <trans-unit id="587" translate="yes" xml:space="preserve">
+          <source>This example is based on a calendar fiscal year.</source>
+        </trans-unit>
+        <trans-unit id="588" translate="yes" xml:space="preserve">
+          <source>The fixed asset ledger entries look like this:</source>
+        </trans-unit>
+        <trans-unit id="589" translate="yes" xml:space="preserve">
+          <source>Date</source>
+        </trans-unit>
+        <trans-unit id="590" translate="yes" xml:space="preserve">
+          <source>FA Posting Type</source>
+        </trans-unit>
+        <trans-unit id="591" translate="yes" xml:space="preserve">
+          <source>Days</source>
+        </trans-unit>
+        <trans-unit id="592" translate="yes" xml:space="preserve">
+          <source>Amount</source>
+        </trans-unit>
+        <trans-unit id="593" translate="yes" xml:space="preserve">
+          <source>Book Value</source>
+        </trans-unit>
+        <trans-unit id="594" translate="yes" xml:space="preserve">
+          <source>11/01/10</source>
+        </trans-unit>
+        <trans-unit id="595" translate="yes" xml:space="preserve">
+          <source>Acquisition Cost</source>
+        </trans-unit>
+        <trans-unit id="596" translate="yes" xml:space="preserve">
+          <source>100,000.00</source>
+        </trans-unit>
+        <trans-unit id="597" translate="yes" xml:space="preserve">
+          <source>100,000.00</source>
+        </trans-unit>
+        <trans-unit id="598" translate="yes" xml:space="preserve">
+          <source>12/31/10</source>
+        </trans-unit>
+        <trans-unit id="599" translate="yes" xml:space="preserve">
+          <source>Depreciation</source>
+        </trans-unit>
+        <trans-unit id="600" translate="yes" xml:space="preserve">
+          <source>60</source>
+        </trans-unit>
+        <trans-unit id="601" translate="yes" xml:space="preserve">
+          <source>-20,000.00</source>
+        </trans-unit>
+        <trans-unit id="602" translate="yes" xml:space="preserve">
+          <source>80,000.00</source>
+        </trans-unit>
+        <trans-unit id="603" translate="yes" xml:space="preserve">
+          <source>12/31/11</source>
+        </trans-unit>
+        <trans-unit id="604" translate="yes" xml:space="preserve">
+          <source>Depreciation</source>
+        </trans-unit>
+        <trans-unit id="605" translate="yes" xml:space="preserve">
+          <source>360</source>
+        </trans-unit>
+        <trans-unit id="606" translate="yes" xml:space="preserve">
+          <source>-32,000.00</source>
+        </trans-unit>
+        <trans-unit id="607" translate="yes" xml:space="preserve">
+          <source>48,000.00</source>
+        </trans-unit>
+        <trans-unit id="608" translate="yes" xml:space="preserve">
+          <source>12/31/12</source>
+        </trans-unit>
+        <trans-unit id="609" translate="yes" xml:space="preserve">
+          <source>Depreciation</source>
+        </trans-unit>
+        <trans-unit id="610" translate="yes" xml:space="preserve">
+          <source>360</source>
+        </trans-unit>
+        <trans-unit id="611" translate="yes" xml:space="preserve">
+          <source>-19,200.00</source>
+        </trans-unit>
+        <trans-unit id="612" translate="yes" xml:space="preserve">
+          <source>28,800.00</source>
+        </trans-unit>
+        <trans-unit id="613" translate="yes" xml:space="preserve">
+          <source>12/31/13</source>
+        </trans-unit>
+        <trans-unit id="614" translate="yes" xml:space="preserve">
+          <source>Depreciation</source>
+        </trans-unit>
+        <trans-unit id="615" translate="yes" xml:space="preserve">
+          <source>360</source>
+        </trans-unit>
+        <trans-unit id="616" translate="yes" xml:space="preserve">
+          <source>-11,520.00</source>
+        </trans-unit>
+        <trans-unit id="617" translate="yes" xml:space="preserve">
+          <source>17,280.00</source>
+        </trans-unit>
+        <trans-unit id="618" translate="yes" xml:space="preserve">
+          <source>12/31/14</source>
+        </trans-unit>
+        <trans-unit id="619" translate="yes" xml:space="preserve">
+          <source>Depreciation</source>
+        </trans-unit>
+        <trans-unit id="620" translate="yes" xml:space="preserve">
+          <source>360</source>
+        </trans-unit>
+        <trans-unit id="621" translate="yes" xml:space="preserve">
+          <source>-11,520.00</source>
+        </trans-unit>
+        <trans-unit id="622" translate="yes" xml:space="preserve">
+          <source>5,760.00 SL</source>
+        </trans-unit>
+        <trans-unit id="623" translate="yes" xml:space="preserve">
+          <source>12/31/15</source>
+        </trans-unit>
+        <trans-unit id="624" translate="yes" xml:space="preserve">
+          <source>Depreciation</source>
+        </trans-unit>
+        <trans-unit id="625" translate="yes" xml:space="preserve">
+          <source>180</source>
+        </trans-unit>
+        <trans-unit id="626" translate="yes" xml:space="preserve">
+          <source>-5,760.00</source>
+        </trans-unit>
+        <trans-unit id="627" translate="yes" xml:space="preserve">
+          <source>0.00 SL</source>
+        </trans-unit>
+        <trans-unit id="628" translate="yes" xml:space="preserve">
+          <source>Depreciation starting date</source>
+        </trans-unit>
+        <trans-unit id="629" translate="yes" xml:space="preserve">
+          <source>"SL" after the book value means that the straight-line method has been used.</source>
+        </trans-unit>
+        <trans-unit id="630" translate="yes" xml:space="preserve">
+          <source>Calculation method:</source>
+        </trans-unit>
+        <trans-unit id="631" translate="yes" xml:space="preserve">
+          <source>1st year:</source>
+        </trans-unit>
+        <trans-unit id="632" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Declining-balance amount = Full year amount = 40% of 100,000 = 40,000. Thus, for half a year 40,000 / 2 = 20,000<ept id="p1">*</ept></source>
+        </trans-unit>
+        <trans-unit id="633" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Straight-line amount = Full year amount = 100,000 / 5 = 20,000. Thus, for half a year = 20,000 / 2 = 10,000<ept id="p1">*</ept></source>
+        </trans-unit>
+        <trans-unit id="634" translate="yes" xml:space="preserve">
+          <source>The declining-balance amount is used because it is the greater amount.</source>
+        </trans-unit>
+        <trans-unit id="635" translate="yes" xml:space="preserve">
+          <source>5th year (2004):</source>
+        </trans-unit>
+        <trans-unit id="636" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Declining-balance amount = 40% of 17,280.00 = 6,912.00<ept id="p1">*</ept></source>
+        </trans-unit>
+        <trans-unit id="637" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Straight-line amount = 28,800 / 1.5 = 11,520.00<ept id="p1">*</ept></source>
+        </trans-unit>
+        <trans-unit id="638" translate="yes" xml:space="preserve">
+          <source>The straight-line amount is used because it is the greater amount.</source>
+        </trans-unit>
+        <trans-unit id="639" translate="yes" xml:space="preserve">
+          <source>Duplicating Entries to More Depreciation Books</source>
+        </trans-unit>
+        <trans-unit id="640" translate="yes" xml:space="preserve">
+          <source>If you have three depreciation books, B1, B2 and B3, and you want to duplicate entries from B1 to B2 and B3, you can place a check mark in the <bpt id="p1">**</bpt>Part of Duplication List<ept id="p1">**</ept> field on the depreciation book cards for B2 and B3.</source>
+        </trans-unit>
+        <trans-unit id="641" translate="yes" xml:space="preserve">
+          <source>This can be useful if depreciation book B1 is integrated with the general ledger and uses the fixed asset G/L journal, and depreciation books B2 and B3 are not integrated with the general ledger and use the fixed asset journal.</source>
+        </trans-unit>
+        <trans-unit id="642" translate="yes" xml:space="preserve">
+          <source>When you enter an entry in B1 in the fixed asset G/L journal and place a check mark in the <bpt id="p1">**</bpt>Use Duplication List<ept id="p1">**</ept> field, the program will duplicate the entry in book B2 and B3 in the fixed asset journal when the entry is posted.</source>
+        </trans-unit>
+        <trans-unit id="643" translate="yes" xml:space="preserve">
+          <source>You cannot duplicate in the same journal and journal batch as you are duplicating from.</source>
+        </trans-unit>
+        <trans-unit id="644" translate="yes" xml:space="preserve">
+          <source>If you post entries in the fixed asset G/L journal, you can duplicate them in the fixed asset journal or in the fixed asset G/L journal using another batch.</source>
+        </trans-unit>
+        <trans-unit id="645" translate="yes" xml:space="preserve">
+          <source>You cannot use the same number series in the fixed asset G/L journal and the fixed asset journal.</source>
+        </trans-unit>
+        <trans-unit id="646" translate="yes" xml:space="preserve">
+          <source>When you post entries in the fixed asset G/L journal, you must leave the <bpt id="p1">**</bpt>Document No.<ept id="p1">**</ept> field empty.</source>
+        </trans-unit>
+        <trans-unit id="647" translate="yes" xml:space="preserve">
+          <source>If you enter a number in the field, the the number is duplicated in the fixed asset journal.</source>
+        </trans-unit>
+        <trans-unit id="648" translate="yes" xml:space="preserve">
+          <source>You'll have to manually change the document number before you can post the journal.</source>
+        </trans-unit>
+        <trans-unit id="649" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="650" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Fixed Assets<ept id="p1">](fa-manage.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="651" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Setting Up Fixed Assets<ept id="p1">](fa-setup.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="652" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Finance<ept id="p1">](finance.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="653" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Getting Started<ept id="p1">](product-get-started.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="654" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Working with <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph><ept id="p1">](ui-work-product.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

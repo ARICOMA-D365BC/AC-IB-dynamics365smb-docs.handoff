@@ -1,0 +1,225 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="finance-how-to-remove-and-reapply-item-entries.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-15c36f0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f21c1882d4a0a226ed957519a02f75a8ea8d287b</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">financials\finance-how-to-remove-and-reapply-item-entries.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c3fbb020f6c587db5c46caa843721a487ad714c0</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9d21617b5327e5396fe9361602529f2c9ccf67e2</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>How to Remove and Reapply Item Entries | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>You can view and manually change certain item application entries that are created automatically during inventory transactions.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Remove and Reapply Item Ledger Entries</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Application Worksheet<ept id="p1">**</ept> window, you can view and manually change certain item application entries that are created automatically during inventory transactions.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>When you post a transaction where items are moved in or out of inventory, an item application is created between each inventory increase and inventory decrease.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>These applications determine the flow of costs from the goods that are received in inventory to the cost of goods going out of inventory.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Because of the way the unit cost is calculated, an incorrect item application could lead to a skewed average cost and a skewed unit cost.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>For more information, see Design Details: Item Application.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The following scenarios might require that you undo an application or reapply item ledger entries:</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>You have forgotten to make a fixed application.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>You have made an incorrect fixed application.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You have to return an item to which a sale has already been applied.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>If possible, use a document to reapply an item ledger entry.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>For example, if you must make a purchase return of an item to which a sale has already been applied, you can reapply by creating and posting the purchase return document by using the correct application in the <bpt id="p1">**</bpt>Appl.-to Item Entry<ept id="p1">**</ept> field on the purchase return line.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You can use the <bpt id="p1">**</bpt>Get Posted Document Lines to Reverse<ept id="p1">**</ept> function or the <bpt id="p2">**</bpt>Copy Document<ept id="p2">**</ept> function in the purchase return document to make this easier.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>When you post the document, the item ledger entry is automatically reapplied.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Process Purchase Returns or Cancellations<ept id="p1">](purchasing-how-process-purchase-returns-cancellations.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>If you cannot use a document to reapply, such as when you have to correct a fixed application, then use the <bpt id="p1">**</bpt>Application Worksheet<ept id="p1">**</ept> window to correct an application.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The following are important considerations to remember when you are working with the application worksheet:</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>You should not leave application entries unapplied for long periods of time because other users cannot process the items until you reapply the application entries or close the <bpt id="p1">**</bpt>Application Worksheet<ept id="p1">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Users who try to perform actions that involve a manually unapplied application entry receive the following error message: “You cannot perform this action because entries for item XXX are unapplied in the Application Worksheet by user XXX.”</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>You should only reapply item ledger entries during nonworking hours to avoid conflicts with other users who are posting transactions with the same items.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>When you close the application worksheet, <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> performs a check to make sure that all entries are applied.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>For example, if you remove a quantity application but do not create a new application, and then you close the application worksheet, a new application is created.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>This helps keep the cost intact.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>However, if you remove a fixed application, a new fixed application is not automatically created when you close the worksheet.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>You must do this manually by creating a new application in the worksheet.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>It is possible to remove applications from more than one entry at a time in the application worksheet.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>However, because applying entries affects the set of entries that are available for application, you cannot create an application for more than one entry at a time.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The application worksheet cannot make an application in the following situation: If there is not enough quantity on stock to apply, the application worksheet cannot make an application when you are trying to apply an inventory decrease entry without item tracking information to an inventory increase entry with item tracking information.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>To remove an item application by using the Application Worksheet</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Application Worksheet<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Application Worksheet<ept id="p1">**</ept> window opens displaying existing item ledger entries for all items.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Enter filters on the <bpt id="p1">**</bpt>General<ept id="p1">**</ept> FastTab to make it easier to find the item ledger entry for which you want to change the application.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Select the item ledger entry, and then choose the <bpt id="p1">**</bpt>Applied Entries<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>View Applied Entries – Applied Entries<ept id="p1">**</ept> window opens to show the item ledger entry or entries that are currently applied to the selected entry.</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Select the item ledger entry for which you want to remove the application.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Remove Application<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>This removes the item application entry that links the two item ledger entries and moves it to the <bpt id="p1">**</bpt>View Applied Entries – Unapplied Entries<ept id="p1">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Close the <bpt id="p1">**</bpt>View Applied Entries – Applied Entries<ept id="p1">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Remaining Quantity<ept id="p1">**</ept> field of the two item ledger entries are increased by the quantity that has been unapplied.</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The removed item ledger entry is now available for reapplication in the <bpt id="p1">**</bpt>View Applied Entries – Unapplied Entries<ept id="p1">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>You should not leave application entries unapplied for longer periods of time because other users cannot process the affected items until you reapply the application entries or close the <bpt id="p1">**</bpt>Application Worksheet<ept id="p1">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The following error message is displayed if you try to perform actions that involve a manually unapplied application entry:</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>You cannot perform this action because entries for item <ph id="ph1">&lt;item&gt;</ph> are unapplied in the Application Worksheet by user <ph id="ph2">&lt;user&gt;</ph>.<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>To reapply an item application by using the Application Worksheet</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Application Worksheet<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Application Worksheet<ept id="p1">**</ept> window opens displaying existing item ledger entries for all items.</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>To reapply entries that were removed since the worksheet was opened, select the item ledger entry that you want to reapply.</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Actions<ept id="p1">**</ept> tab, in the <bpt id="p2">**</bpt>Functions<ept id="p2">**</ept> group, choose <bpt id="p3">**</bpt>Reapply<ept id="p3">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>This reapplication to the original balance also occurs automatically when you close the <bpt id="p1">**</bpt>Application Worksheet<ept id="p1">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>To apply an available open item ledger entry to another entry, select the item ledger entry that you want to apply.</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Unapplied Entries<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>View Applied Entries – Unapplied Entries<ept id="p1">**</ept> window opens.</source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Select one or more item ledger entries that you want to apply to the entry selected in the <bpt id="p1">**</bpt>Application Worksheet<ept id="p1">**</ept> window, and then choose the <bpt id="p2">**</bpt>OK<ept id="p2">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>An item application entry is created between the two item ledger entries.</source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Remaining Quantity<ept id="p1">**</ept> fields of the two entries are reduced by the applied quantity.</source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>If you have chosen to make an application that would create an infinite loop in the cost adjustment process, then the application that you proposed is not made.</source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>This can occur when the original entries created negative stock.</source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The application is not made.</source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Therefore, you must select a different entry for the application.</source>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>If the <bpt id="p1">**</bpt>Automatic Cost Adjustment<ept id="p1">**</ept> field in the <bpt id="p2">**</bpt>Inventory Setup<ept id="p2">**</ept> is set to <bpt id="p3">**</bpt>Always<ept id="p3">**</ept>, then the cost adjustment batch job is automatically run after you make a reapplication.</source>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Otherwise, run the <bpt id="p1">**</bpt>Adjust Cost - Item Entries<ept id="p1">**</ept> batch job to make sure that all costs are up to date.</source>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Close Open Item Ledger Entries Resulting from Fixed Application in the Item Journal<ept id="p1">](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Process Purchase Returns or Cancellations<ept id="p1">](purchasing-how-process-purchase-returns-cancellations.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Managing Inventory Costs<ept id="p1">](finance-manage-inventory-costs.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Design Details: Item Application<ept id="p1">](design-details-item-application.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Working with <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph><ept id="p1">](ui-work-product.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

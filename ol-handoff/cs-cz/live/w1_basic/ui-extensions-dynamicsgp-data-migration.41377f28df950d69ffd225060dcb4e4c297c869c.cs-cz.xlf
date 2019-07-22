@@ -1,0 +1,153 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="ui-extensions-dynamicsgp-data-migration.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-8ebcdd5" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1441e15785b159f7a8c13ee59c8ebea4c32512dc</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\ui-extensions-dynamicsgp-data-migration.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">658ed108ff37440f969efd382a5f1579667101d0</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">349f913f85d15ec523d3ffd5bb23033e922e7921</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Migrate Data from Dynamics GP with the Data Migration Extension | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Use the Dynamics GP Data Migration extension to migrate customers, vendors, inventory items, general ledger accounts, open payables and open receivables transactions from Dynamics GP to Business Central .</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The Dynamics GP Data Migration Extension</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>This extension makes it easy to migrate customers, vendors, inventory items, general ledger accounts, open payables and open receivables transactions from Dynamics GP to <ph id="ph1">[!INCLUDE[prodshort](includes/prodshort.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>If your business uses Dynamics GP today, you can export the relevant records and then open an assisted setup guide to add the data to <ph id="ph1">[!INCLUDE[prodshort](includes/prodshort.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The migration extension works for all supported versions of Microsoft Dyanmics GP.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Importing Business Data from Other Finance Systems<ept id="p1">](across-import-data-configuration-packages.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Exporting Data from Dynamics GP</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You must have exported some or all of your existing customers, vendors, inventory items, and general ledger accounts using data export functionality within Dynamics GP.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>When selecting the data to export the following types can be selected:</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Account</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Customer</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Item</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Vendor</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>When the export file is created you will have a zip file that contains several txt files that will be determined by what you selected during the export data process.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>There will also be additional txt files that are generated that contain supporting information needed for setup within your new <ph id="ph1">[!INCLUDE[prodshort](includes/prodshort.md)]</ph> company.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The Dynamics GP Data Migration extension automatically maps the exported data so that your data is quickly available to you in your new <ph id="ph1">[!INCLUDE[prodshort](includes/prodshort.md)]</ph> company.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>What's New in the October 2018 Release</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>In this version, we have expanded the amount of data we bring into <ph id="ph1">[!INCLUDE[prodshort](includes/prodshort.md)]</ph> from Dynamics GP.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>In the migration wizard, you can now choose how you want to migrate the Dynamics GP chart of accounts.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>You can migrate the existing chart of accounts, or you can create a new chart of accounts based on the existing chart of accounts.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>If you choose to use the existing chart of accounts, the accounts will be set up as the main account segment from Dynamics GP and the additional segments will be setup as dimensions within <ph id="ph1">[!INCLUDE[prodshort](includes/prodshort.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>If you choose to create a new chart of accounts, you will get an additional account information page in the wizard so that you can download the workbook, make the relevant changes, and then import the workbook again to change your accounts.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>You will have to download the Excel workbook and map a new account number to each account number in the Excel spreadsheet.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Each account will be required to have its own number, or the migration will error.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>When you have completed the mapping, you can continue through the migration wizard by importing the Excel workbook that you just updated.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The wizard will validate that each row has a unique account number and that no rows have an empty new account number in them.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>With the change to the mapping of the chart of account options, you will also note a change to the type of data that comes across into the general journal for the account numbers.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>If you choose to use the existing account numbers, we will bring over the beginning balance of the main segment (new account number) as a summation of the main account number at the time of the migration.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>If you choose to create new account numbers, we will bring summary information for the equivalent of two fiscal years based on the fiscal periods you have set up in Dynamics GP.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>In earlier versions of <ph id="ph1">[!INCLUDE[prodshort](includes/prodshort.md)]</ph>, the wizard migrated a summary transaction for the customer/vendor balance in Dynamics GP.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Now we bring in the detailed open transactions for customers and vendors at the time of the migration.</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>What does this mean?</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>If your customer has 3 outstanding transactions registered in the Receivables module, the wizard brings those transactions into <ph id="ph1">[!INCLUDE[prodshort](includes/prodshort.md)]</ph> with the outstanding amount as the document amount.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>This is the same for the Payables module for vendors.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Inventory items are imported with the cost valuation method that was selected when the company setup wizard was run.</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Service items are automatically assigned the FIFO valuation method.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Currently we bring in the Quantity on Hand for the items at the time of migration.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>This quantity is brought into the blank location.</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The last option you see in the Data Migration wizard for Dynamics GP is the ability to specify your posting option.</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>This setting specifies if you want to automatically post all transactions in the general journals as soon as the migration moves the data into <ph id="ph1">[!INCLUDE[prodshort](includes/prodshort.md)]</ph>, or if you want to post manually so that all transactions will sit in batches inside the General Journal page so you can verify the information before you post.</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>This option is visible on the Chart of Accounts options page.</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Importing Business Data from Other Finance Systems<ept id="p1">](across-import-data-configuration-packages.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Customizing <ph id="ph1">[!INCLUDE[prodshort](includes/prodshort.md)]</ph> Using Extensions <ept id="p1">](ui-extensions.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

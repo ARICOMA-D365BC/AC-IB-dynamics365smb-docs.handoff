@@ -1,0 +1,159 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="service-service-posting.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-15c36f0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">153f0d6c30d60122be16dcb39175dd7c10f25a8d</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">financials\service-service-posting.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9a5129f88466b7fa1d75a5effb9d0526f31ab09f</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0706abdb8ec4f1c42a4c6822bc3e9f4db03050dd</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Service Posting | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Service posting functionality lets you process your documents efficiently and maintain successful customer service policy.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>You can create and update posted documents, and create ledger entries both in the service area and in other modules to ensure the correct update.</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Service Posting</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Service posting functionality lets you process your documents efficiently and maintain successful customer service policy.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>You can create and update posted documents, and create ledger entries both in the service area and in other modules to ensure the correct update.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The following describes service posting regardless of how items are physically handled in the warehouse.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>In a location that is not set up to require warehouse handling, you perform the posting actions directly from the <bpt id="p1">**</bpt>Service Lines<ept id="p1">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>In locations that involve warehouse handling, the described posting actions, except Ship and Consume, are performed indirectly through varying warehouse ship functions, depending on setup.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Pick Items with Inventory Picks<ept id="p1">](warehouse-how-to-pick-items-with-inventory-picks.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Ship</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The ship option lets you register the relevant items and time entered on the lines of a service order after you complete the service.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>A posted shipment is created and updates occur in the Inventory module and other modules in <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph> to reflect that the items have been taken out of the inventory and sent to the customer.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>In particular, the item ledger entries, value ledger entries, service ledger entries, and warranty ledger entries are produced.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>If the location is set up to require warehouse handling, then the shipping and moving of service line items functions in the same ways as for other source documents.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The only difference is that service line items can be consumed either externally or internally, which requires two different release functions.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Invoice</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>You have to use the invoice option to issue an invoice to the customer you want to charge for the service.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Usually, it is the difference between the shipped quantity registered by the <bpt id="p1">**</bpt>Post Shipment<ept id="p1">**</ept> function and the consumed quantity registered by the <bpt id="p2">**</bpt>Post Consumption<ept id="p2">**</ept> function that is subject to invoice.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>You cannot invoice what has not been shipped.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>When you run the <bpt id="p1">**</bpt>Post Invoice<ept id="p1">**</ept> function, you create a posted service invoice and update the documents posted before to make them consistent with the quantities that are contained in the issued invoice.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Like in other posting procedures, the relevant ledger entries that includes general ledger entries, are generated.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Ship and Invoice</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The ship and invoice option lets you issue both a service shipment and an invoice at the same time.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Ship and Consume</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>With the ship and consume option, you can register and post items, costs, or hours that have been used for servicing but that cannot be included in the invoice to the customer.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>An invoice is not issued, but you can issue both a service shipment and service consumption at the same time to reflect the fact that some items or hours have been given to the customer free of charge.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The corresponding ledger entries are also created to register consumption.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The service posting procedure enables you to perform partial posting.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>You can create a partial shipment or a partial invoice by filling in the <bpt id="p1">**</bpt>Qty. to Ship<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Qty. to Invoice<ept id="p2">**</ept> fields on the individual service lines of the service orders before you post.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Note that you cannot create an invoice for something that is not shipped.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>That is, before you can invoice, you must have registered a shipment, or you must choose to ship and invoice at the same time.</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>After the posting has been completed, you will be able to view the posted service documents from the corresponding <bpt id="p1">**</bpt>Posted Service Shipment<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Posted Service Invoice<ept id="p2">**</ept> windows.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The posted entries created can be seen in various windows that contain posted entries, such as <bpt id="p1">**</bpt>G/L Entries<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Item Ledger Entries<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Warehouse Entries<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Service Ledger Entries<ept id="p4">**</ept>, <bpt id="p5">**</bpt>Job Ledger Entries<ept id="p5">**</ept>, and <bpt id="p6">**</bpt>Warranty Ledger Entries<ept id="p6">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>To view information about a posted service document</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>When you post a service invoice, a service shipment, or a service credit memo, the information on the document is transferred to the <bpt id="p1">**</bpt>Posted Service Invoice<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Posted Service Shipment<ept id="p2">**</ept>, or <bpt id="p3">**</bpt>Posted Service Credit Memo<ept id="p3">**</ept> windows respectively.</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>You cannot enter, change, or delete anything in these windows.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>You can print a shipment, invoice, or credit memo from these windows.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The following procedure uses a posted service invoice as an example, but the same procedure can apply to posted service shipments and posted credit memos.</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Posted Service Invoice<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Open the posted service invoice you want to view.</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>To get an overview of the posted invoice, choose the <bpt id="p1">**</bpt>Statistics<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Service Order Statistics<ept id="p1">**</ept> window opens.</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The window displays information such as quantity, amount, VAT, cost, profit, and customer credit limit for the posted document.</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Post Service Orders<ept id="p1">](service-how-to-post-service-orders.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Create Service Orders<ept id="p1">](service-how-to-create-service-orders.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,267 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="finance-setup-cash-flow-analyses.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-964a5eb" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">67de59db33de09755a0a5e00cfb1cac668e18235</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">financials\finance-setup-cash-flow-analyses.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cee943a9a0da78587a362a87820c02038693994d</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d60f89634a9236b22fad0bcec5423212317eee94</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Setting up Cash Flow Analysis| Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Set up the charts on the Accounts Role Center to help analyze the flow of money in your business, including expenses and income, liquidity, and cash receipts minus cash payments.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Setting Up Cash Flow Analysis</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>If you want some help to decide what to do with your cash, have a look at the charts on the Accountant Role Center:</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Cash Cycle<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Income &amp; Expense<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Cash Flow<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Cash Flow Forecasts<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>This topic describes where the data in the charts comes from and, if necessary, what to do to start using the charts.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The Cash Cycle and Income &amp; Expense charts</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Cash Cycle<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Income &amp; Expense<ept id="p2">**</ept> charts are ready to go, based on the Chart of Accounts and account schedules.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The accounts are where the data comes from, and account schedules calculate the relationship between sales and receivables.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Some accounts and account schedules are provided.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You can use them as-is, change them, and add new ones.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>If you add G/L accounts to your chart of accounts, for example, by importing them from QuickBooks, you'll need to map to the accounts on the <bpt id="p1">**</bpt>Account Schedules<ept id="p1">**</ept> page for the following account schedule names:</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Account Schedule Name</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Where it's used</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>I_CACYCLE<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Cash Cycle</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>I_CASHFLOW<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Cash Flow</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>I_INCEXP<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Income &amp; Expense</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>I_MINTRIAL<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>As an income statement if you don't use the chart of accounts</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept> It's a good idea to keep the calculations that are provided for the account schedule.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Enter accounts in the <bpt id="p1">**</bpt>Totaling<ept id="p1">**</ept> field for <bpt id="p2">**</bpt>Total Revenue<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Total Receivables<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Total Payables<ept id="p4">**</ept>, and <bpt id="p5">**</bpt>Total Inventory<ept id="p5">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>To map to a range of accounts, or more than one specific account, enter the account numbers separated by ".." or by a vertical bar, respectively.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>For example, <bpt id="p1">**</bpt>1111..4444<ept id="p1">**</ept> or <bpt id="p2">**</bpt>2222|3333|5555<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Tip<ept id="p1">**</ept> Verify your mapping by choosing the <bpt id="p2">**</bpt>Overview<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Set up the Cash Flow chart</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The Cash Flow chart is based on the following:</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>A chart of cash flow accounts.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>One or more cash flow setups.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>These specify the accounts to use for general ledger, purchases, sales, services, and fixed assets.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>To help you get going, some accounts and cash flow setups are provided.</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>You can add, change, or remove them.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>To set these up, search for <bpt id="p1">**</bpt>cash flow accounts<ept id="p1">**</ept>, choose the link, and then fill in the fields.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]</ph> Repeat these steps for <bpt id="p1">**</bpt>cash flow setup<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Set up cash flow forecasts</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Cash Flow Forecast<ept id="p1">**</ept> chart uses cash flow accounts, cash flow setups, and cash flow forecasts.</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Some are provided, however, you can set up your own by using an assisted setup guide.</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The guide helps you specify things like how often to update the forecast, the accounts to base it on, information about when you pay taxes, and whether to turn on <bpt id="p1">[</bpt>Cortana Intelligence<ept id="p1">](https://www.microsoft.com/en-us/cloud-platform/what-is-cortana-intelligence-suite)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Cash flow forecasts can use Cortana Intelligence to include documents with a due date in the future.</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The result is a more comprehensive prediction.</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The connection to Cortana Intelligence is already set up for you.</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>You just need to turn it on.</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>When you sign in to <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph>, a notification displays in a blue bar, and provides a link to the default cash flow setup.</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The notification displays only once.</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>If you close it, but decide to turn on Cortana Intelligence, you can use the assisted setup guide, or a manual process.</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Alternatively, you can use your own predictive web service.</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Create and use your own predictive web service for cash flow forecasts<ept id="p1">](#AnchorText)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>To use the assisted setup guide:</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>In the Accountant Role Center, under the <bpt id="p1">**</bpt>Cash Flow Forecast<ept id="p1">**</ept> chart, choose the <bpt id="p2">**</bpt>Open Assisted Setup<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Fill in the fields in each step of the guide.</source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Cash Flow Forecast<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Cash Flow Forecast<ept id="p1">**</ept> window, choose the <bpt id="p2">**</bpt>Recalculate Forecast<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>To use a manual process:</source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>In the Accountant Role Center, search for <bpt id="p1">**</bpt>Cash Flow Setup<ept id="p1">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Expand the <bpt id="p1">**</bpt>Cortana Intelligence<ept id="p1">**</ept> FastTab, and then choose the <bpt id="p2">**</bpt>Cortana Intelligence Enabled<ept id="p2">**</ept> check box.</source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Cash Flow Forecast<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Cash Flow Forecast<ept id="p1">**</ept> window, choose the <bpt id="p2">**</bpt>Recalculate Forecast<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Consider the length of the periods that the service will use in its calculations.</source>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The more data you provide, the more accurate the predictions will be.</source>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Also, watch out for large variances in periods.</source>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>They will also impact predictions.</source>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>If Cortana Intelligence does not find enough data, or the data varies a lot, the service will not make a prediction.</source>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;a name="AnchorText"&gt;</bpt> <ept id="p1">&lt;/a&gt;</ept>Create and use your own predictive web service for cash flow forecasts</source>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>You can also create your own predictive web service based on a public model named **Forecasting model for Microsoft Business Central **.</source>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>This predictive model is available online in the Cortana Intelligence Gallery.</source>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>To use the model, follow these steps:</source>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Open a browser and go to the <bpt id="p1">[</bpt>Cortana Intelligence Gallery<ept id="p1">](https://go.microsoft.com/fwlink/?linkid=828352)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Search for **Forecasting Model for Microsoft Business Central **, and then open the model in Azure Machine Learning Studio.</source>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Use your Microsoft account to sign up for a workspace, and then copy the model.</source>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Run the model, and publish it as a web service.</source>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Make a note of the API URL and API key.</source>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>You will use these credentials for a cash flow setup.</source>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Cash Flow Setup<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Expand the <bpt id="p1">**</bpt>Cortana Intelligence<ept id="p1">**</ept> FastTab, and then fill in the fields.</source>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Analyzing Cash Flow in Your Company<ept id="p1">](finance-analyze-cash-flow.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Setting Up Finance<ept id="p1">](finance-setup-finance.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Working with <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph><ept id="p1">](ui-work-product.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

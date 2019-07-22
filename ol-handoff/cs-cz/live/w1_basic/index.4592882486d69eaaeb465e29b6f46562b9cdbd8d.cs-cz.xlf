@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="index.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-419b0d8" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">423518d27902cf8c4507a583f660932296789c6e</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\index.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3935a25018bb05694d13451f12a908de042afe4d</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1ef28154fb1c59d59182ed7d7471feff0fb92fea</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Meet Microsoft Dynamics 365 Business Central</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Learn about capabilities and work scenarios in Business Central, a business management solution for small and mid-sized organizations.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Welcome to <ph id="ph1">[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]</ph></source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> is a business management solution for small and mid-sized organizations that automates and streamlines business processes and helps you manage your business.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Highly adaptable and rich with features, <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> enables companies to manage their business, including finance, manufacturing, sales, shipping, project management, services, and more.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Companies can easily add functionality that is relevant to the region of operation, and that is customized to support even highly specialized industries.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> is fast to implement, easy to configure, and simplicity guides innovations in product design, development, implementation, and usability.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>In this section, you can find information about using <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> in your company.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>And if you are a partner or customer looking at extending the functionality, you will find relevant links under Development and Administration.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Business Processes<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">-   </ph><bpt id="p1">[</bpt>Getting Started<ept id="p1">](product-get-started.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">-   </ph><bpt id="p1">[</bpt>Working with <ph id="ph2">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph><ept id="p1">](ui-work-product.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">-   </ph><bpt id="p1">[</bpt>Setting up <ph id="ph2">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph><ept id="p1">](setup.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">-   </ph><bpt id="p1">[</bpt>Administration<ept id="p1">](admin-setup-and-administration.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">-   </ph><bpt id="p1">[</bpt>Business Functionality<ept id="p1">](across-business-functionality.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">-   </ph><bpt id="p1">[</bpt>Local Functionality<ept id="p1">](LocalFunctionality/Austria/austria-local-functionality.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">-   </ph><bpt id="p1">[</bpt>General Business Functionality<ept id="p1">](ui-across-business-areas.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">-   </ph><bpt id="p1">[</bpt>Business Process Walkthroughs<ept id="p1">](walkthrough-business-process-walkthroughs.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">-   </ph><bpt id="p1">[</bpt>Application Design Details<ept id="p1">](design-details-application-design.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Development<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">-   </ph><bpt id="p1">[</bpt>Getting Started<ept id="p1">](/dynamics365/business-central/dev-itpro/index)</ept></source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">-   </ph><bpt id="p1">[</bpt>Development in AL<ept id="p1">](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview)</ept></source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">-   </ph><bpt id="p1">[</bpt>AL Development Environment<ept id="p1">](/dynamics365/business-central/dev-itpro/developer/devenv-reference-overview)</ept></source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">-   </ph><bpt id="p1">[</bpt>Rules and Guidelines for AL Code<ept id="p1">](/dynamics365/business-central/dev-itpro/compliance/apptest-overview)</ept></source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Community Resources<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">-   </ph><bpt id="p1">[</bpt>Microsoft Dynamics 365 Business Central Community<ept id="p1">](https://community.dynamics.com/business)</ept></source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">-   </ph><bpt id="p1">[</bpt>Microsoft Dynamics 365 Business Central Blog<ept id="p1">](https://community.dynamics.com/business/b/financials)</ept></source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">-   </ph><bpt id="p1">[</bpt>Microsoft Dynamics 365 Business Central Release Notes<ept id="p1">](https://go.microsoft.com/fwlink/?linkid=2047422)</ept></source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">-   </ph><bpt id="p1">[</bpt>Microsoft Dynamics PartnerSource <ph id="ph2">\(</ph>requires PartnerSource account<ph id="ph3">\)</ph><ept id="p1">](https://mbs.microsoft.com/partnersource)</ept></source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">-   </ph><bpt id="p1">[</bpt>Microsoft Partner Network <ph id="ph2">\(</ph>requires Microsoft Partner Network membership account<ph id="ph3">\)</ph><ept id="p1">](https://mspartner.microsoft.com/en/us/windows/index.aspx)</ept></source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Customizing <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> Using Extensions<ept id="p1">](ui-extensions.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Using <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> as my Business Inbox in Outlook<ept id="p1">](admin-outlook.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Getting <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> on Your Mobile Device<ept id="p1">](install-mobile-app.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Dynamics 365 documentation<ept id="p1">](https://docs.microsoft.com/en-us/dynamics365/#pivot=solutions&amp;panel=solutions_financials)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

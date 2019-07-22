@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="across-work-with-excel.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-8ebcdd5" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">27c137ea6309d40cddc94bc676ec7ea27d5c01fa</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\across-work-with-excel.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3a32a20153cefdc7f3cd60a61ec08f233ec2d37e</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6637db23d8ce9f06944289f3f14ffbbd0d38b79b</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Viewing and Editing in Excel From Business Central | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Learn about how you can open the pages in Microsoft Excel from Business Central for better data analysis.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Viewing and Editing in Excel From Business Central</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>With pages that display a list of records in rows and columns, like a list of customers, sale orders, or invoices, you can also view the records using Microsoft Excel.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>To do this, you have two options.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>You can either select the <bpt id="p1">**</bpt>Open in Excel<ept id="p1">**</ept> action or the <bpt id="p2">**</bpt>Edit in Excel<ept id="p2">**</ept> action on the page.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The differences between the two actions is as follows:</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Open in Excel</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>With this action, Excel respects any filters on the page the limit the records shown.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>This means that the Excel workbook will contain the same rows and columns that appear on the the page in <ph id="ph1">[!INCLUDE[prodshort](includes/prodshort.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>You can make changes to the records in Excel, but you cannot publish the changes back to <ph id="ph1">[!INCLUDE[prodshort](includes/prodshort.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You can only save the changes to Excel file on your computer.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>This action works on both on Windows and macOS.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>For <ph id="ph1">[!INCLUDE[prodshort](includes/prodshort.md)]</ph> on-premises, the <bpt id="p1">**</bpt>Open in Excel<ept id="p1">**</ept> action is not available if the <bpt id="p2">**</bpt>Edit in Excel<ept id="p2">**</ept> action is.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Edit in Excel</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>With this action, the Excel workbook does not respect filters on the page the limit the records shown.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>This means that the Excel workbook will contain all the available records and columns, regardless of what is shown on the page.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The advantage of the <bpt id="p1">**</bpt>Edit in Excel<ept id="p1">**</ept> action is that it lets you make changes to records in Excel and then publish the changes back to <ph id="ph1">[!INCLUDE[prodshort](includes/prodshort.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>It only works on Windows; not macOS.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>For <ph id="ph1">[!INCLUDE[prodshort](includes/prodshort.md)]</ph> on-premises, the <bpt id="p1">**</bpt>Edit in Excel<ept id="p1">**</ept> action is only available if the Excel add-in has been installed by your administrator.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>For administrators, if you want to learn how to install the excel add-in, see <bpt id="p1">[</bpt>Setting up the Excel Add-In<ept id="p1">](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/configuring-excel-addin)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Working with Business Central<ept id="p1">](ui-work-product.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

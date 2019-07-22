@@ -1,0 +1,192 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="get-started.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-435fba6" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0c4dadb15c9756c49f94839236766432844088c8</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">accountant\get-started.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5acd93b4db9edbf40330c30df377ec981cc81c78</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">828ba11b364b20c985513fce68b246128b5c5612</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Dynamics 365 accountant experience | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Learn about the Accountant Hub for Dynamics 365.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Get started with <ph id="ph1">[!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]</ph></source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Any business must do its books and sign off on the accounting.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Some businesses employ an external accountant, and others have an accountant on staff.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>If you are an accountant with several clients, you can use <ph id="ph1">[!INCLUDE [d365acc](includes/d365acc_md.md)]</ph> as your dashboard for a better overview of your clients.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You can get access to <ph id="ph1">[!INCLUDE [d365acc](includes/d365acc_md.md)]</ph> by signing up from <bpt id="p1">[</bpt>Dynamics 365 — Accountant Hub on Microsoft.com<ept id="p1">](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>When you sign up for <ph id="ph1">[!INCLUDE [d365acc](includes/d365acc_md.md)]</ph>, you must specify your work email address, such as <bpt id="p1">&lt;em&gt;</bpt><ph id="ph2">me@accountant.com</ph><ept id="p1">&lt;/em&gt;</ept>.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>We recommend that you use the same email address when you work in your clients' <ph id="ph1">[!INCLUDE [d365fin_long](includes/d365fin_long_md.md)]</ph>, so that you can easily switch between clients.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The email address must be a work address that is based on Active Directory.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Working with individual clients</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The dashboard shows the most important information about each client.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">![</ph>Accountant Hub<ph id="ph2">](./media/accountant-get-started/accountant-dashboard.png)</ph></source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Client Name<ept id="p1">**</ept> column shows the names of your clients, and the <bpt id="p2">**</bpt>Company Name<ept id="p2">**</ept> column lists all companies if the client has more than one company in <ph id="ph1">[!INCLUDE [d365fin_long](includes/d365fin_long_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>There are also fields to show you tasks that are assigned to you in your client's company, including overdue tasks.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>You can customize the dashboard to show the data points that you want to see by adding or removing columns.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>For example, you might want to see taxes that are due, how many open sales documents each client has, or the number of purchase invoices that are due next week.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>You can configure the view to suit your needs.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>If you have many clients, you can use filters to sort your view.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Next to the client name, the three dots reveal a short menu:</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Refresh the current company and get fresh data for the client</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Go to the client's <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph></source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Select more clients</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Similarly, you can use the <bpt id="p1">**</bpt>Client Summary<ept id="p1">**</ept> drop-down menu to refresh all companies, for example.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>To access a client's <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph>, choose the <bpt id="p1">**</bpt>Go To Client<ept id="p1">**</ept> menu item - you are logged in automatically.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Company details</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>You can see more information about your clients' data by choosing the name of the company that you want to learn more about.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This opens the <bpt id="p1">**</bpt>Company Details<ept id="p1">**</ept> pane, where you can see additional information, such as the following:</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Cash account balances</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Cash flow forecast</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Overdue purchase invoices</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Overdue sales invoices</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">![</ph>Client company details in the accountant's dashboard<ph id="ph2">](./media/accountant-get-started/accountant-company-details.png)</ph></source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Technically, you have now logged into your client's <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph>, and data you see is live data.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>If you want to take a closer look at the data, such as an overdue purchase invoice, choose the link, and you are taken to the client company.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>You can launch predefined Excel workbooks from the <bpt id="p1">**</bpt>Reports<ept id="p1">**</ept> tab in the ribbon.</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>These Excel workbooks are designed as ready-to-print key financial statements and reports, but you can also modify them to fit your needs.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Analyzing Financial Statements in Microsoft Excel<ept id="p1">](/dynamics365/business-central/finance-analyze-excel?toc=/dynamics365/accountants/toc.json)</ept> in the Help for <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Otherwise, close the details pane and continue to the next client.</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Assigned tasks</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>In your client's <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph>, you can assign tasks to yourself and others, and others can assign tasks to you.</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Your dashboard in <ph id="ph1">[!INCLUDE [d365acc](includes/d365acc_md.md)]</ph> gives you an overview of assigned tasks for each client, and you can also access a list of all assigned tasks by choosing <bpt id="p1">**</bpt>My User Tasks<ept id="p1">**</ept> on the <bpt id="p2">**</bpt>Home<ept id="p2">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>In the client company, you also have cues that call out tasks assigned to you in this particular client.</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">![</ph>Tasks assigned to the accountant in the client company<ph id="ph2">](./media/accountant-get-started/accountant-company-details-tasks.png)</ph></source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>My user tasks</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>My User Tasks<ept id="p1">**</ept> list in <ph id="ph1">[!INCLUDE [d365acc](includes/d365acc_md.md)]</ph> helps you prioritize your day by showing more information about tasks assigned to you across all your clients.</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">![</ph>List of tasks assigned to me as an external accountant<ph id="ph2">](./media/accountant-get-started/accountant-tasklist.png)</ph></source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>You can sort by due date, for example, or any other type of data that helps you prioritize your day.</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>By default, the list shows all tasks that are assigned to you, but you can set up filters to only show tasks that are marked as high priority, for example.</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>To pick up a task, simply choose it from the list of pending user tasks.</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>In the ribbon, the link <bpt id="p1">**</bpt>Go to Task Item<ept id="p1">**</ept> opens the page where you can do the work.</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>When you have completed a task, simply mark it as completed.</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Add Clients to Your Dashboard in <ph id="ph1">[!INCLUDE[d365acc](includes/d365acc_md.md)]</ph><ept id="p1">](add-client.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Welcome to <ph id="ph1">[!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]</ph><ept id="p1">](index.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Analyzing Financial Statements in Microsoft Excel<ept id="p1">](/dynamics365/business-central/finance-analyze-excel?toc=/dynamics365/accountants/toc.json)</ept></source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Accountant Experiences in <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph><ept id="p1">](/dynamics365/business-central/finance-accounting?toc=/dynamics365/accountants/toc.json)</ept></source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Dynamics 365 — Accountant Hub on Microsoft.com<ept id="p1">](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

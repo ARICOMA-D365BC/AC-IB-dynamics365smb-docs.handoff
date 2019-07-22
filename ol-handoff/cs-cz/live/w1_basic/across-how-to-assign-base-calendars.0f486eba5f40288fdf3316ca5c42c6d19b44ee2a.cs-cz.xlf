@@ -1,0 +1,282 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="across-how-to-assign-base-calendars.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-5ae97a8" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2b00871f4074af32500678642cae63850956bfce</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\across-how-to-assign-base-calendars.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c43c68b92044d9ec8a12ec72ae1e07732a5f72b1</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cc4a9342b7b4303483643e6b188a4880557b6ad2</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>How to Set Up Base Calendars | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>You can assign a base calendar to your company and its business partners, such as customers, vendors, or locations.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Delivery and receipt dates on future sales order, purchase order, transfer order, and production order lines are calculated according to the calendar’s specified working days.</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Set Up Base Calendars</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>You can assign a base calendar to your company and its business partners, such as customers, vendors, or locations.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Delivery and receipt dates on future sales order, purchase order, transfer order, and production order lines are calculated according to the calendar’s specified working days.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The main task in setting up a new base calendar is to specify and define the non-working days that you want to apply.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>To set up a base calendar</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Base Calendar<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>New<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Fill in the <bpt id="p1">**</bpt>Code<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Maintain Base Calendar Changes<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Base Calendar Changes<ept id="p1">**</ept> page, use the <bpt id="p2">**</bpt>Recurring System<ept id="p2">**</ept> field to mark a particular date or day as a recurring nonworking day.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You can select either the <bpt id="p1">**</bpt>Annual Recurring<ept id="p1">**</ept> or <bpt id="p2">**</bpt>Weekly Recurring<ept id="p2">**</ept> option.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>If you select <bpt id="p1">**</bpt>Annual Recurring<ept id="p1">**</ept>, you must also enter the relevant date in the <bpt id="p2">**</bpt>Date<ept id="p2">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>If you select <bpt id="p1">**</bpt>Weekly Recurring<ept id="p1">**</ept>, you must also select the relevant day of the week in the <bpt id="p2">**</bpt>Day<ept id="p2">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>If you leave the field empty, you must fill in the <bpt id="p1">**</bpt>Date<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Day<ept id="p1">**</ept> field is filled in automatically.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>When you make an entry, the <bpt id="p1">**</bpt>Nonworking<ept id="p1">**</ept> field is selected.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>You can choose to clear the check mark to make it a working day.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>When you return to the base calendar card, you will observe that the nonworking day entries that you made have been updated.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>These entries now appear in red and the <bpt id="p1">**</bpt>Nonworking<ept id="p1">**</ept> field is selected.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>When setting up a new base calendar, you can select and copy lines from an existing calendar.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>You do this in the relevant <bpt id="p1">**</bpt>Base Calendar Changes<ept id="p1">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Any base calendar defined for the vendor or the location affects how the dates are calculated and rounded to working days.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Specifies a date formula for the time that it takes to replenish the item.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>It is used to calculate the <bpt id="p1">**</bpt>Planned Receipt Date<ept id="p1">**</ept> field, if calculating forward, and <bpt id="p2">**</bpt>Order Date<ept id="p2">**</ept> field, if calculating backwards.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>See <bpt id="p1">[</bpt>Lead Time Calculation<ept id="p1">](across-how-to-assign-base-calendars.md#lead-time-calculation)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Lead Time Calculation</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Any base calendar defined for the vendor or the location affects how the dates are calculated and rounded to working days.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Accordingly, the two date fields on purchase order lines are calculated as follows under different conditions.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Calculation Direction</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Vendor Calendar Defined</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Vendor Calendar Not Defined</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Forward</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>planned receipt date = order date + vendor lead time (per the vendor calendar and rounded to the next working day in first the vendor calendar and then the location calendar)</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>planned receipt date = order date + vendor lead time (per the location calendar)</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Backward</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>order date = planned receipt date - vendor lead time (per the vendor calendar and rounded to the previous working day in first the vendor calendar and then the location calendar)</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>order date = planned receipt date - vendor lead time (per the location calendar)</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>In addition to the lead time calculation that affects the planned receipt date and order date, as shown in the above table, warehouse handling time and safety lead time may be added to the formulas to make up the value in the <bpt id="p1">**</bpt>Expected Receipt Date<ept id="p1">**</ept> field, as follows: Planned Receipt Date + Safety Lead Time + Inbound Warehouse Handling Time = Expected Receipt Date.</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>If your location uses a significantly different calendar than your vendors do, then it is important that you set up specific calendars for those vendors, to calculate optimal vendor lead times.</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>For information about how to set up vendor calendars, see <bpt id="p1">[</bpt>To assign a base calendar<ept id="p1">](across-how-to-assign-base-calendars.md#to-assign-a-base-calendar)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The contents of the <bpt id="p1">**</bpt>Lead Time Calculation<ept id="p1">**</ept> field is copied from either the item card or the SKU card, if the lead time is defined for the item, or on the <bpt id="p2">**</bpt>Item Vendor Catalog<ept id="p2">**</ept> page, if the lead time is defined for the vendor.</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>To customize a calendar</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The main task in customizing a base calendar for your company, or one of its business partners, is to enter any changes to working and nonworking day status.</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>For example, while a base calendar would typically list all Saturdays as non-working days, the customized calendar for a particular location may list all Saturdays during the months of November and December, and leading up to the holiday season, as working days.</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The following procedure uses the case of the location as an example.</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Note that at this point, you have already assigned a base calendar to the location.</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Locations<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Open the location that you want to update, and then select the <bpt id="p1">**</bpt>Customized Calendar<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Note that a calendar must be selected in the <bpt id="p1">**</bpt>Base Calendar Code<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Customized Calendar Entries<ept id="p1">**</ept> page opens, choose the <bpt id="p2">**</bpt>Maintain Customized Calendar Changes<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Customized Calendar Changes<ept id="p1">**</ept>, add lines for customized calendar entries.</source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>When you enter a line, the <bpt id="p1">**</bpt>Nonworking<ept id="p1">**</ept> check box is selected.</source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>You can clear the check box if you want to change the status to a working day.</source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>You can use the <bpt id="p1">**</bpt>Recurring System<ept id="p1">**</ept> field to set a particular date or day as a recurring nonworking day.</source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>You can select either the <bpt id="p1">**</bpt>Annual Recurring<ept id="p1">**</ept> or <bpt id="p2">**</bpt>Weekly Recurring<ept id="p2">**</ept> option.</source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>If you select <bpt id="p1">**</bpt>Annual Recurring<ept id="p1">**</ept>, you must also enter the relevant date in the <bpt id="p2">**</bpt>Date<ept id="p2">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>If you select <bpt id="p1">**</bpt>Weekly Recurring<ept id="p1">**</ept>, you must also select the relevant day of the week in the <bpt id="p2">**</bpt>Day<ept id="p2">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>If you leave the field empty, you must fill in the <bpt id="p1">**</bpt>Date<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Day<ept id="p1">**</ept> field is then filled in automatically.</source>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>This could be useful if you want to mark an individual date as a nonworking or working day.</source>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Customized Calendar Entries<ept id="p1">**</ept> page, you will observe that the date entries are updated with the changes that you made.</source>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>On the Location card, you will observe that the <bpt id="p1">**</bpt>Customized Calendar<ept id="p1">**</ept> field contains <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept>, indicating that a customized calendar has been set up.</source>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>If you do not fill in the <bpt id="p1">**</bpt>Location Code<ept id="p1">**</ept> field on an order line, your company’s calendar is used.</source>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>If you do not fill in the <bpt id="p1">**</bpt>Shipping Agent Code<ept id="p1">**</ept> field on the order line, your company’s calendar is used.</source>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>If you make changes to a base calendar for which customized calendar changes exist, all existing customized calendars are updated automatically.</source>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>To assign a base calendar</source>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The following procedure schedules delivery dates on sales order lines for a customer as an example.</source>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Base calendars are assigned to your own company, customers, vendors, locations, and shipping agents as follows:</source>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Company Information<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Customer<ept id="p2">**</ept> cards, the base calendar is assigned on the <bpt id="p3">**</bpt>Shipping<ept id="p3">**</ept> FastTab.</source>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Vendor<ept id="p1">**</ept> card, the base calendar is assigned on the <bpt id="p2">**</bpt>Receiving<ept id="p2">**</ept> FastTab.</source>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Location<ept id="p1">**</ept> card, the base calendar is assigned on the <bpt id="p2">**</bpt>Warehouse<ept id="p2">**</ept> FastTab.</source>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Shipping Agents<ept id="p1">**</ept> page, the base calendar is assigned on the <bpt id="p2">**</bpt>Shipping Agent Services<ept id="p2">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Customers<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Open the <bpt id="p1">**</bpt>Customer<ept id="p1">**</ept> card for whom you will assign a base calendar.</source>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Shipping<ept id="p1">**</ept> FastTab, in the <bpt id="p2">**</bpt>Base Calendar Code<ept id="p2">**</ept> field, select the base calendar that you want to assign.</source>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>If you do not assign a base calendar to a company, all dates are calculated as working days.</source>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>If you enter a blank location on an order line, all dates are calculated as working days.</source>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Any base calendar defined for the vendor or the location affects how the dates are calculated and rounded to working days.</source>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Before you can make customized calendar entries, you must first assign a base calendar to the company.</source>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Purchasing<ept id="p1">](purchasing-manage-purchasing.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Manufacturing<ept id="p1">](production-manage-manufacturing.md)</ept><ph id="ph1">  </ph></source>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Inventory<ept id="p1">](inventory-manage-inventory.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Working with <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph><ept id="p1">](ui-work-product.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

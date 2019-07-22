@@ -1,0 +1,219 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="admin-job-queues-schedule-tasks.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-964a5eb" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">87ccb89a78d661bbb81628229f2f2c863ab2beec</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">financials\admin-job-queues-schedule-tasks.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0d35903b7de8b6fb62b3ad0bbd3ea701209b02d3</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">97379e4b79e279d1c306c782c84cee4779a7a6cc</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Schedule jobs to run automatically | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Scheduled tasks are managed by the job queue.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>These jobs run reports and codeunits.</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>You can set jobs to run one time, or on a recurring basis.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Use Job Queues to Schedule Tasks</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Job queues in <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph> enables users to schedule and run specific reports and codeunits.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You can set jobs to run one time, or on a recurring basis.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>For example, you might want to run the <bpt id="p1">**</bpt>Salesperson - Sales Statistics<ept id="p1">**</ept> report weekly, to track sales by salesperson each week, or you might want to run the <bpt id="p2">**</bpt>Process Service E-mail Queue<ept id="p2">**</ept> codeunit daily, to make sure pending email messages to customers regarding their service orders are sent out in a timely manner.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Add Jobs to the Job Queue</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Job Queue Entries<ept id="p1">**</ept> window lists all existing jobs.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>If you add a new job queue entry that you want to schedule, you must specify information about the type of object you want to run, such as a report or codeunit, and the name and object ID of the object that you want to run.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You can also add parameters to specify the behavior of the job queue entry.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>For example, you can add a parameter to only send posted sales orders.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You must have permission to run the particular report or codeunit, or an error will be returned when the job queue is run.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Optionally, you can set a filter in the <bpt id="p1">**</bpt>Job Queue Category Filter<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Job queue categories can be used to group jobs in the list.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph> automatically runs the jobs according to the specified schedules for each job queue entry.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>You can also start, stop, and put a job queue entry on hold manually.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Log Files</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Errors are listed in the <bpt id="p1">**</bpt>Job Queue Log Entries<ept id="p1">**</ept> window that you can access from the ribbon.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>You can also troubleshoot job queue errors.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Data that is generated when a job queue is run is stored in the database.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Background Posting with Job Queues</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Job queues are an effective tool to schedule the running of business processes in the background.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>For example, there may be an instance in which multiple users are trying to post sales orders at the same time, but only one order can be processed at a time.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>By setting up a background posting routine, you can place the postings in a queue for processing in the background.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Alternatively, you may want to schedule postings for hours when it is convenient for your organization.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>For example, it may make sense in your business to run certain routines when most of the data entry for the day has concluded.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>You can achieve this by setting the job queue up to run various batch post reports, such as the <bpt id="p1">**</bpt>Batch Post Sales Orders<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Batch Post Sales Invoices<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>Batch Post Sales Credit Memos<ept id="p3">**</ept> reports.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph> supports background posting for the following document types:</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Sales: sales order, return order, credit memo, invoice</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Purchases: purchase order, return order, credit memo, invoice</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>If the job queue cannot post the sales order, the status is changed to <bpt id="p1">**</bpt>Error<ept id="p1">**</ept>, and the sales order is added to the list of sales orders that the user will have to handle.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>When you schedule a document for posting and the posting process begins, the posting routine is automatically configured to time out within two hours if the posting routine stops responding for any reason.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>You set up this use of the job queue in the <bpt id="p1">**</bpt>Sales &amp; Receivables Setup<ept id="p1">**</ept> window or the <bpt id="p2">**</bpt>Purchases &amp; Payables<ept id="p2">**</ept> window, respectively.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Background Posting<ept id="p1">**</ept> FastTab, you choose the <bpt id="p2">**</bpt>Post Documents via Job Queue<ept id="p2">**</ept> check box and then fill in the relevant information.</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Here you can also use the <bpt id="p1">**</bpt>Job Queue Category Code<ept id="p1">**</ept> field to run all job queue entries with that code.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>For example, you can use  a <bpt id="p1">**</bpt>SalesPost<ept id="p1">**</ept> category that filters to all sales orders that match any job queue that has the same category code.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>If you set up a job that will post and print documents, and the printer displays a dialog box, such as a request for credentials or a warning about low printer ink, your document is posted but not printed.</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The corresponding job queue entry eventually times out and the <bpt id="p1">**</bpt>Status<ept id="p1">**</ept> field is set to <bpt id="p2">**</bpt>Error<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Accordingly, we recommend that you do not use a printer setup that requires interaction with the display of printer dialog boxes in conjunction with background posting.</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Use the My Job Queue Part</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>My Job Queue<ept id="p1">**</ept> part shows the job queues entries that a user has started, but which are not yet finished.</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>By default, the part is not visible, so you have to add it to your Role Center.</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Changing Basic Settings<ept id="p1">](ui-change-basic-settings.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>In this part, you can see those documents that are being processed or that are queued for which your ID is specified in the <bpt id="p1">**</bpt>Assigned User ID<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The part helps you keep track of all job queue entries, including those related to background posting.</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The part can tell you at a glance whether there has been an error in the posting of a document or if there are errors in a job queue entry.</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The part also lets you cancel a document posting if it is not running.</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Security</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Job queue entries run based on permissions.</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Those permissions must allow the execution of the report or codeunit.</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>When a job queue is activated manually, it is run with the credentials of the user.</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>When a job queue is activated as a scheduled task, it is run with the credentials of the server instance.</source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>When a job is run, it is run with the credentials of the job queue that activates it.</source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>However, the user who created that job queue entry must also have permissions.</source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>When a job is “run in user session” (such as during background posting), it is run with the credentials of the user who created that job.</source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>If you use the SUPER permissions set that comes with <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph>, you and your users have permissions to run all objects.</source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>In this case, access for each user is only limited by permissions for data.</source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Using Job Queues Effectively</source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The job queue entry record has many fields whose purpose is to carry parameters into a codeunit that you have specified to be run with a job queue.</source>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>This also means that codeunits that are to be run via the job queue must be specified with the Job Queue Entry record as a parameter in the <bpt id="p1">**</bpt>OnRun<ept id="p1">**</ept> trigger.</source>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>This helps provide an extra level of security, as this prevents users from running random codeunits via the job queue.</source>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>If the user must pass parameters to a report, the only way to do this is by wrapping the report execution into a codeunit, which then parses the input parameters and enters them into the report before executing it.</source>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Setup and Administration in Business Central<ept id="p1">](admin-setup-and-administration.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Setting Up Business Central<ept id="p1">](setup.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

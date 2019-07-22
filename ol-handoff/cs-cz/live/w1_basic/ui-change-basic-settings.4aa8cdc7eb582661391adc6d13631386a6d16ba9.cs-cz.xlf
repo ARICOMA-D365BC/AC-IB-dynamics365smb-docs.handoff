@@ -1,0 +1,156 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="ui-change-basic-settings.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-435fba6" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">353662322e36a564f30bc911f056817cafa7440c</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\ui-change-basic-settings.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">77d76a05da59f30623ea44a451322dbeced42c04</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cbebba82e7b07d6877375d80e5d88622eb88b3ab</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Viewing and Editing Basic Settings | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Learn how to change some basic settings, for example, the Role Center, company, or the work date.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Changing Basic Settings</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">[</bpt><bpt id="p2">**</bpt>My Settings<ept id="p2">**</ept><ept id="p1">]</ept><bpt id="p3">(https://businesscentral.dynamics.com?page=9176 "</bpt>Go directly to your user settings page in Business Central<ept id="p3">")</ept> page, you can see and change basic settings for <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The changes that you make will only affect your workspace; not the workspaces of other users.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;a name="role-center"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept> Role Center</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The Role Center represents the home page, a starting screen that is designed for the needs of a specific role in an organization.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Depending on your role, the Role Center gives you an overview of the business, your department, or your personal tasks.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>It also helps you navigate to your daily tasks and find work that is assigned to you.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>At the top, the navigation allows you to switch between customers, vendors, items, and other important lists of information.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Similarly, actions allow you to initiate tasks, such as create a new sales invoice, directly from the Role Center.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>In the center, you find <bpt id="p1">**</bpt>Activities<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Activities show current data and can be clicked or tapped to view more detailed information.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Key Performance Indicators can be set up to display a selected chart for a visual representation of, for example, cash flow or income and expenses.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You can also build up a list of favorite customers on the home page for accounts that you do business with often or need to pay special attention to.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>To change Role Center</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The default Role Center is <bpt id="p1">**</bpt>Business Manager<ept id="p1">**</ept>, but you can select another Role Center that fits your needs better.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>In the top right corner, choose the <bpt id="p1">**</bpt>Settings<ept id="p1">**</ept> icon <bpt id="p2">![</bpt>Settings<ept id="p2">]</ept><bpt id="p3">(media/ui-experience/settings_icon_small.png "</bpt>Settings icon for role center<ept id="p3">")</ept>, and then choose <bpt id="p4">**</bpt>My Settings<ept id="p4">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>My Settings<ept id="p1">**</ept> page, in the <bpt id="p2">**</bpt>Role Center<ept id="p2">**</ept> field, select the Role Center that you want to set as the standard.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>For example, select <bpt id="p1">**</bpt>Accountant<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;a name="company"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>Company</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>A company functions as a container for data in <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>There can be multiple companies in a database, but only one can be selected at a time.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The default company is called CRONUS and contains demonstration data only.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>If you want to display a different name for your company in the application (such as on the Role Center), set the <bpt id="p1">**</bpt>Name<ept id="p1">**</ept> field on the <bpt id="p2">**</bpt>Company Information<ept id="p2">**</ept> page or the <bpt id="p3">**</bpt>Display Name<ept id="p3">**</ept> field on the <bpt id="p4">**</bpt>Companies<ept id="p4">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;a name="work-date"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>Work Date</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The default work date is usually today's date.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>You may have to temporarily change the work date to be able to perform tasks, such as completing transactions for a date that is not the current date.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Type <bpt id="p1">**</bpt>w<ept id="p1">**</ept> to quickly enter the work date in a date field.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Write <bpt id="p1">**</bpt>t<ept id="p1">**</ept> to quickly enter the current date in the date field.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The work date is only changed until you close the company or until the date changes.</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>If you open a different company or open the same company the next day and still have to use a different work date, then you must set the work date again.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;a name="region"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept> Region</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Region<ept id="p1">**</ept> setting determines how dates, times, numbers, and currencies are shown or formatted.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;a name="language"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept> Language</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Changes the display language.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>This field appears only when there is more than one language to choose from.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The initial language is either determined by the administrator or by your browser settings when you sign up for <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The language that you set will be used on all devices that you sign in from, such as a phone or tablet.</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Changing When I Receive Notifications</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Choose this link to view or change the notifications that you get about certain events or changes in status, such as when you are about to invoice a customer who has an overdue balance, or the available inventory is lower than the quantity you are about to sell.</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Smart Notifications<ept id="p1">](ui-smart-notifications.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Working with <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph><ept id="p1">](ui-work-product.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Changing Which Features are Displayed<ept id="p1">](ui-experiences.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

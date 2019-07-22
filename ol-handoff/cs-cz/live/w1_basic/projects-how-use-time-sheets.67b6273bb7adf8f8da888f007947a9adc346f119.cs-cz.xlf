@@ -1,0 +1,381 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="projects-how-use-time-sheets.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-435fba6" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">70d63dcc678a49fa1854b88bc3ca1f9ec8ecc69f</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\projects-how-use-time-sheets.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ecde1098c4018a078ce99e8b1e99382dcf662970</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e7f39c7cf6e8702ff8b615e0bfa74daeca24249c</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Work with Time Sheets for Jobs| Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Describes how to create a time sheet for a job, copy planning lines to it, define work types, fill in the time sheet, and submit it for approval.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Use Time Sheets for Jobs</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You use the <bpt id="p1">**</bpt>Create Time Sheets<ept id="p1">**</ept> batch job to set up time sheets for a specified number of time periods or weeks.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>You must have permissions to be able to create time sheets.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>You can copy and use your job planning lines in a time sheet.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>In that way, you must only enter the information in one place and the line information is always correct.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>After you have approved time sheet entries for a job, you can post them to the relevant job journal or resource journal.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Before you can use time sheets, you must set up general information and specify an administrator and one or more approvers of time sheets.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Set Up Time Sheets<ept id="p1">](projects-how-setup-time-sheets.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>To create a time sheet</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You can use the <bpt id="p1">**</bpt>Create Time Sheets<ept id="p1">**</ept> batch job to set up time sheets for a specified number of time periods or weeks.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Then, the time sheet owner can open it and record time that has been spent on a task.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Time Sheets<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Time Sheet List<ept id="p1">**</ept> page, choose the <bpt id="p2">**</bpt>Create Time Sheets<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Fill in the fields as necessary.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Use Time Sheet<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Time Sheet Owner User ID<ept id="p2">**</ept> fields must be filled in on the card for the resource of the time sheet.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>You can view the time sheets that you have created on the <bpt id="p1">**</bpt>Time Sheet list<ept id="p1">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>To copy job planning lines to a time sheet</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The following procedure describes how to quickly add job planning lines to a time sheet.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Time Sheets<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Time Sheet List<ept id="p1">**</ept> page, select a time sheet for the relevant time period, and then choose the <bpt id="p2">**</bpt>Edit Time Sheet<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Create lines from job planning<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Any job planning lines in the time sheet time period are copied to the time sheet for the person or machine in the <bpt id="p1">**</bpt>Resource No.<ept id="p1">**</ept> field on the time sheet.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>To define work types and add one to a time sheet</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>You can define the work type for all time sheet lines for jobs.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>In this way, you can add information that you need to bill the customer for different types of work.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Time Sheets<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Open the relevant time sheet.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Description<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Time Sheet Line Job Detail<ept id="p1">**</ept> page, choose the <bpt id="p2">**</bpt>Work Type Code<ept id="p2">**</ept> field, and select a work type from the list, such as <bpt id="p3">**</bpt>Miles<ept id="p3">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>If no work types exist, chose the <bpt id="p1">**</bpt>New<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Work Types<ept id="p1">**</ept> page, fill in the fields as necessary.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Repeat step 4 to assign the new work type to the time sheet.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>To reuse time sheet lines in other time sheets</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>If your time sheet information remains the same from time period to time period, you can save time by copying the lines from the previous time period.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Then, you just enter your time usage for the new period.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Time Sheets<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Open the time sheet for a period later than the period for an existing time sheet with lines.</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Copy Lines from Previous Time Sheet<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The lines are copied, including details such as type and description.</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>For example, if the line is related to a job, the <bpt id="p1">**</bpt>Job No.<ept id="p1">**</ept> is copied.</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>All copied lines have the status <bpt id="p1">**</bpt>Open<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>You can now modify the lines as needed.</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>To fill in a time sheet lines and submit for approval</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Time sheet registration is tracked in hours, the standard base unit of measure for resources.</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>By default, a time sheet shows the common work days of Monday through Friday.</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Time Sheets<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Select a time sheet for the relevant time period, and then choose the <bpt id="p1">**</bpt>Edit Time Sheet<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Fill in the fields on a line as necessary.</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Enter the number of hours used by the resource on each day of the week.</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>You can review the sum of time sheet hours that you have entered in the <bpt id="p1">**</bpt>Actual/Budgeted Summary<ept id="p1">**</ept> FactBox.</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Repeat step 3 for other work types that the resource performs.</source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Submit<ept id="p1">**</ept> action, and then choose the <bpt id="p2">**</bpt>All open lines<ept id="p2">**</ept> action to submit all lines or the <bpt id="p3">**</bpt>Selected lines only<ept id="p3">**</ept> action to submit only the lines that are selected on the <bpt id="p4">**</bpt>Time Sheet<ept id="p4">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>You can only submit time sheet lines for which you have entered time.</source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>To modify information on a line that has been set to <bpt id="p1">**</bpt>Submitted<ept id="p1">**</ept>, select the line, and then choose the <bpt id="p2">**</bpt>Reopen<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>A manager may reject a time sheet line that is submitted for approval.</source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>If a line has a status of <bpt id="p1">**</bpt>Rejected<ept id="p1">**</ept>, you can make changes to the line, and then choose <bpt id="p2">**</bpt>Submit<ept id="p2">**</ept> again.</source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>To approve or reject a time sheet</source>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>A time sheet must be submitted for approval before it can be used.</source>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>You can approve and reject individual lines on a time sheet or send them back to the submitter for additional action.</source>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>A time sheet can be approved in two ways:</source>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>A time sheet administrator can approve any time sheet.</source>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The person who is specified in the <bpt id="p1">**</bpt>Time Sheet Approver User ID<ept id="p1">**</ept> field on a resource card can approve that resource's time sheets.</source>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Set Up Time Sheets<ept id="p1">](projects-how-setup-time-sheets.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Manager Time Sheets<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Select a time sheet from the list.</source>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Time Sheet<ept id="p1">**</ept> page, choose the <bpt id="p2">**</bpt>Approve<ept id="p2">**</ept> action, and then choose the <bpt id="p3">**</bpt>All submitted lines<ept id="p3">**</ept> action to approve all lines or the <bpt id="p4">**</bpt>Selected lines only<ept id="p4">**</ept> action to approve only the lines that are selected on the <bpt id="p5">**</bpt>Time Sheet<ept id="p5">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Alternatively, choose the <bpt id="p1">**</bpt>Reject<ept id="p1">**</ept> action and follow steps 4 through 5.</source>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Use the <bpt id="p1">**</bpt>Time Sheet Status<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Actual/Budgeted Summary<ept id="p2">**</ept> FactBoxes to get an overview of time sheet information.</source>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>After you have approved or rejected a time sheet, it cannot be modified unless it is first reopened.</source>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The following procedure explains how to reopen an approved or rejected time sheet.</source>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>To reopen a time sheet</source>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Manager Time Sheets<ept id="p3">**</ept> or <bpt id="p4">**</bpt>Time Sheets<ept id="p4">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Open a time sheet from the list.</source>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>You can only reopen lines that have the status <bpt id="p1">**</bpt>Approved<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>You cannot reopen lines that have the status <bpt id="p1">**</bpt>Rejected<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>You cannot reopen a time sheet if it has been posted.</source>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Time Sheet<ept id="p1">**</ept> page, choose the <bpt id="p2">**</bpt>Reopen<ept id="p2">**</ept> action, and then choose the <bpt id="p3">**</bpt>All submitted lines<ept id="p3">**</ept> action to reopen all lines or the <bpt id="p4">**</bpt>Selected lines only<ept id="p4">**</ept> action to reopen only the lines that are selected on the <bpt id="p5">**</bpt>Time Sheet<ept id="p5">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The status of the time sheets line or lines is changes to <bpt id="p1">**</bpt>Submitted<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>To post time sheet lines in a resource journal</source>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>After you have approved time sheet entries for a resource, you can post them to the relevant resource journal.</source>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Resource Journal<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Suggest Lines from Time Sheets<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Fill in the fields as necessary.</source>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Entries for usage are created in the resource journal, where you can modify the information as needed.</source>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Post<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>To verify the posting, choose the <bpt id="p1">**</bpt>Ledger Entries<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Resource Ledger Entries<ept id="p1">**</ept> page opens showing the result of posting the resource journal.</source>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>To post time sheet lines in a job journal</source>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>After you have approved time sheet entries for a job, you can post them to the relevant job journal.</source>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Job Journal<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Suggest Lines from Time Sheets<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Fill in the fields as necessary.</source>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Entries for usage are created in the job journal, where you can modify the information as needed.</source>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Information about work type and whether the work is chargeable is copied from the time sheet line.</source>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>If needed, you can reduce the quantity of hours and do a partial posting.</source>
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>If you reduce the quantity, then the next time that you choose the <bpt id="p1">**</bpt>Suggest Lines From Time Sheets<ept id="p1">**</ept> action, the line that is created will contain the remaining quantity of hours.</source>
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Post<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>To verify the posting, choose the <bpt id="p1">**</bpt>Ledger Entries<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Job Ledger Entries<ept id="p1">**</ept> page opens showing the result of posting the resource journal.</source>
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>To archive time sheets</source>
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>After you have posted time sheets, you can archive them for future reference.</source>
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>All time sheets lines must be posted before a time sheet can be archived.</source>
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>When you archive a time sheet, it is removed from the lists in both the <bpt id="p1">**</bpt>Time Sheets<ept id="p1">**</ept> page and the <bpt id="p2">**</bpt>Manager Time Sheets<ept id="p2">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Move Time Sheets to Archive<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Fill in the fields as necessary, and then choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>To review archived time sheets, choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Time Sheet Archives<ept id="p3">**</ept> or <bpt id="p4">**</bpt>Manager Time Sheet Archives<ept id="p4">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Project Management<ept id="p1">](projects-manage-projects.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Setting Up Project Management<ept id="p1">](projects-setup-projects.md)</ept><ph id="ph1">  </ph></source>
+        </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Finance<ept id="p1">](finance.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Purchasing<ept id="p1">](purchasing-manage-purchasing.md)</ept><ph id="ph1">       </ph></source>
+        </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Sales<ept id="p1">](sales-manage-sales.md)</ept><ph id="ph1">   </ph></source>
+        </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Working with <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph><ept id="p1">](ui-work-product.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

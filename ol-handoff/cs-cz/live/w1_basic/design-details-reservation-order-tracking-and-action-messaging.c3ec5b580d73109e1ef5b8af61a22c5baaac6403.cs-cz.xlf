@@ -1,0 +1,819 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="design-details-reservation-order-tracking-and-action-messaging.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-435fba6" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f44bbe229db6067531e894be9ae768eb909727e7</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\design-details-reservation-order-tracking-and-action-messaging.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">49938dcf4b1ad9f4cc3e5a1845a332579544411f</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1738f6633db2a227ed37ba013bdd76bd1559e983</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Design Details - Reservation, Order Tracking, and Action Messaging | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>The reservations system is comprehensive and includes the interrelated and parallel features of Order Tracking and Action Messaging.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Design Details: Reservation, Order Tracking, and Action Messaging</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The reservations system is comprehensive and includes the interrelated and parallel features of Order Tracking and Action Messaging.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>At the core of the reservation system is the linking of a demand entry and a corresponding supply entry, either through reservation or order tracking.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>A reservation is a user-generated link, and an order tracking record is a system-generated link.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>An item quantity that is entered in the reservation system is either reserved or order tracked, but not both at the same time.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>How the systems handle an item depends on how the item is set up.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The reservation system interacts with the planning system by creating action messages on planning lines during planning runs.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>An action message can be considered an appendage to an order tracking record.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Action messages, whether created dynamically in order tracking or during the planning run, provide a convenient tool for efficient supply planning.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Reserved quantities are ignored by the planning system, that is, the hard link that is made between supply and demand cannot be changed through planning.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The reservations system also forms the structural foundation for the item tracking system.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Design Details: Item Tracking<ept id="p1">](design-details-item-tracking.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>For more detailed information about how the reservation system works, see the “Reservation Entry Table” white paper on <bpt id="p1">[</bpt>PartnerSource<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=258348)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Reservation</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>A reservation is a firm link that connects a specific demand and a specific supply to each other.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>This link directly affects the subsequent inventory transaction and ensures the proper application of item entries for costing purposes.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>A reservation overrides the default costing method of an item.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>For more information, see “Design Details: Costing Methods”.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Reservation<ept id="p1">**</ept> page is accessible from all order lines of both demand and supply type.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>In this page, the user can specify which demand or supply entry to create a reservation link to.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The reservation consists of a pair of records that share the same entry number.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>One record has a negative sign and points to the demand.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The other record has a positive sign and points to the supply.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>These records are stored in the <bpt id="p1">**</bpt>Reservation Entry<ept id="p1">**</ept> table with status value <bpt id="p2">**</bpt>Reservation<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The user can view all reservations on the <bpt id="p1">**</bpt>Reservation Entries<ept id="p1">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Offsetting in Reservations</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Reservations are made against available item quantities.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Item availability is calculated in basic terms as follows:</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>available quantity = inventory + scheduled receipts - gross requirements</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The following table shows the details of the order network entities that are part of the availability calculation.</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Field in T27</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Source table</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Table filter</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Source field</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Inventory<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Inventory</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Item Ledger Entry</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>N/A</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Quantity</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Scheduled receipts<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>FP Order Receipt (Qty.)</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Prod. Order Line</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>=Firm Planned</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Remaining Qty. (Base)</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Scheduled receipts<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Rel. Order Receipt (Qty.)</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Prod. Order Line</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>=Released</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Remaining Qty. (Base)</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Scheduled receipts<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Qty. on Assembly Order</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Assembly Header</source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>=Order</source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Remaining Qty. (Base)</source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Scheduled receipts<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Qty. on Purch. Order</source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Purchase Line</source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>=Order</source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Outstanding Qty. (Base)</source>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Scheduled receipts<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Trans. Ord. Receipt (Qty.)</source>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Transfer Line</source>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>N/A</source>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Outstanding Quantity</source>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Gross requirements<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Qty. On Sales Order</source>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Sales Line</source>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>=Order</source>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Outstanding Qty. (Base)</source>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Gross requirements<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Scheduled Need (Qty.)</source>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Prod. Order Component</source>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>&lt;&gt;Simulated</source>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Remaining Qty. (Base)</source>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Gross requirements<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Qty. on Asm. Component</source>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Assembly Line</source>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>=Order</source>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Remaining Qty. (Base)</source>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Gross requirements<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Trans. Ord. Shipment (Qty.)</source>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Transfer Line</source>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>N/A</source>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Outstanding Quantity</source>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Design Details: Availability in the Warehouse<ept id="p1">](design-details-availability-in-the-warehouse.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Manual Reservation</source>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>When a user intentionally creates a reservation, the user gains full ownership of and responsibility for these items.</source>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>This means that the user must also manually change or cancel a reservation.</source>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Such manual changes may cause automatic modification of the involved reservations.</source>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The following table shows when and which modifications may occur:</source>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>User Action</source>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>System Reaction</source>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Decreasing the reserved quantity</source>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The related quantity fields are updated.</source>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Changing date fields</source>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>The related date fields are updated.</source>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> If the due date on a demand is changed to precede the shipment date or due date of the supply, then the reservation is canceled.</source>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Deleting the order</source>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>The reservation is canceled.</source>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Changing location, bin, variant, serial number, or lot number</source>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The reservation is canceled.</source>
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The Late Binding functionality may also change reservations without informing the user, by reshuffling nonspecific reservations of serial or lot numbers.</source>
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>For more information, see “Design Details: Item Tracking and Reservations”.</source>
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Automatic Reservations</source>
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The item card can be set up to always be reserved automatically from demand, such as sales orders.</source>
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>In that case, reservation is made against inventory, purchase orders, assembly orders, and production orders.</source>
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>A warning is issued if supply is insufficient.</source>
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>In addition, items are automatically reserved by various planning functions to keep a demand linked to a specific supply.</source>
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The order tracking entries for such planning links contain <bpt id="p1">**</bpt>Reservation<ept id="p1">**</ept> in the <bpt id="p2">**</bpt>Reservation Status<ept id="p2">**</ept> field in the <bpt id="p3">**</bpt>Reservation Entry<ept id="p3">**</ept> table.</source>
+        </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Automatic reservations are created in the following situations:</source>
+        </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>A multilevel production order where the <bpt id="p1">**</bpt>Manufacturing Policy<ept id="p1">**</ept> field of the involved parent and child items is set to <bpt id="p2">**</bpt>Make-to-Order<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>The planning system creates reservations between the parent production order and the underlying production orders to ensure that they are processed together.</source>
+        </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Such a reservation binding overrides the item’s default costing and application method.</source>
+        </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>A production, assembly, or purchase order where the <bpt id="p1">**</bpt>Reordering Policy<ept id="p1">**</ept> field of the involved item is set to <bpt id="p2">**</bpt>Order<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>The planning system creates reservations between the demand and the planned supply to ensure that the specific supply is created.</source>
+        </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Design Details: Order<ept id="p1">](design-details-order.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>A production order created from a sales order with the <bpt id="p1">**</bpt>Sales Order Planning<ept id="p1">**</ept> function is linked to the sales order with an automatic reservation.</source>
+        </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>An assembly order created automatically for a sales order line to fulfill the quantity in the <bpt id="p1">**</bpt>($ T_37_900 Qty. to Assemble to Order $)<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>This automatic reservation links the sales demand and the assembly supply so that sales order processors can customize and promise the assembly item to the customer directly.</source>
+        </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>In addition, the reservation links the assembly output to the sales order line through to the shipping activity that fulfills the customer order.</source>
+        </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>In the case of supply or demand that is not allocated, the planning system automatically assigns a reservation status of type <bpt id="p1">**</bpt>Surplus<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>This could result from demand that is due to forecasted quantities or user-entered planning parameters.</source>
+        </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>This is legitimate surplus, which the system recognizes, and it does not give rise to action messages.</source>
+        </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Surplus could also be genuine, excess supply or demand that remains untracked.</source>
+        </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>This is an indication of an imbalance in the order network, which causes the system to issue action messages.</source>
+        </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Note that an action message that suggests a change in quantity always refers to type <bpt id="p1">**</bpt>Surplus<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>For more information, see the “Example: Order Tracking in Sales, Production, and Transfers” section in this topic.</source>
+        </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Automatic reservations that are created during the planning run are handled in the following ways:</source>
+        </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>They are applied against item quantities that are part of the availability calculation, as are manual reservations.</source>
+        </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>For more information, see the "Offsetting in Reservations” section in this topic.</source>
+        </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>They are included and potentially changed in subsequent planning runs, as opposed to manually reserved items.</source>
+        </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Order Tracking</source>
+        </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Order Tracking helps the planner maintain a valid supply plan by providing an overview of the offsetting between demand and supply in the order network.</source>
+        </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>The order tracking records serve as the foundation for creating dynamic action messages and planning line suggestions during planning runs.</source>
+        </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>The order tracking system offsets available stock as orders are entered into the order network.</source>
+        </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>This implies that the system does not prioritize orders that may be more urgent in terms of their due date.</source>
+        </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>It is therefore up to the logic of the planning system or the wisdom of the planner to rearrange these priorities in a meaningful way.</source>
+        </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Order tracking policy and the Get Action Messages function are not integrated with Jobs.</source>
+        </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>That means that demand related to a job is not automatically tracked.</source>
+        </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Because it is not tracked, it could cause the use of an existing replenishment with job information to be tracked to another demand, for example, a sales order.</source>
+        </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Consequently, you may encounter the situation in which your information about available inventory is out of sync.</source>
+        </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>The Order Network</source>
+        </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>The order tracking system is based on the principle that the order network must always be in a state of balance, in which every demand that enters the system is offset by a corresponding supply and vice versa.</source>
+        </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>The system provides this by identifying logical links between all demand and supply entries in the order network.</source>
+        </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>This principle implies that a change in demand results in a corresponding imbalance on the supply side of the order network,.</source>
+        </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Conversely, a change in supply results in a corresponding imbalance on the demand side of the order network.</source>
+        </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>In reality, the order network is in a state of constant flux as users enter, amend, and delete orders.</source>
+        </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Order Tracking processes orders dynamically, reacting to each change at the time that it enters the system and becomes a part of the order network.</source>
+        </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>As soon as new order tracking records are created, the order network is in balance, but only until the next change occurs.</source>
+        </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>To increase the transparency of calculations in the planning system, the <bpt id="p1">**</bpt>Untracking Planning Elements<ept id="p1">**</ept> page displays untracked quantities, which represent the difference in quantity between known demand and suggested supply.</source>
+        </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>Each line on the page refers to the cause of the excess quantity, such as <bpt id="p1">**</bpt>Blanket Order<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Safety Stock Level<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Fixed Reorder Quantity<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Minimum Order Qty.<ept id="p4">**</ept>, <bpt id="p5">**</bpt>Rounding<ept id="p5">**</ept>, or <bpt id="p6">**</bpt>Dampener<ept id="p6">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>Offsetting in Order Tracking</source>
+        </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>In contrast to reservations, which can only be made against available item quantities, order tracking is possible against all order network entities that are part of  the net requirements calculation of the planning system.</source>
+        </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>The net requirements are calculated as follows:</source>
+        </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>net requirements = gross requirements + reorder point - scheduled receipts - planned receipts - projected available balance</source>
+        </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Demand that is related to forecasts or planning parameters is not order tracked.</source>
+        </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>Example: Order Tracking in Sales, Production, and Transfers</source>
+        </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>The following scenario shows which order tracking entries are created in the <bpt id="p1">**</bpt>Reservation Entry<ept id="p1">**</ept> table as results of various order network changes.</source>
+        </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>Assume the following data for two items that are set up for order tracking.</source>
+        </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>Item 1</source>
+        </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>Name</source>
+        </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>“Component”</source>
+        </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>Availability</source>
+        </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>100 units in RED location</source>
+        </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>- 30 units of LOTA</source>
+        </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>- 70 units of LOTB</source>
+        </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>Item 2</source>
+        </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>Name</source>
+        </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>“Produced Item”</source>
+        </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>Production BOM</source>
+        </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>1 qty. per of “Component”</source>
+        </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>Demand</source>
+        </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>Sale for 100 units at BLUE location</source>
+        </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>Supply</source>
+        </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>Released production order (generated with the <bpt id="p1">**</bpt>Sales Order Planning<ept id="p1">**</ept> function for the sale of 100 units)</source>
+        </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Manufacturing Setup<ept id="p1">**</ept> page, the <bpt id="p2">**</bpt>Components at Location<ept id="p2">**</ept> field is set to <bpt id="p3">**</bpt>RED<ept id="p3">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>The following order tracking entries exist in the <bpt id="p1">**</bpt>Reservation Entry<ept id="p1">**</ept> table based on the data in the table.</source>
+        </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">![</bpt>Order tracking entries in Reservation Entry table<ept id="p1">]</ept><bpt id="p2">(media/supply_planning_RTAM_1.png "</bpt>supply_planning_RTAM_1<ept id="p2">")</ept></source>
+        </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>Entry Numbers 8 and 9</source>
+        </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>For the component need for LOTA and LOTB respectively, order tracking links are created from the demand in table 5407, <bpt id="p1">**</bpt>Prod. Order Component<ept id="p1">**</ept>, to the supply in table 32, <bpt id="p2">**</bpt>Item Ledger Entry<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Reservation Status<ept id="p1">**</ept> field contains <bpt id="p2">**</bpt>Tracking<ept id="p2">**</ept> to indicate that these entries are dynamic order tracking links between supply and demand.</source>
+        </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Lot No.<ept id="p1">**</ept> field is empty on the demand lines, because the lot numbers are not specified on the component lines of the released production order.</source>
+        </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>Entry Numbers 10</source>
+        </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>From the sales demand in table 37, <bpt id="p1">**</bpt>Sales Line<ept id="p1">**</ept>, an order tracking link is created to the supply in table 5406, <bpt id="p2">**</bpt>Prod. Order Line<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Reservation Status<ept id="p1">**</ept> field contains <bpt id="p2">**</bpt>Reservation<ept id="p2">**</ept>, and the <bpt id="p3">**</bpt>Binding<ept id="p3">**</ept> field contains <bpt id="p4">**</bpt>Order-to-Order<ept id="p4">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>This is because the released production order was generated specifically for the sales order and must remain linked unlike order tracking links with a reservation status of <bpt id="p1">**</bpt>Tracking<ept id="p1">**</ept>, which are created and changed dynamically.</source>
+        </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>For more information, see the “Automatic Reservations” section in this topic.</source>
+        </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>At this point in the scenario, the 100 units of LOTA and LOTB are transferred to BLUE location by a transfer order.</source>
+        </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>Only the transfer order shipment is posted at this point, not the receipt.</source>
+        </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>Now the following order tracking entries exist in the <bpt id="p1">**</bpt>Reservation Entry<ept id="p1">**</ept> table.</source>
+        </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">![</bpt>Order tracking entries in Reservation Entry table<ept id="p1">]</ept><bpt id="p2">(media/supply_planning_RTAM_2.png "</bpt>supply_planning_RTAM_2<ept id="p2">")</ept></source>
+        </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>Entry Numbers 8 and 9</source>
+        </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>Order tracking entries for the two lots of the component reflecting demand in table 5407 are changed from a reservation status of <bpt id="p1">**</bpt>Tracking<ept id="p1">**</ept> to <bpt id="p2">**</bpt>Surplus<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>The reason is that the supplies that they were linked to before, in table 32, have been used by the shipment of the transfer order.</source>
+        </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>Genuine surplus, as in this case, reflects excess supply or demand that remains untracked.</source>
+        </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>It is an indication of imbalance in the order network, which will generate an action message by the planning system unless it is resolved dynamically.</source>
+        </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>Entry Numbers 12 to 16</source>
+        </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>Because the two lots of the component are posted on the transfer order as shipped but not received, all related positive order tracking entries are of reservation type <bpt id="p1">**</bpt>Surplus<ept id="p1">**</ept>, indicating that they are not allocated to any demands.</source>
+        </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>For each lot number, one entry relates to table 5741, <bpt id="p1">**</bpt>Transfer Line<ept id="p1">**</ept>, and one entry relates to the item ledger entry at the in-transit location where the items now exist.</source>
+        </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>At this point in the scenario, the transfer order of the components from BLUE to RED location is posted as received.</source>
+        </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>Now the following order tracking entries exist in the <bpt id="p1">**</bpt>Reservation Entry<ept id="p1">**</ept> table.</source>
+        </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">![</bpt>Order tracking entries in Reservation Entry table<ept id="p1">]</ept><bpt id="p2">(media/supply_planning_RTAM_3.png "</bpt>supply_planning_RTAM_3<ept id="p2">")</ept></source>
+        </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>The order tracking entries are now similar to the first point in the scenario, before the transfer order was posted as shipped only, except entries for the component are now of reservation status <bpt id="p1">**</bpt>Surplus<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>This is because the component need is still at RED location, reflecting that the <bpt id="p1">**</bpt>Location Code<ept id="p1">**</ept> field on the production order component line contains <bpt id="p2">**</bpt>RED<ept id="p2">**</ept> as set up in the <bpt id="p3">**</bpt>Components at Location<ept id="p3">**</ept> setup field.</source>
+        </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>The supply that was allocated to this demand before has been transferred to BLUE location and can now not be fully tracked unless the component need on the production order line is changed to BLUE location.</source>
+        </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>At this point in the scenario, the <bpt id="p1">**</bpt>Location Code<ept id="p1">**</ept> on the production order line is set to <bpt id="p2">**</bpt>BLUE<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>In addition, on the <bpt id="p1">**</bpt>Item Tracking Lines<ept id="p1">**</ept> page, the 30 units of LOTA and the 70 units of LOTB are assigned to the production order line.</source>
+        </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>Now the following order tracking entries exist in the <bpt id="p1">**</bpt>Reservation Entry<ept id="p1">**</ept> table.</source>
+        </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">![</bpt>Order tracking entries in Reservation Entry table<ept id="p1">]</ept><bpt id="p2">(media/supply_planning_RTAM_4.png "</bpt>supply_planning_RTAM_4<ept id="p2">")</ept></source>
+        </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>Entry Numbers 21 and 22</source>
+        </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>Since the component need has been changed to BLUE location, and the supply is available as item ledger entries at BLUE location, all order tracking entries for the two lot numbers are now fully tracked, indicated by the reservation status of <bpt id="p1">**</bpt>Tracking<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Lot No.<ept id="p1">**</ept> field is now filled in the order tracking entry for table 5407, because the lot numbers were assigned to the production order component lines.</source>
+        </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>For more examples of order tracking entries in the <bpt id="p1">**</bpt>Reservation Entry<ept id="p1">**</ept> table, see the “Reservation Entry Table” white paper on <bpt id="p2">[</bpt>PartnerSource<ept id="p2">](http://go.microsoft.com/fwlink/?LinkId=258348)</ept> (requires login).</source>
+        </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>Action Messaging</source>
+        </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>When the order tracking system detects an imbalance in the order network, it automatically creates an action message to notify the user.</source>
+        </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>Action messages are system-generated calls for user action that specify the details of the imbalance and the suggestions about how to restore balance to the order network.</source>
+        </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>They are displayed as planning lines on the <bpt id="p1">**</bpt>Planning Worksheet<ept id="p1">**</ept> page when you choose <bpt id="p2">**</bpt>Get Action Messages<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>In addition, action messages are displayed on planning lines that are generated by the planning run to reflect the planning system’s suggestions about how to restore balance to the order network.</source>
+        </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>In both cases, the suggestions are run on the order network, when you choose <bpt id="p1">**</bpt>Carry Out Action Messages<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>An action message addresses one BOM level at a time.</source>
+        </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>If the user accepts the action message, this may give rise to additional action messages at the next BOM level.</source>
+        </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>The following table shows the action messages that exist.</source>
+        </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>Action message</source>
+        </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Change Qty.<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>Changes the quantity on an existing supply order to cover a changed or new demand.</source>
+        </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Reschedule<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>Reschedules the due date on an existing order.</source>
+        </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Resched. &amp; Chg. Qty.<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>Reschedules the due date and changes the quantity on an existing order.</source>
+        </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>New<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>Creates a new order if demand cannot be fulfilled by either of the previous action messages.</source>
+        </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Cancel<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>Cancels an existing order.</source>
+        </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source>The order tracking system always attempts to resolve an imbalance in the existing order network.</source>
+        </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source>If this is not possible, it issues an action message to create a new order.</source>
+        </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve">
+          <source>Following is the prioritized list that the order tracking system uses when it determines how to restore balance.</source>
+        </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source>If an additional demand has entered the order network, the system seeks to order track through the following checks:</source>
+        </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source>Check for any excess supply in the existing order tracking record for this demand.</source>
+        </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source>Check for planned and scheduled receipts in order of receipt date.</source>
+        </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve">
+          <source>The latest possible date is selected.</source>
+        </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source>Check for available stock.</source>
+        </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve">
+          <source>Check if a supply order exists in the current order tracking record.</source>
+        </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve">
+          <source>If so, the system issues an action message of type <bpt id="p1">**</bpt>Change<ept id="p1">**</ept> to increase the order.</source>
+        </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve">
+          <source>Check that no supply order exists in the current order tracking record.</source>
+        </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve">
+          <source>If so, the system issues an action message of type <bpt id="p1">**</bpt>New<ept id="p1">**</ept> to create a new order.</source>
+        </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve">
+          <source>An open demand passes through the list and offsets the available supply at each point.</source>
+        </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve">
+          <source>Any remaining demand is always covered by check 4 or check 5.</source>
+        </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve">
+          <source>If a decrease in demand quantity occurs, the order tracking system attempts to resolve the imbalance by performing the previous checks in reverse order.</source>
+        </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve">
+          <source>This means that existing action messages could be modified or even deleted, if necessary.</source>
+        </trans-unit>
+        <trans-unit id="353" translate="yes" xml:space="preserve">
+          <source>The order tracking system always presents the net result of its calculations to the user.</source>
+        </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve">
+          <source>Order Tracking and Planning</source>
+        </trans-unit>
+        <trans-unit id="355" translate="yes" xml:space="preserve">
+          <source>When the planning system runs, it deletes all existing order tracking records and action message entries and recreates them as planning line suggestions according to supply/demand pairs and priorities.</source>
+        </trans-unit>
+        <trans-unit id="356" translate="yes" xml:space="preserve">
+          <source>When the planning run has finished, the order network is in balance.</source>
+        </trans-unit>
+        <trans-unit id="357" translate="yes" xml:space="preserve">
+          <source>Planning System versus Order Tracking and Action Messaging</source>
+        </trans-unit>
+        <trans-unit id="358" translate="yes" xml:space="preserve">
+          <source>The following comparison shows the differences between the methods that are used by the planning system to create planning line suggestions and the methods that are used by the order tracking system to create order tracking records and action messages.</source>
+        </trans-unit>
+        <trans-unit id="359" translate="yes" xml:space="preserve">
+          <source>The planning system deals with the entire supply and demand pattern of a particular item, whereas order tracking deals with the order that activated it.</source>
+        </trans-unit>
+        <trans-unit id="360" translate="yes" xml:space="preserve">
+          <source>The planning system deals with all levels of the BOM hierarchy, whereas order tracking deals with one BOM level at a time.</source>
+        </trans-unit>
+        <trans-unit id="361" translate="yes" xml:space="preserve">
+          <source>The planning system establishes links between demand and supply according to the prioritized due date.</source>
+        </trans-unit>
+        <trans-unit id="362" translate="yes" xml:space="preserve">
+          <source>Order tracking establishes links between demand and supply according to the order entry sequence.</source>
+        </trans-unit>
+        <trans-unit id="363" translate="yes" xml:space="preserve">
+          <source>The planning system takes planning parameters into account, whereas order tracking does not.</source>
+        </trans-unit>
+        <trans-unit id="364" translate="yes" xml:space="preserve">
+          <source>The planning system creates links in a user-activated batch mode when it balances demand and supply, whereas order tracking creates the links automatically and dynamically as the user enters orders.</source>
+        </trans-unit>
+        <trans-unit id="365" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="366" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Design Details: Central Concepts of the Planning System<ept id="p1">](design-details-central-concepts-of-the-planning-system.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="367" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Design Details: Supply Planning<ept id="p1">](design-details-supply-planning.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

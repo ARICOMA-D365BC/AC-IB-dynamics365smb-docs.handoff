@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="reports-saving-reusing-settings.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-5ae97a8" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cbbb072c4be3ec41684e426451c394cfa978c390</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\reports-saving-reusing-settings.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9fe9ec5990c8264ec391297069fc801bc14ac425</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c34d21bbef7605880aba37a98f0c914943f19de7</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Apply and Modify Saved Settings on Reports | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Describes using predefined options and filters to customize a report, and to generate the correct data.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Managing Saved Settings on Reports</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>When running a reports, users are typically presented with a page that lets them set certain options and filters for changing the data that is included in the generated report.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>This page is called the report request page.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>A report can include one or more <bpt id="p1">*</bpt>saved settings<ept id="p1">*</ept> that users can apply to the report from the request page.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Saved settings<ept id="p1">*</ept> are basically predefined options and filters.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Using saved settings is a fast and reliable way to consistently generate reports that contain the correct data.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>For more information about how saved settings are used, see <bpt id="p1">[</bpt>Using Saved Settings<ept id="p1">](ui-work-report.md#SavedSettings)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>If you have the proper permissions, you can view, create, and modify the saved settings for all reports for all users in company.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>You can assign saved settings for a report to individual users or all users in the company.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Create and modify saved settings for all users</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>You manage saved settings from page <bpt id="p1">**</bpt>1560 Reports Settings<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>There are two ways to open this page:</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Report Settings<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Open a report, choose the lookup next to the <bpt id="p1">**</bpt>Used default values from:<ept id="p1">**</ept> box, choose <bpt id="p2">**</bpt>Select from full list<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The page displays all the existing save settings entries for all users.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>If there is a user name in the <bpt id="p1">**</bpt>Assigned to<ept id="p1">**</ept> column, only that user can use the saved settings for the associated report.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>If there is a check mark in the <bpt id="p1">**</bpt>Share with all users<ept id="p1">**</ept> column, all users can use the saved settings for the report.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>From the <bpt id="p1">**</bpt>Report Settings<ept id="p1">**</ept> page, you can:</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>New<ept id="p1">**</ept> to create a new saved settings entry from scratch.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Select a saved settings entry from the list, and choose <bpt id="p1">**</bpt>Copy<ept id="p1">**</ept> to create a copy.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Select a saved settings entry from the list, and choose <bpt id="p1">**</bpt>Edit<ept id="p1">**</ept> to modify a saved settings entry.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Consider the name that you give a saved settings entry.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>If you create a saved settings entry for all users, and you give it the same name as an existing saved settings entry that is assigned to a specific user only, then that user will not be able to use the saved settings entry that is assigned to everyone.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>Saved Settings<ept id="p1">**</ept> on the report request page, the user will see two saved settings entries with the same name.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>However, no matter which option he chooses, the user-specific saved settings entry will be used.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The saved settings feature is available only on reports where the <bpt id="p1">[</bpt>SaveValues property<ept id="p1">](https://docs.microsoft.com/en-us/dynamics-nav/savevalues-property)</ept> of the report's request page is set to <ph id="ph1">`Yes`</ph>.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>SaveValues<ept id="p1">**</ept> property is set in the development environment.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Working with Reports and Batch Jobs<ept id="p1">](ui-work-report.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

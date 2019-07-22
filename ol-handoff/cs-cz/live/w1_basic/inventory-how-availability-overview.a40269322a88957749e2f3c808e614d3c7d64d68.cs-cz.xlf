@@ -1,0 +1,312 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="inventory-how-availability-overview.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-964a5eb" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">401cf22f3dcae1a48d42eb2ce618d9171545a2e4</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">financials\inventory-how-availability-overview.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d9a7c5ec03cf546ad0c7021dac82735b836f980f</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ffb9ac88b89f10025a2899d1be123cdc0d1fc37e</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Get an Availability Overview| Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>You can get information about the availability of items or stock across locations, per sales or purchase events, by a time period, or by the item's position on an assembly or production BOM.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>View the Availability of Items</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>From the context of a business task, you can get advanced information about when and where an item is available, such as when talking to a customer about a delivery date.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>You can view the availability of all items per location, and you can view the availability of each item by event, by period, or by location.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>An event is any scheduled item transaction, such as a sales shipment or an inbound transfer receipt.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Availability views by location require that you maintain inventory at more than one location.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Set Up Locations<ept id="p1">](inventory-how-setup-locations.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>In <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph>, availability figures are shown in two different fields, each with a different definition:</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Quantity on Hand<ept id="p1">**</ept> field shows the actual quantity today according to posted item ledger entries.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Projected Available Balance<ept id="p1">**</ept> field is calculated and shows the quantity on hand plus scheduled receipts minus gross requirements.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>(In <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph>, scheduled receipts include quantities on purchase orders and inbound transfer orders.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Gross requirements include quantities on sales orders and outbound transfer orders.)</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The projected available balance is especially relevant to view in the <bpt id="p1">**</bpt>Item Availability by Periods<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Item Availability by Event<ept id="p2">**</ept> windows as they contain the date dimension.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The following procedures describe how to view advanced availability information from the items list and item card.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>You can also access the information from sales document lines, for the item on the line.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Sell Products<ept id="p1">](sales-how-sell-products.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>To view the availability of an item according to when it will be received or shipped</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>You view the availability of an item according to scheduled item transactions in the <bpt id="p1">**</bpt>Availability by Event<ept id="p1">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Items<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Open the card of an item that you want to view availability for.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Item Availability by<ept id="p1">**</ept> action, and then choose the <bpt id="p2">**</bpt>Event<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Item Availability by Event<ept id="p1">**</ept> window shows how the inventory quantity of the item will develop over time according scheduled shipment and receipt events.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The window gives a condensed view that shows one line of accumulated information per time interval in which inventory quantities change.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Time intervals where no events occurred are not shown.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>You can expand each line to show details about the event or events that caused the accumulated quantity on the line.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Choose the value in the <bpt id="p1">**</bpt>Projected Available Balance<ept id="p1">**</ept> field to view the item ledger entries or open documents that make up the value.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>To view the availability of an item in different periods</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>You view the availability of an item over time for specified time periods in the <bpt id="p1">**</bpt>Item Availability by Periods<ept id="p1">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Items<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Open the card of an item that you want to view availability for.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Item Availability by<ept id="p1">**</ept> action, and then choose the <bpt id="p2">**</bpt>Period<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Item Availability by Periods<ept id="p1">**</ept> window shows how the inventory quantity of the item will develop over time, shown for a period that you select, such as Day, Week, or Quarter.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Choose the value in the <bpt id="p1">**</bpt>Projected Available Balance<ept id="p1">**</ept> field to view the item ledger entries or open documents that make up the value.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>To view the availability of an item at the locations where it is stored</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>You view the availability of an item at the different places where it is stored in the <bpt id="p1">**</bpt>Item Availability by Location<ept id="p1">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Items<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Open the card of an item that you want to view availability for.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Item Availability by<ept id="p1">**</ept> action, and then choose the <bpt id="p2">**</bpt>Location<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Item Availability by Location<ept id="p1">**</ept> window shows how the inventory quantity of the item will develop in the future, shown for each location where it is stored.</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Choose the value in the <bpt id="p1">**</bpt>Qty. on Hand<ept id="p1">**</ept> field to view the item ledger entries that make up the value.</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Choose the value in the <bpt id="p1">**</bpt>Projected Available Balance<ept id="p1">**</ept> field to view the item ledger entries or open documents that make up the value.</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>To view the availability of all items by the location where they are stored</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>You view the availability of all your items across all your locations in the <bpt id="p1">**</bpt>Items by Location<ept id="p1">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Items<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Items by Location<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Items by Location<ept id="p1">**</ept> window shows for all your items how many are available at each location.</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Choose the value in the <bpt id="p1">**</bpt>Qty. on Hand<ept id="p1">**</ept> field to view the item ledger entries that make up the value.</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>To view the availability of an item by its use in assembly or production BOMs</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>If an item exists in assembly or production BOMs, either as a parent item or as a component, then you can view how many units of its are required in the <bpt id="p1">**</bpt>Item Availability by BOM Level<ept id="p1">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The window shows how many units of a parent you can make based on the availability of child items on underlying lines.</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Any item that has an assembly or production BOM is shown in the window as a collapsible line.</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>You can expand this line to see the underlying components and lower-level subassemblies with their own BOMs.</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>You can use the window to find out whether you can fulfill a sales order for an item on a specified date by looking at its current availability and the quantities that can be supplied by its components.</source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>You can also use the window to identify bottlenecks in related BOMs.</source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>On each line in the window for both parent items and child items, the following key fields specify the availability figures.</source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>You can use these figures to promise how many units of a parent you can supply if you start the related assembly process.</source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Field</source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Able to Make Parent<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Shows how many units of any subassembly in the top item you can make.</source>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The field specifies how many immediate parent units you can assemble.</source>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The value is based on availability of the item on the line.</source>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Able to Make Top Item<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Shows how many units of the top item you can make.</source>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The field specifies how many units of the top-line BOM item you can assemble.</source>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The value is based on availability of the item on the line.</source>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Item Availability by BOM Level Window</source>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Item Availability by BOM Level<ept id="p1">**</ept> window shows information for the item on the card or document line that the window is opened for.</source>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The item is always shown on the top line.</source>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>You can view information for other items or for all items by changing the value in the <bpt id="p1">**</bpt>Item Filter<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>By default, availability figures on the lines show the total availability of all items under the top item.</source>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>These figures are displayed in the <bpt id="p1">**</bpt>Available Quantity<ept id="p1">**</ept> field, and the focus is on the top item.</source>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>However, information about how many subassemblies you can make may be skewed.</source>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>To get a true indication of how many of the shown subassemblies you can make, you must clear the <bpt id="p1">**</bpt>Show Total Availability<ept id="p1">**</ept> chack box and then see the figure in the <bpt id="p2">**</bpt>Able to Make Parent<ept id="p2">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Bottleneck<ept id="p1">**</ept> field specifies which item in the BOM structure restricts you from making a larger quantity than the quantity that is shown in the <bpt id="p2">**</bpt>Able to Make Top Item<ept id="p2">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>For example, the bottleneck item can be a purchased component with an expected receipt date that is too late to make additional units of the top item by the date in the <bpt id="p1">**</bpt>Needed by Date<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Assembly Availability Window</source>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Assembly Availability<ept id="p1">**</ept> window shows detailed availability information for the assembly item.</source>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>It opens:</source>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Automatically from a sales order line in assemble-to-order scenarios when you enter a quantity that causes a component availability issue.</source>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Automatically from an assembly order header when you enter a value in the Quantity field that causes a component availability issue.</source>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Manually when you open it from an assembly order.</source>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>On the Actions tab, in the Functions group, click Show Availability.</source>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Details<ept id="p1">**</ept> FastTab shows detailed availability information for the assembly item, including how many of the assembly order quantity can be assembled by the due date based on availability of the required components.</source>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>This is shown in the Able to Assemble field on the Details FastTab.</source>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The value in the <bpt id="p1">**</bpt>Able to Assemble<ept id="p1">**</ept> field is shown in red font if the quantity is lower than the quantity in the <bpt id="p2">**</bpt>Remaining Quantity<ept id="p2">**</ept> field, indicating that there are not enough components available to assemble the full quantity.</source>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Lines<ept id="p1">**</ept> FastTab shows detailed availability information for the assembly components.</source>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>If one or more assembly components are not available, then this is reflected in the <bpt id="p1">**</bpt>Able to Assemble<ept id="p1">**</ept> field on the line in question as a quantity less than the quantity in the <bpt id="p2">**</bpt>Remaining Quantity<ept id="p2">**</ept> field on the <bpt id="p3">**</bpt>Details<ept id="p3">**</ept> FastTab.</source>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Manage Inventory<ept id="p1">](inventory-manage-inventory.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Assembly Management<ept id="p1">](assembly-assemble-items.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Work with Bills of Materials<ept id="p1">](inventory-how-work-BOMs.md)</ept><ph id="ph1">  </ph></source>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Set Up Locations<ept id="p1">](inventory-how-setup-locations.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Transfer Inventory Between Locations<ept id="p1">](inventory-how-transfer-between-locations.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Sell Products<ept id="p1">](sales-how-sell-products.md)</ept><ph id="ph1">    </ph></source>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Working with Business Central<ept id="p1">](ui-work-product.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>General Business Functionality<ept id="p1">](ui-across-business-areas.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

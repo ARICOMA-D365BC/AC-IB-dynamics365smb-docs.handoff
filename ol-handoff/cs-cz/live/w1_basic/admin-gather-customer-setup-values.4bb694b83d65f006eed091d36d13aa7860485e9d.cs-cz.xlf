@@ -1,0 +1,318 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="admin-gather-customer-setup-values.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-435fba6" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9231f63266ba030bbf4b3ca41641d5210bcd49b8</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\admin-gather-customer-setup-values.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a7cb560f97867f6bb730c4512db3b75318f38bbc</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">44f0e409ad2ed2c4131f60ff47aa7a32e5f18b0f</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Gather Customer Setup Values | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>You use the configuration questionnaire to help reduce your implementation workload by streamlining the task of setting up the new company.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>You can generate the configuration questionnaire in Business Central and then provide it to your customer as an Excel (.xls) or XML file.</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Gather Customer Setup Values</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>You use the configuration questionnaire to help reduce your implementation workload by streamlining the task of setting up the new company.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>You can generate the configuration questionnaire in <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> and then provide it to your customer as an Excel or XML file.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You can change all default values in a questionnaire to more closely match customer needs.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>For more information about defining setup values in supply planning fields, see <bpt id="p1">[</bpt>Setup Best Practices: Supply Planning<ept id="p1">](setup-best-practices-supply-planning.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>When your customer completes the questionnaire, you import the file into the customer's new <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> company.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>You and your customer validate the questionnaire answers before you apply them to the company.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>To create a configuration questionnaire</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You can use a questionnaire to help you determine the scope and needs of configuration.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>You can create a new questionnaire, or modify an existing questionnaire by adding new questions or question areas.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You can create questionnaires for setup-type tables only.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>For example you can use the tool to provide information to the following pages:</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Company Information</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Fixed Asset Setup</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>General Ledger Setup</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Inventory Setup</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Assembly setup</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Manufacturing Setup</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Purchases and Payables Setup</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Marketing Setup</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Service Setup</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Sales and Receivables Setup</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Warehouse Setup</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>To see a complete list of setup tables, choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Setup<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>To determine the scope of migration of records data, use migration functionality.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Migrating Customer Data<ept id="p1">](admin-migrate-customer-data.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Configuration Questionnaire<ept id="p3">**</ept>, and choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>New<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Config. Questionnaire<ept id="p1">**</ept> page opens.</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Questions Areas<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Question Areas<ept id="p1">**</ept> page opens.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>New<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Config. Question Area<ept id="p1">**</ept> page opens.</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Table ID<ept id="p1">**</ept> field, choose the ID of the table for which you want to collect information.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Table Name<ept id="p1">**</ept> field is automatically filled in.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Update Questions<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Each field in the table is added to the questionnaire with a question mark following its label.</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>You can rephrase the label to make it clear how the question should be answered.</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>For example, if a field is called "Name," you could edit it to state "What is the name of <ph id="ph1">&lt;data being collected&gt;</ph>."</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>You can also provide guidance in the <bpt id="p1">**</bpt>Reference<ept id="p1">**</ept> field, including a URL to a page that provides additional information.</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>You can also delete any questions that you do not want to include in the questionnaire.</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Answer Option<ept id="p1">**</ept> field describes the type and format of the answer of the data that is appropriate.</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Answer<ept id="p1">**</ept> field contains user-supplied information.</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>As needed, you can also define default answers in the <bpt id="p1">**</bpt>Answer<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>These values are used by default for custom setup.</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>However, the person filling in the questionnaire can modify and update the answer.</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>To complete the configuration questionnaire</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>You use the configuration questionnaire to structure and document a detailed discussion about the customer’s specific needs.</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>You also use it to collect setup data from the customer to configure the relevant <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> setup tables, such as the general ledger, inventory, and customers.</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>You can also create your own configuration questionnaire to meet your needs.</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Open the company that you want to complete the questionnaire for.</source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Configuration Questionnaire<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Select the questionnaire for the company, and then choose the <bpt id="p1">**</bpt>Export to Excel<ept id="p1">**</ept> action, optionally the <bpt id="p2">**</bpt>Export to XML<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Have the customer complete the configuration questionnaire by entering the answers in the Excel workbook.</source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>There are worksheets for each of the question areas that have been created for the questionnaire.</source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Import from Excel<ept id="p1">**</ept> action, and select the .xlsx file with the customer's answers.</source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Question Areas<ept id="p1">**</ept> action to begin the process of validating and applying the answers to the configuration questionnaire.</source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>To complete a questionnaire from the configuration worksheet</source>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The following procedure provides an alternative way of accessing configuration questionnaires.</source>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>It assumes that the configuration package that you have been provided includes questionnaires.</source>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>After you import a configuration package, open the configuration worksheet.</source>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>For each table for which there is a question area, choose the <bpt id="p1">**</bpt>Questions<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The questionnaire page opens.</source>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Answer the questions, and then choose the <bpt id="p1">**</bpt>Apply Answers<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button to close the questionnaire.</source>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>To validate the configuration questionnaire</source>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>It is important to validate the configuration questionnaire before you apply it to the <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> format.</source>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>It is also a way to make sure that data formatting is preserved during the import from Excel.</source>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>A common validation task is to check that text strings are not entered in date fields.</source>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>This review process is necessary because the format of the answer in the questionnaire is not validated automatically when you run the <bpt id="p1">**</bpt>Apply Answers<ept id="p1">**</ept> function.</source>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>In general, validation of the configuration questionnaire is a manual process.</source>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>However, there are checks for regional formatting inconsistencies.</source>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>In addition, you will get errors if the structure of your <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> database does not match the structure of the migration database.</source>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Configuration Questionnaire<ept id="p1">**</ept> page, select the relevant questionnaire, and then choose the <bpt id="p2">**</bpt>Question Areas<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Open the relevant question area.</source>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>For each question, validate that the value in the <bpt id="p1">**</bpt>Answer<ept id="p1">**</ept> field corresponds to the format provided in the <bpt id="p2">**</bpt>Answer Option<ept id="p2">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>For example, validate that the address of a company is in text format.</source>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>If you find errors, you can troubleshoot and make corrections in Excel by exporting the questionnaire, and then importing it again.</source>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Alternatively, you can correct errors directly in <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> as you review the answers on the <bpt id="p1">**</bpt>Config. Question Area<ept id="p1">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Repeat these steps for each question area.</source>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>When you have completed your validation, the data is ready to be applied to the database.</source>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>To apply answers from the configuration questionnaire</source>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>After you have imported and validated information from a configuration questionnaire, you can transfer, or apply the setup data to the corresponding tables in the <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> database.</source>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Configuration Questionnaire<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Config. Questionnaire<ept id="p1">**</ept> page opens.</source>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Select a configuration questionnaire from the list, and then choose the <bpt id="p1">**</bpt>Edit List<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>You can apply answers in one of two ways.</source>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>To apply the whole questionnaire, choose the <bpt id="p1">**</bpt>Apply Answers<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>To apply answers for a specific <bpt id="p1">**</bpt>Question Area<ept id="p1">**</ept> only, choose the <bpt id="p2">**</bpt>Question Areas<ept id="p2">**</ept> action, select a <bpt id="p3">**</bpt>Question Area<ept id="p3">**</ept> in the list, and then choose the <bpt id="p4">**</bpt>Apply Answers<ept id="p4">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>To verify that answers have been applied successfully</source>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Check setup pages for the various functional areas of <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>To locate the page, choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter the name of the setup page, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Verify that the fields have been populated with the correct data from the various question areas in the configuration questionnaire.</source>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>You have now configured setup with the customer’s business information and rules.</source>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Setting Up a Company With RapidStart Services<ept id="p1">](admin-set-up-a-company-with-rapidstart.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Administration<ept id="p1">](admin-setup-and-administration.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

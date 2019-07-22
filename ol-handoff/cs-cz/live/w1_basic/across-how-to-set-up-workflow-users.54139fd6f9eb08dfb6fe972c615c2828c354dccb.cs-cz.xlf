@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="across-how-to-set-up-workflow-users.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-2e292eb" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b4ce5a807923cd052e97215118fa21c9da82abf2</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">financials\across-how-to-set-up-workflow-users.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5450abe4ab23dd77f09df19ecee61a87ad094c8c</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3f9d6648c2304c98a4e976a5cb190c771970b8bc</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>How to Set Up Workflow Users | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Before you can create workflows, you must set up the users who take part in workflows.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>This is necessary, for example, to specify who will receive a notification to act on a workflow step.</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Set Up Workflow Users</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Before you can create workflows, you must set up the users who take part in workflows.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>This is necessary, for example, to specify who will receive a notification to act on a workflow step.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Workflow User Group<ept id="p1">**</ept> window, you set up users under workflow user groups, and you specify the users’ number in a process sequence, such as an approver chain.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Workflow users that function as approval users, both approval requesters and approvers, must also be set up in the <bpt id="p1">**</bpt>Approval User Setup<ept id="p1">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Set Up Approval Users<ept id="p1">](across-how-to-set-up-approval-users.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>To define that an approval request is not approved until multiple approvers in an approval chain have approved it, set up approvers in a hierarchy.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>For approver type <bpt id="p1">**</bpt>Approver<ept id="p1">**</ept>, set approvers up in the <bpt id="p2">**</bpt>Approval User Setup<ept id="p2">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>For approver type, <bpt id="p1">**</bpt>Workflow User Group<ept id="p1">**</ept>, set approvers up in the <bpt id="p2">**</bpt>Workflow User Groups<ept id="p2">**</ept> window and define the hierarchy by assigning incremental numbers to each approver in the <bpt id="p3">**</bpt>Sequence No.<ept id="p3">**</ept></source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>field.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Set Up Approval Users<ept id="p1">](across-how-to-set-up-approval-users.md)</ept> and this topic.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>To define that an approval request is not approved until multiple equal approvers have approved it, regardless of a hierarchy, set up a flat workflow user group.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>For approver type, <bpt id="p1">**</bpt>Workflow User Group<ept id="p1">**</ept>, set up approvers in the <bpt id="p2">**</bpt>Workflow User Groups<ept id="p2">**</ept> window and assign the same number to each approver in the <bpt id="p3">**</bpt>Sequence No.<ept id="p3">**</ept></source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>field.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>For more information, see this topic.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>To set up a workflow user</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Workflow User Groups<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>New<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Workflow User Group<ept id="p1">**</ept> window opens.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Code<ept id="p1">**</ept> field, enter a maximum of 20 characters to identify the workflow.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Description<ept id="p1">**</ept> field, describe the workflow.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Workflow User Group Members<ept id="p1">**</ept> FastTab, fill the fields on the first line as described in the following table.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Field</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>User Name<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Specify the user who will take part in workflows.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The user must exist in the <bpt id="p1">**</bpt>User Setup<ept id="p1">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Manage Users and Permissions<ept id="p1">](ui-how-users-permissions.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Sequence No.<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Specify the order in which the workflow user engages in a workflow relative to other users.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>This field can be used, for example, to specify when the user approves relative to other approvers when you use the <bpt id="p1">**</bpt>Workflow User Group<ept id="p1">**</ept> option in the <bpt id="p2">**</bpt>Approver Type<ept id="p2">**</ept> field on the related workflow response.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>TIP:<ept id="p1">**</ept>  To define that an approval request is not approved until multiple equal approvers have approved it, irrespective of a hierarchy, set up a flat workflow user group by assigning the same sequence number to the relevant approvers.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Repeat step 5 to add more workflow users to the user group.</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Repeat steps 2 through 6 to add more workflow user groups.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Set Up Approval Users<ept id="p1">](across-how-to-set-up-approval-users.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Setting Up Workflows<ept id="p1">](across-set-up-workflows.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Using Workflows<ept id="p1">](across-use-workflows.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Walkthrough: Setting Up and Using a Purchase Approval Workflow<ept id="p1">](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Workflow<ept id="p1">](across-workflow.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

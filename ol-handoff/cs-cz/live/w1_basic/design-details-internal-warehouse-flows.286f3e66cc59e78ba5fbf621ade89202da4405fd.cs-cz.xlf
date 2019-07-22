@@ -1,0 +1,273 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="design-details-internal-warehouse-flows.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-15c36f0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">05b2a3130decb351b2bc2027c63b2517420a3c33</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">financials\design-details-internal-warehouse-flows.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a63ca6f0f17c4cc92d539baf94a8dfec565e6983</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a88f731a2daf95595e28c56c97125f6450131d1c</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Design Details - Internal Warehouse Flows | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>The flow of items between bins at a company location centers on picking components and putting away end items for assembly or production orders and ad-hoc movements, such as bin replenishments, without a relation to source documents.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Design Details: Internal Warehouse Flows</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The flow of items between bins at a company location centers on picking components and putting away end items for assembly or production orders and ad-hoc movements, such as bin replenishments, without a relation to source documents.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The scope and nature of the involved activities vary between basic and advanced warehousing.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Some internal flows overlap with inbound or outbound flows.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Some of this overlap is shown as steps 4 and 5 in the graphical diagrams for advanced inbound and outbound flows respectively.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Design Details: Inbound Warehouse Flow<ept id="p1">](design-details-outbound-warehouse-flow.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Internal Flows in Basic Warehousing</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>In basic warehouse configuration, the flow of items between bins inside the company centers on picking component and putting away end items for production or assembly orders and ad-hoc movements, such as bin replenishments, without relation to source documents.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Flows to and from Production</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The main integration between production orders and basic warehouse activities is represented by the ability to pick production components with the <bpt id="p1">**</bpt>Inventory Pick<ept id="p1">**</ept> or the <bpt id="p2">**</bpt>Inventory Movement<ept id="p2">**</ept> windows.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Inventory Pick<ept id="p1">**</ept> window, the component consumption is posted together with the pick posting.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>By using the <bpt id="p1">**</bpt>Inventory Movement<ept id="p1">**</ept> window, only bin adjustments are registered, no item ledger posting occurs.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>In addition to component handling, the integration is represented by the ability to put produced items away with the <bpt id="p1">**</bpt>Inventory Put-away<ept id="p1">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>To-Production Bin Code<ept id="p1">**</ept>, <bpt id="p2">**</bpt>From-Production Bin Code<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>Open Shop Floor Bin Code<ept id="p3">**</ept> fields on the location card or the machine/work center cards define default flows to and from production areas.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>For more information about how component consumption is flushed from the To-Production or Open Shop Floor bins, see the “Flushing Production Components in the Warehouse” section in this topic.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Flows to and from Assembly</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The main integration between assembly orders and basic warehouse activities is represented by the ability to move assembly components to the assembly area.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>While no specific warehouse functionality exists for putting assembly items away, the bin code on the assembly order header may be set to a default put-away bin.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Posting the assembly order then functions like posting a put-away.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The warehouse activity to move assembly items into the warehouse can be managed in the <bpt id="p1">**</bpt>Internal Movement<ept id="p1">**</ept> window, with no relation to the assembly order.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The following assembly flows exist.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Flow</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Assemble-to-stock</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The components are needed on an assembly order where the output is stored in the warehouse.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This warehouse flow is managed in the <bpt id="p1">**</bpt>Inventory Movement<ept id="p1">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>One take line specifies where to take the components.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>One place line specifies where to place the components.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Assemble-to-order</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The components are needed on an assembly order that is linked to a sales order that is shipped when the sold item is assembled.</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>If items are assembled to order, then the inventory pick of the linked sales order triggers an inventory movement for all the involved assembly components, not just for the sold item as when shipping inventory items.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>To-Assembly Bin Code<ept id="p1">**</ept>, <bpt id="p2">**</bpt>From-Assembly Bin Code<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>Asm.-to-Order Shpt. Bin Code<ept id="p3">**</ept> fields on the location card define default flows to and from assembly areas.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Asm.-to-Order Shpt. Bin Code<ept id="p1">**</ept> field functions as the from-assembly bin in assemble-to-order scenarios.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Ad-Hoc Movements</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>In basic warehousing, the movement of items from bin to bin without relation to source documents is performed in the <bpt id="p1">**</bpt>Internal Movement<ept id="p1">**</ept> window, which functions together with the <bpt id="p2">**</bpt>Inventory Movement<ept id="p2">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Another way to move items ad hoc between bins is to post positive entries in the <bpt id="p1">**</bpt>New Bin Code<ept id="p1">**</ept> field in the <bpt id="p2">**</bpt>Item Reclass. Journal<ept id="p2">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Internal Flows in Advanced Warehousing</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>In advanced warehouse configurations, the flow of items between bins inside the company centers on picking component and putting away end items for production orders and picking components for assembly orders.</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>In addition, internal flows occur as ad-hoc movements, such as bin replenishments, without relation to source documents.</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Flows To and From Production</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The main integration between production orders and advanced warehouse activities is represented by the ability to pick production components, in the <bpt id="p1">**</bpt>Warehouse Pick<ept id="p1">**</ept> window and the <bpt id="p2">**</bpt>Pick Worksheet<ept id="p2">**</ept> window, and the ability to put produced items away with the <bpt id="p3">**</bpt>Whse. Internal-Put-away<ept id="p3">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Another integration point in production is provided with the <bpt id="p1">**</bpt>Warehouse Movement<ept id="p1">**</ept> window, together with the Movement Worksheet window, which enables you to place components and take produced items for released production orders.</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>To-Production Bin Code<ept id="p1">**</ept>, <bpt id="p2">**</bpt>From-Production Bin Code<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>Open Shop Floor Bin Code<ept id="p3">**</ept> fields on the location card or the machine/work center cards define default flows to and from production areas.</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>For more information about how component consumption is flushed from the To-Production or Open Shop Floor Bins, see the “Flushing Production Components in the Warehouse” section in this topic.</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Flows to and from Assembly</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The main integration between assembly orders and advanced warehouse activities is represented by the ability to pick assembly components, both with the <bpt id="p1">**</bpt>Warehouse Pick<ept id="p1">**</ept> window and the <bpt id="p2">**</bpt>Pick Worksheet<ept id="p2">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>This functionality works just like when picking components for production orders.</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>While no specific warehouse functionality exists for putting assembly items away, the bin code on the assembly order header may be set to a default put-away bin.</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Posting the assembly order then functions like posting a put-away.</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The warehouse activity to move assembly items into the warehouse can be managed in the <bpt id="p1">**</bpt>Movement Worksheet<ept id="p1">**</ept> window or the <bpt id="p2">**</bpt>Whse. Internal Put-away<ept id="p2">**</ept> window, with no relation to the assembly order.</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>If items are assembled to order, then the warehouse shipment of the linked sales order triggers a warehouse pick for all the involved assembly components, not just for the sold item as when shipping inventory items.</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>To-Assembly Bin Code<ept id="p1">**</ept> and <bpt id="p2">**</bpt>From-Assembly Bin Code<ept id="p2">**</ept> fields on the location card define default flows to and from assembly areas.</source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Ad-Hoc Movements</source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>In advanced warehousing, the movement of items from bin to bin without relation to source documents is managed in the <bpt id="p1">**</bpt>Movement Worksheet<ept id="p1">**</ept> window and registered in the Warehouse Movement window.</source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Flushing Production Components in the Warehouse</source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>If set up on the item card, components picked with warehouse picks are posted as consumed by the production order when the warehouse pick is registered.</source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>By using the <bpt id="p1">**</bpt>Pick + Forward<ept id="p1">**</ept> method and the <bpt id="p2">**</bpt>Pick + Backward<ept id="p2">**</ept> flushing method, the pick registration triggers the related consumption posting when the first operation starts or when the last operation finishes, respectively.</source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Consider the following scenario based on the <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph> demonstration database, WHITE location.</source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>A production order for 15 PCS of item LS-100 exists.</source>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Some of the items on the component list must be flushed manually in a consumption journal, and other items on the list can be picked and flushed automatically using the <bpt id="p1">**</bpt>Pick + Backward<ept id="p1">**</ept> flushing method.</source>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Pick + Forward<ept id="p1">**</ept> only works if the second production routing line operation uses a routing link code.</source>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Releasing a planned production order initiates forward flushing of components set to <bpt id="p1">**</bpt>Pick + Forward<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>However, the flushing cannot take place until the pick of the components is registered, which again can only take place when the order is released.</source>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The following steps describe the involved actions by different users and the related response:</source>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The shop floor supervisor releases the production order.</source>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Items with <bpt id="p1">**</bpt>Forward<ept id="p1">**</ept> flushing method and no routing link code are deducted from the open shop floor bin.</source>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The shop floor supervisor chooses the <bpt id="p1">**</bpt>Create Warehouse Pick<ept id="p1">**</ept> button on the production order.</source>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>A warehouse pick document is created pick for items with <bpt id="p1">**</bpt>Manual<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Pick + Backward<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>Pick + Forward<ept id="p3">**</ept> flushing methods.</source>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>These items are placed in the To-Production bin.</source>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The warehouse manager assigns the picks to a warehouse worker.</source>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The warehouse worker picks the items from appropriate bins and places them in the To-Production bin or in the bin specified on the warehouse pick, which may be a work center or machine center bin.</source>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The warehouse worker registers the pick.</source>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The quantity is subtracted from the pick bins and added to the consumption bin.</source>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Qty. Picked<ept id="p1">**</ept> field on the component list for all picked items is updated.</source>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Only the quantity that is picked can be consumed.</source>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The machine operator informs the production manager that the end items are finished.</source>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The shop floor supervisor uses the consumption journal or production journal to post the consumption of component items that use either <bpt id="p1">**</bpt>Manual<ept id="p1">**</ept> flushing method or <bpt id="p2">**</bpt>Forward<ept id="p2">**</ept> or <bpt id="p3">**</bpt>Pick + Forward<ept id="p3">**</ept> flushing methods together with routing link codes.</source>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The production manager posts the output of the production order and changes status to <bpt id="p1">**</bpt>Finished<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The quantity of component items that use <bpt id="p1">**</bpt>Backward<ept id="p1">**</ept> flushing method is deducted from the open shop floor bin, and the quantity of component items that use <bpt id="p2">**</bpt>Pick + Backward<ept id="p2">**</ept> flushing method is deducted from the To-Production bin.</source>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The following illustration shows when the <bpt id="p1">**</bpt>Bin Code<ept id="p1">**</ept> field on the component list is filled according to your location or machine/work center setup.</source>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">![</bpt>Bin flow chart<ept id="p1">]</ept><bpt id="p2">(media/binflow.png "</bpt>BinFlow<ept id="p2">")</ept></source>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Design Details: Warehouse Management<ept id="p1">](design-details-warehouse-management.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

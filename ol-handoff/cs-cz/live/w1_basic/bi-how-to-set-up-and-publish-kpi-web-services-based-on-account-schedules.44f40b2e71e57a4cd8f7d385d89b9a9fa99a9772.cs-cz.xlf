@@ -1,0 +1,153 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-2e292eb" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">57f36592105faf0801864e034c3b930ae196ee62</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">financials\bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8e4c3cdbd7ed357f0564e51daf55b2eb2eb753b9</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2bb0224c8ccea3dd1d7f8787910e3130102fb09e</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>How to Set Up and Publish KPI Web Services Based on Account Schedules | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>In the <bpt id="p1">**</bpt>Account Schedule KPI Web Service Setup<ept id="p1">**</ept> window, you set up how to show the account-schedule KPI data and which specific account schedules to base the KPIs on.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Set Up and Publish KPI Web Services Based on Account Schedules</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Account Schedule KPI Web Service Setup<ept id="p1">**</ept> window, you set up how to show the account-schedule KPI data and which specific account schedules to base the KPIs on.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>When you choose the <bpt id="p1">**</bpt>Publish Web Service<ept id="p1">**</ept> button, the specified account-schedule KPI data is added to the list of published web services in the <bpt id="p2">**</bpt>Web Services<ept id="p2">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>To set up and publish a KPI web service that is based on account schedules</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Account Schedule KPI Web Service Setup<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>General<ept id="p1">**</ept> FastTab, fill in the fields as described in the following table.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Field</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Forecasted Values Start<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Specify at what point in time forecasted values are shown on the account-schedule KPI graphic.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The forecasted values are retrieved from the general ledger budget that you select in the <bpt id="p1">**</bpt>G/L Budget Name<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept>  To obtain KPIs that show forecasted figures after a certain date and actual figures before the date, you can change the <bpt id="p2">**</bpt>Allow Posting From<ept id="p2">**</ept> field in the <bpt id="p3">**</bpt>General Ledger Setup<ept id="p3">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>For more information, see Allow Posting From.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>G/L Budget Name<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Specify the name of the general ledger budget that provides forecasted values to the account-schedule KPI web service.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Period<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Specify the period that the account-schedule KPI web service is based on.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>View By<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Specify which time interval the account-schedule KPI is shown in.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Web Service Name<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Specify the name of the account-schedule KPI web service.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This name will appear in the <bpt id="p1">**</bpt>Service Name<ept id="p1">**</ept> field in the <bpt id="p2">**</bpt>Web Services<ept id="p2">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Proceed to specify one or more account schedules that you want to publish as a KPI web service according to the setup that you made in the previous table.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Account Schedules<ept id="p1">**</ept> FastTab, fill in the fields as described in the following table.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Field</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Acc. Schedule Name<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Specify the account schedule that the KPI web service is based on.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Acc. Schedule Description<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Specify the description of the account schedule that the KPI web service is based on.</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Repeat step 3 for all the account schedules that you want to base the account-schedule KPI web service on.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>To view or edit the selected account schedule, on the <bpt id="p1">**</bpt>Account Schedule<ept id="p1">**</ept> FastTab, choose the <bpt id="p2">**</bpt>Edit Account Schedule<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>To view the account-schedule KPI data that you have set up, choose the <bpt id="p1">**</bpt>Account Schedule KPI Web Service<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>To publish the account-schedule KPI web service, choose the <bpt id="p1">**</bpt>Publish Web Service<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The web service is added to the list of published web services in the <bpt id="p1">**</bpt>Web Services<ept id="p1">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>You can also publish the KPI web service by pointing to the <bpt id="p1">**</bpt>Account Schedule KPI Web Service Setup<ept id="p1">**</ept> page object from the <bpt id="p2">**</bpt>Web Services<ept id="p2">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Publish a Web Service<ept id="p1">](across-how-publish-web-service.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Business Intelligence<ept id="p1">](bi.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Finance<ept id="p1">](finance.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Setting Up Finance<ept id="p1">](finance-setup-finance.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>The General Ledger and the Chart of Accounts<ept id="p1">](finance-general-ledger.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Working with <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph><ept id="p1">](ui-work-product.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

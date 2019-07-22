@@ -1,0 +1,132 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="across-exchange-data.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-435fba6" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">678b15b8d15dba477ac09c2651964525f4afe26a</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\across-exchange-data.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7c6fcc1bc6fae6f31dababa33a2a4c860e59aa38</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">45075ebe9762eb89627047d39fd0085aa4a2bf91</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Exchange Data | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>You can exchange data between Business Central and external files or streams in connection with common business tasks, such as sending and receiving electronic documents and importing and exporting bank files.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Exchanging Data</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You can exchange data between <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> and external files or streams in connection with common business tasks, such as sending and receiving electronic documents and importing and exporting bank files.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Before you can send and receive electronic documents or import and export bank files, you must set up the data exchange framework to process the involved data files or streams.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>In addition, you must set up related areas.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>These include master data for customers that you send electronic invoices to and the bank data conversion service in case you distribute bank file conversions to an external service provider.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Setting Up Data Exchange<ept id="p1">](across-set-up-data-exchange.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The following table describes a sequence of tasks, with links to the topics that describe them.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>To<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>See<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Convert sales document records in <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> to a standardized format and send them as electronic documents that your customers can receive into their system.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Send Electronic Documents<ept id="p1">](sales-how-to-send-electronic-documents.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Send PDF or image files to a provider of OCR services, and receive them back as electronic documents that can be converted to document records in <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Use OCR to Turn PDF and Image Files into Electronic Documents<ept id="p1">](across-how-use-ocr-pdf-images-files.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Receive electronic documents, either from the OCR service or the document exchange service, in a standardized format that you convert to the relevant document records in <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Receive and Convert Electronic Documents<ept id="p1">](purchasing-how-to-receive-and-convert-electronic-documents.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Prepare to import a bank statement file into the <bpt id="p1">**</bpt>Payment Reconciliation Journal<ept id="p1">**</ept> page as the first step in reconciling payments or into the <bpt id="p2">**</bpt>Bank Acc. Reconciliation<ept id="p2">**</ept> page as the first step in reconciling bank accounts.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Set Up the Envestnet Yodlee Bank Feeds Service<ept id="p1">](bank-how-setup-bank-statement-service.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Export payments from the <bpt id="p1">**</bpt>Payment Journal<ept id="p1">**</ept> page to a bank file that you upload to your electronic bank account for processing.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Export Payments to a Bank File<ept id="p1">](payables-how-export-payments-bank-file.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Make electronic payments according to the EU SEPA Credit Transfer standard.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Making Payments with Bank Data Conversion Service or SEPA Credit Transfer<ept id="p1">](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Instruct your bank to transfer payment amounts from your customers’ bank accounts to your company’s account according to your setup of SEPA direct debit.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Create SEPA Direct Debit Collection Entries and Export to a Bank File<ept id="p1">](finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Use a service provider of currency exchange rates to update the <bpt id="p1">**</bpt>Currencies<ept id="p1">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Update Currency Exchange Rates<ept id="p1">](finance-how-update-currencies.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>View which file elements are mapped to fields in <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> when importing SEPA CAMT statement files.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Field Mapping When Importing SEPA CAMT Files<ept id="p1">](across-field-mapping-when-importing-sepa-camt-files.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>View which fields in <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> are mapped to file elements when exporting payment files by using the Bank Date Conversion Service feature.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Field Mapping When Exporting Payment Files Using Bank Data Conversion Service<ept id="p1">](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Setting Up Data Exchange<ept id="p1">](across-set-up-data-exchange.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Exchanging Data Electronically<ept id="p1">](across-data-exchange.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Invoice Sales<ept id="p1">](sales-how-invoice-sales.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Record Purchases<ept id="p1">](purchasing-how-record-purchases.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Incoming Documents<ept id="p1">](across-income-documents.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>General Business Functionality<ept id="p1">](ui-across-business-areas.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

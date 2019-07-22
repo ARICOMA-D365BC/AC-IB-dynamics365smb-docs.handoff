@@ -1,0 +1,273 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="fa-how-revalue.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-5ae97a8" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">bdb382f350e3edbb3e76bac1272ba534fcec8ad4</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\fa-how-revalue.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">23fc4b5848c6dbeae0a50cf56d5e9fbb4df2fc1f</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">27b6c198a8f867a440cca56d6faa8cd81f8fe299</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Revalue Fixed Assets| Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Learn how to adjust the value of fixed assets, recording new amounts as a write-down or appreciation, and post additional acquisition costs.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Revalue Fixed Assets</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Revaluation of fixed assets can consist of appreciations, write-downs, or general value adjustments.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>When the value of a fixed asset has increased, you post a journal line with a higher amount, an appreciation, to the depreciation book.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The new amount is recorded as an appreciation according to the fixed asset posting setup.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>When the value of a fixed asset has decreased, you post a journal line with a lower amount, a write-down, to the depreciation book.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The new amount is recorded as a write-down according to the fixed asset posting setup.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Indexation is used to adjust multiple fixed asset values, for example per general price changes.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Index Fixed Assets<ept id="p1">**</ept> batch job can be used to change various amounts, such as write-down and appreciation amounts.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>To post an appreciation from the fixed asset G/L journal</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>FA G/L Journals<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Create an initial journal line and fill in the fields as necessary.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>FA Posting Type<ept id="p1">**</ept> field, select <bpt id="p2">**</bpt>Revaluation<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Insert FA Bal. Account<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>A second journal line is created for the balancing account that is set up for appreciation posting.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Step 4 only works if you have set up the following: On the <bpt id="p1">**</bpt>FA Posting Group Card<ept id="p1">**</ept> page for the posting group of the fixed asset, the <bpt id="p2">**</bpt>Appreciation Account<ept id="p2">**</ept> field contains the general ledger debit account and the <bpt id="p3">**</bpt>Appreciation Bal. Account<ept id="p3">**</ept> field contains the general ledger account to which you want to post balancing entries for appreciation.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>To set up fixed asset posting groups<ept id="p1">](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Post<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>To post a write-down from the fixed asset G/L journal</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>FA G/L Journals<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Create an initial journal line, and fill in the fields as necessary.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>FA Posting Type<ept id="p1">**</ept> field, select <bpt id="p2">**</bpt>Write-Down<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Insert FA Bal. Account<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>A second journal line is created for the balancing account that is set up for write-down posting.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Step 4 only works if you have set up the following: On the <bpt id="p1">**</bpt>FA Posting Group Card<ept id="p1">**</ept> page for the posting group of the fixed asset, the <bpt id="p2">**</bpt>Write-Down Account<ept id="p2">**</ept> field contains the general ledger credit account and the <bpt id="p3">**</bpt>Write-Down Expense Account<ept id="p3">**</ept> field contains the general ledger debit account to which you want to post balancing entries for write-downs.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>To set up fixed asset posting groups<ept id="p1">](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Post<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>To perform general revaluation of fixed assets</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Indexation is used to adjust multiple fixed asset values, for example per general price changes.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Index Fixed Assets<ept id="p1">**</ept> batch job can be used to change various amounts, such as write-down and appreciation amounts.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Allow Indexation<ept id="p1">**</ept> check box on the <bpt id="p2">**</bpt>Depreciation Book<ept id="p2">**</ept> page must be selected.</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Index Fixed Assets<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Fill in the fields as necessary.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Revaluation lines are created per your settings in step 2.</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The lines are created in either the fixed asset journal or the fixed asset G/L journal, depending on your template and batch setup on the <bpt id="p1">**</bpt>FA Journal Setup<ept id="p1">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Set Up General Fixed Asset Information<ept id="p1">](fa-how-setup-general.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>FA G/L Journals<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Select the journal with the fixed assets that you want to revalue, and then choose the <bpt id="p1">**</bpt>Ledger Entries<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Check the created entries, and then choose the <bpt id="p1">**</bpt>Post<ept id="p1">**</ept> action to post the journal.</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>If the index figures are for simulation purposes only, you can create a special depreciation book to store them in.</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Then these entries will not affect any of the other depreciation books.</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>To post additional acquisition costs</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>You post additional acquisition cost for a fixed asset in the same way as you post the original acquisition cost: from a purchase invoice or from a fixed asset journal.</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Acquire Fixed Assets<ept id="p1">](fa-how-acquire.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>If depreciation has already been calculated for the fixed asset, select the <bpt id="p1">**</bpt>Depr. Acquisition Cost<ept id="p1">**</ept> check box to have the additional acquisition cost less the salvage value depreciated in proportion to the amount by which the previously acquired fixed asset has already been depreciated.</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>This ensures that the depreciation period is not changed.</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The depreciation percentage is calculated as:</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>P = (total depreciation x 100) / depreciable basis<ept id="p1">*</ept></source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Depreciation amount = (P/100) x (extra acquisition cost - salvage value)<ept id="p1">*</ept></source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Remember to select the <bpt id="p1">**</bpt>Depr. until FA Posting Date<ept id="p1">**</ept> check box on the invoice, the fixed asset G/L journal, or the fixed asset journal lines to ensure that depreciation is calculated from the last fixed asset posting date to the posting date of the additional acquisition cost.</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Example - Posting Additional Acquisition Costs</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>A machine is purchased on August 1, 2000.</source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The acquisition cost is 4,800.</source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The depreciation method is straight-line over four years.</source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>On August 31, 2000, the <bpt id="p1">**</bpt>Calculate Depreciation<ept id="p1">**</ept> batch job is run.</source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Depreciation is calculated as:</source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>book value x number of depreciation days / total number of depreciation days = 4800 x 30 / 1440 = 100<ept id="p1">*</ept></source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>On September 15, 2000, an invoice is posted for painting the machine.</source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The invoice amount is 480.</source>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>If you selected the <bpt id="p1">**</bpt>Depr. until FA Posting Date<ept id="p1">**</ept> check box on the invoice before posting, the following calculation is made:</source>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>15 days of depreciation (from 09/01/00 to 09/15/00) is calculated as:</source>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>book value x number of depreciation days / remaining number of depreciation days = (4800 - 100) x 15 / 1410 = 50<ept id="p1">*</ept></source>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>If you selected the <bpt id="p1">**</bpt>Depr. Acquisition Cost<ept id="p1">**</ept> check box on the invoice before posting, the following calculation is made:</source>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>The additional acquisition cost is depreciated by ((150 x 100) / 4800) / 100 x 480 = 15<ept id="p1">*</ept></source>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The depreciable basis is now <bpt id="p1">*</bpt>5280 = (4800 + 480)<ept id="p1">*</ept>, and the accumulated depreciation is <bpt id="p2">*</bpt>165 = (100 + 50 + 15)<ept id="p2">*</ept>, corresponding to 45 days of depreciation of the total acquisition cost.</source>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>This means that the asset will be totally depreciated within the estimated lifetime of four years.</source>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>When the <bpt id="p1">**</bpt>Calculate Depreciation<ept id="p1">**</ept> batch job is run on 09/30/00, the following calculation is made:</source>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Remaining depreciable life is 3 years, 10 months and 15 days = 1395 days<ept id="p1">*</ept></source>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Book value is (5280 - 165) = 5115<ept id="p1">*</ept></source>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Depreciation amount for September 2000: 5115 x 15 / 1395 = 55.00<ept id="p1">*</ept></source>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Total of depreciation = 165 + 55 = 220<ept id="p1">*</ept></source>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>If you did not select the <bpt id="p1">**</bpt>Depr. until FA Posting Date<ept id="p1">**</ept> check box, the asset would lose 15 days of depreciation because the <bpt id="p2">**</bpt>Calculate Depreciation<ept id="p2">**</ept> batch job run on 09/30/00 would calculate depreciation from 09/15/00 to 09/30/00.</source>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>This means that when the <bpt id="p1">**</bpt>Calculate Depreciation<ept id="p1">**</ept> batch job is run on 09/30/00, the calculation is as follows:</source>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Remaining life time is 3 years, 10 months and 15 days = 1395 days<ept id="p1">*</ept></source>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Book value is (4800 + 480 - 100 - 15) = 5165<ept id="p1">*</ept></source>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Depreciation amount for September 2000: 5165 x 15 / 1395 = 55.54<ept id="p1">*</ept></source>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Total of depreciation = 100 + 15 + 55.54 = 170.54<ept id="p1">*</ept></source>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Fixed Assets<ept id="p1">](fa-manage.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Setting Up Fixed Assets<ept id="p1">](fa-setup.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Finance<ept id="p1">](finance.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Getting Started<ept id="p1">](product-get-started.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Working with <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph><ept id="p1">](ui-work-product.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

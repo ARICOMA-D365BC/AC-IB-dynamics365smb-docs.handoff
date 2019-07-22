@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="receivables-how-reconcile-payments-cannot-apply-auto.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-15c36f0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">70838daaf689290e991b93df1eec9d7e49ed8371</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">financials\receivables-how-reconcile-payments-cannot-apply-auto.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6f98d4410b406ad5412ca8e0620f81bf64737061</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f13387af4c8e356913e82c9f3320dac4716750f1</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Using the Transfer Difference to Account Feature to Reconcile Payments | Microsoft Docs'</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Describes how to process payments that cannot be applied to a document, for example, when an exchange rate causes amounts to differ.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Reconcile Payments That Cannot be Applied Automatically</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You may sometimes have to handle payments to your bank account that cannot be applied to a related open customer, vendor or bank account ledger entry.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Reasons may be that no document exists in <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph> that the payment can be applied to, or the related document in <ph id="ph2">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph> has a different amount than the transaction amount, for example, because of currency exchange.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Payment Reconciliation Journal<ept id="p1">**</ept> window, all transaction amounts for payments that are not yet applied appear in the <bpt id="p2">**</bpt>Difference<ept id="p2">**</ept> field, including amounts that cannot be applied because of reasons such as the above.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Payments that cannot be applied can appear on payment reconciliation journal lines in the following different ways:</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The value in the <bpt id="p1">**</bpt>Difference<ept id="p1">**</ept> field is equal to the value in the <bpt id="p2">**</bpt>Transaction Amount<ept id="p2">**</ept> field, which indicates that no part of the payment can be applied to a related open customer, vendor, or bank account ledger entry.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The value in the <bpt id="p1">**</bpt>Difference<ept id="p1">**</ept> field is lower than the value in the <bpt id="p2">**</bpt>Transaction Amount<ept id="p2">**</ept> field, which indicates that a part of the payment can be applied to a related open customer, vendor, or bank account ledger entry.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The remaining part of the payment cannot be applied and must be reconciled manually or by posting it directly to an account.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>To reconcile such payments, you can choose the <bpt id="p1">**</bpt>Transfer Difference to Account<ept id="p1">**</ept> button and then specify to which account the amount in the <bpt id="p2">**</bpt>Difference<ept id="p2">**</ept> field will be posted when you post the payment reconciliation journal.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Similar functionality exists to set up automatic reconciliation of recurring payments that cannot be applied to related open customer, vendor, or bank account ledger entries.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Map Text on Recurring Payments to Accounts for Automatic Reconciliation<ept id="p1">](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>To reconcile payments that cannot be applied</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Payment Reconciliation Journals<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Open a payment reconciliation journal.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Reconcile Payments Using Automatic Application<ept id="p1">](receivables-how-reconcile-payments-auto-application.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Transfer Difference to Account<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Transfer Difference to Account<ept id="p1">**</ept> window opens.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Account Type<ept id="p1">**</ept> field, specify if the type of account that the payment amount will be posted to.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Account No.<ept id="p1">**</ept> field, specify the account that the payment amount will be posted to.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Description<ept id="p1">**</ept> field, specify text that describes this direct payment posting.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>By default, the text in the <bpt id="p1">**</bpt>Transaction Text<ept id="p1">**</ept> field on the payment reconciliation journal line is inserted.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>If the value in the <bpt id="p1">**</bpt>Difference<ept id="p1">**</ept> field was equal to the value in the <bpt id="p2">**</bpt>Transaction Amount<ept id="p2">**</ept> field when you post the payment reconciliation journal, the whole payment on the journal line will be posted directly to the specified balancing account.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>If the value in the <bpt id="p1">**</bpt>Difference<ept id="p1">**</ept> field was lower than the value in the <bpt id="p2">**</bpt>Transaction Amount<ept id="p2">**</ept> field, then an additional journal line will be created with the same text and date and with the difference inserted in the <bpt id="p3">**</bpt>Transaction Amount<ept id="p3">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>On the original journal line, the difference will be deducted from the value in the <bpt id="p1">**</bpt>Transaction Amount<ept id="p1">**</ept> field, and the payment will remain applied to its related customer, vendor, or bank account ledger entry.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>When you post the payment reconciliation journal, one part of the payment will be posted as an applied payment.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The other part of the payment will be posted directly to the specified account.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Managing Receivables<ept id="p1">](receivables-manage-receivables.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Sales<ept id="p1">](sales-manage-sales.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Working with <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph><ept id="p1">](ui-work-product.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

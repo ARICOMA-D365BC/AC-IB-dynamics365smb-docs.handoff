@@ -1,0 +1,366 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="sales-how-to-calculate-order-promising-dates.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-435fba6" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2b1eae5f8562999f3fca227b6de6778ef1c5374e</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\sales-how-to-calculate-order-promising-dates.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8480d1b5b137f76507c637d50dd83b61eba471dc</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6c974176f8d00c99e4b817006715827fdae05ac4</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>How to Calculate Order Promising Dates | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>The order promising function is a tool for calculating the earliest possible date that an item is available for shipment or delivery.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>It also creates requisition lines for those dates that you accept.</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Calculate Order Promising Dates</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>A company must be able to inform their customers of order delivery dates.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Order Promising Lines<ept id="p1">**</ept> page enables you to do this from a sales order line.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Based on an item’s known and expected availability dates, <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> instantly calculates shipment and delivery dates, which can then be promised to the customer.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>If you specify a requested delivery date on a sales order line, then that date is used as the starting point for the following calculations:</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>requested delivery date - shipping time = planned shipment date</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>planned shipment date - outbound whse. handling time = shipment date</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>If the items are available to pick on the shipment date, then the sales process can continue.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>If the items are not available to be picked on the shipment date, then a stock-out warning is displayed.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>If you do not specify a requested delivery date on a sales order line, or if the requested delivery date cannot be met, then the earliest date on which that the items are available is calculated.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>That date is then entered in the <bpt id="p1">**</bpt>Shipment Date<ept id="p1">**</ept> field on the line, and the date on which you plan to ship the items as well as the date on which they will be delivered to the customer are calculated using the following calculations:</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>shipment date + outbound whse. handling time = planned shipment date</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>planned shipment date + shipping time = planned delivery date</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>About Order Promising</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The Order Promising functionality enables you to promise an order to be shipped or delivered on a specific date.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The date that an item is available to promise or capable to promise is calculated, and order lines are created for those dates that you accept.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The functionality calculates the earliest possible date that an item is available for shipment or delivery.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>It also creates requisition lines, in case the items must first be purchases, for those dates that you accept.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> uses two fundamental concepts:</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Available to Promise (ATP)</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Capable to Promise (CTP)</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Available to Promise</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Available to promise (ATP) calculates dates based on the reservation system.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>It performs an availability check of the unreserved quantities in inventory with regard to planned production, purchases, transfers, and sales returns.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Based on this information, <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> automatically calculates the delivery date of the customer’s order because the items are available, either in inventory or on planned receipts.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Capable to Promise</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Capable to promise (CTP) assumes a “what if” scenario, which only applies to item quantities that are not in inventory or on scheduled orders.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Based on this scenario, <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> calculates the earliest date that the item can be available if it is to be produced, purchased, or transferred.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Example</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>If there is an order for 10 pieces, and 6 pieces are available in inventory or on scheduled orders, then the Capable-to-Promise calculation will be based on 4 pieces.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Calculations</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>When <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> calculates the customer’s delivery date, it performs two tasks:</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Calculates the earliest delivery date when the customer has not requested a specific delivery date.</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Verifies if the delivery date requested by the customer or promised to the customer is realistic.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>If the customer does not request a specific delivery date, the shipment date is set to equal the work date, and availability is then based on that date.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>If the item is in inventory, <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> calculates forward in time to determine when the order can be delivered.</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>This is accomplished by the following formulas:</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Shipment Date + Outbound Warehouse Handling Time = Planned Shipment Date</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Planned Shipment Date + Shipping Time = Planned Delivery Date</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> then verifies if the calculated delivery date is realistic by calculating backward in time to determine when the item must be available to meet the promised date.</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>This is accomplished by the following formulas:</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Planned Delivery Date - Shipping Time = Planned Shipment Date</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Planned Shipment Date - Outbound Warehouse Handling = Shipment Date</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The shipment date is used to make the availability check.</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>If the item is available on this date, <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> confirms that therequested/promised delivery can be met by setting the planned delivery date to equal the requested/promised delivery date.</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>If the item is unavailable, it returns a blank date and the order processor can then use the CTP functionality.</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Based on new dates and times, all related dates are calculated according to the formulas listed earlier in this section.</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The CTP calculation takes longer but it gives an accurate date when the customer can expect to have the item delivered.</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The dates that are calculated from CTP are presented in the <bpt id="p1">**</bpt>Planned Delivery Date<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Earliest Shipment Date<ept id="p2">**</ept> fields on the <bpt id="p3">**</bpt>Order Promising Lines<ept id="p3">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The order processor finishes the CTP process by accepting the dates.</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>This means that a planning line and a reservation entry are created for the item before the calculated dates to ensure that the order is fulfilled.</source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>In addition to the external order promising that you can perform on the <bpt id="p1">**</bpt>Order Promising Lines<ept id="p1">**</ept> page, you can also promise internal or external delivery dates for bill-of-material items.</source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>View the Availability of Items<ept id="p1">](inventory-how-availability-overview.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>To set up order promising</source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Order Promising Setup<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Enter a number and time unit code in the <bpt id="p1">**</bpt>Offset(Time)<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Select one of the following codes.</source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Code</source>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>d<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Calendar day</source>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>w<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Week</source>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>m<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Month</source>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>q<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Quarter</source>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>y<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Year</source>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>For example, "3w" indicates that the offset time is three weeks.</source>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>To indicate the current period, prefix to any of these codes with the letter “c”.</source>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>For example, if you want the offset time to be the current month, enter <bpt id="p1">**</bpt>cm<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Enter a number series in the <bpt id="p1">**</bpt>Order Promising Nos.<ept id="p1">**</ept> field by selecting a line from the list on the <bpt id="p2">**</bpt>No. Series<ept id="p2">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Enter an order promising template in the <bpt id="p1">**</bpt>Order Promising Template<ept id="p1">**</ept> field by selecting a line from the list on the <bpt id="p2">**</bpt>Req. Worksheet Template List<ept id="p2">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Enter a requisition worksheet in the <bpt id="p1">**</bpt>Order Promising Worksheet<ept id="p1">**</ept> field by selecting a line from the list on the <bpt id="p2">**</bpt>Req. Wksh. Names<ept id="p2">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>To enter inbound warehouse handling time in the inventory setup page</source>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>If you want to include warehouse handling time in the order promising calculation on the purchase line, you can set it up as a default for the inventory and for your location.</source>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Inventory Setup<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>General<ept id="p1">**</ept> FastTab, in the <bpt id="p2">**</bpt>Inbound Whse. Handling Time<ept id="p2">**</ept> field, enter the number of days that you want to include in the order promising calculation.</source>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>If you have filled in the <bpt id="p1">**</bpt>Inbound Whse. Handling Time<ept id="p1">**</ept> field on the <bpt id="p2">**</bpt>Location Card<ept id="p2">**</ept> for your location this field is used as the default inbound warehouse handling time.</source>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>To enter inbound warehouse handling time on location cards</source>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Location<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Open the relevant location card.</source>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Warehouse<ept id="p1">**</ept> FastTab, in the <bpt id="p2">**</bpt>Inbound Whse. Handling Time<ept id="p2">**</ept> field, enter the number of days that you want to be included in the order promising calculation.</source>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>If you leave the <bpt id="p1">**</bpt>Inbound Whse. Handling Time<ept id="p1">**</ept> field blank, then the calculation uses the value in the <bpt id="p2">**</bpt>Inventory Setup<ept id="p2">**</ept>  page.</source>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>To enter outbound warehouse handling time in the inventory setup page</source>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>If you want to set up an outbound warehouse handling time to be included in the order promising calculation on the sales line, you can set this up as a default for the inventory.</source>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Inventory Setup<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>General<ept id="p1">**</ept> FastTab, in the <bpt id="p2">**</bpt>Outbound Whse. Handling Time<ept id="p2">**</ept> field, enter the number of days you want to include in the order promising calculation.</source>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>If you have filled in the <bpt id="p1">**</bpt>Outbound Whse. Handling Time<ept id="p1">**</ept> field on the Location card for your location, this field is used as the default outbound warehouse handling time.</source>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>To enter outbound warehouse handling time on location cards</source>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Locations<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Open the relevant location card.</source>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Warehouse<ept id="p1">**</ept> FastTab, in the <bpt id="p2">**</bpt>Outbound Whse. Handling Time<ept id="p2">**</ept> field, enter the number of days that you want to include in the order promising calculation.</source>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>If you leave the <bpt id="p1">**</bpt>Outbound Whse. Handling Time<ept id="p1">**</ept> field blank, then the calculation uses the value in the <bpt id="p2">**</bpt>Inventory Setup<ept id="p2">**</ept>  page.</source>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>To make an item critical</source>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Before an item can be included in the order promising calculation, it must be marked as critical.</source>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>This setup ensures that non-critical items do not cause irrelevant order promising calculations.</source>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Items<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Open the relevant item card.</source>
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Planning<ept id="p1">**</ept> FastTab, select the <bpt id="p2">**</bpt>Critical<ept id="p2">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>To calculate an order promising date</source>
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Sales Order<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Open the relevant sales order and select the sales order lines that you want the program to calculate.</source>
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Order Promising<ept id="p1">**</ept> action, and then choose the <bpt id="p2">**</bpt>Order Promising Lines<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Select a line, and then select one of the following options:</source>
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Available-to-Promise<ept id="p1">**</ept> if you want to calculate the earliest date that the item will be available with respect to inventory, scheduled receipts, and gross requirements.</source>
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Capable-to-Promise<ept id="p1">**</ept> if you know that the item is presently out of stock and you want to calculate the earliest date that the item can be available by issuing new replenishment requisitions.</source>
+        </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Accept<ept id="p1">**</ept> button to accept the earliest shipment date available.</source>
+        </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Sales<ept id="p1">](sales-manage-sales.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Date Calculation for Purchases<ept id="p1">](purchasing-date-calculation-for-purchases.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Working with <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph><ept id="p1">](ui-work-product.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

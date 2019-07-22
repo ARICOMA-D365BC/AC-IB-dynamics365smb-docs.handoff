@@ -1,0 +1,144 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="admin-synchronize-outlook-contacts.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-435fba6" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5e4bd35edea680c46cb0df753b50916b1aeb93be</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\admin-synchronize-outlook-contacts.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a7781bdea83d6e70fe5c427aa5a585fafa9a9688</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2674b1f8a1592985d07a7872a962e60e452911f2</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Share contacts between Business Central and Outlook| Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>This service has deep integration with Office 365 so you can share contacts between Outlook and Business Central.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Synchronize Contacts in Business Central with Contacts in Microsoft Outlook</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You can see the same contacts in <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> as you see in Outlook if you set up contact synchronization.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>For example, if you are a sales person, you might do some of your work in Outlook and some of your work in <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>If the contacts are the same in both places, your work is more straightforward.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>A dedicated folder in Outlook makes contacts easy to find, and you can set a filter to synchronize only the contacts from <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> that you want to see in Outlook.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Once the contact synchronization is set up, you can start synchronization manually or set up an automatic synchronization that will keep the contacts in sync on a scheduled basis.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Set Up Synchronization</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>You set up how you want to synchronize contacts with Outlook on the <bpt id="p1">**</bpt>Exchange Sync. Setup<ept id="p1">**</ept> page in <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>As a prerequisite, your user profile in <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> must specify your Office 365 email account.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You can check this in the <bpt id="p1">**</bpt>Office 365 Authentication<ept id="p1">**</ept> section of your user profile in the <bpt id="p2">**</bpt>Users<ept id="p2">**</ept> list.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Then, on the <bpt id="p1">**</bpt>Exchange Sync. Setup<ept id="p1">**</ept> page, you can validate that the connection to Exchange is working and then set up contact synchronization.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Open the <bpt id="p1">**</bpt>Contact Sync. Setup<ept id="p1">**</ept> page and start the synchronization.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Optionally, set a filter for which contacts to synchronize between <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> and Outlook.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>For example, you can set a filter on name, type, company, or similar.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>You can also change the default name of the folder that the contacts will synchronize to in Outlook.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The default name is <bpt id="p1">*</bpt>Business Central<ept id="p1">*</ept>.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Once this synchronization has been set up, any changes to that you make to the contact in either Outlook or in <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> is synchronized to the other.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Each of your coworkers can also set up their own Exchange synchronization and set their own filter on which contacts to synchronize.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Synchronize Contacts</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>If you are used to working with contacts in <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>, then you will find it easy to start the synchronization manually whenever it suits you from the <bpt id="p1">**</bpt>Contacts<ept id="p1">**</ept> list.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Simply choose the <bpt id="p1">**</bpt>Sync with Office 365<ept id="p1">**</ept> action, and then decide if you want to change the filter that you have set up.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>When you choose the OK button, the synchronization starts immediately, and the latest changes are applied to your contacts in Outlook.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Contacts<ept id="p1">**</ept> list, you can synchronize contacts in two ways:</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Sync with Office 365<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>This action synchronizes all changes from <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> to Office 365 since the previous synchronization, based on the last modified date.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Any new contacts from Office 365 will be synchronized back to <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> as well.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>This is typically faster than doing a full sync.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Full Sync with Office 365<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>This action synchronizes all contacts in both directions regardless of the last sync date and last modified date.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>In both cases, contacts are only synchronized from Outlook if they have the required fields filled in.</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The required fields to synchronize to Office 365 are <bpt id="p1">**</bpt>Name<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Email address<ept id="p2">**</ept> and they must be of type Person.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> is the master of the contact information, so the <ph id="ph2">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> contact information will be saved in the event of duplicates.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>In Outlook, the contacts from <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> are shown in a folder under <bpt id="p1">**</bpt>Other contacts<ept id="p1">**</ept> in the <bpt id="p2">**</bpt>People<ept id="p2">**</ept>  view.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>If you are not familiar with the People view in Outlook, then you can get to it from the navigation options in the bottom left corner of Outlook.</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Getting Started<ept id="p1">](product-get-started.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Finance<ept id="p1">](finance.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Sales<ept id="p1">](sales-manage-sales.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Purchasing<ept id="p1">](purchasing-manage-purchasing.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Using contacts (People) in Outlook on the web<ept id="p1">](https://support.office.com/en-us/article/Using-contacts-People-in-Outlook-on-the-web-1e3438c7-26b2-420c-87de-3cea9d31b5cb?appver=OWB150)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

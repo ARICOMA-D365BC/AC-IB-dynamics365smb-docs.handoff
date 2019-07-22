@@ -1,0 +1,462 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="finance-consolidated-company-reporting.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-5ae97a8" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">feda9d1f681c40746db488027fdd8ae1d06a4d94</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\finance-consolidated-company-reporting.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6f5c8cfc8edd8086138a6f7b2d74e30e057a13a8</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7c2f1ea878780bbf739167423e4a09551173e939</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Consolidate Data from Multiple Companies | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Get an summary view of the financial health accross your businesses.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Consolidating Financial Data from Multiple Companies</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>If you have more than one company in <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>, the Consolidated Trial Balance report on the Accountant Role Center can give you an overview of the financial health of your overall business.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The report combines general ledger entries from each of your companies in a new company that you create to contain the consolidated data.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>This company is typically referred to as the "consolidated company".</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The consolidated company is just a container for the consolidated data, and does not have any live business data.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The companies that you include in the consolidated company become <bpt id="p1">**</bpt>Business Units<ept id="p1">**</ept> in the report.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Consolidating financial data may especially be relevant in connection with intercompany processes.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Managing Intercompany Transactions<ept id="p1">](intercompany-manage.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>You can consolidate:</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Across companies that have different charts of accounts.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Companies that use different fiscal years and different currencies.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Either the full amount or a percentage of a company's financial information</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Using different currency exchange rates in individual G/L accounts</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Depending on the complexity of your businesses, there are two ways to set up the report:</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>If you do not need advanced settings, such as including a company that you only own part of, you can use the <bpt id="p1">**</bpt>Company Consolidation<ept id="p1">**</ept> assisted setup guide to quickly set up a consolidation.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The guide helps you through the basic steps.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>If you do need more advanced settings, you can set up the consolidated company and business units yourself.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>To do a simple consolidation setup</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>If your consolidation is straightforward, for example because you wholly-own the business units to consolidate, the <bpt id="p1">**</bpt>Company Consolidation<ept id="p1">**</ept> assisted setup guide will help you through the following steps:</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Choose whether to create a new consolidated company, or whether to consolidate the data in a company that you have already created for the consolidation.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The company should not contain transactions.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Preview the results.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> verifies that the master data and transactions can be successfully transferred to the consolidated company.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>To use the assisted setup guide, follow these steps:</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Accountant<ept id="p1">**</ept> Role Center, choose the <bpt id="p2">**</bpt>Assisted Setup<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>Set up consolidation reporting<ept id="p1">**</ept>, and then complete each step in the assisted setup guide.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>To do an advanced consolidation setup</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>If you need more advanced settings for your consolidation, you can set up consolidation manually.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>For example, if you have companies that you own only partially, or you have companies that you do not want to include in the consolidation.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>You set up the consolidated company in the same way that you set up other companies.</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Getting Ready for Doing Business<ept id="p1">](ui-get-ready-business.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> lets you set up a list of companies to consolidate, verify the accounting data before you consolidate it, import files, and generate consolidation reports.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Sign in to the consolidated company.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Business Units<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>New<ept id="p1">**</ept>, and then fill in the required fields.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>When you fill in the <bpt id="p1">**</bpt>Starting Date<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Ending Date<ept id="p2">**</ept> fields, make sure you comply with GAAP rules concerning the fiscal periods of the business unit versus the parent company.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>If your business unit uses a foreign currency, you must specify the exchange rate to use in the consolidation.</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>You must also enter consolidation information about the business unit's general ledger accounts.</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>These processes are described in the following sections.</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>To prepare general ledger accounts for consolidation</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>If the chart of accounts in the business unit differs from the consolidated company, you must prepare general ledger accounts for consolidation.</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>You can specify the accounts to post debits and credits to, and the method to use to translate currencies in the consolidated company.</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>For example, this is useful if you frequently run the report.</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Chart of Accounts<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Open the card for the account, and then fill in the fields on the <bpt id="p1">**</bpt>Consolidation<ept id="p1">**</ept> FastTab.</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>To specify exchange rates for consolidations</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>If a business unit uses a different currency than the consolidated company, you must specify exchange rate methods for each account before you consolidate.</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>For each account, the content of the <bpt id="p1">**</bpt>Consol. Translation Method<ept id="p1">**</ept> field determines the exchange rate.</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>On each business unit card, in the <bpt id="p1">**</bpt>Currency Exchange Rate Table<ept id="p1">**</ept> field, you specify whether consolidation will use exchange rates from the business unit or the consolidated company.</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>If you use exchange rates from the consolidated company, you can change the exchange rates for a business unit.</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>For business units, if the <bpt id="p1">**</bpt>Currency Exchange Rate Table<ept id="p1">**</ept> field on the business unit card contains <bpt id="p2">**</bpt>Local<ept id="p2">**</ept>, you can change the exchange rate from the business unit card.</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The exchange rates are copied from the <bpt id="p1">**</bpt>Currency Exchange Rate<ept id="p1">**</ept> table, but you can change them before consolidating.</source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The following table describes the exchange rate methods you can use for accounts.</source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Exchange rate</source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Typical use</source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Average Rate (Manual)</source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>You manually calculate the average rate for the period to consolidate.</source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Calculate the average either as an arithmetic average or as a best estimate, and specify the result for each business unit.</source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Used for income statement accounts.</source>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Closing Rate</source>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Used for balance sheet accounts.</source>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Last Closing Rate</source>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The rate that was valid in the foreign exchange market on the date for which the balance sheet or income statement is being prepared.</source>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>You enter this rate for each business unit.</source>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Used for balance sheet accounts.</source>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Historical Rate</source>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The exchange rate that was valid when the transaction occurred.</source>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Composite Rate</source>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The current period amounts are translated at the average rate and added to the previously recorded balance in the consolidated company.</source>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>This method is typically used for retained earnings accounts because they include amounts from different periods and are therefore a composite of amounts translated with different exchange rates.</source>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Equity Rate</source>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>This is similar to <bpt id="p1">**</bpt>Composite<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Differences are posted to separate general ledger accounts.</source>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>To specify exchange rates for business units, follow these steps:</source>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Business Units<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Business Unit List<ept id="p1">**</ept> page, choose the business unit, and then choose the <bpt id="p2">**</bpt>Average Rate (Manual)<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Change Exchange Rate<ept id="p1">**</ept> page, the contents of the <bpt id="p2">**</bpt>Relational Exch. Rate<ept id="p2">**</ept> field have been copied from the <bpt id="p3">**</bpt>Currency Exchange Rate<ept id="p3">**</ept> table, but you can modify them.</source>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Close the page.</source>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Closing Rate<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Relational Exch. Rate Amount<ept id="p1">**</ept> field, enter the exchange rate.</source>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>To exclude a company from consolidation</source>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>If you do not want to include a business unit in the consolidation, you can exclude it.</source>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>To do that, go to the business unit card, and clear the <bpt id="p1">**</bpt>Consolidate<ept id="p1">**</ept> check box.</source>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>To include a partially-owned company in consolidation</source>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>If you own only part of a company, you can include a percentage of each transaction that corresponds to the percentage of the company you own.</source>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>For example, if you own 70% of the company, consolidation will include $70 of an invoice for $100.</source>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>To specify the percentage of the company you own, go to the business unit card, and enter the percentage in the <bpt id="p1">**</bpt>Consolidation %<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>To test the data before you consolidate</source>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>You can test your data before you transfer it to the consolidated company.</source>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> looks for differences in the information in the business units and the consolidated company.</source>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>For example, whether account numbers or dimension codes are different.</source>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>You must correct errors before you can run the report.</source>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>You can test the database or, if you are importing data from an XML file, you can test the file.</source>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Open the consolidated company.</source>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Business Units<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Do one of the following:</source>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>To test a file, choose the <bpt id="p1">**</bpt>Test File<ept id="p1">**</ept> action, enter the name of the file to test, and then choose <bpt id="p2">**</bpt>Print<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>To test the database, choose <bpt id="p1">**</bpt>Test Database<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>To run the consolidation</source>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>After you have tested the data, you can transfer it to the consolidated company.</source>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Sign in to the consolidated company.</source>
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Accountant Role Center<ept id="p1">**</ept>, choose the <bpt id="p2">**</bpt>Run Consolidation<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Fill in the required fields.</source>
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Where<ept id="p1">**</ept> field, choose <bpt id="p2">**</bpt>Company Name<ept id="p2">**</ept>, and then choose the consolidated company in the <bpt id="p3">**</bpt>is<ept id="p3">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>To eliminate repeated transactions</source>
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>After you have consolidated all the companies, you must find any transactions that are recorded more than once across companies and then post elimination entries to remove them.</source>
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Processing consolidation eliminations is a manual process.</source>
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>You can follow these steps:</source>
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Find transactions that potentially need to be adjusted and enter general journal lines to eliminate them.</source>
+        </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Run the <bpt id="p1">**</bpt>G/L Consolidation Eliminations<ept id="p1">**</ept> report to help you assess the effect of the general journal lines before posting.</source>
+        </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Post the adjusting transactions.</source>
+        </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>G/L Consolidation Eliminations<ept id="p1">**</ept> report displays a tentative trial balance where you can simulate the consequences of eliminating entries by comparing the entries in the consolidated company with the eliminations that have been entered in the general journal.</source>
+        </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Before a business unit can be included in the report, it must be set up on the <bpt id="p1">**</bpt>Business Units<ept id="p1">**</ept> page and the <bpt id="p2">**</bpt>Consolidate<ept id="p2">**</ept> field must be selected.</source>
+        </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Each account appears on a line by itself, following the structure of the chart of accounts.</source>
+        </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>An account is not shown if all the amounts on the line are 0.</source>
+        </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>The following information is shown for each account:</source>
+        </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Account number</source>
+        </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Account name.</source>
+        </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>If you have selected one or more business unit codes in the <bpt id="p1">**</bpt>Business Unit Code<ept id="p1">**</ept> field on the request page, a total is shown for the consolidated company excluding the selected business units and eliminations.</source>
+        </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>If you have not filled in the <bpt id="p1">**</bpt>Business Unit Code<ept id="p1">**</ept> field, a total is shown for the consolidated company excluding eliminations.</source>
+        </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>If you have selected a business unit code in the <bpt id="p1">**</bpt>Business Unit Code<ept id="p1">**</ept> field on the request page, a total is shown for the imported entries from the business unit.</source>
+        </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>If you have not filled in the <bpt id="p1">**</bpt>Business Unit Code<ept id="p1">**</ept> field, a total is shown for the posted eliminations in the consolidated company.</source>
+        </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>The total for the consolidated company with all the business units and all posted eliminations.</source>
+        </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>The eliminations to be made in the consolidated company, that is, the entries in the general journal that is selected on the request page.</source>
+        </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>The posting text copied from the general journal.</source>
+        </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>The consolidated company's total after the eliminations, if they are posted.</source>
+        </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>To export and import consolidated data between databases</source>
+        </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>If data for a business unit is in another database, you must export the data to a file before you can include it in the consolidation.</source>
+        </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Each company must be exported separately.</source>
+        </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>For this purpose, use the <bpt id="p1">**</bpt>Export Consolidation<ept id="p1">**</ept> batch job.</source>
+        </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>After you run the batch job, all entries in general ledger accounts are processed.</source>
+        </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>For every combination of selected dimensions and date, the contents of the entries' <bpt id="p1">**</bpt>Amount<ept id="p1">**</ept> fields are totaled and exported.</source>
+        </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>The next combination of selected dimensions and date with the same account number is processed, then the combinations in the next account number are processed, and so on.</source>
+        </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>The exported entries contain the following fields: <bpt id="p1">**</bpt>Account No.<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Posting Date<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>Amount<ept id="p3">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>If dimensions information was also exported, dimension codes and dimension values are also included.</source>
+        </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>For each exported line, if the total of the <bpt id="p1">**</bpt>Amount<ept id="p1">**</ept> fields is a debit, the account number that is set up in the business unit's <bpt id="p2">**</bpt>Consol. Debit Acc.<ept id="p2">**</ept> field is exported to the line.</source>
+        </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>If the total is a credit, the corresponding number in the <bpt id="p1">**</bpt>Consol. Credit Acc.<ept id="p1">**</ept> field is exported to the line.</source>
+        </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>The date used for each exported line is either the period's ending date or, if the transfer occurs each day, the exact date of the calculation.</source>
+        </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>The dimension value exported for the entry will be the consolidated company dimension value that is set up in the <bpt id="p1">**</bpt>Consolidation Code<ept id="p1">**</ept> field for that dimension value.</source>
+        </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>If no consolidated company dimension value has been entered in the <bpt id="p1">**</bpt>Consolidated Code<ept id="p1">**</ept> field for that dimension value, the dimension value itself will be exported to the line.</source>
+        </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>The XML files also contain the currency exchange rates in the consolidation period.</source>
+        </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>These rates are included in a separate section at the beginning of the file.</source>
+        </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Managing Intercompany Transactions<ept id="p1">](intercompany-manage.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Working with <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph><ept id="p1">](ui-work-product.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Exporting Your Business Data to Excel<ept id="p1">](about-export-data.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

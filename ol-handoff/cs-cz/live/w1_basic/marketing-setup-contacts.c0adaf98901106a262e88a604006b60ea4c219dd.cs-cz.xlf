@@ -1,0 +1,381 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="marketing-setup-contacts.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-5ae97a8" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">71c48a677dbc684978271e19d67409dc07143f9d</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\marketing-setup-contacts.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6bab8fa92825c788d523682a451d601310d348be</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f9370130f693e6274d8a98c50471c52231834943</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Set Up Information for Contacts| Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Outlines the tasks to specify information and codes, for example, about industry groups and business relationships, before you set up contacts.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Setting Up Contacts</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>When creating contacts, you can enter specific information, such as the industry that the contact belong to and your business relationship with the contacts.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Before you create contacts and record details about your business relationships, you must set up the different codes that you will use to assign this information to your contact companies and people.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Codes can be set up for mailing groups, industry groups, business relationships, Web sources, organizational levels and job responsibilities.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You can set these up by choosing the <bpt id="p1">**</bpt>New<ept id="p1">**</ept> action as you look up to the lists from the contact card.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>By having this information set up, creating contacts is much more organized and being able to find all contacts based on a certain group will be more efficient.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Every group at your company will be able to find the is information making communication with the contacts more successful.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>To assign industry groups to a contact</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>You use industry groups to indicate the type of industry to which your contacts belong, for example, the retail industry or the automobile industry.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>This is only possible for contacts of type <bpt id="p1">**</bpt>Company<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The industry group code defines the type or category of the group, such as ADVERT for advertising, or PRESS, for TV and radio.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You can have several industry group codes.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>To define the industry groups, you use the <bpt id="p1">**</bpt>Industry Groups<ept id="p1">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Open the relevant contact card.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Company<ept id="p1">**</ept> action, and then the <bpt id="p2">**</bpt>Industry Groups<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Contact Industry Groups<ept id="p1">**</ept> page opens.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Industry Groups Code<ept id="p1">**</ept> field, select the industry groups you want to assign.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Repeat these steps to assign as many industry groups as you want.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>You can also assign industry groups from the contact list by following the same procedure.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The number of industry groups that you have assigned to the contact is displayed in the <bpt id="p1">**</bpt>No. of Industry Groups<ept id="p1">**</ept> field in the <bpt id="p2">**</bpt>Segmentation<ept id="p2">**</ept> section on the <bpt id="p3">**</bpt>Contact Card<ept id="p3">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>After you have assigned industry groups to your contacts, you can use this information to select contacts for your segments.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Add Contacts to Segments<ept id="p1">](marketing-add-contact-segment.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>To assign mailing groups to a contact</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>You can use mailing groups to identify groups of contacts that you want to receive the same information.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>For example, you can set up a mailing group for the contacts that you want to send a notification of an office move, or another group for sending holiday gifts.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The mailing group code defines the type or category of the group, such as MOVE for office move, or GIFT for holiday gift.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>You can have several industry group codes.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>To define the industry groups, you use the <bpt id="p1">**</bpt>Mailing Groups<ept id="p1">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Open the relevant contact card.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Mailing Groups<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Contact Mailing Groups<ept id="p1">**</ept> page opens.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Mailing Groups Code<ept id="p1">**</ept> field, select the mailing group that you want to assign.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Repeat these steps to assign as many mailing groups as you want.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>You can also assign mailing groups from the contact list by following the same procedure.</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The number of mailing groups you have assigned to the contact is displayed in the <bpt id="p1">**</bpt>No. of Mailing Groups<ept id="p1">**</ept> field in the <bpt id="p2">**</bpt>Segmentation<ept id="p2">**</ept> section on the <bpt id="p3">**</bpt>Contact Card<ept id="p3">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>After you have assigned mailing groups to your contacts, you can use this information to select contacts for your segments.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Add Contacts to Segments<ept id="p1">](marketing-add-contact-segment.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>To define a contact's alternate address</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>You can assign an alternate address where your contact sometimes wants to receive mail and information, for example, their summer cottage.</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>You can also assign one or several date ranges to each alternate address you have entered for your contacts to specify when each address is valid.</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Open the relevant contact card.</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Alternative Address<ept id="p1">**</ept> action, and then choose the <bpt id="p2">**</bpt>Card<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>To define that the alternate address applies in a specific period, choose the <bpt id="p1">**</bpt>Date Range<ept id="p1">**</ept> action instead.</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Contact Alt. Address List<ept id="p1">**</ept> page, enter a new alternate address and fill in the fields on the <bpt id="p2">**</bpt>Contact Alternative Address<ept id="p2">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Repeat these steps to assign as many alternate addresses as you want.</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>For each alternate address you may want to specify one or several date ranges.</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>To assign job responsibilities to a contact</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>You can add information about the job responsibilities of contact persons to indicate what the contact person is responsible for within their company, for example, IT, management, or production.</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>You can use this information when entering information about your contacts.</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>This is only possible for contacts of type <bpt id="p1">**</bpt>Person<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The job responsibility code defines the type or category of the job, such a MARKETING or PURCHASE.</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>You can have several job responsibility codes.</source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>To define the job responsibility, you use the <bpt id="p1">**</bpt>Job Responsibilities<ept id="p1">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Open the relevant contact card.</source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Person<ept id="p1">**</ept> action, and then choose the <bpt id="p2">**</bpt>Job Responsibilities<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Contact Job Responsibilities<ept id="p1">**</ept> page opens.</source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Job Responsibility Code<ept id="p1">**</ept> field, select the job responsibility that you want to assign.</source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Repeat these steps to assign as many job responsibilities as you want.</source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>You can also assign job responsibilities from the contact list by following the same procedure.</source>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The number of job responsibilities you have assigned to the contact is displayed in the <bpt id="p1">**</bpt>No. of Job Responsibilities<ept id="p1">**</ept> field in the <bpt id="p2">**</bpt>Segmentation<ept id="p2">**</ept> section on the <bpt id="p3">**</bpt>Contact<ept id="p3">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>After you have assigned job responsibilities to your contacts, you can use this information to select contacts for your segments.</source>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Add Contacts to Segments<ept id="p1">](marketing-add-contact-segment.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>To assign organizational levels to a contact</source>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>You can use organizational levels on your contacts to specify which position they have in the company, for example, top management.</source>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>You can use this information when entering information about your contacts.</source>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>This is only possible for contacts of type <bpt id="p1">**</bpt>Person<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The organizational level code defines the type or category of the organizational level, such a CEO  or CFO.</source>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>You can have several organizational level codes.</source>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>To define the organizational level, you use the <bpt id="p1">**</bpt>Organizational Levels<ept id="p1">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Open the relevant contact card.</source>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Organizational Levels<ept id="p1">**</ept> field, select the code you want to assign.</source>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>After you have assigned organizational levels to your contacts, you can use this information to create segments.</source>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>After you have assigned job responsibilities to your contacts, you can use this information to select contacts for your segments.</source>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Add Contacts to Segments<ept id="p1">](marketing-add-contact-segment.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>To assign web sources to a contact</source>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>You can use web sources with your contact companies to identify, for example, search engines and web sites, on the Internet that you want to use to search for information about the contacts.</source>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>When assigning web sources, you specify which search engine and search word the application will use to find the requested information.</source>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>This is only possible for contacts of type <bpt id="p1">**</bpt>Company<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>When assigning web sources, you specify which search engine and search word that the application will use to find the requested information.</source>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Open the relevant contact card.</source>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Company<ept id="p1">**</ept> action, and then choose the <bpt id="p2">**</bpt>Web Sources<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Contact Web Sources<ept id="p1">**</ept> page opens.</source>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Web Source Code<ept id="p1">**</ept> field, choose the web source you want to assign.</source>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Search Word<ept id="p1">**</ept> field, enter the search word that you want to use to find the information.</source>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Repeat these steps to assign as many web sources as you want.</source>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>To assign business relations to a contact</source>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>You can use business relations to indicate the business relationship you have with your contacts, for example, a prospect, bank, consultant, service supplier, and so on.</source>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>This is only possible for contacts of type <bpt id="p1">**</bpt>Company<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Open the relevant contact card.</source>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Company<ept id="p1">**</ept> action, and then the <bpt id="p2">**</bpt>Business Relations<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Contact Business Relations<ept id="p1">**</ept> page, in the <bpt id="p2">**</bpt>Business Relation Code<ept id="p2">**</ept> field, select the business relation you want to assign.</source>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Repeat these steps to assign as many business relations as you want.</source>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The number of business relations you have assigned to the contact is displayed in the <bpt id="p1">**</bpt>No. of Business Relations<ept id="p1">**</ept> field in the <bpt id="p2">**</bpt>Segmentation<ept id="p2">**</ept> section on the <bpt id="p3">**</bpt>Contact<ept id="p3">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>After you have assigned business relations to your contacts, you can use this information to select contacts for your segments.</source>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Add Contacts to Segments<ept id="p1">](marketing-add-contact-segment.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Automatically Copying Specific Information from Contact Companies to Contact Persons</source>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Some information about contact companies is identical to the information about the contact persons working within these companies, for example, the address details.</source>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Inheritance<ept id="p1">**</ept> FastTab on the <bpt id="p2">**</bpt>Marketing Setup<ept id="p2">**</ept> page, you can specify which fields on the contact card for a company is copied to the contact card for a person each time you create a contact person for the contact company.</source>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>When you modify one of these fields on the contact company card, the same fields on the contact person card are updated, unless you have manually modified the field on the contact person card.</source>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Create Contacts<ept id="p1">](marketing-create-contact-companies.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Using Predefined Defaults on New Contacts</source>
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>You can decide that the application automatically assigns a specific language code, territory code, salesperson code, and country/region code as defaults to each new contact you create.</source>
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>You can also enter a default sales cycle code that the program automatically assigns to each new opportunity you create.</source>
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>You set this up on the On the <bpt id="p1">**</bpt>Defaults<ept id="p1">**</ept> FastTab on the <bpt id="p2">**</bpt>Marketing Setup<ept id="p2">**</ept> page</source>
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The inheritance of fields overwrites the default values you have set up.</source>
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>For example, if you have set up English as the default language, but the contact company's language is German, the program will automatically assign German as the language code for the contact persons recorded for that company.</source>
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Synchronizing Contacts with Customers, Vendors, and Bank Accounts</source>
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>In order to synchronize the contact card with a linked customer, vendor, or bank account card, you must fill in the relevant field in the <bpt id="p1">**</bpt>Bus. Relation Code for<ept id="p1">**</ept> section on the <bpt id="p2">**</bpt>Interactions<ept id="p2">**</ept> FastTab on the <bpt id="p3">**</bpt>Marketing Setup<ept id="p3">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Synchronizing contacts with customers, vendors, and bank accounts<ept id="p1">](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-and-bank-accounts)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Searching for Duplicate Contacts when Contacts are Created</source>
+        </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>You can choose to have the program automatically search for duplicates each time you create a contact company, or you can choose to search manually after you have created contacts.</source>
+        </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>You can also choose to have the program update the search strings automatically each time you modify contact information or create a contact.</source>
+        </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>You can decide the search hit percentage, that is, the percentage of identical strings two contacts must have for the program to consider them as duplicates.</source>
+        </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>You set this up on the <bpt id="p1">**</bpt>Duplicates<ept id="p1">**</ept> FastTab on the <bpt id="p2">**</bpt>Marketing Setup<ept id="p2">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Managing Contacts<ept id="p1">](marketing-contacts.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Create Contacts<ept id="p1">](marketing-create-contact-companies.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Managing Sales Opportunities<ept id="p1">](marketing-manage-sales-opportunities.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Working with <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph><ept id="p1">](ui-work-product.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

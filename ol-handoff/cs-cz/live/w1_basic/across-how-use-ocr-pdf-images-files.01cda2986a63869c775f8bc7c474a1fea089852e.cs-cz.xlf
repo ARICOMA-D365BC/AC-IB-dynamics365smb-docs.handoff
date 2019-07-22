@@ -1,0 +1,360 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="across-how-use-ocr-pdf-images-files.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-15c36f0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">59df0557f8ae26b754c98da17012cef830a7e3c6</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">financials\across-how-use-ocr-pdf-images-files.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">40f1affa7c1891aec60e8427e2a7f45ed5d744a0</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">685f38d1b626fd4300376805fd0356fd8ad21960</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Use OCR to Turn PDF into E-Invoices| Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Describes how you can use an OCR service to convert incoming PDF or image files to electronic documents in Financials.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Use OCR to Turn PDF and Image Files into Electronic Documents</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>From PDF or image files that you receive from your trading partners, you can have an external OCR service (Optical Character Recognition) generate electronic documents that can be converted to document records in <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>For example, when you receive an invoice in PDF format from your vendor, you can send it to the OCR service from the <bpt id="p1">**</bpt>Incoming Documents<ept id="p1">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>This is described in the first procedure.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>As an alternative to sending the file from the <bpt id="p1">**</bpt>Incoming Documents<ept id="p1">**</ept> window, you can send the file to the OCR service by email.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Then, when you receive the electronic document back, a related incoming document record is created automatically.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>This is described in the second procedure.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>After some seconds, you receive the file back from the OCR service as an electronic invoice that can be converted to a purchase invoice for the vendor.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>This is described in the third procedure.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Because OCR is based on optical recognition, it is likely that the OCR service will interpret characters in your PDF or image files wrongly when it first processes a certain vendor’s documents, for example.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>It may not interpret the company logo as the vendor’s name or it may misinterpret the total amount on a receipt because of its layout.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>To avoid these errors going forward, you can correct the errors in a separate version of the <bpt id="p1">**</bpt>Incoming Document<ept id="p1">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Then you send the corrections back to the OCR service to train it to interpret the specific characters correctly next time it processes a PDF or image document for the same vendor.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>For more information, see the "To train the OCR service to avoid errors" section.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The traffic of files to and from the OCR service is processed by a dedicated job queue entry, which are created automatically when you enable the related service connection.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Set Up Incoming Documents<ept id="p1">](across-how-setup-income-documents.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>To send a PDF or image file to the OCR service from the <bpt id="p1">**</bpt>Incoming Documents<ept id="p1">**</ept> window</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Incoming Documents<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Create a new incoming document record and attach the file.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Create Incoming Document Records<ept id="p1">](across-how-create-income-document-records.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Incoming Documents<ept id="p1">**</ept> window, select one or more lines, and then choose the <bpt id="p2">**</bpt>Send to Job Queue<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The value in the <bpt id="p1">**</bpt>OCR Status<ept id="p1">**</ept> field changes to <bpt id="p2">**</bpt>Ready<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The attached PDF or image file is sent to the OCR service by the job queue according to the schedule, provided that no errors exist.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Alternatively, in the <bpt id="p1">**</bpt>Incoming Documents<ept id="p1">**</ept> window, select one or more lines, and then choose the <bpt id="p2">**</bpt>Send to OCR Service<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The value in the <bpt id="p1">**</bpt>OCR Status<ept id="p1">**</ept> field changes to <bpt id="p2">**</bpt>Sent<ept id="p2">**</ept>, provided that no errors exist.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>To send a PDF or image file to the OCR service by email</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>From your email application, you can send an email to the OCR service provider with the PDF or image file attached.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>For information about the email address to send to, see the OCR service provider’s web site.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Because no incoming document record exists for the file, a new record will be created automatically in the <bpt id="p1">**</bpt>Incoming Documents<ept id="p1">**</ept> window when you receive the resulting electronic document from the OCR service.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Create Incoming Document Records<ept id="p1">](across-how-create-income-document-records.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>If you work on a tablet or phone, you can send the file to the OCR service as soon as you have taken a photo of the document, or you can create an incoming document directly.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>For more information, see the "To create incoming document records by taking a photo" section in <bpt id="p1">[</bpt>Create Incoming Document Records<ept id="p1">](across-how-create-income-document-records.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>To receive the resulting electronic document from the OCR service.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The electronic document that is created by the OCR service from the PDF or image file is automatically received into the <bpt id="p1">**</bpt>Incoming Documents<ept id="p1">**</ept> window by the job queue entry that is set up when you enable the OCR service.</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>If you are not using a job queue, or you want to receive a finished OCR document sooner than per the job queue schedule, you can choose the <bpt id="p1">**</bpt>Receive from OCR Service<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>This will get any documents that are completed by the OCR service.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>If the OCR service is set up to require manual verification of processed documents, then the <bpt id="p1">**</bpt>OCR Status<ept id="p1">**</ept> field will contain <bpt id="p2">**</bpt>Awaiting Verification<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>In that case, perform the following steps to log in to the OCR service website to manually verify an OCR document.</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>OCR Status<ept id="p1">**</ept> field, choose the <bpt id="p2">**</bpt>Awaiting Verification<ept id="p2">**</ept> hyperlink.</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>On the OCR service website, log in using the credentials of your OCR service account.</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>These are the credentials you also used when setting up the service.</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>For more information, see the "To set up an OCR service" section in <bpt id="p1">[</bpt>Set Up Incoming Documents<ept id="p1">](across-how-setup-income-documents.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Information for the OCR document is displayed, showing both the source content of the PDF or image file and the resulting OCR field values.</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Review the various field values and manually edit or enter values in fields that the OCR service has tagged as uncertain.</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The OCR process is completed and the resulting electronic document is sent to the <bpt id="p1">**</bpt>Incoming Documents<ept id="p1">**</ept> window in <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph>,  according to the job queue schedule.</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Repeat step 4 for any other OCR document to be verified.</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Now you can proceed to create document records for the received electronic documents in <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph>, manually or automatically.</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>For more information, see the next procedure.</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>You can also connect the new incoming document record to existing posted or non-posted document so that the source file is easy to access from <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Process Incoming Documents<ept id="p1">](across-process-income-documents.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>To create a purchase invoice from an electronic document received from the OCR service</source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The following procedure describes how to create a purchase invoice record from a vendor invoice received as an electronic document from the OCR service.</source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The procedure is the same when you create, for example, a general journal line from an expense receipt or a sales return order from a customer.</source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Description<ept id="p1">**</ept> and <bpt id="p2">**</bpt>No.<ept id="p2">**</ept></source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>fields on the created document lines will only be filled if you have first mapped text found on the OCR document to the two fields in <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>You can do this mapping as item cross-references, for document lines of type Item.</source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>You can also use the Text-to-Account Mapping function.</source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>For more information, see the "To map text on an incoming document to a specific vendor, G/L, or bank account" section.</source>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>To map the item numbers on the document to your descriptions of the vendor's items, open the card of each item, and then choose the <bpt id="p1">**</bpt>Cross References<ept id="p1">**</ept> action to set up cross-references between your item descriptions and those of the vendor.</source>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>For more information, see the tooltip for the <bpt id="p1">**</bpt>Cross References<ept id="p1">**</ept> action on item cards.</source>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Select the line for the incoming document, and then choose the <bpt id="p1">**</bpt>Create Document<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>A purchase invoice will be created in <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph> based on the information in the electronic vendor document that you received from the OCR service.</source>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Information will be inserted in the new purchase invoice based on the mapping that you have defined as a cross-reference or as text-to-account mapping.</source>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Any validation errors, typically related to wrong or missing master data in <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph>, will be shown on the <bpt id="p1">**</bpt>Errors and Warnings<ept id="p1">**</ept> FastTab.</source>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>For more information, see the "To handle errors when receiving electronic documents" section.</source>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>To map text on an incoming document to a specific vendor account</source>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>For incoming documents, you typically use the <bpt id="p1">**</bpt>Map Text to Account<ept id="p1">**</ept> action to define that a certain text on a vendor invoice received from the OCR service is mapped to a certain vendor account.</source>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Going forward, any part of the incoming document description that exists as a mapping text means that the <bpt id="p1">**</bpt>No.<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>field on resulting document or journal lines of type G/L Account are filled with the vendor in question.</source>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>In addition to mapping to a vendor account or G/L accounts, you can also map to a bank account.</source>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>This is practical, for example, for electronic documents for expenses that are already paid where you want to create a general journal line that is ready to post to a bank account.</source>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Select the relevant incoming document line, and then choose the <bpt id="p1">**</bpt>Map Text to Account<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Text-to-Account Mapping<ept id="p1">**</ept> window opens.</source>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Mapping Text<ept id="p1">**</ept> field, enter any text that occurs on vendor invoices that you want to create purchase documents or journal lines for.</source>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>You can enter up to 50 characters.</source>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Vendor No.<ept id="p1">**</ept> field, enter the vendor that the resulting purchase document or journal line will be created for.</source>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Debit Acc. No.<ept id="p1">**</ept> field, enter the debit-type G/L account that will be inserted on resulting purchase document or journal line of type G/L Account.</source>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Credit Acc. No.<ept id="p1">**</ept> field, enter the credit-type G/L account that will be inserted on resulting purchase document or journal line of type G/L Account.</source>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Do not use the <bpt id="p1">**</bpt>Bal. Source Type<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Bal. Source No.<ept id="p2">**</ept> fields in connection with incoming documents.</source>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>They are used for automatic payment reconciliation only.</source>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Map Text on Recurring Payments to Accounts for Automatic Reconciliation<ept id="p1">](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Repeat steps 2 through 5 for all text on incoming documents that you want to automatically create documents for.</source>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>To handle errors when receiving electronic documents</source>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Incoming Documents<ept id="p1">**</ept> window, select the line for an electronic document received from the OCR service with errors.</source>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>This is indicated by the Error value in the <bpt id="p1">**</bpt>OCR Status<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Edit<ept id="p1">**</ept> action to open the <bpt id="p2">**</bpt>Incoming Document<ept id="p2">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Errors and Warnings<ept id="p1">**</ept> FastTab, select the message, and then choose the <bpt id="p2">**</bpt>Open Related Record<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The window that contains the wrong or missing data, such as a vendor card with a missing field value, opens.</source>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Correct the error or errors as described in each error message.</source>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Proceed to process the incoming electronic document by choosing the <bpt id="p1">**</bpt>Create Manually<ept id="p1">**</ept> action again.</source>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Repeat steps 5 and 6 for any remaining errors until the electronic document can be received successfully.</source>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>To train the OCR service to avoid errors</source>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Because OCR is based on optical recognition, it is likely that the OCR service will interpret characters in your PDF or image files wrongly when it first processes documents from a certain vendor, for example.</source>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>It may not interpret the company logo as the vendor’s name or it may misinterpret the total amount on an expense receipt because of its layout.</source>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>To avoid such errors going forward, you can correct data received by the OCR service and then send the feedback to the service.</source>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>OCR Data Correction<ept id="p1">**</ept> window, which you open from the <bpt id="p2">**</bpt>Incoming Document<ept id="p2">**</ept> window, shows the fields from the <bpt id="p3">**</bpt>Financial Information<ept id="p3">**</ept> FastTab in two columns, one with the OCR data editable and one with the OCR data read-only.</source>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>When you choose the <bpt id="p1">**</bpt>Send OCR Feedback<ept id="p1">**</ept> button, the content of the <bpt id="p2">**</bpt>OCR Data Correction<ept id="p2">**</ept> window is sent to the OCR service.</source>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Next time the service processes PDF or image files that contain the data in question, your corrections will be incorporated to avoid the same errors.</source>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Incoming Documents<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Open an incoming document record that contains data received from OCR service, which you want to correct.</source>
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Incoming Document<ept id="p1">**</ept> window, choose the <bpt id="p2">**</bpt>Correct OCR Data<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>OCR Data Correction<ept id="p1">**</ept> window, overwrite the data in the editable column for each field that has an incorrect value.</source>
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>To undo corrections that you have made since you opened the <bpt id="p1">**</bpt>OCR Data Correction<ept id="p1">**</ept> window, choose the <bpt id="p2">**</bpt>Reset OCR Data<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>To send the corrections to the OCR service, choose the <bpt id="p1">**</bpt>Send OCR Feedback<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>To save the corrections, close the <bpt id="p1">**</bpt>OCR Data Correction<ept id="p1">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>The fields on the <bpt id="p1">**</bpt>Financial Information<ept id="p1">**</ept> FastTab in the <bpt id="p2">**</bpt>Incoming Document<ept id="p2">**</ept> window are updated with any new values that you entered in step 4.</source>
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Process Incoming Documents<ept id="p1">](across-process-income-documents.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Incoming Documents<ept id="p1">](across-income-documents.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Purchasing<ept id="p1">](purchasing-manage-purchasing.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Working with <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph><ept id="p1">](ui-work-product.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

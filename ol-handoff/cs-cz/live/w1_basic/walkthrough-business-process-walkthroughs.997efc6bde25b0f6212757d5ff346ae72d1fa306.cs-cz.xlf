@@ -1,0 +1,141 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="walkthrough-business-process-walkthroughs.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-15c36f0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6a630ab3cdd78702433e3ec2130f677454bec558</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">financials\walkthrough-business-process-walkthroughs.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5fb1abb3a563ae2120b7c23bec712e74fc264676</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fd573a64c6535dc67ce5c797ba00ccd06a6bff0b</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Business Process Walkthroughs | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>This selection of walkthroughs provides step-by-step, end-to-end business processes that you can perform using the CRONUS International Ltd. demonstration company.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>The walkthroughs consist of multiple procedures, some of which would normally be performed by one user, while others incorporate several different user roles.</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>In order to simulate the working environment, some of the walkthroughs contain setup steps necessary to complete the exercises as described.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>These steps can provide insight into the kind of information users need to share with their company's IT professionals.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Business Process Walkthroughs</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>This selection of walkthroughs provides step-by-step, end-to-end business processes that you can perform using the CRONUS International Ltd. demonstration company.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The walkthroughs consist of multiple procedures, some of which would normally be performed by one user, while others incorporate several different user roles.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>In order to simulate the working environment, some of the walkthroughs contain setup steps necessary to complete the exercises as described.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>These steps can provide insight into the kind of information users need to share with their company's IT professionals.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The walkthroughs are complete scenarios, and should be performed from beginning to end for the greatest benefit.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Many are based on <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph> demonstrations, and enable you to try those procedures yourself, at your own pace.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>To avoid having to log in as many different profiles, navigation steps in the walkthroughs are based on department menus and not on the Role Centers.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>To</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>See</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Set up a marketing campaign</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Walkthrough: Conducting a Sales Campaign<ept id="p1">](walkthrough-conducting-a-sales-campaign.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Use prepayments to part of sales orders</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Walkthrough: Setting Up and Invoicing Sales Prepayments<ept id="p1">](walkthrough-setting-up-and-invoicing-sales-prepayments.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Set up approval users, when and how the users receive notification about approval workflows, and then modify and enable the relevant approval workflow.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Walkthrough: Setting Up and Using a Purchase Approval Workflow<ept id="p1">](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Put received items away in basic warehouse configurations</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations<ept id="p1">](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Put received items away in advanced warehouse configurations</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Walkthrough: Receiving and Putting Away in advanced warehouse configurations<ept id="p1">](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Plan supply orders to fulfill demand manually</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Walkthrough: Planning Supplies Manually<ept id="p1">](walkthrough-planning-supplies-manually.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Plan supply orders to fulfill demand automatically</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Walkthrough: Planning Supplies Automatically<ept id="p1">](walkthrough-planning-supplies-automatically.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Assemble and ship items that are customized on the sales order</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Walkthrough: Selling, Assembling, and Shipping Kits<ept id="p1">](walkthrough-selling-assembling-and-shipping-kits.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Plan a project, from start to finish</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Walkthrough: Managing Projects with Jobs<ept id="p1">](walkthrough-managing-projects-with-jobs.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Understand the costs of a job</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Walkthrough: Calculating Work in Process for a Job<ept id="p1">](walkthrough-calculating-work-in-process-for-a-job.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Pick items for shipment in basic warehouse configurations</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Walkthrough: Picking and Shipping in Basic Warehouse Configurations<ept id="p1">](walkthrough-picking-and-shipping-in-basic-warehousing.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Implement defects management</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Walkthrough: Tracing Serial-Lot Numbers<ept id="p1">](walkthrough-tracing-serial-lot-numbers.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Working with <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph><ept id="p1">](ui-work-product.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

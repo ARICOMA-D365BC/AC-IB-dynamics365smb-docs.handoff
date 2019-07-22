@@ -1,0 +1,513 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="finance-work-with-vat.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-435fba6" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9d6f3cf74582283e633d9c3347def5289aeb8f88</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\finance-work-with-vat.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e23d560a552f2f9a472baabec1b4ea5a8c1422a7</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">009e4165a7827bf292e44a34d7f3ae7401921b35</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>How to work With VAT on Sales and Purchases | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>This topic describes how perform tasks such as correcting posted VATIn EU countries/regions, every sales and purchase transaction is subject to VAT calculations.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>This topic describes how.</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Work with VAT on Sales and Purchases</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>If your country or region requires you to calculate value-added tax (VAT) on sales and purchase transactions so that you can report the amounts to a tax authority, you can set up <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> to calculate VAT automatically on sales and purchase documents.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>For more information, see [Setting Up to Calculations and Posting Methods for Value-Added Tax] (finance-setup-vat.md).</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>There are, however, some VAT-related tasks that you can do manually.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>For example, you might need to correct a posted amount if you discover that a vendor uses a different rounding method.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Calculating and Displaying VAT Amounts in Sales and Purchase Documents</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>You can calculate and display VAT amounts in sales and purchase documents differently, depending on the type of customer or vendor that you are dealing with.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>You can also override the calculated VAT amount to match the VAT amount calculated by your vendor on a given transaction.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Unit Price and Line Amount Including/Excluding VAT on sales documents</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>When you choose an item number in the <bpt id="p1">**</bpt>No.<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>field on a sales document, <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> fills in the <bpt id="p1">**</bpt>Unit Price<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The unit price comes from either the <bpt id="p1">**</bpt>Item<ept id="p1">**</ept> card or the item prices allowed for the item and customer.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>calculates the <bpt id="p1">**</bpt>Line Amount<ept id="p1">**</ept> when you enter a quantity for the line.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>If you are selling to retail consumers, you may want prices on sales documents to include VAT.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>To do this, choose the <bpt id="p1">**</bpt>Prices Including VAT<ept id="p1">**</ept> check box on the document.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Including or excluding VAT on prices</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>If the <bpt id="p1">**</bpt>Prices Including VAT<ept id="p1">**</ept> check box is chosen on a sales document, the <bpt id="p2">**</bpt>Unit Price<ept id="p2">**</ept> and <bpt id="p3">**</bpt>Line Amount<ept id="p3">**</ept> fields include VAT, and the field names will also reflect this.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>By default, VAT is not included in these fields.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>If the field is not selected, the program will fill in the <bpt id="p1">**</bpt>Unit Price<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Line Amount<ept id="p2">**</ept> field excluding VAT and the field names will reflect this.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>You can set up the default setting of the <bpt id="p1">**</bpt>Prices Including VAT<ept id="p1">**</ept> for all sales documents for a customer in the <bpt id="p2">**</bpt>Prices Including VAT<ept id="p2">**</ept> field on the <bpt id="p3">**</bpt>Customer<ept id="p3">**</ept> card.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>You can also set up item prices to include or exclude VAT.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Normally, item prices contained in the Item Card will be the price excluding VAT.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The program uses the information from the <bpt id="p1">**</bpt>Price Includes VAT<ept id="p1">**</ept> field on the <bpt id="p2">**</bpt>Item<ept id="p2">**</ept> card to determine the unit price amount for sales documents.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The following table provides an overview of how the program calculates the unit price amounts for a sales document when you have not set up prices on the <bpt id="p1">**</bpt>Sales Prices<ept id="p1">**</ept> page:</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Price Includes VAT field on Item Card<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Prices Including VAT field in Sales Header<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Action Performed<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>No check mark</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>No check mark</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Unit Price<ept id="p1">**</ept> on the Item Card is copied to <bpt id="p2">**</bpt>Unit Price Excl. VAT<ept id="p2">**</ept> field on the sales lines.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>No check mark</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Check mark</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The program calculates the VAT amount per unit and adds to the <bpt id="p1">**</bpt>Unit Price<ept id="p1">**</ept> on the Item Card.</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>This total Unit Price is then entered in the <bpt id="p1">**</bpt>Unit Price Incl. VAT field<ept id="p1">**</ept> on the sales lines.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Check mark</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>No check mark</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The program calculates the VAT amount included in the <bpt id="p1">**</bpt>Unit Price<ept id="p1">**</ept> on the Item Card using the VAT% related to the VAT Bus. Posting Gr. (Price) and the VAT Prod. Posting Group combination.</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Unit Price<ept id="p1">**</ept> on the Item Card, reduced by the VAT amount, is then entered in the <bpt id="p2">**</bpt>Unit Price Excl. VAT<ept id="p2">**</ept> field in the sales lines.</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Check mark</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Check mark</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Unit Price<ept id="p1">**</ept> on the Item Card is copied to <bpt id="p2">**</bpt>Unit Price Incl. VAT<ept id="p2">**</ept> field on the sales lines.</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Correcting VAT Amounts Manually in Sales and Purchase Documents</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>You can make corrections to posted VAT entries.</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>This allows you to change the total sales or purchase VAT amounts without changing the VAT base.</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>You may need to do this, for example, if you receive an invoice from a vendor that has calculated VAT incorrectly.</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Although you may have set up one or more combinations to handle import VAT, you must set up at least one VAT product posting group.</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>For example, you can name it <bpt id="p1">**</bpt>CORRECT<ept id="p1">**</ept> for correction purposes, unless you can use the same general ledger account in the <bpt id="p2">**</bpt>Purchase VAT Account<ept id="p2">**</ept> field on the VAT posting setup line.</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Setting Up to Calculations and Posting Methods for Value-Added Tax<ept id="p1">](finance-setup-vat.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>If a payment discount has been calculated on the basis of an invoice amount that includes VAT, you revert the payment discount part of the VAT amount when the payment discount is granted.</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Note that you must activate the <bpt id="p1">**</bpt>Adjust for Payments Disc.<ept id="p1">**</ept> field in both the general ledger setup in general and the VAT posting setup for specific combinations of a VAT business posting group and a VAT product posting group.</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>To manually enter VAT in sales documents</source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>General Ledger Setup<ept id="p1">**</ept> page, specify a <bpt id="p2">**</bpt>Max. VAT Difference Allowed<ept id="p2">**</ept> between the amount calculated by the program and the manual amount.</source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Sales &amp; Receivables Setup<ept id="p1">**</ept> page, place a check mark in the <bpt id="p2">**</bpt>Allow Vat Difference<ept id="p2">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>To adjust VAT for a sales document</source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Open the relevant sales order.</source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Statistics<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Invoicing<ept id="p1">**</ept> FastTab.</source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The total VAT amount for the invoice, grouped by VAT identifier, is displayed in the lines.</source>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>You can manually adjust the amount in the <bpt id="p1">**</bpt>VAT Amount<ept id="p1">**</ept> field on the lines for each VAT identifier.</source>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>When you modify the <bpt id="p1">**</bpt>VAT Amount<ept id="p1">**</ept> field, the program checks to ensure that you have not changed the VAT by more than the amount you have specified as the maximum difference allowed.</source>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>If the amount is outside the range of the <bpt id="p1">**</bpt>Max. VAT Difference Allowed<ept id="p1">**</ept>, a warning will be displayed stating the maximum allowed difference.</source>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>You will be unable to proceed until the amount is adjusted to within the acceptable parameters.</source>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> and enter another <bpt id="p2">**</bpt>VAT Amount<ept id="p2">**</ept> that is within the allowed range.</source>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>If the VAT difference is equal to or lower than the maximum allowed, the VAT will be divided proportionally among the document lines that have the same VAT identifier.</source>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Calculating VAT Manually Using Journals</source>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>You can also adjust VAT amounts in general, sales, and purchase journals.</source>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>For example, you might need to do this when you enter a vendor invoice in your journal and there is a difference between the VAT amount that <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> calculated and the VAT amount on the vendor's invoice.</source>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Before you manually enter VAT on a general journal</source>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>General Ledger Setup<ept id="p1">**</ept> page, specify a <bpt id="p2">**</bpt>Max. VAT Difference Allowed<ept id="p2">**</ept> between the amount calculated by the program and the manual amount.</source>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>General Journal Templates<ept id="p1">**</ept> page, choose the <bpt id="p2">**</bpt>Allow VAT Difference<ept id="p2">**</ept> check box for the relevant journal.</source>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Before you manually enter VAT on sales and purchase journals</source>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Purchases &amp; Payables Setup<ept id="p1">**</ept> page, choose the <bpt id="p2">**</bpt>Allow VAT Difference<ept id="p2">**</ept> check box.</source>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>After you complete the setup described above, you can adjust the <bpt id="p1">**</bpt>VAT Amount<ept id="p1">**</ept> field on the general journal line, or the <bpt id="p2">**</bpt>Bal. VAT Amount<ept id="p2">**</ept> field on the sales or purchase journal line.</source>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> will check that the difference is not greater than the specified maximum.</source>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>If the difference is greater, a warning will be displayed stating the maximum allowed difference.</source>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>To continue, you must adjust the amount.</source>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> and then enter an amount that is within the allowed range.</source>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>If the VAT difference is equal to or lower than the maximum allowed, <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> will show the difference in the <bpt id="p1">**</bpt>VAT Difference<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>To post import VAT with purchase invoices</source>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Instead of using a general journal to post an import VAT invoice, you can use a purchase invoice.</source>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>To set up purchasing for posting import VAT invoices</source>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Set up a vendor card for the import authority that sends you the import VAT invoice.</source>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Gen. Bus. Posting Group<ept id="p1">**</ept> and <bpt id="p2">**</bpt>VAT Bus. Posting Group<ept id="p2">**</ept> must be set up in the same way as the general ledger account for the import VAT.</source>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Create a <bpt id="p1">**</bpt>Gen. Product Posting Group<ept id="p1">**</ept> for the import VAT and set up an import VAT <bpt id="p2">**</bpt>Def. VAT Product Posting Group<ept id="p2">**</ept> for the related <bpt id="p3">**</bpt>Gen. Product Posting Group<ept id="p3">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Chart of Accounts<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Select the import VAT general ledger account, and then on the <bpt id="p1">**</bpt>Home<ept id="p1">**</ept> tab, in the <bpt id="p2">**</bpt>Manage<ept id="p2">**</ept> group, choose <bpt id="p3">**</bpt>Edit<ept id="p3">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Posting<ept id="p1">**</ept> FastTab, select the <bpt id="p2">**</bpt>Gen. Prod. Posting Group<ept id="p2">**</ept> setup for import VAT.</source>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> automatically fills in the <bpt id="p1">**</bpt>VAT Prod. Posting Group<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>General Posting Setup<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Create a combination of the <bpt id="p1">**</bpt>Gen. Bus. Posting Group<ept id="p1">**</ept> for the VAT authority and the <bpt id="p2">**</bpt>Gen. Prod. Posting Group<ept id="p2">**</ept> for import VAT.</source>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>For this new combination, in the <bpt id="p1">**</bpt>Purchase Account<ept id="p1">**</ept> field, choose the import VAT general ledger account.</source>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>To create a new invoice for the import authority vendor once you have completed the setup</source>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Purchase Invoices<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Create a new purchase invoice.</source>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Buy-from Vendor No.<ept id="p1">**</ept> field, choose the import authority vendor, and then choose the <bpt id="p2">**</bpt>OK<ept id="p2">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>In the purchase line, in the <bpt id="p1">**</bpt>Type<ept id="p1">**</ept> field, choose <bpt id="p2">**</bpt>G/L Account<ept id="p2">**</ept>, and in the <bpt id="p3">**</bpt>No.<ept id="p3">**</ept></source>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>field, choose the import VAT general ledger account.</source>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Quantity<ept id="p1">**</ept> field, type <bpt id="p2">**</bpt>1<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Direct Unit Cost Excl. VAT<ept id="p1">**</ept> field, specify the VAT amount.</source>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Post the invoice.</source>
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>To process certificates of supply</source>
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>When you sell goods to a customer in another EU country/region, you must send the customer a certificate of supply that the customer must sign and return to you.</source>
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The following procedures are for processing certificates of supply for sales shipments, but the same steps apply for service shipments of items, and return shipments to vendors.</source>
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>To view certificate of supply details</source>
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Posted Sales Shipments<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Choose the relevant sales shipment to a customer in another EU country/region.</source>
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>Certificate of Supply Details<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>By default, if the <bpt id="p1">**</bpt>Certificate of Supply Required<ept id="p1">**</ept> check box is selected for VAT Posting Group setup for the customer, the <bpt id="p2">**</bpt>Status<ept id="p2">**</ept> field is set to <bpt id="p3">**</bpt>Required<ept id="p3">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>You can update the field to indicate whether the customer has returned the certificate.</source>
+        </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>If the VAT Posting Group setup does not have the <bpt id="p1">**</bpt>Certificate of Supply Required<ept id="p1">**</ept> check box selected, then a record is created and the <bpt id="p2">**</bpt>Status<ept id="p2">**</ept> field is set to <bpt id="p3">**</bpt>Not Applicable<ept id="p3">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>You can update the field to reflect the correct status information.</source>
+        </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>You can manually change the status from <bpt id="p1">**</bpt>Not Applicable<ept id="p1">**</ept> to <bpt id="p2">**</bpt>Required<ept id="p2">**</ept>, and from <bpt id="p3">**</bpt>Required<ept id="p3">**</ept> to <bpt id="p4">**</bpt>Not Applicable<ept id="p4">**</ept> as needed.</source>
+        </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>When you update the <bpt id="p1">**</bpt>Status<ept id="p1">**</ept> field to <bpt id="p2">**</bpt>Required<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Received<ept id="p3">**</ept>, or <bpt id="p4">**</bpt>Not Received<ept id="p4">**</ept>, a certificate is created.</source>
+        </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>You can use the <bpt id="p1">**</bpt>Certificates of Supply<ept id="p1">**</ept> page to get a view of the status of all posted shipments for which a certificate of supply has been created.</source>
+        </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>Print Certificate of Supply<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>You can preview or print the document.</source>
+        </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>When you choose <bpt id="p1">**</bpt>Print Certificate of Supply<ept id="p1">**</ept> and print the document, the <bpt id="p2">**</bpt>Printed<ept id="p2">**</ept> check box is automatically selected.</source>
+        </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>In addition, if not already specified, the status of the certificate is updated to <bpt id="p1">**</bpt>Required<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>If needed, you include the printed certificate with the shipment.</source>
+        </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>To print a certificate of supply</source>
+        </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Posted Sales Shipments<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Choose the relevant sales shipment to a customer in another EU country/region.</source>
+        </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Print Certificate of Supply<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Alternatively, you can print a certificate from the <bpt id="p1">**</bpt>Certificate of Supply<ept id="p1">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>To include information from the lines on the shipment document in the certificate, select the <bpt id="p1">**</bpt>Print Line Details<ept id="p1">**</ept> check box.</source>
+        </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Create Certificates of Supply if Not Already Created<ept id="p1">**</ept> check box to have <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> create certificates for posted shipments that do not have one at the moment of execution.</source>
+        </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>When you choose the check box, new certificates will be created for all posted shipments that do not have certificates within the selected range.</source>
+        </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>By default, the filter settings are for the shipment document that you have selected.</source>
+        </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Fill in the filter information to select a specific certificate of supply that you want to print.</source>
+        </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Certificate of Supply<ept id="p1">**</ept> page, choose the <bpt id="p2">**</bpt>Print<ept id="p2">**</ept> action to print the report, or choose the <bpt id="p3">**</bpt>Preview<ept id="p3">**</ept> action to view it on the screen.</source>
+        </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Certificate of Supply Status<ept id="p1">**</ept> field and the <bpt id="p2">**</bpt>Printed<ept id="p2">**</ept> field are updated for the shipment on the <bpt id="p3">**</bpt>Certificates of Supply<ept id="p3">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Send the printed certificate of supply to the customer for signature.</source>
+        </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>To update the status of a certificate of supply for a shipment</source>
+        </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Posted Sales Shipments<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Choose the relevant sales shipment to a customer in another EU country/region.</source>
+        </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Status<ept id="p1">**</ept> field, choose the relevant option.</source>
+        </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>If the customer has returned the signed certificate of supply, choose <bpt id="p1">**</bpt>Received<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Receipt Date<ept id="p1">**</ept> field is updated.</source>
+        </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>By default, the receipt date is set to the current work date.</source>
+        </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>You can modify the date to reflect the date that you received the customer's signed certificate of supply.</source>
+        </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>You can also add a link to the signed certificate using standard <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> linking.</source>
+        </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>If the customer does not return the signed certificate of supply, choose <bpt id="p1">**</bpt>Not Received<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>You must then send the customer a new invoice that includes VAT, because the original invoice will not be accepted by the tax authority.</source>
+        </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>To view a group of certificates, you start from the <bpt id="p1">**</bpt>Certificates of Supply<ept id="p1">**</ept> page, and then update the information about the status of outstanding certificates as you receive them back from your customers.</source>
+        </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>This can be useful when you want to search for all certificates that have a certain status, for example, <bpt id="p1">**</bpt>Required<ept id="p1">**</ept>, for which you want to update their status to <bpt id="p2">**</bpt>Not Received<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>To update the status of a group of certificates of supply</source>
+        </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Certificates of Supply<ept id="p3">**</ept>, and choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>Filter the <bpt id="p1">**</bpt>Status<ept id="p1">**</ept> field to the value that you want in order to create the list of certificates that you want to manage.</source>
+        </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>To update the status information, choose <bpt id="p1">**</bpt>Edit List<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Status<ept id="p1">**</ept> field, choose the relevant option.</source>
+        </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>If the customer has returned the signed certificate of supply, choose <bpt id="p1">**</bpt>Received<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Receipt Date<ept id="p1">**</ept> field is updated.</source>
+        </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>By default, the receipt date is set to the current work date.</source>
+        </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>You can modify the date to reflect the date that you received the signed the certificate of supply.</source>
+        </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>You can also add a link to the signed certificate using standard <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> document linking.</source>
+        </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>You cannot create a new certificate of supply on the <bpt id="p1">**</bpt>Certificate of Supply<ept id="p1">**</ept> page when you navigate to it using this procedure.</source>
+        </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>To create a certificate for a shipment that was not set up to require one, open the posted sales shipment, and use either of two procedures described above:</source>
+        </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>To manually create a certificate of supply certificate</source>
+        </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>To print a certificate of supply.</source>
+        </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Setting Up to Calculations and Posting Methods for Value-Added Tax<ept id="p1">](finance-setup-vat.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>How To: Report VAT to a Tax Authority<ept id="p1">](finance-how-report-vat.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

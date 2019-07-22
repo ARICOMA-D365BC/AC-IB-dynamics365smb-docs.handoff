@@ -1,0 +1,435 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="admin-how-to-prepare-a-configuration-package.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-5ae97a8" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b1dbe67852e197ab52aff58131576ffd6b9c49c4</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\admin-how-to-prepare-a-configuration-package.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">99bb37ce3a3768853f4ec567a3e018879ee58800</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f43610b86f750b55770320b9427db150f135c662</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>How to Prepare a Configuration Package | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>When you configure a new company, table relations are recognized and processed.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Data is imported and applied in the correct order.</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Dimension tables are also imported if they are included in the configuration package.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Prepare a Configuration Package</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>When you configure a new company, table relations are recognized and processed.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Data is imported and applied in the correct order.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Dimension tables are also imported if they are included in the configuration package.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>To help your customer use the configuration package, you may want to add a questionnaire or a set of questionnaires to the package.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The questionnaire can help the customer in understanding the various setup options.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Typically, questionnaires are created for the major setup tables where a customer may require additional guidance about how to select an appropriate setting.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Gather Customer Setup Values<ept id="p1">](admin-gather-customer-setup-values.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Make sure that you are on the RapidStart Services Implementer Role Center.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Use the RapidStart Services Implementer Role Center<ept id="p1">](admin-how-to-use-the-rapidstart-services-role-center-to-track-progress.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>When exporting and importing configuration packages between two company databases, the databases should have the same schema to ensure that all data is transferred successfully.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>This means that the databases should have the same table and field structure, in which the tables have the same primary keys and fields have the same IDs and data types.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>You can import a configuration package that has been exported from a database that has a different schema than that target database.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>However, any tables or fields in the configuration package that are missing in the target database will not be imported.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Tables with different primary keys and fields with different data types will also not successfully import.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>For example, if the configuration pack includes table <bpt id="p1">**</bpt>50000, Customer<ept id="p1">**</ept> that has primary key <bpt id="p2">**</bpt>Code20<ept id="p2">**</ept> and the database to which you import the pack includes table <bpt id="p3">**</bpt>50000, Customer Bank Account<ept id="p3">**</ept> that has the primary key <bpt id="p4">**</bpt>Code20 + Code 20<ept id="p4">**</ept>, then data will not be imported.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>To create a configuration package</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Configuration Packages<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>New<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>General<ept id="p1">**</ept> FastTab, fill in the fields as appropriate.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>To exclude the configuration questionnaires, configuration templates, and configuration worksheet tables from the package, select the <bpt id="p1">**</bpt>Exclude Configuration Tables<ept id="p1">**</ept> check box.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Otherwise, these tables will be added to the list of package tables automatically when you export the package.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Get Tables<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Get Package Tables<ept id="p1">**</ept> batch job page opens.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Select Tables<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Config. Selection<ept id="p1">**</ept> page opens.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Select All<ept id="p1">**</ept> action to add all tables to the package, or select the <bpt id="p2">**</bpt>Selected<ept id="p2">**</ept> check box for each table in the list that you want to add.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The count of tables that you have selected is indicated in the <bpt id="p1">**</bpt>Select Tables<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Specify additional options, and then choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> tables are added to the lines of the <bpt id="p1">**</bpt>Config. Package<ept id="p1">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>You can also do this in the configuration worksheet.</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Select the tables you want to include in the package, and then choose the <bpt id="p1">**</bpt>Assign Package<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>To select the fields that you want to include from a table, select the table, and then, on the <bpt id="p1">**</bpt>Lines<ept id="p1">**</ept> tab, choose the <bpt id="p2">**</bpt>Fields<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Specify which fields are included in the package.</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>By default, all fields are included.</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>To select just the fields you want to include, choose the <bpt id="p1">**</bpt>Clear Included<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>To add all fields, choose the <bpt id="p1">**</bpt>Set Included<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>To specify that the field data should not be validated, clear the <bpt id="p1">**</bpt>Validate Field<ept id="p1">**</ept> check box for the field.</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Determine whether you have introduced potential errors, by choosing the <bpt id="p1">**</bpt>Validate Package<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>This can occur when you do not include tables that your configuration relies on.</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>After you have refined the list of fields to include from a table, you can check your results in Excel.</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>To filter and review your dataset</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>To filter to a certain set of records to include in the package, on the <bpt id="p1">**</bpt>Lines<ept id="p1">**</ept> tab, choose the <bpt id="p2">**</bpt>Filters<ept id="p2">**</ept> action, and then specify the appropriate filter values.</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>On the package card, on the <bpt id="p1">**</bpt>Lines<ept id="p1">**</ept> tab, choose the <bpt id="p2">**</bpt>Export to Excel<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Confirm the messages that enable the export of data to Excel.</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The named .xlsx file opens.</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Review the records that have been exported.</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Close Excel.</source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>To include a template for application to a table</source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>For certain tables, such a table that will contain master data, you can specify a template to apply to the data.</source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The template can include the required fields that you want to apply to all master data and that you never want to vary.</source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>For example, you can create a template that can be used with customer data.</source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The template can contain all the required fields, which then enables consistent import of standardized information.</source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Information that cannot be standardized, such as customer name, is then treated when you do an import of customer data.</source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Config. Package Card<ept id="p1">**</ept> page, select a table, and then choose the <bpt id="p2">**</bpt>Data Template<ept id="p2">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>A list of templates based on the table is displayed.</source>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Select a template, and then choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>After the package is complete, follow the next procedure to save the package to a file.</source>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>You can then give the package to a customer or partner to use.</source>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>To save and export a configuration package</source>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Config. Package Card<ept id="p1">**</ept> page, choose the <bpt id="p2">**</bpt>Export Package<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The package is created in a .rapidstart file, which delivers the package contents in a compressed format.</source>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Configuration questionnaires, configuration templates, and the configuration worksheet are added to the package automatically unless you specifically decide to exclude them.</source>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>You can save the file with a name that is meaningful to you, but you cannot change the extension of the file.</source>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>It must be .rapidstart.</source>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>To copy a configuration package</source>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>After you have created a package that meets most of your needs, you can use it as a basis for creating similar packages.</source>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>This can speed up implementation time and enhances the repeatability of RapidStart Services.</source>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Configuration Packages<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Select a package from the list, and then choose the <bpt id="p1">**</bpt>Copy Package<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>New Package Code<ept id="p1">**</ept> field, enter a code for the new package.</source>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>Copy Data<ept id="p1">**</ept> check box if you also want to copy database data from the existing package.</source>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>To customize a configuration package</source>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Use the configuration worksheet to gather and categorize the information that you want to use to configure a new company, and arrange tables in a logical way.</source>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Formatting in the worksheet is based on a simple hierarchy: Areas contain groups, which in turn contain tables.</source>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Areas and groups are optional, but are necessary to enable an overview of the configuration process on the RapidStart Services Role Center.</source>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Configuration Worksheet<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Line Type<ept id="p1">**</ept> field, choose <bpt id="p2">**</bpt>Area<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Name<ept id="p1">**</ept> field, enter a descriptive name.</source>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Line Type<ept id="p1">**</ept> field, choose <bpt id="p2">**</bpt>Group<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Name<ept id="p1">**</ept> field, enter a descriptive name.</source>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Line Type<ept id="p1">**</ept> field, choose <bpt id="p2">**</bpt>Table<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Table ID<ept id="p1">**</ept> field, select the table you want to include in the worksheet.</source>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>You can now assign the tables to specific configuration packages that you have created or plan to create.</source>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>To assign a table to a configuration package<ept id="p1">](admin-how-to-prepare-a-configuration-package.md#to-assign-a-table-to-a-configuration-package)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>To work with promoted tables</source>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>Promoted Table<ept id="p1">**</ept> check box to indicate a table that is frequently used during the setup process by a typical customer, for example, the <bpt id="p2">**</bpt>G/L Account<ept id="p2">**</ept> table.</source>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>When a table has this designation, a customer will be able to easily filter his worksheet to see just the list of promoted tables that require attention.</source>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>To see the filtered view, choose the <bpt id="p1">**</bpt>Promoted Only<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The list of tables contains only those tables that have the check box selected.</source>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>To assign a table to a configuration package</source>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>After you have defined the tables that you want to treat as part of your configuration, you can easily assign the tables to configuration packages.</source>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>You can assign a table to one package only.</source>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>In the following procedure, you assign the package from within configuration worksheet.</source>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>You can also create a package directly, and add tables to it.</source>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>To create a configuration package<ept id="p1">](admin-how-to-prepare-a-configuration-package.md#to-create-a-configuration-package)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Configuration Worksheet<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>In the configuration worksheet, select a line or group of lines that you want to assign to a configuration package, and then choose the <bpt id="p1">**</bpt>Assign Package<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Select a package from the list, or choose the <bpt id="p1">**</bpt>New<ept id="p1">**</ept> action to create a new package, and then choose the <bpt id="p2">**</bpt>OK<ept id="p2">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>If a table is not already included in the package, it will now be added.</source>
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The package code field on the worksheet line will be filled in with the code of the package that the table is assigned to.</source>
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>If you choose an existing package, you can see how many tables are already in the package by reviewing the information in the <bpt id="p1">**</bpt>No. of Tables<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>To review or customize existing database data</source>
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>As you create a configuration package for a solution, you can view and customize the available database data to suit your customer needs.</source>
+        </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>The database table must have an associated page.</source>
+        </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Configuration Worksheet<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>In the configuration worksheet, identify the tables whose data that you want to view or customize.</source>
+        </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Make sure that each table has a page ID assigned to it.</source>
+        </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>For standard <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> tables, this value is automatically filled in.</source>
+        </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>For custom tables, you must provide the ID.</source>
+        </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Database Data<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>The page for the related page opens.</source>
+        </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Review the available information.</source>
+        </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Modify it as necessary by deleting records that are not relevant or by adding new ones.</source>
+        </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>To copy data from a test environment to a production environment</source>
+        </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>After you have vetted and tested all your setup information, you can proceed to copy data to your production environment.</source>
+        </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>You create a new company in the same database.</source>
+        </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Open and initialize the new company.</source>
+        </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Configuration Worksheet<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Copy Data from the Company<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Copy Company Data<ept id="p1">**</ept> page, choose the <bpt id="p2">**</bpt>Copy From<ept id="p2">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Companies<ept id="p1">**</ept> page opens.</source>
+        </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Select the company from which you want to copy data, and then choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>A list of tables selected on the configuration worksheet opens.</source>
+        </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Only tables that contain records are included in this list.</source>
+        </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Select the tables that you want to copy data from, and then choose the <bpt id="p1">**</bpt>Copy Data<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Copy Company Data<ept id="p1">**</ept> page, choose the <bpt id="p2">**</bpt>OK<ept id="p2">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Gather Customer Setup Values<ept id="p1">](admin-gather-customer-setup-values.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Set Up Company Configuration<ept id="p1">](admin-set-up-company-configuration.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Setting Up a Company With RapidStart Services<ept id="p1">](admin-set-up-a-company-with-rapidstart.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Administration<ept id="p1">](admin-setup-and-administration.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

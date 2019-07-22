@@ -1,0 +1,183 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="across-how-use-financials-data-source-flow.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-435fba6" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6f79bd9a5e3f79d4366a1a43411fe39942ac4e4f</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\across-how-use-financials-data-source-flow.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">90850c7dfb59f0ffad3161ccf9b5aee5bb2afc95</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4a647470c3a4d1a35ddc0c169867ed70ad950c6c</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Connect Your Data with Flow| Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>You can make your Business Central data available as a data source and specify an OData URL of your web services to build an automated workflow.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Using <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> in an Automated Workflow</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You can use your <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> data as part of a workflow in Microsoft Flow.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>In addition to Microsoft Flow, you can use the Workflow functionality within <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Note that although they are two separate workflow systems, any Flow template that you create with Microsoft Flow is added to the list of workflow templates within <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Workflow<ept id="p1">](across-workflow.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>You must have a valid account with <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> and with Flow.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>To add <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> as a data source in Flow</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>In your browser, navigate to <bpt id="p1">[</bpt>flow.microsoft.com<ept id="p1">](https://flow.microsoft.com/en-us/)</ept>, and then sign in.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>My Flows<ept id="p1">**</ept> from the ribbon at the top of the page.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>There are 2 ways to create a Flow; <bpt id="p1">**</bpt>Create from template<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Create from blank<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>A template is a predefined Flow that has been created for you.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>To use a template, simply select it and create a connection for each service the template uses.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>A blank template enables you to create a new Flow completely from scratch.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>To Create from blank, on the <bpt id="p1">**</bpt>My Flows<ept id="p1">**</ept> page, choose the <bpt id="p2">**</bpt>Create from blank<ept id="p2">**</ept> option.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Search for <bpt id="p1">**</bpt>Microsoft <ph id="ph1">[!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]</ph><ept id="p1">**</ept> connector.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>From the list of available triggers, select one of the <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> triggers available:</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>When a customer approval is requested<ept id="p1">*</ept>,</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>When a general journal batch approval is requested<ept id="p1">*</ept>,</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>When a general journal line approval is requested<ept id="p1">*</ept>,</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>When an item approval is requested<ept id="p1">*</ept>,</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>When a purchase document approval is requested<ept id="p1">*</ept>,</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>When a sales document approval is requested<ept id="p1">*</ept>, or</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>When a vendor approval is requested<ept id="p1">*</ept>.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Flow will prompt you to select a company within your <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> tenant, as well as any conditions in your data that you want to listen for.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>At this point, you have successfully connected to your Business Central data and are ready to begin building your flow.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>To Create from a template, choose the <bpt id="p1">**</bpt>Create from template<ept id="p1">**</ept> option.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Search for <bpt id="p1">**</bpt>Microsoft <ph id="ph1">[!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]</ph><ept id="p1">**</ept> templates.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>From the list of available templates, select one of the templates.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Request Approval for Microsoft <ph id="ph1">[!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]</ph> sales order<ept id="p1">*</ept>,</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Request Approval for Microsoft <ph id="ph1">[!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]</ph> sales quote<ept id="p1">*</ept>,</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Request Approval for Microsoft <ph id="ph1">[!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]</ph> sales invoice<ept id="p1">*</ept>,</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Request Approval for Microsoft <ph id="ph1">[!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]</ph> sales credit memo<ept id="p1">*</ept>,</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Request Approval for Microsoft <ph id="ph1">[!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]</ph> customer<ept id="p1">*</ept>,</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Request Approval for Microsoft <ph id="ph1">[!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]</ph> purchase order<ept id="p1">*</ept>,</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Request Approval for Microsoft <ph id="ph1">[!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]</ph> purchase invoice<ept id="p1">*</ept>,</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Request Approval for Microsoft <ph id="ph1">[!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]</ph> purchase credit memo<ept id="p1">*</ept>,</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Request Approval for Microsoft <ph id="ph1">[!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]</ph> item<ept id="p1">*</ept>,</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Request Approval for Microsoft <ph id="ph1">[!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]</ph> vendor<ept id="p1">*</ept>,</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Request Approval for Microsoft <ph id="ph1">[!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]</ph> general journal batch<ept id="p1">*</ept>,</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Request Approval for Microsoft <ph id="ph1">[!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]</ph> general journal lines<ept id="p1">*</ept>.</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Flow will prompt you to select a company within your <ph id="ph1">[!INCLUDE[d365fin_md](includes/d365fin_md.md)]</ph> tenant.</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Because each step in the flow is independent of the next, you may be required to define the company multiple times when using a <ph id="ph1">[!INCLUDE[d365fin_md](includes/d365fin_md.md)]</ph> Flow template.</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>For more information, see the <bpt id="p1">[</bpt>Flow Documentation<ept id="p1">](https://docs.microsoft.com/en-us/flow/getting-started)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>For troubleshooting your Microsoft Flow, see <bpt id="p1">[</bpt>Troubleshooting Integration with Microsoft Flow<ept id="p1">](across-troubleshooting-how-use-financials-data-source-flow.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Getting Started<ept id="p1">](product-get-started.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Workflow<ept id="p1">](across-workflow.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Importing Business Data from Other Finance Systems<ept id="p1">](across-import-data-configuration-packages.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Managing Users and Permissions<ept id="p1">](ui-how-users-permissions.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Manage <ph id="ph1">[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]</ph> Workflows<ept id="p1">](across-use-workflows.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Approval User Setup<ept id="p1">](across-how-to-set-up-approval-users.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Setting Up <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph><ept id="p1">](setup.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Finance<ept id="p1">](finance.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,138 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="finance-how-to-set-up-sepa-credit-transfer.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-8cf0045" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6c35fdb6e5e37eb521b6d51050a552e52b66ec5d</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\finance-how-to-set-up-sepa-credit-transfer.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7a4255886cf2a02dafd3c421a939287abf9e6ad4</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cd5d27032d70e0b33e551a4cf0cc0529b1f7259f</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Set up SEPA credit transfer | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Learn how to set up SEPA credit transfer in Business Central .</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Set Up SEPA Credit Transfer</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>From the <bpt id="p1">**</bpt>Payment Journal<ept id="p1">**</ept> page, you can export payments to a file for upload to your electronic bank for processing of the related money transfers.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> supports the SEPA Credit Transfer format, but in your country/region, other formats for electronic payments may be available.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>To enable export of a bank file formats that are not supported out of the box in <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>, you can set up a data exchange definition by using the data exchange framework.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Set Up Data Exchange Definitions<ept id="p1">](across-how-to-set-up-data-exchange-definitions.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Before you can process payment electronically by exporting payment files in the SEPA Credit Transfer format, you must perform the following setup steps:</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Set up the bank account in question to handle the SEPA Credit Transfer format</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Set up vendor cards to process payments by exporting files in the SEPA Credit Transfer format</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Set up the related general journal batch to enable payment export from the <bpt id="p1">**</bpt>Payment Journal<ept id="p1">**</ept> page</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Connect the data exchange definition for one or more payment types with the relevant payment method or methods</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>To set up a bank account for SEPA Credit Transfer</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Search<ept id="p1">**</ept> box, enter <bpt id="p2">**</bpt>Bank Accounts<ept id="p2">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Open the card of the bank account from which you will export payment files in the SEPA Credit Transfer format.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Transfer<ept id="p1">**</ept> FastTab, in the <bpt id="p2">**</bpt>Payment Export Format<ept id="p2">**</ept> field, choose <bpt id="p3">**</bpt>SEPADD<ept id="p3">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>SEPA CT Msg. ID No. Series<ept id="p1">**</ept> field, choose a number series from which numbers are assigned to SEPA credit transfer entries.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Make sure the <bpt id="p1">**</bpt>IBAN<ept id="p1">**</ept> field is filled.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Currency Code<ept id="p1">**</ept> field must be set to <bpt id="p2">**</bpt>EUR<ept id="p2">**</ept>, because SEPA credit transfers can only be made in the EURO currency.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>To set up a vendor card for SEPA Credit Transfer</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Search<ept id="p1">**</ept> box, enter <bpt id="p2">**</bpt>Vendors<ept id="p2">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Open the card of the vendor whom you will pay electronically by export payment files in the SEPA Credit Transfer format.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Payment<ept id="p1">**</ept> FastTab, in the <bpt id="p2">**</bpt>Payment Method Code<ept id="p2">**</ept> field, choose <bpt id="p3">**</bpt>BANK<ept id="p3">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Preferred Bank Account<ept id="p1">**</ept> field, choose the bank to which the money will be transferred when it is processed by your electronic bank.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The value in the <bpt id="p1">**</bpt>Preferred Bank Account<ept id="p1">**</ept> field is copied to the <bpt id="p2">**</bpt>Recipient Bank Account<ept id="p2">**</ept> field on the <bpt id="p3">**</bpt>Payment Journal<ept id="p3">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>To set the payment journal up to export payment files</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Search<ept id="p1">**</ept> box, enter <bpt id="p2">**</bpt>Payment Journals<ept id="p2">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Open the payment journal that you use to process payments by exporting files in the SEPA Credit Transfer format.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Batch Name<ept id="p1">**</ept> field, choose the drop<ph id="ph1">\-</ph>down button.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>General Journal Batches<ept id="p1">**</ept> page, on the <bpt id="p2">**</bpt>Home<ept id="p2">**</ept> tab, in the <bpt id="p3">**</bpt>Manage<ept id="p3">**</ept> group, choose <bpt id="p4">**</bpt>Edit List<ept id="p4">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>On the line for the payment journal that you will use to export payments, select the <bpt id="p1">**</bpt>Allow Payment Export<ept id="p1">**</ept> check box.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>To connect the data exchange definition for one or more payment types with the relevant payment method or methods</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Search<ept id="p1">**</ept> box, enter <bpt id="p2">**</bpt>Payment Methods<ept id="p2">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Payment Methods<ept id="p1">**</ept> page, select the payment method that is used to export payments from, and then choose the <bpt id="p2">**</bpt>Pmt. Export Line Definition<ept id="p2">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Pmt. Export Line Definitions<ept id="p1">**</ept> page, select the code that you specified in the <bpt id="p2">**</bpt>Code<ept id="p2">**</ept> field on the <bpt id="p3">**</bpt>Line Definitions<ept id="p3">**</ept> FastTab in step 4 in the “To describe the formatting of lines and columns in the file” section in the <bpt id="p4">[</bpt>Set Up Data Exchange Definitions<ept id="p4">](across-how-to-set-up-data-exchange-definitions.md)</ept> procedure.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Collect Payments with SEPA Direct Debit<ept id="p1">](finance-collect-payments-with-sepa-direct-debit.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Set Up Data Exchange Definitions<ept id="p1">](across-how-to-set-up-data-exchange-definitions.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Create Recurring Sales and Purchase Lines<ept id="p1">](sales-how-work-standard-lines.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Exchanging Data Electronically<ept id="p1">](across-data-exchange.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

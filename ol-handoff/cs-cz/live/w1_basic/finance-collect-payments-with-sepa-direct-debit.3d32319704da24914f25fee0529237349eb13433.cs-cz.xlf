@@ -1,0 +1,465 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="finance-collect-payments-with-sepa-direct-debit.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-8cf0045" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f917bed9eedf3c0aa8227d9c207de5e38f60a791</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\finance-collect-payments-with-sepa-direct-debit.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">92678eea21c3e7431eb77b949217bc9e0c693dcc</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">60ef2c8697ec053d28db564b1279e26f1f967330</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>SEPA Direct Debit in Business Central | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>You can collect payments directly from the customer’s bank account according to the SEPA format.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Collect Payments with SEPA Direct Debit</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>With your customer’s consent, you can collect payments directly from the customer’s bank account according to the SEPA format.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>First, set up the export format of the bank file that instructs your bank to perform a direct debit.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Then, set up the customer’s payment method.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Last, set up the direct-debit mandate that reflects your agreement with the customer to collect their payments in a certain agreement period.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>To instruct the bank to transfer the payment amount from the customer’s bank account to your company’s account, you create a direct-debit collection entry, which holds information about bank accounts, the affected sales invoices, and the direct-debit mandate.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You then export an XML file that is based on the collection entry, which you send to your bank for processing.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Any payments that could not be processed will be communicated to you by your bank, and you must then manually reject the direct debit-collection entries in question.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>You can set up standard customer sales codes with the direct-debit payment method and mandate information.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You can then use the <bpt id="p1">**</bpt>Create Standard Cust. Invoices<ept id="p1">**</ept> batch job to generate multiple sales invoices with the direct-debit information prefilled.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>This is can be done manually or automatically, according to the payment due date.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>When payments are successfully processed, as communicated by your bank, you can post the payment receipts either directly from the <bpt id="p1">**</bpt>Direct Debit Collect. Entries<ept id="p1">**</ept> page or by moving the payment lines to the journal where you post payment receipts, such as the <bpt id="p2">**</bpt>Cash Receipt Journal<ept id="p2">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Alternatively, depending on your cash management process, you can wait and just apply the payments as a part of bank reconciliation.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>To collect payments using SEPA Direct Debit, the currency on the sales invoice must be EURO.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Setting Up SEPA Direct Debit</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>From the <bpt id="p1">**</bpt>Direct Debit Collections<ept id="p1">**</ept> page, you can export instructions to your electronic bank to perform a direct debit collection from the customer’s bank account to your bank account.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> supports the SEPA direct debit format, but in your country/region,other formats for electronic payments may be available.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>To enable export of a bank file formats that are not supported out of the box in <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> , you can set up a data exchange definition by using the data exchange framework.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Set Up Data Exchange Definitions<ept id="p1">](across-how-to-set-up-data-exchange-definitions.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Before you can process customer payments electronically by exporting direct debit instructions in the SEPA Direct Debit format, you must perform the following setup steps:</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Set up the export format of the bank file that instructs your bank to perform a direct debit collection from the customer’s bank account to your bank account.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Set up the customer’s payment method.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Set up the direct-debit mandate that reflects your agreement with the customer to collect their payments in a certain agreement period.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>To set up your bank account for SEPA direct debit</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Search<ept id="p1">**</ept> box, enter <bpt id="p2">**</bpt>Bank Accounts<ept id="p2">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Open the bank account that you want to use for direct debit.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Transfer<ept id="p1">**</ept> FastTab, in the <bpt id="p2">**</bpt>SEPA Direct Debit Export Format<ept id="p2">**</ept> field, choose the option for SEPA direct debit.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>To set up the customer’s payment method for SEPA direct debit</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Search<ept id="p1">**</ept> box, enter <bpt id="p2">**</bpt>Payment Methods<ept id="p2">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>New<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Set up a payment method.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Fill in the direct debit<ph id="ph1">\-</ph>specific fields as described in the following table.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Field</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Direct Debit<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Specify if the payment method is for SEPA direct debit collection.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Direct Debit Pmt. Terms Code<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Specify the payment terms, such as DON’T PAY, that are displayed on sales invoices that are paid with SEPA direct debit to indicate to the customer that the payment will be collected automatically.</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Alternatively, leave the field empty.</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Do not enter a value in the <bpt id="p1">**</bpt>Bal. Account No.<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button to close the <bpt id="p2">**</bpt>Payment Methods<ept id="p2">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Search<ept id="p1">**</ept> box, enter <bpt id="p2">**</bpt>Customers<ept id="p2">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Open the customer card for the customer that you want to set up for SEPA direct debit collection.</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Payment Method Code<ept id="p1">**</ept> field, and then select the payment method code that you specified in step 3.</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Repeat steps 6 and 7 for all customers that you want to set up for SEPA direct debit collection.</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>To set up the direct-debit mandate that represents the customer agreement</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Search<ept id="p1">**</ept> box, enter <bpt id="p2">**</bpt>Customers<ept id="p2">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Open the card for the customer that you want to set up for SEPA direct debits.</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Bank Accounts<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Customer Bank Account List<ept id="p1">**</ept> page, select the customer bank account that will use direct debits, and then, on the <bpt id="p2">**</bpt>Home<ept id="p2">**</ept> tab, in the <bpt id="p3">**</bpt>Process<ept id="p3">**</ept> group, choose <bpt id="p4">**</bpt>Direct Debit Mandates<ept id="p4">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>SEPA Direct Debit Mandates<ept id="p1">**</ept> page, fill in the fields as described in the following table.</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Field</source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Customer Bank Account Code<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Specifies the bank account from which direct<ph id="ph1">\-</ph>debit payments are collected.</source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>This field is filled automatically.</source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Valid From<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Specify the date when the direct<ph id="ph1">\-</ph>debit mandate starts.</source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Valid To<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Specify the date when the direct<ph id="ph1">\-</ph>debit mandate ends.</source>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Date of Signature<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Specify the date when the customer signed the direct<ph id="ph1">\-</ph>debit mandate.</source>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Sequence Type<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Specify if the agreement covers multiple (<bpt id="p1">**</bpt>Recurring<ept id="p1">**</ept>) or a single (<bpt id="p2">**</bpt>One Off<ept id="p2">**</ept>) direct debit collection.</source>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Expected Number of Debits<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Specify how many direct debit collections you expect to make.</source>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>This field is only relevant if you selected <bpt id="p1">**</bpt>Recurring<ept id="p1">**</ept> in the <bpt id="p2">**</bpt>Sequence Type<ept id="p2">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Debit Counter<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Specifies how many direct debit collections have been made using this direct<ph id="ph1">\-</ph>debit mandate.</source>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>This field is automatically updated.</source>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Blocked<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Specify that direct debit collections cannot be made using this direct<ph id="ph1">\-</ph>debit mandate.</source>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Repeat steps 1 through 5 for all customers that you want to set up for SEPA direct debits.</source>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The direct-debit mandate is automatically inserted in the <bpt id="p1">**</bpt>Direct Debit Mandate ID<ept id="p1">**</ept> field when you create a sales invoice for the customer that you selected in step 2.</source>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Create Recurring Sales and Purchase Lines<ept id="p1">](sales-how-work-standard-lines.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Creating SEPA Direct Debit Collection Entries and Export to a Bank File</source>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>To instruct the bank to transfer the payment amount from the customer’s bank account to your company’s account, you create a direct-debit collection, which holds information about the customer’s bank account, the affected sales invoices, and the direct-debit mandate.</source>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>From the resulting direct-debit collection entry, you then export an XML file that you send or upload to your electronic bank for processing.</source>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Any payments that could not be processed by the bank will be communicated to you by your bank, and you must then manually reject the direct debit-collection entries in question.</source>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>To collect payments using SEPA Direct Debit, the currency on the sales invoice must be EURO.</source>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>To create a direct-debit collection</source>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Direct Debit Collections<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Direct Debit Collections<ept id="p1">**</ept> page, on the <bpt id="p2">**</bpt>Home<ept id="p2">**</ept> tab, in the <bpt id="p3">**</bpt>New<ept id="p3">**</ept> group, choose <bpt id="p4">**</bpt>Create Direct Debit Collection<ept id="p4">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Create Direct Debit Collection<ept id="p1">**</ept> page, fill in the fields as described in the following table.</source>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Field</source>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>From Due Date<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Specify the earliest payment due date on sales invoices that you want to create a direct-debit collection for.</source>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>To Due Date<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Specify the latest payment due date on sales invoices that you want to create a direct-debit collection for.</source>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Partner Type<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Specify if the direct-debit collection is made for customers of type <bpt id="p1">**</bpt>Company<ept id="p1">**</ept> or <bpt id="p2">**</bpt>Person<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Only Customers With Valid Mandate<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Specify if a direct-debit collection is created for customers who have a valid direct-debit mandate.</source>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept>  A direct-debit collection is created even if the <bpt id="p2">**</bpt>Direct Debit Mandate ID<ept id="p2">**</ept> field is not filled on the sales invoice.</source>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Only Invoices With Valid Mandate<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Specify if a direct-debit collection is only created for sales invoices if a valid direct-debit mandate is selected in the <bpt id="p1">**</bpt>Direct Debit Mandate ID<ept id="p1">**</ept> field on the sales invoice.</source>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Bank Account No.<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Specify which of your company’s bank accounts the collected payment will be transferred to from the customer’s bank account.</source>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Bank Account Name<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the bank account that you select in the <bpt id="p1">**</bpt>Bank Account No.<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>This field is filled automatically.</source>
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>A direct-debit collection is added to the <bpt id="p1">**</bpt>Direct Debit Collections<ept id="p1">**</ept> page, and one or more direct-debit collection entries are created.</source>
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>To export a direct-debit collection entry to a bank file</source>
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Direct Debit Collections<ept id="p1">**</ept> page, on the <bpt id="p2">**</bpt>Home<ept id="p2">**</ept> tab, in the <bpt id="p3">**</bpt>Process<ept id="p3">**</ept> group, choose <bpt id="p4">**</bpt>Direct Debit Collect. Entries<ept id="p4">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Direct Debit Collect. Entries<ept id="p1">**</ept> page, select the entry that you want to export, and then, on the <bpt id="p2">**</bpt>Home<ept id="p2">**</ept> tab, in the <bpt id="p3">**</bpt>Process<ept id="p3">**</ept> group, choose <bpt id="p4">**</bpt>Create Direct Debit<ept id="p4">**</ept> File.</source>
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Save the export file to the location from where you send or upload it to your electronic bank.</source>
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Direct Debit Collect. Entries<ept id="p1">**</ept> page, the <bpt id="p2">**</bpt>Direct Debit Collection Status<ept id="p2">**</ept> field is changed to File Created.</source>
+        </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>SEPA Direct Debit Mandates<ept id="p1">**</ept> page, the <bpt id="p2">**</bpt>Debit Counter<ept id="p2">**</ept> field is updated with one count.</source>
+        </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>If the exported file cannot be processed, for example because the customer is insolvent, you can reject the direct-debit collection entry.</source>
+        </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>If the exported file is successfully processed by the bank, the due payments of the involved sales invoices are automatically collected from the involved customers.</source>
+        </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>In that case you can close the collection.</source>
+        </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>To reject a direct-debit collection entry</source>
+        </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Direct Debit Collect. Entries<ept id="p1">**</ept> page, select the entry that was not successfully processed, and then, on the <bpt id="p2">**</bpt>Home<ept id="p2">**</ept> tab, in the <bpt id="p3">**</bpt>Process<ept id="p3">**</ept> group, choose <bpt id="p4">**</bpt>Reject Entry<ept id="p4">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>The value in the <bpt id="p1">**</bpt>Status<ept id="p1">**</ept> field on the <bpt id="p2">**</bpt>Direct Debit Collect. Entries<ept id="p2">**</ept> page is changed to <bpt id="p3">**</bpt>Rejected<ept id="p3">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>To close a direct-debit collection</source>
+        </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Direct Debit Collect. Entries<ept id="p1">**</ept> page, select the entry that was successfully processed, and then, on the <bpt id="p2">**</bpt>Home<ept id="p2">**</ept> tab, in the <bpt id="p3">**</bpt>Process<ept id="p3">**</ept> group, choose <bpt id="p4">**</bpt>Close Collection<ept id="p4">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The related direct-debit collection is closed.</source>
+        </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>You can now proceed to post receipts of payment for the involved sales invoices.</source>
+        </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>You can do this as you typically post payment receipts, such as on the <bpt id="p1">**</bpt>Payment Registration<ept id="p1">**</ept> page, or you can post the related payment receipts directly from the <bpt id="p2">**</bpt>Direct Debit Collect. Entries<ept id="p2">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Post SEPA Direct Debit Payment Receipts<ept id="p1">](finance-how-to-post-sepa-direct-debit-payment-receipts.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Posting SEPA Direct Debit Payment Receipts</source>
+        </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>When a direct debit collection is successfully processed by your bank, you can proceed to post receipt of the payment for the involved sales invoices.</source>
+        </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Create SEPA Direct Debit Collection Entries and Export to a Bank File<ept id="p1">](finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>You can post the payment receipt directly from the <bpt id="p1">**</bpt>Direct Debit Collections<ept id="p1">**</ept> page or the <bpt id="p2">**</bpt>Direct Debit Collect. Entries<ept id="p2">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Alternatively, you can relay the work to another user by preparing the related journal lines.</source>
+        </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>To post a direct-debit payment receipt from the Direct Debit Collections page</source>
+        </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Direct Debit Collections<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Select a line for a direct debit collection that has been exported to a bank file and successfully processed by the bank.</source>
+        </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Create SEPA Direct Debit Collection Entries and Export to a Bank File<ept id="p1">](finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Post Payment Receipts<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Post Direct Debit Collection<ept id="p1">**</ept> page, fill in the fields as described in the following table.</source>
+        </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Field</source>
+        </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Direct Debit Collection No.<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Specify the direct debit collection that you want to post payment receipt for.</source>
+        </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>General Journal Template<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Specify which general journal template to use for posting the payment receipt, such as the template for cash receipts.</source>
+        </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>General Journal Batch Name<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Specify which general journal batch to use for posting the payment receipt.</source>
+        </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Create Journal Only<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Select this check box if you do not want to post the payment receipt when you choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>The payment receipt will be prepared in the specified journal and will not be posted until someone posts the journal lines in question.</source>
+        </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Managing Receivables<ept id="p1">](receivables-manage-receivables.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

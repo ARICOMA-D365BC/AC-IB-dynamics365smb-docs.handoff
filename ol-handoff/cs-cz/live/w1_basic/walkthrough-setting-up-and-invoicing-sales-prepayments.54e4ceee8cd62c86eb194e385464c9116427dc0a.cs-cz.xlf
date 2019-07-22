@@ -1,0 +1,573 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="walkthrough-setting-up-and-invoicing-sales-prepayments.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-964a5eb" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">585591556c8246203fd6f74ddbf361f8c35e4088</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">financials\walkthrough-setting-up-and-invoicing-sales-prepayments.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ce310064f68326bc30b85d2e1c2088861d0fa114</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b5c13b9c8cb7c7a83af0e0e49e0797423779aff2</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Walkthrough - Setting Up and Invoicing Sales Prepayments | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Prepayments are payments that are invoiced and posted to a sales or purchase prepayment order before final invoicing.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>You may require a deposit before you manufacture items to order, or you may require payment before you ship items to a customer.</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>You use the prepayments functionality in Business Central to invoice and collect deposits that are required from customers or remit deposits to vendors.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Thus, you can make sure that all payments are posted against an invoice.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Walkthrough: Setting Up and Invoicing Sales Prepayments</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Prepayments are payments that are invoiced and posted to a sales or purchase prepayment order before final invoicing.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>You may require a deposit before you manufacture items to order, or you may require payment before you ship items to a customer.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You use the prepayments functionality in <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph> to invoice and collect deposits that are required from customers or remit deposits to vendors.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Thus, you can make sure that all payments are posted against an invoice.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Prepayment requirements can be defined for a customer or vendor for all items or selected items.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>After you complete the required setup, you can generate prepayment invoices from sales and purchase orders for the calculated prepayment amount.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>You can change the default amounts on the invoice as needed.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>For example, you can send additional prepayment invoices if additional items are added to the order.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>About This Walkthrough</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>This walkthrough will take you through the following scenarios:</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Setting up prepayments</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Creating an order that requires a prepayment</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Creating a prepayment invoice</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Correcting the prepayment requirements on an order</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Applying prepayments to an order</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Invoicing the final amount on an order with prepayment</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Roles</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This walkthrough includes tasks for the following roles:</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Accounting Manager (Phyllis)</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Order Processor (Susan)</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Accounts Receivable Administrator (Arnie)</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Story</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Phyllis is an accounting manager.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>She makes decisions about which customers are required to pay a deposit before items are manufactured or shipped.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Phyllis sets up <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph> to calculate prepayments automatically.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Susan is a sales order processor.</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>When a customer calls to place an order, she enters the order into the system while the customer is on the telephone.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>This way, she can verify prices and payment terms with the customer immediately, and she can make adjustments to the order while she negotiates with the customer.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Arnie works in the Accounts Receivable department, where he posts invoices and payments.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>In this scenario, Phyllis sets up prepayment requirements for the customer Selangorian, based on their credit history, and gives Susan instructions for how to handle their orders.</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>When the customer calls, Susan negotiates with the customer until they reach an agreement.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>She can then choose to calculate the prepayment in several different ways.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>After Susan sends the prepayment invoice, the customer orders an extra item.</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Susan updates the order and creates a second prepayment invoice.</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Arnie registers the customer's payment and applies it to the invoices, and then sends the final invoice.</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Setting Up Prepayments</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Phyllis sets up the system to handle prepayments for customers.</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Phyllis decides to have the same number series for prepayments as the one used for sales invoicing.</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Phyllis sets the program to check if prepayments are required before final invoicing on an order.</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Phyllis sets up default values for a required prepayment percentage for particular items and customers.</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The following procedures describe how to complete Phyllis' tasks:</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>To set up number series for prepayments</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Sales &amp; Receivables Setup<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Sales &amp; Receivables Setup<ept id="p1">**</ept> window, expand the <bpt id="p2">**</bpt>Numbering<ept id="p2">**</ept> FastTab.</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Verify that the number series for posted prepayment invoices in the <bpt id="p1">**</bpt>Posted Prepmt. Inv. Nos.<ept id="p1">**</ept> field is the same as for posted sales invoices (<bpt id="p2">**</bpt>Posted Invoice Nos.<ept id="p2">**</ept>) and the number series for posted prepayment credit memos (<bpt id="p3">**</bpt>Posted Prepmt. Cr. Memo Nos.<ept id="p3">**</ept>) is the same as for posted credit memos (<bpt id="p4">**</bpt>Posted Credit Memo Nos.<ept id="p4">**</ept>).</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>To block shipments for unpaid prepayment</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Sales &amp; Receivables Setup<ept id="p1">**</ept> window, on the <bpt id="p2">**</bpt>General<ept id="p2">**</ept> FastTab, select the <bpt id="p3">**</bpt>Check Prepayment when Posting<ept id="p3">**</ept> check box.</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Now you cannot ship or invoice an order that has an unpaid prepayment amount.</source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>By default, Phyllis requires customer 20000 to be invoiced for a 30% down payment on all orders.</source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Therefore, she will enter a default prepayment percentage on the customer card.</source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Phyllis requires all customers to be invoiced a 20% deposit for item 1100.</source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Customer 20000 has a poor payment history.</source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Therefore, she requires a 40% prepayment from customer 20000 for item 1100.</source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The following procedure illustrates how to set up default prepayment percentages.</source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>To assign default prepayment percentages to customers and items</source>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Customers<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Open the card for customer 20000 (Selangorian).</source>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Prepayment %<ept id="p1">**</ept> field, type <bpt id="p2">**</bpt>30<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button to close the customer card.</source>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Items<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Open the card for customer 1100.</source>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Prepayment Percentages<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Fill in two lines in the <bpt id="p1">**</bpt>Sales Prepayment Percentages<ept id="p1">**</ept> window as follows.</source>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Sales Type<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Sales Code<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Item No.<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Prepayment %<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Customer<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>20000<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>1100<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>40<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>All Customers<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>1100<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>20<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Depending on your country/region, you must also specify a tax group code on the <bpt id="p1">**</bpt>Invoicing<ept id="p1">**</ept> FastTab for items 1000 and 1100.</source>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Close all windows.</source>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>To specify an account for sales prepayments in general posting setup</source>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>General Posting Setup<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Select the line where the <bpt id="p1">**</bpt>Gen. Bus. Posting Group<ept id="p1">**</ept> field is set to <bpt id="p2">**</bpt>EXPORT<ept id="p2">**</ept>, and the <bpt id="p3">**</bpt>Gen. Prod. Posting Group<ept id="p3">**</ept> field is set to <bpt id="p4">**</bpt>RETAIL<ept id="p4">**</ept>, and then choose the <bpt id="p5">**</bpt>Edit<ept id="p5">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>General Posting Setup Card<ept id="p1">**</ept> window, in the <bpt id="p2">**</bpt>Sales Prepayments Account<ept id="p2">**</ept> field, specify the relevant account.</source>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Creating an Order that Requires a Prepayment</source>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>In the following scenario, Susan, the order processor, creates an order when talking to a customer.</source>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The items that the customer orders require a prepayment, and the customer has made some late payments in the past.</source>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Therefore, Susan has been instructed to require a fixed amount of 2,000 as a prepayment on the order.</source>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The customer requests to be able to pay 35%, to which Susan can agree.</source>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Therefore, she changes the order.</source>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Susan creates the prepayment invoice and sends it to the customer.</source>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>To create a sales order with a prepayment</source>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Sales Orders<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>New<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Sell-to Customer No.<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>field, select <bpt id="p1">**</bpt>20000<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Accept the overdue balance warning that is displayed.</source>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Fill in two sales lines with the following information.</source>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Type<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>No.<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Quantity<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Item<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>1000<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>1<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Item<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>1100<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>1<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>By default, the prepayment fields on the sales line are hidden, so you must display them.</source>
+        </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Verify that the <bpt id="p1">**</bpt>Prepayment %<ept id="p1">**</ept> field on the line with item <bpt id="p2">**</bpt>1000<ept id="p2">**</ept> contains <bpt id="p3">**</bpt>30<ept id="p3">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>The default value was taken from the sales header, which was populated from the customer card.</source>
+        </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Prepayment %<ept id="p1">**</ept> field on the line with item <bpt id="p2">**</bpt>1100<ept id="p2">**</ept> contains <bpt id="p3">**</bpt>40<ept id="p3">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>This is the percentage you entered in the <bpt id="p1">**</bpt>Sales Prepayment Percentages<ept id="p1">**</ept> window for item <bpt id="p2">**</bpt>1100<ept id="p2">**</ept> and customer <bpt id="p3">**</bpt>20000<ept id="p3">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Set Up Prepayments<ept id="p1">](finance-set-up-prepayments.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Statistics<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Prepayment<ept id="p1">**</ept> FastTab, the <bpt id="p2">**</bpt>Prepmt. Line Amount Excl. VAT<ept id="p2">**</ept> field contains <bpt id="p3">**</bpt>1,560<ept id="p3">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>If you create a prepayment invoice for the order now, then this is the amount that is displayed on the invoice.</source>
+        </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>In this scenario, Susan has been instructed to suggest a total prepayment of 2000 for the order.</source>
+        </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Depending on your country/region, the following step might not apply.</source>
+        </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Change the amount in the <bpt id="p1">**</bpt>Prepmt. Line Amount Excl. VAT<ept id="p1">**</ept> field to <bpt id="p2">**</bpt>2000<ept id="p2">**</ept> and then close the window.</source>
+        </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Verify the <bpt id="p1">**</bpt>Prepayment %<ept id="p1">**</ept> field on the sales lines, and you will see that it has been recalculated to <bpt id="p2">**</bpt>40.81625<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>The recalculation includes all lines that have a prepayment percentage that is greater than 0.</source>
+        </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Now the customer asks if the prepayment percent can be set to 35%.</source>
+        </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Susan's supervisor approves the change.</source>
+        </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Sales Order<ept id="p1">**</ept> window, in the <bpt id="p2">**</bpt>Prepayment %<ept id="p2">**</ept> field, enter <bpt id="p3">**</bpt>35<ept id="p3">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>In the warning that appears, choose the <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>A rate of 35% will be applied as the payment percentage for the whole order.</source>
+        </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Verify that the lines have been updated accordingly.</source>
+        </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Creating a Prepayment Invoice</source>
+        </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>After entering the correct prepayment values on the order, Susan creates the prepayment invoice and sends it to the customer.</source>
+        </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>To create a prepayment invoice</source>
+        </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Sales Order<ept id="p1">**</ept> window, choose the <bpt id="p2">**</bpt>Post Prepayment Invoice<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Susan would select <bpt id="p1">**</bpt>Post and Print Prepmt. Invoice<ept id="p1">**</ept> and mail the invoice to the customer.</source>
+        </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Creating an Additional Prepayment Invoice</source>
+        </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>The following day, the customer calls Susan and makes changes to the order.</source>
+        </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>The customer wants two of item 1100.</source>
+        </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Susan reopens and updates the order, and then she creates a second prepayment invoice on the order and sends it to the customer.</source>
+        </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>To create an additional prepayment invoice</source>
+        </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Sales Order<ept id="p1">**</ept> window, choose the <bpt id="p2">**</bpt>Reopen<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>On the line for item <bpt id="p1">**</bpt>1100<ept id="p1">**</ept>, in the <bpt id="p2">**</bpt>Quantity<ept id="p2">**</ept> field, enter <bpt id="p3">**</bpt>2<ept id="p3">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Scroll to see the prepayment fields.</source>
+        </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Prepayment Line Amount Excl. VAT<ept id="p1">**</ept> field now contains <bpt id="p2">**</bpt>630<ept id="p2">**</ept>, and the <bpt id="p3">**</bpt>Prepmt. Amt. Inv. Excl. VAT<ept id="p3">**</ept> field contains <bpt id="p4">**</bpt>315<ept id="p4">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>This shows that there is an additional prepayment amount that has not been invoiced yet.</source>
+        </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>To post an invoice for the additional prepayment amount, on the <bpt id="p1">**</bpt>Actions<ept id="p1">**</ept> tab, in the <bpt id="p2">**</bpt>Posting<ept id="p2">**</ept> group, choose <bpt id="p3">**</bpt>Prepayment<ept id="p3">**</ept>, and then choose <bpt id="p4">**</bpt>Post Prepayment Invoice<ept id="p4">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Applying the Prepayments</source>
+        </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>The customer pays the prepayments amount and Arnie, who works in the accounts department, registers the payment and applies it to the prepayment invoices.</source>
+        </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>To apply a payment to the prepayment invoices</source>
+        </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Cash Receipt Journals<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>Fill in a journal line with the following information.</source>
+        </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>Field name</source>
+        </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>Enter</source>
+        </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Document Type<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Payment<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Account Type<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Customer<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Account No.<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>20000<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Apply Entries<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Apply Customer Entries<ept id="p1">**</ept> window, select the first prepayment invoice, and then choose the <bpt id="p2">**</bpt>Set Applies-to ID<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>Repeat the previous step for the second prepayment.</source>
+        </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>The amount field has now been filled in with the sum of the two prepayment invoices.</source>
+        </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>Post the journal.</source>
+        </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>Invoicing the Remaining Amount</source>
+        </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>Now Arnie has been informed that the items on the order have been shipped and that the order is ready for invoicing.</source>
+        </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>Arnie creates the invoice for the order.</source>
+        </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>To invoice the remaining amount</source>
+        </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>Open the sales order.</source>
+        </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Ship and Invoice<ept id="p1">**</ept> action, and then choose the <bpt id="p2">**</bpt>OK<ept id="p2">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>Normally, the shipping department would have already posted the shipment.</source>
+        </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>Arnie can view the history to verify that the sales invoice was created as intended.</source>
+        </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Posted Sales Invoices<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>Next Steps</source>
+        </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>This walkthrough has taken you through steps to set up <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph> to handle prepayments.</source>
+        </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>You have set up default prepayment percentages on customers and items, and you have also used different methods to calculate the prepayments on an order.</source>
+        </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>You have tried to assign one total prepayment amount to the order, and you have had the prepayment amount calculated as a percentage of the whole order.</source>
+        </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>You have also posted a prepayment invoice, created a second prepayment invoice when the order has changed, and posted the final invoice for the remaining amount.</source>
+        </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>The prepayments functionality in <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph> makes it easy to set up and enforce prepayment rules for customers and items, and it enables you to post every payment against an invoice.</source>
+        </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Invoicing Prepayments<ept id="p1">](finance-invoice-prepayments.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Finance<ept id="p1">](finance.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Working with <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph><ept id="p1">](ui-work-product.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Business Process Walkthroughs<ept id="p1">](walkthrough-business-process-walkthroughs.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

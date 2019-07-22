@@ -1,0 +1,150 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="warehouse-how-to-set-up-bin-contents.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-435fba6" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6aa07d1f37c15901951ab5b81b771838abf95126</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\warehouse-how-to-set-up-bin-contents.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b51706c1d5a8f7ba7d374ef7cce197003ab1b800</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ee83b2278f0bdfdc0a8bdbeef78bd7808f9e9bfb</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>How to Create Bin Contents | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>After you have set up your bins, you can set up the bin contents.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>In other words, you can set up the items you want to store in any given bin and set the rules that govern filling the bin with a particular item.</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Create Bin Contents</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>After you have set up your bins, you can set up the bin contents.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>In other words, you can set up the items you want to store in any given bin and set the rules that govern filling the bin with a particular item.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You can do this manually on the <bpt id="p1">**</bpt>Bin Contents<ept id="p1">**</ept> page or automatically with the <bpt id="p2">**</bpt>Create Bin Content Worksheet<ept id="p2">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>To create bin content manually</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Locations<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Select the location where you want to set up bin contents,  and then choose the <bpt id="p1">**</bpt>Bins<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Select the bin where you want to set up contents, and then choose the <bpt id="p1">**</bpt>Contents<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>For each item that you want to store in the bin, fill in a line on the <bpt id="p1">**</bpt>Bin Contents<ept id="p1">**</ept> page with the appropriate information.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Some of the fields are filled in already with information about the bin.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>First fill in the <bpt id="p1">**</bpt>Item No.<ept id="p1">**</ept> field, and then, if you are using directed put-away and pick, fill in the other fields such as the <bpt id="p2">**</bpt>Unit of Measure Code<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Max. Qty.<ept id="p3">**</ept>, and <bpt id="p4">**</bpt>Min. Qty.<ept id="p4">**</ept> fields.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>Fixed<ept id="p1">**</ept> field if necessary.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>If the bin is to be used as the default bin for the item, select the <bpt id="p1">**</bpt>Default Bin<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>If you are using directed put-away and pick, and if you have entered the correct dimensional information on the item card about each item’s units of measure, the maximum quantity that you enter on the <bpt id="p1">**</bpt>Bin Contents<ept id="p1">**</ept> page is verified against the physical capabilities of the bin.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The minimum and maximum quantities are used when calculating bin replenishment and suggested put-aways.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>If you select the <bpt id="p1">**</bpt>Fixed<ept id="p1">**</ept> field, you are fixing the item to the bin, meaning that <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> will try to put this item in the bin if there is space for it, and it will preserve the record fixing the item to the bin even when the quantity in the bin is 0.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Other items can be put into the bin, even though a particular item has been fixed to the bin.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>You can set up several bin contents at the same time on the <bpt id="p1">**</bpt>Bin Content Creation Worksheet<ept id="p1">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>To create bin content with a worksheet</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>When you have created your bins, you can create the bin content that you want for each bin in the bin content creation worksheet.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Bin Content Creation Worksheet<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>On the worksheet header, in the <bpt id="p1">**</bpt>Name<ept id="p1">**</ept> field, select the worksheet of the location where you want to create bin contents.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Bin Code<ept id="p1">**</ept> field, select the code of the bin for which you want to define bin content.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>If you are using directed put-away and pick in this location, the fields relating to that particular bin, such as <bpt id="p1">**</bpt>Bin Type<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Warehouse Class Code<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>Bin Ranking<ept id="p3">**</ept>, will be filled in automatically.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This is information that you need to consider as you define the bin content.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Select the item that you want to assign to the bin, and fill in the fields related to the bin content.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>If you are using directed put-away and pick, and you want to use the <bpt id="p1">**</bpt>Calculate Bin Replenishment<ept id="p1">**</ept> function, fill in the <bpt id="p2">**</bpt>Max. Qty.<ept id="p2">**</ept> and <bpt id="p3">**</bpt>Min. Qty.<ept id="p3">**</ept> fields.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>To set this bin as the preferred bin for the item even if the bin quantity is <bpt id="p1">**</bpt>0<ept id="p1">**</ept> and all other put-away criteria equal, select the <bpt id="p2">**</bpt>Fixed<ept id="p2">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Repeat steps 3 through 4 for each item you want to assign to a bin.</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Print<ept id="p1">**</ept> action to preview and print the bin content you have entered in the worksheet.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Continue to revise the bin content until you are satisfied.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>When you are ready, choose the <bpt id="p1">**</bpt>Create Bin Content<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>In this worksheet, you can work with a number of bin content lines for a number of bins and thereby obtain a good overview of what you are putting into various bins in a given zone, aisle, or rack.</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Calculate Bin Replenishment<ept id="p1">](warehouse-how-to-calculate-bin-replenishment.md)</ept><ph id="ph1">  </ph></source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Warehouse Management<ept id="p1">](warehouse-manage-warehouse.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Inventory<ept id="p1">](inventory-manage-inventory.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Setting Up Warehouse Management<ept id="p1">](warehouse-setup-warehouse.md)</ept><ph id="ph1">   </ph></source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Assembly Management<ept id="p1">](assembly-assemble-items.md)</ept><ph id="ph1">  </ph></source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Design Details: Warehouse Management<ept id="p1">](design-details-warehouse-management.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Working with <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph><ept id="p1">](ui-work-product.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

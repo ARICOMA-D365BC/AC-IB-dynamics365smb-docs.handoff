@@ -1,0 +1,792 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="design-details-central-concepts-of-the-planning-system.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-5ae97a8" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">06dc378a045f9217cd54a53fef9747fbd9c7ba1b</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\design-details-central-concepts-of-the-planning-system.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4f89fd15a33d249ec3b1ca3b0f538d96f2bb96b2</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">22be0281e7c5bf48f9b3c895c97ce998c9386207</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Design Details - Central Concepts of the Planning System| Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>The planning functions are contained in a batch job that first selects the relevant items and period to plan for and then suggests possible actions for the user to take based on the demand/supply situation and the items' planning parameters.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Design Details: Central Concepts of the Planning System</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The planning functions are contained in a batch job that first selects the relevant items and period to plan for.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Then, according to each item’s low-level code (BOM position), the batch job calls a code unit, which calculates a supply plan by balancing supply-demand sets and suggesting possible actions for the user to take.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The suggested actions appear as lines in the planning worksheet or the requisition worksheet.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">![</bpt>Contents of the Planning Worksheet page<ept id="p1">]</ept><bpt id="p2">(media/NAV_APP_supply_planning_1_planning_worksheet.png "</bpt>Contents of the Planning Worksheet page<ept id="p2">")</ept></source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The planner of a company, such as a purchaser or a production planner is presumed to be the user of the planning system.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The planning system assists the user by performing the extensive but rather straightforward calculations of a plan.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The user can then concentrate on solving the more difficult problems, such as when things differ from normal.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The planning system is driven by anticipated and actual customer demand, such as forecast and sales orders.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Running the planning calculation will result in the program suggesting specific actions for the user to take concerning possible supply from vendors, assembly or production departments, or transfers from other warehouses.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>These suggested actions could be to create new supply orders, such as purchase or production orders.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>If supply orders already exist, the suggested actions could be to increase or expedite the orders to meet the changes in demand.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Another goal of the planning system is to ensure that the inventory does not grow unnecessarily.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>If demand decreases, the planning system will suggest that the user postpone, decrease in quantity, or cancel existing supply orders.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>MRP and MPS, Calculate Net Change Plan, and Calculate Regenerative Plan are all functions within one code unit that contains the planning logic.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>However, the supply plan calculation involves different sub systems.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Note that the planning system includes no dedicated logic for capacity leveling or fine scheduling.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Therefore, such scheduling work is performed as a separate discipline.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The lack of direct integration between the two areas also means that substantial capacity or schedule changes will require that the planning is rerun.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Planning Parameters</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Planning parameters that the user sets for an item or a group of items control which actions the planning system will suggest in the various situations.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The planning parameters are defined on each item card to control when, how much, and how to replenish.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Planning parameters can also be defined for any combination of item, variant, and location by setting up a stockkeeping unit (SKU) for each needed combination, and then specifying individual parameters.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Design Details: Handling Reordering Policies<ept id="p1">](design-details-handling-reordering-policies.md)</ept> and <bpt id="p2">[</bpt>Design Details: Planning Parameters<ept id="p2">](design-details-planning-parameters.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Planning Starting Date</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>To avoid a supply plan that incorporates open orders in the past and suggests potentially impossible actions, the planning system treats all dates before the planning starting date as a frozen zone where the following special rule applies:</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>All supply and demand before the starting date of the planning period will be considered a part of inventory or shipped.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>In other words, it assumes that the plan for the past is executed according to the given plan.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Design Details: Dealing with Orders Before the Planning Starting Date<ept id="p1">](design-details-dealing-with-orders-before-the-planning-starting-date.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Dynamic Order Tracking (Pegging)</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Dynamic Order Tracking, with its simultaneous creation of action messages in the planning worksheet, is not a part of the supply planning system in <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>This feature links, in real-time, the demand and the quantities that could cover them, whenever a new demand or supply is created or changed.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>For example, if the user enters or changes a sales order, the dynamic order tracking system will instantly and search for an appropriate supply to cover the demand.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>This could be from inventory or from an expected supply order (such as a purchase order or a production order).</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>When a supply source is found, the system creates a link between the demand and the supply, and displays it in view-only pages that are accessed from the involved document lines.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>When appropriate supply cannot be found, the dynamic order tracking system creates action messages in the planning worksheet with supply plan suggestions reflecting the dynamic balancing.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Accordingly, the dynamic order tracking system offers a very basic planning system that can be of help both to the planner and other roles in the internal supply chain.</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Accordingly, Dynamic Order Tracking can be considered a tool that assists the user in assessing whether to accept supply order suggestions.</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>From the supply side, a user can see which demand has created the supply, and from the demand side, which supply should cover the demand.</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">![</bpt>Example of dynamic order tracking<ept id="p1">]</ept><bpt id="p2">(media/NAV_APP_supply_planning_1_dynamic_order_tracking.png "</bpt>Example of dynamic order tracking<ept id="p2">")</ept></source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Design Details: Reservation, Order Tracking, and Action Messaging<ept id="p1">](design-details-reservation-order-tracking-and-action-messaging.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>In companies with a low item flow and less advanced product structures, it may be adequate to use the Dynamic Order Tracking as the main means of supply planning.</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>However, in busier environments, the planning system should be used to ensure a properly balanced supply plan at all times.</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Dynamic Order Tracking versus the Planning System</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>At a quick glance, it may be difficult to differentiate between the planning system and Dynamic Order Tracking.</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Both features display output in the planning worksheet by suggesting actions that the planner should take.</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>However, the way this output is produced differs.</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The planning system deals with the entire supply-demand pattern of an item through all levels of the BOM hierarchy along the time line, whereas Dynamic Order Tracking only addresses the situation of the order that activated it.</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>When balancing demand and supply, the planning system creates links in a user-activated batch mode, whereas Dynamic Order Tracking creates the links automatically and on the fly, whenever the user enters a demand or a supply in the program, such as a sales order or purchase order.</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Dynamic Order Tracking establishes links between demand and supply when data is entered, on a first-come/first-served basis.</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>This may lead to some disorder in priorities.</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>For example, a sales order entered first, with a due date next month, may be linked to the supply in inventory, while the next sales order due tomorrow may cause an action message to create a new purchase order to cover it, as illustrated below.</source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">![</bpt>Example of order tracking in supply planning 1<ept id="p1">]</ept><bpt id="p2">(media/NAV_APP_supply_planning_1_dynamic_order_tracking_graph.png "</bpt>Example of order tracking in supply planning 1<ept id="p2">")</ept></source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>In contrast, the planning system deals with all demand and supply for a particular item, in prioritized order according to due dates and order types, that is, on a first-needed/first-served basis.</source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>It deletes all order tracking links that were created dynamically and reestablishes them according to due date priority.</source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>When the planning system has run, it has solved all imbalances between demand and supply, as illustrated below for the same data.</source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">![</bpt>Example of order tracking in supply planning 2<ept id="p1">]</ept><bpt id="p2">(media/NAV_APP_supply_planning_1_planning_graph.png "</bpt>Example of order tracking in supply planning 2<ept id="p2">")</ept></source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>After the planning run, no action messages remain in the Action Message Entry table, because they have been replaced by the suggested actions in the planning worksheet</source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>For more information, see Order Tracking Links during Planning in <bpt id="p1">[</bpt>Design Details: Balancing Supply with Demand<ept id="p1">](design-details-balancing-supply-with-demand.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Sequence and Priority in Planning</source>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>When establishing a plan, the sequence of the calculations is important to get the job done within a reasonable timeframe.</source>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>In addition, the prioritization of requirements and resources play an important role in obtaining the best results.</source>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The planning system in <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> is demand-driven.</source>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>High-level items should be planned before low-level items, because the plan for high-level items might generate additional demand for the lower-level items.</source>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>This means, for example, that retail locations should be planned before distribution centers are planned, because the plan for a retail location may include additional demand from the distribution center.</source>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>On a detailed balancing level, this also means that a sales order should not trigger a new supply order if an already released supply order is can cover the sales order.</source>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Likewise, a supply carrying a specific lot number should not be allocated to cover a generic demand if another demand requires this specific lot.</source>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Item Priority / Low-Level Code</source>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>In a manufacturing environment, the demand for a finished, sellable item will result in derived demand for components that comprise the finished item.</source>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The bill-of-material structure controls the component structure and can cover several levels of semi-finished items.</source>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Planning an item at one level will cause derived demand for components at the next level, and so on.</source>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Eventually, this will result in derived demand for purchased items.</source>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Consequently, the planning system plans for items in order of their ranking in the total BOM hierarchy, starting with finished saleable items at the top level and continuing down through the product structure to the lower level items (according to the low-level code).</source>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">![</bpt>Planning for bills of material<ept id="p1">]</ept><bpt id="p2">(media/NAV_APP_supply_planning_1_BOM_planning.png "</bpt>Planning for bills of material<ept id="p2">")</ept></source>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The figures illustrates in which sequence the system makes suggestions for supply orders at the top level and, assuming that the user will accept these suggestions, for any lower-level items as well.</source>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>For more information about manufacturing considerations, see <bpt id="p1">[</bpt>Design Details: Loading the Inventory Profiles<ept id="p1">](design-details-loading-the-inventory-profiles.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Locations / Transfer-Level Priority</source>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Companies that operate at more than one location may need to plan for each location individually.</source>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>For example, an item’s safety stock level and its reordering policy may differ from one location to another.</source>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>In this case, the planning parameters must be specified per item and also per location.</source>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>This is supported with the use of SKUs, where individual planning parameters can be specified at the SKU level.</source>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>An SKU can be regarded as an item at a specific location.</source>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>If the user has not defined a SKU for that location, the program will default to the parameters that have been set on the item card.</source>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The program calculates a plan for active locations only, which is where there is existing demand or supply for the given item.</source>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>In principle, any item can be handled at any location, but the program’s approach to the location concept is quite strict.</source>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>For example, a sales order at one location cannot be fulfilled by some quantity on stock at another location.</source>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The quantity on stock must first be transferred to the location specified on the sales order.</source>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">![</bpt>Planning for stockkeeping units<ept id="p1">]</ept><bpt id="p2">(media/NAV_APP_supply_planning_1_SKU_planning.png "</bpt>Planning for stockkeeping units<ept id="p2">")</ept></source>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Design Details: Transfers in Planning<ept id="p1">](design-details-transfers-in-planning.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Order Priority</source>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Within a given SKU, the requested or available date represents the highest priority; the demand of today should be dealt with before the demand of the coming days.</source>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>But apart from this some kind of priority, the different demand and supply types are sorted according to business importance to decide which demand should be satisfied before satisfying another demand.</source>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>On the supply side, the order priority will tell what source of supply should be applied before applying other sources of supply.</source>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Design Details: Prioritizing Orders<ept id="p1">](design-details-prioritizing-orders.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Demand Forecasts and Blanket Orders</source>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Forecasts and blanket orders both represent anticipated demand.</source>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>The blanket order, which covers a customer’s intended purchases over a specific period of time, acts to lessen the uncertainty of the overall forecast.</source>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The blanket order is a customer-specific forecast on top of the unspecified forecast as illustrated below.</source>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">![</bpt>Planning with forecasts<ept id="p1">]</ept><bpt id="p2">(media/NAV_APP_supply_planning_1_forecast_and_blanket.png "</bpt>Planning with forecasts<ept id="p2">")</ept></source>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>For more information, see the “Forecast Demand is Reduced by Sales Orders” section in <bpt id="p1">[</bpt>Design Details: Loading the Inventory Profiles<ept id="p1">](design-details-loading-the-inventory-profiles.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Planning Assignment</source>
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>All items should be planned for, however, there is no reason to calculate a plan for an item unless there has been a change in the demand or supply pattern since the last time a plan was calculated.</source>
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>If the user has entered a new sales order or changed an existing one, there is reason to recalculate the plan.</source>
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Other reasons include a change in forecast or the desired safety stock quantity.</source>
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Changing a bill-of-material by adding or removing a component would most likely indicate a change, but for the component item only.</source>
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The planning system monitors such events and assigns the appropriate items for planning.</source>
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>For multiple locations, the assignment takes place at the level of item per location combination.</source>
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>If, for example, a sales order has been created at only one location, the program will assign the item at that specific location for planning.</source>
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The reason for selecting items for planning is a matter of system performance.</source>
+        </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>If no change in an item’s demand-supply pattern has occurred, the planning system will not suggest any actions to be taken.</source>
+        </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Without the planning assignment, the system would have to perform the calculations for all items in order to find out what to plan for, and that would drain system resources.</source>
+        </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>The full list of reasons for assigning an item for planning is provided in <bpt id="p1">[</bpt>Design Details: Planning Assignment Table<ept id="p1">](design-details-planning-assignment-table.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>The planning options in <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> are:</source>
+        </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Calculate Regenerative Plan – Calculates all selected items, whether it is necessary or not.</source>
+        </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Calculate Net Change Plan – Calculates only those selected items that have had some change in their demand-supply pattern and, therefore, have been assigned for planning.</source>
+        </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Some users believe that net change planning should be performed on the fly, for example, when sales orders are entered.</source>
+        </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>However, this could be confusing because dynamic order tracking and action messaging are also calculated on the fly.</source>
+        </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Besides, <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> offers real-time available-to-promise control, which provides pop–up warnings when entering sales orders if the demand cannot be fulfilled under the present supply plan.</source>
+        </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>In addition to these considerations, the planning system only plans for those items that the user has prepared with appropriate planning parameters.</source>
+        </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Otherwise, it is assumed that the user will plan the items manually or semi-automatically by using the Order Planning feature.</source>
+        </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>For more information about the automatic planning procedures, see <bpt id="p1">[</bpt>Design Details: Balancing Demand and Supply<ept id="p1">](design-details-balancing-demand-and-supply.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Item Dimensions</source>
+        </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Demand and supply can carry variant codes and location codes that must be respected when the planning system balances demand and supply.</source>
+        </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>The system treats variant and location codes as item dimensions on a sales order line, inventory ledger entry, and so on.</source>
+        </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Accordingly, it calculates a plan for each combination of variant and location as if the combination were a separate item number.</source>
+        </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Instead of calculating any theoretical combination of variant and location, the program calculates only those combinations that actually exist in the database.</source>
+        </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>For more information on how the planning system deals with location codes on demand, see <bpt id="p1">[</bpt>Design Details: Demand at Blank Location<ept id="p1">](design-details-balancing-demand-and-supply.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Item Attributes</source>
+        </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Apart from general item dimensions, such as item number, variant code, location code, and type of order, each demand and supply event can carry additional specifications in the form of serial/lot numbers.</source>
+        </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>The planning system plans these attributes in certain ways depending on their level of specification.</source>
+        </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>An order-to-order link between demand and supply is another type of attribute that affects the planning system.</source>
+        </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Specific Attributes</source>
+        </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Certain attributes on demand are specific and must be matched exactly by a corresponding supply.</source>
+        </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>The following two specific attributes exist:</source>
+        </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Demanded serial/lot numbers that require specific application (The <bpt id="p1">**</bpt>SN Specific Tracking<ept id="p1">**</ept> or <bpt id="p2">**</bpt>Lot Specific Tracking<ept id="p2">**</ept> check box is selected on the <bpt id="p3">**</bpt>Item Tracking Code Card<ept id="p3">**</ept> page for the item tracking code that is used by the item.)</source>
+        </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Links to supply orders created manually or automatically for a specific demand (order-to-order links).</source>
+        </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>For these attributes, the planning system applies the following rules:</source>
+        </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Demand with specific attributes can only be fulfilled by supply with matching attributes.</source>
+        </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Supply with specific attributes can also satisfy demand that does not ask specifically for those attributes.</source>
+        </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Accordingly, if a demand for specific attributes cannot be met by inventory or projected supplies, the planning system will suggest a new supply order to cover this specific demand with no regard of planning parameters.</source>
+        </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Non-Specific Attributes</source>
+        </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Serial/lot-numbered items without specific item tracking setup may carry serial/lot numbers that do not need to be applied to the exact same serial/lot number, but can be applied to any serial/lot number.</source>
+        </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>This gives the planning system more freedom to match, for example, a serialized demand with a serialized supply, typically in inventory.</source>
+        </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Demand-supply with serial/lot numbers, specific or non-specific, are considered high priority and are therefore exempt from the frozen zone, meaning that they will be part of planning even if they are due before the planning starting date.</source>
+        </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>For more information, see the “Serial/Lot Numbers are Loaded by Specification Level” section in <bpt id="p1">[</bpt>Design Details: Loading the Inventory Profiles<ept id="p1">](design-details-loading-the-inventory-profiles.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>For more information about how the planning system balances attributes, see the “Serial/Lot Numbers and Order-to-Order Links are Exempt from the Frozen Zone” in <bpt id="p1">[</bpt>Design Details: Dealing with Orders Before the Planning Starting Date<ept id="p1">](design-details-dealing-with-orders-before-the-planning-starting-date.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>Order-to-Order Links</source>
+        </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Order-to-order procurement means that an item is purchased, assembled, or produced to exclusively cover a specific demand.</source>
+        </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>Typically it relates to A-items and the motivation for choosing this policy can be that the demand is infrequent, the lead-time is insignificant, or the required attributes vary.</source>
+        </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>Another special case that uses order-to-order links is when an assembly order is linked to a sales order in an assemble-to-order scenario.</source>
+        </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>Order-to-order links are applied between demand and supply in four ways:</source>
+        </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>When the planned item uses the reordering policy Order.</source>
+        </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>When using the manufacturing policy Make-to-Order to create multi-level or project-type production orders (producing needed components on the same production order).</source>
+        </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>When creating production orders for sales orders with the Sales Order Planning feature.</source>
+        </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>When assembling an item to a sales order.</source>
+        </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>(Assembly Policy is set to Assemble-to-Order.</source>
+        </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>In these instances, the planning system will only suggest to order the required quantity.</source>
+        </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>Once created, the purchase, production, or assembly order will continue to match the corresponding demand.</source>
+        </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>For example, if a sales order is changed in time or quantity, the planning system will suggest that the corresponding supply order is changed accordingly.</source>
+        </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>When order-to-order links exist, the planning system does not involve linked supply or inventory in the balancing procedure.</source>
+        </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>It is up to the user to evaluate if the linked supply should be used to cover other or new demand and, in that case, delete the supply order or reserve the linked supply manually.</source>
+        </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>Reservations and order tracking links will break if a situation becomes impossible, such as moving the demand to a date earlier than the supply.</source>
+        </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>However, the order-to-order link adapts to any changes in the respective demand or supply and thereby the link is never broken.</source>
+        </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>Reservations</source>
+        </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>The planning system does not include any reserved quantities in the calculation.</source>
+        </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>For example, if a sales order has been totally or partially reserved against the quantity in inventory, the reserved quantity in inventory cannot be used to cover other demand.</source>
+        </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>The planning system does not include this demand-supply set in its calculation.</source>
+        </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>However, the planning system will still include reserved quantities in the projected inventory profile because all quantities must be considered when determining both when the reorder point has been passed and how many to reorder to reach and not exceed the maximum inventory level.</source>
+        </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>Consequently, unnecessary reservations will lead to increased risks that inventory levels run low because the planning logic does not detect reserved quantities.</source>
+        </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>The following illustration shows how reservations can hinder the most feasible plan.</source>
+        </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">![</bpt>Planning with reservations<ept id="p1">]</ept><bpt id="p2">(media/NAV_APP_supply_planning_1_reservations.png "</bpt>Planning with reservations<ept id="p2">")</ept></source>
+        </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Design Details: Reservation, Order Tracking, and Action Messaging<ept id="p1">](design-details-reservation-order-tracking-and-action-messaging.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>Warnings</source>
+        </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>The first column in the planning worksheet is for the warning fields.</source>
+        </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>Any planning line created for an unusual situation will display a warning icon in this field, which the user can click for additional information.</source>
+        </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>Supply on planning lines with warnings will normally not be modified according to planning parameters.</source>
+        </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>Instead, the planning system only suggests a supply to cover the exact demand quantity.</source>
+        </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>However, the system can be set up to respect certain planning parameters for planning lines with certain warnings.</source>
+        </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>For more information, see the description of these options for the <bpt id="p1">**</bpt>Calculate Plan - Plan. Wksh.<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>batch job and the <bpt id="p1">**</bpt>Calculate Plan - Req. Wksh.<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>batch job respectively.</source>
+        </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>The warning information is shown on the <bpt id="p1">**</bpt>Untracked Planning Elements<ept id="p1">**</ept> page, which is also used to show order tracking links to non-order network entities.</source>
+        </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>The following warning types exist:</source>
+        </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>Emergency</source>
+        </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>Exception</source>
+        </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>Attention</source>
+        </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">![</bpt>Warnings in the planning worksheet<ept id="p1">]</ept><bpt id="p2">(media/NAV_APP_supply_planning_1_warnings.png "</bpt>Warnings in the planning worksheet<ept id="p2">")</ept></source>
+        </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>Emergency</source>
+        </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>The emergency warning is displayed in two situations:</source>
+        </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>When the inventory is negative on the planning starting date.</source>
+        </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>When back-dated supply or demand events exist.</source>
+        </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>If an item’s inventory is negative on the planning starting date, the planning system suggests an emergency supply for the negative quantity to arrive on the planning starting date.</source>
+        </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>The warning text states the starting date and the quantity of the emergency order.</source>
+        </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Design Details: Handling Projected Negative Inventory<ept id="p1">](design-details-handling-projected-negative-inventory.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>Any document lines with due dates before the planning starting date are consolidated into one emergency supply order for the item to arrive on the planning starting date.</source>
+        </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>Exception</source>
+        </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>The exception warning is displayed if the projected available inventory drops below the safety stock quantity.</source>
+        </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>The planning system will suggest a supply order to meet the demand on its due date.</source>
+        </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>The warning text states the item’s safety stock quantity and the date on which it is violated.</source>
+        </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>Violating the safety stock level is considered an exception because it should not occur if the reorder point has been set correctly.</source>
+        </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Design Details: The Role of the Reorder Point<ept id="p1">](design-details-the-role-of-the-reorder-point.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>In general, exceptional order proposals ensure that the projected available inventory is never lower than the safety stock level.</source>
+        </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>This means that the proposed quantity is just enough to cover the safety stock, without considering planning parameters.</source>
+        </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>However, in some scenarios, order modifiers will be considered.</source>
+        </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>The planning system may have consumed the safety stock intentionally and will then replenish it straight away.</source>
+        </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Safety Stock May Be Consumed<ept id="p1">](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>Attention</source>
+        </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>The attention warning is displayed in three situations:</source>
+        </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>The planning starting date is earlier than the work date.</source>
+        </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>The planning line suggests changing a released purchase or production order.</source>
+        </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>The projected inventory exceeds the overflow level on the due date.</source>
+        </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Design Details: Staying under the Overflow Level<ept id="p1">](design-details-staying-under-the-overflow-level.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>In planning lines with warnings, the <bpt id="p1">**</bpt>Accept Action Message<ept id="p1">**</ept> field is not selected, because the planner is expected to further investigate these lines before carrying out the plan.</source>
+        </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>Error Logs</source>
+        </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>In the Calculate Plan request page, the user can select the <bpt id="p1">**</bpt>Stop and Show First Error<ept id="p1">**</ept> field to have the planning run stop when it encounters the first error.</source>
+        </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>At the same time, a message is displayed with information about the error.</source>
+        </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>If an error exists, only the successful planning lines that were made before the error was encountered will be presented in the planning worksheet.</source>
+        </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>If the field is not selected, the Calculate Plan batch job will continue until it has completed.</source>
+        </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>Errors will not interrupt the batch job.</source>
+        </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>If one or more errors exist, the program will display a message after completion saying how many items are affected by errors.</source>
+        </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Planning Error Log<ept id="p1">**</ept> page then opens to provide more details about the error and to provide links to the affected documents or setup cards.</source>
+        </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">![</bpt>Error messages in the planning worksheet<ept id="p1">]</ept><bpt id="p2">(media/NAV_APP_supply_planning_1_error_log.png "</bpt>Error messages in the planning worksheet<ept id="p2">")</ept></source>
+        </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>Planning Flexibility</source>
+        </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>It is not always practical to plan an existing supply order, such as when production has started or extra people are hired on a specific day to do the job.</source>
+        </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>To indicate whether an existing order can be changed by the planning system, all supply order lines have a Planning Flexibility field with two options: Unlimited or None.</source>
+        </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>If the field is set to None, the planning system will not try to change the supply order line.</source>
+        </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>The field can be manually set by the user, however, in some cases it will be set automatically by the system.</source>
+        </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>The fact that planning flexibility can be manually set by the user is important, because it makes it easy to adapt the usage of the feature to different workflows and business cases.</source>
+        </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>For more information about how this field is used, see <bpt id="p1">[</bpt>Design Details: Transfers in Planning<ept id="p1">](design-details-transfers-in-planning.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>Order Planning</source>
+        </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source>The basic supply planning tool represented by the <bpt id="p1">**</bpt>Order Planning<ept id="p1">**</ept> page is designed for manual decision making.</source>
+        </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>It does not consider any planning parameters and is therefore not discussed further in this document.</source>
+        </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>For more information on the Order Planning feature, refer to Help in <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>It is not advisable to use Order Planning if the company already uses the planning or requisition worksheets.</source>
+        </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source>Supply orders created through the <bpt id="p1">**</bpt>Order Planning<ept id="p1">**</ept> page may be changed or deleted during the automated planning runs.</source>
+        </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source>This is because the automated planning run uses planning parameters and these may not be considered by the user who made the manual plan in the Order Planning page.</source>
+        </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve">
+          <source>Finite Loading</source>
+        </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> is a standard ERP system, not a dispatching or shop floor control system.</source>
+        </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source>It plans for a feasible utilization of resources by providing a rough-cut schedule, but it does not automatically create and maintain detailed schedules based on priorities or optimization rules.</source>
+        </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source>The intended use of the Capacity-Constrained Resource feature is 1): to avoid overload of specific resources and 2): to ensure that no capacity is left unallocated if it could increase the turn-around time of a production order.</source>
+        </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve">
+          <source>The feature includes no facilities or options to prioritize or optimize operations as one would expect to find in a dispatching system.</source>
+        </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source>However, it can provide rough-cut capacity information useful to identify bottlenecks and to avoid overloading resources.</source>
+        </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve">
+          <source>When planning with capacity-constrained resources, the system ensures that no resource is loaded above its defined capacity (critical load).</source>
+        </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve">
+          <source>This is done by assigning each operation to the nearest available time slot.</source>
+        </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve">
+          <source>If the time slot is not big enough to complete the entire operation, then the operation will be split into two or more parts placed in the nearest available time slots.</source>
+        </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve">
+          <source>In case of operation splitting, the setup time is only assigned once because it is assumed that some manual adjustment is done to optimize the schedule.</source>
+        </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve">
+          <source>Dampener time can be added to resources to minimize operation splitting.</source>
+        </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve">
+          <source>This enables the system to schedule load on the last possible day by exceeding the critical load percent slightly if this can reduce the number of operations that are split.</source>
+        </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve">
+          <source>This completes the outline of central concepts relating to supply planning in <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve">
+          <source>The following sections investigate these concepts deeper and place them in the context of the core planning procedures, balancing demand and supply as well as the use of reordering policies.</source>
+        </trans-unit>
+        <trans-unit id="353" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Design Details: Transfers in Planning<ept id="p1">](design-details-transfers-in-planning.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="355" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Design Details: Planning Parameters<ept id="p1">](design-details-planning-parameters.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="356" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Design Details: Planning Assignment Table<ept id="p1">](design-details-planning-assignment-table.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="357" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Design Details: Handling Reordering Policies<ept id="p1">](design-details-handling-reordering-policies.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="358" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Design Details: Balancing Demand and Supply<ept id="p1">](design-details-balancing-demand-and-supply.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

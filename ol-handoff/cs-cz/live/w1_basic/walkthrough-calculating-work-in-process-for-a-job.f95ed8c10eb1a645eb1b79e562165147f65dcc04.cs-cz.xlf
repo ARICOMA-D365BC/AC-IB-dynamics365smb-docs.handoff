@@ -1,0 +1,468 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="walkthrough-calculating-work-in-process-for-a-job.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-8cf0045" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">396aefb64b4bc4f4555ae3a512656aa3c66bad20</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\walkthrough-calculating-work-in-process-for-a-job.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">910f34761b8ac4a9cc3062a83e9d9c559ea2b9c1</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d51c6dffd850df9cbb5e2817e3cef0ec91a8465a</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Walkthrough - Calculating Work in Process for a Job | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>With jobs, you can schedule the usage of your company's resources and keep track of the various costs associated with the usage of resources on a specific project.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Jobs involve the consumption of employee hours, machine hours, inventory items, and other types of usage that have to be tracked as a job progresses.</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Walkthrough: Calculating Work in Process for a Job</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: This walkthrough must be performed on a demonstration company with the <bpt id="p2">**</bpt>Full Evaluation - Complete Sample Data<ept id="p2">**</ept> option, which is available in the Sandbox environment.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Creating a Sandbox Environment<ept id="p1">](across-how-create-sandbox-environment.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>With jobs, you can schedule the usage of your company's resources and keep track of the various costs associated with the usage of resources on a specific project.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Jobs involve the consumption of employee hours, machine hours, inventory items, and other types of usage that have to be tracked as a job progresses.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>If a job runs over a long period, you may want to transfer these costs to a Work in Process (WIP) account on the balance sheet while the job is being completed.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>You can then recognize the costs and sales in your income statement accounts when it is appropriate.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>About This Walkthrough</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>This walkthrough illustrates the following tasks:</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Calculating WIP.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Selecting a WIP calculation method.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Excluding part of a job from the WIP.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Posting the WIP to the general ledger.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Reversing a WIP posting.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Each step of the process calculates the value and moves the job transactions to the general ledger.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The calculation and posting steps are separated to help you review your data and to make modifications before posting to the general ledger.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Therefore, you should make sure that all information is correct after you run the calculation batch jobs and before you run the posting batch jobs.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Roles</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>This walkthrough uses the project team member (Tricia) as the persona.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Prerequisites</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Before you can perform the tasks in the walkthrough, the <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> must be installed on your computer.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Story</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>This walkthrough focuses on CRONUS International Ltd., a design and consultancy firm that designs and fits new infrastructures, such as conference halls and offices, with furniture, accessories, and storage units.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Most of the work at CRONUS is project-oriented and Tricia, a project team member, uses jobs to have an overview of each ongoing job that CRONUS has started and also the jobs that are completed.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Some of the jobs can be very lengthy and can run over months.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Tricia can use a WIP account to record the work in process and to track the costs throughout the job.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Calculating WIP</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>CRONUS has taken on a lengthy project that has now extended across reporting periods.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Tricia, a project team member, calculates the work in process (WIP) to make sure that the financial statement of the company will be accurate.</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>During this procedure, Tricia will select a specific group of tasks that will be included in the WIP calculation.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Job Task Lines<ept id="p1">**</ept> page, she can specify these lines in the <bpt id="p2">**</bpt>WIP-Total<ept id="p2">**</ept> column.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The following table describes the three options.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Field</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Leave blank if the job task is a part of a group of tasks.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Total<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Defines the range or group of tasks that are included in the WIP and recognition calculation.</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Within the group, any job task with <bpt id="p1">**</bpt>Job Task Type<ept id="p1">**</ept> set to <bpt id="p2">**</bpt>Posting<ept id="p2">**</ept> will be included in the WIP Total, unless its <bpt id="p3">**</bpt>WIP-Total<ept id="p3">**</ept> field is set to <bpt id="p4">**</bpt>Excluded<ept id="p4">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Excluded<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Applies only to a task with <bpt id="p1">**</bpt>Job Task Type<ept id="p1">**</ept> of <bpt id="p2">**</bpt>Posting<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The task is not included when WIP and recognition are calculated.</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>In the following walkthrough, Tricia applies the Cost Value method, her company standard, to calculate WIP.</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>She specifies what part of the job will be included in the WIP calculation by assigning WIP-Total values to various job task lines.</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>To calculate WIP</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Jobs<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Jobs<ept id="p1">**</ept> list, select the <bpt id="p2">**</bpt>Deerfield<ept id="p2">**</ept> job, and then choose the <bpt id="p3">**</bpt>Edit<ept id="p3">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>This will open the job card in edit mode.</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>WIP can be calculated based on Cost Value, Sales Value, Cost of Sales, Percentage of Completion, or Completed Contract.</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>In this example, CRONUS uses the Cost Value method.</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Posting<ept id="p1">**</ept> FastTab, choose the <bpt id="p2">**</bpt>WIP Method<ept id="p2">**</ept> field, and then select <bpt id="p3">**</bpt>Cost Value<ept id="p3">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Job Task Lines<ept id="p1">**</ept> action and set the following values in the <bpt id="p2">**</bpt>WIP-Total<ept id="p2">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The following table describes the values.</source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Job Task No.</source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>WIP-Total Field</source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>1130</source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Excluded</source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>1190</source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Total</source>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>1210</source>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Excluded</source>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>1310</source>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Excluded</source>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>WIP<ept id="p1">**</ept> action, and then choose the <bpt id="p2">**</bpt>Calculate WIP<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Job Calculate WIP<ept id="p1">**</ept> page, you can select a job that you want to calculate WIP.</source>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Job<ept id="p1">**</ept> FastTab, select <bpt id="p2">**</bpt>Deerfield<ept id="p2">**</ept> in the <bpt id="p3">**</bpt>No.<ept id="p3">**</ept></source>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>field.</source>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Posting Date<ept id="p1">**</ept> field, enter a date that is later than the work date.</source>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Document No.<ept id="p1">**</ept> field, enter <bpt id="p2">**</bpt>1<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>This creates a document that you can refer to later for traceability.</source>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button to run the batch job.</source>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>A message is displayed.</source>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button to continue.</source>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Close the <bpt id="p1">**</bpt>Job Task Lines<ept id="p1">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The message states that there are warnings associated with the WIP calculation.</source>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>You will review the warnings in the next procedure.</source>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Job<ept id="p1">**</ept> card, expand the <bpt id="p2">**</bpt>WIP and Recognition<ept id="p2">**</ept> FastTab to see the calculated values.</source>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>You can also see the <bpt id="p1">**</bpt>WIP Posting Date<ept id="p1">**</ept> and the values that have been posted to the general ledger, if any.</source>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Notice that the value for <bpt id="p1">**</bpt>Recog. Costs Amount<ept id="p1">**</ept> is 215.60 in the <bpt id="p2">**</bpt>To Post<ept id="p2">**</ept> column.</source>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>This reflects the total costs of two of the items in the group of job tasks 1110 – 1130.</source>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The third item was set to <bpt id="p1">**</bpt>Excluded<ept id="p1">**</ept>, and therefore is not included in the WIP calculation.</source>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>To review WIP warnings</source>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Job WIP Cockpit<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>Deerfield<ept id="p1">**</ept> job, and then choose the <bpt id="p2">**</bpt>Show Warnings<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Job WIP Warnings<ept id="p1">**</ept> page, review the warning associated with the job.</source>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>After the accounting period ends, Tricia has to recalculate the WIP to include completed work to this point.</source>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>To recalculate WIP</source>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Job<ept id="p1">**</ept> card, choose the <bpt id="p2">**</bpt>WIP Entries<ept id="p2">**</ept> action to view the WIP calculation.</source>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Job WIP Entries<ept id="p1">**</ept> page shows the WIP entries that were last calculated on a job, even if WIP has not yet been posted to the general ledger.</source>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>You can follow the steps in the procedure that explains how to calculate WIP to recalculate WIP.</source>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Every time WIP is calculated, an entry is created on the <bpt id="p1">**</bpt>Job WIP Entries<ept id="p1">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Close the page.</source>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Work in Process and Recognition is only calculated.</source>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>It is not posted to the general ledger.</source>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>To do so, you must run <bpt id="p1">**</bpt>Post WIP to G/L<ept id="p1">**</ept> batch job after you have calculated the WIP and Recognition.</source>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Posting WIP to General Ledger</source>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Now that Tricia has calculated WIP for this job, she can post it to the general ledger.</source>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>To post WIP to general ledger</source>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>From the <bpt id="p1">**</bpt>Jobs<ept id="p1">**</ept> list, select the <bpt id="p2">**</bpt>Deerfield<ept id="p2">**</ept> job.</source>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>WIP<ept id="p1">**</ept> action, and then choose the <bpt id="p2">**</bpt>Post WIP to G/L<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Job Post WIP to G/L<ept id="p1">**</ept> page, on the <bpt id="p2">**</bpt>Job<ept id="p2">**</ept> FastTab, select <bpt id="p3">**</bpt>Deerfield<ept id="p3">**</ept> in the <bpt id="p4">**</bpt>No.<ept id="p4">**</ept></source>
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>field.</source>
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Options<ept id="p1">**</ept> FastTab, in the <bpt id="p2">**</bpt>Reversal Document No.<ept id="p2">**</ept> field, enter <bpt id="p3">**</bpt>1<ept id="p3">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button to post WIP to the general ledger.</source>
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button to close the confirmation page.</source>
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>After you have completed the posting, you can view the posting information on the <bpt id="p1">**</bpt>WIP G/L Entries<ept id="p1">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Jobs<ept id="p1">**</ept> list, select the <bpt id="p2">**</bpt>Deerfield<ept id="p2">**</ept> job, and then choose the <bpt id="p3">**</bpt>WIP G/L Entries<ept id="p3">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Job WIP G/L Entries<ept id="p1">**</ept> page, verify that the WIP has been posted to the general ledger.</source>
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Close the page.</source>
+        </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Open the <bpt id="p1">**</bpt>Job<ept id="p1">**</ept> card for the <bpt id="p2">**</bpt>Deerfield<ept id="p2">**</ept> job.</source>
+        </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>WIP and Recognition<ept id="p1">**</ept> FastTab, notice that in the <bpt id="p2">**</bpt>Posted<ept id="p2">**</ept> column, the <bpt id="p3">**</bpt>Recog. Costs G/L Amount<ept id="p3">**</ept> field is now filled in, which indicates that WIP was posted to the general ledger successfully.</source>
+        </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button to close the card.</source>
+        </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Reversing a WIP Posting</source>
+        </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Tricia determines that the job tasks that were excluded from the calculation of WIP should have been calculated in WIP.</source>
+        </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>She can reverse the incorrect postings without having to post new WIP postings.</source>
+        </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>To reverse a WIP posting</source>
+        </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>From the <bpt id="p1">**</bpt>Jobs<ept id="p1">**</ept> list, select the <bpt id="p2">**</bpt>Deerfield<ept id="p2">**</ept> job.</source>
+        </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>WIP<ept id="p1">**</ept> action, and then choose the <bpt id="p2">**</bpt>Post WIP to G/L<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Job Post to WIP to G/L<ept id="p1">**</ept> page, on the <bpt id="p2">**</bpt>Job<ept id="p2">**</ept> FastTab, select <bpt id="p3">**</bpt>Deerfield<ept id="p3">**</ept> in the <bpt id="p4">**</bpt>No.<ept id="p4">**</ept></source>
+        </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>field.</source>
+        </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Options<ept id="p1">**</ept> FastTab, in the <bpt id="p2">**</bpt>Reversal Document No.<ept id="p2">**</ept> field, enter <bpt id="p3">**</bpt>1<ept id="p3">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Reversal Posting Date<ept id="p1">**</ept> field, enter the original posting date.</source>
+        </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>It should be the same date that you used to calculate WIP the first time.</source>
+        </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>Reverse Only<ept id="p1">**</ept> check box.</source>
+        </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>This will reverse previously posted WIP, but does post new WIP to the general ledger.</source>
+        </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button to run the batch job, and choose the <bpt id="p2">**</bpt>OK<ept id="p2">**</ept> button to close the confirmation page.</source>
+        </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Open the <bpt id="p1">**</bpt>Job<ept id="p1">**</ept> card for <bpt id="p2">**</bpt>Deerfield<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>WIP and Recognition<ept id="p1">**</ept> FastTab, verify that there are no posted WIP entries.</source>
+        </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Close this page.</source>
+        </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Jobs<ept id="p1">**</ept> list, select the <bpt id="p2">**</bpt>Deerfield<ept id="p2">**</ept> job, choose the <bpt id="p3">**</bpt>WIP<ept id="p3">**</ept> action, and then choose the <bpt id="p4">**</bpt>WIP G/L Entries<ept id="p4">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>The WIP entries have the <bpt id="p1">**</bpt>Reversed<ept id="p1">**</ept> check box selected.</source>
+        </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Close this page.</source>
+        </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Open <bpt id="p1">**</bpt>Job Task Lines<ept id="p1">**</ept> for the job, include the parts of the job that should be in the WIP calculation, and then recalculate and post the new value to the general ledger.</source>
+        </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Suppose Tricia calculated and posted WIP for a job with incorrect dates.</source>
+        </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Following the method that was discussed earlier, she can reverse the incorrect postings, correct the dates, and repost to the general ledger.</source>
+        </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Next Steps</source>
+        </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>This walkthrough has taken you through the steps of calculating WIP in <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>In larger jobs, it may be useful to transfer the costs to a WIP account periodically while the job is being completed.</source>
+        </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>This walkthrough has shown you how to exclude task lines from a calculation.</source>
+        </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>It also shows you when you would have to recalculate.</source>
+        </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>And finally, this walkthrough demonstrates how to post the WIP to the general ledger.</source>
+        </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>An example of how to reverse a WIP posting to the general ledger is also included.</source>
+        </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Business Process Walkthroughs<ept id="p1">](walkthrough-business-process-walkthroughs.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Walkthrough: Managing Projects with Jobs<ept id="p1">](walkthrough-managing-projects-with-jobs.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Understanding WIP Methods<ept id="p1">](projects-understanding-wip.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Monitor Progress and Performance<ept id="p1">](projects-how-monitor-progress-performance.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Working with <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph><ept id="p1">](ui-work-product.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

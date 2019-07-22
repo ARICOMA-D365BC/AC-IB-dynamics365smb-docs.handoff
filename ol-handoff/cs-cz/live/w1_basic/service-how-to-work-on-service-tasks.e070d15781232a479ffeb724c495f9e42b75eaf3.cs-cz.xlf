@@ -1,0 +1,286 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="service-how-to-work-on-service-tasks.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-15c36f0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c1fea678aab78c93537318419ffdd6f035845502</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">financials\service-how-to-work-on-service-tasks.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2597e55f2b6a28791b63c78793ba4dfe22cd2e0d</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c88e4ae47afea45aad64a1b7fefdc9a07bd7fb55</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>How to Work on Service Tasks | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>After you have created a service order or service quote, registered service item lines, and allocated resources to the service items in the order or quote, you can start repairing and maintaining the service items.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Work on Service Tasks</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>After you have created a service order or service quote, registered service item lines, and allocated resources to the service items in the order or quote, you can start repairing and maintaining the service items.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph> features a <bpt id="p1">**</bpt>Service Tasks<ept id="p1">**</ept> window that gives an overview of all the service items that need attention.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Think of it as your service dashboard where you can see what orders are pending, look for and register spare parts, and keep your inventory up-to-date.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>To track changes and get a graphical view of your service business, use <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph> statistics tools for quick, automatically generated charting and analysis.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>To work on a service task</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Service Tasks<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>If you want a list of service tasks a certain resource or resource group is allocated to, fill in the <bpt id="p1">**</bpt>Resource Filter<ept id="p1">**</ept> or <bpt id="p2">**</bpt>Resource Group Filter<ept id="p2">**</ept> field and press Enter.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>If you want a list of service tasks with a certain response date or response dates within a certain time period, fill in the <bpt id="p1">**</bpt>Response Date Filter<ept id="p1">**</ept> field and press Enter.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>If you want a list of service tasks with a certain allocation status or repair status, fill in the <bpt id="p1">**</bpt>Allocation Status Filter<ept id="p1">**</ept> or <bpt id="p2">**</bpt>Repair Status Code Filter<ept id="p2">**</ept> field and press Enter.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Select the service task you want to work on.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Navigate<ept id="p1">**</ept> tab, in the <bpt id="p2">**</bpt>Service Tasks<ept id="p2">**</ept> group, choose <bpt id="p3">**</bpt>Item Worksheet<ept id="p3">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Service Item Worksheet<ept id="p1">**</ept> window opens.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Register standard texts, spare parts, resource hours, and costs as appropriate using the corresponding options in the <bpt id="p1">**</bpt>Type<ept id="p1">**</ept> field:  <ph id="ph1">&lt;Blank&gt;</ph>, <bpt id="p2">**</bpt>Item<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Resource<ept id="p3">**</ept>, and <bpt id="p4">**</bpt>Cost<ept id="p4">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Repair Status<ept id="p1">**</ept> field, select the appropriate status.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Fill in the <bpt id="p1">**</bpt>Repair Status<ept id="p1">**</ept> field with the <bpt id="p2">**</bpt>Finished<ept id="p2">**</ept> or <bpt id="p3">**</bpt>Partly Serviced<ept id="p3">**</ept> status if the service item has been completely serviced or another resource will continue servicing.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Finished<ept id="p1">**</ept> or <bpt id="p2">**</bpt>Reallocation Needed<ept id="p2">**</ept> status is specified automatically for the allocation entry corresponding to the service item.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>To register service operations</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>When performing a service on a service order, you can register the details specifying the items used, costs incurred, and the time spent.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The data you specify is stored in the <bpt id="p1">**</bpt>Service Item Worksheet<ept id="p1">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>You can update the data when necessary.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Service Orders<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Open the service order to register the service for, and choose the item line.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>Actions<ept id="p1">**</ept>, choose <bpt id="p2">**</bpt>Line<ept id="p2">**</ept>, and then choose <bpt id="p3">**</bpt>Service Item Worksheet.<ept id="p3">**</ept></source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>On the lines, specify the items used, costs incurred, and the time spent on the service.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>You can also register service directly on the service lines linked to the service order.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>To register spare parts</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>When working on service items in service orders, you may need to use spare parts for the service.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The following procedure shows how to register the spare parts you use in the <bpt id="p1">**</bpt>Service Item Worksheet<ept id="p1">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Service Tasks<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Choose the line that includes the relevant service item, and then choose the <bpt id="p1">**</bpt>Item Worksheet<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Enter a new service line.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Type<ept id="p1">**</ept> field, choose <bpt id="p2">**</bpt>Item<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>No.<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>field, choose the relevant spare part.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Quantity<ept id="p1">**</ept> field, enter the quantity of items you want to use.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>You can use a similar procedure to register the spare parts on the <bpt id="p1">**</bpt>Service Lines<ept id="p1">**</ept> page, which you can open from the <bpt id="p2">**</bpt>Service Order<ept id="p2">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>To register spare parts from a service order</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Service Orders<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Open the service order you want to register spare parts for.</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Choose the line that includes the relevant service item.</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>Actions<ept id="p1">**</ept>, choose <bpt id="p2">**</bpt>Order<ept id="p2">**</ept>, and then choose <bpt id="p3">**</bpt>Service Lines<ept id="p3">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>enter a new service line.</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>To replace a service item or a service item component</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>When you service a service item that is composed of components, you may need to replace a faulty component with a new one.</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Every time that you enter a spare part for a service item with components, you have the option of replacing a component or creating a new one.</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The new item is not registered as a component of the service item until you post this service line or the service order.</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Service Tasks<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Choose the line that includes the service item, and then choose the <bpt id="p1">**</bpt>Item Worksheet<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Enter a new service line.</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Type<ept id="p1">**</ept> field, choose <bpt id="p2">**</bpt>Item<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>No.<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>field, choose the component to replace.</source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Press <bpt id="p1">**</bpt>Enter<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>A dialog box opens with three options: <bpt id="p1">**</bpt>Replace Component<ept id="p1">**</ept>, <bpt id="p2">**</bpt>New Component<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>Ignore<ept id="p3">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The following table describes the options.</source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Option</source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Replace Component<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Changes the status of the component you are replacing to not active, and it will appear on the replaced component list for the service item.</source>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>New Component<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Enters the new component in the component list of the service item.</source>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Ignore<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Does nothing to the component list of the service item.</source>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>Replace Component<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Choose the component to replace, and then choose <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>To change the response time for a service item line</source>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>When you register a service item line in a service order or quote, depending on whether the service item is on a service contract the response time in hours is automatically entered and the response date and time are calculated accordingly.</source>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>You can change the response time in hours and the response date and time if you need to.</source>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Service Orders<ept id="p3">**</ept> or <bpt id="p4">**</bpt>Service Quotes<ept id="p4">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Choose the service order or quote to open the card.</source>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>On the service item line you want to change the response time for, either in the <bpt id="p1">**</bpt>Response Time (Hours)<ept id="p1">**</ept> field or in the <bpt id="p2">**</bpt>Response Date<ept id="p2">**</ept> and <bpt id="p3">**</bpt>Response Time<ept id="p3">**</ept> fields, enter the new response hours or response date and time.</source>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>To register fault/resolution codes</source>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>After repairing a service item, you can register both the fault code and the resolution code for the item by selecting a combination from the existing fault/resolution codes relationships.</source>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The fault and resolution codes will appear in the corresponding fields in the <bpt id="p1">**</bpt>Service Item Worksheet<ept id="p1">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>You can also register the codes directly in this window.</source>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Service Tasks<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Choose the line that includes the relevant service item, and then choose the <bpt id="p1">**</bpt>Item Worksheet<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Service Item Worksheet<ept id="p1">**</ept> page, choose <bpt id="p2">**</bpt>Fault/Resol. Codes Relationships<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Fault/Resolution Codes Relationships<ept id="p1">**</ept> window opens.</source>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Filters are set on the relationships that are shown in the window by copying the service item group and the fault codes from the <bpt id="p1">**</bpt>Service Item Worksheet<ept id="p1">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Fill out the line.</source>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Choose the combination of fault and resolution codes, and then choose <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> to copy it to the service item.</source>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>If an appropriate combination cannot be found, you can create a new combination in the window.</source>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Set Up Fault Reporting<ept id="p1">](service-how-setup-fault-reporting.md)</ept><ph id="ph1">
+</ph><bpt id="p2">[</bpt>Allocation Status and Repair Status<ept id="p2">](service-allocation-status-and-repair-status.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Service Posting<ept id="p1">](service-service-posting.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,480 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="production-how-to-run-mps-and-mrp.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-15c36f0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3e5fbb82fd6bfa9ff1d5318f13f3c8341cd9caed</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">financials\production-how-to-run-mps-and-mrp.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4309383205845cfb811e1efc334a8053999c92f6</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dd5629098dfa2f218eff108268c6c5d5bf23de2c</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>How to Run Full Planning, MPS and MRP | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>The terms "running the planning worksheet" or "running MRP" refer to the calculation of the master production schedule and material requirements based on actual and forecasted demand.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>The planning system can calculate either Master Planning Schedule (MPS) or Material Requirements Planning (MRP) on request, or it can calculate both at the same time.</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Run Full Planning, MPS or MRP</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The terms "running the planning worksheet" or "running MRP" refer to the calculation of the master production schedule and material requirements based on actual and forecasted demand.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The planning system can calculate either Master Planning Schedule (MPS) or Material Requirements Planning (MRP) on request, or it can calculate both at the same time.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>MPS is the calculation of a master production schedule based on actual demand and the production forecast.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The MPS calculation is used for end items that have a forecast or a sales order line.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>These items are called MPS items and are identified dynamically when the calculation starts.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>MRP is the calculation of material requirements based on actual demand for components and the production forecast on the component level.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>MRP is calculated only for items that are not MPS items.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The purpose of MRP is to provide time-phased formal plans, by item, to supply the appropriate item, at the appropriate time, in the appropriate location, in the appropriate quantity.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The planning algorithms used for both MPS and MRP are identical.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The planning algorithms pertain to netting, reuse of existing replenishment orders, and action messages.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The planning system process examines what is needed or will be needed (demand) and what is on-hand or expected (supply).</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>When these quantities are netted against each other, <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph> provides action messages.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Action messages are suggestions to create a new order, change an order (quantity or date), or cancel an order already on order.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The term "order" includes purchase orders, assembly orders, production orders, and transfer orders.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Links created by the planning engine between demand and its related supply can be tracked in the <bpt id="p1">**</bpt>Order Tracking<ept id="p1">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Track Relations Between Demand and Supply<ept id="p1">](production-how-track-demand-supply.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Proper planning results depend on the set up done on item cards, assembly BOMs, production BOMs, and routings.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Methods for Generating a Plan</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Calculate Regenerative Plan:<ept id="p1">**</ept> This function processes or regenerates the material plan.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This process starts by deleting all planned supply orders that are currently loaded.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>All items in the database are replanned.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Calculate Net Change Plan<ept id="p1">**</ept>: This function processes a net change plan.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Items are considered in net change planning from two types of changes:</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Demand/supply changes:<ept id="p1">**</ept> These include modifications to quantities on sales orders, production forecasts, assembly orders, production orders, or purchase orders.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>An unplanned inventory level change is also considered a quantity change.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Planning parameter changes:<ept id="p1">**</ept> These include changes in safety stock, reorder point, routing, bill of material, and changes to the time bucket or lead time calculation.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Get Action Messages:<ept id="p1">**</ept> This function serves as a short-term planning tool by issuing action messages to alert the user of any modifications made since the last regenerative or net change plan was calculated.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>With each planned method, <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph> generates worksheet entries assuming infinite capacity.</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Work center and machine center capacity is not considered when you develop schedules.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The Calculate Regenerative Plan function is the most common process.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The Calculate Plan and Carry out Action Messages functions, however, can be used to run the Calculate Net Change Plan process.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The Get Action Messages Plan function can be run between regenerative and net change planning runs to obtain an immediate view of the effect of schedule changes, but it is not intended as a replacement of full regenerative or net change planning processes.</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>To calculate the planning worksheet</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Planning Worksheets<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Calculate Regenerative Plan<ept id="p1">**</ept> action to open the <bpt id="p2">**</bpt>Calculate Plan<ept id="p2">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Options<ept id="p1">**</ept> FastTab, fill in the fields as described in the following table.</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Field</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>MPS<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Select to initiate the calculation of a master production schedule.</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Items with open sales orders or production forecasts are considered in this run.</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>MRP<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Select to initiate the calculation of material requirements planning.</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Items with dependent requirements are considered in this run.</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Typically,  MPS and MRP are run at the same time.</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>To run MPS and MRP at the same time, the <bpt id="p1">**</bpt>Combined MPS/MRP Calculation<ept id="p1">**</ept> field must be selected on the <bpt id="p2">**</bpt>Planning<ept id="p2">**</ept> FastTab in the <bpt id="p3">**</bpt>Manufacturing Setup<ept id="p3">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Starting Date<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>This date is used to evaluate inventory availability.</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>If an item's on-hand quantity is below the reorder point, the system forward-schedules a replenishment order from this date.</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>If an item is below its safety stock (as of the starting date), the system back-schedules a replenishment order due on the planning starting date.</source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Ending Date<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>This is the ending date of the planning horizon.</source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Neither demand nor supply is considered after this date.</source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>If the reorder cycle for an item extends beyond the ending date, the effective planning horizon for that item is equal to the order date + reorder cycle.</source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The planning horizon is the time that the plan is extended to.</source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>If the horizon is too short, items with a longer lead time are not ordered on time.</source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>If the horizon is too long, too much time is spent reviewing and processing information that likely changes before it is needed.</source>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>It is possible to set one planning horizon for production and a longer one for purchases, although it is not required.</source>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>A planning horizon for purchases and production should be set to cover the cumulative lead time for components.</source>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Stop and Show First Error<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Select if you want the planning run to stop as soon as it encounters an error.</source>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>At the same time, a message is displayed with information about the first error.</source>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>If an error exists, only the successful planning lines made before the error was encountered will be presented in the planning worksheet.</source>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>If you do not select this field, the <bpt id="p1">**</bpt>Calculate Plan<ept id="p1">**</ept> batch job will continue until it has completed, that is, errors will not interrupt the batch job.</source>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>If one or more errors exist, a message will display after completion with information about how many items are affected.</source>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Planning Error Log<ept id="p1">**</ept> window will then open to provide more details about the error and links to the affected item cards.</source>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Use Forecast<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Select a forecast that should be included as demand when you run the planning batch job.</source>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The default forecast is set up on the <bpt id="p1">**</bpt>Planning<ept id="p1">**</ept> FastTab in the <bpt id="p2">**</bpt>Manufacturing Setup<ept id="p2">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Exclude Forecast Before<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Define how much of the selected forecast to include in the planning run by entering a date before which forecast demand is not included, thus allowing you to exclude old information.</source>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Respect Planning Parameters for Exception Warnings<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>By default, this field is selected.</source>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Supply on planning lines with warnings is normally not modified according to planning parameters.</source>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Instead, the planning system only suggests a supply to cover the exact demand quantity.</source>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>However, you can define certain planning parameters for planning lines to be respected with certain warnings.</source>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Item<ept id="p1">**</ept> FastTab, set filters to run the planning based on item, item description, or location.</source>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The batch job runs and then the planning worksheet is populated with the planning lines.</source>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>To perform action messages</source>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Planning Worksheet<ept id="p1">**</ept> window, choose the <bpt id="p2">**</bpt>Carry Out Action Message<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Options<ept id="p1">**</ept> FastTab, specify how to create the supplies.</source>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Fill in the fields as described in the following table.</source>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Field</source>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Production Order<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Specify how you want to create production orders.</source>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>You can do this directly from the planning line proposals.</source>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>You can create either planned or firm planned production orders.</source>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Assembly Order<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Specify how you want to create assembly orders.</source>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>You can do this directly from the planning line proposals.</source>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Purchase Order<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Specify how you want to create purchase orders.</source>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>You can do this directly from the planning line proposals.</source>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>If you chose to copy the planning line proposals for purchase orders to the requisition worksheet, select the template and worksheet name.</source>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Transfer Order<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Specify how you want to create transfer orders.</source>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>You can do this directly from the planning line proposals.</source>
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>If you chose to copy the planning line proposals for transfer orders to the requisition worksheet, select the template and worksheet name.</source>
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Combine Transfer Orders<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Select if you want to combine transfer orders.</source>
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Stop and Show First Error<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Select if you want the <bpt id="p1">**</bpt>Carry Out Action Msg. - Plan.<ept id="p1">**</ept> batch job to stop as soon as it encounters an error.</source>
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>At the same time, a message is displayed with information about the firsterror.</source>
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>If an error exists, only the planning lines processed before the error was encountered will create supply orders.</source>
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Planning Line<ept id="p1">**</ept> FastTab, you can set filters to limit the perform action messages.</source>
+        </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>The batch job deletes the lines in the planning worksheet after it has performed the action message.</source>
+        </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>The other lines remain in the planning worksheet until they are either accepted at a later date or else deleted.</source>
+        </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>You can also delete the lines manually.</source>
+        </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Action Messages</source>
+        </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Action messages are issued by the order tracking system when balance is unattainable in the existing order network.</source>
+        </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>They can be viewed as a suggestion for you to process changes that reestablish equilibrium between supply and demand.</source>
+        </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>The generation of action messages occurs one level at a time, for each item's low-level code.</source>
+        </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>This makes sure that all items that experience or will experience changes in supply or demand are considered.</source>
+        </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>To avoid small, superfluous, or unimportant action messages, the user can establish dampeners, which serve to restrict the generation of action messages to only those changes that exceed the defined quantity or number of days.</source>
+        </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>After you have reviewed the action messages and determined whether to accept some or all of the suggested changes, select the <bpt id="p1">**</bpt>Accept Action Message<ept id="p1">**</ept> field, and then you are ready to update the schedules accordingly.</source>
+        </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>An action message is a suggestion to create a new order, cancel an order, or change the quantity or date of an order.</source>
+        </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>An order is a purchase order, transfer order, or production order.</source>
+        </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>In response to any supply/demand imbalances, the following action messages are generated.</source>
+        </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Action Message</source>
+        </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>New<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>If a demand cannot be fulfilled by suggesting action messages to <bpt id="p1">**</bpt>Change Qty.<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Reschedule<ept id="p2">**</ept>, or <bpt id="p3">**</bpt>Reschedule &amp; Change Qty.<ept id="p3">**</ept> on existing orders, the action message <bpt id="p4">**</bpt>New<ept id="p4">**</ept> is generated, which suggests a new order.</source>
+        </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>In addition, the message <bpt id="p1">**</bpt>New<ept id="p1">**</ept> is generated if there are no existing supply orders in the reorder cycle of the item in question.</source>
+        </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>This parameter determines the number of periods forward and backward in the availability profile when it searches for an order to reschedule.</source>
+        </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Change Quantity<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>When demand that is tracked to a supply order experiences a quantity change, the action message <bpt id="p1">**</bpt>Change Qty.<ept id="p1">**</ept> is generated, which indicates that the related supply should be changed relative to the change in demand.</source>
+        </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>If a new demand emerges, <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph> searches for the nearest existing unreserved supply order in the reorder cycle, and issues a change of action message for that order.</source>
+        </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Reschedule<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>When a supply or demand order experiences a date modification causing an imbalance in the order network, the action message <bpt id="p1">**</bpt>Reschedule<ept id="p1">**</ept> is generated.</source>
+        </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>If there is a one-to-one relationship between demand and supply, an action message is generated suggesting that the supply order be moved accordingly.</source>
+        </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>If the supply-order covers demand from more than one sales order, the supply order is re-scheduled equal to the date of the first demand.</source>
+        </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Resch. &amp; Chg. Qty.<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>If both the dates and quantities of an order have been modified, you must change plans with regard to both circumstances.</source>
+        </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Action messaging gathers both actions in one message, <bpt id="p1">**</bpt>Resched. and Chg. Qty.<ept id="p1">**</ept>, to ensure that the order network returns to balance.</source>
+        </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Cancel<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>If a demand, which has been covered on an order-to-order basis, is deleted, an action message is generated to cancel the related supply order.</source>
+        </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>If the relationship is not order-to-order, an action message is generated to change in order to reduce the supply.</source>
+        </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>If through other factors, such as inventory adjustments, a supply order is not required at the time the action messages are generated by the user, <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph> suggests an action message of <bpt id="p1">**</bpt>Cancel<ept id="p1">**</ept> in the worksheet.</source>
+        </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Planning<ept id="p1">](production-planning.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Setting Up Manufacturing<ept id="p1">](production-configure-production-processes.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Manufacturing<ept id="p1">](production-manage-manufacturing.md)</ept><ph id="ph1">  </ph></source>
+        </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Inventory<ept id="p1">](inventory-manage-inventory.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Purchasing<ept id="p1">](purchasing-manage-purchasing.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Design Details: Supply Planning<ept id="p1">](design-details-supply-planning.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Setup Best Practices: Supply Planning<ept id="p1">](setup-best-practices-supply-planning.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Working with <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph><ept id="p1">](ui-work-product.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,237 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="admin-responding-to-requests-about-personal-data.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-435fba6" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f7a217bd61b185586c71d5982d783840dd7ffd2e</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\admin-responding-to-requests-about-personal-data.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">eb8a07be7cbf5e48891d03a4343508fe2752a553</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d9b5fa864501e903003ee9fad6b4e3e3dd588c1e</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Responding to Requests About Personal Data</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>You must respond to data subject requests.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Responding to Requests About Personal Data</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Data subjects can request several types of actions regarding their personal data.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>For example, under the General Data Protection Regulation (GDPR), EU residents have the right to request the export, deletion and modification of their personal data.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>This is known as a <bpt id="p1">*</bpt>Data Subject Request<ept id="p1">*</ept>.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>If you have classified the sensitivity of your data, and are sure they are correct, an administrator can respond to requests by using the options under <bpt id="p1">**</bpt>Data Privacy<ept id="p1">**</ept> on the <bpt id="p2">**</bpt>Manage Users, User Groups, and Permissions<ept id="p2">**</ept> Role Center or, if you are using the Windows client, in the <bpt id="p3">**</bpt>IT Manager<ept id="p3">**</ept> Role Center.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>For more information about classifying data and classifying data sensitivity in <ph id="ph1">[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]</ph>, see <bpt id="p1">[</bpt>Classifying Data<ept id="p1">](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json)</ept> and <bpt id="p2">[</bpt>Classifying Data Sensitivity<ept id="p2">](admin-classifying-data-sensitivity.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Types of Requests</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The following table provides examples of the types of requests you can respond to.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>While we provide capabilities for responding to these types of request, and thereby accessing, personal data, it is your responsibility to ensure that personal and sensitive data are located and classified appropriately.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Request Type</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Description and Suggested Response</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Portability requests</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>A data subject can make a data portability request, meaning, in part, that you must export the data subject's personal data from your systems and provide it in in a structured, commonly used format.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>To respond to these requests you can use the <bpt id="p1">**</bpt>Data Privacy Utility<ept id="p1">**</ept> to export personal data to an Excel file or a RapidStart configuration package.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Using Excel, you can edit the personal data and save it in a commonly used, machine-readable format, such as .csv or .xml.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>For RapidStart configuration packages, you can configure master data tables and their related tables that contain personal data.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> When you export data you specify a minimum sensitivity level.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The export will include the minimum and all sensitivity levels above it.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>For example, if you choose to export data that is classified as Personal, the export will also include data that is classified as Sensitive.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>When exporting data related to a data subject, the <bpt id="p1">**</bpt>Data Privacy Utility<ept id="p1">**</ept> looks for direct relationships between the data subject and data related to the data subject.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Indirect relationships between data related to the data subject and other data are not exported automatically by the <bpt id="p1">**</bpt>Data Privacy Utility<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>For example, the Contact table has directly related Contact Profile Answers data, and the Contact Profile Answers table is further related to Profile Questions data.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>If you want to export Profile Questions as well, you must add this table manually as a row with the appropriate filters in the configuration package that the <bpt id="p1">**</bpt>Data Privacy Utility<ept id="p1">**</ept> creates.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Requests for deletion</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>A data subject can request that you delete their personal data.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>There are several ways to delete personal data using the customization capabilities, but the decision and implementation is your responsibility.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>In some cases, you may choose to directly edit your data, for example deleting a contact and then running the Delete Canceled Interaction batch job to delete interactions for the contact.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> If you have specified a date in the <bpt id="p2">**</bpt>Allow Document Deletion Before<ept id="p2">**</ept> field on the <bpt id="p3">**</bpt>Sales &amp; Receivables Setup<ept id="p3">**</ept> or <bpt id="p4">**</bpt>Purchases &amp; Payables Setup<ept id="p4">**</ept> pages, you might need to change the date so that you can delete posted sales and purchase documents that you have printed and that have posting dates on or before that date.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Requests for correction</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>A data subject can request that you correct inaccurate personal data.</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>There are several ways to do so.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>In some cases, you can export lists to Excel to quickly bulk-edit multiple records, and then import the updated data.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Exporting your Business Data to Excel<ept id="p1">](about-export-data.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>You can also manually edit fields that contain personal data, such as editing information about a customer in the Customer card.</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>However, transaction records such as general, customer, and tax ledger entries are essential to the integrity of the enterprise resource planning system.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>If you store personal data in business transaction records, consider using the customization capabilities to modify such personal data.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Restrict Data Processing for a Data Subject</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>A data subject can request that you temporarily stop processing their personal data.</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>To honor such requests, you can mark their record as blocked due to privacy to stop processing their data.</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>When a record is marked as blocked, you cannot create new transactions that use that record.</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>For example, you cannot create a new invoice for a customer when either the customer or the salesperson is blocked.</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>To mark a data subject as blocked, open the card for the data subject, for example the Customer, Vendor, or Contact cards, and choose the <bpt id="p1">**</bpt>Privacy Blocked<ept id="p1">**</ept> check box.</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>You may need to choose <bpt id="p1">**</bpt>Show More<ept id="p1">**</ept> to display the field.</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Handling Data Subject Requests While in Trial</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Certain types of personal data is part of your Office 365 account and requires administrative access to export, if you receive a data subject request from a user regarding this type of personal data under the General Data Protection Regulation (GDPR).</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The process for handling data subject requests is different depending on the type of <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> tenant.</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>If you have a paid subscription for <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>, you must contact your organization's tenant administrator to make a data subject request.</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The administrator has the administrative rights and tools to fulfil your request.</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>If you signed up for <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> from the <bpt id="p1">[</bpt>Trials<ept id="p1">](https://trials.dynamics.com/)</ept> page, and you have not moved out of this trial experience through a paid subscription by your organization’s tenant administrator, then you can fulfil your own data subject request in the <bpt id="p2">[</bpt>Work and School Privacy page in the Azure Portal<ept id="p2">](https://portal.azure.com#blade/Microsoft_AAD_IAM/GDPRViralBlade)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Here, you can export and download your personal data.</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>On the Work and School Privacy page, you can also close your account.</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>However, we recommend that you make sure that you have exported and deleted all data first, since deleting your account means that you lose access to <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>You can still mark people as blocked due to privacy and export, edit, or delete transactions as explained elsewhere in this article.</source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Exporting Data from Tables not Classified by Data Subject</source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>If you have a situation where you have to export data that is not classified in a way so that it gets automatically exported, such as data from the Profile Answers table, you must do the following:</source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Consider if you really want or have to export this supplemental data that is unrelated to the contact, meaning that it has no direct relationship to it</source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Add this table and relationship manually to the Rapid Start package and export it directly from the Rapid Start package – that’s why we generate a Rapid Start package for you, so that you can tweak it in situations such as this.</source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Handling Data About Minors</source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>If a contact person's age is below the age of legal consent according to the laws in your region, you can indicate that by choosing the <bpt id="p1">**</bpt>Minor<ept id="p1">**</ept> check box on the <bpt id="p2">**</bpt>Contact<ept id="p2">**</ept> card.</source>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>When you do, the <bpt id="p1">**</bpt>Privacy Blocked<ept id="p1">**</ept> check box is automatically selected.</source>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>When you receive consent from the minor's parent or legal guardian, you can choose the <bpt id="p1">**</bpt>Parental Consent Received<ept id="p1">**</ept> check box to unblock the contact.</source>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Though you can process personal data for minors, you cannot use the profiling functionality in Microsoft Dynamics 365 for Sales.</source>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The Change Log can record details such as when, and by whom, the <bpt id="p1">**</bpt>Parental Consent Received<ept id="p1">**</ept> check box was chosen.</source>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>An administrator can set that up by using the <bpt id="p1">**</bpt>Change Log Setup<ept id="p1">**</ept> guide, and also choosing the <bpt id="p2">**</bpt>Log Modification for Parental Consent Received<ept id="p2">**</ept> check box on the <bpt id="p3">**</bpt>Contact<ept id="p3">**</ept> card.</source>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Logging Changes<ept id="p1">](across-log-changes.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Classifying Data<ept id="p1">](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json)</ept></source>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Classifying Data Sensitivity<ept id="p1">](admin-classifying-data-sensitivity.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Exporting your Business Data to Excel<ept id="p1">](about-export-data.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Logging Changes<ept id="p1">](across-log-changes.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Data Subject Requests for the GDPR<ept id="p1">](/microsoft-365/compliance/gdpr-data-subject-requests)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,477 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-15c36f0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ab9e8fefaeb7b15ac560c028637c4288807af2a6</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">financials\receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">26861c8cc5ecd38a7eddc8fc679ff7a1c0899377</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">098d22df7e5e5048ba9f1512b23d76bd4c6b08d0</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Apply Payments to Unpaid Sales Documents | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>You apply amounts paid by customers to related sales documents and post the payment to update the customer, general ledger, and bank ledger entries.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Reconcile Customer Payments Manually From a List of Unpaid Sales Documents</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>When your customers have made payments to your electronic bank account, you must apply each amount paid to the related sales document and then post the payment to update the customer, general ledger, and bank ledger entries.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>You can perform the same tasks, including vendor payments, in the <bpt id="p1">**</bpt>Payment Reconciliation Journal<ept id="p1">**</ept> window using functions for bank statement import, automatic application, and bank account reconciliation.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Reconcile Payments Using Automatic Application<ept id="p1">](receivables-how-reconcile-payments-auto-application.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Payment Registration<ept id="p1">**</ept> window is designed to support you in tasks involved in balancing internal accounts by using actual cash figures to make sure that payments are collected efficiently from customers.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>This payment processing tool enables you to quickly verify and post individual or lump payments, process discounted payments, and find specific unpaid documents for which payment is made.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Payments for different customers that have different payment dates must be posted as individual payments.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Payments for the same customer that have the same payment date can be posted as a lump payment.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>This is useful, for example, when a customer has made a single payment that covers multiple sales invoices.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>To set up the payment registration journal</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Because you can post different payment types to different balancing accounts, you must select a balancing account in the <bpt id="p1">**</bpt>Payment Registration Setup<ept id="p1">**</ept> window before you start processing customer payments.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>If you always post to the same balancing account, you can set that account as the default and avoid this step every time that you open the <bpt id="p1">**</bpt>Payment Registration<ept id="p1">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Payment Registration Setup<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Alternatively, in the <bpt id="p1">**</bpt>Payment Registration<ept id="p1">**</ept> window, choose the <bpt id="p2">**</bpt>Setup<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Fill in the fields in the <bpt id="p1">**</bpt>Payment Registration Setup<ept id="p1">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Choose a field to read a short description of the field or link to related information.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>To reconcile payments individually</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Payment Registration<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>Payment Made<ept id="p1">**</ept> check box on the line that represents the posted document for which a payment has been made.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>If the <bpt id="p1">**</bpt>Auto Fill Date Received<ept id="p1">**</ept> check box is selected in the <bpt id="p2">**</bpt>Payment Registration Setup<ept id="p2">**</ept> window, then the work date is entered in the <bpt id="p3">**</bpt>Date Received<ept id="p3">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Date Received<ept id="p1">**</ept> field, enter the date when the payment was made.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This date may be different from the work date.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Amount Received<ept id="p1">**</ept> field, enter the amount that has been paid.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>For full payments, this is the same as the amount in the <bpt id="p1">**</bpt>Remaining Amount<ept id="p1">**</ept> field on the line.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>For partial payments, this is lower than the amount in the <bpt id="p1">**</bpt>Remaining Amount<ept id="p1">**</ept> field on the line.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Repeat steps 2-4 for other lines that represent posted documents for which payments are made.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Post Payments<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The payment information is posted for documents represented by lines where the <bpt id="p1">**</bpt>Payment Made<ept id="p1">**</ept> check box is selected.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Payments entries are posted to general ledger, bank, and customer accounts.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Each payment is applied to the related posted sales document.</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>To reconcile lump payments</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Payment Registration<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>Payment Made<ept id="p1">**</ept> check box on the lines that represent posted documents for the same customer for which a lump payment has been made.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The customer in the <bpt id="p1">**</bpt>Name<ept id="p1">**</ept> field must be the same on all lines that will be posted as a lump payment.</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>If the <bpt id="p1">**</bpt>Auto Fill Date Received<ept id="p1">**</ept> check box is selected in the <bpt id="p2">**</bpt>Payment Registration Setup<ept id="p2">**</ept> window, then the work date is filled in the <bpt id="p3">**</bpt>Date Received<ept id="p3">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Date Received<ept id="p1">**</ept> field, enter the date when the payment was made.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>This date may be different from the work date.</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>This date must be the same on all lines that will be posted as a lump payment.</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Amount Received<ept id="p1">**</ept> field, enter amounts on multiple lines that sum up to the lump payment amount.</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Try to post as many full payments as possible with the lump amount.</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Enter amounts that are the same as the amount in the <bpt id="p1">**</bpt>Remaining Amount<ept id="p1">**</ept> field on as many lines as possible.</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Repeat steps 2-4 for other lines that represent posted documents for the same customer for which a lump payment has been made.</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Post As Lump Payment<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The entered payment information is posted for documents represented by lines where the <bpt id="p1">**</bpt>Payment Made<ept id="p1">**</ept> check box is selected.</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Payment entries are posted to general ledger, bank, and customer accounts.</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Each payment is applied to the related posted sales document.</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>If a payment in the bank is not represented by line in the <bpt id="p1">**</bpt>Payment Registration<ept id="p1">**</ept> window, it may be because the related document has not yet been posted.</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>In that case, you can use a search function to quickly find the document and post it to process the payment.</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>For more information, see the "To find a specific sales document that is not fully invoiced" section.</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>If a payment in the bank is not represented by any document in <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph>, then you can open a prefilled general journal from the <bpt id="p1">**</bpt>Payment Registration<ept id="p1">**</ept> window to post the payment directly to the balancing account without applying the payment to a document.</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Alternatively, you may want to record the payment in the journal until the origin of the payment has been resolved.</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>For more information, see the "To record or post a payment without a related document" section.</source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>To process customer payments with discounts manually</source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>If you have agreed on a payment discount with your customer, then the payment amounts can be lower than the invoice amounts if payment occurs before the agreed discount date.</source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The following procedures explains four different ways to post discounted payments in the <bpt id="p1">**</bpt>Payment Registration<ept id="p1">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The payment amount is equal to the remaining discounted amount, and the payment date is before the discount date.</source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>You post the payment as is.</source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The payment amount is equal to the remaining discounted amount, but the payment date is after the discount date.</source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>You post the payment as partial.</source>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The document remains open to collect/pay the remaining amount.</source>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Alternatively, you set the discount date later to allow the payment in full.</source>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The payment amount is lower than the remaining discounted amount.</source>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>You post the payment as partial.</source>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The document remains open to collect/pay the remaining amount.</source>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The payment amount is more than the remaining discounted amount.</source>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>You post the payments as is.</source>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Only the remaining amount is posted.</source>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The additional amount is credited to the customer.</source>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>To process a payment amount that is equal to the discounted amount and where the payment date is before the discount date</source>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Payment Registration<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Enter the payment amount in the <bpt id="p1">**</bpt>Amount Received<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The amount is equal to the amount in the <bpt id="p1">**</bpt>Rem. Amt. after Discount<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Payment Made<ept id="p1">**</ept> check box is automatically selected, and the <bpt id="p2">**</bpt>Date Received<ept id="p2">**</ept> field is filled with the work date.</source>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Date Received<ept id="p1">**</ept> field, enter the payment date.</source>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The date is before the date in the <bpt id="p1">**</bpt>Pmt. Discount Date<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Verify that the <bpt id="p1">**</bpt>Remaining Amount<ept id="p1">**</ept> field contains zero (0).</source>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Post Payments<ept id="p1">**</ept> action to post the full payment to general ledger, bank, and customer accounts.</source>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>To process a payment amount that is equal to the discounted amount but where the payment date is after the discount date</source>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Payment Registration<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Enter the payment amount in the <bpt id="p1">**</bpt>Amount Received<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The amount is equal to the amount in the <bpt id="p1">**</bpt>Rem. Amt. after Discount<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Payment Made<ept id="p1">**</ept> check box is automatically selected, and the <bpt id="p2">**</bpt>Date Received<ept id="p2">**</ept> field is filled with the work date.</source>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Date Received<ept id="p1">**</ept> field, enter a payment date that is after the date in the <bpt id="p2">**</bpt>Pmt. Discount Date<ept id="p2">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Date fields change to red font, and an error message is shown at the bottom of the window.</source>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>If you want to make an exception and grant the discount even though the payment is late, follow these steps:</source>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Details<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Payment Registration Details<ept id="p1">**</ept> window, in the <bpt id="p2">**</bpt>Pmt. Discount Date<ept id="p2">**</ept> field on the <bpt id="p3">**</bpt>Payment Discount<ept id="p3">**</ept> FastTab, enter a date that is after the date in the <bpt id="p4">**</bpt>Date Received<ept id="p4">**</ept> field in the <bpt id="p5">**</bpt>Payment Registration<ept id="p5">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The error message and the red font disappear, and you can proceed to process the discounted payment.</source>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Verify that the <bpt id="p1">**</bpt>Remaining Amount<ept id="p1">**</ept> field contains the amount that remains to pay the full invoice amount.</source>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Post Payments<ept id="p1">**</ept> action to post the partial payment to general ledger, bank, and customer accounts.</source>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The related document remains open.</source>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>To process a payment that is lower than the remaining discounted amount</source>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Payment Registration<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Enter the payment amount in the <bpt id="p1">**</bpt>Amount Received<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The amount is lower than the amount in the <bpt id="p1">**</bpt>Rem. Amt. after Discount<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Payment Made<ept id="p1">**</ept> check box is automatically selected, and the <bpt id="p2">**</bpt>Date Received<ept id="p2">**</ept> field is filled with the work date.</source>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Date Received<ept id="p1">**</ept> field, enter the payment date.</source>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The date is before the date in the <bpt id="p1">**</bpt>Pmt. Discount Date<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Verify that the <bpt id="p1">**</bpt>Remaining Amount<ept id="p1">**</ept> field contains the amount that remains to pay the discounted amount.</source>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Post Payments<ept id="p1">**</ept> action to post the partial payment to general ledger, bank, and customer accounts.</source>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The related document remains open.</source>
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>To process a payment that is more than the remaining discounted amount</source>
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Payment Registration<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Enter the payment amount in the <bpt id="p1">**</bpt>Amount Received<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The amount is more than the amount in the <bpt id="p1">**</bpt>Rem. Amt. after Discount<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Payment Made<ept id="p1">**</ept> check box is automatically selected, and the <bpt id="p2">**</bpt>Date Received<ept id="p2">**</ept> field is filled with the work date.</source>
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Date Received<ept id="p1">**</ept> field, enter the payment date.</source>
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The date is before the date in the <bpt id="p1">**</bpt>Pmt. Discount Date<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Verify that the <bpt id="p1">**</bpt>Remaining Amount<ept id="p1">**</ept> field contains zero (0).</source>
+        </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Post Payments<ept id="p1">**</ept> action to post the full payment to general ledger, bank, and customer accounts.</source>
+        </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>The related document is closed, and the customer is credited the excess payment amount.</source>
+        </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>To find a specific sales document that is not fully invoiced</source>
+        </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Payment Registration<ept id="p1">**</ept> window supports you in tasks needed to balance internal accounts with actual cash figures to ensure effective collection from customers.</source>
+        </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>It shows outstanding incoming payments as lines that represent sales documents where an amount is due for payment.</source>
+        </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Typically, when a payment has been made, recorded in the bank or otherwise, the related sales or purchase document is represented as a line in the <bpt id="p1">**</bpt>Payment Registration<ept id="p1">**</ept> window because the document in question is waiting for the payment to be posted against the outstanding amount.</source>
+        </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>However, sometimes a payment that has been made is not represented by a line in the <bpt id="p1">**</bpt>Payment Registration<ept id="p1">**</ept> window, typically because the document in question has not been fully invoice posted.</source>
+        </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Document Search<ept id="p1">**</ept> window, you can search among documents that are not fully invoiced.</source>
+        </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>You can search based on one or more of the following criteria:</source>
+        </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Document number</source>
+        </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Amount or amount range</source>
+        </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>The following procedure explains how to find a specific document by using both search criteria.</source>
+        </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Payment Registration<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>With the pointer on any line, Choose the <bpt id="p1">**</bpt>Search Documents<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Document Search<ept id="p1">**</ept> window, enter a search value in the <bpt id="p2">**</bpt>Document No.<ept id="p2">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>The value that you enter in this field is enclosed in hidden wildcard characters.</source>
+        </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>This means that the function searches for all document numbers that contain the entered value.</source>
+        </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Amount<ept id="p1">**</ept> field, enter the specific amount that exists on the document that you want to find.</source>
+        </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Amount Tolerance %<ept id="p1">**</ept> field, enter a percentage value to define the range of amounts that you want to search to find the open document.</source>
+        </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>If you enter 10, then the function will search for amounts in a range between ten percent lower and ten percent higher than the value in the <bpt id="p1">**</bpt>Amount<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Search<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>The Search function searches among documents that are not fully invoiced based on the specified criteria.</source>
+        </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>If one or more documents match the criteria, then the <bpt id="p1">**</bpt>Document Search Result<ept id="p1">**</ept> window opens to display lines that represent those documents.</source>
+        </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Each line contains a document number, description, and amount so that you can easily find a specific document, for example based on information on your bank statement.</source>
+        </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>If a payment in the bank is not represented by any document in <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph>, then you can open a prefilled general journal from the <bpt id="p1">**</bpt>Payment Registration<ept id="p1">**</ept> window to post the payment directly to the balancing account without applying the payment to a document.</source>
+        </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Alternatively, you may want to record the payment in the journal until the origin of the payment has been resolved.</source>
+        </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>To record or post a payment without a related document</source>
+        </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>If a payment in the bank is not represented by any document <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph>, then you can open a prefilled general journal line from the <bpt id="p1">**</bpt>Payment Registration<ept id="p1">**</ept> window to post the payment directly to the balancing account without applying the payment to a document.</source>
+        </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Alternatively, you may want to record the payment in the journal until the origin of the payment has been clarified.</source>
+        </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Payment Registration<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Proceed to record an undocumented payment.</source>
+        </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>General Journal<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>General Journal<ept id="p1">**</ept> window opens with one line prefilled with the balancing account of the journal batch that is set up in the <bpt id="p2">**</bpt>Payment Registration Setup<ept id="p2">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Fill in the remaining fields on the general journal line, such as the amount and the customer number or other information from the bank statement.</source>
+        </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Post Transactions Directly to the General Ledger<ept id="p1">](finance-how-post-transactions-directly.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>You can either post the journal line to update the total on the balancing account.</source>
+        </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Alternatively, you can leave the journal line unposted, and perhaps append it with a note that the payment needs more analysis.</source>
+        </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>If you leave the journal line unposted, it will add to the value in the <bpt id="p1">**</bpt>Unposted Balance<ept id="p1">**</ept> field at the bottom of the <bpt id="p2">**</bpt>Payment Registration<ept id="p2">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Managing Receivables<ept id="p1">](receivables-manage-receivables.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Sales<ept id="p1">](sales-manage-sales.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Working with <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph><ept id="p1">](ui-work-product.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

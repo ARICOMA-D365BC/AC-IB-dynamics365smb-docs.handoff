@@ -1,0 +1,465 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="ui-work-general-journals.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-15c36f0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b05fa4685f212e3c992eeb2aeda17402cfac5999</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">financials\ui-work-general-journals.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">46b9f0927ac1f0b743da24a144f18ef8c514fb35</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4542318d261b1301f8f63ad5f5957b08e708291e</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Using General Journals to Post Directly to G/L| Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Learn about using general journals to post financial transactions to general ledger accounts and other accounts, such as bank and vendor accounts.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Working with General Journals</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Most financial transactions are posted to the general ledger through dedicated business documents, such as purchase invoices and sales orders.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>For business activities that are not represented by a document in <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph>, such as smaller expenses or cash receipts, you can create the related transactions by posting journal lines in the <bpt id="p1">**</bpt>General Journal<ept id="p1">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Post Transactions Directly to the General Ledger<ept id="p1">](finance-how-post-transactions-directly.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>For example, you can post employees' expenditure of own money on business-related expenses, for later reimbursement.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Record and Reimburse Employees' Expenses<ept id="p1">](finance-how-record-reimburse-employee-expenses.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You use general journals to post financial transactions directly to general ledger accounts and other accounts, such as bank, customer, vendor, and employee accounts.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Posting with a general journal always creates entries on general ledger accounts.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>This is true even when, for example, you post a journal line to a customer account, because an entry is posted to a general ledger receivables account through a posting group.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The information that you enter in a journal is temporary and can be changed while it is in the journal.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>When you post the journal, the information is transferred to entries on individual accounts, where it cannot be changed.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You can, however, unapply posted entries, and you can post reversing or correcting entries.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Reverse Postings<ept id="p1">](finance-how-reverse-journal-posting.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Using Journal Templates and Batches</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>There are several general journal templates.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Each journal template is represented by a dedicated window with particular functions and the fields that are required to support those functions, such as the <bpt id="p1">**</bpt>Payment Reconciliation Journal<ept id="p1">**</ept> window to process bank payments and the <bpt id="p2">**</bpt>Payment Journal<ept id="p2">**</ept> window to pay your vendors or reimburse your employees.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Make Payments<ept id="p1">](payables-make-payments.md)</ept> and <bpt id="p2">[</bpt>Reconcile Customer Payments Manually<ept id="p2">](receivables-how-apply-sales-transactions-manually.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>For each journal template, you can set up your own personal journal as a journal batch.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>For example, you can define your own journal batch for the payment journal that has your personal layout and settings.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The following tip is an example of how to personalize a journal.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>If you select the <bpt id="p1">**</bpt>Suggest Balancing Amount<ept id="p1">**</ept> check box on the line for your batch in the <bpt id="p2">**</bpt>General Journal Batches<ept id="p2">**</ept> window, then the <bpt id="p3">**</bpt>Amount<ept id="p3">**</ept> field on, for example, general journal lines for the same document number is automatically prefilled with the value that is required to balance the document.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Letting <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> Suggest Values<ept id="p1">](ui-let-system-suggest-values.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Understanding Main Accounts and Balancing Accounts</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>If you have set up default balancing accounts for the journal batches on the <bpt id="p1">**</bpt>General Journals<ept id="p1">**</ept> page, the balancing account will be filled in automatically when you fill in the <bpt id="p2">**</bpt>Account No.<ept id="p2">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Otherwise, fill in both the <bpt id="p1">**</bpt>Account No.<ept id="p1">**</ept> field and the <bpt id="p2">**</bpt>Bal. Account No.<ept id="p2">**</ept> field manually.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>A positive amount in the <bpt id="p1">**</bpt>Amount<ept id="p1">**</ept> field is debited to the main account and credited to the balancing account.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>A negative amount is credited to the main account and debited to the balancing account.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>VAT is calculated separately for the main account and the balancing account, so they can use different VAT percentage rates.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Working with Recurring Journals</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>A recurring journal is a general journal with specific fields for managing transactions that you post frequently with few or no changes, such as rent, subscriptions, electricity, and heat.</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Using these fields for recurring transactions, you can post both fixed and variable amounts.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>You can also specify automatic reversal entries for the day after the posting date.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>You can also use allocation keys to divide the recurring entries among various accounts.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>For more information, see the "Allocating Recurring Journal Amounts to Several Accounts" section.</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>With a recurring journal, entries that will be posted regularly need to be typed in only once.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>That is, the accounts, dimensions and dimension values and so on that you enter will be remain in the journal after posting.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>If any adjustments are necessary, you can make them with each posting.</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Recurring Method field</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>This field determines how the amount on the journal line is treated after posting.</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>For example, if you will use the same amount every time you post the line, you can let the amount remain.</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>If you will use the same accounts and text on the line but the amount will vary every time you post, you can choose to delete the amount after posting.</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>To</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>See</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Fixed</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The amount on the journal line will remain after posting.</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Variable</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The amount on the journal line will be deleted after posting.</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Balance</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The posted amount on the account on the line will be allocated among the accounts specified for the line in the Gen. Jnl. Allocation table.</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The balance on the account will thus be set to zero.</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Remember to fill in the <bpt id="p1">**</bpt>Allocation %<ept id="p1">**</ept> field in the <bpt id="p2">**</bpt>Allocations<ept id="p2">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>For more information, see the "Allocating Recurring Journal Amounts to Several Accounts" section.</source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Reversing Fixed</source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The amount on the journal line will remain after posting, and a balancing entry will be posted on the next day.</source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Reversing Variable</source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The amount on the journal line will be deleted after posting, and a balancing entry will be posted on the next day.</source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Reversing Balance</source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The posted amount on the account on the line will be allocated among the accounts specified for the line in the <bpt id="p1">**</bpt>Allocations<ept id="p1">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The balance on the account will be set to zero, and a balancing entry is posted on the next day.</source>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The VAT fields can be filled in on either the recurring journal line or on the allocation journal line but not on both.</source>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>That is, they can be filled in in the <bpt id="p1">**</bpt>Allocations<ept id="p1">**</ept> window only if the corresponding lines in the recurring journal are not filled in.</source>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Recurring Frequency field</source>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>This field determines how often the entry on the journal line will be posted.</source>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>It is a date formula field, and it must be filled in for recurring journal lines.</source>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>For more information, see the "Using Date Formulas" section in <bpt id="p1">[</bpt>Entering Data<ept id="p1">](ui-enter-data.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Examples</source>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>If the journal line must be posted every month, enter "1M".</source>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>After every posting, the date in the <bpt id="p1">**</bpt>Posting Date<ept id="p1">**</ept> field will be updated to the same date in the next month.</source>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>If you want to post an entry on the last day of every month, you can do one of the following:</source>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Post the first entry on the last day of a month by entering 1D+1M-1D (1 day + 1 month - 1 day).</source>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>With this formula, the posting date is calculated correctly regardless of how many days there are in the month.</source>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Post the first entry on any arbitrary day of a month by entering 1M+CM.</source>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>With this formula, the posting date will be after one full month + the remaining days of the current month.</source>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Expiration Date field</source>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>This field determines the date on which the line will be posted for the last time.</source>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The line will not be posted after this date.</source>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The advantage of using the field is that the line will not be deleted from the journal immediately and you can always replace the present expiration date with a later one so that you can use the line further into the future.</source>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>If the field is blank, the line will be posted every time you post until it is deleted from the journal.</source>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Allocating Recurring Journal Amounts to Several Accounts</source>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Recurring General Journal<ept id="p1">**</ept> window, you can choose the <bpt id="p2">**</bpt>Allocations<ept id="p2">**</ept> action to see or manage how amounts on the recurring journal line are allocated to several accounts and dimensions.</source>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Note that an allocation functions as balancing account line to the recurring journal line.</source>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Just as in a recurring journal, you need to enter an allocation only once.</source>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The allocation will remain in the allocation journal after posting, so you do not need to enter amounts and allocations every time you post the recurring journal line.</source>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>If the recurring method in the recurring journal is set to <bpt id="p1">**</bpt>Balance<ept id="p1">**</ept> or <bpt id="p2">**</bpt>Reversing Balance<ept id="p2">**</ept>, then any dimension value codes in the recurring journal are disregarded when the account is set to zero.</source>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>So if you allocate a recurring line to various dimension values in the <bpt id="p1">**</bpt>Allocations<ept id="p1">**</ept> window, then only one reversing entry will be created.</source>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Therefore, if you allocate a recurring journal line that contains a dimension value code, then you must not enter the same code in the <bpt id="p1">**</bpt>Allocations<ept id="p1">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>If you do, the dimension values will be incorrect.</source>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Example: Allocating Rent Payments to Different Departments</source>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>You pay rent every month, so you have entered the rent amount on the cash account on a recurring journal line.</source>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Allocations<ept id="p1">**</ept> window, you can divide the expense among several departments (Department dimension) according to the number of square feet that each one occupies.</source>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The calculation is based on the allocation percentage on each line.</source>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>You can enter various accounts on different allocation lines (if rent will also be divided among several accounts), or you can enter the same account but with various dimension value codes for the Department dimension on each line.</source>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Working with Standard Journals</source>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>When you have created journal lines which you know you are likely to create again later, you can save them as a standard journal before you post the journal.</source>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>This functionality applies to item journals and general journals.</source>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>The following procedure refers to the item journal, but the information also applies to the general journal.</source>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>To save a standard journal</source>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Item Journals<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Enter one or more journal lines.</source>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Select the journal lines that you want to reuse.</source>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Save as Standard Journal<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Save as Standard Item Journal<ept id="p1">**</ept> request window, define a new or existing standard item journal that the lines should be saved in.</source>
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>If you have already created one or more standard item journals and you want to replace one of these with the new set of item journal lines, in the Code field, select the code you want.</source>
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button to verify that you want to overwrite the existing standard item journal and replace all its content.</source>
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>Save Unit Amount<ept id="p1">**</ept> field if you want to save the values in the <bpt id="p2">**</bpt>Unit Amount<ept id="p2">**</ept> field of the standard item journal.</source>
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>Save Quantity<ept id="p1">**</ept> field if you want the program to save the values in the <bpt id="p2">**</bpt>Quantity<ept id="p2">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button to save the standard item journal.</source>
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>When you have finished saving the standard item journal, the Item Journal window is displayed so you can proceed to post it, knowing that it can easily be recreated next time you need to post the same or similar lines.</source>
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>To reuse a standard journal</source>
+        </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Item Journals<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Get Standard Journals<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>The Standard Item Journals window opens showing codes and descriptions for all existing standard item journals.</source>
+        </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>To review a standard item journal before you select it for reuse, choose the <bpt id="p1">**</bpt>Show Journal<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Any changes you make in a standard item journal are implemented right away.</source>
+        </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>They will be there next time you open or reuse the standard item journal in question.</source>
+        </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>You should therefore be sure that the change is important enough to apply generally.</source>
+        </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Otherwise, make the specific change in the item journal after the standard item journal lines have been inserted.</source>
+        </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>See step 4 below.</source>
+        </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Standard Item Journals<ept id="p1">**</ept> window, select the standard item journal you want to reuse, and then choose the <bpt id="p2">**</bpt>OK<ept id="p2">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Now the item journal is filled with the lines you saved as the standard item journal.</source>
+        </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>If journal lines already existed in the item journal, the inserted lines will be placed under the existing journal lines.</source>
+        </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>If you did not check the <bpt id="p1">**</bpt>Save Unit Amount<ept id="p1">**</ept> field when you used the <bpt id="p2">**</bpt>Save as Standard Item Journal<ept id="p2">**</ept> function job, then the <bpt id="p3">**</bpt>Unit Amount<ept id="p3">**</ept> field on lines that are inserted from the standard journal is automatically filled with the item’s current value, copied from the <bpt id="p4">**</bpt>Unit Cost<ept id="p4">**</ept> field on the item card.</source>
+        </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>If you selected the <bpt id="p1">**</bpt>Save Unit Amount<ept id="p1">**</ept> or <bpt id="p2">**</bpt>Save Quantity<ept id="p2">**</ept> fields, you should now make sure the inserted values are correct for this particular inventory adjustment before you post the item journal.</source>
+        </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>If the inserted item journal lines contain saved unit amounts that you do not want to post, you can quickly adjust it to the current value of the item as follows.</source>
+        </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Select the item journal lines you want to adjust, and then choose the <bpt id="p1">**</bpt>Recalculate Unit Amount<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>This will update the Unit Amount field with the current unit cost of the item.</source>
+        </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>post<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>To renumber document numbers in journals</source>
+        </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>To make sure that you do not receive posting errors because of the document number order, you can use the <bpt id="p1">**</bpt>Renumber Document Numbers<ept id="p1">**</ept> function before you post a journal.</source>
+        </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>In all journals that are based on the general journal, the <bpt id="p1">**</bpt>Document No.<ept id="p1">**</ept> field is editable so that you can specify different document numbers for different journal lines or the same document number for related journal lines.</source>
+        </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>If the <bpt id="p1">**</bpt>No. Series<ept id="p1">**</ept> field on the journal batch is filled, then the posting function in general journals requires that the document number on individual or grouped journal lines be in sequential order.</source>
+        </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>To make sure that you do not receive posting errors because of the document number order, you can use the <bpt id="p1">**</bpt>Renumber Document Numbers<ept id="p1">**</ept> function before you post the journal.</source>
+        </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>If related journal lines were grouped by document number before you used the function, they will remain grouped but may be assigned a different document number.</source>
+        </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>This function also works on filtered views.</source>
+        </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Any renumbering of document numbers will respect related applications, such as a payment application that has been made from the document on the journal line to a vendor account.</source>
+        </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Accordingly, the <bpt id="p1">**</bpt>Applies-to ID<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Applies-to Doc. No.<ept id="p2">**</ept> fields on the affected ledger entries may be updated.</source>
+        </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>The following procedure is based on the <bpt id="p1">**</bpt>General Journal<ept id="p1">**</ept> window, but applies to all other journals that are based on the general journal, such as the <bpt id="p2">**</bpt>Payment Journal<ept id="p2">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>General Journals<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>When you are ready to post the journal, choose the <bpt id="p1">**</bpt>Renumber Document Numbers<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Values in the <bpt id="p1">**</bpt>Document No.<ept id="p1">**</ept> field are changed, where required, so that the document number on individual or grouped journal lines are in sequential order.</source>
+        </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>After documents are renumbered, you can proceed to post the journal.</source>
+        </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Post Transactions Directly to the General Ledger<ept id="p1">](finance-how-post-transactions-directly.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Reverse Postings<ept id="p1">](finance-how-reverse-journal-posting.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Allocate Costs and Income<ept id="p1">](year-allocate-costs-income.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Finance<ept id="p1">](finance.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Working with <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph><ept id="p1">](ui-work-product.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

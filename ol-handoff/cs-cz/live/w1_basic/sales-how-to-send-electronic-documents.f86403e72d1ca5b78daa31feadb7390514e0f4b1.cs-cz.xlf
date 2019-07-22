@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="sales-how-to-send-electronic-documents.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-435fba6" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">76940b9133f6aef69c588b12dd4e8940717d0eab</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\sales-how-to-send-electronic-documents.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2aa803f7fd85c8be51063aa9bf0b2d8ab84e0b1f</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c37e3914f96f59a7762a30102a753a3069c58173</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Send Electronic Documents | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>learn how to send invoices electronically.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Send Electronic Documents</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The generic version of <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> supports sending electronic invoices and credit memos in the PEPPOL format, which is supported by the largest document exchange service providers.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>A document exchange service provider dispatches electronic documents between trading partners.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>To provide support for other electronic document formats, you use the data exchange framework.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>In the generic version of <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>, a document exchange service is preconfigured and ready to be set up for your company.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Set Up a Document Exchange Service<ept id="p1">](across-how-to-set-up-a-document-exchange-service.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>To send a sales invoice as an electronic PEPPOL document, you select the <bpt id="p1">**</bpt>Electronic Document<ept id="p1">**</ept> option in the <bpt id="p2">**</bpt>Post and Send<ept id="p2">**</ept> dialog box from where you can also set up the customer’s default document sending profile.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>First, you must set up various master data, such as company information, customers, items, and units of measure.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>These are used to identify the business partners and items when converting data in fields in <bpt id="p1">[</bpt>Set Up Electronic Document Sending and Receiving<ept id="p1">](across-how-to-set-up-electronic-document-sending-and-receiving.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>To send an electronic sales invoice</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Sales Invoices<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Create a new sales invoice.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>When the sales invoice is ready to be invoiced, on the <bpt id="p1">**</bpt>Actions<ept id="p1">**</ept> tab, in the <bpt id="p2">**</bpt>Posting<ept id="p2">**</ept> group, choose <bpt id="p3">**</bpt>Post and Send<ept id="p3">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>If the customer’s default sending profile is <bpt id="p1">**</bpt>Electronic Document<ept id="p1">**</ept>, then it will be shown in the <bpt id="p2">**</bpt>Post and Send Confirmation<ept id="p2">**</ept> dialog box and you just have to choose the <bpt id="p3">**</bpt>Yes<ept id="p3">**</ept> button to post and send the invoice electronically in the selected format.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Post and Send Confirmation<ept id="p1">**</ept> dialog box, choose the AssistEdit button to the right of the <bpt id="p2">**</bpt>Send Document to<ept id="p2">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Send Document to<ept id="p1">**</ept> dialog box, in the <bpt id="p2">**</bpt>Electronic Document<ept id="p2">**</ept> field, choose <bpt id="p3">**</bpt>Through Document Exchange Service<ept id="p3">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Format<ept id="p1">**</ept> field, choose <bpt id="p2">**</bpt>PEPPOL<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Post and Send Confirmation<ept id="p1">**</ept> dialog box appears.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Electronic Document (PEPPOL)<ept id="p1">**</ept> is added to the <bpt id="p2">**</bpt>Send Document to<ept id="p2">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The sales invoice is posted and sent to the customer as an electronic document in the PEPPOL format.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>You can also send a posted sales invoice as an electronic document.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The procedure is the same as described in this topic for non-posted sales documents.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Posted Sales Invoice<ept id="p1">**</ept> page, on the <bpt id="p2">**</bpt>Actions<ept id="p2">**</ept> tab, in the <bpt id="p3">**</bpt>General<ept id="p3">**</ept> group, choose <bpt id="p4">**</bpt>Activity Log<ept id="p4">**</ept> to view the status of the electronic document.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">**</bpt>Activity Log<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Invoice Sales<ept id="p1">](sales-how-invoice-sales.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Set Up Document Sending Profiles<ept id="p1">](sales-how-setup-document-send-profiles.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Set Up Electronic Document Sending and Receiving<ept id="p1">](across-how-to-set-up-electronic-document-sending-and-receiving.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Set Up a Document Exchange Service<ept id="p1">](across-how-to-set-up-a-document-exchange-service.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Set Up Data Exchange Definitions<ept id="p1">](across-how-to-set-up-data-exchange-definitions.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Exchanging Data Electronically<ept id="p1">](across-data-exchange.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>General Business Functionality<ept id="p1">](ui-across-business-areas.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

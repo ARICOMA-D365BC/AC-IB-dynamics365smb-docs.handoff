@@ -1,0 +1,357 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-5ae97a8" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2be387c75fc2718efa287c341b2fd6d4425cd531</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">caf27fba4bf524d1abb407e491fc0d49349e6aea</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">129639289614daafbd0b4c546cc39825f111987e</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Make Payments with Bank Data Conversion Service or SEPA Credit Transfer | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Process payments to your vendors by exporting a file together with the payment information from the journal lines.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Making Payments with Bank Data Conversion Service or SEPA Credit Transfer</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Payment Journal<ept id="p1">**</ept> page, you can process payments to your vendors by exporting a file together with the payment information from the journal lines.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>You can then upload the file to your electronic bank where the related money transfers are processed.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> supports the SEPA Credit Transfer format, but in your country/region, other formats for electronic payments may be available.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>To enable SEPA credit transfers, you must first set up a bank account, a vendor, and the general journal batch that the payment journal is based on.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>You then prepare payments to vendors by automatically filling the <bpt id="p1">**</bpt>Payment Journal<ept id="p1">**</ept> page with due payments with specified posting dates.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>When you have verified that the payments are successfully processed by the bank, you can proceed to post the payment journal lines.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Setting Up the Bank Data Conversion Service.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Activate the Bank Data Conversion Service feature to have any bank statement file converted to a format that you can import or to have your exported payment files converted to the format that your bank requires.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Set Up the Bank Data Conversion Service<ept id="p1">](bank-how-setup-bank-statement-service.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Setting Up SEPA Credit Transfer</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>From the <bpt id="p1">**</bpt>Payment Journal<ept id="p1">**</ept> page, you can export payments to a file for upload to your electronic bank for processing of the related money transfers.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> supports the SEPA Credit Transfer format, but in your country/region, other formats for electronic payments may be available.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>To enable export of a bank file formats that are not supported out of the box in <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>, you can set up a data exchange definition by using the data exchange framework.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Set Up Data Exchange Definitions<ept id="p1">](across-how-to-set-up-data-exchange-definitions.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Before you can process payment electronically by exporting payment files in the SEPA Credit Transfer format, you must perform the following setup steps:</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Set up the bank account in question to handle the SEPA Credit Transfer format</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Set up vendor cards to process payments by exporting files in the SEPA Credit Transfer format</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Set up the related general journal batch to enable payment export from the <bpt id="p1">**</bpt>Payment Journal<ept id="p1">**</ept> page</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Connect the data exchange definition for one or more payment types with the relevant payment method or methods</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>To set up a bank account for SEPA Credit Transfer</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Search<ept id="p1">**</ept> box, enter <bpt id="p2">**</bpt>Bank Accounts<ept id="p2">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Open the card of the bank account from which you will export payment files in the SEPA Credit Transfer format.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Transfer<ept id="p1">**</ept> FastTab, in the <bpt id="p2">**</bpt>Payment Export Format<ept id="p2">**</ept> field, choose <bpt id="p3">**</bpt>SEPADD<ept id="p3">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>SEPA CT Msg. ID No. Series<ept id="p1">**</ept> field, choose a number series from which numbers are assigned to SEPA credit transfer entries.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Make sure the <bpt id="p1">**</bpt>IBAN<ept id="p1">**</ept> field is filled.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Currency Code<ept id="p1">**</ept> field must be set to <bpt id="p2">**</bpt>EUR<ept id="p2">**</ept>, because SEPA credit transfers can only be made in the EURO currency.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>To set up a vendor card for SEPA Credit Transfer</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Search<ept id="p1">**</ept> box, enter <bpt id="p2">**</bpt>Vendors<ept id="p2">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Open the card of the vendor whom you will pay electronically by export payment files in the SEPA Credit Transfer format.</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Payment<ept id="p1">**</ept> FastTab, in the <bpt id="p2">**</bpt>Payment Method Code<ept id="p2">**</ept> field, choose <bpt id="p3">**</bpt>BANK<ept id="p3">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Preferred Bank Account<ept id="p1">**</ept> field, choose the bank to which the money will be transferred when it is processed by your electronic bank.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The value in the <bpt id="p1">**</bpt>Preferred Bank Account<ept id="p1">**</ept> field is copied to the <bpt id="p2">**</bpt>Recipient Bank Account<ept id="p2">**</ept> field on the <bpt id="p3">**</bpt>Payment Journal<ept id="p3">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>To set the payment journal up to export payment files</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Search<ept id="p1">**</ept> box, enter <bpt id="p2">**</bpt>Payment Journals<ept id="p2">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Open the payment journal that you use to process payments by exporting files in the SEPA Credit Transfer format.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Batch Name<ept id="p1">**</ept> field, choose the drop<ph id="ph1">\-</ph>down button.</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>General Journal Batches<ept id="p1">**</ept> page, on the <bpt id="p2">**</bpt>Home<ept id="p2">**</ept> tab, in the <bpt id="p3">**</bpt>Manage<ept id="p3">**</ept> group, choose <bpt id="p4">**</bpt>Edit List<ept id="p4">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>On the line for the payment journal that you will use to export payments, select the <bpt id="p1">**</bpt>Allow Payment Export<ept id="p1">**</ept> check box.</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>To connect the data exchange definition for one or more payment types with the relevant payment method or methods</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Search<ept id="p1">**</ept> box, enter <bpt id="p2">**</bpt>Payment Methods<ept id="p2">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Payment Methods<ept id="p1">**</ept> page, select the payment method that is used to export payments from, and then choose the <bpt id="p2">**</bpt>Pmt. Export Line Definition<ept id="p2">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Pmt. Export Line Definitions<ept id="p1">**</ept> page, select the code that you specified in the <bpt id="p2">**</bpt>Code<ept id="p2">**</ept> field on the <bpt id="p3">**</bpt>Line Definitions<ept id="p3">**</ept> FastTab in step 4 in the “To describe the formatting of lines and columns in the file” section in the <bpt id="p4">[</bpt>Set Up Data Exchange Definitions<ept id="p4">](across-how-to-set-up-data-exchange-definitions.md)</ept> procedure.</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The direct-debit mandate is automatically inserted in the <bpt id="p1">**</bpt>Direct Debit Mandate ID<ept id="p1">**</ept> field when you create a sales invoice for the customer that you selected in step 2.</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Create Recurring Sales and Purchase Lines<ept id="p1">](sales-how-work-standard-lines.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Preparing the Payment Journal</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Fill the payment journal with lines for due payments to vendors, with the option to insert posting dates based on the due date of the related purchase documents.</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Managing Payables<ept id="p1">](payables-manage-payables.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Exporting Payments to a Bank File</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>When you are ready to make payments to your vendors, or reimbursements to your employees, you can export a file with the payment information on the lines on the <bpt id="p1">**</bpt>Payment Journal<ept id="p1">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>You can then upload the file to your bank to process the related money transfers.</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>In the generic version of <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>, a global provider of services to convert bank data to any file format that your bank requires is set up and connected.</source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>In North American versions, the same service can be used to send payment files as electronic funds transfer (EFT), however with a slightly different process.</source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>See step 6 in <bpt id="p1">[</bpt>To export payments to a bank file<ept id="p1">](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#to-export-payments-to-a-bank-file)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Before you can export payment files from the payment journal, you must specify the electronic format for the involved bank account, and you must enable the bank data conversion service.</source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Set Up Bank Accounts<ept id="p1">](bank-how-setup-bank-accounts.md)</ept> and <bpt id="p2">[</bpt>Set Up the Bank Data Conversion Service<ept id="p2">](bank-how-setup-bank-data-conversion-service.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>In addition, you must select the <bpt id="p1">**</bpt>Allow Payment Export<ept id="p1">**</ept> check box on the <bpt id="p2">**</bpt>General Journal Batches<ept id="p2">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Working with General Journals<ept id="p1">](ui-work-general-journals.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>You use the <bpt id="p1">**</bpt>Credit Transfer Registers<ept id="p1">**</ept> page to view the payment files that have been exported from the payment journal.</source>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>From this page, you can also re-export payment files in case of technical errors or file changes.</source>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Note, however, that exported EFT files are not shown in this page and cannot be re-exported.</source>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>To export payments to a bank file</source>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The following describes how to pay a vendor by check.</source>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The steps are similar to refund a customer by check.</source>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Payment Journals<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Fill in the payment journal lines.</source>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Record Payments and Refunds<ept id="p1">](payables-how-post-payments-refunds.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>If you are using EFT, you must select either <bpt id="p1">**</bpt>Electronic Payment<ept id="p1">**</ept> or <bpt id="p2">**</bpt>Electronic Payment–IAT<ept id="p2">**</ept> in the <bpt id="p3">**</bpt>Bank Payment Type<ept id="p3">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Different file export services and their formats require different setup values in the <bpt id="p1">**</bpt>Bank Account Card<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Vendor Bank Account Card<ept id="p2">**</ept> pages.</source>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>You will be informed about wrong or missing setup values as you try to export the file.</source>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>When you have completed all payment journal lines, choose the <bpt id="p1">**</bpt>Export<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Export Electronic Payments<ept id="p1">**</ept> page, fill in the fields as necessary.</source>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Any error messages will be shown in the <bpt id="p1">**</bpt>Payment File Errors<ept id="p1">**</ept> FactBox where you can also choose an error message to see detailed information.</source>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>You must resolve all errors before the payment file can be exported.</source>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>When you use the bank data conversion service, a common error message states that the bank account number does not have the length that your bank requires.</source>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>To avoid or resolve the error, you must remove the value in the <bpt id="p1">**</bpt>IBAN<ept id="p1">**</ept> field on the <bpt id="p2">**</bpt>Bank Account Card<ept id="p2">**</ept> page and then, in the <bpt id="p3">**</bpt>Bank Account No.<ept id="p3">**</ept> field, enter a bank account number in the format that your bank requires.</source>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Save As<ept id="p1">**</ept> page, specify the location that the file is exported to, and then choose <bpt id="p2">**</bpt>Save<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>If you are using EFT, save the resulting vendor remittance form as a Word document or select to have it emailed directly to the vendor.</source>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The payments are now added to the <bpt id="p1">**</bpt>Generate EFT File<ept id="p1">**</ept> page from where you can generate multiple payment orders together to save transmission cost.</source>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>For more information, see the following steps.</source>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Payment Journal<ept id="p1">**</ept> page, choose the <bpt id="p2">**</bpt>Generate EFT File<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Generate EFT File<ept id="p1">**</ept> page, all payments set up for EFT that you have exported from the payment journal for a specified bank account but not yet generated are listed on the <bpt id="p2">**</bpt>Lines<ept id="p2">**</ept> FastTab.</source>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Generate EFT File<ept id="p1">**</ept> action to export one file for all the EFT payments.</source>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Save As<ept id="p1">**</ept> page, specify the location that the file is exported to, and then choose <bpt id="p2">**</bpt>Save<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The bank payment file is exported to the location that you specify, and you can proceed to upload it to your electronic bank account and make the actual payments.</source>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Then you can post the exported payment journal lines.</source>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>To plan when to post exported payments</source>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>If you do not want to post a payment journal line for an exported payment, for example because you are waiting for confirmation that the transaction has been processed by the bank, you can just delete the journal line.</source>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>When you later create a payment journal line to pay the remaining amount on the invoice, the <bpt id="p1">**</bpt>Total Exported Amount<ept id="p1">**</ept> field shows how much of the payment amount has already been exported.</source>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Also, you can find detailed information about the exported total by choosing the <bpt id="p1">**</bpt>Credit Transfer Reg. Entries<ept id="p1">**</ept> button to see details about exported payment files.</source>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>If you follow a process where you do not post payments until you have confirmation that they have been processed in the bank, you can control this in two ways.</source>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>In a payment journal with suggested payment lines, you can sort on either the <bpt id="p1">**</bpt>Exported to Payment File<ept id="p1">**</ept> column or the <bpt id="p2">**</bpt>Total Exported Amount<ept id="p2">**</ept> and then delete payment suggestions for open invoices for which payments have already been made and you do not want to make payments for.</source>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Suggest Vendor Payments<ept id="p1">**</ept> page, where you specify which payments to insert in the payment journal, you can select the <bpt id="p2">**</bpt>Skip Exported Payments<ept id="p2">**</ept> check box if you do not want to insert journal lines for payments that have already been exported.</source>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>To see information about exported payments, choose the <bpt id="p1">**</bpt>Payment Export History<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>To re-export payments to a bank file</source>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>You can re-export payment files from the <bpt id="p1">**</bpt>Credit Transfer Registers<ept id="p1">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Before you delete or post payment journal lines, you can also re-export the payment file from the <bpt id="p1">**</bpt>Payment Journal<ept id="p1">**</ept> page by simply exporting it again.</source>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>If you have deleted or posted the payment journal lines after exporting them, you can re-export the same payment file from the <bpt id="p1">**</bpt>Credit Transfer Registers<ept id="p1">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Select the line for the batch of credit transfers that you want to re-export, and then use the <bpt id="p1">**</bpt>Reexport Payments to File<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Exported EFT files are not shown on the <bpt id="p1">**</bpt>Credit Transfer Registers<ept id="p1">**</ept> page and cannot be re-exported.</source>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Credit Transfer Registers<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Select a payment export that you want to re-export, and then choose the <bpt id="p1">**</bpt>Reexport Payment to File<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Posting the Payments</source>
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>When the electronic payment is successfully processed by the bank, post the payments.</source>
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Making Payments<ept id="p1">](payables-make-payments.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Set Up the Bank Data Conversion Service<ept id="p1">](bank-how-setup-bank-statement-service.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Set Up SEPA Credit Transfer<ept id="p1">](finance-how-to-set-up-sepa-credit-transfer.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Managing Payables<ept id="p1">](payables-manage-payables.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Working with General Journals<ept id="p1">](ui-work-general-journals.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Collect Payments with SEPA Direct Debit<ept id="p1">](finance-collect-payments-with-sepa-direct-debit.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

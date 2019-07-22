@@ -1,0 +1,198 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="finance-how-to-post-inventory-costs-to-the-general-ledger.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-435fba6" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0e9b610d54f955c3dec9cba6b2327a74663288a2</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\finance-how-to-post-inventory-costs-to-the-general-ledger.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5508eaffc3987ec2c24e370b57e112f565986bb7</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f9d2619e406619f4d562e94432f0e526c41a63d6</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>How to Post Inventory Costs to the General Ledger| Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Describes how to manage the physical products that you trade in, for example, handling the stock in your warehouse.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Reconcile Inventory Costs with the General Ledger</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>When you post inventory transactions, such as sales shipments, purchase invoices, or inventory adjustments, the changed item costs are recorded in item value entries.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>To reflect this change of inventory value in your financial books, the inventory costs are automatically posted to the related inventory accounts in the general ledger.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>For each inventory transaction that you post, the appropriate values are posted to the inventory account, adjustment account, and COGS account in the general ledger.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Automatic cost posting is defined by the <bpt id="p1">**</bpt>Automatic Cost Posting<ept id="p1">**</ept> field on the <bpt id="p2">**</bpt>Inventory Setup<ept id="p2">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Even though inventory costs are automatically posted to the general ledger, it is still necessary to ensure that the costs of goods are forwarded to the related outbound sales transaction, especially in situations where you sell goods before you invoice the purchase of those goods.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>This is referred to as cost adjustment.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Item costs are automatically adjusted when you post item transactions, but you can also adjust item costs manually.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Adjust Item Costs<ept id="p1">](inventory-how-adjust-item-costs.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>To post inventory costs manually</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> ico, enter <bpt id="p3">**</bpt>Post Inventory Cost to G/L<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Post inventory costs to the general ledger manually by running the batch job.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>When you run this batch job, general ledger entries are created on the basis of value entries.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>You can post the entries so that they are summarized per posting group.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>When you run this batch job, you might encounter errors having to do with missing setup or incompatible dimension setup.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>If the batch job encounters errors in the dimension setup, it overrides these errors and uses the dimensions of the value entry.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>For any other errors, the batch job skips posting the value entries and lists them at the end of the report in a section titled “Skipped Entries.”</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>To post these entries, you must fix the errors.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>To see a list of errors before running the posting batch job, you can run the <bpt id="p1">**</bpt>Post Invt. Cost to G/L - Test<ept id="p1">**</ept> report.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The test report lists all the errors encountered during a test posting.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>You can then fix the errors, and run the inventory cost posting batch job without skipping any entries.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>If you would like to simply get an overview of what values could be posted to the general ledger without actually performing the posting, you can run the <bpt id="p1">**</bpt>Post Inventory Cost to G/L<ept id="p1">**</ept> batch job without actually posting the values to the general ledger.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>You do this by clearing the check mark from the <bpt id="p1">**</bpt>Post<ept id="p1">**</ept> field on the request page.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>This way, when you run the batch job, the report is produced showing the values that are ready to be posted to the general ledger, but they are not posted.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>To audit the reconciliation between the inventory ledger and the general ledger</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Inventory - G/L Reconciliation<ept id="p1">**</ept> page provides the following:</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Exposes reconciliation differences by comparing what is recorded in G/L and what is recorded in the inventory ledger (value entries).</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Displays unreconciled cost amounts in the value entries in the inventory ledger as if they were mapped to corresponding inventory-related accounts in G/L and compares those to the totals actually recorded in the same accounts in G/L.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Reflects the double entry structure of G/L by visually presenting data as such.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>For example, a COGS entry has a corresponding inventory entry.</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Lets users drill down and see the entries that make up the cost amounts.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Includes filters to narrow the analysis by date, item, and location.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Explains reasons for reconciliation differences in informative messages.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Name<ept id="p1">**</ept> column on the far left in the grid lists the various G/L account types that are associated with inventory.</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Inventory<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Inventory (Interim)<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>WIP Inventory<ept id="p3">**</ept> columns show the invoiced, non-invoiced, and WIP totals of each G/L account type.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>These are calculated from value entries, that is, they are projected onto the G/L account types where they will end when they are eventually posted to G/L.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Total<ept id="p1">**</ept> column shows the sum (in bold font) of the value entry amounts in the three inventory columns.</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>G/L Total<ept id="p1">**</ept> column shows the amounts (in bold font) for each G/L account type that exists in G/L.</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>These are calculated from G/L entries, that is, they represent inventory costs already posted to G/L.</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Difference<ept id="p1">**</ept> column represents the difference between the value in the <bpt id="p2">**</bpt>G/L Total<ept id="p2">**</ept> and <bpt id="p3">**</bpt>Total<ept id="p3">**</ept> fields.</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>In the top of the <bpt id="p1">**</bpt>Inventory - G/L Reconciliation<ept id="p1">**</ept> page, you can enter filters to limit, for example, the period of time for which you want information.</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>If you select the <bpt id="p1">**</bpt>Show Warning<ept id="p1">**</ept> check box and if there are any discrepancies between the inventory totals and G/L totals, the program shows messages in the <bpt id="p2">**</bpt>Warning<ept id="p2">**</ept> field of the grid that explain the discrepancy.</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>If you choose the Warning field, the program gives you more information on what the warning means.</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>When you have entered all relevant filters, choose the <bpt id="p1">**</bpt>Show Matrix<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The data is calculated and the matrix page appears.</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>On the far left column in the grid, you see the various general ledger account types that are associated with inventory.</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The grid then shows the invoiced, non-invoiced (interim), and WIP inventory totals for each of these account types.</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>These totals are calculated from the value entries.</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The next columns show the totals for the same account types calculated from the general ledger entries.</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Choose the  amount in any of the total fields to see the inventory report entries that were used to calculate the totals.</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>For inventory totals, the inventory report entries are the sums of the value entries for the items.</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>For the G/L totals, the inventory report entries are the sums from the general ledger entries.</source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Managing Inventory Costs<ept id="p1">](finance-manage-inventory-costs.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Purchasing<ept id="p1">](purchasing-manage-purchasing.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Sales<ept id="p1">](sales-manage-sales.md)</ept><ph id="ph1">  </ph></source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Working with <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph><ept id="p1">](ui-work-product.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>General Business Functionality<ept id="p1">](ui-across-business-areas.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

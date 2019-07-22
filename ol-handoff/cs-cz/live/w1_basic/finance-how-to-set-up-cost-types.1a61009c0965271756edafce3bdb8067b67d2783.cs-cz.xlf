@@ -1,0 +1,153 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="finance-how-to-set-up-cost-types.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-435fba6" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2846967648f5c0e0b6015c7990a941642fc27323</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\finance-how-to-set-up-cost-types.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">22550b997ac99c36522296f41f363ca161257182</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3a768b6e292f50059f5b2e6f06a9dfd15f100481</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>How to Set Up a Chart of Cost Types | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Chart of cost types are similar to the chart of accounts in the general ledger.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Set Up Cost Types</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The chart of cost types is similar to the chart of accounts in the general ledger.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>You can set up the chart of cost types in the following ways:</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Structure the chart of cost types similar to the income statement accounts in the general ledger chart of accounts.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Then, you can transfer the general ledger chart of accounts to the chart of cost types.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>You can make any necessary adjustments after the transfer.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Create new chart of cost types or add new cost types to existing chart of cost types.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>You must create each new cost type individually.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>To transfer the general ledger chart of accounts to the chart of cost types</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Chart of Cost Types<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Get Cost Types from Chart of Accounts<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>In the dialog box, choose the <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept> button to confirm the transfer.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The function uses the chart of accounts to create a chart of cost types.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The chart of cost types now contain all income statement accounts in the general ledger and include headings and subtotals.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>You can change the chart of cost types, as necessary.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>For example, you can delete duplicate existing cost types.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Register Cost Types in Chart of Accounts<ept id="p1">**</ept> function updates the relationship between the chart of accounts and the chart of cost types.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>No.<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>field is filled and verified to make sure that each general ledger account is related to only one cost type.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The function runs automatically before transferring general ledger entries to cost accounting.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>To set up new cost types in the Chart of Cost Types page</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Open the <bpt id="p1">**</bpt>Chart of Cost Types<ept id="p1">**</ept> page in edit mode.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Fill in the fields as described as necessary.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>You can set up and maintain cost types in either the <bpt id="p1">**</bpt>Cost Type Card<ept id="p1">**</ept> page or on the <bpt id="p2">**</bpt>Chart of Cost Types<ept id="p2">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>In this procedure, you set up cost types on the <bpt id="p1">**</bpt>Chart of Cost Types<ept id="p1">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>After you have created all cost types, choose the <bpt id="p1">**</bpt>Indent Cost Types<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>In the dialog box, choose the <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Link the new cost type to the corresponding general ledger account.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>If you have entered definitions in the <bpt id="p1">**</bpt>Totaling<ept id="p1">**</ept> fields for the line type of <bpt id="p2">**</bpt>End-Total<ept id="p2">**</ept> before you run the <bpt id="p3">**</bpt>Indent Cost Types<ept id="p3">**</ept> function, then you must enter the definitions again because the function overwrites the values in all <bpt id="p4">**</bpt>End-Total<ept id="p4">**</ept> fields.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>To update cost types</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Cost Accounting Setup<ept id="p1">**</ept> page, select if you want the chart of cost types to be automatically updated when the chart of accounts is changed.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Align G/L Account<ept id="p1">**</ept> field, you can choose from the following options.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>No Alignment<ept id="p1">**</ept> - There is no corresponding change in the chart of cost types when you change the chart of accounts.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Automatic<ept id="p1">**</ept> - A corresponding change is made in the chart of cost types when you change the chart of accounts.</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Prompt<ept id="p1">**</ept> - A message is displayed asking if you want to make a corresponding change in the chart of cost types when you change the chart of accounts.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Accounting for Costs<ept id="p1">](finance-manage-cost-accounting.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Defining Cost Centers and Cost Objects for Chart of Accounts<ept id="p1">](finance-defining-cost-centers-and-cost-objects-for-chart-of-accounts.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Balances Between Cost Type, Cost Center, and Cost Object<ept id="p1">](finance-balances-between-cost-type-cost-center-and-cost-object.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Setting Up Cost Accounting<ept id="p1">](finance-set-up-cost-accounting.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Terminology in Cost Accounting<ept id="p1">](finance-terminology-in-cost-accounting.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>About Cost Accounting<ept id="p1">](finance-about-cost-accounting.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Working with <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph><ept id="p1">](ui-work-product.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

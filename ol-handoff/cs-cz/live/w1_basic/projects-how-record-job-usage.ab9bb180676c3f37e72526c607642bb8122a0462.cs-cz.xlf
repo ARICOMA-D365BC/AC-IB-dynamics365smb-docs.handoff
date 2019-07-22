@@ -1,0 +1,231 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="projects-how-record-job-usage.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-435fba6" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f1b3864eadd616273c3a4a7d061623dab701d01e</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\projects-how-record-job-usage.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">147aeea6bbc8500eca162c3a277f4394e1fb9e92</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7976a762d8261b4b9eb16e5c45628da3e783036b</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Record Billable and Budgeted Usage of Job Resources| Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Describes how to record the consumption or usage of items or resources on jobs to facilitate project management.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Record Usage for Jobs</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Job Planning Lines<ept id="p1">**</ept> page, you can review and record usage on various parts of your job, which is automatically updated as you modify and transfer information between jobs and job journals or job invoices.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>This requires that you have set up a job so that the <bpt id="p1">**</bpt>Apply Usage Link by Default<ept id="p1">**</ept> is turned on.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Set Up Jobs<ept id="p1">](projects-how-setup-jobs.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>For example, for planning lines of type <bpt id="p1">**</bpt>Budget<ept id="p1">**</ept>, you can enter the quantity of a resource, and indicate what quantity to transfer to the job journal.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>If the type of the planning line is <bpt id="p1">**</bpt>Billable<ept id="p1">**</ept>, you can enter the quantity of the resource, and indicate what quantity to transfer to an invoice.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>By comparing the quantity that has been transferred to the journal or invoice with the remaining quantity, you can quickly review usage information.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The following procedures describe how to record actual (billable) or budgeted job prices and costs.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>For information about estimating budgeted values during planning, see <bpt id="p1">[</bpt>Manage Job Budgets<ept id="p1">](projects-how-manage-budgets.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>To record usage for a job planning line of type Budget</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Jobs<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Select the relevant job, and then choose the <bpt id="p1">**</bpt>Job Planning Lines<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Select a job planning line of type <bpt id="p1">**</bpt>Budget<ept id="p1">**</ept> or <bpt id="p2">**</bpt>Both Budget and Billable<ept id="p2">**</ept> for which you want to record usage.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Qty. To Transfer to Journal<ept id="p1">**</ept> field, enter the number that you want to transfer.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The default quantity is the value that you enter in the <bpt id="p1">**</bpt>Quantity<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Remaining Quantity<ept id="p1">**</ept> field shows the quantity that remains to complete the job and be transferred to the journal.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Create Job Journal Lines<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Job Transfer Job Planning Line<ept id="p1">**</ept> page, fill in the fields as necessary, and then choose the <bpt id="p2">**</bpt>OK<ept id="p2">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Open Job Journal<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Job Journal<ept id="p1">**</ept> page, select the relevant line and then choose the <bpt id="p2">**</bpt>Post<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Job Planning Lines<ept id="p1">**</ept> page, review the recorded usage by observing the <bpt id="p2">**</bpt>Quantity<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Remaining Quantity<ept id="p3">**</ept>, and <bpt id="p4">**</bpt>Qty. To Transfer to Journal<ept id="p4">**</ept> fields.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Repeat steps 3 through 8 to record additional usage.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>To record usage for a job planning line of type Billable</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>In the next task, you also record usage, but for a job planning line of type <bpt id="p1">**</bpt>Billable<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Typically, in this case, you invoice your usage, but you can also transfer it to a journal.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>However, when you do that, a job planning line of type <bpt id="p1">**</bpt>Budget<ept id="p1">**</ept> is created to match the billable line.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Manage Job Budgets<ept id="p1">](projects-how-manage-budgets.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Jobs<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Select the relevant job, and then choose the <bpt id="p1">**</bpt>Job Planning Lines<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Select a job planning line of type <bpt id="p1">**</bpt>Billable<ept id="p1">**</ept> for which you want to record usage.</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Qty. To Transfer to Invoice<ept id="p1">**</ept> field, enter the number that you want to transfer.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The default quantity is the value that you enter in the <bpt id="p1">**</bpt>Quantity<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Quantity to Invoice<ept id="p1">**</ept> field shows the quantity that remains to complete the job and be invoiced.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Create Sales Invoice<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Job Transfer to Sales Invoice<ept id="p1">**</ept> page, fill in the fields as necessary, and then choose the <bpt id="p2">**</bpt>OK<ept id="p2">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Job Planning Lines<ept id="p1">**</ept> page, select the relevant line, and then choose the <bpt id="p2">**</bpt>Post<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Review the recorded usage by observing the <bpt id="p1">**</bpt>Quantity<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Quantity to Invoice<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Qty. To Transfer to Invoice<ept id="p3">**</ept> fields, and, if the sales invoice is posted, the <bpt id="p4">**</bpt>Qty. Invoiced<ept id="p4">**</ept> fields.</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Repeat steps 3 through 8 to record additional usage.</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>To review a related posted sales invoice, choose the <bpt id="p1">**</bpt>Sales Invoices/Credit Memos<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Job Invoices<ept id="p1">**</ept> page, select the relevant invoice, and then choose the <bpt id="p2">**</bpt>Open Sales Invoice/Credit Memo<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>To create job journal lines from job planning lines</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>When you are ready to post financial information for jobs, you must create job journal lines that you can post.</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Jobs<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Select a relevant open job, and then choose the <bpt id="p1">**</bpt>Job Planning Lines<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Job Planning Lines<ept id="p1">**</ept> page, on a relevant job planning line, in the <bpt id="p2">**</bpt>Qty. to Transfer to Journal<ept id="p2">**</ept> field, enter the quantity that you want to transfer to a job journal.</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Create Job Journal Lines<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Job Transfer Job Planning Line<ept id="p1">**</ept> page, fill in the fields as necessary.</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Job journal lines are created.</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>To verify the transfer, open the relevant job journal batch and check the entries.</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>When the job journal lines are complete, choose the <bpt id="p1">**</bpt>Post<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>To create job journal lines manually</source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Job Journals<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Batch Name<ept id="p1">**</ept> field, choose a relevant job journal batch.</source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>On a new line, enter document number, job number, job task number, type, and the quantity of the type being consumed.</source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>When the job journal lines are complete, choose the <bpt id="p1">**</bpt>Post<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>To review planning lines for a job ledger entry</source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>After you have posted job journal lines, you can see the planning lines that are associated with the job journal entries that have been posted.</source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>This requires that the <bpt id="p1">**</bpt>Apply Usage Link by Default<ept id="p1">**</ept> check box has been selected for the job, or is the default setting for all jobs in your organization.</source>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Set Up Jobs<ept id="p1">](projects-how-setup-jobs.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Job Journals<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Select a relevant job journal, and then choose the <bpt id="p1">**</bpt>Ledger Entries<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Job Ledger Entries<ept id="p1">**</ept> page, choose <bpt id="p2">**</bpt>Show Linked Job Planning Lines<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Project Management<ept id="p1">](projects-manage-projects.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Finance<ept id="p1">](finance.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Purchasing<ept id="p1">](purchasing-manage-purchasing.md)</ept><ph id="ph1">       </ph></source>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Sales<ept id="p1">](sales-manage-sales.md)</ept><ph id="ph1">    </ph></source>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Working with <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph><ept id="p1">](ui-work-product.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

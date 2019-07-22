@@ -1,0 +1,261 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="production-planning-with-without-locations.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-2e292eb" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">964bcd38897e676baa993399fe772b8ccfdc9ea0</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">financials\production-planning-with-without-locations.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">662c73595b149afe29ae79665b4a5ecf902b9045</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">30fb33b0c1ff2e034a02e30a9e8a9b09ea6fd9cb</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Planning With or Without Locations | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Planning with or without location codes on demand lines is important to understand.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Planning With or Without Locations</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Concerning planning with or without location codes on demand lines, the planning system operates in a straight forward way when:</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>demand lines always carry location codes and the system fully uses stockkeeping units, including the relevant location setup.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>demand lines never carry location codes and the system does not use SKUs or any location setup (see last scenario below).</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>However, if demand lines sometimes have location codes and other times do not, the planning system will follow certain rules depending on setup.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Demand at Location</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>When the planning system detects demand at a location (a line with a location code), it will behave in different ways depending on 3 critical setup values.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>During a planning run, the system checks for the 3 setup values in sequence and plans accordingly:</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Is there a check mark in the <bpt id="p1">**</bpt>Location Mandatory<ept id="p1">**</ept> field?</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>If yes, then:</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Does SKU exist for the item?</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>If yes, then:</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The item is planned according to planning parameters on the SKU card.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>If no, then:</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Does the <bpt id="p1">**</bpt>Components at Location<ept id="p1">**</ept> field contain the demanded location code?</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>If yes, then:</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The item is planned according to planning parameters on the item card.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>If no, then:</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The item is planned according to: Reordering Policy =  <bpt id="p1">*</bpt>Lot-for-Lot<ept id="p1">*</ept>, Include Inventory =  <bpt id="p2">*</bpt>Yes<ept id="p2">*</ept>, all other planning parameters = Empty.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>(Items using reordering policy  <bpt id="p1">*</bpt>Order<ept id="p1">*</ept> remain using  <bpt id="p2">*</bpt>Order<ept id="p2">*</ept> as well as the other settings.)</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>This minimal alternative only covers the exact demand.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Any planning parameters defined are ignored.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>See variations in the scenarios below.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Demand at "Blank Location"</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Even if the <bpt id="p1">**</bpt>Location Mandatory<ept id="p1">**</ept> check box is selected, the system will allow demand lines to be created without a location code – also referred to as <bpt id="p2">*</bpt>BLANK<ept id="p2">*</ept> location.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This is a deviation for the system because it has various setup values tuned to dealing with locations (see above) and as a result, the planning engine will not create a planning line for such a demand line.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>If the <bpt id="p1">**</bpt>Location Mandatory<ept id="p1">**</ept> field is not selected but any of the location setup values exist, then that is also considered a deviation and the planning system will react by outputting the "minimal alternative":</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The item is planned according to: Reordering Policy =  <bpt id="p1">*</bpt>Lot-for-Lot<ept id="p1">*</ept> ( <bpt id="p2">*</bpt>Order<ept id="p2">*</ept> remains <bpt id="p3">*</bpt>Order)<ept id="p3">*</ept>, Include Inventory =  <bpt id="p4">*</bpt>Yes<ept id="p4">*</ept>, all other planning parameters = Empty.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>See variations in the setup scenarios below.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Setup 1:</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Location Mandatory = <bpt id="p1">*</bpt>Yes<ept id="p1">*</ept></source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>SKU is set up for  <bpt id="p1">*</bpt>RED<ept id="p1">*</ept></source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Component at Location =  <bpt id="p1">*</bpt>BLUE<ept id="p1">*</ept></source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Case 1.1: Demand is at  <bpt id="p1">*</bpt>RED<ept id="p1">*</ept> location</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The item is planned according to planning parameters on the SKU card (including possible transfer).</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Case 1.2: Demand is at  <bpt id="p1">*</bpt>BLUE<ept id="p1">*</ept> location</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The item is planned according to planning parameters on the item card.</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Case 1.3: Demand is at  <bpt id="p1">*</bpt>GREEN<ept id="p1">*</ept> location</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The item is planned according to: Reordering Policy =  <bpt id="p1">*</bpt>Lot-for-Lot<ept id="p1">*</ept> ( <bpt id="p2">*</bpt>Order<ept id="p2">*</ept> remains  <bpt id="p3">*</bpt>Order<ept id="p3">*</ept>), Include Inventory =  <bpt id="p4">*</bpt>Yes<ept id="p4">*</ept>, all other planning parameters = Empty.</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Case 1.4: Demand is at  <bpt id="p1">*</bpt>BLANK<ept id="p1">*</ept> location</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The item is not planned because no location is defined on the demand line.</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Setup 2:</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Location Mandatory = <bpt id="p1">*</bpt>Yes<ept id="p1">*</ept></source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>No SKU exists</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Component at Location =  <bpt id="p1">*</bpt>BLUE<ept id="p1">*</ept></source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Case 2.1: Demand is at  <bpt id="p1">*</bpt>RED<ept id="p1">*</ept> location</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The item is planned according to: Reordering Policy =  <bpt id="p1">*</bpt>Lot-for-Lot<ept id="p1">*</ept> ( <bpt id="p2">*</bpt>Order<ept id="p2">*</ept> remains  <bpt id="p3">*</bpt>Order<ept id="p3">*</ept>), Include Inventory =  <bpt id="p4">*</bpt>Yes<ept id="p4">*</ept>, all other planning parameters = Empty.</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Case 2.2: Demand is at  <bpt id="p1">*</bpt>BLUE<ept id="p1">*</ept> location</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The item is planned according to planning parameters on the item card.</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Setup 3:</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Location Mandatory = <bpt id="p1">*</bpt>No<ept id="p1">*</ept></source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>No SKU exists</source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Component at Location =  <bpt id="p1">*</bpt>BLUE<ept id="p1">*</ept></source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Case 3.1: Demand is at  <bpt id="p1">*</bpt>RED<ept id="p1">*</ept> location</source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The item is planned according to: Reordering Policy =  <bpt id="p1">*</bpt>Lot-for-Lot<ept id="p1">*</ept> ( <bpt id="p2">*</bpt>Order<ept id="p2">*</ept> remains  <bpt id="p3">*</bpt>Order<ept id="p3">*</ept>), Include Inventory =  <bpt id="p4">*</bpt>Yes<ept id="p4">*</ept>, all other planning parameters = Empty.</source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Case 3.2: Demand is at  <bpt id="p1">*</bpt>BLUE<ept id="p1">*</ept> location</source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The item is planned according to planning parameters on the item card.</source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Case 3.3: Demand is at  <bpt id="p1">*</bpt>BLANK<ept id="p1">*</ept> location</source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The item is planned according to: Reordering Policy =  <bpt id="p1">*</bpt>Lot-for-Lot<ept id="p1">*</ept> ( <bpt id="p2">*</bpt>Order<ept id="p2">*</ept> remains  <bpt id="p3">*</bpt>Order<ept id="p3">*</ept>), Include Inventory =  <bpt id="p4">*</bpt>Yes<ept id="p4">*</ept>, all other planning parameters = Empty.</source>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Setup 4:</source>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Location Mandatory = <bpt id="p1">*</bpt>No<ept id="p1">*</ept></source>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>No SKU exists</source>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Component at Location =  <bpt id="p1">*</bpt>BLANK<ept id="p1">*</ept></source>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Case 4.1: Demand is at  <bpt id="p1">*</bpt>BLUE<ept id="p1">*</ept> location</source>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The item is planned according to: Reordering Policy =  <bpt id="p1">*</bpt>Lot-for-Lot<ept id="p1">*</ept> ( <bpt id="p2">*</bpt>Order<ept id="p2">*</ept> remains  <bpt id="p3">*</bpt>Order<ept id="p3">*</ept>), Include Inventory =  <bpt id="p4">*</bpt>Yes<ept id="p4">*</ept>, all other planning parameters = Empty.</source>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Case 4.2: Demand is at  <bpt id="p1">*</bpt>BLANK<ept id="p1">*</ept> location</source>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The item is planned according to planning parameters on the item card.</source>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>As you can see from the last scenario, the only way to get a correct result for a demand line without a location code is to disable all setup values relating to locations.</source>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Similarly, the only way to get stable planning results for demand at locations is to use stockkeeping units.</source>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Therefore, if you often plan for demand at locations, it is strongly advised to use the Stockkeeping Units feature.</source>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Planning<ept id="p1">](production-planning.md)</ept><ph id="ph1">  </ph></source>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Setting Up Manufacturing<ept id="p1">](production-configure-production-processes.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Manufacturing<ept id="p1">](production-manage-manufacturing.md)</ept><ph id="ph1">  </ph></source>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Inventory<ept id="p1">](inventory-manage-inventory.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Purchasing<ept id="p1">](purchasing-manage-purchasing.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Design Details: Supply Planning<ept id="p1">](design-details-supply-planning.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Setup Best Practices: Supply Planning<ept id="p1">](setup-best-practices-supply-planning.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Working with <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph><ept id="p1">](ui-work-product.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

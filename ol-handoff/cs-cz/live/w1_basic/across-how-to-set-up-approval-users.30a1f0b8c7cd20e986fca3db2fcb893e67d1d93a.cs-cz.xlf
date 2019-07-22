@@ -1,0 +1,216 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="across-how-to-set-up-approval-users.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-435fba6" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">66d171a2f21759f52ab472189a6bbeebac4593b6</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\across-how-to-set-up-approval-users.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6bd4060e9ed3b6200887742095dba82b0131e1d4</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6bea9b028522f7eda8e4ef990dc10f5feb4b2cd2</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>How to Set Up Approval Users | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Before you can create workflows that involve approval steps, you must set up the workflow users who are involved in approval processes.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>In the Approval User Setup page, you also set amount limits for specific types of requests and define substitute approvers to whom approval requests are delegated when the original approver is absent.</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Set Up Approval Users</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Before you can create workflows that involve approval steps, you must set up the workflow users who are involved in approval processes.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Approval User Setup<ept id="p1">**</ept> page, you also set amount limits for specific types of requests and define substitute approvers to whom approval requests are delegated when the original approver is absent.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Approval users, both approval requesters and approvers, must first be set up as workflow users on the <bpt id="p1">**</bpt>Workflow User Group<ept id="p1">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Set Up Workflow Users<ept id="p1">](across-how-to-set-up-workflow-users.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>When you have set up approval users, you can use the setup to create workflow responses for approval workflows.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>For more information, see step 9 in <bpt id="p1">[</bpt>Create Workflows<ept id="p1">](across-how-to-create-workflows.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>To define that an approval request is not approved until multiple approvers in an approval chain have approved it, set up approvers in a hierarchy.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>For approver type <bpt id="p1">**</bpt>Approver<ept id="p1">**</ept>, set approvers up on the <bpt id="p2">**</bpt>Approval User Setup<ept id="p2">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>For approver type, <bpt id="p1">**</bpt>Workflow User Group<ept id="p1">**</ept>, set approvers up on the <bpt id="p2">**</bpt>Workflow User Groups<ept id="p2">**</ept> page and define the hierarchy by assigning incremental numbers to each approver in the <bpt id="p3">**</bpt>Sequence No.<ept id="p3">**</ept></source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>field.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>For more information, see this topic and <bpt id="p1">[</bpt>Set Up Workflow Users<ept id="p1">](across-how-to-set-up-workflow-users.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>To define that an approval request is not approved until multiple equal approvers have approved it, regardless of a hirarchy, set up a flat workflow user group.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>For approver type, <bpt id="p1">**</bpt>Workflow User Group<ept id="p1">**</ept>, set up approvers on the <bpt id="p2">**</bpt>Workflow User Groups<ept id="p2">**</ept> page and assign the same number to each approver in the <bpt id="p3">**</bpt>Sequence No.<ept id="p3">**</ept></source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>field.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Set Up Workflow Users<ept id="p1">](across-how-to-set-up-workflow-users.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>To set up an approval user</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Approval User Setup<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Create a new line on the <bpt id="p1">**</bpt>Approval User Setup<ept id="p1">**</ept> page, and then fill the fields as described in the following table.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Field</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>User ID<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Select the user ID of the user who is involved in the approval process.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Salespers./Purch. Code<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Specify the salesperson or purchaser code that applies to the user in the <bpt id="p1">**</bpt>Salespers./Purch. Code<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>You typically fill the <bpt id="p1">**</bpt>Salespers./Purch. Code<ept id="p1">**</ept> field if the salesperson or purchaser who is responsible for the customer or vendor is also the person who must approve the sales or purchase request in question.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Approver ID<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Select the user ID of the user who must approve requests made by the user in the <bpt id="p1">**</bpt>User ID<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Sales Amount Approval Limit<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Specify the maximum sales amount in LCY that the user in the <bpt id="p1">**</bpt>User ID<ept id="p1">**</ept> field can approve.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Unlimited Sales Approval<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Specify that the user in the <bpt id="p1">**</bpt>User ID<ept id="p1">**</ept> field can approve all sales requests regardless of their amount.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>If you select this check box, then you cannot fill the <bpt id="p1">**</bpt>Sales Amount Approval Limit<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Purchase Amount Approval Limit<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Specify the maximum purchase amount in LCY that the user in the <bpt id="p1">**</bpt>User ID<ept id="p1">**</ept> field can approve.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Unlimited Purchase Approval<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Specify that the user in the <bpt id="p1">**</bpt>User ID<ept id="p1">**</ept> field can approve all purchase requests regardless of their amount.</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>If you select this check box, then you cannot fill the <bpt id="p1">**</bpt>Sales Amount Approval Limit<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Request Amount Approval Limit<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Specify the maximum amount in LCY that the user in the <bpt id="p1">**</bpt>User ID<ept id="p1">**</ept> field can approve for purchase quotes.</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>To use this field, you must select the <bpt id="p1">**</bpt>Approver Chain<ept id="p1">**</ept> option in the <bpt id="p2">**</bpt>Approver Limit Type<ept id="p2">**</ept> field on the <bpt id="p3">**</bpt>Workflow Response<ept id="p3">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Unlimited Request Approval<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Specify that the user in the <bpt id="p1">**</bpt>User ID<ept id="p1">**</ept> field can approve all purchase quotes regardless of their amount.</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>If you select this check box, then you cannot fill the <bpt id="p1">**</bpt>Request Amount Approval Limit<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Substitute<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Select the user ID of the user who must approve requests made by the user in the <bpt id="p1">**</bpt>User ID<ept id="p1">**</ept> field if the user in the <bpt id="p2">**</bpt>Approver ID<ept id="p2">**</ept> is not available.</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept>  The substitute can either be the user in the <bpt id="p2">**</bpt>Substitute<ept id="p2">**</ept> field, the direct approver, or the approval administrator, in that order of priority.</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Use Approval Workflows<ept id="p1">](across-how-use-approval-workflows.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Email<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Specify the email address of the user in the <bpt id="p1">**</bpt>User ID<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Approval Administrator<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Specify the user who has rights to unblock approval workflows, for example, by delegating approval requests to new substitute approvers and deleting overdue approval requests.</source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The behavior of <bpt id="p1">**</bpt>Approver Limit Type<ept id="p1">**</ept> field only applies to application areas where limits can be defined, namely sales and purchase approvals.</source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Any other type of approval where limits do not apply will always behave as described for the <bpt id="p1">**</bpt>Direct Approver<ept id="p1">**</ept> option.</source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>To test the approval user setup, choose the <bpt id="p1">**</bpt>Approval User Setup Test<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Repeat steps 2 and 3 for every user who you want to set up as an approval user.</source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Set Up Workflow Users<ept id="p1">](across-how-to-set-up-workflow-users.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Setting Up Workflow Notifications<ept id="p1">](across-setting-up-workflow-notifications.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Create Workflows<ept id="p1">](across-how-to-create-workflows.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Setting Up Workflows<ept id="p1">](across-set-up-workflows.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Walkthrough: Setting Up and Using a Purchase Approval Workflow<ept id="p1">](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Workflow<ept id="p1">](across-workflow.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

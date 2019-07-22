@@ -1,0 +1,255 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="fa-how-acquire.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-5ae97a8" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">56062eb42db00408031cff5438cc2b9276011d27</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\fa-how-acquire.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">758f7ce7b75cda049fc07e095b3fbcd60e7b4b94</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6059229b06452c4d6bd1b1427f5f900ca8d0002e</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Acquire Fixed Assets| Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>You can set up a fixed asset, assign a depreciation book, and record the fixed asset’s acquisition cost.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Acquire Fixed Assets</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>For each fixed asset, you must set up a card containing information about the asset.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>You can set up buildings or production equipment as a main asset with a component list, and you can group them in various ways, such as by class, department, or location.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>A depreciation book must be set up and assigned to each fixed asset before you can acquire it.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>When a fixed asset is set up and a depreciation book assigned, you must acquire the fixed asset.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>To acquire a fixed asset, you record its acquisition cost in the relevant G/L account, bank account, or vendor by posting an acquisition transaction from the <bpt id="p1">**</bpt>Fixed Asset G/L Journal<ept id="p1">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You can use the <bpt id="p1">**</bpt>Assisted Fixed Asset Acquisition<ept id="p1">**</ept> page to create and post the required general journal lines automatically.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The salvage value is the residual value of a fixed asset when it can no longer be used.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>You can post the salvage value at the same time as you post the acquisition cost.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Depreciate or Amortize Fixed Assets<ept id="p1">](fa-how-depreciate-amortize.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Indexation is used to adjust values for general price-level changes.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Index Fixed Assets<ept id="p1">**</ept> batch job can be used to calculate the acquisition costs at replacement costs.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>To create a fixed asset and acquire it automatically</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The following procedure describes how to create a fixed asset and then acquire it by using the <bpt id="p1">**</bpt>Assisted Fixed Asset Acquisition<ept id="p1">**</ept> page to create and post the required fixed asset G/L journal lines.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>You can also create and post the journal lines manually.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>To post a fixed asset acquisition manually with the fixed asset G/L journal<ept id="p1">](fa-how-acquire.md#to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Fixed Assets<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>New<ept id="p1">**</ept> action, and then fill in the fields on the <bpt id="p2">**</bpt>General<ept id="p2">**</ept> FastTab as necessary.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Depreciation Book<ept id="p1">**</ept> FastTab, fill in the fields as necessary.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>This step assigns a depreciation book to the fixed asset.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>If you need to assign more than one depreciation book to the fixed asset, choose the <bpt id="p1">**</bpt>Add More Depreciation Books<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>To assign a depreciation book to a fixed asset<ept id="p1">](fa-how-setup-depreciation.md#to-assign-a-depreciation-book-to-a-fixed-asset)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>When all fields required to acquire a fixed asset are filled in, the <bpt id="p1">**</bpt>You are ready to acquire the fixed asset. Acquire<ept id="p1">**</ept> notification appears at the top of the page.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Acquire<ept id="p1">**</ept> action in the notification.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Follow the steps on the <bpt id="p1">**</bpt>Assisted Fixed Asset Acquisition<ept id="p1">**</ept> page to complete the automatic acquisition of the fixed asset.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>You can also post acquisition cost as credits.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>In that case, remember that the value in the <bpt id="p1">**</bpt>Acquisition Cost Incl. VAT<ept id="p1">**</ept> field must be with a minus sign to indicate a credit.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>When you choose <bpt id="p1">**</bpt>Finish<ept id="p1">**</ept>, the <bpt id="p2">**</bpt>Book Value<ept id="p2">**</ept> field on the <bpt id="p3">**</bpt>Fixed Asset Card<ept id="p3">**</ept> page is filled, indicating that the fixed asset has been acquired at the specified acquisition cost.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>To set up a component list for a main asset</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>You can group your fixed assets into main assets and their components.</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>For example, you may have a production machine that consists of many parts that you want to group in this manner.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Both the main asset and all its components must be set up as individual fixed asset cards.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>After you have set up a component list, <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> automatically fills in the <bpt id="p1">**</bpt>Main Assets/Component<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Components of Main Asset<ept id="p2">**</ept> fields on the fixed asset cards.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Fixed Assets<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Select the fixed asset that is the main asset, and then choose the <bpt id="p1">**</bpt>Main Asset Components<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Main Asset Components<ept id="p1">**</ept> page, choose the <bpt id="p2">**</bpt>FA No<ept id="p2">**</ept>. field, and then select the fixed asset that you want to add as a component of the main asset.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Close the page.</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Repeat steps 3 and 4 for each component asset that you want to add.</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Fixed Asset Setup<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>Allow Posting to Main Assets<ept id="p1">**</ept> check box.</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>To post a fixed asset acquisition manually with the fixed asset G/L journal</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The following procedure describes how to acquire a fixed asset manually by creating and posting lines on the <bpt id="p1">**</bpt>Fixed Asset G/L Journal<ept id="p1">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>You can also acquire a fixed asset automatically by using the <bpt id="p1">**</bpt>Assisted Fixed Asset Acquisition<ept id="p1">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>For more information, see step 5 in <bpt id="p1">[</bpt>To create a fixed asset and acquire it automatically<ept id="p1">](fa-how-acquire.md#to-create-a-fixed-asset-and-acquire-it-automatically)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>You can also post acquisition cost as credits.</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>In that case, remember that the value in the <bpt id="p1">**</bpt>Amount<ept id="p1">**</ept> field must be with a minus sign to indicate a credit.</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>FA G/L Journals<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Fixed Asset G/L Journal<ept id="p1">**</ept> page, in the <bpt id="p2">**</bpt>FA Posting Type<ept id="p2">**</ept> field, select <bpt id="p3">**</bpt>Acquisition Cost<ept id="p3">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Fill in the remaining fields as necessary.</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Post<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>If you fill in the <bpt id="p1">**</bpt>Insurance No.<ept id="p1">**</ept> field in the fixed asset G/L journal when you post an acquisition cost, then <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> will also post the acquisition cost of the fixed asset to the insurance coverage ledger.</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Insure Fixed Assets<ept id="p1">](fa-how-insure.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>To cancel an acquisition cost posting for one fixed asset</source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>If you make an error when posting an acquisition cost, you can remove the entry with the <bpt id="p1">**</bpt>Cancel FA Entries<ept id="p1">**</ept> batch job and then post the correct acquisition entry.</source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The erroneous entries are transferred to the <bpt id="p1">**</bpt>FA Error Ledger Entries<ept id="p1">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>For example, if you post an acquisition with the wrong date, you must correct it as soon as possible because the fixed asset posting date is used is many critical calculations.</source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>You cannot use the <bpt id="p1">**</bpt>Reverse Transactions<ept id="p1">**</ept> function for fixed asset entries.</source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Cancel FA Entries<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Fill in the fields as necessary.</source>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button to run the batch job.</source>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>When the incorrect entry or entries are canceled, proceed to post the correct acquisition cost.</source>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>To cancel ledger entries for multiple fixed assets at a time, use the <bpt id="p1">**</bpt>Cancel FA Ledger Entries<ept id="p1">**</ept> batch job.</source>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>To post the salvage value together with the acquisition cost</source>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>You can post the salvage value together with the acquisition cost from a fixed asset G/L journal.</source>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Cancel FA Entries<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Create the acquisition journal line.</source>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>To post a fixed asset acquisition manually with the fixed asset G/L journal<ept id="p1">](fa-how-acquire.md#to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Salvage Value<ept id="p1">**</ept> field on the journal line, enter the salvage value amount as a credit (with a minus sign).</source>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Post<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Salvage Value<ept id="p1">**</ept> posting type is an option on the <bpt id="p2">**</bpt>Fixed Asset Journal<ept id="p2">**</ept> page only.</source>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>It is not available on the <bpt id="p1">**</bpt>Fixed Asset G/L Journal<ept id="p1">**</ept> page because salvage value is never posted to the general ledger.</source>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Fixed Assets<ept id="p1">](fa-manage.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Setting Up Fixed Assets<ept id="p1">](fa-setup.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Finance<ept id="p1">](finance.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Getting Started<ept id="p1">](product-get-started.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Working with <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph><ept id="p1">](ui-work-product.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

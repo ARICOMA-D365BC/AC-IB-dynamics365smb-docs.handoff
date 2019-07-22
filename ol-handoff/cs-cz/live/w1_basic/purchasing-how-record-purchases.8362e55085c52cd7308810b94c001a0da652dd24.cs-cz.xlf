@@ -1,0 +1,198 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="purchasing-how-record-purchases.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-435fba6" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cc0a5e88342e9f4c7493cf9d3390c248e6dd36b9</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\purchasing-how-record-purchases.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">30e79db1a31f95c55a17ce04419399f5beb34448</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">53e29b1d262c71edba853aa8f0f97122b248a0cf</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Create a Purchase Invoice and Record Purchases | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Describes how to purchase inventory and service items by creating and posting purchase invoices or orders.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Record Purchases</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You create a purchase invoice or purchase order to record the cost of purchases and to track accounts payable.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>If you need to control an inventory, purchase invoices and purchase orders are also used to dynamically update inventory levels so that you can minimize your inventory costs and provide better customer service.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The purchasing costs, including service expenses, and inventory values that result from posting purchase invoices or orders contribute to profit figures and other financial KPIs on your Role Center.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You must use purchase orders if your purchasing process requires that you record partial receipts of an order quantity, for example, because the full quantity was not available at the vendor.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>If you sell items by delivering directly from your vendor to your customer, as a drop shipment, then you must also use purchase orders.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Make Drop Shipments<ept id="p1">](sales-how-drop-shipment.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>In all other aspects, purchase orders work the same way as purchase invoices.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The following procedure is based on a purchase invoice.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The steps are similar for a purchase order.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>When you receive the inventory items, or when the purchased service is completed, you post the purchase invoice or order to update inventory and financial records and to activate payment to the vendor according to the payment terms.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Making Payments<ept id="p1">](payables-make-payments.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Do not post a purchase invoice until you receive the items and know the final cost of the purchase, including any additional charges.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Otherwise, your inventory value and profit figures may be skewed.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>You can easily correct or cancel a posted purchase invoice before you pay the vendor.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>This is useful if you want to correct a typing mistake or if you want to change the purchase early in the order process.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Correct or Cancel Unpaid Purchase Invoices<ept id="p1">](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>If you have already paid for items on the posted purchase invoice, then you must create a purchase credit memo to reverse the purchase.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Process Purchase Returns or Cancellations<ept id="p1">](purchasing-how-process-purchase-returns-cancellations.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The item card can be of type <bpt id="p1">**</bpt>Inventory<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Service<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>Non-Inventory<ept id="p3">**</ept> to specify if the item is a physical inventory unit, a labor time unit, or a physical unit that is not kept on inventory.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Register New Items<ept id="p1">](inventory-how-register-new-items.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The purchase invoice process is the same for all three item types.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>You can fill vendor fields on the purchase invoice in two ways depending on whether the vendor is already registered.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>To create a purchase invoice</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Purchase Invoices<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Vendor<ept id="p1">**</ept> field, enter the name of an existing vendor.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Other fields on the <bpt id="p1">**</bpt>Purchase Invoice<ept id="p1">**</ept> page are now filled with the standard information of the selected vendor.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>If the vendor is not registered, then follow these steps:</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Vendor<ept id="p1">**</ept> field, enter the name of the new vendor.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>In the dialog box about registering the new vendor, choose the <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Select a template for a new vendor<ept id="p1">**</ept> page, choose a template to base the new vendor card on, and then choose the <bpt id="p2">**</bpt>OK<ept id="p2">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>A new vendor card opens, prefilled with the information on the selected vendor template.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Name<ept id="p1">**</ept> field is prefilled with the new vendor’s name that you entered on the purchase invoice.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Proceed to fill in the remaining fields on the vendor card.</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Register New Vendors<ept id="p1">](purchasing-how-register-new-vendors.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>When you have completed the vendor card, choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button to return to the <bpt id="p2">**</bpt>Purchase Invoice<ept id="p2">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Several fields on the <bpt id="p1">**</bpt>Purchase Invoice<ept id="p1">**</ept> page are filled with information that you specified on the new vendor card.</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Fill in the remaining fields on the <bpt id="p1">**</bpt>Purchase Invoice<ept id="p1">**</ept> page as necessary.</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>You are now ready to fill in the purchase invoice lines with inventory items or services that you have purchased from the vendor.</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>If you have set up recurring purchase lines for the vendor, such as a monthly replenishment order, then you can insert these lines on the invoice by choosing the <bpt id="p1">**</bpt>Get Recurring Purchase Lines<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Lines<ept id="p1">**</ept> FastTab, in the <bpt id="p2">**</bpt>Item No.<ept id="p2">**</ept> field, enter the number of an inventory item or service.</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Quantity<ept id="p1">**</ept> field, enter the number of items to be purchased.</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>For items of type <bpt id="p1">**</bpt>Service<ept id="p1">**</ept>, the quantity is a time unit, such as hours, as indicated in the <bpt id="p2">**</bpt>Unit of Measure Code<ept id="p2">**</ept> field on the line.</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Line Amount<ept id="p1">**</ept> field is updated to show the value in the <bpt id="p2">**</bpt>Direct Unit Cost<ept id="p2">**</ept> field multiplied by the value in the <bpt id="p3">**</bpt>Quantity<ept id="p3">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The price and line amount are shown with or without sales tax depending on what you selected in the <bpt id="p1">**</bpt>Prices Including Tax<ept id="p1">**</ept> field on the vendor card.</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Invoice Discount Amount<ept id="p1">**</ept> field, enter an amount that should be deducted from the value shown in the <bpt id="p2">**</bpt>Total Incl. Tax<ept id="p2">**</ept> field at the bottom of the invoice.</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>If you have set up invoice discounts for the vendor, then the specified percentage value is automatically inserted in the <bpt id="p1">**</bpt>Vendor Invoice Discount %<ept id="p1">**</ept> field if the criteria are met, and the related amount is inserted in the <bpt id="p2">**</bpt>Invoice Discount Amount<ept id="p2">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>When you receive the purchased items or services, choose <bpt id="p1">**</bpt>Post<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The purchase is now reflected in inventory and financial records, and the vendor payment is activated.</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The purchase invoice is removed from the list of purchase invoices and replaced with a new document in the list of posted purchase invoices.</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Purchasing<ept id="p1">](purchasing-manage-purchasing.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Setting Up Purchasing<ept id="p1">](purchasing-setup-purchasing.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Request Quotes<ept id="p1">](purchasing-how-request-quotes.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Purchase Items for a Sale<ept id="p1">](purchasing-how-purchase-products-sale.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Register New Vendors<ept id="p1">](purchasing-how-register-new-vendors.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Prepare Drop Shipments<ept id="p1">](sales-how-drop-shipment.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Working with <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph><ept id="p1">](ui-work-product.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

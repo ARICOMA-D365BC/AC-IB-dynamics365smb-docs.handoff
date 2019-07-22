@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="service-allocation-status-and-repair-status.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-435fba6" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">932abf3ee69f429c322fe82e150fa7a8f4aef8e8</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\service-allocation-status-and-repair-status.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">91edc36d7b1f81e70c02d996dc633fc8653e2df8</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8591be4dc25a419827241d0e1fdd7e9214adfb71</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Allocation Status and Repair Status | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Learn about the relationship between the repair status of service items and the allocation status of the allocation entries for them.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Allocation Status and Repair Status of Service Items</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The repair status of service items and the allocation status of the allocation entries for the service items have a certain relationship in Service Management.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The allocation status changes when you change the repair status of the service item to <bpt id="p1">**</bpt>Finished<ept id="p1">**</ept> or <bpt id="p2">**</bpt>Partly Serviced<ept id="p2">**</ept> and when you convert a service quote to a service order.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The repair status of the service item changes when you cancel the service item allocation or reallocate the service item to another resource.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You can view the repair status of service items on the <bpt id="p1">**</bpt>Service Tasks<ept id="p1">**</ept> page and you can update the repair status in the <bpt id="p2">**</bpt>Repair Status Code<ept id="p2">**</ept> field on the <bpt id="p3">**</bpt>Service Item Worksheet<ept id="p3">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>You can view the allocation status in the <bpt id="p1">**</bpt>Status<ept id="p1">**</ept> field on the <bpt id="p2">**</bpt>Resource Allocations<ept id="p2">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Changing Repair Status</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>When you change the repair status of a service item on a service item line, there is a search for a corresponding allocation entry for this service item that has the status <bpt id="p1">**</bpt>Active<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>If such an allocation entry is found, the status is updated in one of the following ways:</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>If you change the repair status to <bpt id="p1">**</bpt>Finished<ept id="p1">**</ept>, the allocation status is changed from <bpt id="p2">**</bpt>Active<ept id="p2">**</ept> to <bpt id="p3">**</bpt>Finished<ept id="p3">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>If you change the repair status to <bpt id="p1">**</bpt>Partly Serviced<ept id="p1">**</ept>, that is, some of the service has been completed, or <bpt id="p2">**</bpt>Referred<ept id="p2">**</ept>, that is, no service has been done, the allocation status is changed from <bpt id="p3">**</bpt>Active<ept id="p3">**</ept> to <bpt id="p4">**</bpt>Reallocation Needed<ept id="p4">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>When a service order allocation entry is created that indicates that no resource has been allocated, the <bpt id="p1">**</bpt>Status<ept id="p1">**</ept> field on the <bpt id="p2">**</bpt>Resource Allocation<ept id="p2">**</ept> page is set to <bpt id="p3">**</bpt>Nonactive<ept id="p3">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The allocation entry status is set to <bpt id="p1">**</bpt>Canceled<ept id="p1">**</ept> when you reallocate the referred service item in the service order allocation entry, which indicates that the allocated resource or resource group has not attempted the service task.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The allocation status reflects when the service process is finished, or when another resource is necessary in order to finish the service of the service item.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Converting Service Quotes to Service Orders</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>When you convert a service quote to a service order, the service order, the service items in the order and their allocation entries are updated in the following ways:</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The repair status of the service items is changed to <bpt id="p1">**</bpt>Initial<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The service order status is changed to <bpt id="p1">**</bpt>Pending<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>There is a search for allocation entries for all the service items in the service order that have the status <bpt id="p1">**</bpt>Active<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>If such allocation entries are found, their allocation status is changed from <bpt id="p1">**</bpt>Active<ept id="p1">**</ept> to <bpt id="p2">**</bpt>Reallocation Needed<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Canceling Allocations</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>When you cancel an allocation for a service item, <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> updates the allocation status of the corresponding allocation entry from <bpt id="p1">**</bpt>Active<ept id="p1">**</ept> to <bpt id="p2">**</bpt>Reallocation Needed<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The repair status of the service item in the allocation entry is updated in the following ways:</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>If the repair status is <bpt id="p1">**</bpt>Initial<ept id="p1">**</ept>, the repair status is changed to <bpt id="p2">**</bpt>Referred<ept id="p2">**</ept> (no service has been started).</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>If the repair status is <bpt id="p1">**</bpt>In Process<ept id="p1">**</ept>, the repair status is changed to <bpt id="p2">**</bpt>Partly Serviced<ept id="p2">**</ept> (some service has been completed).</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Reallocating an Active Allocation Entry</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>When you reallocate a service item in an allocation entry that is <bpt id="p1">**</bpt>Active<ept id="p1">**</ept>, the allocation entry is updated in the following ways:</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>If service was started when the allocation was <bpt id="p1">**</bpt>Active<ept id="p1">**</ept> (that is, if the repair status of the service item in the entry was changed to <bpt id="p2">**</bpt>In Process<ept id="p2">**</ept>), the allocation status is changed from <bpt id="p3">**</bpt>Active<ept id="p3">**</ept> to <bpt id="p4">**</bpt>Finished<ept id="p4">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>If service was not started when the allocation was <bpt id="p1">**</bpt>Active<ept id="p1">**</ept>, the allocation status is changed from <bpt id="p2">**</bpt>Active<ept id="p2">**</ept> to <bpt id="p3">**</bpt>Canceled<ept id="p3">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The repair status of the service item in the allocation entry is updated in the same way as if you had canceled the allocation:</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>If the repair status is <bpt id="p1">**</bpt>Initial<ept id="p1">**</ept>, the repair status is changed to <bpt id="p2">**</bpt>Referred<ept id="p2">**</ept> (no service has been started).</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>If the repair status is <bpt id="p1">**</bpt>In Process<ept id="p1">**</ept>, the repair status is changed to <bpt id="p2">**</bpt>Partly Serviced<ept id="p2">**</ept> (some service has been completed).</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>A new allocation entry that contains the new resource is created that has the status <bpt id="p1">**</bpt>Active<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Reallocating a Service Item</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>When you reallocate a service item in an allocation entry that has the status <bpt id="p1">**</bpt>Reallocation Needed<ept id="p1">**</ept>, the allocation entry is updated in the following ways:</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>If service was started when the allocation was <bpt id="p1">**</bpt>Active<ept id="p1">**</ept> (that is, if the repair status of the service item in the entry was changed to <bpt id="p2">**</bpt>In Process<ept id="p2">**</ept>), the allocation status is changed from <bpt id="p3">**</bpt>Reallocation Needed<ept id="p3">**</ept> to <bpt id="p4">**</bpt>Finished<ept id="p4">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>If service was not started when the allocation was <bpt id="p1">**</bpt>Active<ept id="p1">**</ept>, the allocation status is changed from <bpt id="p2">**</bpt>Reallocation Needed<ept id="p2">**</ept> to <bpt id="p3">**</bpt>Canceled<ept id="p3">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>A new allocation entry that contains the new resource is created that has the status <bpt id="p1">**</bpt>Active<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Set Up Resource Allocations<ept id="p1">](service-how-setup-resource-allocation.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Allocate Resources<ept id="p1">](service-how-to-allocate-resources.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

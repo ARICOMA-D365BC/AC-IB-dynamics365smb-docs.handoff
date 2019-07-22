@@ -1,0 +1,522 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="ui-how-users-permissions.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-5ae97a8" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e60b7d875ebd0a598908f37a59a49953c61479f1</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\ui-how-users-permissions.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8a91e74d70f10200e50e435354e062ce84414f64</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c1e2aab98ee29a2bb0827e523f1376f156612b6b</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Assign or Edit User Permissions  | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Describes how to add Office 365 users to Business Central, and then assign permissions, access rights, and security settings.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Managing Users and Permissions</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>To add users in <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>, your company's Office 365 administrator must first create the users in the Office 365 Admin Center.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Add Users to Office 365 for business<ept id="p1">](https://aka.ms/CreateOffice365Users)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Once users are created in Office 365, they can be imported into the <bpt id="p1">**</bpt>Users<ept id="p1">**</ept> page in <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Users are assigned permission sets depending on the plan assigned to the user in Office 365.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>For detailed information about licensing, see <bpt id="p1">[</bpt>Microsoft Dynamics 365 Business Central Licensing Guide<ept id="p1">](https://aka.ms/BusinessCentralLicensing)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You can then proceed to assign permission sets to the users to define which database objects, and thereby which UI elements, they have access to, and in which companies.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>You can add users to user groups.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>This makes it easier to assign the same permission sets to multiple users.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>A permission set is a collection of permissions for specific objects in the database.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>All users must be assigned one or more permission sets before they can access <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>From the <bpt id="p1">**</bpt>User Card<ept id="p1">**</ept> page, you can open the <bpt id="p2">**</bpt>Effective Permissions<ept id="p2">**</ept> page to see which permissions the user has and through which permission sets they are granted.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Here you can also change permission details for permission sets of type <bpt id="p1">**</bpt>User-Defined<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>To get an overview of a user's permissions<ept id="p1">](ui-how-users-permissions.md#to-get-an-overview-of-a-users-permissions)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Administrators can use the <bpt id="p1">**</bpt>User Setup<ept id="p1">**</ept> page to define periods of time during which specified users are able to post, and also specify if the system logs the amount of time users are logged on.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Another system that defines what users can access is the Experience setting.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Changing Which Features are Displayed<ept id="p1">](ui-experiences.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>To add a user in Business Central</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Users<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Get Users from Office 365<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Any new user that has been created for your Office 365 subscription will be added on the <bpt id="p1">**</bpt>Users<ept id="p1">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>To group users in user groups</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>You can set up users groups to help you manage permission sets for groups of users in your company.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>User Groups<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Alternatively, on the <bpt id="p1">**</bpt>Users<ept id="p1">**</ept> page, choose the <bpt id="p2">**</bpt>User Groups<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>User Group<ept id="p1">**</ept> page, choose the <bpt id="p2">**</bpt>User Group Members<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>User Group Members<ept id="p1">**</ept> page, choose the <bpt id="p2">**</bpt>Add Users<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>When users or user groups are created, you must assign permission sets to each to define which object a user can access.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>First, you must organize the relevant permissions in permission sets.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>To get an overview of a user's permissions<ept id="p1">](ui-how-users-permissions.md#to-get-an-overview-of-a-users-permissions)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>To copy a user group and all its permission sets</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>To quickly define a new user group, you can copy all permission sets from an existing user group to your new user group.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The user group members are not copied to the new user group.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>You must add them manually afterwards.</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>User Groups<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Select the user group that you want to copy, and then choose the <bpt id="p1">**</bpt>Copy User Group<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>New User Group Code<ept id="p1">**</ept> field, enter a name for the group, and then choose the <bpt id="p2">**</bpt>OK<ept id="p2">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The new user group is added to the <bpt id="p1">**</bpt>User Groups<ept id="p1">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Proceed to add users.</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>To group users in user groups<ept id="p1">](ui-how-users-permissions.md#to-group-users-in-a-user-group)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>To set up user time constraints</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Administrators can define periods of time during which specified users are able to post, and also specify if the system logs the amount of time users are logged on.</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Administrators can also assign responsibility centers to users.</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Work with Responsibility Centers<ept id="p1">](inventory-responsibility-centers.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>User Setup<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>User Setup<ept id="p1">**</ept> page opens, choose the <bpt id="p2">**</bpt>New<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>User ID<ept id="p1">**</ept> field, enter the ID of a user, or choose the field to see all current Windows users in the system.</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Fill in the fields as necessary.</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>To create or modify a permission set</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Permission sets function as containers of permissions, so that you can easily manage multiple permissions in one record.</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>When you have created a permission set, you must add the actual permissions.</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>To create or edit permissions manually<ept id="p1">](ui-how-users-permissions.md#to-create-or-modify-permissions-manually)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>A <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> solution typically contains a number of predefined permission sets that are added by Microsoft or by your software provider.</source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>These permission sets are of type <bpt id="p1">**</bpt>System<ept id="p1">**</ept> or <bpt id="p2">**</bpt>Extension<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>You cannot create or edit these types of permission sets or the permissions within them.</source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>However, you can copy them to define your own permission sets and permissions.</source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Permission sets that users create, from new or as copies, are of type <bpt id="p1">**</bpt>User-Defined<ept id="p1">**</ept> and can be edited.</source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Permission Sets<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>To create a new permission set, choose the <bpt id="p1">**</bpt>New<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>On the new line, fill in the fields as necessary.</source>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>To copy a permission set</source>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>When you create new permission sets, you can use a copy function to quickly carry all the permissions of another permission set to a new permission set.</source>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>If a System permission set that you have copied is changed, you will be notified (depending on your selection), so that you can consider if the changes are relevant to copy or write into your user-defined permission set.</source>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Permission Sets<ept id="p1">**</ept> page, select the line for a permission set that you want to copy, and then choose the <bpt id="p2">**</bpt>Copy Permission Set<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Copy Permission Set<ept id="p1">**</ept> page, specify the name of the new permission set, and then choose the <bpt id="p2">**</bpt>OK<ept id="p2">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>Notify on Changed Permission Set<ept id="p1">**</ept> check box if you want to maintain a link between the original and the copied permission sets.</source>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The link is then used to notify you if the name or content of the original permission set changes in a future version that the solution is upgraded to later.</source>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The new permission set, containing all the permissions of the copied permission set, is added as a new line on the <bpt id="p1">**</bpt>Permission Sets<ept id="p1">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Note that the lines are sorted alphabetically within each type.</source>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>To create or modify permissions manually</source>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>This procedure explains how to add or edit permissions manually.</source>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>You can also have a permission sets generated automatically from your actions in the UI.</source>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>To create or modify permission sets by recording your actions<ept id="p1">](ui-how-users-permissions.md#to-create-or-modify-permission-sets-by-recording-your-actions)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Permission Sets<ept id="p1">**</ept> page, select the line for a permission set, and then choose the <bpt id="p2">**</bpt>Permissions<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Permissions<ept id="p1">**</ept> page, create a new line or edit the fields on an existing line.</source>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>In each of the five access type fields, <bpt id="p1">**</bpt>Read Permission<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Insert Permission<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Modify Permission<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Delete Permission<ept id="p4">**</ept>, and <bpt id="p5">**</bpt>Execute Permission<ept id="p5">**</ept>, you can select one of the following three permission options:</source>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Option</source>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Ranking</source>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Yes<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The user can perform the action on the object in question.</source>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Highest</source>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Indirect<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The user can perform the action on the object in question but only through another related object that the user has full access to.</source>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Second highest</source>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Blank<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The user cannot perform the action on the object in question.</source>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Lowest</source>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Example - Indirect Permission</source>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>You can assign an indirect permission to use an object only through another object.</source>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>For example, a user can have permission to run codeunit 80, Sales-Post.</source>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The Sales-Post codeunit performs many tasks, including modifying table 37, Sales Line.</source>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>When the user posts a sales document, the Sales-Post codeunit, <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> checks if the user has permission to modify theSales Line table.</source>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>If not, the codeunit cannot complete its tasks, and the user receives an error message.</source>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>If so, the codeunit runs successfully.</source>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>However, the user does not need to have full access to the Sales Line table to run the codeunit.</source>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>If the user has indirect permission for the Sales Line table, then the Sales-Post codeunit runs successfully.</source>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>When a user has indirect permission, that user can only modify the Sales Line table by running the Sales-Post codeunit or another object that has permission to modify the Sales Line table.</source>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>The user can only modify the Sales Line table when doing so from supported application areas.</source>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>The user cannot run the feature inadvertently or maliciously by other methods.</source>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>To limit a user's access to specific records in a table</source>
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>For record-level security in <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>, you use security filters to limit a user's access to data in a table.</source>
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>You create security filters on table data.</source>
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>A security filter describes a set of records in a table that a user has permission to access.</source>
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>You can specify, for example, that a user can only read the records that contain information about a particular customer.</source>
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>This means that the user cannot access the records that contain information about other customers.</source>
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Using Security Filters<ept id="p1">](/dynamics365/business-central/dev-itpro/security/security-filters)</ept> in Developer and IT-Pro help.</source>
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>To create or modify permission sets by recording your actions</source>
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Permission Sets<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Alternatively, on the <bpt id="p1">**</bpt>Users<ept id="p1">**</ept> page, choose the <bpt id="p2">**</bpt>Permission Sets<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Permission Sets<ept id="p1">**</ept> page, choose the <bpt id="p2">**</bpt>New<ept id="p2">**</ept> Action.</source>
+        </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>On a new line, fill in the fields as necessary.</source>
+        </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Permissions<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Permissions<ept id="p1">**</ept> page, choose the <bpt id="p2">**</bpt>Record Permissions<ept id="p2">**</ept> action, and then choose the <bpt id="p3">**</bpt>Start<ept id="p3">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>This starts a recording process that captures all your action in the user interface.</source>
+        </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Go to the various pages and activities in <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> that you want users with this permission set to access.</source>
+        </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>You must carry out the tasks that you want to record permissions for.</source>
+        </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>When you want to finish the recording, return to the <bpt id="p1">**</bpt>Permissions<ept id="p1">**</ept> page, and then choose the <bpt id="p2">**</bpt>Stop<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept> button to add the recorded permissions to the new permission set.</source>
+        </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>For each object in the recorded list, specify if users are able to insert, modify, or delete records in the recorded tables.</source>
+        </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>When you edit a permission and thereby the related permission set, the changes will also apply to other users that have the permission set assigned.</source>
+        </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>To assign permission sets to users or user groups</source>
+        </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>You can assign permissions to users in two ways:</source>
+        </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Define permission sets on a user's user card.</source>
+        </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Select the check box for a user, on a column, for a related permission set, on a row, on the <bpt id="p1">**</bpt>Permission Set by User<ept id="p1">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>With this method, you can also assign permissions sets to user groups.</source>
+        </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>To assign a permission set on a user card</source>
+        </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Users<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Select the user that you want to assign permission to.</source>
+        </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Any permission sets that are already assigned to the user are displayed in the <bpt id="p1">**</bpt>Permission Sets<ept id="p1">**</ept> FactBox.</source>
+        </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Edit<ept id="p1">**</ept> action to open the <bpt id="p2">**</bpt>User Card<ept id="p2">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>User Permission Sets<ept id="p1">**</ept> FastTab, on a new line, fill in the fields as necessary.</source>
+        </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>To create or edit a permission set<ept id="p1">](ui-how-users-permissions.md#to-create-or-modify-a-permission-set)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>To assign a permission set on the <bpt id="p1">**</bpt>Permission Set by User<ept id="p1">**</ept> page</source>
+        </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>The following procedure explains how to assign permission sets to a user on the <bpt id="p1">**</bpt>Permission Set by User<ept id="p1">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>The steps are similar on the <bpt id="p1">**</bpt>Permission Set by User Group<ept id="p1">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Users<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Users<ept id="p1">**</ept> page, select the relevant user, and then choose the <bpt id="p2">**</bpt>Permission Set by User<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Permission Set by User<ept id="p1">**</ept> page, select the <bpt id="p2">**</bpt>[user name]<ept id="p2">**</ept> check box on a line for the relevant permission set to assign the set to the user.</source>
+        </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>All Users<ept id="p1">**</ept> check box to assign the permission set to all users.</source>
+        </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>To get an overview of a user's permissions</source>
+        </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Users<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Open the card of the relevant user.</source>
+        </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Effective Permissions<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Permissions<ept id="p1">**</ept> part lists all the database objects that the user has access to.</source>
+        </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>You cannot edit this section.</source>
+        </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>By Permission Set<ept id="p1">**</ept> part shows the assigned permission sets through which the permissions are granted to the user, the source and type of the permission set, and to which extend the different access types are permitted.</source>
+        </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>For each row that you select in the <bpt id="p1">**</bpt>Permissions<ept id="p1">**</ept> section, the <bpt id="p2">**</bpt>By Permission Set<ept id="p2">**</ept> section shows which permission set or sets that the permission is granted through.</source>
+        </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>In this section, you can edit the value in each of the five access type fields, <bpt id="p1">**</bpt>Read Permission<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Insert Permission<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Modify Permission<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Delete Permission<ept id="p4">**</ept>, <bpt id="p5">**</bpt>Execute Permission<ept id="p5">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>Only permission sets of type <bpt id="p1">**</bpt>User-Defined<ept id="p1">**</ept> can be edited.</source>
+        </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>Rows of source Entitlement originate from the subscription plan.</source>
+        </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>The permission values of the entitlement overrule values in other permission sets if they have a higher ranking.</source>
+        </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>A value in a non-entitlement permission set that has a higher ranking than the related value in the entitlement will be surrounded by brackets to indicate that it is not effective as it is overruled by the entitlement.</source>
+        </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>For an explanation of ranking, see <bpt id="p1">[</bpt>To create or edit permissions manually<ept id="p1">](ui-how-users-permissions.md#to-create-or-modify-permissions-manually)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>To edit a permission set, in the <bpt id="p1">**</bpt>By Permission Set<ept id="p1">**</ept> part, on the line for a relevant permission set of type <bpt id="p2">**</bpt>User-Defined<ept id="p2">**</ept>, choose one of the five access type fields and select a different value.</source>
+        </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>To edit individual permissions within the permission set, choose the value in the <bpt id="p1">**</bpt>Permission Set<ept id="p1">**</ept> field to open the <bpt id="p2">**</bpt>Permissions<ept id="p2">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>Follow the steps described in <bpt id="p1">[</bpt>To create or edit permissions<ept id="p1">](ui-how-users-permissions.md#to-create-or-modify-permissions-manually)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>When you edit a permission set, the changes will also apply to other users that have the permission set assigned.</source>
+        </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Security and Protection in Business Central<ept id="p1">](/dynamics365/business-central/dev-itpro/security/security-and-protection)</ept></source>
+        </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Understanding Users, Profiles, and Role Centers<ept id="p1">](admin-users-profiles-roles.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Getting Ready for Doing Business<ept id="p1">](ui-get-ready-business.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Changing Which Features are Displayed<ept id="p1">](ui-experiences.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Administration<ept id="p1">](admin-setup-and-administration.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Add Users to Office 365 for business<ept id="p1">](https://aka.ms/CreateOffice365Users)</ept></source>
+        </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Microsoft Dynamics 365 Business Central Licensing Guide<ept id="p1">](https://aka.ms/BusinessCentralLicensing)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

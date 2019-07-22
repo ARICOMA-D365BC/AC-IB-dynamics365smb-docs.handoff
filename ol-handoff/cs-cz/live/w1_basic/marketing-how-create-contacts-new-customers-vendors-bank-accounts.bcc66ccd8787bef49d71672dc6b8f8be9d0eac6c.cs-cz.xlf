@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="marketing-how-create-contacts-new-customers-vendors-bank-accounts.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-8cf0045" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5f5e690a8db82c2f95f190d5fac4b6430f900b57</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\marketing-how-create-contacts-new-customers-vendors-bank-accounts.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">97e06852c632e57e65eb64136a1ebd3c70530e5b</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">230f4fe4a9392121ab30bf7416ec8d10bb6a2a13</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Create a Customer or VendorFrom a Contact| Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>You can record an existing contact as a customer, vendor, or bank account using existing data and specifying a business relationship.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Create a Customer, Vendor, or Bank Account From a Contact</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You may want to record some of your existing contacts as customers, vendors, or bank accounts.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Creating a customer, vendor, or bank account from a contact enables you use existing data.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>When you create a customer, vendor, or bank account this way, it is synchronized with the contact.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Synchronization makes information that is common between contacts and customers, vendors, or bank account the same.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Before you can record contacts this way, you must specify a business relation code for customers, vendors, and bank accounts on the <bpt id="p1">**</bpt>Marketing Setup<ept id="p1">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>If you will be recording contacts as bank accounts, you must also specify numbers series for bank accounts on the <bpt id="p1">**</bpt>General Ledger Setup<ept id="p1">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>To create a contact as a customer, vendor, or bank account</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Contacts<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Select the contact you want to create as a customer, vendor, or bank account.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Create As<ept id="p1">**</ept> action, and then choose either <bpt id="p2">**</bpt>Customer<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Vendor<ept id="p3">**</ept>, or <bpt id="p4">**</bpt>Bank<ept id="p4">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Confirm the subsequent message.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The contact information is transferred from the <bpt id="p1">**</bpt>Contact<ept id="p1">**</ept> card to the <bpt id="p2">**</bpt>Bank Account<ept id="p2">**</ept> card, the <bpt id="p3">**</bpt>Customer<ept id="p3">**</ept> card, or the <bpt id="p4">**</bpt>Vendor<ept id="p4">**</ept> card.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>You may want to add specific information to each of the cards, such as invoicing and payment details.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Create Contact Companies<ept id="p1">](marketing-create-contact-companies.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Create Contact Persons<ept id="p1">](marketing-create-contact-persons.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Synchronizing Contacts With Customers, Vendors, and Bank Accounts<ept id="p1">](marketing-synchronize-contacts-customers-vendors-bank-accounts.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Link Contacts to Existing Customers, Vendors, or Bank Accounts<ept id="p1">](marketing-how-link-contact.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Assign Business Relations to a Contact<ept id="p1">](marketing-business-relations.md#AssignBusRelContact)</ept></source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Working with Business Central<ept id="p1">](ui-work-product.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

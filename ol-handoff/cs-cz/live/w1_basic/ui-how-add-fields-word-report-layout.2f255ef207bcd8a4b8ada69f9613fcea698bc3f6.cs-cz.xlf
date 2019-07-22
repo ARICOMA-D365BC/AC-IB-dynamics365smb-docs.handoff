@@ -1,0 +1,258 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="ui-how-add-fields-word-report-layout.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-2e292eb" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">77f377d6858294aeb54e30fcb178fc9757ac3938</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">financials\ui-how-add-fields-word-report-layout.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">903207196a26cadf029b972efba94151bcb47dde</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0ab9b263ec825d8d6060c970f4cc8ba0bac3aaeb</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>How to Add Fields to a Word Report Layout | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Describes how to add fields of a report dataset to an existing Word report layout for a report.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Add Fields to a Word Report Layout</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>A report dataset can consist of fields that display labels, data, and images.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>This topic describes the procedure for adding fields of a report dataset to an existing Word report layout for a report.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>You add fields by using the Word custom XML part for the report and adding content controls that map to the fields of the report dataset.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Adding fields requires that you have some knowledge of the report's dataset so that you can identify the fields that you want to add to the layout.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>You cannot modify built-in report layouts<ph id="ph1">&lt;!--Onprem. Built-in layouts can only be modified by using the development environment--&gt;</ph>.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;a name="OpenXMLPart"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept> To open the Custom XML part for the Report in Word</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>If not already open, then open the Word report layout document in Word.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Create and Modify a Custom Report Layout<ept id="p1">](ui-how-create-custom-report-layout.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Show the <bpt id="p1">**</bpt>Developer<ept id="p1">**</ept> tab in the ribbon of Microsoft Word.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>By default, the <bpt id="p1">**</bpt>Developer<ept id="p1">**</ept> tab is not shown in the ribbon.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Show the Developer Tab on the Ribbon<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=389631)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Developer<ept id="p1">**</ept> tab, choose <bpt id="p2">**</bpt>XML Mapping Pane<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>XML Mapping<ept id="p1">**</ept> pane, in the <bpt id="p2">**</bpt>Custom XML Part<ept id="p2">**</ept> dropdown list, choose the custom XML part for ADD INCLUDE<ph id="ph1">&lt;!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]--&gt;</ph> report, which is typically last in the list.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The name of the custom XML part has the following format:</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>urn:microsoft-dynamics-nav/reports/<bpt id="p1">*</bpt>report_name<ept id="p1">*</ept><ph id="ph1">/</ph><bpt id="p2">*</bpt>ID<ept id="p2">*</ept></source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>report_name<ept id="p1">*</ept> is the name that is assigned to the report<ph id="ph1">&lt;!--OnPrem as specified by the report's [Name Property-duplicate](../FullExperience/nav_dev_long_md.md)]--&gt;</ph>.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>ID<ept id="p1">*</ept> is the identification number of the report.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>After you select the custom XML part, the XML Mapping pane displays the labels and field controls that are available for the report.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>To add a label or data field</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Place your cursor in the document where you want to add the control.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>XML Mapping<ept id="p1">**</ept> pane, right-click the control that you want to add, choose <bpt id="p2">**</bpt>Insert Content Control<ept id="p2">**</ept>, and then choose <bpt id="p3">**</bpt>Plain Text<ept id="p3">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>You cannot add a field by manually typing the dataset field name in the content control.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>You must use the <bpt id="p1">**</bpt>XML Mapping<ept id="p1">**</ept> pane to map the fields.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>To add repeating rows of data fields to create a list</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>In a table, add a table row that includes a column for each field that you want repeated.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>This row will act as a placeholder for the repeating fields.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Select the entire row.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>XML Mapping<ept id="p1">**</ept> pane, right-click the control that corresponds to the report data item that contains the fields that you want repeated, choose <bpt id="p2">**</bpt>Insert Content Control<ept id="p2">**</ept>, and then choose <bpt id="p3">**</bpt>Repeating<ept id="p3">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Add the repeating fields to the row as follows:</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Place your pointer in a column.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>XML Mapping<ept id="p1">**</ept> pane, right-click the control that you want to add, choose <bpt id="p2">**</bpt>Insert Content Control<ept id="p2">**</ept>, and then choose <bpt id="p3">**</bpt>Plain Text<ept id="p3">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>For each field, repeat steps a and b.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Adding Image Fields</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>A report dataset can include a field that contains an image, such as a company logo or a picture of an item.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>To add an image from the report dataset, you insert a <bpt id="p1">**</bpt>Picture<ept id="p1">**</ept> content control.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Images align in the top-left corner of the content control and resize automatically in proportion to fit the boundary of the content control.</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>You can only add images that have a format that is supported by Word, such as .bmp, .jpeg, and .png file types.</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>If you add an image that has a format that is not supported by Word, you will get an error when you run the report from the ADD INCLUDE<ph id="ph1">&lt;!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]--&gt;</ph> client.</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>To add an image</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Place your pointer in the document where you want to add the control.</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>XML Mapping<ept id="p1">**</ept> pane, right-click the control that you want to add, choose <bpt id="p2">**</bpt>Insert Content Control<ept id="p2">**</ept>, and then choose <bpt id="p3">**</bpt>Picture<ept id="p3">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>To increase or decrease the image size, drag a sizing handle away from or towards the center of the content control.</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Custom XML Part Overview</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Word report layouts are built on <bpt id="p1">*</bpt>custom XML parts<ept id="p1">*</ept>.</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>A custom XML part for a report consists of elements that correspond to the data items, columns, and labels that comprise the report's dataset.</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;!--OnPrem The data as defined in the Report Dataset Designer in Microsoft Dynamics NAV Development Environment. --&gt;</ph>The custom XML part is used to map the data into a report when the report is run.</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>XML Structure of Custom XML Part</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The following table provides a simplified overview of the XML of a custom XML part.</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>XML Elements</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Header</source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>XML namespace specification.</source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`&lt;reportname&gt;`</ph> is the name that is assigned to the report.</source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`&lt;id&gt;`</ph> is the ID that is assigned to the report.</source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Contains all the labels for the report.<ph id="ph1">&lt;!--OnPren The element includes labels that are related to columns that have the [IncludeCaption Property](../FullExperience/Name%20Property-duplicate.md).--&gt;</ph></source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>-   Label elements that are related to columns have the format <ph id="ph1">`&lt;ColumnNameCaption&gt;ColumnNameCaption&lt;/ColumnNameCaption&gt;`</ph><ph id="ph2">&lt;!--OnPrem where `ColumnName` is determined by the column's Name Property.--&gt;</ph>.</source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>-  Label elements have the format <ph id="ph1">`&lt;LabelName&gt;LabelName&lt;/LableName`</ph><ph id="ph2">&lt;!--OnPrem where LabelName is determined by the label's Name Property.--&gt;</ph>.</source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>-   Labels are listed in alphabetical order.</source>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Top-level data item and columns.</source>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Columns are listed in alphabetical order.</source>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Data items and columns that are nested in the top-level data item.</source>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Columns are listed in alphabetical order under the respective data item.</source>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Closing element.</source>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Custom XML Part in Word</source>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>In Word, you open the custom XML part in the <bpt id="p1">**</bpt>XML Mapping<ept id="p1">**</ept> pane, and then use the pane to map elements to content controls in the Word document.</source>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>XML Mapping<ept id="p1">**</ept> pane is accessible from the <bpt id="p2">**</bpt>Developer<ept id="p2">**</ept> tab (for more information, see <bpt id="p3">[</bpt>Show the Developer Tab on the Ribbon<ept id="p3">](http://go.microsoft.com/fwlink/?LinkID=389631)</ept>).</source>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The elements in the <bpt id="p1">**</bpt>XML Mapping<ept id="p1">**</ept> pane appear in a structure that is similar to the XML source.</source>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Label fields are grouped under a common <bpt id="p1">**</bpt>Labels<ept id="p1">**</ept> element and data item and columns are arranged in a hierarchal structure that corresponds to the XML source, with columns listed in alphabetical order.</source>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Elements are identified by their name as defined by the Name property in Report Dataset Designer in ADD INCLUDE<ph id="ph1">&lt;!--[!INCLUDE[nav_dev_short](../../includes/nav_dev_short_md.md)]--&gt;</ph>.</source>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The following figure illustrates the simple custom XML part from the previous section in the <bpt id="p1">**</bpt>XML Mapping<ept id="p1">**</ept> pane of a Word document.</source>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">![</bpt>Clip of the XML Mapping pane in word<ept id="p1">]</ept><bpt id="p2">(media/nav_reportlayout_xmlmappingpane.png "</bpt>NAV_ReportLayout_XMLMappingPane<ept id="p2">")</ept></source>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>To add a label or field to the layout, you insert a content control that maps to the element in the <bpt id="p1">**</bpt>XML Mapping<ept id="p1">**</ept> pane.</source>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>To create repeating rows of columns, insert a <bpt id="p1">**</bpt>Repeating<ept id="p1">**</ept> content control for the parent data item element, and then add content control for the columns.</source>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>For labels, the actual text that appears in the generated report is the value of the <bpt id="p1">**</bpt>Caption<ept id="p1">**</ept> property for the field in the data item table (if the label is related to the column in the report dataset) or a label in the Report Label Designer (if the label is not related to a column in the dataset).</source>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The language of the label that is displayed when you run the report depends on the language setting of the report object.</source>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Create and Modify a Custom Report Layout<ept id="p1">](ui-how-create-custom-report-layout.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

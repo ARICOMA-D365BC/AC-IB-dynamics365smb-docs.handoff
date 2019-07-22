@@ -1,0 +1,165 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-435fba6" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7b753f291ebc4fefee523430e1b10d091e86cd0e</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2498b1fc62cca6ae3a907746945e0e18cd982bcd</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4efeee614c6c9283b1101af14db66fed86bc9ba6</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>How to Move Items Ad Hoc in Basic Warehouse Configurations | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>You may occasionally need to move items between internal bins, not receiving or shipping bins, without a specific demand from a source document.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>You may perform these ad hoc movements, for example, to reorganize the warehouse, to bring items to an inspection area, or to move additional items to and from a production area without a system relation to the production order source document.</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Move Items Ad Hoc in Basic Warehouse Configurations</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>You may occasionally need to move items between internal bins, not receiving or shipping bins, without a specific demand from a source document.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>You may perform these ad hoc movements, for example, to reorganize the warehouse, to bring items to an inspection area, or to move additional items to and from a production area without a system relation to the production order source document.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>In basic warehouse configurations, that is locations that use the <bpt id="p1">**</bpt>Bin Mandatory<ept id="p1">**</ept> setup field and possibly the <bpt id="p2">**</bpt>Require Pick<ept id="p2">**</ept> and the <bpt id="p3">**</bpt>Require Put-away<ept id="p3">**</ept> setup fields, you can register ad hoc movements without source documents in the following ways:</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>With the <bpt id="p1">**</bpt>Internal Movement<ept id="p1">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>With the <bpt id="p1">**</bpt>Item Reclassification Journal<ept id="p1">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>In advanced warehouse configurations, that is locations that use the <bpt id="p1">**</bpt>Directed Put-away and Pick<ept id="p1">**</ept> setup field, you use the <bpt id="p2">**</bpt>Movement Worksheet<ept id="p2">**</ept> page or the <bpt id="p3">**</bpt>Internal Whse. Pick<ept id="p3">**</ept> or the <bpt id="p4">**</bpt>Internal Whse. Put-away<ept id="p4">**</ept> pages to move items ad hoc between bins.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>To move items as an internal movement</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Internal Movement<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>General<ept id="p1">**</ept> FastTab, fill in the <bpt id="p2">**</bpt>No.<ept id="p2">**</ept></source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>field, either by leaving the field or by choosing the <bpt id="p1">**</bpt>AssistEdit<ept id="p1">**</ept> button to select from the number series.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Location Code<ept id="p1">**</ept> field, enter the location where the movement takes place.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>If the location is set up as your default location as a warehouse employee, the location code is inserted automatically.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>To Bin Code<ept id="p1">**</ept> field, enter a code for the bin that you want to move the item to.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>For production purposes, this could be the open shop floor bin code, for example, as defined on the location card or work center.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Due Date<ept id="p1">**</ept> field, enter the date by which the movement must be completed.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Lines<ept id="p1">**</ept> FastTab, choose the <bpt id="p2">**</bpt>Item No.<ept id="p2">**</ept> field to open the <bpt id="p3">**</bpt>Bin Contents List<ept id="p3">**</ept> page, and then select the item to move based on its availability in bins. Alternatively, choose the <bpt id="p4">**</bpt>Get Bin Contents<ept id="p4">**</ept> action to fill the internal movement lines based on your filters.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>For more information, see the tooltip for the <bpt id="p1">**</bpt>Get Bin Content<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>When you have selected the item, the <bpt id="p1">**</bpt>From Bin Code<ept id="p1">**</ept> field is automatically filled according to the selected bin content, but you can change it to any other bin where the item is available.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Because the <bpt id="p1">**</bpt>Item No.<ept id="p1">**</ept> field and the <bpt id="p2">**</bpt>From Bin Code<ept id="p2">**</ept> field are connected, their values may change interdependently when you edit either field.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>To Bin Code<ept id="p1">**</ept> field is filled with the value you entered on the header, but you can change it on the line to any other bin code that isn’t blocked or dedicated to special purposes.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>For more information about making bins dedicated, see Dedicated.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>When you have defined which bins you want to move the item from and to, enter the quantity to move in the <bpt id="p1">**</bpt>Quantity<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Quantity must be available in the From Bin code.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>When you are ready to process the internal movement, choose the <bpt id="p1">**</bpt>Create Inventory Movement<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>When you have created the inventory movement, the internal movement lines are deleted.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>You perform the remainder of the ad hoc movement on the <bpt id="p1">**</bpt>Inventory Movement<ept id="p1">**</ept> page in the same way as you would for a movement based on source documents.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>For more information, see for example <bpt id="p1">[</bpt>Move Components to an Operation Area in Basic Warehouse Configurations<ept id="p1">](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>To move items with the item reclassification journal</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>In stead of using warehouse movement documents, you can record the moving of items by reclassifying their bin codes.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Count, Adjust, and Reclassify Inventory<ept id="p1">](inventory-how-count-adjust-reclassify.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Item Reclass. Journal<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>On each journal line, define the bins from which and to which you want to move items by filling in the <bpt id="p1">**</bpt>Bin Code<ept id="p1">**</ept> and the <bpt id="p2">**</bpt>New Bin Code<ept id="p2">**</ept> fields.</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>To move a bin's entire contents to another bin, choose the <bpt id="p1">**</bpt>Get Bin Contents<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Fill in the filters to find the bin whose contents you would like to move and then choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The journal lines are filled with the contents of the bin.</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Fill in the remaining fields on each journal line.</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Post the reclassification journal.</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Unlike with movement documents, a movement posted with the reclassification journal does not create a warehouse request to perform the physical task.</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Warehouse Management<ept id="p1">](warehouse-manage-warehouse.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Inventory<ept id="p1">](inventory-manage-inventory.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Setting Up Warehouse Management<ept id="p1">](warehouse-setup-warehouse.md)</ept><ph id="ph1">   </ph></source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Assembly Management<ept id="p1">](assembly-assemble-items.md)</ept><ph id="ph1">  </ph></source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Design Details: Warehouse Management<ept id="p1">](design-details-warehouse-management.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Working with <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph><ept id="p1">](ui-work-product.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

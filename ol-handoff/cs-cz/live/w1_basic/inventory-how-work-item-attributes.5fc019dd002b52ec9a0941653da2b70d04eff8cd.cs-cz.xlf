@@ -1,0 +1,201 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="inventory-how-work-item-attributes.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-5ae97a8" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9441bee71c6025deed419dec59d3bacf3bdf5e41</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\inventory-how-work-item-attributes.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">577bd281651d0162b943d2437ab06b1b27281a24</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cc3bd2e0e6ffcd017ab46b46d4967d4ffdd56b32</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Set Up Item Attributes and Assign Them to Items| Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Describes how to set up item attribute values, for example, that can be used as search words, and assign them to items and item categories.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Work with Item Attributes</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>When customers inquire about an item, either in correspondence or in an integrated web shop, they may ask or search according to characteristics, such as height and model year.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>To provide this customer service, you can assign item attribute values of different types to your items, which can then be used when searching for items.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>You can also assign item attributes to item categories, which then apply to the items that use the item categories.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Categorize Item<ept id="p1">](inventory-how-categorize-items.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>If you attach pictures to items, the Image Analyzer extension can detect attributes in the image, and suggest the attributes so you can decide whether to assign them.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The extension is ready to go.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>You just need to enable it.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>The Image Analyzer Extension<ept id="p1">](ui-extensions-image-analyzer.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>To create item attributes</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Item Attributes<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Item Attributes<ept id="p1">**</ept> page, choose the <bpt id="p2">**</bpt>New<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Item Attribute<ept id="p1">**</ept> page, fill in the fields as necessary.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>If you select <bpt id="p1">**</bpt>Option<ept id="p1">**</ept> in the <bpt id="p2">**</bpt>Type<ept id="p2">**</ept> field, then you can choose the <bpt id="p3">**</bpt>Item Attribute Values<ept id="p3">**</ept> action to create values for the item attribute.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>To create values for item attributes of type Option<ept id="p1">](inventory-how-work-item-attributes.md#to-create-values-for-item-attributes-of-type-option)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>To create values for item attributes of type Option</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Item Attributes<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Item Attributes<ept id="p1">**</ept> page, select an item attribute of type <bpt id="p2">**</bpt>Option<ept id="p2">**</ept> that you want to create values for, and then choose the <bpt id="p3">**</bpt>Item Attribute Values<ept id="p3">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Item Attribute Values<ept id="p1">**</ept> page, fill in the fields as necessary.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>To assign item attributes to items</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Items<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Items<ept id="p1">**</ept> page, select the item that you want to assign item attributes to, and then choose the <bpt id="p2">**</bpt>Attributes<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Item Attribute Values<ept id="p1">**</ept> page, choose the <bpt id="p2">**</bpt>New<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Choose the lookup button in the <bpt id="p1">**</bpt>Attribute<ept id="p1">**</ept> field and select an existing item attribute.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Alternatively, choose the <bpt id="p1">**</bpt>New<ept id="p1">**</ept> action to first create a new item attribute as explained in <bpt id="p2">[</bpt>To create item attributes<ept id="p2">](inventory-how-work-item-attributes.md#to-create-item-attributes)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Value<ept id="p1">**</ept> field, enter the item attribute value, such as "2010" for the <bpt id="p2">**</bpt>Model Year<ept id="p2">**</ept> attribute.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>For item attributes of type <bpt id="p1">**</bpt>Option<ept id="p1">**</ept>, choose the lookup button in the <bpt id="p2">**</bpt>Value<ept id="p2">**</ept> field and select an item attribute value.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Alternatively, choose the <bpt id="p1">**</bpt>New<ept id="p1">**</ept> action to first create a new item attribute value as explained in <bpt id="p2">[</bpt>To create values for item attributes of type Option<ept id="p2">](inventory-how-work-item-attributes.md#to-assign-item-attributes-to-items)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Repeat steps 4 through 6 for all item attributes that you want to assign to the item.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>To assign item attributes to item categories</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Item Categories<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Item Categories<ept id="p1">**</ept> page, select the item category that you want to assign item attributes to, and then choose the <bpt id="p2">**</bpt>Edit<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Item Category Card<ept id="p1">**</ept> page, on the <bpt id="p2">**</bpt>Attributes<ept id="p2">**</ept> FastTab, choose the <bpt id="p3">**</bpt>New<ept id="p3">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Choose the lookup button in the <bpt id="p1">**</bpt>Attribute<ept id="p1">**</ept> field and select an existing item attribute.</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Alternatively, choose the <bpt id="p1">**</bpt>New<ept id="p1">**</ept> action to first create a new item attribute as explained in <bpt id="p2">[</bpt>To create item attributes<ept id="p2">](inventory-how-work-item-attributes.md#to-create-item-attributes)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Default Value<ept id="p1">**</ept> field, choose the lookup button and select an item attribute value.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Repeat steps 4 and 5 for all item attributes that you want to assign to the item category.</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Item attributes for parent item categories will be inherited to child item categories.</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>This is indicated by the <bpt id="p1">**</bpt>Inherited From<ept id="p1">**</ept> field on the <bpt id="p2">**</bpt>Attributes<ept id="p2">**</ept> FastTab.</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Categorize Items<ept id="p1">](inventory-how-categorize-items.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>To filter by item attributes</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Items<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Items<ept id="p1">**</ept> page, choose the <bpt id="p2">**</bpt>Filter by Attributes<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Filter Items by Attribute<ept id="p1">**</ept> page, choose the lookup button in the <bpt id="p2">**</bpt>Attribute<ept id="p2">**</ept> field and select an item attribute.</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Value<ept id="p1">**</ept> field, choose the lookup button and select an attribute value to filter items by.</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>You can only select values directly for item attributes that have fixed values, such as Color.</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>For item attributes that have variable values, such as Width, you must specify the item attribute value by first selecting a condition.</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>See step 5.</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Value<ept id="p1">**</ept> field for a variable item attribute, choose the lookup button.</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Specify Filter Value<ept id="p1">**</ept> page, in the <bpt id="p2">**</bpt>Condition<ept id="p2">**</ept> field, choose the drop-down arrow and select a condition.</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Value<ept id="p1">**</ept> field, enter an attribute value to filter items by.</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Example<ept id="p1">**</ept>: To filter on items where the material description begins with "blue", fill in the fields as follows: <bpt id="p2">**</bpt>Attribute<ept id="p2">**</ept> field: Material Description, <bpt id="p3">**</bpt>Condition<ept id="p3">**</ept> field: Begins With, <bpt id="p4">**</bpt>Value<ept id="p4">**</ept> field: blue.</source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The items on the <bpt id="p1">**</bpt>Items<ept id="p1">**</ept> page are filtered by the specified item attribute values.</source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Categorize Items<ept id="p1">](inventory-how-categorize-items.md)</ept><ph id="ph1">  </ph></source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Register New Items<ept id="p1">](inventory-how-register-new-items.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Inventory<ept id="p1">](inventory-manage-inventory.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Working with <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph><ept id="p1">](ui-work-product.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,174 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-15c36f0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b10995edffd00b29615e48a7a87ccf98c9fcbf80</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">financials\receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fe942b8c76311ccc7a23aa70c49f37bf388c7031</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ec6a93fb44218f3562d6e0add1e3701b10819c68</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Setting Up Text-to-Account Mapping for Recurring Payments | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Link text on payments with specific accounts, so that payments are posted to the accounts when you post the payment reconciliation journal.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Map Text on Recurring Payments to Accounts for Automatic Reconciliation</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Text-to-Account Mapping<ept id="p1">**</ept> window, which you open from the <bpt id="p2">**</bpt>Payment Reconciliation Journal<ept id="p2">**</ept> window, you can set up mappings between text on payments and specific debit, credit, and balancing accounts so that such payments are posted to the specified accounts when you post the payment reconciliation journal.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Similar functionality exists to reconcile excess amounts on payment reconciliation journal lines on an ad-hoc basis.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Reconcile Payments That Cannot be Applied Automatically<ept id="p1">](receivables-how-reconcile-payments-cannot-apply-auto.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Payments posted based on text-to-account mapping are not applied to open entries, but are merely posted to the specified accounts in addition to creating bank account ledger entries.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Accordingly, text-to-account mapping is suited for recurring cash receipts or expenses, such as frequent purchases of car fuel or bank fees and interest, that regularly occur on the bank statement and do not need a related business document.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>For more information, see the “Example - Text-to-Account Mapping for Fuel Expense” section in this topic.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Payments on reconciliation journal lines are only set to posting according to text-to-account mapping if the automatic application function can only provide a match confidence of <bpt id="p1">**</bpt>Low<ept id="p1">**</ept> or <bpt id="p2">**</bpt>Medium<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>If the automatic application function provides a match confidence of High, then the payment is automatically applied to one or more open entries, and the payment is not posted to the accounts specified in the <bpt id="p1">**</bpt>Text-to-Account Mapping<ept id="p1">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>In other words, a match confidence of <bpt id="p1">**</bpt>High<ept id="p1">**</ept> overrules a text-to-account mapping.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>On a payment reconciliation journal line where the payment has been set to posting according to text-to-account mapping, the <bpt id="p1">**</bpt>Match Confidence<ept id="p1">**</ept> field contains <bpt id="p2">**</bpt>High - Text-to-Account Mapping<ept id="p2">**</ept>, and the <bpt id="p3">**</bpt>Account Type<ept id="p3">**</ept> and <bpt id="p4">**</bpt>Account No.<ept id="p4">**</ept> fields contain the mapped accounts.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>To map text on recurring payments to accounts for automatic reconciliation</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Payment Reconciliation Journals<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Open a payment reconciliation journal.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Reconcile Payments Using Automatic Application<ept id="p1">](receivables-how-reconcile-payments-auto-application.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Map Text to Account<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Text-to-Account Mapping<ept id="p1">**</ept> window opens.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Mapping Text<ept id="p1">**</ept> field, enter any text that occurs on payments that you want to post to specified accounts without applying to an open entry.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>You can enter up to 50 characters.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>If no other payments exist with the mapping text in question, then the text-to-account mapping will occur even when only a part of the text on the payment exists as a mapping text.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Vendor No.<ept id="p1">**</ept> field, enter the vendor that the payments will be posted to.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Bal. Source Type<ept id="p1">**</ept> field, specify if the payment will be posted to a general ledger account or to a customer or vendor account.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Bal. Source No.<ept id="p1">**</ept> field, specify the account that the payment will be posted to, depending on your selection in the <bpt id="p2">**</bpt>Bal. Source Type<ept id="p2">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Do not use the <bpt id="p1">**</bpt>Debit Acc. No.<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Credit Acc. No.<ept id="p2">**</ept> fields in connection with payment reconciliation.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>They are used for incoming documents only.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Use OCR to Turn PDF and Image Files into Electronic Documents<ept id="p1">](across-how-use-ocr-pdf-images-files.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Repeat steps 3 through 7 for all text on payments that you want to map to accounts for direct posting without application.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Next time you import a bank statement file or choose the <bpt id="p1">**</bpt>Apply Automatically<ept id="p1">**</ept> action in the <bpt id="p2">**</bpt>Payment Reconciliation Journal<ept id="p2">**</ept> window, journal lines for the payments that contain the specified mapping text will contain the mapped accounts in the <bpt id="p3">**</bpt>Account Type<ept id="p3">**</ept> and <bpt id="p4">**</bpt>Account No.<ept id="p4">**</ept> fields.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Match Confidence<ept id="p1">**</ept> field will contain <bpt id="p2">**</bpt>High - Text-to-Account Mapping<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>This is on the condition that the automatic application function can only provide a match confidence of <bpt id="p1">**</bpt>Low<ept id="p1">**</ept> or <bpt id="p2">**</bpt>Medium<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Example: Text-to-Account Mapping for Fuel Expense</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>To always post fuel expenses incurred at Shell gas stations to the general ledger account for gasoline (account 8510), fill a line in the <bpt id="p1">**</bpt>Text-to-Account Mapping<ept id="p1">**</ept> window as follows.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Mapping Text</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Debit Acc. No.</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Credit Acc. No.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Bal. Source Type</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Bal. Source No.</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Shell</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>BLANK</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>8510</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>G/L Account</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>BLANK</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>For more information about how to work with fields and columns, see <bpt id="p1">[</bpt>Working with <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_long_md.md)]</ph><ept id="p1">](ui-work-product.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>For more information about how to find specific pages, see <bpt id="p1">[</bpt>Search<ept id="p1">](ui-search.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Managing Receivables<ept id="p1">](receivables-manage-receivables.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Sales<ept id="p1">](sales-manage-sales.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Set Up the Envestnet Yodlee Bank Feeds Service<ept id="p1">](bank-how-setup-bank-statement-service.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Customizing <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> Using Extensions<ept id="p1">](ui-extensions.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Working with <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph><ept id="p1">](ui-work-product.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

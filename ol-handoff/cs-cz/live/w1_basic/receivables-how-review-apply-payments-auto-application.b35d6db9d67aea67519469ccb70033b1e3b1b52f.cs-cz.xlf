@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="receivables-how-review-apply-payments-auto-application.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-15c36f0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4c08964edce0409e7766138c3d30f8bd06b816f7</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">financials\receivables-how-review-apply-payments-auto-application.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">42504073cf67f2012b42a48fab66cbdc3b7708ae</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c426e39d856f7b96483ddf20d8631cac4eab2807</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Verify Automatically Applied Payments, and Reapply Payments Manually | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>After payments are applied automatically, you can review all the entries for a payment and manually reapply those that were applied incorrectly.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Review or Apply Payments Manually After Automatic Application</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>For each journal line representing a payment in the <bpt id="p1">**</bpt>Payment Reconciliation Journal<ept id="p1">**</ept> window, you can open the <bpt id="p2">**</bpt>Payment Application<ept id="p2">**</ept> window to see all candidate open entries for the payment and view detailed information for each entry about the data matching that a payment application is based on.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Here, you can manually apply payments or reapply payments that were applied automatically to a wrong entry.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>For more information about automatic application, see <bpt id="p1">[</bpt>Reconcile Payments Using Automatic Application<ept id="p1">](receivables-how-reconcile-payments-auto-application.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>When the bank account that you are reconciling payments for is set up for the local currency, then the <bpt id="p1">**</bpt>Payment Application<ept id="p1">**</ept> window will show all open entries in the local currency, including open entries for documents that were originally invoiced in foreign currencies.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Payments applied to entries with converted currencies may therefore be posted with different amounts than on the original document because of the potentially different exchange rates used by the bank and <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph> respectively.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Therefore, we recommend that you look for foreign currency codes in the <bpt id="p1">**</bpt>Currency Code<ept id="p1">**</ept> field in the <bpt id="p2">**</bpt>Payment Application<ept id="p2">**</ept> window to check if applications are based on converted currencies.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>To review the original document amount in the foreign currency and to see the exchange rate used, choose the <bpt id="p1">**</bpt>Applies-to Entry No.<ept id="p1">**</ept> field, and then, on the shortcut menu, choose the drilldown button to open the <bpt id="p2">**</bpt>Customer Ledger Entries<ept id="p2">**</ept> or <bpt id="p3">**</bpt>Vendor Ledger Entries<ept id="p3">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Any gains-and-loss adjustment required due to currency conversions is not handled automatically by <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You cannot apply entries with a different sign than the sign on the payment.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>For example, to close both a negative-sign credit memo and its related positive-sign invoice, you must first apply the credit memo to the invoice, and then apply the payment to the invoice with the reduced remaining amount.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>If you use payment discounts, and if the payment date is before the payment due date, then the <bpt id="p1">**</bpt>Remaining Amt. Incl. Discount<ept id="p1">**</ept> field in the <bpt id="p2">**</bpt>Payment Application<ept id="p2">**</ept> window will be used for matching.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Otherwise, the value in the <bpt id="p1">**</bpt>Remaining Amount<ept id="p1">**</ept> field will be used.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>If the payment was made with a discounted amount after the payment due date, or the full amount was paid but a discount was granted, then the amount will not be matched.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>You can only apply a payment to one account.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>If you want to split the application on multiple open entries, for example to apply a lump-sum payment, then the open entries must be for the same account.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>For more information, see steps 7 and 8 in the procedure in this topic.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>To review or apply payments after automatic application</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Payment Reconciliation Journals<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Open the payment reconciliation journal for a bank account that you want to reconcile payments for.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Reconcile Payments Using Automatic Application<ept id="p1">](receivables-how-reconcile-payments-auto-application.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Payment Reconciliation Journal<ept id="p1">**</ept> window, select a payment that you want to review or manually apply to one or more open entries, and then choose the <bpt id="p2">**</bpt>Apply Manually<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>Applied<ept id="p1">**</ept> check box on the line for the open entry that you want to apply the payment to.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The payment amount, which is also shown in the <bpt id="p1">**</bpt>Transaction Amount<ept id="p1">**</ept> field in the <bpt id="p2">**</bpt>Payment Application<ept id="p2">**</ept> window, is inserted in the <bpt id="p3">**</bpt>Applied Amount<ept id="p3">**</ept> field, but you can modify the field, for example if you want to apply the amount to several open entries.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>To apply a part of the paid amount to another open entry for the account, for example to apply a lump-sum payment, select the <bpt id="p1">**</bpt>Applied<ept id="p1">**</ept> check box for the line.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The applied amount is automatically deducted from the transactions amount to reflect the distribution on the two open entries.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>To apply a part of a payment to one or more open entries that does not exist in the database, create a new line under the line for the same account.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Applied Amount<ept id="p1">**</ept> field, enter the amount to apply on the new line, and then adjust the <bpt id="p2">**</bpt>Applied Amount<ept id="p2">**</ept> field on the existing line.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Repeat steps 5, 6, or 7 for other open entries that you want to apply a full or partial payment amount to.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>When you have reviewed a payment application or manually applied to one or more open entries, choose the <bpt id="p1">**</bpt>Accept Application<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Payment Application<ept id="p1">**</ept> window  closes, and in the <bpt id="p2">**</bpt>Payment Reconciliation Journal<ept id="p2">**</ept> window, the value in the <bpt id="p3">**</bpt>Match Confidence<ept id="p3">**</ept> field is changed to <bpt id="p4">**</bpt>Accepted<ept id="p4">**</ept> to indicate to you that you have reviewed or manually applied the payment.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Managing Receivables<ept id="p1">](receivables-manage-receivables.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Sales<ept id="p1">](sales-manage-sales.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Working with <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph><ept id="p1">](ui-work-product.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

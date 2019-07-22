@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="admin-manage-documents.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-435fba6" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5cc49d8b17a56c8f19926cf33e63467005d4788c</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\admin-manage-documents.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3ee8516c688c74dae3e28c57467a90d7f3c7a0c6</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">48ea50c4b47033c21502f8c280882eda9a8c2994</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Manage, delete, or compress documents | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Keep your historical data or delete it.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Manage Documents</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>A central role, such as the application administrator, must regularly deal with accumulating historic documents by deleting or compressing them.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Delete Documents</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>In certain situations, you may need to delete invoiced purchase orders that have not been deleted.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> checks that you have fully invoiced the deleted purchase orders.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>You cannot delete orders that you have not fully invoiced and received.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Return orders are usually deleted after they are invoiced.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>When you post an invoice, it is transferred to the <bpt id="p1">**</bpt>Posted Purchase Credit Memo<ept id="p1">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>If you selected the <bpt id="p1">**</bpt>Return Shipment on Credit Memo<ept id="p1">**</ept> check box on the <bpt id="p2">**</bpt>Purchases &amp; Payable Setup<ept id="p2">**</ept> page, then the invoice is transferred to the <bpt id="p3">**</bpt>Posted Return Shipment<ept id="p3">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You can delete the documents using the <bpt id="p1">**</bpt>Delete Invd Purch. Ret. Orders<ept id="p1">**</ept> batch job.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Before deleting, the batch job checks if the purchase return orders are fully shipped and invoiced.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Blanket purchase orders are not deleted after you have processed and invoiced all the related purchase orders.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You can delete blanket orders with the <bpt id="p1">**</bpt>Delete Invoiced Blanket Purchase Orders<ept id="p1">**</ept> batch job.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Invoiced service orders are usually deleted automatically after having been fully invoiced.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>When an invoice is posted, a corresponding entry is created on the <bpt id="p1">**</bpt>Posted Service Invoices<ept id="p1">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The posted document can be viewed on the <bpt id="p1">**</bpt>Posted Service Invoice<ept id="p1">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Service orders are not deleted automatically, however, if the total quantity on the order has been posted not from the service order itself, but from the <bpt id="p1">**</bpt>Service Invoice<ept id="p1">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Then you may need to delete invoiced orders that were not deleted.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>You can do this by running the <bpt id="p1">**</bpt>Delete Invoiced Service Orders<ept id="p1">**</ept> batch job.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Administration<ept id="p1">](admin-setup-and-administration.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

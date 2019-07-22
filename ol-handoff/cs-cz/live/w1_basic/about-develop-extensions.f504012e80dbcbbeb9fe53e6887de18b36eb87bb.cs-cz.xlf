@@ -1,0 +1,168 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="about-develop-extensions.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-964a5eb" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">73a0b8900e7eca355f0dcf3dbe8a0cb14fceca4c</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">financials\about-develop-extensions.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f18347ec15491718948049415245ae196e598165</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">33c22e8fa3a26637a99d2f42dd8fa8be0ffe5294</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Customize Dynamics 365 Business Central | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Build, showcase, and promote your apps and extensions for Business Central .</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Extending <ph id="ph1">[!INCLUDE [d365fin_long](includes/d365fin_long_md.md)]</ph></source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>There are plenty of benefits of using <ph id="ph1">[!INCLUDE [d365fin_long](includes/d365fin_long_md.md)]</ph> as a platform for App builders:</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Enrich <ph id="ph1">[!INCLUDE [d365fin_long](includes/d365fin_long_md.md)]</ph>, a proven Microsoft online solution, with your expertise</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Leverage the Finance and Operations, Business edition brand – a brand that millions of users know and trust</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Reach more customers for your business apps with <bpt id="p1">[</bpt>Microsoft AppSource<ept id="p1">](https://appsource.microsoft.com/)</ept></source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Achieve more with a platform that delivers a modern experience and offers scale</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Bundle with intelligent business apps such as PowerApps, Flow, Power BI, Cortana Intelligence, and many more</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>To bring your <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph> app into AppSource:</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Create your accounts</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>We want you to have access to all the necessary tools!</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>You must have a Microsoft Partner Network ID, a Developer account, and a PSBC account.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>For more information about how you can get your accounts in place, get the <bpt id="p1">[</bpt>Create your accounts.pdf<ept id="p1">](https://go.microsoft.com/fwlink/?linkid=841514)</ept> document from the Download Center.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Engage with us about your app idea</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Share your <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph> app idea with us on Microsoft AppSource!</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>After submitting your idea, we will engage with you and provide you with everything you need to start working on your app.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>For more information about all the steps, get the <bpt id="p1">[</bpt>Engage with us about your app idea document.pdf<ept id="p1">](https://go.microsoft.com/fwlink/?linkid=841515)</ept> document from the Download Center.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Develop the technical aspects of your app</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>After you have set up your own app development environment, you can develop your app.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>For more information about everything you need to know about how to develop the technical aspects of your <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph> app, get the <bpt id="p1">[</bpt>Develop the technical aspects of your app.pdf<ept id="p1">](https://go.microsoft.com/fwlink/?linkid=841516)</ept> document from the Download Center.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Develop the marketing aspects of your app</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Simply listing your app's features and functionality will not convert prospects to buyers.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>For more information about how to best market your app in the AppSource marketplace, get the <bpt id="p1">[</bpt>Develop the marketing aspects of your app.pdf<ept id="p1">](https://go.microsoft.com/fwlink/?linkid=841518)</ept> from the Download Center.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Publish your app</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Before we publish, we will collaborate with you to ensure that your app stands out on Microsoft AppSource and on your own landing page!</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>We need to validate your app to ensure it is marketed well, trustworthy, and up to date.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>For more information about the validation process and how to publish your app, get the <bpt id="p1">[</bpt>Publish your app.pdf<ept id="p1">](https://go.microsoft.com/fwlink/?linkid=841517)</ept> document from the Download Center.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Learn more about extensions v2.0</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The new development tools, which enable to you to build extensions v2.0, are currently in preview and will be enabled in the Business Central  service soon.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>If you already want to familiarize yourself with the new tools or learn more about extensions 2.0, have a look at <bpt id="p1">[</bpt>aka.ms/GetStartedWithApps<ept id="p1">](http://aka.ms/GetStartedWithApps)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Need help?</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>If you would like some coaching, you can contact an app subject matter expert from the following list:</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Cloud Ready Software, <bpt id="p1">[</bpt><ph id="ph1">http://cloud-ready-software.com</ph><ept id="p1">](http://cloud-ready-software.com/)</ept></source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Dynamics App Alliance, <bpt id="p1">[</bpt><ph id="ph1">http://dynamicsappalliance.com</ph><ept id="p1">](http://dynamicsappalliance.com/)</ept></source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Partners in this list:</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Are listed alphabetically</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Are assisting or have assisted a minimum of three partners with bringing apps into Microsoft AppSource</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Have a packaged service available (and listed on their website) about the app guidance that they provide</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>If you believe you should be listed as an app service partner, don't hesitate to reach out to <bpt id="p1">[</bpt><ph id="ph1">d365-smb@microsoft.com</ph><ept id="p1">](mailto:d365-smb@microsoft.com)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Questions?</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>This <bpt id="p1">[</bpt>FAQ<ept id="p1">](https://go.microsoft.com/fwlink/?linkid=841520)</ept> responds to the most common questions you might have about apps for <ph id="ph1">[!INCLUDE [d365fin_long](includes/d365fin_long_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>If you have further questions, don't hesitate to contact your local Microsoft representative or email <bpt id="p1">[</bpt><ph id="ph1">d365-smb@microsoft.com</ph><ept id="p1">](mailto:d365-smb@microsoft.com )</ept>.</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Further Resources</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Please find further resources for app development on our <bpt id="p1">[</bpt>DLP topic page<ept id="p1">](https://mbspartner.microsoft.com/BFI/Topic/76)</ept> DLP topic page.</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Some selected ones are available below:</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>User Registration and Subsequent Billing <ept id="p1">](http://download.microsoft.com/download/3/2/0/320D0286-8810-4A8F-B7DD-523ED87D441B/FAQ on apps for Dynamics 365 for Financials.pdf)</ept></source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Welcome to <ph id="ph1">[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]</ph><ept id="p1">](index.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Customizing <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> Using Extensions<ept id="p1">](ui-extensions.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,348 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="finance-how-setup-report-intrastat.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-435fba6" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b75d709933cd9d147a9b5e0862a88a44a300f3c1</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\finance-how-setup-report-intrastat.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8972db93bd5540a174721c2aea601d3fa5566c5d</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6fd2191d9328a11b1ceff7db24256f6fa7c5cba8</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Set Up and Report Intrastat| Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Learn how to set up Intrastat reporting features, and how to report trade with companies in other EU countries.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>How To: Set Up and Report Intrastat</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>All companies in the European Union must report their trade with other EU countries/regions.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>You must report the movement of goods to the statistics authorities in your country/region every month, and the report must be delivered to the tax authorities.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>This is referred to as Intrastat Reporting.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You use the <bpt id="p1">**</bpt>Intrastat Journal<ept id="p1">**</ept> page to complete periodic Intrastat reports.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Required and Optional Setups</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Before you can use the Intrastat journal to report Intrastat information, there are several things you must set up:</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Intrastat journal templates<ept id="p1">**</ept>: You must set up the Intrastat journal templates and batches you will use.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Because Intrastat is reported monthly, you must create 12 Intrastat journal batches based on the same template.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Commodity codes<ept id="p1">**</ept>: Customs and tax authorities have established numerical codes that classify items and services.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>You specify these codes on items.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Transaction nature codes<ept id="p1">**</ept>: Countries and regions have different codes for types of Intrastat transactions, such as ordinary purchase and sale, exchange of returned goods, and exchange of non-returned goods.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Set up all of the codes that apply to your country/region.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>You use these codes on sales and purchase documents, and when you process returns.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Transport methods<ept id="p1">**</ept>: There are seven, one-digit codes for Intrastat transport methods.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>1<ept id="p1">**</ept> for sea, <bpt id="p2">**</bpt>2<ept id="p2">**</ept> for rail, <bpt id="p3">**</bpt>3<ept id="p3">**</ept> for road, <bpt id="p4">**</bpt>4<ept id="p4">**</ept> for air, <bpt id="p5">**</bpt>5<ept id="p5">**</ept> for post, <bpt id="p6">**</bpt>7<ept id="p6">**</ept> for fixed installations, and <bpt id="p7">**</bpt>9<ept id="p7">**</ept> for own propulsion (for eample, transporting a car by driving it).</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> does not require these codes, however, we recommend that the descriptions provide a similar meaning.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Optionally, you can also set up:</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Transaction specifications<ept id="p1">**</ept>: Use these to supplement the descriptions from the transaction types.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Areas<ept id="p1">**</ept>: Use these to supplement information about countries and regions.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Entry/exit points<ept id="p1">**</ept>: Use these to specify the locations where you ship or receive items to or from other countries.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Heathrow Airport is an example of an entry or exit point.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>You enter entry or exit points on sales and purchase documents on the <bpt id="p1">**</bpt>Foreign Trade<ept id="p1">**</ept> FastTab.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>This information will also be copied from the item entries when you create the Intrastat journal.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>To set up Intrastat templates and batches</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The Intrastat batch jobs include only item entries, and not general ledger entries.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>If you have general ledger entries that qualify for Intrastat reporting, you must enter them manually.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>For example, if you purchase a computer from another EU country or region, the computer is not placed in inventory, but is posted to a general ledger account.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>You must manually enter this type of entry in the Intrastat journal.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>You can export the entries to a file that you can send to your Intrastat authorities.</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>You can also print a report, manually enter the information on the forms from your authorities, and then submit the information.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>We recommended that you set up an Intrastat journal batch for each month.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Intrastat Journal Templates<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Fill in the fields as necessary.</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Create a template for each Intrastat form you use.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>To create batches, choose the <bpt id="p1">**</bpt>Navigate<ept id="p1">**</ept> tab, and then choose <bpt id="p2">**</bpt>Batches<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Fill in the fields as necessary.</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Create a template for each Intrastat form you use..</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Statistics Period<ept id="p1">**</ept> field, enter the statistics period as a four-digit number, where the first two digits represent the year and the next two digits represent the month.</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>For example, enter 1706 for June, 2017.</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>To set up commodity codes</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>All items that you buy or sell must have a commodity code.</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Commodity Codes<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Fill in the fields as necessary.</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>To assign a commodity code to an item, go to the <bpt id="p1">**</bpt>Item Card<ept id="p1">**</ept> page, expand the <bpt id="p2">**</bpt>Costs &amp; Posting<ept id="p2">**</ept> FastTab, and then enter the code in the <bpt id="p3">**</bpt>Commodity Code<ept id="p3">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>To set up transaction nature codes</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Transaction Nature Codes<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Fill in the fields as necessary.</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>If you frequently use a particular transaction nature code, you can make it the default.</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>To do this, go to the <bpt id="p1">**</bpt>Intrastat Setup<ept id="p1">**</ept> page, and choose the code.</source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>To set up transport methods</source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Transport Methods<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Fill in the fields as necessary.</source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>To set up which Intrastat report fields are mandatory</source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>In some countries, such as Spain and UK, the authorities require that Intrastat reports include, for example, the shipment method for purchases or some other values when sales is over a certain threshold.</source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Intrastat Setup<ept id="p1">**</ept> page, you can select to make <bpt id="p2">**</bpt>Intrastat Checkist Setup<ept id="p2">**</ept> to set mandatory fields on the <bpt id="p3">**</bpt>Intrastat Journal<ept id="p3">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Intrastat Setup<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Chooes the <bpt id="p1">**</bpt>Intrastat Checklist Setup<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Intrastat Checklist Setup<ept id="p1">**</ept> page, click in the <bpt id="p2">**</bpt>Field Name<ept id="p2">**</ept> to pick Intrastat report field you want to make mandatory.</source>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>To Report Intrastat</source>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>After you fill in the Intrastat journal, you can run the <bpt id="p1">**</bpt>Checklist report<ept id="p1">**</ept> action to make sure that that all information in the journal is correct.</source>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Mandatory fields you have set in <bpt id="p1">**</bpt>Intrastat Checklist Setup<ept id="p1">**</ept> page that are missing values, will be shown in Errors and warning factbox on <bpt id="p2">**</bpt>Intrastat Journal<ept id="p2">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Afterward, you can print an Intrastat report as a form, or create a file to submit to the tax authority in your country/region.</source>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>To fill in Intrastat journals</source>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Intrastat Journal<ept id="p3">**</ept> and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Intrastat Journal<ept id="p1">**</ept> page, in the <bpt id="p2">**</bpt>Batch Name<ept id="p2">**</ept> field, choose the relevant journal batch, and then choose <bpt id="p3">**</bpt>OK<ept id="p3">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Suggest Lines<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Starting Date<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Ending Date<ept id="p2">**</ept> fields will already contain the dates specified for the statistics period on the journal batch.</source>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Cost Regulation %<ept id="p1">**</ept> field, you can enter a percentage to cover transport and insurance.</source>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>If you enter a percentage, the content of the <bpt id="p1">**</bpt>Statistical Value<ept id="p1">**</ept> field in the journal is proportionally higher.</source>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> to start the batch job.</source>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The batch job retrieves all the item entries in the statistics period and inserts them as lines in the Intrastat journal.</source>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>You can edit the lines if needed.</source>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The batch job retrieves only the entries that contain a country/region code for which an Intrastat code has been entered on the <bpt id="p1">**</bpt>Countries/Regions<ept id="p1">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Therefore, you must enter Intrastat codes for the country/region codes for which you will run the batch job.</source>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Report Intrastat on a form or a file</source>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>To get the information that is required on the Intrastat form from the statistical authorities, you must print the <bpt id="p1">**</bpt>Intrastat – Form<ept id="p1">**</ept> report.</source>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Before you can do this, you must prepare the Intrastat journal and fill it in.</source>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>If you have both sales and purchase transactions, you must complete a separate form for each type, so that you must print the report two times.</source>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Intrastat Journals<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Intrastat Journal<ept id="p1">**</ept> page, choose the relevant journal batch in the <bpt id="p2">**</bpt>Batch Name<ept id="p2">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>If you have not already done this, fill in the journal manually or choose <bpt id="p1">**</bpt>Suggest Lines<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Prints Intrastat Journal<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Intrastat Jnl. Line<ept id="p1">**</ept> FastTab, add a <bpt id="p2">**</bpt>Type<ept id="p2">**</ept> filter and then specify whether this is a <bpt id="p3">**</bpt>Receipt<ept id="p3">**</ept> or a <bpt id="p4">**</bpt>Shipment<ept id="p4">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>Send to<ept id="p1">**</ept> to print the report.</source>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Report Intrastat in a file</source>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>You can submit the Intrastat report as a file.</source>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Before creating the file, you can print a checklist that contains the same information that will be in the file.</source>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Intrastat Journal<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Intrastat Journal<ept id="p1">**</ept> page, select the relevant journal batch in the <bpt id="p2">**</bpt>Batch Name<ept id="p2">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>If you have not already done this, fill in the journal manually or by choosing <bpt id="p1">**</bpt>Suggest Lines<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Create File<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>In the batch job page, choose <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>Save<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Browse to the location where you want to save the file, enter the file name, and then choose <bpt id="p1">**</bpt>Save<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Reorganize Intrastat Journals</source>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Because you must submit an Intrastat report every month, and you create a new journal batch for each report, you will eventually have many journal batches.</source>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>The journal lines are not deleted automatically.</source>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>You may want to reorganize the journal batch names periodically.</source>
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>You do this by deleting the journal batches that you no longer need.</source>
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>The journal lines in these batches are also deleted.</source>
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Intrastat Journals<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>To view the options, choose the <bpt id="p1">**</bpt>Batch Name<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Choose the journal batches to deleted, and then choose <bpt id="p1">**</bpt>Delete<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Financial Management<ept id="p1">](finance.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

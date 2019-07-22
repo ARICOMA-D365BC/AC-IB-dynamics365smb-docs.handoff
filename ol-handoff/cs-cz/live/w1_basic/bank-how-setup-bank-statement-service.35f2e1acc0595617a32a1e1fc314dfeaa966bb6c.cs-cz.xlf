@@ -1,0 +1,297 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="bank-how-setup-bank-statement-service.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-5ae97a8" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ea1641dd475d28fb02dda354bbf287d508e96854</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\bank-how-setup-bank-statement-service.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0302bce9e5906673b724d6cde9936b3a1aedb849</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">90d6f2a2d549ddcccea2ee2ee3b89961bb40b384</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Set Up Yodlee Bank Feeds| Microsoft Docs'</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>You can convert payment information to any data format that your bank requires and enable the export or import of bank files.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Set Up the Envestnet Yodlee Bank Feeds Service</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You can import electronic bank statements from your bank to quickly fill on the <bpt id="p1">**</bpt>Payment Reconciliation Journal<ept id="p1">**</ept> page so you can apply payments and reconcile the bank account.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Applying Payments Automatically and Reconciling Bank Accounts<ept id="p1">](receivables-apply-payments-auto-reconcile-bank-accounts.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The Envestnet Yodlee Bank Feeds service is installed as an extension to <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> and is ready to be enabled.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Customizing <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> Using Extensions<ept id="p1">](ui-extensions.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The Envestnet Yodlee Bank Feeds service is only supported in the US, Canada, and UK.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The functionality is only supported in the online version of Business Central.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>To use this functionality on-premise, you must obtain a cobrand account from Envestnet Yodlee.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>After you enable the bank feed service, you must link a bank account to the online bank account that the feed will come from.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You link bank accounts to online bank accounts in the following different scenarios:</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>A bank account does not exist in <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> for your online bank account.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Therefore, you create the bank account by linking from the online bank account.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>A bank account exists in <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>, which you want to link to an online bank account.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>A linked bank account must be unlinked because you want to stop using the bank feed service for the account.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Online bank accounts have changed and you want to update the information on bank accounts in <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>When the bank feed service is enabled, you can set a bank account up to automatically import new bank statements into the <bpt id="p1">**</bpt>Payment Reconciliation Journal<ept id="p1">**</ept> page every two hour.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Transactions for payments that have already been posted as applied and/or reconciled on the <bpt id="p1">**</bpt>Payment Reconciliation Journal<ept id="p1">**</ept> page will not be imported.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>For more information, see the “To enable automatic import of bank statements” section.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>If you use the Set Up Company assisted setup, some of the steps in the following procedures happen automatically when you get to the company bank account setup.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Getting Started<ept id="p1">](product-get-started.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>To enable the bank feed service</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Bank Accounts<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Open the bank account that you will use for the bank feed service.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Bank Account<ept id="p1">**</ept> page, in the <bpt id="p2">**</bpt>Bank Statement Import Format<ept id="p2">**</ept> field, select YODLEEBANKFEED.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The bank feed service will be enabled when you link a bank account to its related online bank account.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>See the next procedure.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>If you use the <bpt id="p1">**</bpt>Company Setup<ept id="p1">**</ept> assisted setup guide, then you enable the service by selecting the <bpt id="p2">**</bpt>Use a bank feed service<ept id="p2">**</ept> check box.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Creating New Companies in Business Central<ept id="p1">](about-new-company.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>To create a new linked bank account</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Bank Accounts<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Select the relevant bank account, and then choose the <bpt id="p1">**</bpt>Create New Linked Bank Account<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Bank Account Linking<ept id="p1">**</ept> page opens after a few moments.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>This page shows the actual web page of the Envestnet Yodlee Bank Feeds service.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Terminology and functionality on the page may not match instructions provided in this topic.</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Online Bank Account Linking<ept id="p1">**</ept> page, in the <bpt id="p2">**</bpt>Link Account<ept id="p2">**</ept> pane, use the Search function to find the bank where you have one or more online bank accounts.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Choose the bank name.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Log In<ept id="p1">**</ept> pane opens.</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Enter the username and password that you use to log on to the online bank, and then choose the <bpt id="p1">**</bpt>Next<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The bank feed service prepares to link the first online bank account at the specified bank to a new bank account in <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>If you have more than one online bank account at the bank, you must create additional bank accounts in <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> for them.</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>See steps 8 through 10.</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>After the process completes, the bank name will appear in the <bpt id="p1">**</bpt>My Accounts<ept id="p1">**</ept> pane on the <bpt id="p2">**</bpt>Linked<ept id="p2">**</ept> tab. The number in brackets indicates how many online bank accounts were linked.</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>If you are only linking one online bank account, the <bpt id="p1">**</bpt>Bank Account Card<ept id="p1">**</ept> page opens and displays the name of the online bank account.</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>In this case, the bank account linking task is completed.</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>All that's left to do is to set up the bank account.</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Set Up Bank Accounts<ept id="p1">](bank-how-setup-bank-accounts.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>If you are linking more than one online bank accounts, the <bpt id="p1">**</bpt>Bank Account Linking<ept id="p1">**</ept> page opens and lists the online bank accounts that are not yet linked to bank accounts in <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>In that case, follow the next step.</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Bank Account Linking<ept id="p1">**</ept> page, select the line for an online bank account, and then choose the <bpt id="p2">**</bpt>Link to New Bank Account<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Bank Account Card<ept id="p1">**</ept> page for a new bank account opens and displays the name of the online bank account.</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>If a bank account already exists in <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> that you want to link the additional online bank account to, follow the next step.</source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Bank Account Linking<ept id="p1">**</ept> page, select the line for an online bank account, and then choose the <bpt id="p2">**</bpt>Link to Existing Bank Account<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Bank Account List<ept id="p1">**</ept> page, select the bank account that you want to link to, and then choose the <bpt id="p2">**</bpt>OK<ept id="p2">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>To link a bank account to an online bank account</source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Bank Accounts<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Select the line for a bank account that is not linked to an online bank account, and then choose the <bpt id="p1">**</bpt>Link to Online Bank Account<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Online Bank Account Linking<ept id="p1">**</ept> page opens with the name of the bank prefilled in the <bpt id="p2">**</bpt>Link Account<ept id="p2">**</ept> pane.</source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Choose the bank name.</source>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Log In<ept id="p1">**</ept> pane opens.</source>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Enter the username and password that you use to log on to the online bank, and then choose the <bpt id="p1">**</bpt>Next<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The bank feed service prepares to link your bank account in <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> to the related online bank account.</source>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>When the process has completed successfully, the bank name will appear in the <bpt id="p1">**</bpt>My Accounts<ept id="p1">**</ept> pane on the <bpt id="p2">**</bpt>Linked<ept id="p2">**</ept> tab. If the bank has more than one bank account, only the bank account that you selected in step 2 is linked.</source>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Bank Account List<ept id="p1">**</ept> page, the <bpt id="p2">**</bpt>Linked<ept id="p2">**</ept> check box is selected.</source>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>To unlink a bank account</source>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Bank Accounts<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Select the line for a linked bank account that you want to unlink from its related online bank account, and the choose the <bpt id="p1">**</bpt>Unlink Online Bank Account<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>If you choose <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept> on the confirmation dialog, the link to the online bank account is removed, and the log-in details are cleared.</source>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>To link the bank account to the online bank account again, you must log on to the bank again.</source>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>For more information, see the “To link a bank account to an online bank account“ section.</source>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>To update bank account linking</source>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Bank Accounts<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Select the relevant bank account, and then choose the <bpt id="p1">**</bpt>Update Bank Account Linking<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>If issues exist for any of the linked bank accounts on the <bpt id="p1">**</bpt>Bank Account List<ept id="p1">**</ept> page, the <bpt id="p2">**</bpt>Bank Account Linking<ept id="p2">**</ept> page opens specifying which bank accounts have issues.</source>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Issues can best be resolved by unlinking the online bank account and then re-creating the link.</source>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>For more information, see the “To link a bank account to an online bank account“ section.</source>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>To enable automatic import of bank statements</source>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Bank Accounts<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Select the line for a linked bank account, and then choose the <bpt id="p1">**</bpt>Automatic Bank Statement Import Setup<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Automatic Bank Statement Import Setup<ept id="p1">**</ept> page, in the <bpt id="p2">**</bpt>Number of Days Included<ept id="p2">**</ept> field, specify how far back in time to get new bank transactions for.</source>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>It is recommended that you set this value to 7 days or more.</source>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>Enabled<ept id="p1">**</ept> check box.</source>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Every hour, the <bpt id="p1">**</bpt>Payment Reconciliation Journal<ept id="p1">**</ept> page will display new payments that are made on the online bank account.</source>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Transactions for payments that have already been posted as applied and/or reconciled on the <bpt id="p1">**</bpt>Payment Reconciliation Journal<ept id="p1">**</ept> page will not be imported.</source>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Setting Up Banking<ept id="p1">](bank-setup-banking.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Managing Bank Accounts<ept id="p1">](bank-manage-bank-accounts.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Applying Payments Automatically and Reconciling Bank Accounts<ept id="p1">](receivables-apply-payments-auto-reconcile-bank-accounts.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Customizing <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> Using Extensions <ept id="p1">](ui-extensions.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Working with <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph><ept id="p1">](ui-work-product.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

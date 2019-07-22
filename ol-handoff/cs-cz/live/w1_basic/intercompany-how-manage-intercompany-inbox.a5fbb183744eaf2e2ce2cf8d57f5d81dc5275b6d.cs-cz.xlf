@@ -1,0 +1,225 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="intercompany-how-manage-intercompany-inbox.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-15c36f0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">446357ae219555e402fd30962071ec23c08b552d</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">financials\intercompany-how-manage-intercompany-inbox.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8826d365a553a8bab756193e6fcc973a0d6273d1</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c762453b758009e6ad7741e334ca1940b631c141</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Process Incoming and Outgoing IC Transactions| Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Intercompany transactions that you receive from your intercompany partners are listed in the intercompany inbox where you process them manually or automatically.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Manage the Intercompany Inbox and Outbox</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>All of the intercompany transactions that you receive electronically from your intercompany partners are listed in the intercompany Inbox.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Organizing the Inbox</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>You can use the filter fields at the top of the inbox window to determine which transactions are shown in the window.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>For example, if you only want to look at transactions a particular partner created, you can enter filters in the <bpt id="p1">**</bpt>Transaction Source<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Intercompany Partner Code<ept id="p2">**</ept> filters.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Transaction Source</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>What you can do with a transaction depends whether it was:</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Created by your intercompany partner</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Rejected by your intercompany partner and returned to you</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You can use the <bpt id="p1">**</bpt>Show Transaction Source<ept id="p1">**</ept> field to filter the <bpt id="p2">**</bpt>Intercompany Inbox Transactions<ept id="p2">**</ept> window so that it displays only one of these types of transactions.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>(You can also filter by intercompany partner, or by the contents of the <bpt id="p1">**</bpt>Line Action<ept id="p1">**</ept> field.)</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Created by Intercompany Partner</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>When you receive a new transaction that was created by your partner, you can choose to either:</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Accept the transaction</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Reject the transaction (Return to partner)</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Cancel the transaction (Delete the transaction but do not return it to your partner)</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Returned from Intercompany Partner</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>If the transaction was rejected by your intercompany partner, your only choice is to cancel the transaction in the inbox.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Then you must create correction lines or reverse the journal or document in your company.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Re-creating Inbox Entries</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>If you accepted a transaction in your inbox but then deleted the document or journal instead of posting it, you can re-create the inbox entry and accept it again.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Getting an Overview of Intercompany Transactions for a Period</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>You can get an overview of all of the intercompany transactions that you have sent and received in a period.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Intercompany Transactions<ept id="p1">**</ept> report lists all intercompany G/L entries, customer ledger entries, and vendor ledger entries.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>If the intercompany partners are in the same database, then transactions are transferred without the need for file or email.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>See the <bpt id="p1">**</bpt>Transfer Type<ept id="p1">**</ept> field in the <bpt id="p2">**</bpt>Intercompany Partner<ept id="p2">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>In that case, you can set the system up to bypass the inbox and outbox by selecting the <bpt id="p1">**</bpt>Auto. Accept Transactions<ept id="p1">**</ept> check box in the <bpt id="p2">**</bpt>Intercompany Partner<ept id="p2">**</ept> window and the <bpt id="p3">**</bpt>Auto. Send Transactions<ept id="p3">**</ept> check box in the <bpt id="p4">**</bpt>Intercompany Setup<ept id="p4">**</ept> window respectively.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>To import intercompany transactions from a file</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>If you have an intercompany partner that is not in the same database as your company, you can receive intercompany transactions from that partner in an .xml file.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Then you must import the transactions into your inbox.</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Company Information<ept id="p3">**</ept> , and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Save the file to the location that you specified in the <bpt id="p1">**</bpt>Intercompany Inbox Details<ept id="p1">**</ept> field in the <bpt id="p2">**</bpt>Company Information<ept id="p2">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Intercompany Inbox Transactions<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Intercompany Inbox Transactions<ept id="p1">**</ept> window, choose the <bpt id="p2">**</bpt>Import Transaction File<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>In the window that appears, select the .xml file that contains the transactions, and then choose the <bpt id="p1">**</bpt>Open<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The transactions are imported into the inbox and you can now process them.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>To process incoming intercompany transactions</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>When your intercompany partners send you intercompany transactions, the transactions end up in your intercompany inbox.</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>You must evaluate each transaction in your inbox and act upon it.</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Intercompany Inbox Transactions<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Intercompany Inbox Transactions<ept id="p1">**</ept> window, select a line, and then choose an action, such as <bpt id="p2">**</bpt>Accept<ept id="p2">**</ept>, to process the line.</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Complete IC Inbox Action<ept id="p1">**</ept> window, fill in the fields as necessary.</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>For lines that you processed with the <bpt id="p1">**</bpt>Accept<ept id="p1">**</ept> action, document or journal lines will be created in your company.</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Open each document or journal, make any necessary changes, and then post them.</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Lines that you processed with the <bpt id="p1">**</bpt>Return to Partner<ept id="p1">**</ept> action will be moved to the outbox from where you can then send them to your partner.</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>For lines that you processed with the <bpt id="p1">**</bpt>Returned by Partner<ept id="p1">**</ept> action, you must now post a correction to the original transaction that you posted in your company.</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>To process outgoing intercompany transactions</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>When you post an intercompany journal or document, or send an intercompany order confirmation, the transactions are sent to your intercompany outbox.</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>In order for them to be sent on to your intercompany partners, you must open the outbox and process them.</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Intercompany Outbox Transactions<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Intercompany Outbox Transactions<ept id="p1">**</ept> window, select a line, and then choose an action, such as <bpt id="p2">**</bpt>Return to Inbox<ept id="p2">**</ept>, to process the line.</source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Lines that you processed with the <bpt id="p1">**</bpt>Send to Intercompany Partner<ept id="p1">**</ept> action will be sent to the relevant partner's inbox.</source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Lines that you processed with the <bpt id="p1">**</bpt>Return to Inbox<ept id="p1">**</ept> action will be moved to the inbox where you can then accept them to create documents or journal lines in your company.</source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>For lines that you processed with the <bpt id="p1">**</bpt>Cancel<ept id="p1">**</ept> action, you must now post a correction to the original transaction that you posted in your company.</source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>To recreate intercompany inbox transactions</source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Occasionally, you may want to re-create a transaction in the inbox or outbox.</source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>For example, if you accepted a transaction in your inbox but then deleted the document or journal instead of posting it, you can re-create the inbox entry and accept it again.</source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The following procedure describes to re-create inbox transactions, but the same steps also apply to the outbox.</source>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Handled IC Inbox Transactions<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Handled IC Inbox Transactions<ept id="p1">**</ept> window, select the line with the transaction that you want to re-create in the inbox, and then choose the <bpt id="p2">**</bpt>Re-create Inbox Transaction<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Managing Intercompany Transactions<ept id="p1">](intercompany-manage.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Finance<ept id="p1">](finance.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Setting Up Finance<ept id="p1">](finance-setup-finance.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Working with General Journals<ept id="p1">](ui-work-general-journals.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Working with <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph><ept id="p1">](ui-work-product.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

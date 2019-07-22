@@ -1,0 +1,222 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="across-how-to-manage-notification-templates.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-15c36f0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c8217da432607538cd452cc26c31daf1b286ad00</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">financials\across-how-to-manage-notification-templates.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0c5be351dc852709164f6e47caa7cc07f9d6da10</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e6ff9ff5cc7d62ed5093f40dd118e2895adb6c37</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>How to Manage Notification Templates | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Notifications are sent to workflow users to notify them about steps they must make or to inform them about the status of workflow steps.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>You set up who receives notification and when by setting up approval users, the users’ notification schedule, and the involved workflow responses to define the notification recipient.</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>For more information, see <bpt id="p1">[</bpt>Setting Up Workflow Notifications<ept id="p1">](across-setting-up-workflow-notifications.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Manage Notification Templates</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Notifications are sent to workflow users to notify them about steps they must make or to inform them about the status of workflow steps.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You set up who receives notification and when by setting up approval users, the users’ notification schedule, and the involved workflow responses to define the notification recipient.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Setting Up Workflow Notifications<ept id="p1">](across-setting-up-workflow-notifications.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Notifications are based on templates that define the content and layout of the notification.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>You can export the content of a notification template, edit it, and then import into the same or a new notification template.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>This is described in the following procedures.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The generic version of <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph> contains three notification templates, one for notifying about approval requests, one for notifying about new records, and one for notifying about overdue approval requests.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The three predefined notification templates support <bpt id="p1">**</bpt>Email<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Note<ept id="p2">**</ept> as notification method.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>To view the content of the three notification templates, see the “Content of the Notification Templates” section in this topic.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>To create a new notification template</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Notification Templates<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Notification Templates<ept id="p1">**</ept> window, choose the <bpt id="p2">**</bpt>New<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Fill the fields as described in the following table.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Field</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Code<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Identify the notification template.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Description<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Describe the notification template.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Notification Method<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Specify if the notification is sent as an email or as a note.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Type<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Specify the business process that the notification will be used for.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Select one of the following types:</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">-   </ph><bpt id="p1">**</bpt>Approval<ept id="p1">**</ept> specifies that the template is used to notify users in approval workflows.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">-   </ph><bpt id="p1">**</bpt>New Record<ept id="p1">**</ept> specifies that the template is to notify approvers when a new record, such as a customer card, needs their approval.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">-   </ph><bpt id="p1">**</bpt>Overdue<ept id="p1">**</ept> specifies that the template is used to notify users about overdue approval requests.</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Default<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Specify if the notification template will be used by default.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>To modify a notification template</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Notification Templates<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Notification Templates<ept id="p1">**</ept> window, select the notification template that you want to modify.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Export Template Content<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Export File<ept id="p1">**</ept> window, choose the <bpt id="p2">**</bpt>Save<ept id="p2">**</ept> button, and then name and save the HTML file in an appropriate location.</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Right-click the file, choose <bpt id="p1">**</bpt>Open with<ept id="p1">**</ept>, and then choose the relevant program.</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Content for notification templates of type Email are in HTML format.</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Content for notification templates of type Note are in TXT format.</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Edit the content of the notification template by adding, changing, or removing parameter variables to define the content that you want, and then save it.</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>For more information, see the “Content of the Notification Templates” section.</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Proceed to import the modified content back into the same or a new notification template.</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>To modify the notification template that you exported, in the <bpt id="p1">**</bpt>Notification Templates<ept id="p1">**</ept> window, select the template that you selected in step 2.</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Alternatively, to import the modified template content into a new notification template, follow the “To create a new notification template” procedure, and then select the new notification template.</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Import Template Content<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>If you are modifying an existing notification template, choose the <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept> button on the message about overwriting the existing template.</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Select a file to import<ept id="p1">**</ept> window, choose the HTML file that you modified in step 6, and then choose the <bpt id="p2">**</bpt>Open<ept id="p2">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The existing or new notification template in the <bpt id="p1">**</bpt>Notification Templates<ept id="p1">**</ept> window is now updated with the modified content.</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Content of the Notification Templates</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The three notification template types, <bpt id="p1">**</bpt>New Record<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Approval<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>Overdue<ept id="p3">**</ept>, have different content.</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Parameter values are automatically inserted in notifications according to the notification template type.</source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>New Record</source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">![</bpt>NAV&amp;#95;notification&amp;#95;template&amp;#95;new&amp;#95;record&amp;#95;type<ept id="p1">]</ept><bpt id="p2">(media/nav_notification_template_new_record.png "</bpt>NAV_notification_template_new_record<ept id="p2">")</ept></source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Approval</source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">![</bpt>NAV&amp;#95;notification&amp;#95;template&amp;#95;approval&amp;#95;type<ept id="p1">]</ept><bpt id="p2">(media/nav_notification_template_approval_type.png "</bpt>NAV_notification_template_approval_type<ept id="p2">")</ept></source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Overdue</source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">![</bpt>NAV&amp;#95;notification&amp;#95;overdue&amp;#95;type<ept id="p1">]</ept><bpt id="p2">(media/nav_notification_overdue_type.png "</bpt>NAV_notification_overdue_type<ept id="p2">")</ept></source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Setting Up Workflow Notifications<ept id="p1">](across-setting-up-workflow-notifications.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Set up Email<ept id="p1">](madeira-how-setup-email.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Set Up Workflow Users<ept id="p1">](across-how-to-set-up-workflow-users.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Set Up Approval Users<ept id="p1">](across-how-to-set-up-approval-users.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Create Workflows<ept id="p1">](across-how-to-create-workflows.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Use Job Queues to Schedule Tasks<ept id="p1">](admin-job-queues-schedule-tasks.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Workflow<ept id="p1">](across-workflow.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,309 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="warehouse-how-to-pick-items-with-inventory-picks.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-435fba6" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4537dbb31768ff681dd71775c3813d23caba599b</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\warehouse-how-to-pick-items-with-inventory-picks.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c2876bdacadbac2e801352d3a277f261825b92bf</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cfbc8863ea054cd18225d0f5d017bbc275b00f2a</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>How to Pick Items with Inventory Picks | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>If a location is set up to require pick processing but not shipment processing, you use the inventory pick documents to record and post picking and shipping information for your source documents.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Pick Items with Inventory Picks</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>When your location is set up to require pick processing but not shipment processing, you use the <bpt id="p1">**</bpt>Inventory Pick<ept id="p1">**</ept> page to record and post picking and shipping information for your source documents.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The outbound source document can be a sales order, a purchase return order, an outbound transfer order, or a production order whose components are ready to be picked.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Components for assembly orders cannot be picked or posted with inventory picks.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Instead, use the <bpt id="p1">**</bpt>Inventory Movement<ept id="p1">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Move Components to an Operation Area in Basic Warehousing<ept id="p1">](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>When picking and shipping sales line quantities that are assembled to the order, you must follow certain rules when creating the inventory pick lines.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>For more information, see the “Handling Assemble-to-Order Items in Inventory Picks” section.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>You can create an inventory pick in three ways:</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Create the pick in two steps by first requesting an inventory pick by releasing the source document.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>This signals to the warehouse that the source document is ready for picking.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The inventory pick can then be created on the <bpt id="p1">**</bpt>Inventory Pick<ept id="p1">**</ept> page based on the source document.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Create the inventory pick directly from the source document itself.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>You can create inventory picks for several source documents at the same time by using the batch job.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>To request an inventory pick by releasing the source document</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>For sales orders, purchase return orders, and outbound transfer orders, you create the warehouse request by releasing the order.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The following describes how to do this from a sales order.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Sales Orders<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Select the sales order that you want to release, and then choose the <bpt id="p1">**</bpt>Release<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>For production orders, you automatically create the warehouse request for the picking of components, called <bpt id="p1">*</bpt>flushing<ept id="p1">*</ept>, when the production order status is changed to <bpt id="p2">**</bpt>Released<ept id="p2">**</ept> or when the released production order is created.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Pick for Production or Assembly<ept id="p1">](warehouse-how-to-pick-for-production.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>After the warehouse request has been created, a warehouse employee assigned to picking items can see that the source document is ready to be picked and can create a new pick document based on the warehouse request.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>To create an inventory pick based on the source document</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Now that the request is created, the warehouse employee can create a new inventory pick based on the released source document.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Inventory Picks<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>New<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Source Document<ept id="p1">**</ept> field, select the type of source document you are picking for.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Source No.<ept id="p1">**</ept> field, select the source document.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Alternatively, choose the <bpt id="p1">**</bpt>Get Source Document<ept id="p1">**</ept> action to select the document from a list of outbound source documents that are ready for picking at the location.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button to fill the pick lines according to the selected source document.</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>To create an inventory pick from the source document</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>In the source document, which can be a sales order, purchase return order, outbound transfer order, or production order, choose the <bpt id="p1">**</bpt>Create Inventory Put-away/Pick<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>Create Invt. Pick<ept id="p1">**</ept> check box.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>A new inventory pick will be created.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>To create multiple inventory picks with a batch job</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Create Invt. Put-away / Pick<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Warehouse Request<ept id="p1">**</ept> FastTab, use the <bpt id="p2">**</bpt>Source Document<ept id="p2">**</ept> and <bpt id="p3">**</bpt>Source No.<ept id="p3">**</ept> fields to filter on certain types of documents  or ranges of document numbers.</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>For example, you can create picks only for sales orders.</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Options<ept id="p1">**</ept> FastTab, select the <bpt id="p2">**</bpt>Create Invt. Pick<ept id="p2">**</ept> check box.</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The specified inventory picks are created.</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>If picking and shipping sales line quantities that are assembled to the order you should follow certain rules when creating the inventory pick lines.</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>For more information, see the “Handling Assemble-to-Order Items in Inventory Picks” section.</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>In basic warehouse configurations, items that are assembled to sales orders are picked from the related sales order, as explained in this topic.</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>For more information, see “Handling Assemble-to-Order Items in Inventory Picks” in Inventory Pick.</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>To record the inventory picks</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Inventory Pick<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Bin Code<ept id="p1">**</ept> field on the pick lines, the bin that the items must be picked from is suggesting per the item's default bin.</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>You can change the bin in this page if necessary.</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Perform the pick and enter the information for the actual quantity put away in the <bpt id="p1">**</bpt>Qty. to Handle<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>If it is necessary to pick the items for one line from more than one bin, for example because they are not available in the designated bin, then use the <bpt id="p1">**</bpt>Split Line<ept id="p1">**</ept> function on the <bpt id="p2">**</bpt>Lines<ept id="p2">**</ept> FastTab.</source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>For more information about splitting lines, see <bpt id="p1">[</bpt>Split Warehouse Activity Lines<ept id="p1">](warehouse-how-to-split-warehouse-activity-lines.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>When you have performed the pick, choose the <bpt id="p1">**</bpt>Post<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The posting process will post the shipment of the source document lines that have been picked, or in the case of production orders, the posting process will post the consumption.</source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>If the location uses bins, the posting will also create warehouse entries to post the bin quantity changes.</source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>To delete inventory pick lines</source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>If items on the inventory pick are not available, then you can delete those inventory pick lines after posting and then delete the inventory pick document.</source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The source document, such as a sales order or a production order, will have remaining items to be picked, which can be obtained through a new inventory pick later when the items become available.</source>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>This process is not possible if serial/lot numbers are specified on the source document.</source>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>For example, if a sales order line contains a serial/lot number, then that item tracking specification will be deleted if an inventory pick line for the serial/lot number is deleted.</source>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>If inventory pick lines have serial/lot numbers that are not available, you must not delete the lines in question.</source>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Instead, you must change the <bpt id="p1">**</bpt>Qty. to Handle<ept id="p1">**</ept> field to zero, post the actual picks, and then delete the inventory pick document.</source>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>This ensures that the inventory pick lines for those serial/lot numbers can be recreated from the sales order later.</source>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Handling Assemble-to-Order Items with Inventory Picks</source>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Inventory Pick<ept id="p1">**</ept> page is also used to pick and ship for sales where items must be assembled before they can be shipped.</source>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Sell Items Assembled to Order<ept id="p1">](assembly-how-to-sell-items-assembled-to-order.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Items to be shipped are not physically present in a bin until they are assembled and posted as output to a bin in the assembly area.</source>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>This means that picking assemble-to-order items for shipment follows a special flow.</source>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>From a bin, warehouse workers take the assembly items to the shipping dock and then post the inventory pick.</source>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The posted inventory pick then posts the assembly output, the component consumption, and the sales shipment.</source>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>You can set up <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> to automatically create an inventory movement when the inventory pick for the assembly item is created.</source>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>To enable this, you must select the <bpt id="p1">**</bpt>Create Movements Automatically<ept id="p1">**</ept> field on the <bpt id="p2">**</bpt>Assembly Setup<ept id="p2">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Move Components to an Operation Area in Basic Warehousing<ept id="p1">](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Inventory pick lines for sales items are created in different ways depending on whether none, some, or all of the sales line quantities are assembled to order.</source>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>In regular sales where you use inventory picks to post shipment of inventory quantities, one inventory pick line, or several if the item is placed in different bins, is created for each sales order line.</source>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>This pick line is based on the quantity in the <bpt id="p1">**</bpt>Qty. to Ship<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>In assemble-to-order sales where the full quantity on the sales order line is assembled to order, one inventory pick line is created for that quantity.</source>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>This means that the value in the Quantity to Assemble field is the same as the value in the <bpt id="p1">**</bpt>Qty. to Ship<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Assemble to Order<ept id="p1">**</ept> field is selected on the line.</source>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>If an assembly output flow is set up for the location, then the value in the <bpt id="p1">**</bpt>Asm.-to-Order Shpt. Bin Code<ept id="p1">**</ept> field or the value in the <bpt id="p2">**</bpt>From-Assembly Bin Code<ept id="p2">**</ept> field, in that order, is inserted in the <bpt id="p3">**</bpt>Bin Code<ept id="p3">**</ept> field on the inventory pick line.</source>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>If no bin code is specified on the sales order line, and no assembly output flow is set up for the location, then the <bpt id="p1">**</bpt>Bin Code<ept id="p1">**</ept> field on the inventory pick line is empty.</source>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The warehouse worker must open the <bpt id="p1">**</bpt>Bin Contents<ept id="p1">**</ept> page and select the bin where the assembly items are assembled.</source>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>In combination scenarios, where a part of the quantity must first be assembled and another must be picked from inventory, a minimum of two inventory pick lines are created.</source>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>One pick line is for the assemble-to-order quantity.</source>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The other pick line depends on which bins can fulfill the remaining quantity from inventory.</source>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Bin codes on the two lines are filled in different ways as described for the two different sales types respectively.</source>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>For more information, see the “Combination Scenarios” section in <bpt id="p1">[</bpt>Understanding Assemble to Order and Assemble to Stock<ept id="p1">](assembly-assemble-to-order-or-assemble-to-stock.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Warehouse Management<ept id="p1">](warehouse-manage-warehouse.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Inventory<ept id="p1">](inventory-manage-inventory.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Setting Up Warehouse Management<ept id="p1">](warehouse-setup-warehouse.md)</ept><ph id="ph1">   </ph></source>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Assembly Management<ept id="p1">](assembly-assemble-items.md)</ept><ph id="ph1">  </ph></source>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Design Details: Warehouse Management<ept id="p1">](design-details-warehouse-management.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Working with <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph><ept id="p1">](ui-work-product.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

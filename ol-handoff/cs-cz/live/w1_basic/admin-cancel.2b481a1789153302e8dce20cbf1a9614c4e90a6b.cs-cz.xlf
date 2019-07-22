@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="admin-cancel.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-435fba6" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3da4de9eee04f240d88d4128fefe273999f20cfc</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\admin-cancel.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">daca7adaf039bbe60ba007f6c3149ba630f9e1aa</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e84f549b1c28037a7b4c0739e8f8bc369da61a3a</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Cancelling Business Central | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Describes how to remove or delete your Business Central experience.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Unsubscribe, Remove, or Reset <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph></source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>If you want to stop using <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>, you can close your account or get the license removed from your account.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The steps to take are different if you are currently using the free trial, or if you have a monthly subscription as part of an Office 365 account.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Similarly, you can choose to reset the company that you can been using in <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>For a quick overview, see <bpt id="p1">[</bpt>the <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> blog<ept id="p1">](https://community.dynamics.com/business/b/financials/archive/2016/11/28/how-long-is-the-trial-period-and-how-do-i-cancel)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Unsubscribing by removing <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> from your Office 365 experience</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>If you have subscribed for <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> using an existing Office 365 business account, you must ask your Office 365 administrator to remove the <ph id="ph2">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> license from your user account.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> is removed from your user account, and other people from your company continue the subscription, they will still have access to your shared data in the <ph id="ph2">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> company.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>If your company wants to unsubscribe from <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>, the Office 365 administrator can remove the subscription from the company's account.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>User accounts and licenses are managed in the <bpt id="p1">[</bpt>Office Portal<ept id="p1">](https://portal.office.com)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Only administrators can remove <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> licenses from user accounts or remove the subscription from your company's account.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Closing your free trial of <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph></source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>If you signed up for the free trial and do not want to continue with <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>, you can close your account at any time.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>We recommend that you export any data before you close your account.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>To close your account, currently you must contact the <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> Cancelation team by sending an email message at <ph id="ph2">cancelbusinesscentra@microsoft.com</ph>.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>You must include the name of your <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> tenant in the message so that we can identify you.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The easiest way to do that is to copy the URL from your <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> home page.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Unsubscribing from <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> without Office 365</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>If you signed up for <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> using a non-Office 365 business account, you do not have an Office 365 administrator.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Instead, you must unsubscribe by contacting the <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> Cancelation team by sending an email message at <ph id="ph2">cancelbusinesscentra@microsoft.com</ph>.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>You must include the name of your <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> tenant in the message so that we can identify you.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The easiest way to do that is to copy the URL from your <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> home page.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Resetting your <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> experience</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>If you have added data to your <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> free trial, and you want to start over with a fresh experience, you can create a new company and then reset the first company.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>If you open the <bpt id="p1">**</bpt>Companies<ept id="p1">**</ept> page, you can create a copy of your current company, sign out and then sign into your new company, and then reset the original company.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>When you reset a company that you are sharing with other people from your organization, you must make sure other people are not logged in when you reset the company.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Removing <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> from your app launcher</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>If you want to hide <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> from your app launcher, you can quite simply unpin it.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>This does not remove any data, and it does not cancel your subscription.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Getting Started<ept id="p1">](product-get-started.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Creating New Companies<ept id="p1">](about-new-company.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Exporting Your Business Data to Excel<ept id="p1">](about-export-data.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Office Portal<ept id="p1">](https://portal.office.com)</ept></source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>How long is the trial period and how do I cancel?<ept id="p1">](https://community.dynamics.com/business/b/financials/archive/2016/11/28/how-long-is-the-trial-period-and-how-do-i-cancel)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

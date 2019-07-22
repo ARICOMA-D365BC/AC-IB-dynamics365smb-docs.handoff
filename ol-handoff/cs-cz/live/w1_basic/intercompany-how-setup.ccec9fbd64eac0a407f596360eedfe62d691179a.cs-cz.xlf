@@ -1,0 +1,333 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="intercompany-how-setup.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-15c36f0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fef3bcb251449a1968dc6fd277e7c8fc2187b47f</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">financials\intercompany-how-setup.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">838f073960bee0378fa9e48f98d0115c495d20d0</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">45437e2c828f99caee6922385b3d7e1758a8874d</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Set Up Intercompany Transaction Posting| Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Create your intercompany vendors and customers as so-called intercompany partners, and set up an intercompany chart of accounts.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Set Up Intercompany</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>To send a transaction (such as a sales journal line) from one company and have the corresponding transaction (such as a purchase journal line) automatically created in the partner company, the companies involved must agree on a common chart of accounts and set of dimensions for use on intercompany transactions.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The intercompany chart of accounts can be, for example, a simplified version of the parent company's chart of accounts.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Each company maps their full chart of accounts to the shared intercompany chart of accounts, and each company maps their dimensions to the intercompany dimensions.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You must also set up an intercompany partner code for each partner company, which is agreed upon by all of the companies, and then assign them to customer and vendor cards respectively by filling in the <bpt id="p1">**</bpt>Intercompany Partner Code<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>If you create or receive intercompany lines with items, you can either use your own item numbers, or you can set up your partner's item numbers for each relevant item, either in the <bpt id="p1">**</bpt>Vendor Item No.<ept id="p1">**</ept> field or in the <bpt id="p2">**</bpt>Common Item No.<ept id="p2">**</ept> field on the item card.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You can also use the <bpt id="p1">**</bpt>Item Cross Reference<ept id="p1">**</ept> function: To map your items' numbers to your intercompany partners descriptions of the items, open the card of each item, and then choose the <bpt id="p2">**</bpt>Cross References<ept id="p2">**</ept> action to set up cross-references between your item descriptions and those of the intercompany partner.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>If you will make intercompany sales transactions that include resources, you must fill in the <bpt id="p1">**</bpt>IC Partner Purch. G/L Acc. No.<ept id="p1">**</ept> field on the resource card for each relevant resource.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>This is the number of the intercompany general ledger account that the amount for this resource will be posted to in your partner's company.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>For more information, see</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>To set up companies for intercompany transactions</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Company Information<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Company Information<ept id="p1">**</ept> window, fill in the <bpt id="p2">**</bpt>Intercompany Partner Code<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Intercompany Inbox Type<ept id="p3">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>and <bpt id="p1">**</bpt>Intercompany Inbox Details<ept id="p1">**</ept> fields.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>To set intercompany partners</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Intercompany Partners<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>New<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Intercompany Partner<ept id="p1">**</ept> window, fill in the fields as necessary.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>To set up intercompany vendors and intercompany customers</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Vendors<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Alternatively, access the vendor from the <bpt id="p1">**</bpt>Vendor No.<ept id="p1">**</ept> field in the <bpt id="p2">**</bpt>Intercompany Partner<ept id="p2">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Open the card for a vendor that is an intercompany partner.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Register New Vendors<ept id="p1">](purchasing-how-register-new-vendors.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Intercompany Partner Code<ept id="p1">**</ept> field, select the relevant intercompany partner code.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Repeat steps 1 through 4 for customers.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>To set up intercompany charts of accounts</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>In order for a group of companies to make intercompany transactions, they must agree on a chart of accounts to use as a common reference.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>You must agree with your partner companies on the account numbers that all of you will use when you create intercompany transactions.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>For example, the parent company of the group creates a simplified version of their own chart of accounts, exports this intercompany chart of accounts from their database into an XML file and distributes it to each of the companies in the group.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>If your company is the parent company and has the defining intercompany chart of accounts that your group will use as a common reference, follow the "To set up the intercompany chart of accounts" procedure.</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>If your company is a subsidiary company and you receive an XML file containing the common intercompany chart of accounts, follow the ""To Import the intercompany chart of accounts"" procedure.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>To set up the defining intercompany chart of accounts</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>IC Chart of Accounts<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>IC Chart of Accounts<ept id="p1">**</ept> window, enter each account on a line in the window.</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>If your intercompany chart of accounts will be identical or similar to your regular chart of accounts, you can fill in the window automatically by choosing the <bpt id="p1">**</bpt>Copy from Chart of Accounts<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>You can edit the new lines as needed.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>To export an intercompany chart of accounts</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>To allow your intercompany partners to import the defining chart of accounts, you must export it to a file.</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>IC Chart of Accounts<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>IC Chart of Accounts<ept id="p1">**</ept> window, choose the <bpt id="p2">**</bpt>Export<ept id="p2">**</ept> action, and then choose the <bpt id="p3">**</bpt>Save<ept id="p3">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Specify the file name and the location where you want to save the XML file, and then choose the <bpt id="p1">**</bpt>Save<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>To import the intercompany chart of accounts</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>When a file exists for the defining intercompany chart of accounts, intercompany partners can import it to make sure they have the same accounts.</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>IC Chart of Accounts<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>IC Chart of Accounts<ept id="p1">**</ept> window, choose the <bpt id="p2">**</bpt>Import<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Select the file name and location of the XML file, and then choose the <bpt id="p1">**</bpt>Open<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>IC Chart of Accounts<ept id="p1">**</ept> window is filled with new or edited G/L account lines according to the intercompany chart of accounts in the file.</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Any existing, unrelated lines in the window remain unchanged.</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>To map the intercompany chart of accounts to your company's chart of accounts</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>When you have defined or imported the intercompany chart of accounts that you and your intercompany partners have agreed to use, you must associate each of the intercompany G/L accounts with one of your company's G/L accounts.</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>IC Chart of Accounts<ept id="p1">**</ept> window, you specify how intercompany G/L accounts on incoming transactions will be translated into G/L accounts from your company's chart of accounts.</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>If the accounts in the intercompany chart of accounts have the same numbers as the corresponding accounts in the chart of accounts, you can map the accounts automatically.</source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>IC Chart of Accounts<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Select the lines that you want to map automatically, and then choose the <bpt id="p1">**</bpt>Map to Acc. with Same No<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>For each intercompany general ledger account that was not mapped automatically, fill in the <bpt id="p1">**</bpt>Map-to G/L Acc. No.<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>To set up default intercompany partner general ledger accounts</source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>When you create an intercompany sales or purchase line to send as an outgoing transaction, you enter an account from the intercompany chart of accounts as a default for which account in your partner's company the amount is posted to.</source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Chart of Accounts<ept id="p1">**</ept> window, for accounts that you often use on outgoing intercompany sales or purchase lines, you can specify a default intercompany partner general ledger account.</source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>For example, for your receivables accounts, you can enter the corresponding payables accounts from the intercompany chart of accounts.</source>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Then, when you enter a general ledger account in the <bpt id="p1">**</bpt>Bal. Account No.<ept id="p1">**</ept> field on an intercompany line with <bpt id="p2">**</bpt>Intercompany Partner<ept id="p2">**</ept> in the <bpt id="p3">**</bpt>Account Type<ept id="p3">**</ept> field, the <bpt id="p4">**</bpt>IC Partner G/L Account<ept id="p4">**</ept> field is automatically filled in.</source>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Chart of Accounts<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>On the line for a G/L account that is used for intercompany transactions, in the <bpt id="p1">**</bpt>Default IC Partner G/L Account<ept id="p1">**</ept> field, enter the intercompany general ledger account that your partner will post to when you post to the general ledger account on the line.</source>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Repeat step 3 for each account that you often enter in the <bpt id="p1">**</bpt>Bal. Account No.<ept id="p1">**</ept> field on a line in an intercompany journal or document.</source>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>To set up intercompany dimensions</source>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>If you and your intercompany partners want to be able to exchange transactions with dimensions linked to them, then you must agree on the dimensions that all of you will use.</source>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>For example, the parent company of the group creates a simplified version of their own set of dimensions, exports these intercompany dimensions into an XML file and distributes it to each of the companies in the group.</source>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Each of the subsidiaries then imports the XML file into the <bpt id="p1">**</bpt>intercompany Dimensions<ept id="p1">**</ept> window and maps the intercompany dimensions to the dimensions in their own <bpt id="p2">**</bpt>Dimensions<ept id="p2">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>If your company is the parent company and has the defining set of intercompany dimensions that your group will use as a common reference, follow the "To define the intercompany dimensions" procedure.</source>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>If your company is a subsidiary company and you receive an XML file containing the intercompany dimensions that your group will use as a common reference, follow the "To import intercompany dimensions" procedure.</source>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>To define the intercompany dimensions</source>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>intercompany Dimensions<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>intercompany Dimensions<ept id="p1">**</ept> window, enter each dimension on a line in the window.</source>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>If your intercompany dimensions will be similar or identical to your company dimensions, you can fill in the window automatically by using the <bpt id="p1">**</bpt>Copy from Dimensions<ept id="p1">**</ept> function, and then you can edit the resulting lines.</source>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>To export the intercompany dimensions to an XML file for distribution to your partner companies, choose the <bpt id="p1">**</bpt>Export<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Specify the file name and the location where you want to save the XML file, and then choose the <bpt id="p1">**</bpt>Save<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>To import the intercompany dimensions</source>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>When a file exists for the defining intercompany dimensions, intercompany partners can import it to make sure they have the same dimensions.</source>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>intercompany Dimensions<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>intercompany Dimensions<ept id="p1">**</ept> window, choose the <bpt id="p2">**</bpt>Import<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Specify the file name and location of the XML file, and then choose the <bpt id="p1">**</bpt>Open<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The lines in the <bpt id="p1">**</bpt>intercompany Dimensions<ept id="p1">**</ept> window and the <bpt id="p2">**</bpt>intercompany Dimension Values<ept id="p2">**</ept> window are imported.</source>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>To map intercompany dimensions to your company's dimensions</source>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>When you have defined or imported the dimensions that you and your intercompany partners have agreed to use, you must associate each of the intercompany dimensions with one of your company's dimensions, and vice versa.</source>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>intercompany Dimensions<ept id="p1">**</ept> window, you specify how intercompany dimensions on incoming transactions will be translated into dimensions from your company's list of dimensions.</source>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Dimensions<ept id="p1">**</ept> window, you specify how your dimensions will be translated into intercompany dimensions on outgoing transactions.</source>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>If any of the intercompany dimensions have the same code as the corresponding dimensions in your company's list of dimensions, then you can have the program automatically map the dimensions, then you can map the accounts automatically.</source>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>intercompany Dimensions<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>intercompany Dimensions<ept id="p1">**</ept> window, select the lines that you want to automatically map, and then choose the <bpt id="p2">**</bpt>Map to Dim. with Same Code<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>For each intercompany dimension that is not mapped automatically, fill in the <bpt id="p1">**</bpt>Map-to Dimension Code<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>intercompany Dimension Values<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>intercompany Dimension Values<ept id="p1">**</ept> window, fill in the <bpt id="p2">**</bpt>Map-to Dimension Value Code<ept id="p2">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Proceed to map dimensions to intercompany dimensions by performing similar steps.</source>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Dimensions<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Dimensions<ept id="p1">**</ept> window, select the lines that you want to automatically map, and then choose the <bpt id="p2">**</bpt>Map to IC Dim. with Same Code<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>For each intercompany dimension that is not mapped automatically, fill in the <bpt id="p1">**</bpt>Map-to IC Dimension Value Code<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Dimension Values<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Dimension Values<ept id="p1">**</ept> window, fill in the <bpt id="p2">**</bpt>Map-to IC Dimension Value Code<ept id="p2">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Managing Intercompany Transactions<ept id="p1">](intercompany-manage.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Finance<ept id="p1">](finance.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Setting Up Finance<ept id="p1">](finance-setup-finance.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Working with General Journals<ept id="p1">](ui-work-general-journals.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Working with <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph><ept id="p1">](ui-work-product.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

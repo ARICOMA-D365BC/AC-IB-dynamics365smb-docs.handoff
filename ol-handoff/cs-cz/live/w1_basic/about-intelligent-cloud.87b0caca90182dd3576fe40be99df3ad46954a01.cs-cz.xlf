@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="about-intelligent-cloud.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-5ae97a8" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">932b6f45ed4f8704b48873518ba2b096efc33e7a</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\about-intelligent-cloud.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">58929ef82f127ba4994d0c5d1d98def2dd8531dc</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a439067f4d88fed565194407ffdd70907b145068</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Intelligent Cloud | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Get a cloud copy of your data so you are connected to the intelligent cloud.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Your Access to the Intelligent Cloud with <ph id="ph1">[!INCLUDE[prodshort](includes/prodshort.md)]</ph></source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>As a user of <ph id="ph1">[!INCLUDE[prodshort](includes/prodshort.md)]</ph> online, you have full access to scenarios that are based on the intelligent cloud, such as editing data in Excel and pushing changes back to <ph id="ph2">[!INCLUDE[prodshort](includes/prodshort.md)]</ph>, or when you view your data in Power BI.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>However, while <ph id="ph1">[!INCLUDE[prodshort](includes/prodshort.md)]</ph> is a cloud-first service, also those customers who need to run their workloads fully on-premises or on the intelligent edge connected to the cloud can do so.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>If you are interested in <ph id="ph1">[!INCLUDE[prodshort](includes/prodshort.md)]</ph>, you can sign up for a free trial of the default, cloud deployment solution, or you can choose to work with a partner to deploy <ph id="ph2">[!INCLUDE[prodshort](includes/prodshort.md)]</ph> locally to your own choice of hardware.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You can then decide to connect to the cloud through your tenant in the cloud.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>As a result, the data from your locally deployed <ph id="ph1">[!INCLUDE[prodshort](includes/prodshort.md)]</ph> will be replicated to the cloud for intelligent cloud scenarios.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Connecting to the intelligent cloud from an on-premises solution requires your administrator to specify information about your database.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Connect to the Intelligent Cloud<ept id="p1">](/dynamics365/business-central/dev-itpro/administration/about-intelligent-edge)</ept> in the ITPro content for <ph id="ph1">[!INCLUDE[prodshort](includes/prodshort.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Viewing Intelligent Cloud Insights in <ph id="ph1">[!INCLUDE[prodshort](includes/prodshort.md)]</ph> Online</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>In your <ph id="ph1">[!INCLUDE[prodshort](includes/prodshort.md)]</ph> online company, the <bpt id="p1">**</bpt>Intelligent Cloud Insights<ept id="p1">**</ept> page shows four key points of interest for most businesses:</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Cash availability</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Sales profitability</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Net income</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Inventory value</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Next to the KPI charts, you get insights into potential areas of concern, including overdue payments.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Choose each insight to drill into the data.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">![</bpt>Intelligent cloud insights<ept id="p1">]</ept><bpt id="p2">(media/across-intelligent-cloud/intelligentcloudinsights.png "</bpt>Shows the intelligent Cloud Insights page in Business Central<ept id="p2">")</ept></source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The page also connects to Power BI for even more insights.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Viewing Intelligent Cloud Insights On-Premises</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>When your Dynamics 365 reselling partner has acquired the right license for your on-premises solution to connect to the cloud through <ph id="ph1">[!INCLUDE[prodshort](includes/prodshort.md)]</ph>, your administrator can set up the connection.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Once that is done, you can view the same insights from the cloud in your on-premises application.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Depending on the on-premises solution, the <bpt id="p1">**</bpt>Intelligent Cloud Insights<ept id="p1">**</ept> page can be embedded in the Home page or be a separate page as in <ph id="ph1">[!INCLUDE[prodshort](includes/prodshort.md)]</ph> online and on-premises.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Welcome to Business Central<ept id="p1">](index.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Business Central Intelligent Cloud extension<ept id="p1">](ui-extensions-intelligent-cloud.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Data Replication extension<ept id="p1">](ui-extensions-data-replication.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Connect to the Intelligent Cloud<ept id="p1">](/dynamics365/business-central/dev-itpro/administration/about-intelligent-edge)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

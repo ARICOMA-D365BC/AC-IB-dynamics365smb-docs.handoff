@@ -1,0 +1,150 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="bank-how-setup-bank-data-conversion-service.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-15c36f0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">344325359b52267a110514aa777fd53bb221bb36</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">financials\bank-how-setup-bank-data-conversion-service.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">33e91f18a14893d1952d5ee564b6a66bdc1c0ca0</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c76b2290e8b19c43deb4312b3319a23e4424262f</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Set Up Bank Data Conversion| Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>You can set up bank accounts to keep track of transactions and import or export bank feeds, such as Yodlee.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Set Up the Bank Data Conversion Service</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>A global provider of services to convert payment information to any data format that your bank requires is connected and ready to be enabled in <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>This is referred to in <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph> as the bank data conversion service.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>You can export payment lines from the <bpt id="p1">**</bpt>Payment Journal<ept id="p1">**</ept> window to a file or a data stream that you then upload to your bank for automatic processing so that you do not have to make electronic payments individually.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Export Payments to a Bank File<ept id="p1">](payables-how-export-payments-bank-file.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>You can import bank statement files into the <bpt id="p1">**</bpt>Payment Reconciliation Journal<ept id="p1">**</ept> window by using the bank data conversion service to convert a file that you receive from your bank to a data stream that <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph> can import.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Applying Payments Automatically and Reconciling Bank Accounts<ept id="p1">](receivables-apply-payments-auto-reconcile-bank-accounts.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>As an alternative to importing bank statements with the bank data conversion service, you can use the Envestnet Yodlee Bank Feeds service.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Set Up the Envestnet Yodlee Bank Feeds Service<ept id="p1">](bank-how-setup-bank-statement-service.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>To import or export bank files, you must set up your own bank account and your vendors' bank accounts.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Set Up Bank Accounts<ept id="p1">](bank-how-setup-bank-accounts.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The bank data conversion service may impose a limit on the number of lines that can be exported in one file.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You will receive an error message if the limit is exceeded.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>It is recommended that bank statement files do not exceed 1000 lines as the processing time in the bank data conversion service may otherwise increase significantly.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>To sign your company up for the bank data conversion service</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Bank Data Conv. Service Setup<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Bank Data Conv. Service Setup<ept id="p1">**</ept> window opens with three fields prefilled with relevant URLs of the provider of bank data conversion service.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>In the CRONUS International Ltd. demonstration database, the User Name and Password fields are prefilled with demonstration logon information, which you will replace with your company’s actual information as you sign up for the bank data conversion service.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Sign-up URL<ept id="p1">**</ept> field, choose the browser button to open the service provider’s sign-up page.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>On the sign-up page of the bank data service provider, enter the user name and password for your company’s subscription to the service, and then complete the sign-up process as instructed by the service provider.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Your company is now signed up for the bank data conversion service.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Proceed to enter the user name and password that you specified for the service in the related setup fields in <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Bank Data Conv. Service Setup<ept id="p1">**</ept> window, in the User <bpt id="p2">**</bpt>Name<ept id="p2">**</ept> field, enter the same value that you entered as logon name on the service provider’s page in step 4.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Password<ept id="p1">**</ept> field, enter the same value that you entered in the <bpt id="p2">**</bpt>Password<ept id="p2">**</ept> field on the service provider’s page in step 4.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>To encrypt your login information</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>It is recommended that you protect the logon information that you enter in the <bpt id="p1">**</bpt>Bank Data Conv. Service Setup<ept id="p1">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>You can encrypt data on the <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph> server by generating new or importing existing encryption keys that you enable on the <ph id="ph2">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph> server instance that connects to the database.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Bank Data Conv. Service Setup<ept id="p1">**</ept> window, choose the <bpt id="p2">**</bpt>Encryption Management<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Data Encryption Management<ept id="p1">**</ept> window, enable encryption of your data.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>To view or update the list of currently supported bank data formats</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Bank Data Conv. Service Setup<ept id="p3">**</ept> , and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Bank Data Conv. Service Setup<ept id="p1">**</ept> window, choose the <bpt id="p2">**</bpt>Bank Name - Data Conversion List<ept id="p2">**</ept> action to open the list of bank names representing bank data formats that are supported by the conversion service.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Bank Name - Data Conversion List<ept id="p1">**</ept> page, choose the <bpt id="p2">**</bpt>Update Bank Name List<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The list of bank data formats that are supported by the bank data conversion service is now updated.</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>This is the list of bank names, filtered by the country/region, that you can select from in the <bpt id="p1">**</bpt>Bank Name - Data Conversion<ept id="p1">**</ept> field in the <bpt id="p2">**</bpt>Bank Account Card<ept id="p2">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The update of supported bank data formats also occurs when you select or enter a value in the <bpt id="p1">**</bpt>Bank Name - Data Conversion<ept id="p1">**</ept> field on the bank account.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>You have now signed up for the bank data conversion service.</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Proceed to reflect the sign-up information on every bank account that will use the service.</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Setting Up Banking<ept id="p1">](bank-setup-banking.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Managing Bank Accounts<ept id="p1">](bank-manage-bank-accounts.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Working with <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph><ept id="p1">](ui-work-product.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

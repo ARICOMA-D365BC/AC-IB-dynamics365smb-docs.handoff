@@ -1,0 +1,327 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-5ae97a8" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f11719cc9488adf84bca8cd5a23d28caaa75f4bf</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3735aa32bd82c7e4a397a4c1d51a0446f520eb27</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e1e69f890c9838fbf84a286579a38e2930f8ac75</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>How to Set Up Basic Warehouses with Operations Areas | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>If internal operation areas such as production or assembly exist in basic warehouse configurations where locations use the <bpt id="p1">**</bpt>Bin Mandatory<ept id="p1">**</ept> setup field and possibly the <bpt id="p2">**</bpt>Require Pick<ept id="p2">**</ept> and <bpt id="p3">**</bpt>Require Put-away<ept id="p3">**</ept> setup fields, then you use three basic warehouse documents to record your warehouse activities for internal operation areas.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Set Up Basic Warehouses with Operations Areas</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>If internal operation areas such as production or assembly exist in basic warehouse configurations where locations use the <bpt id="p1">**</bpt>Bin Mandatory<ept id="p1">**</ept> setup field and possibly the <bpt id="p2">**</bpt>Require Pick<ept id="p2">**</ept> and <bpt id="p3">**</bpt>Require Put-away<ept id="p3">**</ept> setup fields, then you can use the following basic warehouse documents to record your warehouse activities for internal operation areas:</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Inventory Movement<ept id="p1">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Inventory Pick<ept id="p1">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Inventory Put-away<ept id="p1">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Even though the settings are called <bpt id="p1">**</bpt>Require Pick<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Require Put-away<ept id="p2">**</ept>, you can still post receipts and shipments directly from the source business documents at locations where you select these check boxes.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>To use these pages with internal operations, such as to pick and move components to production, you must make some or all the following setup steps depending on how much control you need:</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Enable the inventory pick, move, and put-away documents.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Define default bin structures for components and end items flowing to and from operation resources.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Make to- and from- bins that are dedicated to specific operation resources to prevent the items from being picked for outbound documents.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Bin codes that are set up on location cards define a default warehouse flow for certain activities, such as components in an assembly department.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Additional functionality exists to make sure that when items are placed in a certain bin, they cannot be moved or picked to other activities.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>To create dedicated component bins<ept id="p1">](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md#to-create-dedicated-component-bins)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The following procedures are based on setting up basic warehouse activities around a production area.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The steps are similar for other operation areas, such as assembly, service management, and jobs.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>In the following procedure, the <bpt id="p1">**</bpt>Bin Mandatory<ept id="p1">**</ept> setup field on location cards is selected as a precondition because that is considered the foundation for any level of warehouse management.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>To enable inventory documents for internal operation activities</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Locations<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Open the location card you want to set up.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Warehouse<ept id="p1">**</ept> FastTab, select the <bpt id="p2">**</bpt>Require Put-away<ept id="p2">**</ept> check box to indicate that, when an inbound or internal source document with a bin code is released, an inventory put-away or an inventory movement document can be created.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>Require Pick<ept id="p1">**</ept> check box to indicate that when an outbound or internal source document with a bin code is created, an inventory pick or an inventory movement document must be created.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>To define a default bin structure in the production area</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Locations<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Open the Location you want to set up.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Bins<ept id="p1">**</ept> FastTab, in the <bpt id="p2">**</bpt>Open Shop Floor Bin Code<ept id="p2">**</ept> field, enter the code of the bin in the production area with plenty of components that the machine operator can consume from without requesting a warehouse activity to bring them to the bin.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Items that are placed in this bin are typically set up for automatic posting, or flushing.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>This means that the <bpt id="p1">**</bpt>Flushing Method<ept id="p1">**</ept> field contains <bpt id="p2">**</bpt>Forward<ept id="p2">**</ept> or <bpt id="p3">**</bpt>Backward<ept id="p3">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>To-Production Bin Code<ept id="p1">**</ept> field, enter the code of the bin in the production area where components that are picked for production at this location are placed by default before they can be consumed.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Items that are placed in this bin are typically set up for manual consumption posting.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>This means that the <bpt id="p1">**</bpt>Flushing Method<ept id="p1">**</ept> field contains <bpt id="p2">**</bpt>Manual<ept id="p2">**</ept> or <bpt id="p3">**</bpt>Pick + Forward<ept id="p3">**</ept> or <bpt id="p4">**</bpt>Pick + Backward<ept id="p4">**</ept> for warehouse picks and inventory movements.</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>When you use inventory picks, the <bpt id="p1">**</bpt>Bin Code<ept id="p1">**</ept> field on a production order component line defines the <bpt id="p2">*</bpt>take<ept id="p2">*</ept> bin from where components are decreased when posting consumption.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>When you use inventory movements, the <bpt id="p1">**</bpt>Bin Code<ept id="p1">**</ept> field on production order component lines defines the <bpt id="p2">*</bpt>place<ept id="p2">*</ept> bin in the operation area where the warehouse worker must place the components.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Bins<ept id="p1">**</ept> FastTab, in the <bpt id="p2">**</bpt>From-Production Bin Code<ept id="p2">**</ept> field, enter the code of the bin in the production area where finished end items are taken from by default when the process involves a warehouse activity.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>In basic warehouse configurations, the activity is recorded as an inventory put-away or an inventory movement.</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Now, production order component lines with the default bin code require that forward-flushed components are placed there.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>However, until the components are consumed from that bin, other component demands may pick or consume from that bin because they are still considered available bin contents.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>To make sure that bin content is only available to component demand that uses that to-production bin, you must select the <bpt id="p1">**</bpt>Dedicated<ept id="p1">**</ept> field on the line for that bin code on the <bpt id="p2">**</bpt>Bins<ept id="p2">**</ept> page that you open from the location card.</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>This flow chart shows how the <bpt id="p1">**</bpt>Bin Code<ept id="p1">**</ept> field on production order component lines is filled according to your setup.</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">![</bpt>Bin flow chart<ept id="p1">]</ept><bpt id="p2">(media/binflow.png "</bpt>BinFlow<ept id="p2">")</ept></source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>To define a default bin structure in the assembly area</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Components for assembly orders cannot be picked or posted with inventory picks.</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Instead, use the <bpt id="p1">**</bpt>Inventory Movement<ept id="p1">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Move Components to an Operation Area in Basic Warehousing<ept id="p1">](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>When picking and shipping sales line quantities that are assembled to the order, you must follow certain rules when creating the inventory pick lines.</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>For more information, see the “Handling Assemble-to-Order Items in Inventory Picks” section in <bpt id="p1">[</bpt>Pick Items with Inventory Picks<ept id="p1">](warehouse-how-to-pick-items-with-inventory-picks.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Assembly Management<ept id="p1">](assembly-assemble-items.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>To set up that an inventory movement is automatically created when the inventory pick for the assembly item is created</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Assembly Setup<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>Create Movements Automatically<ept id="p1">**</ept> check box.</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>To set up the bin in the assembly area where components are placed by default before they can be consumed in assembly</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The value in this field is automatically inserted in the <bpt id="p1">**</bpt>Bin Code<ept id="p1">**</ept> field on assembly order lines when this location is entered in the <bpt id="p2">**</bpt>Location Code<ept id="p2">**</ept> field on the assembly order line.</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Locations<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Open the Location you want to set up.</source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Fill in the <bpt id="p1">**</bpt>To-Assembly Bin Code<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>To set up the bin in the assembly area where finished assembly items are posted to when they are assembled to stock</source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The value in this field is automatically inserted in the <bpt id="p1">**</bpt>Bin Code<ept id="p1">**</ept> field on assembly order headers when this location code is filled into the <bpt id="p2">**</bpt>Location Code<ept id="p2">**</ept> field on the assembly order header.</source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Bin codes that are set up on location cards define a default warehouse flow for specific warehouse activities, such as consumption of components in an assembly area.</source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Additional functionality exists to make sure that when items are placed in a default bin, they cannot be moved or picked to other activities.</source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>This setup is only possible for locations where the Bin Mandatory field is selected.</source>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Locations<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Open the Location you want to set up.</source>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Fill in the <bpt id="p1">**</bpt>From-Assembly Bin Code<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>To set up the bin where finished assembly items are posted to when they are assembled to a linked sales order</source>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>From this bin, the assembly items are shipped immediately, via an inventory pick, to fulfill the sales order.</source>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>This field cannot be used if the location is set up to use directed pick and put-away.</source>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The bin code is copied from the sales order line to the assembly order header to communicate to assembly workers where to place the output to ready it for shipping.</source>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>It is also copied to the inventory pick line to communicate to warehouse workers where to take it from to ship it.</source>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The Assemble-to-Order Shipment bin is always empty.</source>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>When you post an assemble-to-order sales line, then the bin content is first positively adjusted with the assembly output.</source>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Immediately after, it is negatively adjusted with the shipped quantity.</source>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The value in this field is automatically inserted in the Bin Code field on sales order lines that contain a quantity in the <bpt id="p1">**</bpt>Qty. to Assemble to Order<ept id="p1">**</ept> field or if the item to be sold has <bpt id="p2">**</bpt>Assemble-to-Order<ept id="p2">**</ept> in the <bpt id="p3">**</bpt>Replenishment System<ept id="p3">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>If the <bpt id="p1">**</bpt>Asm.-to-Order Shpt. Bin Code<ept id="p1">**</ept> is blank, then the <bpt id="p2">**</bpt>From-Assembly Bin Code<ept id="p2">**</ept> field is used instead.</source>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>If both setup fields are blank, then the last used bin with content is used in the <bpt id="p1">**</bpt>Bin Code<ept id="p1">**</ept> field on sales order lines.</source>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The same bin code is in turn copied to the <bpt id="p1">**</bpt>Bin Code<ept id="p1">**</ept> field on the inventory pick line that manages the shipment of the assemble-to-order quantity.</source>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>For more information, see the “Handling Assemble-to-Order Items in Inventory Picks” section in <bpt id="p1">[</bpt>Pick Items with Inventory Picks<ept id="p1">](warehouse-how-to-pick-items-with-inventory-picks.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Locations<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Open the Location you want to set up.</source>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Fill in the <bpt id="p1">**</bpt>Asm.-to-Order Shpt. Bin Code<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>To create dedicated component bins</source>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>You can specify that quantities in a bin are protected from being picked for other demands than demand from their current purpose.</source>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Quantities in dedicated bins can still be reserved.</source>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Accordingly, the quantities in dedicated bins are included in the <bpt id="p1">**</bpt>Total Available Quantity<ept id="p1">**</ept> field on the <bpt id="p2">**</bpt>Reservation<ept id="p2">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>For example, is a work center is set up with a bin code in the <bpt id="p1">**</bpt>To-Production Bin Code<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Production order component lines with that bin code require that forward-flushed components are placed there.</source>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>However, until the components are consumed from that bin, other component demands may pick or consume from that bin because they are still considered available bin contents.</source>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>To make sure that bin content is only available to component demand that uses that to-production bin, you must select the <bpt id="p1">**</bpt>Dedicated<ept id="p1">**</ept> field on the line for that bin code on the <bpt id="p2">**</bpt>Bins<ept id="p2">**</ept> page that you open from the location card.</source>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Making a bin dedicated provides similar functionality to using bin types, which is only available in advanced warehousing.</source>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Set Up Bin Types<ept id="p1">](warehouse-how-to-set-up-bin-types.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Items in dedicated bins are not protected when they are picked and consumed as production components with the Inventory Pick page.</source>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Locations<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Select the location that you want to update.</source>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Bins<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>Dedicated<ept id="p1">**</ept> field for each bin that you want to use exclusively for certain internal operations and where you want quantities to be reserved for that internal operation once placed there.</source>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The bin must be empty before you can select or clear the <bpt id="p1">**</bpt>Dedicated<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Warehouse Management<ept id="p1">](warehouse-manage-warehouse.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Inventory<ept id="p1">](inventory-manage-inventory.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Setting Up Warehouse Management<ept id="p1">](warehouse-setup-warehouse.md)</ept><ph id="ph1">   </ph></source>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Assembly Management<ept id="p1">](assembly-assemble-items.md)</ept><ph id="ph1">  </ph></source>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Design Details: Warehouse Management<ept id="p1">](design-details-warehouse-management.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Working with <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph><ept id="p1">](ui-work-product.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,801 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="walkthrough-planning-supplies-automatically.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-8cf0045" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c4239904c17db334cee006d5de08ea8c0e80b750</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\walkthrough-planning-supplies-automatically.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c51e79f8242851fcf7c7fad338a17848909dc8ce</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">591a1a25febfc859290534129e128c48947d2e49</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Walkthrough - Planning Supplies Automatically | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Phrases like “run planning” and “run MRP” refer to the calculation of the master production schedule (MPS) and the material requirements plan (MRP) based on actual and forecasted demand.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Walkthrough: Planning Supplies Automatically</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: This walkthrough must be performed on a demonstration company with the <bpt id="p2">**</bpt>Full Evaluation - Complete Sample Data<ept id="p2">**</ept> option, which is available in the Sandbox environment.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Creating a Sandbox Environment<ept id="p1">](across-how-create-sandbox-environment.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Phrases like “run planning” and “run MRP” refer to the calculation of the master production schedule (MPS) and the material requirements plan (MRP) based on actual and forecasted demand.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>MPS is the calculation of a master production schedule based on actual demand and the demand forecast.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The MPS calculation is used for end items that have a forecast or a sales order line.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>These items are called "MPS items" and are identified dynamically when the calculation starts.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>MRP is the calculation of material requirements based on actual demand for components and the demand forecast on the component level.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>MRP is calculated only for items that are not MPS items.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The overall purpose of MRP is to provide time-phased formal plans, by item, to supply the right item at the right time, in the right place, in the right quantity.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The planning algorithms used for both MPS and MRP are identical.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The planning algorithms use netting, reuse of existing supply orders, and action messages.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The planning system process examines what is needed or will be needed (demand) and what is available or expected (supply).</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>When these quantities are netted against each other, action messages are displayed in the planning worksheet.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Action messages are suggestions to create a new supply order, change a supply order (quantity or date), or cancel an existing supply order.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Supply orders can be production orders, purchase orders, and transfer orders.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Design Details: Supply Planning<ept id="p1">](design-details-supply-planning.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The planning result is calculated partly from the demand-supply sets in the database and partly by the setup of stockkeeping unit cards or item cards, production BOMs, and routings.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>About This Walkthrough</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>This walkthrough demonstrates how to use the supply planning system to automatically plan all the purchase and production orders required to produce 15 touring bicycles demanded on different sales orders.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>To provide a clear and realistic walkthrough, the number of planning lines is delimited by filtering out all other demand-supply sets in the CRONUS International Ltd. demonstration company except the sales demand at location BLUE.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This walkthrough illustrates the following tasks:</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Creating the sales order and calculating a complete supply plan.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Viewing planning parameters and order tracking entries behind the planning lines.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Automatically creating the suggested supply orders.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Creating new sales demand and replanning accordingly.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Roles</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Production Planner</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Purchasing Agent</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Prerequisites</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>To complete this walkthrough, you will need:</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The CRONUS International Ltd. demonstration  company.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>To change various item setup values by following the steps in the “Preparing Sample Data” section, later in this walkthrough.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Story</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The customer, Cannon Group PLC, orders five touring bikes for shipment on 02-05-2014 (February 5).</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Eduardo, the production planner, performs the routine supply planning for the first week of February 2014.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>He filters on his own location, BLUE, and enters a planning interval of the work date (01-23-2014) to 02-07-2014 before he calculates an initial supply plan.</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The only demand that week is for the Cannon Group sales order.</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Eduardo sees that none of the planning lines have warnings, and he proceeds to create supply orders without changes for the suggested planning lines.</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The next day, before any of the initial supply orders are started or posted, Eduardo is notified that another customer has ordered ten touring bikes for shipment on 02-12-2014.</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>He recalculates to adjust the supply plan according to the change of demand.</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The recalculation gives you a net change plan that suggests changes to both time and quantity of some of the supply orders created in the first run.</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>During the various planning steps, Eduardo looks up the involved orders, and uses the Order Tracking feature to see which demand is covered by which supply.</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Preparing Sample Data</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Create stockkeeping units (SKUs) for the touring bike and a selection of its components, item numbers 1001 to 1300.</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>(Some components are excluded to simplify the procedures.) Adjust the planning parameters of the selected components to provide a more transparent planning result.</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>To create stockkeeping units</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Open the item card for item 1001, Touring Bicycle.</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Create Stockkeeping Unit<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Create Stockkeeping Unit<ept id="p1">**</ept> page, leave all options and filters unchanged, and then choose the <bpt id="p2">**</bpt>OK<ept id="p2">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Repeat steps 1 through 3 for all items in the number range between 1100 and 1300.</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>To change selected planning parameters</source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Stockkeeping Units<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Open the BLUE stockkeeping unit card for item 1100, Front Wheel.</source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Planning<ept id="p1">**</ept> FastTab, fill in the fields as described in the following table.</source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Reordering Policy</source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Safety Stock Quantity</source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Lot Accumulation Period</source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Rescheduling Period</source>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Lot-for-Lot</source>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Blank</source>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>2W</source>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>2W</source>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Repeat steps 2 and 3 for all SKUs in the number range between 1100 and 1300.</source>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>This completes the preparation of sample data for the walkthrough.</source>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Creating a Regenerative Supply Plan</source>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>In reaction to a new sales order for five touring bikes, Ricardo begins the planning process by setting options, filters, and planning interval to exclude all other demand except that of the first week of February at location BLUE.</source>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>He begins by calculating a master production schedule (MPS), and then proceeds to calculate a complete supply plan for all lower-level demand (MRP).</source>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>To create the sales order</source>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Sales Orders<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>New<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Sales Order<ept id="p1">**</ept> page, fill in the fields as described in the following table.</source>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Sell-to Customer Name</source>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Shipment Date</source>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Item No.</source>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Location</source>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Quantity</source>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Cannon Group</source>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>02-05-2014</source>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>1001</source>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>BLUE</source>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>5</source>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Accept the availability warning and choose the <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept> button to record the new demand quantity.</source>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>To create a regenerative plan to fulfill demand at location BLUE</source>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Planning Worksheet<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Calculate Regenerative Plan<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Calculate Plan - Plan. Wksh.<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>page, fill in the fields as described in the following table.</source>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Calculate Plan</source>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Starting Date</source>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Ending Date</source>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Show results:</source>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Limit totals to</source>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>MPS<ept id="p1">**</ept> = Yes</source>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>MRP<ept id="p1">**</ept> = No</source>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>01-23-2014</source>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>(work date)</source>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>02-07-2014</source>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>1001..1300</source>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Location Filter = BLUE</source>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button to start the planning run.</source>
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>One planning line is created suggesting that a planned production order be issued to produce the ten touring bikes, item 1001, by 02-05-2014, the shipment date of the sales order.</source>
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Next, verify that this planning line relates to the Cannon Group sales order by using the <bpt id="p1">**</bpt>Order Tracking<ept id="p1">**</ept> function, which dynamically links demand with its planned supply.</source>
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Select the new planning line, and then choose the <bpt id="p1">**</bpt>Order Tracking<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Order Tracking<ept id="p1">**</ept> page, choose the <bpt id="p2">**</bpt>Show<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The sales order for five touring bikes shipping to customer number 10000 on 02-05-2014, is shown.</source>
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Close the <bpt id="p1">**</bpt>Sales Order<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Order Tracking<ept id="p2">**</ept> pages.</source>
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>To calculate MRP to include underlying component needs</source>
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Planning Worksheet<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Calculate Regenerative Plan<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Calculate Plan - Plan. Wksh.<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>page, fill in the fields as described in the following table.</source>
+        </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Calculate</source>
+        </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Starting Date</source>
+        </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Ending Date</source>
+        </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Show results:</source>
+        </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Limit totals to:</source>
+        </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>MPS<ept id="p1">**</ept> = Yes</source>
+        </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>MRP<ept id="p1">**</ept> = Yes</source>
+        </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>01-23-2014</source>
+        </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>02-07-2014</source>
+        </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>1001..1300</source>
+        </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Location Filter = BLUE</source>
+        </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button to start the planning run.</source>
+        </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>A total of 14 planning lines are created suggesting supply orders for all the demand that the touring bike sales order at BLUE location represents.</source>
+        </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Analyzing the Planning Result</source>
+        </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>To analyze the suggested quantities, Eduardo drills down on selected planning lines to view order tracking entries and planning parameters.</source>
+        </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Planning Worksheet<ept id="p1">**</ept> page, note in the <bpt id="p2">**</bpt>Due Date<ept id="p2">**</ept> column that the suggested supply orders are scheduled backward from the due date of the sales order, 02-05-2014.</source>
+        </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>The timeline begins on the top planning line with the production order to produce the finished touring bikes.</source>
+        </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>The timeline ends on the bottom planning line with the purchase order for one of the lowest-level items, 1255, Socket Back, due on 01-30-2014.</source>
+        </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Like the planning line for item 1251, Axle Back Wheel, this line represents a purchase order for components that are due on the starting date of its produced parent, subassembly item 1250, which in turn is due on 02-03-2014.</source>
+        </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Throughout the worksheet, you can see that all underlying items are due on the starting date of their parents.</source>
+        </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>The planning line for item 1300, Chain Assy, suggests ten pieces.</source>
+        </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>This deviates from the five pieces that we expect to need to fulfill the sales order.</source>
+        </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Proceed to view the order tracking entries.</source>
+        </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>To view order tracking entries for item 1300</source>
+        </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Select the planning line for item 1300, and then choose the <bpt id="p1">**</bpt>Order Tracking<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>The two lines on the <bpt id="p1">**</bpt>Order Tracking<ept id="p1">**</ept> page show that five pieces are tracked from the planning line (first order tracking line) to sales order 1001 (second order tracking line).</source>
+        </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>The last five pieces suggested on the planning line are not related to any document lines, but to a planning parameter, forecast entry, or blanket order entry.</source>
+        </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Such untracked quantities are summed in the <bpt id="p1">**</bpt>Untracked Quantity<ept id="p1">**</ept> field in the header of the <bpt id="p2">**</bpt>Order Tracking<ept id="p2">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Untracked Quantity<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Untracked Planning Elements<ept id="p1">**</ept> page shows that item 1300 uses a planning parameter, Minimum Order Quantity, of 10.00.</source>
+        </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Therefore, the planning line is for ten pieces in total, of which only five can be tracked to a demand.</source>
+        </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>The last five pieces are an untracked quantity to satisfy the planning parameter.</source>
+        </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Proceed to review the planning parameter.</source>
+        </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>To check the planning parameter</source>
+        </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Untracked Planning Elements<ept id="p1">**</ept> page, select the order tracking line for item 1300.</source>
+        </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Item No.<ept id="p1">**</ept> field, and then choose the <bpt id="p2">**</bpt>Advanced<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Item List<ept id="p1">**</ept> page, choose the <bpt id="p2">**</bpt>Stockkeeping Units<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Stockkeeping Unit List<ept id="p1">**</ept> page, open the BLUE stockkeeping unit card.</source>
+        </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Planning<ept id="p1">**</ept> FastTab, note that the <bpt id="p2">**</bpt>Minimum Order Quantity<ept id="p2">**</ept> field contains 10.</source>
+        </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>Close all pages except the <bpt id="p1">**</bpt>Planning Worksheet<ept id="p1">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>To view more order tracking entries</source>
+        </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>Select the planning line for item 1110, Rim, and then choose the <bpt id="p1">**</bpt>Order Tracking<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Order Tracking<ept id="p1">**</ept> page shows that five rims are needed for each production order for front and back wheels respectively.</source>
+        </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>The same order tracking applies to the planning lines for items 1120, 1160, and 1170.</source>
+        </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>For item 1120, the <bpt id="p1">**</bpt>Quantity per<ept id="p1">**</ept> field on the production BOM of each wheel item is 50 PCS, which result in a total need of 100.</source>
+        </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>The planning line for item 1150 for six pieces looks irregular.</source>
+        </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>Proceed to analyze.</source>
+        </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>Select the planning line for item 1150, and then, on then choose the <bpt id="p1">**</bpt>Order Tracking<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Order Tracking<ept id="p1">**</ept> page shows that five units are tracked to the front wheel, and one unit is untracked.</source>
+        </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>Proceed to view the untracked quantity.</source>
+        </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Untracked Quantity<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Untracked Planning Elements<ept id="p1">**</ept> page shows that item 1150 uses a planning parameter, Order Multiple, of 2.00, which specifies that when the item is ordered, it must be in a quantity that is divisible by 2.</source>
+        </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>The closest number to 5 that is divisible by 2 is 6.</source>
+        </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>The same order tracking applies to the planning lines for the Front Hub components, items 1151 and 1155, except that each need is multiplied by the scrap percentage that is defined for item 1150 in the <bpt id="p1">**</bpt>Scrap Percentage<ept id="p1">**</ept> field on the item card.</source>
+        </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>This completes the analysis of the initial supply plan.</source>
+        </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>Notice that the <bpt id="p1">**</bpt>Accept Action Message<ept id="p1">**</ept> check box is selected in all planning lines indicating that they are ready to be converted to supply orders.</source>
+        </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>Carrying Out Action Messages</source>
+        </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>Next, Eduardo converts the suggested planning lines to supply orders by using the <bpt id="p1">**</bpt>Carry Out Action Msg.<ept id="p1">**</ept> function.</source>
+        </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>To automatically create the suggested supply orders</source>
+        </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>Accept Action Message<ept id="p1">**</ept> check box on all planning lines with a warning of type Exception.</source>
+        </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Carry Out Action Message<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Carry Out Action Msg.-Plan.<ept id="p1">**</ept> page, fill in the fields as described in the following table.</source>
+        </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>Production Order</source>
+        </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>Purchase Order</source>
+        </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>Transfer Order</source>
+        </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>Firm Planned</source>
+        </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>Make Purch. Orders</source>
+        </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>Make Trans. Orders</source>
+        </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button to automatically create all the suggested supply orders.</source>
+        </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>Close the empty <bpt id="p1">**</bpt>Planning Worksheet<ept id="p1">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>This completes the initial calculation, analysis, and creation of a supply plan for demand at location BLUE in the first week of February.</source>
+        </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>In the following section, another customer orders ten touring bikes, and Eduardo must replan.</source>
+        </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>Creating a Net Change Plan</source>
+        </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>The next day, before any supply orders are started or posted, a new sales order arrives from Libros S.A. for ten touring bikes to be shipped on 02-12-2014.</source>
+        </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>Eduardo is notified of the new demand, and he proceeds to replan in order to adjust the current supply plan.</source>
+        </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>Eduardo uses the Net Change Plan function to calculate only the changes that are made to demand or supply since the last planning run.</source>
+        </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>In addition, he expands the planning period to 02-14-2014 to include the new sales demand on 02-12-2014.</source>
+        </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>The planning system calculates the best way to cover the demand for these two identical products, such as to consolidate some purchase and production orders, reschedule other orders, and create new orders where it is required.</source>
+        </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>To create the new sales demand and replan accordingly</source>
+        </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>New<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Sales Order<ept id="p1">**</ept> page, fill in the fields as described in the following table.</source>
+        </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>Sell-to Customer Name</source>
+        </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>Shipment Date</source>
+        </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>Item No.</source>
+        </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>Location</source>
+        </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>Quantity</source>
+        </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>Libros S.A.</source>
+        </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>02-12-2014</source>
+        </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>1001</source>
+        </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>BLUE</source>
+        </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>10</source>
+        </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>Accept the availability warning and choose the <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept> button to record the demand quantity.</source>
+        </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>Proceed to replan to adjust the current supply plan.</source>
+        </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Planning Worksheet<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Calculate Net Change Plan<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Calculate Plan - Plan. Wksh.<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>page, fill in the fields as described in the following table.</source>
+        </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>Calculate Plan</source>
+        </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>Starting Date</source>
+        </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>Ending Date</source>
+        </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>Show results:</source>
+        </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>Limit totals to</source>
+        </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>MPS<ept id="p1">**</ept> = Yes</source>
+        </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>MRP<ept id="p1">**</ept> = Yes</source>
+        </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>01-23-2014</source>
+        </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>02-14-2014</source>
+        </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>1001..1300</source>
+        </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>Location Filter = BLUE</source>
+        </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button to start the planning run.</source>
+        </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>A total of 14 planning lines are created.</source>
+        </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>Notice in the first planning line that the <bpt id="p1">**</bpt>Action Message<ept id="p1">**</ept> field contains <bpt id="p2">**</bpt>New<ept id="p2">**</ept>, the <bpt id="p3">**</bpt>Quantity<ept id="p3">**</ept> field 10, and the <bpt id="p4">**</bpt>Due Date<ept id="p4">**</ept> field 02-12-14.</source>
+        </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>This new line for the top parent item, 1001, Touring Bike, is created because the item uses a reordering policy of <bpt id="p1">**</bpt>Order<ept id="p1">**</ept>, which means that it must be supplied in a one-to-one relationship to its demand, the sales order of ten pieces.</source>
+        </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>The next two planning lines are the production orders for touring bike wheels.</source>
+        </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>Each existing order of five, in the <bpt id="p1">**</bpt>Original Quantity<ept id="p1">**</ept> field, is increased to 15, in the <bpt id="p2">**</bpt>Quantity<ept id="p2">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>Both production orders have unchanged due dates, as indicated in the <bpt id="p1">**</bpt>Action Message<ept id="p1">**</ept> field that contains <bpt id="p2">**</bpt>Change Qty.<ept id="p2">**</ept> This is also the case for the planning line for item 1300, except its order multiple of 10.00 rounds the tracked demand for 15 pieces up to the 20.</source>
+        </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>All other planning lines have an action message of <bpt id="p1">**</bpt>Resched. &amp; Chg. Qty.<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>This means that apart from being increased in quantity, the due dates are moved in relation to the supply plan to include the extra quantity in the available production time (capacity).</source>
+        </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>Purchased components are rescheduled and increased to supply the production orders.</source>
+        </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source>Proceed to analyze the new plan.</source>
+        </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>Analyzing the Changed Planning Result</source>
+        </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>Because all lot-for-lot-planned items within the filter, 1100 to 1300, have a rescheduling period of two weeks, their existing supply orders are all modified to meet the new demand, which occurs within the specified two weeks.</source>
+        </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>Several planning lines are simply multiplied by three to provide 15 touring bikes instead of 5, and the due dates are moved back in time to provide the increased quantities by the shipment date of the sales order to the Cannon Group.</source>
+        </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source>For these planning lines, all quantities can be tracked.</source>
+        </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source>The remaining planning lines are increased by ten pieces in addition to moving their due dates.</source>
+        </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve">
+          <source>For these planning lines, a part of the quantities are untracked due to different planning parameters.</source>
+        </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source>Proceed to view some of these order tracking entries.</source>
+        </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source>To view order tracking entries for item 1250</source>
+        </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source>Select the planning line for item 1250, and then choose the <bpt id="p1">**</bpt>Order Tracking<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve">
+          <source>The seven lines on the <bpt id="p1">**</bpt>Order Tracking<ept id="p1">**</ept> page show that five and ten pieces are tracked through the back wheel to the touring bikes on the two sales orders respectively.</source>
+        </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source>The last five pieces are untracked.</source>
+        </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve">
+          <source>Proceed to analyze.</source>
+        </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Untracked Quantity<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Untracked Planning Elements<ept id="p1">**</ept> page shows that item 1250 uses a planning parameter, Order Multiple, of 10.00.</source>
+        </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve">
+          <source>Therefore, the planning line is for 20 pieces in total to round the actual need up to the nearest number divisible by 10.</source>
+        </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve">
+          <source>The last five pieces are an untracked quantity to satisfy the planning parameter.</source>
+        </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve">
+          <source>Close all pages except the <bpt id="p1">**</bpt>Planning Worksheet<ept id="p1">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve">
+          <source>To view an existing order</source>
+        </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve">
+          <source>In the planning line for item 1250, choose the <bpt id="p1">**</bpt>Ref. Order No.<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="353" translate="yes" xml:space="preserve">
+          <source>field.</source>
+        </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Firm Planned Prod. Order<ept id="p1">**</ept> page for the Back Hub.</source>
+        </trans-unit>
+        <trans-unit id="355" translate="yes" xml:space="preserve">
+          <source>The existing order for ten pieces, which you created in the first planning run, opens.</source>
+        </trans-unit>
+        <trans-unit id="356" translate="yes" xml:space="preserve">
+          <source>Close the firm planned production order.</source>
+        </trans-unit>
+        <trans-unit id="357" translate="yes" xml:space="preserve">
+          <source>This completes the walkthrough of how the planning system is used to automatically detect demand, calculate the appropriate supply orders according to demand and planning parameters, and then automatically create different types of supply orders with the appropriate dates and quantities.</source>
+        </trans-unit>
+        <trans-unit id="358" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="359" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Business Process Walkthroughs<ept id="p1">](walkthrough-business-process-walkthroughs.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="360" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Walkthrough: Planning Supplies Manually<ept id="p1">](walkthrough-planning-supplies-manually.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="361" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Design Details: Supply Planning<ept id="p1">](design-details-supply-planning.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

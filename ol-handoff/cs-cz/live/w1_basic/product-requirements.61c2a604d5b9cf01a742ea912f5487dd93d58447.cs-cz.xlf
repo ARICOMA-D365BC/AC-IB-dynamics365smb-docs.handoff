@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="product-requirements.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-435fba6" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">650fb7c92e5d66d238462911011369201d102ea0</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\product-requirements.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">165ca58b3a0e3d10aeaa47725677080a38dd6f8b</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ce21f12c6dc6e46cff1914eba1a02138f59ba93c</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Minimum requirements for using Business Central| Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Learn about the minimum system and version requirements for using Business Central.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Minimum Requirements for Using Business Central</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Before you access <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>, we recommend that you verify that your computer or mobile device meets or exceeds the minimum system requirements for the product.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>This article lists the requirements.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Browsers</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Chrome for Windows and Firefox for Windows:<ept id="p1">**</ept> <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> is designed to work with the current version of these desktop browsers.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Safari:<ept id="p1">**</ept> <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> is designed to work with the current version of Safari on OSX.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Microsoft Edge:<ept id="p1">**</ept> <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> is designed to work with the current version of Microsoft Edge.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Internet Explorer:<ept id="p1">**</ept> <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> is designed to work with Internet Explorer 11 (build 11.0.9600.17239) for Windows 10 (32-bit and 64-bit versions).</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>We recommend that you upgrade to the latest version of Internet Explorer supported for your version of Windows.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Mobile devices</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Windows:<ept id="p1">**</ept> <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> for Windows can be installed on devices with at least 1GB of RAM and Windows 10 Home, Pro, Enterprise, or Education (32-bit and 64-bit editions).</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>iOS:<ept id="p1">**</ept> <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> for iPad and iPhone requires iOS 10.0 or later.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Android:<ept id="p1">**</ept> <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> for Android tablet and Android phone can be installed on devices with at least 1GB of RAM and Android 6.0 or higher.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Device size:<ept id="p1">**</ept> <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> is supported on smartphones with a minimum screen size of 4” and tablets with a minimum screen size of 7”.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Outlook</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Outlook applications:<ept id="p1">**</ept> To use <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> as your business inbox in Outlook, you will need Outlook 2016 or later, Outlook Web App, OWA for iPhone, OWA for iPad, or OWA for Android.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Browsers:<ept id="p1">**</ept> When using <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> as your business inbox in the Outlook Web App (OWA), the add-in requires that your computer is running one of the listed supported browsers that are listed earlier in this article.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Platforms:<ept id="p1">**</ept> When using the <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> Outlook Add-In in OWA for iPhone, OWA for iPad, and OWA for Android, the add-in requires that your mobile device is running one of the listed supported mobile devices for <ph id="ph2">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Excel</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Edit in Excel:<ept id="p1">**</ept> To use the Excel add-in to make changes in Excel and push the changes back into <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>, you need Excel 2016 or later.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Analyzing Financial Statements in Microsoft Excel<ept id="p1">](finance-analyze-excel.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Getting Started<ept id="p1">](product-get-started.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>System Requirements for Dynamics 365 Business Central On-premises<ept id="p1">](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,321 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="across-how-to-create-workflows.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-15c36f0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4cfa206f466aeaafaa008b3e75b64c53fe834726</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">financials\across-how-to-create-workflows.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0acc9efa377b8cd86bbabef8c5aefd72ed65eab9</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">bb5c249026f7547a05c9ea87eb344e5a861c354a</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>How to Create Workflows | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>You can create workflows that connect business-process tasks performed by different users.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>System tasks, such as automatic posting, can be included as steps in workflows, preceded or followed by user tasks.</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Requesting and granting approval to create new records are typical workflow steps.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Create Workflows</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>You can create workflows that connect business-process tasks performed by different users.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>System tasks, such as automatic posting, can be included as steps in workflows, preceded or followed by user tasks.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Requesting and granting approval to create new records are typical workflow steps.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Workflow<ept id="p1">**</ept> window, you create a workflow by listing the involved steps on the lines.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Each step consists of a workflow event moderated by event conditions and a workflow response with response options.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>You define workflow steps by filling fields on workflow lines from fixed lists of event and response values representing scenarios that are supported by the application code.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>When you create workflows, you can copy the steps from existing workflows or from workflow templates.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Workflow templates represent non-editable workflows that exist in the generic version of <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The code for workflow templates that are added by Microsoft are prefixed with “MS-“, such as in “MS-PIW”.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Create Workflows from Workflow Templates<ept id="p1">](across-how-to-create-workflows-from-workflow-templates.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>If your business scenario requires workflow events or responses that are not supported, a Microsoft partner must implement them by customizing the application code.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>All notifications about workflow steps are sent through a job queue.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Make sure that the job queue in your installation is set up to handle workflow notifications, and that the <bpt id="p1">**</bpt>Start Automatically From NAS<ept id="p1">**</ept> check box is selected.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Use Job Queues to Schedule Tasks<ept id="p1">](admin-job-queues-schedule-tasks.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>To create a workflow</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Workflows<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>New<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Workflow<ept id="p1">**</ept> window opens.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Code<ept id="p1">**</ept> field, enter a maximum of 20 characters to identify the workflow.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>To create the workflow from a workflow template, in the <bpt id="p1">**</bpt>Workflows<ept id="p1">**</ept> window, choose the <bpt id="p2">**</bpt>Create Workflow from Template<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Create Workflows from Workflow Templates<ept id="p1">](across-how-to-create-workflows-from-workflow-templates.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Description<ept id="p1">**</ept> field, describe the workflow.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Category<ept id="p1">**</ept> field, specify which category the workflow belongs to.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>When Event<ept id="p1">**</ept> field, specify the event that must occur to start the workflow step.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>When you choose the field, the <bpt id="p1">**</bpt>Workflow Events<ept id="p1">**</ept> window opens where you select from all the workflow events that exist.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Condition<ept id="p1">**</ept> field, specify one or more conditions that must be met before the event in the <bpt id="p2">**</bpt>When Event<ept id="p2">**</ept> field can occur.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>When you choose the field, the <bpt id="p1">**</bpt>Event Conditions<ept id="p1">**</ept> window opens where you choose from a list of filter fields that are relevant as conditions for the event in question.</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>You can add new filter fields that you want to use as event conditions.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>You set event condition filters just as you set filters on report request pages.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>If the workflow event is the change of a specific field on a record, then the <bpt id="p1">**</bpt>Event Conditions<ept id="p1">**</ept> window opens with options to select the field and the type of change.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>To specify a field change for the event, in the <bpt id="p1">**</bpt>Event Conditions<ept id="p1">**</ept> window, in the <bpt id="p2">**</bpt>Field<ept id="p2">**</ept> field, select the field that changes.</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Operator<ept id="p1">**</ept> field, select either <bpt id="p2">**</bpt>Decreased<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Increased<ept id="p3">**</ept>, or <bpt id="p4">**</bpt>Changed<ept id="p4">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Then Response<ept id="p1">**</ept> field, specify the response that will follow when the workflow event occurs.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>When you choose the field, the <bpt id="p1">**</bpt>Workflow Responses<ept id="p1">**</ept> window opens where you select from all workflow responses that exist and set response options for the selected response.</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Options for the Selected Response<ept id="p1">**</ept> FastTab, specify options for the workflow response, by selecting values in the different fields that appear, as follows:</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>To specify options for a workflow response that involves sending a notification, fill the fields as described in the following table.</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Field</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Recipient User ID<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Specify the user who the notification must be sent to.</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Note: This option is only available for workflow responses with a placeholder for a specific user.</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>For workflow responses without placeholders for users, the notification recipient is typically defined by the approval user setup.</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Link Target Page<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Specify another page in <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph> that the link in the notification opens instead of the default page.</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Custom Link<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Specify the URL of a link that is added to the notification in addition to the link to page in <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>To specify options for a workflow response that involves creating an approval request, fill the fields as described in the following table.</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Field</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Due Date Formula<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Specify in how many days the approval request must be resolved from the date when it was sent.</source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Delegate After<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Specify if and when an approval request will automatically be delegated to the relevant substitute.</source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>You can select to automatically delegate one, two, or five days after the date when the approval was requested.</source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Approver Type<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Specify who the approver is, according to the setup of approval users and workflow users.</source>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The following options exist:</source>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">-   </ph><bpt id="p1">**</bpt>Salesperson/Purchaser<ept id="p1">**</ept> specifies that the user who is set up in the <bpt id="p2">**</bpt>Salespers./Purch. Code<ept id="p2">**</ept> field in the <bpt id="p3">**</bpt>Approval User Setup<ept id="p3">**</ept> window determines the approver.</source>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Approval request entries are then created according to the value in the <bpt id="p1">**</bpt>Approver Limit Type<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Set Up Approval Users<ept id="p1">](across-how-to-set-up-workflow-users.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Show Confirmation Message<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Specify if a confirmation message is shown to users after they request an approval.</source>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Approver Limit Type<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Specify how approvers’ approval limits affect when approval request entries are created for them.</source>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>A qualified approver is an approver whose approval limit is above the value on the request being made.</source>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The following options exist:</source>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>1.  <bpt id="p1">**</bpt>Approver Chain<ept id="p1">**</ept> specifies that approval request entries are created for all the requester’s approvers up to and including the first qualified approver.</source>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>2.  <bpt id="p1">**</bpt>Direct Approver<ept id="p1">**</ept> specifies that an approval request entry is only created for the requester’s immediate approver, regardless of the approver’s approval limit.</source>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>3.  <bpt id="p1">**</bpt>First Qualified Approver<ept id="p1">**</ept> specifies that an approval request entry is only created for the requester’s first qualified approver.</source>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>To specify options for a workflow response that involves creating journal lines, fill the fields as described in the following table.</source>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Field</source>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>General Journal Template Name<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Specify the name of the general journal template that the specified journal lines are created in.</source>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>General Journal Batch Name<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Specify the name of the general journal batch that the specified journal lines are created in.</source>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Increase Indent<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Decrease Indent<ept id="p2">**</ept> buttons to indent the event name in the <bpt id="p3">**</bpt>When<ept id="p3">**</ept> field to define the step’s position in the workflow.</source>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Indicate that the step is the next in the workflow sequence by indenting the event name under the event name of the previous step.</source>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Indicate that the step is one of more alternative steps that may start depending on its condition by placing the event name at the same indentation as the other alternative steps.</source>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Order such optional steps according to priority by placing the most important step first.</source>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>You can only change the indent of a step that does not have a subsequent step.</source>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Repeat steps 7 through 11 to add more workflow steps, either before or after the step that you have just created.</source>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>Enabled<ept id="p1">**</ept> check box to specify that the workflow will start as soon as the event on the first step of type <bpt id="p2">**</bpt>Entry Point<ept id="p2">**</ept> occurs.</source>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Using Workflows<ept id="p1">](across-use-workflows.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Do not enable a workflow until you are sure that the workflow is completed and that the involved workflow steps can start.</source>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>To see relations between tables that are used in workflows, Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, and then enter <bpt id="p3">**</bpt>Workflow – Table Relations<ept id="p3">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Create Workflows from Workflow Templates<ept id="p1">](across-how-to-create-workflows-from-workflow-templates.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Set Up Approval Users<ept id="p1">](across-how-to-set-up-approval-users.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Setting Up Workflow Notifications<ept id="p1">](across-setting-up-workflow-notifications.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>View Archived Workflow Step Instances<ept id="p1">](across-how-to-view-archived-workflow-step-instances.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Delete Workflows<ept id="p1">](across-how-to-delete-workflows.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Walkthrough: Setting Up and Using a Purchase Approval Workflow<ept id="p1">](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Setting Up Workflows<ept id="p1">](across-set-up-workflows.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Using Workflows<ept id="p1">](across-use-workflows.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Workflow<ept id="p1">](across-workflow.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

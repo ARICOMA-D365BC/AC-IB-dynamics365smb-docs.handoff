@@ -1,0 +1,165 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="across-preview.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-15c36f0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6441d57d3e6d9a0e8600e655a096a941f5d87063</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">financials\across-preview.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">df6b0d2821cc4842b27e270f81e65a69739b6815</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">75f35a8d3f1dbdd667f0a583d42956e96aba3607</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Get the preview in new markets</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Access to the <ph id="ph1">[!INCLUDE [d365fin_long](includes/d365fin_long_md.md)]</ph> Preview</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Starting in the spring of 2018, <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph> will become available in new countries.</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>To ensure that <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph> is the right solution for those customers we're offering a preview version of the service ahead of the spring launch.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The preview for Denmark became available in January, 2018, and additional markets will soon follow.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Getting Started with Previews and Sandboxes</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Previews and sandboxes are great ways to get started with <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>A preview instance contains functionality that is in addition to what's available in the current version.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Previews give partners and customers the opportunity to try and provide feedback about functionality that we're thinking about releasing.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Though previews are primarily intended for partners, customers are also welcome to use them for a limited time.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The current preview of <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph> contains most of the capabilities that are available in Dynamics NAV 2018, which typically require some help from a partner to set up.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>To get started with a preview, go to <bpt id="p1">[</bpt>this page<ept id="p1">](https://go.microsoft.com/fwlink/?linkid=866045)</ept> and provide your work email address.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>To learn more about <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph> and the capabilities it offers, refer to the documentation here on this site.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You can think of a sandbox as a non-production environment that you can use on top of your production or preview instance of <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>A sandbox lets you safely build and test extensions and develop new functionality to customize the service without affecting the data and settings of your production or preview instances.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Right now, all customers who have a production or preview version can use a sandbox.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>To learn how to get started with a sandbox, see the instructions below.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Creating a Sandbox Environment</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>To work in a sandbox environment, you must have a subscription to <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>There can only be one sandbox per subscription.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Advanced Functionality Available in a Sandbox Environment</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Sandboxes contain an in-client Designer feature that lets you design pages using a drag-and-drop interface and build extensions in the client itself by adding and rearranging fields.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Using Designer<ept id="p1">](https://docs.microsoft.com/en-us/dynamics-nav/developer/devenv-inclient-designer)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>To create a sandbox environment</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Sign in to your production or preview instance of <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Sandbox Environment<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>Create<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>A tab will open where you can finish setting up your sandbox.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>If pop-up blocker is enabled in your browser, change it to allow URLs from the <bpt id="p1">*</bpt>.financials.dynamics.com<ept id="p1">*</ept> address.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>When the sandbox is ready, a Welcome page will display.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>If you want to read about scenarios that you can try in a sandbox, such as how to develop extensions, choose the <bpt id="p1">**</bpt>Learn more<ept id="p1">**</ept> link.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Otherwise, choose <bpt id="p1">**</bpt>Close<ept id="p1">**</ept> to continue to the Role Center of your <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph> sandbox instance.</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>At the top of the Role Center, a notification appears to inform you that this is a sandbox.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>You can also see the type of the environment in the title bar of the client.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The sandbox contains demonstration data for the fictitious CRONUS company.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>No data is copied or otherwise transferred from the production environment.</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>You can return to Sandbox Environments page at any time to reset the sandbox.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Resetting a sandbox removes it completely, and then recreates it with the default demonstration data.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>To switch between your production environment and sandbox, use the Dynamics 365 menu or the Dynamics home page.</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>An administrator or another user can limit or even block user access to the sandbox by using the standard security features in <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph>, such as the User card, user groups and permission sets.</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Building New Solutions and Intellectual Property</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph> offers a set of development tools and a modern platform to build on so you can create your own add-on apps and embed solutions to connect or extend <ph id="ph2">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph> provides tools that you can use to implement your own add-on and embed functionality to add new industry-specific end-to-end experiences or integrate third-party solutions.</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>For example, you can use an API to build a connected app to exchange data between <ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph> and your payroll app.</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Connect apps can also make use of extensions to create pages to be used for setup, configuration, or to support app-specific features.</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Developing Apps for <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph><ept id="p1">](https://aka.ms/getstartedwithapps)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Welcome to <ph id="ph1">[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]</ph><ept id="p1">](index.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Working with <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph><ept id="p1">](ui-work-product.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

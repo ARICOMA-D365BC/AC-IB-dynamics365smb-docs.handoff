@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="advanced_experience_md.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-15c36f0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3f0c8c3a804512d76a5adadd91c277381120a978</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">financials\includes\advanced_experience_md.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">eef0dd7ebea1287b236df0ec56339a88e78dc923</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">eedd60c7b4b522d12789753fc71bf1e7c1fbcde2</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;b&gt;</bpt>ADVANCED<ept id="p1">&lt;/b&gt;</ept></source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This functionality is only available with the Advanced experience.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">&lt;a href="../ui-experiences.md" data-raw-source="[Customizing Your Finance and Operations, Business edition  Experience](../ui-experiences.md)"&gt;</bpt>Customizing Your Finance and Operations, Business edition  Experience<ept id="p1">&lt;/a&gt;</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

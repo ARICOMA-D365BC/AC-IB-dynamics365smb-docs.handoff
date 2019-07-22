@@ -1,0 +1,150 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="purchasing-how-to-receive-and-convert-electronic-documents.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-435fba6" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2ed7c083b4315f374a81ec5f97ce5e872c11f071</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\purchasing-how-to-receive-and-convert-electronic-documents.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">532c7b754a1e7c5e8a8e8d741416101fce8cde22</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c27c8d60920b094cf0a66ae0398ee50d1475c07b</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Receive and Convert Electronic Documents | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>You can receive electronic documents directly from trading partners or from an OCR service.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Receive and Convert Electronic Documents</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The generic version of <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> supports receiving electronic invoices and credit memos in the PEPPOL format, which is supported by the largest providers of document exchange services.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>To receive an invoice from a vendor as an electronic PEPPOL document, you process the document in the Incoming Documents page to convert it to a purchase invoice or general journal line in <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>In addition to receiving electronic documents directly from trading partners, you can receive electronic documents from an OCR service that has turned your PDF or image files into electronic documents.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Before you can receive electronic documents through the document exchange service, you must set up various master data, such as company information, vendors, items, and units of measure.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>These are used to identify the business partners and items when converting data in elements in the incoming document file to fields in <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Set Up a Document Exchange Service<ept id="p1">](across-how-to-set-up-a-document-exchange-service.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Before you can receive electronic documents through the OCR service, you must set up and enable the preconfigured service connection.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Set Up Incoming Documents<ept id="p1">](across-how-setup-income-documents.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The traffic of electronic documents in and out of <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> is managed by the Job Queue feature.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Before you can receive electronic documents, the relevant job queue must be started.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You can either start the conversion of electronic documents manually, as described in this procedure, or you can enable a workflow to convert electronic documents automatically when they are received.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The generic version of <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> includes a workflow template, <bpt id="p1">*</bpt>From Incoming Electronic through OCR to Open Purchase Invoice Workflow<ept id="p1">*</ept>, which is ready to be copied to a workflow and enabled.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Workflow<ept id="p1">](across-workflow.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>When you convert electronic documents received from the OCR service to documents or journal lines in <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>, multiple lines on the source document will be summed on one line.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The single line will be of type G/L Account and the <bpt id="p1">**</bpt>Description<ept id="p1">**</ept> and (G/L account) <bpt id="p2">**</bpt>No.<ept id="p2">**</ept></source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>fields will be empty.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The value in the <bpt id="p1">**</bpt>Amount<ept id="p1">**</ept> field will equal the total amount excluding VAT of all lines in the source document.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>To make sure that the <bpt id="p1">**</bpt>Description<ept id="p1">**</ept> and <bpt id="p2">**</bpt>No.<ept id="p2">**</ept></source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>fields are filled, you can choose the <bpt id="p1">**</bpt>Map Text to Account<ept id="p1">**</ept> button on the <bpt id="p2">**</bpt>Incoming Documents<ept id="p2">**</ept> page to define that a certain invoice text is always mapped to a certain debit or credit account in the general ledger.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Going forward, the <bpt id="p1">**</bpt>Description<ept id="p1">**</ept> field on document or journal lines created from an electronic document for that vendor or customer will be filled with the text in question and the (G/L account) <bpt id="p2">**</bpt>No.<ept id="p2">**</ept></source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>field with the account in question.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Instead of mapping to a G/L account, you can also map to a bank account.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>This is practical, for example, for electronic documents for expenses that are already paid where you want to create a general journal line that is ready to post to a bank account.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The following procedure describes how to receive a vendor invoice and convert it to a purchase invoice in <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The procedure is the same when you convert a vendor invoice to a general journal line.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>To receive and convert an electronic invoice to a purchase invoice</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Incoming Documents<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Select the line for the incoming document record that represents a new incoming electronic invoice, and then, on the <bpt id="p1">**</bpt>Home<ept id="p1">**</ept> tab, in the <bpt id="p2">**</bpt>Manage<ept id="p2">**</ept> group, choose <bpt id="p3">**</bpt>Edit<ept id="p3">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Incoming Document Card<ept id="p1">**</ept> page, the related XML file is attached, and most of the fields are prefilled with information from the electronic invoice.</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Create Incoming Document Records<ept id="p1">](across-how-create-income-document-records.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Data Exchange Type<ept id="p1">**</ept> field, choose <bpt id="p2">**</bpt>PEPPOL - Invoice<ept id="p2">**</ept> or <bpt id="p3">**</bpt>OCR – Invoice<ept id="p3">**</ept> depending on the source of the electronic document.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>To map text on the vendor invoice to a specific debit account, on the <bpt id="p1">**</bpt>Actions<ept id="p1">**</ept> tab, in the <bpt id="p2">**</bpt>General<ept id="p2">**</ept> group, choose <bpt id="p3">**</bpt>Map Text to Account<ept id="p3">**</ept>, and then fill the <bpt id="p4">**</bpt>Text-to-Account Mapping Worksheet<ept id="p4">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Actions<ept id="p1">**</ept> tab, in the <bpt id="p2">**</bpt>General<ept id="p2">**</ept> group, choose <bpt id="p3">**</bpt>Create Document<ept id="p3">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>A purchase invoice will be created in <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> based on the information in the electronic document.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Any validation errors, typically related to wrong or missing master data in <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> will be shown on the <bpt id="p1">**</bpt>Error Messages<ept id="p1">**</ept> FastTab.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Managing Payables<ept id="p1">](payables-manage-payables.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Incoming Documents<ept id="p1">](across-income-documents.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Set Up Electronic Document Sending and Receiving<ept id="p1">](across-how-to-set-up-electronic-document-sending-and-receiving.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Exchanging Data Electronically<ept id="p1">](across-data-exchange.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>General Business Functionality<ept id="p1">](ui-across-business-areas.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

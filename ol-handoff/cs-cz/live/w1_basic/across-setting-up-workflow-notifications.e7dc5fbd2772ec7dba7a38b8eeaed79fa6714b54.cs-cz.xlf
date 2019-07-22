@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="across-setting-up-workflow-notifications.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-435fba6" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">53b063598cf21ca5b5de72d953995b48a17d64a2</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\across-setting-up-workflow-notifications.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f289ca0b8273f5f5c41911e8fe113ba92b3027b2</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d9b9e19b2c559d6e5d298ebc4c47cd0ae60f3eed</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Setting Up Workflow Notifications | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Many workflow responses are about notifying a user that an event has occurred that they must act on.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>For example, on one workflow step, the event can be that User 1 requests approval of a new record, and the response is that a notification is sent to User 2, the approver.</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>On the next workflow step, the event can be that User 2 approves the record, and the response is that a notification is sent to User 3 to start a related processing of the approved record.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>For workflow steps that are about approval, each notification is tied to an approval entry.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Setting Up Workflow Notifications</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Many workflow responses are about notifying a user that an event has occurred that they must act on.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>For example, on one workflow step, the event can be that User 1 requests approval of a new record, and the response is that a notification is sent to User 2, the approver.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>On the next workflow step, the event can be that User 2 approves the record, and the response is that a notification is sent to User 3 to start a related processing of the approved record.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>For workflow steps that are about approval, each notification is tied to an approval entry.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Workflow<ept id="p1">](across-workflow.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The generic version of <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> supports notifications as email and as internal notes.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>All workflow notifications are sent through a job queue.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Make sure that the job queue in your installation is set up to handle workflow notifications, and that the <bpt id="p1">**</bpt>Start Automatically From Server<ept id="p1">**</ept> check box is selected.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Use Job Queues to Schedule Tasks<ept id="p1">](admin-job-queues-schedule-tasks.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>You set up different aspects of workflow notifications in the following places:</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>For approval workflows, you set up the recipients of workflow notifications by filling a line on the <bpt id="p1">**</bpt>Approval User Setup<ept id="p1">**</ept> page for each user that takes part in the workflow.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>For example, if User 2 is specified in the <bpt id="p1">**</bpt>Approver ID<ept id="p1">**</ept> field on the line for User 1, then the approval request notification is sent to User 1.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Set Up Approval Users<ept id="p1">](across-how-to-set-up-approval-users.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>You set up when and how users receive workflow notifications by filling the <bpt id="p1">**</bpt>Notification Schedule<ept id="p1">**</ept> page for each workflow user.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Specify When and How to Receive Notifications<ept id="p1">](across-how-to-specify-when-and-how-to-receive-notifications.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>If you want, you can customize the content of the email notification by modifying report 1320, Notification Email.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Create and Modify a Custom Report or Document Layout<ept id="p1">](ui-how-create-custom-report-layout.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>You set up specific content and rules of a workflow notification when you create the workflow in question.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>You do this by selecting options on the <bpt id="p1">**</bpt>Workflow Response Options<ept id="p1">**</ept> page for the workflow response that represents the notification.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>For more information, see step 9 in <bpt id="p1">[</bpt>Create Workflows<ept id="p1">](across-how-to-create-workflows.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Set Up Approval Users<ept id="p1">](across-how-to-set-up-approval-users.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Set Up Workflow Users<ept id="p1">](across-how-to-set-up-workflow-users.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Specify When and How to Receive Notifications<ept id="p1">](across-how-to-specify-when-and-how-to-receive-notifications.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Create Workflows<ept id="p1">](across-how-to-create-workflows.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Create and Modify a Custom Report or Document Layout<ept id="p1">](ui-how-create-custom-report-layout.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Use Job Queues to Schedule Tasks<ept id="p1">](admin-job-queues-schedule-tasks.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Set up Email<ept id="p1">](admin-how-setup-email.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Walkthrough: Setting Up and Using a Purchase Approval Workflow<ept id="p1">](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)</ept><ph id="ph1"> </ph></source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Workflow<ept id="p1">](across-workflow.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,216 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="receivables-how-reconcile-payments-auto-application.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-435fba6" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">693373c91fcc2bc8d0ef4eb3acea99dd13d9eaa0</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\receivables-how-reconcile-payments-auto-application.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b0eb9c036efd20ca0d99a1de3f2d8de6df847677</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5668d3c2e5e06178049f48f9688caf75e9db89e0</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Use Automatic Application to Reconcile Payments | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Describes how to use the automatic application function to apply payments or cash receipts to their related open entries, and reconcile payments.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Reconcile Payments Using Automatic Application</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Payment Reconciliation Journal<ept id="p1">**</ept> page specifies payments, either incoming or outgoing, that have been recorded as transactions on your online bank account and that you can apply to their related open customer, vendor, and bank account ledger entries.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The lines in the journal are filled by importing a bank statement as a bank feed or file.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The page offers automatic matching functionality that applies payments to their related open entries based on a matching of text on a bank statement line (journal line) with text on one or more open entries.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Note that you can overwrite the suggested automatic applications, and you can choose to not use automatic application at all.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>For more information, see step 7.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>A payment reconciliation journal is related to one bank account in <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> that reflects the online bank account where the payment transactions are recorded.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Any open bank account ledger entries related to the applied customer or vendor ledger entries will be closed when you choose the <bpt id="p1">**</bpt>Post Payments and Reconcile Bank Account<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>This means that the bank account is automatically reconciled for payments that you post with the journal.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>If you want to import bank statements as bank feeds, you must first enable the Envestnet Yodlee Bank Feeds service and then link the bank account to its related online bank account.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The payment reconciliation journal will then automatically detect bank feeds when you choose the <bpt id="p1">**</bpt>Import Bank Transactions<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>In addition, you can set a bank account up to automatically import new bank statement feeds every hour.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Transactions for payments that have already been posted as applied and/or reconciled will not be imported.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Set Up the Envestnet Yodlee Bank Feeds Service<ept id="p1">](bank-how-setup-bank-statement-service.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>With the <bpt id="p1">**</bpt>Map Text to Account<ept id="p1">**</ept> action, you can set up mappings between text on payments and specific debit, credit, and balancing accounts so that such payments are posted to the specified accounts when you post the payment reconciliation journal.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>See step 8.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Map Text on Recurring Payments to Accounts for Automatic Reconciliation<ept id="p1">](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Similar functionality exists to reconcile excess amounts on payment reconciliation journal lines on an ad-hoc basis.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Reconcile Payments That Cannot be Applied.<ept id="p1">](receivables-how-reconcile-payments-cannot-apply-auto.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>You use the <bpt id="p1">**</bpt>Apply Automatically<ept id="p1">**</ept> function, either automatically when you import a bank file or feed with payment transactions or when you activate it, to apply payments to their related open entries based on a matching of text on a bank statement line (journal line) with text on one or more open entries.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>On journal lines where a payment has been applied automatically to one or more open entries, the <bpt id="p1">**</bpt>Match Confidence<ept id="p1">**</ept> field has a value between Low and High to indicate the quality of the data matching that the suggested payment application is based on.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>In addition, the <bpt id="p1">**</bpt>Account Type<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Account No.<ept id="p2">**</ept> fields are filled with information about the customer or vendor that the payment is applied to.</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>If you have set up a text-to-account mapping, the automatic application can result in a match confidence value of <bpt id="p1">**</bpt>High - Text-to-Account Mapping<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>For each journal line on the <bpt id="p1">**</bpt>Payment Reconciliation Journal<ept id="p1">**</ept> page, you can open the <bpt id="p2">**</bpt>Payment Application<ept id="p2">**</ept> page to see all candidate open entries for the payment and view detailed information for each entry about the data matching that a payment application is based on.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Here, you can manually apply payments or reapply payments that were applied automatically to a wrong entry.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Review or Apply Payments After Automatic Application<ept id="p1">](receivables-how-review-apply-payments-auto-application.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>You can start the bank transactions import at the same time as you open the <bpt id="p1">**</bpt>Payment Reconciliation<ept id="p1">**</ept> Journal page for an existing payment reconciliation journal on the <bpt id="p2">**</bpt>Payment Reconciliation Journals<ept id="p2">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The following procedure describes how to import bank transactions into the <bpt id="p1">**</bpt>Payment Reconciliation Journal<ept id="p1">**</ept> page after you have created a new journal.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>To reconcile payments using automatic application</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Payment Reconciliation Journals<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>To work in a new payment reconciliation journal, choose the <bpt id="p1">**</bpt>New Journal<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Payment Bank Account List<ept id="p1">**</ept> page, select the bank account that you want to reconcile payments for, and then choose the <bpt id="p2">**</bpt>OK<ept id="p2">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Payment Reconciliation Journal<ept id="p1">**</ept> page opens prepared for the selected bank account.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Import Bank Transactions<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>If the bank account for the selected journal is not set up for import of bank transactions, then a dialog box will open to help you fill in the relevant fields.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Select a file to import<ept id="p1">**</ept> page, select the file that contains the bank transactions for payments that you want to reconcile, and then choose the <bpt id="p2">**</bpt>Open<ept id="p2">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>If the Bank Statement service is enabled, on the <bpt id="p1">**</bpt>Bank Statement Filter<ept id="p1">**</ept> page that opens automatically, specify the date interval for the bank statements to be imported.</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Payment Reconciliation Journal<ept id="p1">**</ept> page is filled with lines for payments representing bank transactions in the imported bank statement.</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>On lines for payments that have been automatically applied to their related open entries, the <bpt id="p1">**</bpt>Match Confidence<ept id="p1">**</ept> field has a value between <bpt id="p2">**</bpt>Low<ept id="p2">**</ept> and <bpt id="p3">**</bpt>High<ept id="p3">**</ept> to indicate the quality of the data matching that the suggested payment application is based on.</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>In addition, the <bpt id="p1">**</bpt>Account Type<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Account No.<ept id="p2">**</ept> fields are filled with information about the customer or vendor that the payment is applied to.</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Select a journal line, and then, choose the <bpt id="p1">**</bpt>Apply Manually<ept id="p1">**</ept> action to review, reapply, or apply the payment manually on the <bpt id="p2">**</bpt>Payment Application<ept id="p2">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Review or Apply Payments After Automatic Application<ept id="p1">](receivables-how-review-apply-payments-auto-application.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>When you have finished your manual application, the <bpt id="p1">**</bpt>Match Confidence<ept id="p1">**</ept> field on the journal line that you have processed manually contains <bpt id="p2">**</bpt>Accepted<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Select an unapplied journal line for a recurring cash receipt or expense, such as a car gasoline purchase, and then choose the <bpt id="p1">**</bpt>Map Text to Account<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Map Text on Recurring Payments to Accounts for Automatic Reconciliation<ept id="p1">](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>When you have finished your mapping of payment text to accounts, choose the <bpt id="p1">**</bpt>Apply Manually<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>When you are content that all payments on the journal lines are correctly applied or set to direct posting, choose the <bpt id="p1">**</bpt>Post<ept id="p1">**</ept> action, and then choose one of the options:</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Post Payments and Reconcile Bank Accounts<ept id="p1">**</ept> - To post the payments as applied and also close the related bank account ledger entries as reconciled.</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Post Payments Only<ept id="p1">**</ept> - To only post the payments as applied, but leave the related bank account ledger entries open.</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Required that you reconcile the bank account separately,  for example: For more information, see <bpt id="p1">[</bpt>Reconcile Bank Accounts Separately<ept id="p1">](bank-how-reconcile-bank-accounts-separately.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Test Report<ept id="p1">**</ept> - To review the result of posting before you post.</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Bank Account Statement<ept id="p1">**</ept> report opens and shows the same fields as at the bottom of the <bpt id="p2">**</bpt>Payment Reconciliation Journal<ept id="p2">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>When you post the payment reconciliation journal, the applied open entries memos are closed, and the related customer, vendor, or general ledger accounts are updated.</source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>For payments on journal lines based on text-to-account mapping, the specified customer, vendor, and general ledger accounts are updated.</source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>For all journal lines, bank account ledger entries are created.</source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>If you choose the <bpt id="p1">**</bpt>Post Payments and Reconcile Bank Account<ept id="p1">**</ept> action, any open bank account ledger entries related to the applied customer or vendor ledger entries will be closed.</source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>This means that the bank account is automatically reconciled for payments that you post with the journal.</source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>You can compare the value in the <bpt id="p1">**</bpt>Balance on Bank Account After Posting<ept id="p1">**</ept> field together with the value in the <bpt id="p2">**</bpt>Statement Ending Balance<ept id="p2">**</ept> field to track when the bank account is reconciled based on payments that you post.</source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>If you do not want to reconcile the bank account from the <bpt id="p1">**</bpt>Payment Reconciliation Journal<ept id="p1">**</ept> page, then you must use the <bpt id="p2">**</bpt>Bank Acc. Reconciliation<ept id="p2">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Reconcile Bank Accounts Separately<ept id="p1">](bank-how-reconcile-bank-accounts-separately.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Managing Receivables<ept id="p1">](receivables-manage-receivables.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Sales<ept id="p1">](sales-manage-sales.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Working with <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph><ept id="p1">](ui-work-product.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="design-details-item-tracking-lines-window.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-2e292eb" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">62070ef4e580a3bd665130c9b017bf164bbe2142</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">financials\design-details-item-tracking-lines-window.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">258b76573ecd2f294a5906d751a605361b2e35f0</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b7c5361d76bc5846d3eb00d34196dc4d8f9afd20</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Design Details - Item Tracking Lines Window | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Read about how to managethe flow of serial and lot numbers in your inventory.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Design Details: Item Tracking Lines Window</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Item tracking records and reservation records are created in the reservation system, and their availability is calculated dynamically.</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Data that is entered in the <bpt id="p1">**</bpt>Item Tracking Lines<ept id="p1">**</ept> window is managed in a temporary version of the <bpt id="p2">**</bpt>Tracking Specification<ept id="p2">**</ept> table.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>When the window is closed, the active data is committed to the <bpt id="p1">**</bpt>Reservation Entry<ept id="p1">**</ept> table and the historic data is committed to the <bpt id="p2">**</bpt>Tracking Specification<ept id="p2">**</ept> table.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Design Details: Active versus Historic Item Tracking Entries<ept id="p1">](design-details-active-versus-historic-item-tracking-entries.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Lookups from the <bpt id="p1">**</bpt>Serial No.<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Lot No.<ept id="p2">**</ept> fields show availability based on both the <bpt id="p3">**</bpt>Item Ledger Entry<ept id="p3">**</ept> table and the <bpt id="p4">**</bpt>Reservation Entry<ept id="p4">**</ept> table, with no date filter.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The matrix of quantity fields on the header of the <bpt id="p1">**</bpt>Item Tracking Lines<ept id="p1">**</ept> window dynamically displays the quantities and sums of item tracking numbers that are being entered on the lines of the window.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The quantities must correspond to those of the document line, which is indicated by <bpt id="p1">**</bpt>0<ept id="p1">**</ept> in the <bpt id="p2">**</bpt>Undefined<ept id="p2">**</ept> fields in the header of the window.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>To coordinate the flow of serial and lot numbers through inventory, the following rules exist for entering data in the <bpt id="p1">**</bpt>Item Tracking Lines<ept id="p1">**</ept> window:</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>For both inbound and outbound item tracking lines, you cannot enter a serial number, with or without a lot number, more than once in the same instance of the <bpt id="p1">**</bpt>Item Tracking Lines<ept id="p1">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>If you try to enter any combination of serial or lot numbers that is already present in the window, then an error message blocks the data entry.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>For inbound item tracking lines, you cannot post the related document if an item of the same variant and with the same serial number is already in inventory.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>If you try to post a positive line for an inventory item with the same variant and serial number, then an error message blocks the posting.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>However, for both inbound and outbound item tracking lines on open documents, you can have the same combination of serial or lot numbers that relate to different source document lines, that is, existing in different instances of the <bpt id="p1">**</bpt>Item Tracking Lines<ept id="p1">**</ept> window until the related document is posted.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>If the item is set up for serial number-specific tracking or lot number- specific tracking, then you cannot post an outbound document line unless an item with the defined serial or lot number exists in inventory.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>If you try to post an outbound document line for an item with a serial lot number that is not in inventory, then an error message blocks the posting.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The rules for entering data in the <bpt id="p1">**</bpt>Item Tracking Lines<ept id="p1">**</ept> window also support the coupling principles that govern order tracking, planning, and reservation.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Design Details: Item Tracking and Planning<ept id="p1">](design-details-item-tracking-and-planning.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Design Details: Item Tracking<ept id="p1">](design-details-item-tracking.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

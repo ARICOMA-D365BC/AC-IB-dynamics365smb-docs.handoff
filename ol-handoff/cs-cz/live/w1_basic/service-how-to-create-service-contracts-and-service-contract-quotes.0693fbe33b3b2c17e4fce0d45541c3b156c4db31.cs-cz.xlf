@@ -1,0 +1,621 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="service-how-to-create-service-contracts-and-service-contract-quotes.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-15c36f0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">02b2988d347775a00d7b70bc956fe98019f0e0b2</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">financials\service-how-to-create-service-contracts-and-service-contract-quotes.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d10cd6d91e219b16a8627a5c09f3ff9650b5ec2a</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1249e53169ff1c64a0d002793e7ddcf75cab5ece</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>How to Work with Service Contracts and Service Contract Quotes | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>You can create a service contract either manually or from a service contract quote.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>You can create a contract based on a service contract quote.</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Work with Service Contracts and Service Contract Quotes</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>You can create a service contract either manually or from a service contract quote.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>You can use a service contract quote as a forerunner of a service contract, in which your company makes an offer to the customer and obtains customer approval before you can convert it to a service contract.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The procedures for creating either a service contract or service contract quote are similar.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>To create a service contract or service contract quote</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Service Contracts<ept id="p3">**</ept> or <bpt id="p4">**</bpt>Service Contract Quotes<ept id="p4">**</ept>,and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Create a new service contract or service contract quote.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Fill in the <bpt id="p1">**</bpt>No.<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>field.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>A dialog box opens, asking whether you want to fill it with the common data from a contract template.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>If you want to create such a service contract or service contract quote, choose the <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Service Contract Template List<ept id="p1">**</ept> window opens.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Select the appropriate template, and then choose <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> to use it to create the service contract or service contract quote.</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Customer No.<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>field, choose the customer.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>If you do not want an annual amount difference to be distributed automatically, choose the <bpt id="p1">**</bpt>Allow Unbalanced Amounts<ept id="p1">**</ept> check box.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The values in the <bpt id="p1">**</bpt>Annual Amount<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Calcd. Annual Amount<ept id="p2">**</ept> fields are not automatically equalized.</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>If you want the program to do automatically distribute any annual amount difference that might occur from a change in the service contract, leave the <bpt id="p1">**</bpt>Allow Unbalanced Amounts<ept id="p1">**</ept> check box clear.</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Add contract lines to the service contract or service contract quote.</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Fill in the rest of the fields as necessary.</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>To convert a service contract quote to service contract</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>When a customer has accepted a service contract quote, you convert it to a service contract.</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>At the same time, you can create a service invoice for the starting period of the contract if the starting date of the contract is before the beginning of the next invoice period.</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>After you complete the following steps, a service contract is created with the status <bpt id="p1">**</bpt>Signed<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>If a service invoice is created for the starting period of the contract, the invoiced amount is calculated in the following way, depending on whether the contract is detailed or not.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>For detailed contracts, the invoiced amount is calculated as follows:</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Invoiced amount = sum of the invoiced amount for each contract line.</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Invoiced amount for each contract line = ((quote value ÷ 12) × number of months in the starting period) + ((quote value ÷ number of days in the year) × number of days left in the starting period).</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>If the contract line expires before the starting period ends, the expiration date becomes the ending date of the starting period for the line.</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>For contracts that are not detailed, the invoiced amount is calculated as follows:</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Invoiced amount = (annual amount ÷ number of days in the year) × number of days in the starting period.</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>If the contract expires before the starting period ends, the expiration date becomes the ending date of the starting period.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Service Contract Quotes<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Open the service contract quote you want to convert to a service contract.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Make Contract<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>If the starting date of the contract is before the beginning of the next invoice period, you are asked if you want to create an invoice for the starting period of the contract.</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The service invoice is posted to the service account of the contract, even if the contract is prepaid.</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>To create contract service credit memos</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>You can use a contract service credit memo when a customer cancels a prepaid service contract or removes a service item from a prepaid contract.</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>You can also use it to correct an erroneous service invoice.</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Service Credit Memos<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Create a new service credit memo.</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Fill in the <bpt id="p1">**</bpt>No.<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>field.</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Customer No.<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>field, enter the number of the customer in the service contract.</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Invoicing<ept id="p1">**</ept> FastTab shows information copied from the <bpt id="p2">**</bpt>Customer<ept id="p2">**</ept> card.</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>If you want to post the credit memo to a different customer than the one specified on the <bpt id="p1">**</bpt>General<ept id="p1">**</ept> FastTab, enter the number of that customer in the <bpt id="p2">**</bpt>Bill-to Customer No.<ept id="p2">**</ept></source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>field.</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>You can compare the credit memo to the original posted document in the <bpt id="p1">**</bpt>Posted Service Invoices<ept id="p1">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Posted Service Invoices<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Fill in the <bpt id="p1">**</bpt>Posting Date<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Document Date<ept id="p2">**</ept> fields.</source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>On the credit memo lines, enter information about the items that have been returned or removed, or the allowance that will be sent.</source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>You can also use the <bpt id="p1">**</bpt>Get Prepaid Contract Entries<ept id="p1">**</ept> batch job.</source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>To automatically create a credit memo when contract lines are removed from a service contract, in the <bpt id="p1">**</bpt>Service Contract<ept id="p1">**</ept> window, on the <bpt id="p2">**</bpt>Invoice Details<ept id="p2">**</ept> FastTab, select the <bpt id="p3">**</bpt>Automatic Credit Memos<ept id="p3">**</ept> check box.</source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>To manually create a credit memo when contract lines are removed from a service contract, in the <bpt id="p1">**</bpt>Service Contract<ept id="p1">**</ept> window, on the <bpt id="p2">**</bpt>Actions<ept id="p2">**</ept> tab, in the <bpt id="p3">**</bpt>Functions<ept id="p3">**</ept> group, choose <bpt id="p4">**</bpt>Credit Memo<ept id="p4">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Updating and evaluating contracts</source>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Sometimes you have to change the terms of a contract after it has been created.</source>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>In most cases, you open the relevant contract in the <bpt id="p1">**</bpt>Service Contract<ept id="p1">**</ept> window, and change it as necessary.</source>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>You can change the status of the contract, initially set to <bpt id="p1">**</bpt>Locked<ept id="p1">**</ept>, add and remove contract lines, and cancel a contract.</source>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>If you want to see how your business is doing as measured by gain and loss, you can do quick business analysis using the contract trendscape feature.</source>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>To add a contract line to a service contract or contract quote</source>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>When a customer purchases a new item and wants to include it in the existing service contract or contract quote, you can register the item as a service item and then add it as a new contract line to the contract or contract quote.</source>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Service Contracts<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Open the relevant service contract or service contract quote that you want to add a new contract line for.</source>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Open Contract<ept id="p1">**</ept> action to open the service contract or service contract quote for editing.</source>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Invoice Details<ept id="p1">**</ept> FastTab, select the <bpt id="p2">**</bpt>Allow Unbalanced Amounts<ept id="p2">**</ept> field if you want to change the annual amount and distribute the annual amount difference manually on the contract lines.</source>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Otherwise, clear the check box in the <bpt id="p1">**</bpt>Allow Unbalanced Amounts<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>This will distribute the annual amount difference automatically on the contract lines after you change the annual amount.</source>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Lines<ept id="p1">**</ept> FastTab, add a service item or item, or text description, on each contract line.</source>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Alternatively, you can add contract quote lines.</source>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Note that you can create multiple contracts per service item to have it included in different service contracts or contract quotes at the same time.</source>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Verify and correct the numbers in the <bpt id="p1">**</bpt>Line Discount %<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Line Discount Amount<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Response Time<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Service Period<ept id="p4">**</ept>, and other fields as needed.</source>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>To remove contract lines</source>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>You may need to remove contract lines from the service contract as you remove corresponding service items from the service contract.</source>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Usually you remove a contract line that is expired or corresponds to the service item that has broken down.</source>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Service Contracts<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Open the service contract from which you want to remove contract lines.</source>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Open Contract<ept id="p1">**</ept> action to open the service contract for editing.</source>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Choose the contract line you want to remove.</source>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Fill in the <bpt id="p1">**</bpt>Contract Expiration Date<ept id="p1">**</ept> field with the date as of which you want to remove the line.</source>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>For example, you could enter the date when the service item broke down.</source>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Remove Contract Lines<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Remove Lines from Contract<ept id="p1">**</ept> window opens.</source>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Fill in the default filters: <bpt id="p1">**</bpt>Contract No.<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Service Item No.<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>Contract Type<ept id="p3">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>If needed, you can apply more filters or change the existing ones.</source>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Fill in the fields on the <bpt id="p1">**</bpt>Options<ept id="p1">**</ept> FastTab.</source>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Action<ept id="p1">**</ept> field, select <bpt id="p2">**</bpt>Delete Lines<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>If the contract is not detailed, you must update the value in the <bpt id="p1">**</bpt>Annual Amount<ept id="p1">**</ept> field on the <bpt id="p2">**</bpt>Invoice Details<ept id="p2">**</ept> FastTab in the <bpt id="p3">**</bpt>Service Contract<ept id="p3">**</ept> window, reflecting the loss of the service item from the contract.</source>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>If the contract is detailed and prepaid, and you have posted invoices for the contract, you can create a credit memo for the contract.</source>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Actions<ept id="p1">**</ept> tab, in the <bpt id="p2">**</bpt>Functions<ept id="p2">**</ept> group, choose <bpt id="p3">**</bpt>Create Credit Memo<ept id="p3">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>This is unnecessary if the check box in the <bpt id="p1">**</bpt>Automatic Credit Memos<ept id="p1">**</ept> field on the <bpt id="p2">**</bpt>Invoice Details<ept id="p2">**</ept> FastTab is selected.</source>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>In that case, a credit memo is created automatically when you remove a contract line.</source>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Service Line Cost and Value</source>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>On a service contract lines, the amounts in the <bpt id="p1">**</bpt>Line Cost<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Line Value<ept id="p2">**</ept> are calculated as described in the following tables.</source>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Line Cost Options</source>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Service item<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The cost is automatically retrieved from the <bpt id="p1">**</bpt>Default Contract Cost<ept id="p1">**</ept> field in the <bpt id="p2">**</bpt>Service Item<ept id="p2">**</ept> table and copied into the <bpt id="p3">**</bpt>Line Cost<ept id="p3">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The following formula is used to calculate the line cost:</source>
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Sales Unit Cost × Contract Value % ÷ 100</source>
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Item<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The cost is automatically retrieved from the <bpt id="p1">**</bpt>Unit Cost<ept id="p1">**</ept> field in the <bpt id="p2">**</bpt>Item<ept id="p2">**</ept> table and the <bpt id="p3">**</bpt>Contract Value %<ept id="p3">**</ept> field value in the <bpt id="p4">**</bpt>Service Mgt. Setup<ept id="p4">**</ept> table.</source>
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The following formula is used to calculate the line cost:</source>
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Unit Cost × Contract Value % ÷ 100</source>
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Text description<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The value in the <bpt id="p1">**</bpt>Line Cost<ept id="p1">**</ept> field is set to zero.</source>
+        </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Line Value Options</source>
+        </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Service item<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>The price is automatically retrieved from the <bpt id="p1">**</bpt>Default Contract Value<ept id="p1">**</ept> field in the <bpt id="p2">**</bpt>Service Item<ept id="p2">**</ept> table and copied into the <bpt id="p3">**</bpt>Line Value<ept id="p3">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Item<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Depending on the value in the <bpt id="p1">**</bpt>Contract Value Calc. Method<ept id="p1">**</ept> field in the <bpt id="p2">**</bpt>Service Mgt. Setup<ept id="p2">**</ept> table, the amount is retrieved from either the <bpt id="p3">**</bpt>Unit Price<ept id="p3">**</ept> or the <bpt id="p4">**</bpt>Unit Cost<ept id="p4">**</ept> field in the <bpt id="p5">**</bpt>Item<ept id="p5">**</ept> table.</source>
+        </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>After that, this value is multiplied by the contents of the <bpt id="p1">**</bpt>Contract Value %<ept id="p1">**</ept> field in the <bpt id="p2">**</bpt>Service Mgt. Setup<ept id="p2">**</ept> table and divided by 100.</source>
+        </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>This amount is copied into the <bpt id="p1">**</bpt>Line Value<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>NOTE:<ept id="p1">**</ept> If the <bpt id="p2">**</bpt>Contract Value Calc. Method<ept id="p2">**</ept> field is set to <bpt id="p3">**</bpt>None<ept id="p3">**</ept>, the contents of the <bpt id="p4">**</bpt>Line Value<ept id="p4">**</ept> field are not calculated.</source>
+        </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Text description<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>The contents of the <bpt id="p1">**</bpt>Line Value<ept id="p1">**</ept> field are set to zero.</source>
+        </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>To add a contract discount to service contract quotes</source>
+        </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>You can add contract discounts on services for contract quotes and service contracts.</source>
+        </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>The discounts can be on spare parts in particular service item groups, on resource hours for resources in particular resource groups, and on particular service costs.</source>
+        </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Service Contract Quotes<ept id="p3">**</ept>, and choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Choose the quote to add discounts for.</source>
+        </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Service Discounts<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Contract/Service Discounts<ept id="p1">**</ept> window opens.</source>
+        </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>To create a new contract discount, choose the <bpt id="p1">**</bpt>New<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Fill in the fields on the line as necessary.</source>
+        </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]</ph>.</source>
+        </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>To add contract discounts directly to a service contract, perform similar steps from the <bpt id="p1">**</bpt>Service Contract<ept id="p1">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>To change the owner of a service contract</source>
+        </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>You may need to change the owner of a service contract.</source>
+        </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>If a service item in a service contract is registered in noncanceled multiple contracts owned by the same customer, then the owner of all service contracts that include this service item and of all other service items included in these contracts is updated automatically.</source>
+        </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>In this case, only noncanceled contracts are considered.</source>
+        </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>The status of the contract quotes is not taken into account.</source>
+        </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Service items and contracts can be related.</source>
+        </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Changing the owner of a service contract can affect these relationships.</source>
+        </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>For example, suppose service item No. 8 is included in contracts SC00003 and SC00015.</source>
+        </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Contract SC00015 also contains service item No. 15, which is also included in the contract SC00080.</source>
+        </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>In this case, the owner for all three contracts and service items will be changed.</source>
+        </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Service Contracts<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Open the relevant service contract whose owner you want to change.</source>
+        </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Open Contract<ept id="p1">**</ept> action to open the contract for editing.</source>
+        </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Change Customer<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Change Customer in Contract<ept id="p1">**</ept> window opens.</source>
+        </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Contract No.<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>and <bpt id="p1">**</bpt>Service Item No<ept id="p1">**</ept>. fields you can see the numbers of the contract and service item owned by the selected customer.</source>
+        </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>If the customer owns more than one contract with more than one service item included, then the value of these fields will be <bpt id="p1">**</bpt>Multiple<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>To see the list of related contracts or service items, select these field values.</source>
+        </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>New Customer No.<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>field, choose the new customer.</source>
+        </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>New Ship-to Code<ept id="p1">**</ept> field, choose the address.</source>
+        </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> to change the customer and ship-to code of the service contracts.</source>
+        </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Lock Contract<ept id="p1">**</ept> action to lock the contract and to make sure that the changes will be part of the contracts.</source>
+        </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>To update a service contract price</source>
+        </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>You can update the prices on service contracts by specifying a price update percentage.</source>
+        </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Update Service Contract Prices<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>Choose the service contract.</source>
+        </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Update to Date<ept id="p1">**</ept> field, enter a date.</source>
+        </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>The batch job will update prices for contracts with next price update dates on or before this date.</source>
+        </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Price Update %<ept id="p1">**</ept> field, enter the percentage that you want to update the prices by.</source>
+        </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Action<ept id="p1">**</ept> field, select <bpt id="p2">**</bpt>Update Contract Prices<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>To post prepaid contract entries</source>
+        </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>If you work with prepaid service contracts, you must regularly post prepaid contract entries, thereby transferring the prepaid payments from the prepaid contract accounts to the regular contract accounts.</source>
+        </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>Before you can post prepaid contract entries, you must specify a number series in the <bpt id="p1">**</bpt>Prepaid Posting Document Nos.<ept id="p1">**</ept> field in the <bpt id="p2">**</bpt>Service Mgt. Setup<ept id="p2">**</ept> window.</source>
+        </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Post Prepaid Contract Entries<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Post until Date<ept id="p1">**</ept> field, enter a date.</source>
+        </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>The batch job posts prepaid service ledger entries with posting dates up to this date.</source>
+        </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Posting Date<ept id="p1">**</ept> field, enter the date you want to use as the posting date on the general journal line.</source>
+        </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Action<ept id="p1">**</ept> field, choose <bpt id="p2">**</bpt>Post Prepaid Transactions<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> to post the entries.</source>
+        </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>Changing the Service Contract Status</source>
+        </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>After the service contract is signed, the <bpt id="p1">**</bpt>Change Status<ept id="p1">**</ept> field value is automatically set to <bpt id="p2">**</bpt>Locked<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>If you want to modify information in the service contract or service contract quote, first you have to change the status of the contract or contract quote from <bpt id="p1">**</bpt>Locked<ept id="p1">**</ept> to <bpt id="p2">**</bpt>Open<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>Note that you cannot create service invoices for the service contract with the <bpt id="p1">**</bpt>Open<ept id="p1">**</ept> change status.</source>
+        </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>After the contract or contract quote is modified, you have to change the status back to <bpt id="p1">**</bpt>Locked<ept id="p1">**</ept> to make it possible to create service invoices and ledger entries for the service contract, which includes the changes that you made to it.</source>
+        </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Change Status<ept id="p1">**</ept> field is not related to the <bpt id="p2">**</bpt>Release Status<ept id="p2">**</ept> field on the service order header, which governs the warehouse handling of service items.</source>
+        </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>To cancel a service contract</source>
+        </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>You may need to cancel a service contract when the contract has expired or has been canceled by you or the customer.</source>
+        </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>You cannot reopen a contract after it is canceled.</source>
+        </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Search for Page or Report<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Search for Page or Report icon<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Service Contracts<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>Open the relevant service contract to cancel.</source>
+        </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Open Contract<ept id="p1">**</ept> action to open the service contract for editing.</source>
+        </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Cancel Reason Code<ept id="p1">**</ept> field, choose the relevant reason code.</source>
+        </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>To add more reason codes, choose the <bpt id="p1">**</bpt>Advanced<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>If the check box in the <bpt id="p1">**</bpt>Use Contract Cancel Reason<ept id="p1">**</ept> field in the <bpt id="p2">**</bpt>Service Mgt. Setup<ept id="p2">**</ept> window is selected, you must specify a cancel reason code when canceling contracts.</source>
+        </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Status<ept id="p1">**</ept> field, choose <bpt id="p2">**</bpt>Canceled<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>If there are unposted invoices, credit memos, or opened prepaid entries for the contract, a confirmation message will appear.</source>
+        </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>In the message box, choose <bpt id="p1">**</bpt>No<ept id="p1">**</ept> to return to the contract and post the documents, or <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept> to continue the cancellation process.</source>
+        </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>Filing a service contract or contract quote</source>
+        </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>You can file service contracts and contract quotes at any time to record and archive a copy of the contract or contract quote.</source>
+        </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[!INCLUDE [d365fin](includes/d365fin_md.md)]</ph> files service contracts automatically when you convert contract quotes to service contracts or cancel service contracts.</source>
+        </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>You can file a contract or quote yourself by choosing the <bpt id="p1">**</bpt>File Contract<ept id="p1">**</ept> action on the <bpt id="p2">**</bpt>Service Contracts<ept id="p2">**</ept> or <bpt id="p3">**</bpt>Service Contract Quotes<ept id="p3">**</ept> pages.</source>
+        </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>If you want to view your archived contracts of quotes by searching for <bpt id="p1">**</bpt>Filed Contracts<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Set Up Service Contracts<ept id="p1">](service-how-setup-service-contracts.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Service Management<ept id="p1">](service-service.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Convert Service Contracts that Include VAT Amounts<ept id="p1">](service-how-to-convert-service-contracts.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

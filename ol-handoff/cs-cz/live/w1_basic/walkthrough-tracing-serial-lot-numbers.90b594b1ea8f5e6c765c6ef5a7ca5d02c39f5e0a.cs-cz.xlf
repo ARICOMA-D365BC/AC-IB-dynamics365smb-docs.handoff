@@ -1,0 +1,813 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="walkthrough-tracing-serial-lot-numbers.md" source-language="en-US" target-language="cs-cz">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-5ae97a8" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e6354b57e14af89c0c998447ff09d43e3902d0b4</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">business-central\walkthrough-tracing-serial-lot-numbers.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">w1_basic</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">HT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a3b1fbd71272d1e4f4c5526ab264061262646f4d</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">565055646c4d2a7e9175225d006e03bbbcde8a6b</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>Walkthrough - Tracing Serial-Lot Numbers | Microsoft Docs</source>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>When product defects occur, the errors must be identified and affected items must be prevented from leaving the company.</source>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" restype="x-metadata">
+          <source>If defective items have already been shipped, you must trace who received them and, if you need to, recall the items.</source>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Walkthrough: Tracing Serial/Lot Numbers</source>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: This walkthrough must be performed on a demonstration company with the <bpt id="p2">**</bpt>Full Evaluation - Complete Sample Data<ept id="p2">**</ept> option, which is available in the Sandbox environment.</source>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Creating a Sandbox Environment<ept id="p1">](across-how-create-sandbox-environment.md)</ept>.</source>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>When product defects occur, the errors must be identified and affected items must be prevented from leaving the company.</source>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>If defective items have already been shipped, you must trace who received them and, if you need to, recall the items.</source>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The first task of defects management is to investigate where the defective items came from and where they were used.</source>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>This investigation is based on historic data and is made easier by searching through item tracking entries using the <bpt id="p1">**</bpt>Item Tracing<ept id="p1">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The second task of defects management is to determine whether the traced items are planned for in open documents, such as non-posted sales orders or consumption journals.</source>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>This work is performed on the <bpt id="p1">**</bpt>Navigate<ept id="p1">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>You can use the Navigate feature to search all kinds of database records.</source>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>About This Walkthrough</source>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>This walkthrough demonstrates how to identify which items are defective, which vendor supplied them, and where they are used so that those orders can be stopped or recalled.</source>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>This walkthrough illustrates the following tasks:</source>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Tracing usage to origin.</source>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Tracing origin to usage.</source>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Searching for all current records which hold the traced serial/lot number.</source>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Roles</source>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>This walkthrough demonstrates tasks that are performed by the following user roles:</source>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Quality Controller</source>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Warehouse Manager</source>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Order Processor</source>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Purchasing Agent</source>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Prerequisites</source>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>To complete this walkthrough, you will need:</source>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">[!INCLUDE[d365fin](includes/d365fin_md.md)]</ph> company.</source>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>To create new items and several business transactions by following the <bpt id="p1">[</bpt>Prepare Sample Data<ept id="p1">](walkthrough-tracing-serial-lot-numbers.md#prepare-sample-data)</ept>..</source>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Story</source>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Ricardo, the quality controller, is acting on a sales return of item 1002, Racing Bike.</source>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The customer, Selangorian Ltd., complained that the frame has cracked welding seams.</source>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Quality control engineers have confirmed that the racing frame of the returned bike is defective.</source>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The quality controller must now determine:</source>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Which lot of racing frames was faulty.</source>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>On which purchase order the faulty lot was received.</source>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>From the sales department, the quality controller knows that the returned racing bike, item 1002, had the serial number SN1.</source>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>By using this basic information, he must determine where the finished racing bike was last used, and then he must trace backward to the earliest origin to establish which lot number the faulty component, the racing frame, came from.</source>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The results of this first item tracking task identify which racing frames were defective and which vendor supplied them.</source>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Afterward, but in the same overall tracking process, the quality controller must find all the sold racing bikes that contain racing frames from the faulty lot so that those orders can be stopped or recalled.</source>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Lastly, the quality controller must find any open documents where the faulty lot is used so that no additional transactions are made.</source>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The first two defects-management tasks are performed on the <bpt id="p1">**</bpt>Item Tracing<ept id="p1">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The last task is performed on the <bpt id="p1">**</bpt>Navigate<ept id="p1">**</ept> page in integration with the <bpt id="p2">**</bpt>Item Tracing<ept id="p2">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Prepare Sample Data</source>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>You must create the following new items:</source>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>2000, Racing Frame: lot-specific tracking, component of 1002</source>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>1002, Racing Bike: serial number-specific tracking</source>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Then you must create various purchase, production, and sales transactions with the two items.</source>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>To create the items</source>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Items<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>New<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>No.<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>field, enter <bpt id="p1">**</bpt>2000<ept id="p1">**</ept>, and then proceed to fill in the following fields.</source>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Base Unit of Measure</source>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Gen. Prod. Posting Group</source>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>VAT Prod. Posting Group</source>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Inventory Posting Group</source>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Item Tracking Code</source>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Racing Frame</source>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>PCS</source>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>RAW MAT</source>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>VAT25</source>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>RAW MAT</source>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>LOTALL</source>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>To enter the base unit of measure, choose the <bpt id="p1">**</bpt>New<ept id="p1">**</ept> button, and then select <bpt id="p2">**</bpt>PSC<ept id="p2">**</ept> on the <bpt id="p3">**</bpt>Item Units of Measure<ept id="p3">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>All other fields have acceptable default data or do not have to be filled in.</source>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button to create the first new item card, 2000.</source>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>New<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>No.<ept id="p1">**</ept></source>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>field, enter <bpt id="p1">**</bpt>1002<ept id="p1">**</ept>, and then proceed to fill in the following fields.</source>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Base Unit of Measure</source>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Gen. Prod. Posting Group</source>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>VAT Prod. Posting Group</source>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Inventory Posting Group</source>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Replenishment System</source>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Item Tracking Code</source>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Racing Bike</source>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>PCS</source>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>RETAIL</source>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>VAT25</source>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>FINISHED</source>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Prod. Order</source>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>SNALL</source>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>To enter the base unit of measure, choose the <bpt id="p1">**</bpt>New<ept id="p1">**</ept> button, and then select <bpt id="p2">**</bpt>PSC<ept id="p2">**</ept> on the <bpt id="p3">**</bpt>Item Units of Measure<ept id="p3">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Next, define the item's manufacturing setup.</source>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Replenishment<ept id="p1">**</ept> FastTab, in the <bpt id="p2">**</bpt>Routing No.<ept id="p2">**</ept> field, enter <bpt id="p3">**</bpt>1000<ept id="p3">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Production BOM No.<ept id="p1">**</ept> field, and then choose <bpt id="p2">**</bpt>Advanced<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Production BOM List<ept id="p1">**</ept> page, choose the first line, <bpt id="p2">**</bpt>1000<ept id="p2">**</ept>, and then choose the <bpt id="p3">**</bpt>Edit<ept id="p3">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Production BOM<ept id="p1">**</ept> page, change the value in the <bpt id="p2">**</bpt>Status<ept id="p2">**</ept> field to <bpt id="p3">**</bpt>Under Development<ept id="p3">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Go to an empty line, enter <bpt id="p1">**</bpt>2000<ept id="p1">**</ept> in the <bpt id="p2">**</bpt>No.<ept id="p2">**</ept></source>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>field, and then enter <bpt id="p1">**</bpt>1<ept id="p1">**</ept> in the <bpt id="p2">**</bpt>Quantity Per<ept id="p2">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Change the value in the <bpt id="p1">**</bpt>Status<ept id="p1">**</ept> field back to <bpt id="p2">**</bpt>Certified<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button to insert the production BOM on the item card and close the <bpt id="p2">**</bpt>Production BOM<ept id="p2">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Next, purchase racing frames from Custom Metals Incorporated.</source>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>To purchase components</source>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Purchase Orders<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>New<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Create a purchase order for vendor, Custom Metals Incorporated, by filling in the following line fields.</source>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Item</source>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Quantity</source>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Lot No.</source>
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>2000</source>
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>10</source>
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>LOT1</source>
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>To enter the lot number, choose the <bpt id="p1">**</bpt>Item Tracking Lines<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Item Tracking Lines<ept id="p1">**</ept> page, fill in the <bpt id="p2">**</bpt>Lot No.<ept id="p2">**</ept> and <bpt id="p3">**</bpt>Quantity (Base)<ept id="p3">**</ept> fields, and then close the page.</source>
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Vendor Invoice No.<ept id="p1">**</ept> field, enter any value.</source>
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Post<ept id="p1">**</ept> action, select the <bpt id="p2">**</bpt>Receive and Invoice<ept id="p2">**</ept> option, and then choose the <bpt id="p3">**</bpt>OK<ept id="p3">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Next, purchase racing frames from Coolwood Technologies.</source>
+        </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Purchase Orders<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>New<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Create a purchase order for vendor, Coolwood Technologies, by filling in the following line fields.</source>
+        </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Item</source>
+        </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Quantity</source>
+        </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Lot No.</source>
+        </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>2000</source>
+        </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>11</source>
+        </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>LOT2</source>
+        </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>To enter the lot number, on the <bpt id="p1">**</bpt>Lines<ept id="p1">**</ept> FastTab, in the <bpt id="p2">**</bpt>Line<ept id="p2">**</ept> group, choose the <bpt id="p3">**</bpt>Item Tracking Lines<ept id="p3">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Item Tracking Lines<ept id="p1">**</ept> page, fill in the <bpt id="p2">**</bpt>Lot No.<ept id="p2">**</ept> and <bpt id="p3">**</bpt>Quantity (Base)<ept id="p3">**</ept> fields, and then close the page.</source>
+        </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Vendor Invoice No.<ept id="p1">**</ept> field, enter any value.</source>
+        </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Post<ept id="p1">**</ept> action, select the <bpt id="p2">**</bpt>Receive and Invoice<ept id="p2">**</ept> option, and then choose the <bpt id="p3">**</bpt>OK<ept id="p3">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Next, produce two racing bikes, SN1 and SN2.</source>
+        </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>To produce end items</source>
+        </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Released Prod. Orders<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>New<ept id="p1">**</ept> group.</source>
+        </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Create a new released production order by filling in the following fields.</source>
+        </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>|Source No.|Quantity|Serial No.|</source>
+        </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>|1002|2|SN1|</source>
+        </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>|1002|2|SN2|</source>
+        </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Refresh Production Order<ept id="p1">**</ept> action, and then choose the <bpt id="p2">**</bpt>OK<ept id="p2">**</ept> button to fill the line.</source>
+        </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>To enter the serial numbers, choose the <bpt id="p1">**</bpt>Item Tracking Lines<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Item Tracking Lines<ept id="p1">**</ept> page, fill in the <bpt id="p2">**</bpt>Serial No.<ept id="p2">**</ept> and <bpt id="p3">**</bpt>Quantity (Base)<ept id="p3">**</ept> fields, and then close the page.</source>
+        </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Next, post consumption of racing frames from LOT1.</source>
+        </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Released Production Order<ept id="p1">**</ept> page, choose the <bpt id="p2">**</bpt>Production Journal<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Production Journal<ept id="p1">**</ept> page, select the consumption line for item 2000, choose the <bpt id="p2">**</bpt>Item Tracking Lines<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Item Tracking Lines<ept id="p1">**</ept> page, choose the <bpt id="p2">**</bpt>Lot No.<ept id="p2">**</ept> field, choose <bpt id="p3">**</bpt>LOT1<ept id="p3">**</ept>, and then choose the <bpt id="p4">**</bpt>OK<ept id="p4">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Leave all other defaults on the <bpt id="p1">**</bpt>Production Journal<ept id="p1">**</ept> page, and then choose the <bpt id="p2">**</bpt>Post<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Next, produce two more racing bikes, SN3 and SN4.</source>
+        </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Released Prod. Orders<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>New<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Create a new released production order by filling in the following fields on the header.</source>
+        </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Source No.</source>
+        </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Quantity</source>
+        </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Serial No.</source>
+        </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>1002</source>
+        </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>2</source>
+        </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>SN3</source>
+        </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>1002</source>
+        </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>2</source>
+        </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>SN4</source>
+        </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Refresh Production Order<ept id="p1">**</ept> action to fill the line.</source>
+        </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>To enter the serial numbers, choose the <bpt id="p1">**</bpt>Item Tracking Lines<ept id="p1">**</ept> action, and then the numbers on two lines in the <bpt id="p2">**</bpt>Serial No.<ept id="p2">**</ept> field on the <bpt id="p3">**</bpt>Item Tracking Lines<ept id="p3">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>Next, post more consumption of racing frames from LOT1.</source>
+        </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Released Production Order<ept id="p1">**</ept> page, choose the <bpt id="p2">**</bpt>Production Journal<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Production Journal<ept id="p1">**</ept> page, select the consumption line for item 2000, choose the <bpt id="p2">**</bpt>Item Tracking Lines<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Item Tracking Lines<ept id="p1">**</ept> page, choose the <bpt id="p2">**</bpt>Lot No.<ept id="p2">**</ept> field, choose <bpt id="p3">**</bpt>LOT1<ept id="p3">**</ept>, and then choose the <bpt id="p4">**</bpt>OK<ept id="p4">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>Leave all other defaults on the <bpt id="p1">**</bpt>Production Journal<ept id="p1">**</ept> page, and then choose the <bpt id="p2">**</bpt>Post<ept id="p2">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>You have produced four racing bikes, SN1 to SN4, and consumed four of the ten racing frames from LOT1, two frames in each production order.</source>
+        </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>Close the production journal and the production orders.</source>
+        </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>Next, sell racing bikes.</source>
+        </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>First sell the racing bike with SN1 to Selangorian Ltd..</source>
+        </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>To sell the end items</source>
+        </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Sales Orders<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>New<ept id="p1">**</ept> action, and then, create a sales order by filling in the following fields.</source>
+        </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>Customer</source>
+        </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>Item</source>
+        </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>Qty.</source>
+        </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>Serial No.</source>
+        </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>Selangorian Ltd.</source>
+        </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>1002</source>
+        </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>1</source>
+        </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>SN1</source>
+        </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>To enter the serial number, choose the <bpt id="p1">**</bpt>Item Tracking Lines<ept id="p1">**</ept> action, and then the number in the <bpt id="p2">**</bpt>Serial No.<ept id="p2">**</ept> field on the <bpt id="p3">**</bpt>Item Tracking Lines<ept id="p3">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Post<ept id="p1">**</ept> action, select the <bpt id="p2">**</bpt>Ship and Invoice<ept id="p2">**</ept> option, and then choose the <bpt id="p3">**</bpt>OK<ept id="p3">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>Next, sell the racing bike with SN2 to The Cannon Group PLC.</source>
+        </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Sales Orders<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>New<ept id="p1">**</ept> action, and then, create a sales order by filling in the following fields.</source>
+        </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>Customer</source>
+        </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>Item</source>
+        </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>Qty.</source>
+        </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>Serial No.</source>
+        </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>Cannon Group PLC.</source>
+        </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>1002</source>
+        </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>1</source>
+        </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>SN2</source>
+        </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>To enter the serial number, choose the <bpt id="p1">**</bpt>Item Tracking Lines<ept id="p1">**</ept> action, and then the number in the <bpt id="p2">**</bpt>Serial No.<ept id="p2">**</ept> field on the <bpt id="p3">**</bpt>Item Tracking Lines<ept id="p3">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Post<ept id="p1">**</ept> action, select the <bpt id="p2">**</bpt>Ship and Invoice<ept id="p2">**</ept> option, and then choose the <bpt id="p3">**</bpt>OK<ept id="p3">**</ept> button.</source>
+        </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>Finally, sell some racing frames separately.</source>
+        </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>The Cannon Group PLC.</source>
+        </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>also orders four separate racing frames for their own assembly line.</source>
+        </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Sales Orders<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>New<ept id="p1">**</ept> action, and then, create a sales order by filling in the following fields.</source>
+        </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>Customer</source>
+        </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>Item</source>
+        </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>Qty.</source>
+        </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>Serial No.</source>
+        </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>Cannon Group PLC.</source>
+        </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>2000</source>
+        </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>5</source>
+        </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>LOT1</source>
+        </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>To enter the serial number, on the <bpt id="p1">**</bpt>Lines<ept id="p1">**</ept> FastTab, in the <bpt id="p2">**</bpt>Line<ept id="p2">**</ept> group, choose the <bpt id="p3">**</bpt>Item Tracking Lines<ept id="p3">**</ept> action, and then the number in the <bpt id="p4">**</bpt>Serial No.<ept id="p4">**</ept> field on the <bpt id="p5">**</bpt>Item Tracking Lines<ept id="p5">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>Do not post the last sales order for five racing frames.</source>
+        </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>This completes the preparation of data to demonstrate the Item Tracing and Navigate features.</source>
+        </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>Tracing from Usage to Origin</source>
+        </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>From the sales department, the quality controller knows that the returned racing bike, item 1002, has the serial number SN1.</source>
+        </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>By using this basic information, he can determine where the finished racing bike was last used, in this case, on the sales shipment to Selangorian Ltd..</source>
+        </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>Then, the quality controller must trace backward to the earliest origin to establish which lot number the faulty racing frame came from and which vendor supplied it.</source>
+        </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>To determine which lot included the faulty frame and who supplied it</source>
+        </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">![</bpt>Lightbulb that opens the Tell Me feature<ept id="p1">]</ept><bpt id="p2">(media/ui-search/search_small.png "</bpt>Tell me what you want to do<ept id="p2">")</ept> icon, enter <bpt id="p3">**</bpt>Item Tracing<ept id="p3">**</ept>, and then choose the related link.</source>
+        </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Item Tracing<ept id="p1">**</ept> page, enter <bpt id="p2">**</bpt>SN1<ept id="p2">**</ept> in the <bpt id="p3">**</bpt>Serial No. Filter<ept id="p3">**</ept> field, and then enter <bpt id="p4">**</bpt>1002<ept id="p4">**</ept> in the <bpt id="p5">**</bpt>Item Filter<ept id="p5">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>Keep the default setting of <bpt id="p1">**</bpt>Item-Tracked Only<ept id="p1">**</ept> in the <bpt id="p2">**</bpt>Show Components<ept id="p2">**</ept> field, and keep the default trace method of <bpt id="p3">**</bpt>Usage – Origin<ept id="p3">**</ept> in the <bpt id="p4">**</bpt>Trace Method<ept id="p4">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Trace<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>Note that one sales shipment header matches the search criteria.</source>
+        </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>Before you continue the trace, verify that the shipment is the one that shipped the faulty racing bike to Selangorian Ltd.</source>
+        </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>Select the trace line, and then choose the <bpt id="p1">**</bpt>Show Document<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>Now continue to trace the origin of the sales shipment of the racing bike with number SN1.</source>
+        </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>Choose the + icon on the trace lines to gradually expand and trace backward in the chain of transactions that the sales shipment originates from.</source>
+        </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>You can trace the following transaction history:</source>
+        </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>The first posted document backward in the chain of transactions is the output posting of SN1 from the first released production order.</source>
+        </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>The next posted document backward after that is the consumption posting from the first released production order.</source>
+        </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>Here the quality controller sees that a racing frame from LOT1 was used.</source>
+        </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>The lowest posted document in this chain is the posted purchase receipt on which racing frames with LOT1 entered inventory.</source>
+        </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>The quality controller has now established which lot of racing frames was faulty and he can search for the last trace line to see which vendor supplied them, namely Custom Metals Incorporated.</source>
+        </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>Do not make any additional modifications to the trace result, as you will use it in the next section.</source>
+        </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>This completes the first defects-management task using the <bpt id="p1">**</bpt>Item Tracing<ept id="p1">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>The quality controller must now determine whether other posted documents have processed racing frames from LOT1.</source>
+        </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>Tracing from Origin to Usage</source>
+        </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>The quality controller has established that the faulty racing frames came from LOT1.</source>
+        </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>He must now find any other racing bikes that contain racing frames from the faulty lot so that those bikes can be stopped or recalled.</source>
+        </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source>One way to prepare this trace task on the <bpt id="p1">**</bpt>Item Tracing<ept id="p1">**</ept> page is to manually enter LOT1 in the <bpt id="p2">**</bpt>Lot No. Filter<ept id="p2">**</ept> field and 2000 in the <bpt id="p3">**</bpt>Item Filter<ept id="p3">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>However, this walkthrough will use the <bpt id="p1">**</bpt>Trace Opposite - from Line<ept id="p1">**</ept> function.</source>
+        </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>To find all usage of the faulty lot</source>
+        </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Item Tracing<ept id="p1">**</ept> page, select the line of the purchase receipt, the last trace line, and then choose <bpt id="p2">**</bpt>Trace Opposite – from Line<ept id="p2">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source>The trace result is now based on the filters of the trace line for the purchase receipt, LOT1 and item 2000, and the result is based on trace method <bpt id="p1">**</bpt>Origin - Usage<ept id="p1">**</ept>.</source>
+        </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source>To obtain an overview of all usage of item 2000 with LOT1, continue to expand all trace lines.</source>
+        </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Expand All<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source>The first four trace lines refer to the sales shipment to Selangorian Ltd., which is already resolved.</source>
+        </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source>The last line indicates that one more racing bike, SN2, was produced in the same released production order and then sold and shipped on another sales shipment.</source>
+        </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source>The quality controller immediately informs the sales department so that they can initiate a recall of the defective racing bike from the customer, Cannon Group PLC.</source>
+        </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve">
+          <source>At the same time, he can see from the last three trace lines that another two items, SN3 and SN4, have been produced based on racing frames from LOT1.</source>
+        </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source>He takes action to block these end items in inventory.</source>
+        </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve">
+          <source>This completes the second defects management task using the <bpt id="p1">**</bpt>Item Tracing<ept id="p1">**</ept> page for defects management.</source>
+        </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve">
+          <source>Since the <bpt id="p1">**</bpt>Item Tracing<ept id="p1">**</ept> page is based on posted entries only, the quality controller must continue to the <bpt id="p2">**</bpt>Navigate<ept id="p2">**</ept> page to make sure that LOT1 is not used in non-posted documents.</source>
+        </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve">
+          <source>Finding All Records of a Serial/Lot Number</source>
+        </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve">
+          <source>With the <bpt id="p1">**</bpt>Item Tracing<ept id="p1">**</ept> page, the quality controller learned that LOT1 contained the faulty racing frames, which vendor supplied them, and in which posted transaction they have been used.</source>
+        </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve">
+          <source>He must now determine whether LOT1 is in any open documents by integrating from the trace result to the <bpt id="p1">**</bpt>Navigate<ept id="p1">**</ept> page where he can perform a search through all database records.</source>
+        </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve">
+          <source>To find all occurrences of LOT1 in non-posted records, such as open orders</source>
+        </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Item Tracing<ept id="p1">**</ept> page, select the first trace line, the purchase receipt of LOT1.</source>
+        </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Navigate<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="353" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Navigate<ept id="p1">**</ept> page is preset with search filters based on the trace result for LOT1.</source>
+        </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve">
+          <source>The quality controller recognizes most of the records as pertaining to documents already identified on the <bpt id="p1">**</bpt>Item Tracing<ept id="p1">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="355" translate="yes" xml:space="preserve">
+          <source>For example, the last Navigate line of type Production Order refers to the two released production orders that consumed racing frames from LOT1.</source>
+        </trans-unit>
+        <trans-unit id="356" translate="yes" xml:space="preserve">
+          <source>However, the second Navigate line of type <bpt id="p1">**</bpt>Sales Line<ept id="p1">**</ept> is a non-posted document line, so the quality controller proceeds to investigate.</source>
+        </trans-unit>
+        <trans-unit id="357" translate="yes" xml:space="preserve">
+          <source>To open the sales line record, select the second Navigate line, choose the <bpt id="p1">**</bpt>Show<ept id="p1">**</ept> action.</source>
+        </trans-unit>
+        <trans-unit id="358" translate="yes" xml:space="preserve">
+          <source>Alternatively, choose the value in the <bpt id="p1">**</bpt>No. of Records<ept id="p1">**</ept> field.</source>
+        </trans-unit>
+        <trans-unit id="359" translate="yes" xml:space="preserve">
+          <source>Here the quality controller sees one open sales line for the faulty racing frames.</source>
+        </trans-unit>
+        <trans-unit id="360" translate="yes" xml:space="preserve">
+          <source>He immediately suggests to the sales department that this order be canceled and a new production order, based on good racing frames, be initiated.</source>
+        </trans-unit>
+        <trans-unit id="361" translate="yes" xml:space="preserve">
+          <source>This completes the walkthrough of how to use the <bpt id="p1">**</bpt>Navigate<ept id="p1">**</ept> page for defects management in integration with the <bpt id="p2">**</bpt>Item Tracing<ept id="p2">**</ept> page.</source>
+        </trans-unit>
+        <trans-unit id="362" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+        </trans-unit>
+        <trans-unit id="363" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Work with Serial and Lot Numbers<ept id="p1">](inventory-how-work-item-tracking.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="364" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Trace Item-Tracked Items<ept id="p1">](inventory-how-to-trace-item-tracked-items.md)</ept></source>
+        </trans-unit>
+        <trans-unit id="365" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Business Process Walkthroughs<ept id="p1">](walkthrough-business-process-walkthroughs.md)</ept></source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
